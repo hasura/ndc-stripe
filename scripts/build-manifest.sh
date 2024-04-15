@@ -1,7 +1,7 @@
 #!/bin/bash
 set -evo pipefail
 
-REF=$(git rev-parse --short HEAD)
+REF="$(git rev-parse --short HEAD)#refs/heads/"
 VERSION=${VERSION:-$REF}
 BUILD_DIR=/tmp/ndc-stripe
 ROOT="$(pwd)"
