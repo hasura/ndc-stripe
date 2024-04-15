@@ -6,6 +6,9 @@ services:
       - 8080:8080
     volumes:
       - ./config:/config:ro
+    depends_on:
+      stripe-mock:
+        condition: service_started
     environment:
       STRIPE_SERVER_URL: ${STRIPE_SERVER_URL}
       STRIPE_BASIC_AUTH_TOKEN: ${STRIPE_BASIC_AUTH_TOKEN}
