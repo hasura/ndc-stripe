@@ -1,8 +1,8 @@
 name: Release container definition
 on:
   push:
-    # tags:
-    #   - "*"
+    tags:
+      - "*"
 
 env:
   DOCKER_REGISTRY: ghcr.io
