@@ -1,0 +1,18 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "actionable": true,
+          "charge": "ch_1234",
+          "created": 1234567890,
+          "fraud_type": "misc",
+          "id": "4seSNNnOZD",
+          "livemode": false,
+          "object": "radar.early_fraud_warning",
+          "payment_intent": null
+        }
+      }
+    ]
+  }
+]

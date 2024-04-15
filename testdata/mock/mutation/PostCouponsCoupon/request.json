@@ -1,0 +1,98 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCouponsCoupon",
+      "arguments": {
+        "coupon": "gOtWlJElEv",
+        "currency_options": null,
+        "expand": ["applies_to"],
+        "metadata": null,
+        "name": "BWkqEvgkyG"
+      },
+      "fields": {
+        "fields": {
+          "amount_off": {
+            "column": "amount_off",
+            "type": "column"
+          },
+          "applies_to": {
+            "column": "applies_to",
+            "fields": {
+              "fields": {
+                "products": {
+                  "column": "products",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "currency_options": {
+            "column": "currency_options",
+            "type": "column"
+          },
+          "duration": {
+            "column": "duration",
+            "type": "column"
+          },
+          "duration_in_months": {
+            "column": "duration_in_months",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "max_redemptions": {
+            "column": "max_redemptions",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "percent_off": {
+            "column": "percent_off",
+            "type": "column"
+          },
+          "redeem_by": {
+            "column": "redeem_by",
+            "type": "column"
+          },
+          "times_redeemed": {
+            "column": "times_redeemed",
+            "type": "column"
+          },
+          "valid": {
+            "column": "valid",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

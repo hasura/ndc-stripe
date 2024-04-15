@@ -1,0 +1,46 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "account": null,
+              "address_city": null,
+              "address_country": null,
+              "address_line1": null,
+              "address_line1_check": null,
+              "address_line2": null,
+              "address_state": null,
+              "address_zip": null,
+              "address_zip_check": null,
+              "available_payout_methods": null,
+              "brand": "Visa",
+              "country": "US",
+              "currency": null,
+              "customer": null,
+              "cvc_check": "pass",
+              "default_for_currency": null,
+              "dynamic_last4": null,
+              "exp_month": 8,
+              "exp_year": 2024,
+              "fingerprint": "r40d4vOgg3VecDJF",
+              "funding": "credit",
+              "id": "card_1OPoudJN5vQBdWExoijT3YAB",
+              "last4": "4242",
+              "metadata": {},
+              "name": "Jenny Rosen",
+              "networks": null,
+              "object": "card",
+              "status": null,
+              "tokenization_method": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/customers/TyJJNFEZpi/cards"
+        }
+      }
+    ]
+  }
+]

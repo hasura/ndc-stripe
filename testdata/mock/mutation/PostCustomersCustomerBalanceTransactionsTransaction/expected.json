@@ -1,0 +1,22 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": -500,
+        "created": 1234567890,
+        "credit_note": null,
+        "currency": "usd",
+        "customer": "8e9Fx9PVRo",
+        "description": "7LaEhRPZed",
+        "ending_balance": -500,
+        "id": "ZimmUGtVLv",
+        "invoice": null,
+        "livemode": false,
+        "metadata": null,
+        "object": "customer_balance_transaction",
+        "type": "adjustment"
+      },
+      "type": "procedure"
+    }
+  ]
+}

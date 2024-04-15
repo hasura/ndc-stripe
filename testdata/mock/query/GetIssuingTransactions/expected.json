@@ -1,0 +1,54 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": -100,
+              "amount_details": { "atm_fee": null, "cashback_amount": null },
+              "authorization": "iauth_1OPouuJN5vQBdWExicfRiUm4",
+              "balance_transaction": null,
+              "card": "ic_1OPouuJN5vQBdWExtrIXaPAW",
+              "cardholder": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+              "created": 1234567890,
+              "currency": "usd",
+              "dispute": null,
+              "id": "ipi_1OPouuJN5vQBdWEx9u49EzoG",
+              "livemode": false,
+              "merchant_amount": -100,
+              "merchant_currency": "usd",
+              "merchant_data": {
+                "category": "taxicabs_limousines",
+                "category_code": "4121",
+                "city": "San Francisco",
+                "country": "US",
+                "name": "Rocket Rides",
+                "network_id": "1234567890",
+                "postal_code": "94107",
+                "state": "CA",
+                "terminal_id": null,
+                "url": null
+              },
+              "metadata": {},
+              "network_data": {
+                "authorization_code": null,
+                "processing_date": "2023-12-21",
+                "transaction_id": null
+              },
+              "object": "issuing.transaction",
+              "purchase_details": null,
+              "token": null,
+              "treasury": null,
+              "type": "capture",
+              "wallet": "apple_pay"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/issuing/transactions"
+        }
+      }
+    ]
+  }
+]

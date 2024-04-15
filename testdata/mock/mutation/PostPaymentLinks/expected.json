@@ -1,0 +1,50 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "active": true,
+        "after_completion": {
+          "hosted_confirmation": { "custom_message": "aWLnAG0oij" },
+          "redirect": null,
+          "type": "hosted_confirmation"
+        },
+        "allow_promotion_codes": true,
+        "application": null,
+        "application_fee_amount": 1655017718,
+        "application_fee_percent": 1.46228,
+        "automatic_tax": { "enabled": false, "liability": null },
+        "billing_address_collection": "auto",
+        "consent_collection": null,
+        "currency": "8JomgOTaDX",
+        "custom_fields": [],
+        "custom_text": {
+          "after_submit": null,
+          "shipping_address": null,
+          "submit": null,
+          "terms_of_service_acceptance": null
+        },
+        "customer_creation": "if_required",
+        "inactive_message": "MHe12tdTG0",
+        "invoice_creation": null,
+        "line_items": null,
+        "livemode": false,
+        "metadata": {},
+        "object": "payment_link",
+        "on_behalf_of": "arrH0EsTTV",
+        "payment_intent_data": null,
+        "payment_method_collection": "always",
+        "payment_method_types": ["giropay"],
+        "phone_number_collection": { "enabled": false },
+        "restrictions": null,
+        "shipping_address_collection": null,
+        "shipping_options": [],
+        "submit_type": "auto",
+        "subscription_data": null,
+        "tax_id_collection": { "enabled": true },
+        "transfer_data": null,
+        "url": "https://pakrym-payment_links_ingress-mydev.dev.stripe.me/test_4gw3eYbvN3ixabe6oo"
+      },
+      "type": "procedure"
+    }
+  ]
+}

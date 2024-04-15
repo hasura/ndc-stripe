@@ -1,0 +1,380 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTestHelpersIssuingTransactionsCreateForceCapture",
+      "arguments": {
+        "amount": 780652173,
+        "card": "tuQHRWDPY1",
+        "currency": "klCj4AOOWk",
+        "expand": ["merchant_data"],
+        "merchant_data": {
+          "category": "automotive_parts_and_accessories_stores",
+          "city": "4Meex7DBJR",
+          "country": "buVSbb6tvu",
+          "name": "z4lh0UIiZZ",
+          "network_id": "NgdEzFPqUB",
+          "postal_code": "jWaSSXTCor",
+          "state": "dXyCRG5xfM",
+          "terminal_id": "tpEvlEG6Fa",
+          "url": "BpS905xCDk"
+        },
+        "purchase_details": {
+          "flight": {
+            "departure_at": 1529343049,
+            "passenger_name": "rXNIlWLMlD",
+            "refundable": false,
+            "segments": [
+              {
+                "arrival_airport_code": "p3a2vHERtH",
+                "carrier": "MXYSM1oRTG",
+                "departure_airport_code": "iVyq4k3Fcr",
+                "flight_number": "pvbC1ovVbB",
+                "service_class": "28nC6wmcTv",
+                "stopover_allowed": true
+              }
+            ],
+            "travel_agency": "7PMZouB7N1"
+          },
+          "fuel": {
+            "type": "diesel",
+            "unit": "us_gallon",
+            "unit_cost_decimal": "PaI6z2YL23",
+            "volume_decimal": "1oDpG5AZlA"
+          },
+          "lodging": {
+            "check_in_at": 1466474169,
+            "nights": 651087560
+          },
+          "receipt": [
+            {
+              "description": "gNL2JmH0SN",
+              "quantity": "GEldHDC9oL",
+              "total": 818210478,
+              "unit_cost": 86477410
+            }
+          ],
+          "reference": "MNG6kB7m8k"
+        }
+      },
+      "fields": {
+        "fields": {
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "amount_details": {
+            "column": "amount_details",
+            "fields": {
+              "fields": {
+                "atm_fee": {
+                  "column": "atm_fee",
+                  "type": "column"
+                },
+                "cashback_amount": {
+                  "column": "cashback_amount",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "authorization": {
+            "column": "authorization",
+            "type": "column"
+          },
+          "balance_transaction": {
+            "column": "balance_transaction",
+            "type": "column"
+          },
+          "card": {
+            "column": "card",
+            "type": "column"
+          },
+          "cardholder": {
+            "column": "cardholder",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "dispute": {
+            "column": "dispute",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "merchant_amount": {
+            "column": "merchant_amount",
+            "type": "column"
+          },
+          "merchant_currency": {
+            "column": "merchant_currency",
+            "type": "column"
+          },
+          "merchant_data": {
+            "column": "merchant_data",
+            "fields": {
+              "fields": {
+                "category": {
+                  "column": "category",
+                  "type": "column"
+                },
+                "category_code": {
+                  "column": "category_code",
+                  "type": "column"
+                },
+                "city": {
+                  "column": "city",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "network_id": {
+                  "column": "network_id",
+                  "type": "column"
+                },
+                "postal_code": {
+                  "column": "postal_code",
+                  "type": "column"
+                },
+                "state": {
+                  "column": "state",
+                  "type": "column"
+                },
+                "terminal_id": {
+                  "column": "terminal_id",
+                  "type": "column"
+                },
+                "url": {
+                  "column": "url",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "network_data": {
+            "column": "network_data",
+            "fields": {
+              "fields": {
+                "authorization_code": {
+                  "column": "authorization_code",
+                  "type": "column"
+                },
+                "processing_date": {
+                  "column": "processing_date",
+                  "type": "column"
+                },
+                "transaction_id": {
+                  "column": "transaction_id",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "purchase_details": {
+            "column": "purchase_details",
+            "fields": {
+              "fields": {
+                "flight": {
+                  "column": "flight",
+                  "fields": {
+                    "fields": {
+                      "departure_at": {
+                        "column": "departure_at",
+                        "type": "column"
+                      },
+                      "passenger_name": {
+                        "column": "passenger_name",
+                        "type": "column"
+                      },
+                      "refundable": {
+                        "column": "refundable",
+                        "type": "column"
+                      },
+                      "segments": {
+                        "column": "segments",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "arrival_airport_code": {
+                                "column": "arrival_airport_code",
+                                "type": "column"
+                              },
+                              "carrier": {
+                                "column": "carrier",
+                                "type": "column"
+                              },
+                              "departure_airport_code": {
+                                "column": "departure_airport_code",
+                                "type": "column"
+                              },
+                              "flight_number": {
+                                "column": "flight_number",
+                                "type": "column"
+                              },
+                              "service_class": {
+                                "column": "service_class",
+                                "type": "column"
+                              },
+                              "stopover_allowed": {
+                                "column": "stopover_allowed",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      },
+                      "travel_agency": {
+                        "column": "travel_agency",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "fuel": {
+                  "column": "fuel",
+                  "fields": {
+                    "fields": {
+                      "type": {
+                        "column": "type",
+                        "type": "column"
+                      },
+                      "unit": {
+                        "column": "unit",
+                        "type": "column"
+                      },
+                      "unit_cost_decimal": {
+                        "column": "unit_cost_decimal",
+                        "type": "column"
+                      },
+                      "volume_decimal": {
+                        "column": "volume_decimal",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "lodging": {
+                  "column": "lodging",
+                  "fields": {
+                    "fields": {
+                      "check_in_at": {
+                        "column": "check_in_at",
+                        "type": "column"
+                      },
+                      "nights": {
+                        "column": "nights",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "receipt": {
+                  "column": "receipt",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "description": {
+                          "column": "description",
+                          "type": "column"
+                        },
+                        "quantity": {
+                          "column": "quantity",
+                          "type": "column"
+                        },
+                        "total": {
+                          "column": "total",
+                          "type": "column"
+                        },
+                        "unit_cost": {
+                          "column": "unit_cost",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "reference": {
+                  "column": "reference",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "token": {
+            "column": "token",
+            "type": "column"
+          },
+          "treasury": {
+            "column": "treasury",
+            "fields": {
+              "fields": {
+                "received_credit": {
+                  "column": "received_credit",
+                  "type": "column"
+                },
+                "received_debit": {
+                  "column": "received_debit",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          },
+          "wallet": {
+            "column": "wallet",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "RBXZcvJAaR"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 19080
+    },
+    "owner": {
+      "type": "literal",
+      "value": {
+        "account": "zKnvJwE8WD",
+        "customer": "2zUsT83FE7",
+        "type": "application"
+      }
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "1yrfvGWeEe"
+    }
+  },
+  "collection": "GetTaxIds",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "country": {
+                      "column": "country",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "customer": {
+                      "column": "customer",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "owner": {
+                      "column": "owner",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    },
+                    "value": {
+                      "column": "value",
+                      "type": "column"
+                    },
+                    "verification": {
+                      "column": "verification",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

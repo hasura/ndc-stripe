@@ -1,0 +1,107 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "6L7ZMW84lb"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "expired": {
+      "type": "literal",
+      "value": true
+    },
+    "file": {
+      "type": "literal",
+      "value": "5i8GNeY54p"
+    },
+    "limit": {
+      "type": "literal",
+      "value": 15511
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "FRM5DX3Q5Z"
+    }
+  },
+  "collection": "GetFileLinks",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "expired": {
+                      "column": "expired",
+                      "type": "column"
+                    },
+                    "expires_at": {
+                      "column": "expires_at",
+                      "type": "column"
+                    },
+                    "file": {
+                      "column": "file",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "url": {
+                      "column": "url",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "checkout_session": null,
+        "coupon": {
+          "amount_off": null,
+          "applies_to": { "products": [] },
+          "created": 0,
+          "currency": null,
+          "currency_options": {},
+          "duration": "forever",
+          "duration_in_months": null,
+          "livemode": false,
+          "max_redemptions": null,
+          "metadata": null,
+          "name": null,
+          "object": "coupon",
+          "percent_off": null,
+          "redeem_by": null,
+          "times_redeemed": 0,
+          "valid": false
+        },
+        "customer": null,
+        "deleted": true,
+        "invoice": null,
+        "invoice_item": null,
+        "object": "discount",
+        "promotion_code": null,
+        "start": 1234567890,
+        "subscription": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

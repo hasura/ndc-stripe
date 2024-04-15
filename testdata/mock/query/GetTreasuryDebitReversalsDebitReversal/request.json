@@ -1,0 +1,98 @@
+{
+  "arguments": {
+    "debit_reversal": {
+      "type": "literal",
+      "value": "MaFPAWbRfR"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "fE0yj3oag1"
+      ]
+    }
+  },
+  "collection": "GetTreasuryDebitReversalsDebitReversal",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "financial_account": {
+              "column": "financial_account",
+              "type": "column"
+            },
+            "hosted_regulatory_receipt_url": {
+              "column": "hosted_regulatory_receipt_url",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "linked_flows": {
+              "column": "linked_flows",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "network": {
+              "column": "network",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "received_debit": {
+              "column": "received_debit",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "status_transitions": {
+              "column": "status_transitions",
+              "fields": {
+                "fields": {
+                  "completed_at": {
+                    "column": "completed_at",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "transaction": {
+              "column": "transaction",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

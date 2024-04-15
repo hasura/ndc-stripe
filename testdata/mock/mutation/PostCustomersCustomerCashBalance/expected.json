@@ -1,0 +1,17 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "available": { "eur": 10000 },
+        "customer": "przxQ4AmtR",
+        "livemode": false,
+        "object": "cash_balance",
+        "settings": {
+          "reconciliation_mode": "automatic",
+          "using_merchant_default": true
+        }
+      },
+      "type": "procedure"
+    }
+  ]
+}

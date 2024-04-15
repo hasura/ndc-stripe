@@ -1,0 +1,26 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTerminalLocationsLocation",
+      "arguments": {
+        "address": {
+          "city": "5MKFLirOip",
+          "country": "XzfRgfdtSu",
+          "line1": "NsANh68xpM",
+          "line2": "7ao7Jl0x67",
+          "postal_code": "BEJwGS6q0A",
+          "state": "IdOkUizYAe"
+        },
+        "configuration_overrides": null,
+        "display_name": "Yhsywexsrl",
+        "expand": [
+          "97MiqV9Qqf"
+        ],
+        "location": "5wSQknTvvO",
+        "metadata": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1234567890,
+        "domain_name": "Kh0KyQ9nUS",
+        "livemode": true,
+        "object": "apple_pay_domain"
+      },
+      "type": "procedure"
+    }
+  ]
+}

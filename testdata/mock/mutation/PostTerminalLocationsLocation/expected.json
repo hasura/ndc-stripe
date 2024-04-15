@@ -1,0 +1,22 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "address": {
+          "city": "San Francisco",
+          "country": "US",
+          "line1": "1234 Fake Street",
+          "line2": null,
+          "postal_code": "94102",
+          "state": "CA"
+        },
+        "display_name": "My First Store",
+        "id": "5wSQknTvvO",
+        "livemode": false,
+        "metadata": {},
+        "object": "terminal.location"
+      },
+      "type": "procedure"
+    }
+  ]
+}

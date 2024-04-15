@@ -1,0 +1,89 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "acss_debit": null,
+          "amount": 2000,
+          "bacs_debit": null,
+          "created": 1234567890,
+          "id": "tngKaYsv2P",
+          "livemode": false,
+          "object": "source_mandate_notification",
+          "reason": "debit_initiated",
+          "sepa_debit": {
+            "creditor_identifier": "TEST42ZZZ0000424242",
+            "last4": "3000",
+            "mandate_reference": "FFU45BAKH9LWLMM0"
+          },
+          "source": {
+            "ach_credit_transfer": {
+              "account_number": "test_52796e3294dc",
+              "bank_name": "TEST BANK",
+              "fingerprint": "ecpwEzmBOSMOqQTL",
+              "refund_account_holder_name": null,
+              "refund_account_holder_type": null,
+              "refund_routing_number": null,
+              "routing_number": "110000000",
+              "swift_code": "TSTEZ122"
+            },
+            "ach_debit": null,
+            "acss_debit": null,
+            "alipay": null,
+            "amount": null,
+            "au_becs_debit": null,
+            "bancontact": null,
+            "card": null,
+            "card_present": null,
+            "client_secret": "src_client_secret_C1TZo7pymZMnlKUlzG3197O1",
+            "code_verification": null,
+            "created": 1703175371,
+            "currency": "usd",
+            "customer": null,
+            "eps": null,
+            "flow": "receiver",
+            "giropay": null,
+            "id": "X7Y4QGhWCq",
+            "ideal": null,
+            "klarna": null,
+            "livemode": false,
+            "metadata": {},
+            "multibanco": null,
+            "object": "source",
+            "owner": {
+              "address": null,
+              "email": "jenny.rosen@example.com",
+              "name": null,
+              "phone": null,
+              "verified_address": null,
+              "verified_email": null,
+              "verified_name": null,
+              "verified_phone": null
+            },
+            "p24": null,
+            "receiver": {
+              "address": "121042882-38381234567890123",
+              "amount_charged": 0,
+              "amount_received": 0,
+              "amount_returned": 0,
+              "refund_attributes_method": "email",
+              "refund_attributes_status": "missing"
+            },
+            "redirect": null,
+            "sepa_debit": null,
+            "sofort": null,
+            "source_order": null,
+            "statement_descriptor": null,
+            "status": "pending",
+            "three_d_secure": null,
+            "type": "ach_credit_transfer",
+            "usage": "reusable",
+            "wechat": null
+          },
+          "status": "submitted",
+          "type": "sepa_debit"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "brand": "Visa",
+        "cancellation_reason": null,
+        "cardholder": {
+          "billing": {
+            "address": {
+              "city": "Beverly Hills",
+              "country": "US",
+              "line1": "123 Fake St",
+              "line2": "Apt 3",
+              "postal_code": "90210",
+              "state": "CA"
+            }
+          },
+          "company": null,
+          "created": 1703175372,
+          "email": "jenny@example.com",
+          "id": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+          "individual": null,
+          "livemode": false,
+          "metadata": {},
+          "name": "Jenny Rosen",
+          "object": "issuing.cardholder",
+          "phone_number": "+18008675309",
+          "preferred_locales": ["en"],
+          "requirements": {
+            "disabled_reason": null,
+            "past_due": []
+          },
+          "spending_controls": {
+            "allowed_categories": [],
+            "allowed_merchant_countries": null,
+            "blocked_categories": [],
+            "blocked_merchant_countries": null,
+            "spending_limits": [],
+            "spending_limits_currency": null
+          },
+          "status": "active",
+          "type": "individual"
+        },
+        "created": 1234567890,
+        "currency": "bsGdOTHWuk",
+        "cvc": null,
+        "exp_month": 8,
+        "exp_year": 2024,
+        "financial_account": null,
+        "last4": "4242",
+        "livemode": false,
+        "metadata": {},
+        "number": null,
+        "object": "issuing.card",
+        "personalization_design": null,
+        "replaced_by": null,
+        "replacement_for": "UKTC43qS3c",
+        "replacement_reason": "damaged",
+        "shipping": null,
+        "spending_controls": {
+          "allowed_categories": ["manual_cash_disburse"],
+          "allowed_merchant_countries": ["zZ3fPfwpWu"],
+          "blocked_categories": [
+            "fireplace_fireplace_screens_and_accessories_stores"
+          ],
+          "blocked_merchant_countries": ["PNNhrZAETH"],
+          "spending_limits": [],
+          "spending_limits_currency": null
+        },
+        "status": "active",
+        "type": "virtual",
+        "wallets": {
+          "apple_pay": {
+            "eligible": true,
+            "ineligible_reason": null
+          },
+          "google_pay": {
+            "eligible": false,
+            "ineligible_reason": "missing_agreement"
+          },
+          "primary_account_identifier": null
+        }
+      }
+    }
+  ]
+}

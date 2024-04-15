@@ -1,0 +1,31 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "country": "DE",
+              "created": 1234567890,
+              "customer": "lo5ogCFJWw",
+              "id": "txi_1OPouvJN5vQBdWExlr1piCRz",
+              "livemode": false,
+              "object": "tax_id",
+              "owner": { "customer": "lo5ogCFJWw", "type": "customer" },
+              "type": "eu_vat",
+              "value": "DE123456789",
+              "verification": {
+                "status": "pending",
+                "verified_address": null,
+                "verified_name": null
+              }
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/customers/lo5ogCFJWw/tax_ids"
+        }
+      }
+    ]
+  }
+]

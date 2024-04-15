@@ -1,0 +1,57 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "account": null,
+          "account_holder_name": "Jane Austen",
+          "account_holder_type": "individual",
+          "account_type": null,
+          "available_payout_methods": null,
+          "bank_name": "STRIPE TEST BANK",
+          "country": "US",
+          "currency": "usd",
+          "customer": {
+            "address": null,
+            "balance": 0,
+            "created": 1234567890,
+            "currency": "usd",
+            "default_source": null,
+            "delinquent": false,
+            "description": null,
+            "discount": null,
+            "email": null,
+            "id": "llfgT6OMMi",
+            "invoice_prefix": "B4749BD",
+            "invoice_settings": {
+              "custom_fields": null,
+              "default_payment_method": null,
+              "footer": null,
+              "rendering_options": null
+            },
+            "livemode": false,
+            "metadata": {},
+            "name": null,
+            "next_invoice_sequence": 1,
+            "object": "customer",
+            "phone": null,
+            "preferred_locales": [],
+            "shipping": null,
+            "tax_exempt": "none",
+            "test_clock": null
+          },
+          "default_for_currency": null,
+          "fingerprint": "1JWtPxqbdX5Gamtz",
+          "future_requirements": null,
+          "id": "RoxE9Z2Y2U",
+          "last4": "6789",
+          "metadata": {},
+          "object": "bank_account",
+          "requirements": null,
+          "routing_number": "110000000",
+          "status": "new"
+        }
+      }
+    ]
+  }
+]

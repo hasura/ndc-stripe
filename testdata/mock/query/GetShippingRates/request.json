@@ -1,0 +1,138 @@
+{
+  "arguments": {
+    "active": {
+      "type": "literal",
+      "value": false
+    },
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "currency": {
+      "type": "literal",
+      "value": "L6TKga5753"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "hLvwqXQZEU"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "5Njxv1TZEV"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 11728
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "ynLvXC9bg6"
+    }
+  },
+  "collection": "GetShippingRates",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "active": {
+                      "column": "active",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "delivery_estimate": {
+                      "column": "delivery_estimate",
+                      "type": "column"
+                    },
+                    "display_name": {
+                      "column": "display_name",
+                      "type": "column"
+                    },
+                    "fixed_amount": {
+                      "column": "fixed_amount",
+                      "fields": {
+                        "fields": {
+                          "amount": {
+                            "column": "amount",
+                            "type": "column"
+                          },
+                          "currency": {
+                            "column": "currency",
+                            "type": "column"
+                          },
+                          "currency_options": {
+                            "column": "currency_options",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "tax_behavior": {
+                      "column": "tax_behavior",
+                      "type": "column"
+                    },
+                    "tax_code": {
+                      "column": "tax_code",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

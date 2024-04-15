@@ -1,0 +1,117 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "lvO6bFaMrX"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "m88wxACYrW"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "2Q4DFLYA1O"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 29726
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "NTTthVWG9K"
+    }
+  },
+  "collection": "GetCustomersCustomerBalanceTransactions",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "credit_note": {
+                      "column": "credit_note",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "customer": {
+                      "column": "customer",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "ending_balance": {
+                      "column": "ending_balance",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "invoice": {
+                      "column": "invoice",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

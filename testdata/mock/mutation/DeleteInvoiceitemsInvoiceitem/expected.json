@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "deleted": true,
+        "id": "bGzJ9JRmNQ",
+        "object": "invoiceitem"
+      },
+      "type": "procedure"
+    }
+  ]
+}

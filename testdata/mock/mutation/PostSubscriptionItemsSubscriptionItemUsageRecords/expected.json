@@ -1,0 +1,14 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "livemode": false,
+        "object": "usage_record",
+        "quantity": 1476515968,
+        "subscription_item": "gwtu6iWi2t",
+        "timestamp": 1234567890
+      },
+      "type": "procedure"
+    }
+  ]
+}

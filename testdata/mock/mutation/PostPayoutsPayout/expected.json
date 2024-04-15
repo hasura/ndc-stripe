@@ -1,0 +1,32 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 1100,
+        "arrival_date": 1234567890,
+        "automatic": true,
+        "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
+        "created": 1234567890,
+        "currency": "usd",
+        "description": "STRIPE PAYOUT",
+        "destination": "ba_1OPounJN5vQBdWExpcDZWbix",
+        "failure_balance_transaction": null,
+        "failure_code": null,
+        "failure_message": null,
+        "id": "uNptlgOizK",
+        "livemode": false,
+        "metadata": {},
+        "method": "standard",
+        "object": "payout",
+        "original_payout": null,
+        "reconciliation_status": "completed",
+        "reversed_by": null,
+        "source_type": "card",
+        "statement_descriptor": null,
+        "status": "in_transit",
+        "type": "bank_account"
+      },
+      "type": "procedure"
+    }
+  ]
+}

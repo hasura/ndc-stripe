@@ -1,0 +1,306 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostFinancialConnectionsSessions",
+      "arguments": {
+        "account_holder": {
+          "account": "xJL4wafkOi",
+          "customer": "WvPKQJEcHe",
+          "type": "account"
+        },
+        "expand": ["accounts"],
+        "filters": {
+          "countries": ["W1v9rF8NEG"]
+        },
+        "permissions": ["balances"],
+        "prefetch": ["transactions"],
+        "return_url": "Oy0fbKNCgw"
+      },
+      "fields": {
+        "fields": {
+          "account_holder": {
+            "column": "account_holder",
+            "fields": {
+              "fields": {
+                "account": {
+                  "column": "account",
+                  "type": "column"
+                },
+                "customer": {
+                  "column": "customer",
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "accounts": {
+            "column": "accounts",
+            "fields": {
+              "fields": {
+                "data": {
+                  "column": "data",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "account_holder": {
+                          "column": "account_holder",
+                          "fields": {
+                            "fields": {
+                              "account": {
+                                "column": "account",
+                                "type": "column"
+                              },
+                              "customer": {
+                                "column": "customer",
+                                "type": "column"
+                              },
+                              "type": {
+                                "column": "type",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "balance": {
+                          "column": "balance",
+                          "fields": {
+                            "fields": {
+                              "as_of": {
+                                "column": "as_of",
+                                "type": "column"
+                              },
+                              "cash": {
+                                "column": "cash",
+                                "fields": {
+                                  "fields": {
+                                    "available": {
+                                      "column": "available",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "column"
+                              },
+                              "credit": {
+                                "column": "credit",
+                                "fields": {
+                                  "fields": {
+                                    "used": {
+                                      "column": "used",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "column"
+                              },
+                              "current": {
+                                "column": "current",
+                                "type": "column"
+                              },
+                              "type": {
+                                "column": "type",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "balance_refresh": {
+                          "column": "balance_refresh",
+                          "fields": {
+                            "fields": {
+                              "last_attempted_at": {
+                                "column": "last_attempted_at",
+                                "type": "column"
+                              },
+                              "next_refresh_available_at": {
+                                "column": "next_refresh_available_at",
+                                "type": "column"
+                              },
+                              "status": {
+                                "column": "status",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "category": {
+                          "column": "category",
+                          "type": "column"
+                        },
+                        "created": {
+                          "column": "created",
+                          "type": "column"
+                        },
+                        "display_name": {
+                          "column": "display_name",
+                          "type": "column"
+                        },
+                        "id": {
+                          "column": "id",
+                          "type": "column"
+                        },
+                        "institution_name": {
+                          "column": "institution_name",
+                          "type": "column"
+                        },
+                        "last4": {
+                          "column": "last4",
+                          "type": "column"
+                        },
+                        "livemode": {
+                          "column": "livemode",
+                          "type": "column"
+                        },
+                        "object": {
+                          "column": "object",
+                          "type": "column"
+                        },
+                        "ownership": {
+                          "column": "ownership",
+                          "type": "column"
+                        },
+                        "ownership_refresh": {
+                          "column": "ownership_refresh",
+                          "fields": {
+                            "fields": {
+                              "last_attempted_at": {
+                                "column": "last_attempted_at",
+                                "type": "column"
+                              },
+                              "status": {
+                                "column": "status",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "permissions": {
+                          "column": "permissions",
+                          "type": "column"
+                        },
+                        "status": {
+                          "column": "status",
+                          "type": "column"
+                        },
+                        "subcategory": {
+                          "column": "subcategory",
+                          "type": "column"
+                        },
+                        "subscriptions": {
+                          "column": "subscriptions",
+                          "type": "column"
+                        },
+                        "supported_payment_method_types": {
+                          "column": "supported_payment_method_types",
+                          "type": "column"
+                        },
+                        "transaction_refresh": {
+                          "column": "transaction_refresh",
+                          "fields": {
+                            "fields": {
+                              "id": {
+                                "column": "id",
+                                "type": "column"
+                              },
+                              "last_attempted_at": {
+                                "column": "last_attempted_at",
+                                "type": "column"
+                              },
+                              "next_refresh_available_at": {
+                                "column": "next_refresh_available_at",
+                                "type": "column"
+                              },
+                              "status": {
+                                "column": "status",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "has_more": {
+                  "column": "has_more",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "url": {
+                  "column": "url",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "client_secret": {
+            "column": "client_secret",
+            "type": "column"
+          },
+          "filters": {
+            "column": "filters",
+            "fields": {
+              "fields": {
+                "countries": {
+                  "column": "countries",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "permissions": {
+            "column": "permissions",
+            "type": "column"
+          },
+          "prefetch": {
+            "column": "prefetch",
+            "type": "column"
+          },
+          "return_url": {
+            "column": "return_url",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

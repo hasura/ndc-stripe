@@ -1,0 +1,90 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "JSnAncXPYK"
+      ]
+    },
+    "transaction": {
+      "type": "literal",
+      "value": "nd6n8olGvN"
+    }
+  },
+  "collection": "GetFinancialConnectionsTransactionsTransaction",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "account": {
+              "column": "account",
+              "type": "column"
+            },
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "status_transitions": {
+              "column": "status_transitions",
+              "fields": {
+                "fields": {
+                  "posted_at": {
+                    "column": "posted_at",
+                    "type": "column"
+                  },
+                  "void_at": {
+                    "column": "void_at",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "transacted_at": {
+              "column": "transacted_at",
+              "type": "column"
+            },
+            "transaction_refresh": {
+              "column": "transaction_refresh",
+              "type": "column"
+            },
+            "updated": {
+              "column": "updated",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

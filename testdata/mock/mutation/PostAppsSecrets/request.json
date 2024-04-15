@@ -1,0 +1,69 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostAppsSecrets",
+      "arguments": {
+        "expand": ["Xcb2X9hoTZ"],
+        "expires_at": 27956,
+        "name": "cQN1yyuJg5",
+        "payload": "QI7mcWMH9u",
+        "scope": {
+          "type": "user",
+          "user": "Dc4JQv612k"
+        }
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "deleted": {
+            "column": "deleted",
+            "type": "column"
+          },
+          "expires_at": {
+            "column": "expires_at",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "payload": {
+            "column": "payload",
+            "type": "column"
+          },
+          "scope": {
+            "column": "scope",
+            "fields": {
+              "fields": {
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                },
+                "user": {
+                  "column": "user",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

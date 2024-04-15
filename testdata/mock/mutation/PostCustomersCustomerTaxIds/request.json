@@ -1,0 +1,94 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCustomersCustomerTaxIds",
+      "arguments": {
+        "customer": "tIo6QwQE9g",
+        "expand": ["QPe8mLykyk"],
+        "type": "tr_tin",
+        "value": "IVkplsK6RM"
+      },
+      "fields": {
+        "fields": {
+          "country": {
+            "column": "country",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "owner": {
+            "column": "owner",
+            "fields": {
+              "fields": {
+                "account": {
+                  "column": "account",
+                  "type": "column"
+                },
+                "application": {
+                  "column": "application",
+                  "type": "column"
+                },
+                "customer": {
+                  "column": "customer",
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          },
+          "value": {
+            "column": "value",
+            "type": "column"
+          },
+          "verification": {
+            "column": "verification",
+            "fields": {
+              "fields": {
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "verified_address": {
+                  "column": "verified_address",
+                  "type": "column"
+                },
+                "verified_name": {
+                  "column": "verified_name",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

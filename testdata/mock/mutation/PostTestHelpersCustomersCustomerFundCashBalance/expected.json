@@ -1,0 +1,36 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "adjusted_for_overdraft": null,
+        "applied_to_payment": null,
+        "created": 1234567890,
+        "currency": "xfxqUmG3NN",
+        "customer": "G3MSUENqan",
+        "ending_balance": 10000,
+        "funded": {
+          "bank_transfer": {
+            "eu_bank_transfer": {
+              "bic": "BANKDEAAXXX",
+              "iban_last4": "7089",
+              "sender_name": "Sample Business GmbH"
+            },
+            "gb_bank_transfer": null,
+            "jp_bank_transfer": null,
+            "reference": "Payment for Invoice 629C465-155",
+            "type": "eu_bank_transfer",
+            "us_bank_transfer": null
+          }
+        },
+        "livemode": false,
+        "net_amount": 5000,
+        "object": "customer_cash_balance_transaction",
+        "refunded_from_payment": null,
+        "transferred_to_balance": null,
+        "type": "funded",
+        "unapplied_from_payment": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

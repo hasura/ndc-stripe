@@ -1,0 +1,92 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "brand": "Visa",
+              "cancellation_reason": null,
+              "cardholder": {
+                "billing": {
+                  "address": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "line1": "123 Fake St",
+                    "line2": "Apt 3",
+                    "postal_code": "90210",
+                    "state": "CA"
+                  }
+                },
+                "company": null,
+                "created": 1703175372,
+                "email": "jenny@example.com",
+                "id": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+                "individual": null,
+                "livemode": false,
+                "metadata": {},
+                "name": "Jenny Rosen",
+                "object": "issuing.cardholder",
+                "phone_number": "+18008675309",
+                "preferred_locales": ["en"],
+                "requirements": {
+                  "disabled_reason": null,
+                  "past_due": []
+                },
+                "spending_controls": {
+                  "allowed_categories": [],
+                  "allowed_merchant_countries": null,
+                  "blocked_categories": [],
+                  "blocked_merchant_countries": null,
+                  "spending_limits": [],
+                  "spending_limits_currency": null
+                },
+                "status": "active",
+                "type": "individual"
+              },
+              "created": 1234567890,
+              "currency": "usd",
+              "cvc": null,
+              "exp_month": 8,
+              "exp_year": 2024,
+              "financial_account": null,
+              "id": "ic_1OPouuJN5vQBdWExIoXsQoxc",
+              "last4": "4242",
+              "livemode": false,
+              "metadata": {},
+              "number": null,
+              "object": "issuing.card",
+              "personalization_design": null,
+              "replaced_by": null,
+              "replacement_for": null,
+              "replacement_reason": null,
+              "shipping": null,
+              "spending_controls": {
+                "allowed_categories": null,
+                "blocked_categories": null,
+                "spending_limits": [],
+                "spending_limits_currency": null
+              },
+              "status": "active",
+              "type": "physical",
+              "wallets": {
+                "apple_pay": {
+                  "eligible": true,
+                  "ineligible_reason": null
+                },
+                "google_pay": {
+                  "eligible": false,
+                  "ineligible_reason": "missing_agreement"
+                },
+                "primary_account_identifier": null
+              }
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/issuing/cards"
+        }
+      }
+    ]
+  }
+]

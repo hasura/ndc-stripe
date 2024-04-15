@@ -1,0 +1,35 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "account": "yDrCWMpeuS",
+        "future_requirements": {
+          "alternatives": [],
+          "current_deadline": null,
+          "currently_due": [],
+          "disabled_reason": null,
+          "errors": [],
+          "eventually_due": [],
+          "past_due": [],
+          "pending_verification": []
+        },
+        "id": "mk0E0iL5cK",
+        "object": "capability",
+        "requested": true,
+        "requested_at": 1234567890,
+        "requirements": {
+          "alternatives": [],
+          "current_deadline": null,
+          "currently_due": [],
+          "disabled_reason": null,
+          "errors": [],
+          "eventually_due": [],
+          "past_due": [],
+          "pending_verification": []
+        },
+        "status": "inactive"
+      },
+      "type": "procedure"
+    }
+  ]
+}

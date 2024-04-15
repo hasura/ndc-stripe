@@ -1,0 +1,1182 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostPaymentMethods",
+      "arguments": {
+        "acss_debit": {
+          "account_number": "2fFTzyjCKm",
+          "institution_number": "SEoxS9lNCl",
+          "transit_number": "CqcdLypbR6"
+        },
+        "au_becs_debit": {
+          "account_number": "lTMKaSzFRy",
+          "bsb_number": "Y9E5k2Iybk"
+        },
+        "bacs_debit": {
+          "account_number": "StgGdFdlZV",
+          "sort_code": "flbE7SgIFA"
+        },
+        "billing_details": {
+          "address": null,
+          "email": null,
+          "name": null,
+          "phone": null
+        },
+        "boleto": {
+          "tax_id": "idKWxEr2tM"
+        },
+        "card": null,
+        "customer": "PRB6Nlgcgi",
+        "eps": {
+          "bank": "bawag_psk_ag"
+        },
+        "expand": ["hH5PWWe3Ig"],
+        "fpx": {
+          "bank": "alliance_bank"
+        },
+        "ideal": {
+          "bank": "yoursafe"
+        },
+        "klarna": {
+          "dob": {
+            "day": 1483977025,
+            "month": 1593886711,
+            "year": 333716421
+          }
+        },
+        "metadata": null,
+        "p24": {
+          "bank": "mbank_mtransfer"
+        },
+        "payment_method": "WPtqOIaFGH",
+        "radar_options": {
+          "session": "fextxmFNxS"
+        },
+        "sepa_debit": {
+          "iban": "yPfNkYAr9V"
+        },
+        "sofort": {
+          "country": "NL"
+        },
+        "type": "giropay",
+        "us_bank_account": {
+          "account_holder_type": "company",
+          "account_number": "xwq95pmqbh",
+          "account_type": "savings",
+          "financial_connections_account": "dxkOtQBUVH",
+          "routing_number": "bQ7ZEn7CnB"
+        }
+      },
+      "fields": {
+        "fields": {
+          "acss_debit": {
+            "column": "acss_debit",
+            "fields": {
+              "fields": {
+                "bank_name": {
+                  "column": "bank_name",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "institution_number": {
+                  "column": "institution_number",
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "transit_number": {
+                  "column": "transit_number",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "affirm": {
+            "column": "affirm",
+            "type": "column"
+          },
+          "afterpay_clearpay": {
+            "column": "afterpay_clearpay",
+            "type": "column"
+          },
+          "alipay": {
+            "column": "alipay",
+            "type": "column"
+          },
+          "au_becs_debit": {
+            "column": "au_becs_debit",
+            "fields": {
+              "fields": {
+                "bsb_number": {
+                  "column": "bsb_number",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "bacs_debit": {
+            "column": "bacs_debit",
+            "fields": {
+              "fields": {
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "sort_code": {
+                  "column": "sort_code",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "bancontact": {
+            "column": "bancontact",
+            "type": "column"
+          },
+          "billing_details": {
+            "column": "billing_details",
+            "fields": {
+              "fields": {
+                "address": {
+                  "column": "address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "email": {
+                  "column": "email",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "phone": {
+                  "column": "phone",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "blik": {
+            "column": "blik",
+            "type": "column"
+          },
+          "boleto": {
+            "column": "boleto",
+            "fields": {
+              "fields": {
+                "tax_id": {
+                  "column": "tax_id",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "card": {
+            "column": "card",
+            "fields": {
+              "fields": {
+                "brand": {
+                  "column": "brand",
+                  "type": "column"
+                },
+                "checks": {
+                  "column": "checks",
+                  "fields": {
+                    "fields": {
+                      "address_line1_check": {
+                        "column": "address_line1_check",
+                        "type": "column"
+                      },
+                      "address_postal_code_check": {
+                        "column": "address_postal_code_check",
+                        "type": "column"
+                      },
+                      "cvc_check": {
+                        "column": "cvc_check",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "display_brand": {
+                  "column": "display_brand",
+                  "type": "column"
+                },
+                "exp_month": {
+                  "column": "exp_month",
+                  "type": "column"
+                },
+                "exp_year": {
+                  "column": "exp_year",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "funding": {
+                  "column": "funding",
+                  "type": "column"
+                },
+                "generated_from": {
+                  "column": "generated_from",
+                  "fields": {
+                    "fields": {
+                      "charge": {
+                        "column": "charge",
+                        "type": "column"
+                      },
+                      "payment_method_details": {
+                        "column": "payment_method_details",
+                        "fields": {
+                          "fields": {
+                            "card_present": {
+                              "column": "card_present",
+                              "fields": {
+                                "fields": {
+                                  "amount_authorized": {
+                                    "column": "amount_authorized",
+                                    "type": "column"
+                                  },
+                                  "brand": {
+                                    "column": "brand",
+                                    "type": "column"
+                                  },
+                                  "capture_before": {
+                                    "column": "capture_before",
+                                    "type": "column"
+                                  },
+                                  "cardholder_name": {
+                                    "column": "cardholder_name",
+                                    "type": "column"
+                                  },
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  },
+                                  "emv_auth_data": {
+                                    "column": "emv_auth_data",
+                                    "type": "column"
+                                  },
+                                  "exp_month": {
+                                    "column": "exp_month",
+                                    "type": "column"
+                                  },
+                                  "exp_year": {
+                                    "column": "exp_year",
+                                    "type": "column"
+                                  },
+                                  "fingerprint": {
+                                    "column": "fingerprint",
+                                    "type": "column"
+                                  },
+                                  "funding": {
+                                    "column": "funding",
+                                    "type": "column"
+                                  },
+                                  "generated_card": {
+                                    "column": "generated_card",
+                                    "type": "column"
+                                  },
+                                  "incremental_authorization_supported": {
+                                    "column": "incremental_authorization_supported",
+                                    "type": "column"
+                                  },
+                                  "last4": {
+                                    "column": "last4",
+                                    "type": "column"
+                                  },
+                                  "network": {
+                                    "column": "network",
+                                    "type": "column"
+                                  },
+                                  "offline": {
+                                    "column": "offline",
+                                    "fields": {
+                                      "fields": {
+                                        "stored_at": {
+                                          "column": "stored_at",
+                                          "type": "column"
+                                        }
+                                      },
+                                      "type": "object"
+                                    },
+                                    "type": "column"
+                                  },
+                                  "overcapture_supported": {
+                                    "column": "overcapture_supported",
+                                    "type": "column"
+                                  },
+                                  "read_method": {
+                                    "column": "read_method",
+                                    "type": "column"
+                                  },
+                                  "receipt": {
+                                    "column": "receipt",
+                                    "fields": {
+                                      "fields": {
+                                        "account_type": {
+                                          "column": "account_type",
+                                          "type": "column"
+                                        },
+                                        "application_cryptogram": {
+                                          "column": "application_cryptogram",
+                                          "type": "column"
+                                        },
+                                        "application_preferred_name": {
+                                          "column": "application_preferred_name",
+                                          "type": "column"
+                                        },
+                                        "authorization_code": {
+                                          "column": "authorization_code",
+                                          "type": "column"
+                                        },
+                                        "authorization_response_code": {
+                                          "column": "authorization_response_code",
+                                          "type": "column"
+                                        },
+                                        "cardholder_verification_method": {
+                                          "column": "cardholder_verification_method",
+                                          "type": "column"
+                                        },
+                                        "dedicated_file_name": {
+                                          "column": "dedicated_file_name",
+                                          "type": "column"
+                                        },
+                                        "terminal_verification_results": {
+                                          "column": "terminal_verification_results",
+                                          "type": "column"
+                                        },
+                                        "transaction_status_information": {
+                                          "column": "transaction_status_information",
+                                          "type": "column"
+                                        }
+                                      },
+                                      "type": "object"
+                                    },
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            },
+                            "type": {
+                              "column": "type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "setup_attempt": {
+                        "column": "setup_attempt",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "networks": {
+                  "column": "networks",
+                  "fields": {
+                    "fields": {
+                      "available": {
+                        "column": "available",
+                        "type": "column"
+                      },
+                      "preferred": {
+                        "column": "preferred",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "three_d_secure_usage": {
+                  "column": "three_d_secure_usage",
+                  "fields": {
+                    "fields": {
+                      "supported": {
+                        "column": "supported",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "wallet": {
+                  "column": "wallet",
+                  "fields": {
+                    "fields": {
+                      "amex_express_checkout": {
+                        "column": "amex_express_checkout",
+                        "type": "column"
+                      },
+                      "apple_pay": {
+                        "column": "apple_pay",
+                        "type": "column"
+                      },
+                      "dynamic_last4": {
+                        "column": "dynamic_last4",
+                        "type": "column"
+                      },
+                      "google_pay": {
+                        "column": "google_pay",
+                        "type": "column"
+                      },
+                      "link": {
+                        "column": "link",
+                        "type": "column"
+                      },
+                      "masterpass": {
+                        "column": "masterpass",
+                        "fields": {
+                          "fields": {
+                            "billing_address": {
+                              "column": "billing_address",
+                              "fields": {
+                                "fields": {
+                                  "city": {
+                                    "column": "city",
+                                    "type": "column"
+                                  },
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  },
+                                  "line1": {
+                                    "column": "line1",
+                                    "type": "column"
+                                  },
+                                  "line2": {
+                                    "column": "line2",
+                                    "type": "column"
+                                  },
+                                  "postal_code": {
+                                    "column": "postal_code",
+                                    "type": "column"
+                                  },
+                                  "state": {
+                                    "column": "state",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            },
+                            "email": {
+                              "column": "email",
+                              "type": "column"
+                            },
+                            "name": {
+                              "column": "name",
+                              "type": "column"
+                            },
+                            "shipping_address": {
+                              "column": "shipping_address",
+                              "fields": {
+                                "fields": {
+                                  "city": {
+                                    "column": "city",
+                                    "type": "column"
+                                  },
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  },
+                                  "line1": {
+                                    "column": "line1",
+                                    "type": "column"
+                                  },
+                                  "line2": {
+                                    "column": "line2",
+                                    "type": "column"
+                                  },
+                                  "postal_code": {
+                                    "column": "postal_code",
+                                    "type": "column"
+                                  },
+                                  "state": {
+                                    "column": "state",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "samsung_pay": {
+                        "column": "samsung_pay",
+                        "type": "column"
+                      },
+                      "type": {
+                        "column": "type",
+                        "type": "column"
+                      },
+                      "visa_checkout": {
+                        "column": "visa_checkout",
+                        "fields": {
+                          "fields": {
+                            "billing_address": {
+                              "column": "billing_address",
+                              "fields": {
+                                "fields": {
+                                  "city": {
+                                    "column": "city",
+                                    "type": "column"
+                                  },
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  },
+                                  "line1": {
+                                    "column": "line1",
+                                    "type": "column"
+                                  },
+                                  "line2": {
+                                    "column": "line2",
+                                    "type": "column"
+                                  },
+                                  "postal_code": {
+                                    "column": "postal_code",
+                                    "type": "column"
+                                  },
+                                  "state": {
+                                    "column": "state",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            },
+                            "email": {
+                              "column": "email",
+                              "type": "column"
+                            },
+                            "name": {
+                              "column": "name",
+                              "type": "column"
+                            },
+                            "shipping_address": {
+                              "column": "shipping_address",
+                              "fields": {
+                                "fields": {
+                                  "city": {
+                                    "column": "city",
+                                    "type": "column"
+                                  },
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  },
+                                  "line1": {
+                                    "column": "line1",
+                                    "type": "column"
+                                  },
+                                  "line2": {
+                                    "column": "line2",
+                                    "type": "column"
+                                  },
+                                  "postal_code": {
+                                    "column": "postal_code",
+                                    "type": "column"
+                                  },
+                                  "state": {
+                                    "column": "state",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "card_present": {
+            "column": "card_present",
+            "fields": {
+              "fields": {
+                "brand": {
+                  "column": "brand",
+                  "type": "column"
+                },
+                "cardholder_name": {
+                  "column": "cardholder_name",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "exp_month": {
+                  "column": "exp_month",
+                  "type": "column"
+                },
+                "exp_year": {
+                  "column": "exp_year",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "funding": {
+                  "column": "funding",
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "networks": {
+                  "column": "networks",
+                  "fields": {
+                    "fields": {
+                      "available": {
+                        "column": "available",
+                        "type": "column"
+                      },
+                      "preferred": {
+                        "column": "preferred",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "read_method": {
+                  "column": "read_method",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "cashapp": {
+            "column": "cashapp",
+            "fields": {
+              "fields": {
+                "buyer_id": {
+                  "column": "buyer_id",
+                  "type": "column"
+                },
+                "cashtag": {
+                  "column": "cashtag",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "customer_balance": {
+            "column": "customer_balance",
+            "type": "column"
+          },
+          "eps": {
+            "column": "eps",
+            "fields": {
+              "fields": {
+                "bank": {
+                  "column": "bank",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "fpx": {
+            "column": "fpx",
+            "fields": {
+              "fields": {
+                "bank": {
+                  "column": "bank",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "giropay": {
+            "column": "giropay",
+            "type": "column"
+          },
+          "grabpay": {
+            "column": "grabpay",
+            "type": "column"
+          },
+          "ideal": {
+            "column": "ideal",
+            "fields": {
+              "fields": {
+                "bank": {
+                  "column": "bank",
+                  "type": "column"
+                },
+                "bic": {
+                  "column": "bic",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "interac_present": {
+            "column": "interac_present",
+            "fields": {
+              "fields": {
+                "brand": {
+                  "column": "brand",
+                  "type": "column"
+                },
+                "cardholder_name": {
+                  "column": "cardholder_name",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "exp_month": {
+                  "column": "exp_month",
+                  "type": "column"
+                },
+                "exp_year": {
+                  "column": "exp_year",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "funding": {
+                  "column": "funding",
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "networks": {
+                  "column": "networks",
+                  "fields": {
+                    "fields": {
+                      "available": {
+                        "column": "available",
+                        "type": "column"
+                      },
+                      "preferred": {
+                        "column": "preferred",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "preferred_locales": {
+                  "column": "preferred_locales",
+                  "type": "column"
+                },
+                "read_method": {
+                  "column": "read_method",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "klarna": {
+            "column": "klarna",
+            "fields": {
+              "fields": {
+                "dob": {
+                  "column": "dob",
+                  "fields": {
+                    "fields": {
+                      "day": {
+                        "column": "day",
+                        "type": "column"
+                      },
+                      "month": {
+                        "column": "month",
+                        "type": "column"
+                      },
+                      "year": {
+                        "column": "year",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "konbini": {
+            "column": "konbini",
+            "type": "column"
+          },
+          "link": {
+            "column": "link",
+            "fields": {
+              "fields": {
+                "email": {
+                  "column": "email",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "mobilepay": {
+            "column": "mobilepay",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "oxxo": {
+            "column": "oxxo",
+            "type": "column"
+          },
+          "p24": {
+            "column": "p24",
+            "fields": {
+              "fields": {
+                "bank": {
+                  "column": "bank",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "paynow": {
+            "column": "paynow",
+            "type": "column"
+          },
+          "paypal": {
+            "column": "paypal",
+            "fields": {
+              "fields": {
+                "payer_email": {
+                  "column": "payer_email",
+                  "type": "column"
+                },
+                "payer_id": {
+                  "column": "payer_id",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "pix": {
+            "column": "pix",
+            "type": "column"
+          },
+          "promptpay": {
+            "column": "promptpay",
+            "type": "column"
+          },
+          "radar_options": {
+            "column": "radar_options",
+            "fields": {
+              "fields": {
+                "session": {
+                  "column": "session",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "revolut_pay": {
+            "column": "revolut_pay",
+            "type": "column"
+          },
+          "sepa_debit": {
+            "column": "sepa_debit",
+            "fields": {
+              "fields": {
+                "bank_code": {
+                  "column": "bank_code",
+                  "type": "column"
+                },
+                "branch_code": {
+                  "column": "branch_code",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "generated_from": {
+                  "column": "generated_from",
+                  "fields": {
+                    "fields": {
+                      "charge": {
+                        "column": "charge",
+                        "type": "column"
+                      },
+                      "setup_attempt": {
+                        "column": "setup_attempt",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "sofort": {
+            "column": "sofort",
+            "fields": {
+              "fields": {
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "swish": {
+            "column": "swish",
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          },
+          "us_bank_account": {
+            "column": "us_bank_account",
+            "fields": {
+              "fields": {
+                "account_holder_type": {
+                  "column": "account_holder_type",
+                  "type": "column"
+                },
+                "account_type": {
+                  "column": "account_type",
+                  "type": "column"
+                },
+                "bank_name": {
+                  "column": "bank_name",
+                  "type": "column"
+                },
+                "financial_connections_account": {
+                  "column": "financial_connections_account",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "networks": {
+                  "column": "networks",
+                  "fields": {
+                    "fields": {
+                      "preferred": {
+                        "column": "preferred",
+                        "type": "column"
+                      },
+                      "supported": {
+                        "column": "supported",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "routing_number": {
+                  "column": "routing_number",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "blocked": {
+                        "column": "blocked",
+                        "fields": {
+                          "fields": {
+                            "network_code": {
+                              "column": "network_code",
+                              "type": "column"
+                            },
+                            "reason": {
+                              "column": "reason",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "wechat_pay": {
+            "column": "wechat_pay",
+            "type": "column"
+          },
+          "zip": {
+            "column": "zip",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

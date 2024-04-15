@@ -1,0 +1,29 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "api_version": null,
+              "application": null,
+              "created": 1234567890,
+              "description": "This is my webhook, I like it a lot",
+              "enabled_events": ["charge.failed", "charge.succeeded"],
+              "id": "we_1OPouqJN5vQBdWEx9Xl0KCo3",
+              "livemode": false,
+              "metadata": {},
+              "object": "webhook_endpoint",
+              "secret": null,
+              "status": "enabled",
+              "url": "https://example.com/my/webhook/endpoint"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/webhook_endpoints"
+        }
+      }
+    ]
+  }
+]

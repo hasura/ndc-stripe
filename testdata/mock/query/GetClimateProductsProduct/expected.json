@@ -1,0 +1,94 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1234567890,
+          "current_prices_per_metric_ton": {
+            "usd": {
+              "amount_fees": 1650,
+              "amount_subtotal": 55000,
+              "amount_total": 56650
+            }
+          },
+          "delivery_year": 2027,
+          "id": "ZN3lIOektA",
+          "livemode": false,
+          "metric_tons_available": "1000000",
+          "name": "Frontier's 2027 offtake portfolio",
+          "object": "climate.product",
+          "suppliers": [
+            {
+              "id": "climsup_charm_industrial",
+              "info_url": "https://frontierclimate.com/portfolio/charm-industrial",
+              "livemode": false,
+              "locations": [
+                {
+                  "city": "San Francisco",
+                  "country": "US",
+                  "latitude": 37.7749,
+                  "longitude": -122.4194,
+                  "region": "CA"
+                }
+              ],
+              "name": "Charm Industrial",
+              "object": "climate.supplier",
+              "removal_pathway": "biomass_carbon_removal_and_storage"
+            },
+            {
+              "id": "climsup_carbon_capture_inc",
+              "info_url": "https://frontierclimate.com/portfolio/carboncapture-inc",
+              "livemode": false,
+              "locations": [
+                {
+                  "city": "Los Angeles",
+                  "country": "US",
+                  "latitude": 34.0549,
+                  "longitude": -118.2426,
+                  "region": "CA"
+                }
+              ],
+              "name": "CarbonCapture Inc.",
+              "object": "climate.supplier",
+              "removal_pathway": "direct_air_capture"
+            },
+            {
+              "id": "climsup_heirloom",
+              "info_url": "https://frontierclimate.com/portfolio/heirloom",
+              "livemode": false,
+              "locations": [
+                {
+                  "city": "Brisbane",
+                  "country": "US",
+                  "latitude": 37.6808,
+                  "longitude": -122.4,
+                  "region": "CA"
+                }
+              ],
+              "name": "Heirloom",
+              "object": "climate.supplier",
+              "removal_pathway": "direct_air_capture"
+            },
+            {
+              "id": "climsup_lithos",
+              "info_url": "https://frontierclimate.com/portfolio/lithos",
+              "livemode": false,
+              "locations": [
+                {
+                  "city": "San Francisco",
+                  "country": "US",
+                  "latitude": 37.7749,
+                  "longitude": -122.4194,
+                  "region": "CA"
+                }
+              ],
+              "name": "Lithos",
+              "object": "climate.supplier",
+              "removal_pathway": "enhanced_weathering"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

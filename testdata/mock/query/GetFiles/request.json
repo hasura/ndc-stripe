@@ -1,0 +1,176 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "diBYEEKctI"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 18489
+    },
+    "purpose": {
+      "type": "literal",
+      "value": "business_icon"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "Oe8LBQkWqv"
+    }
+  },
+  "collection": "GetFiles",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "expires_at": {
+                      "column": "expires_at",
+                      "type": "column"
+                    },
+                    "filename": {
+                      "column": "filename",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "links": {
+                      "column": "links",
+                      "fields": {
+                        "fields": {
+                          "data": {
+                            "column": "data",
+                            "fields": {
+                              "fields": {
+                                "fields": {
+                                  "created": {
+                                    "column": "created",
+                                    "type": "column"
+                                  },
+                                  "expired": {
+                                    "column": "expired",
+                                    "type": "column"
+                                  },
+                                  "expires_at": {
+                                    "column": "expires_at",
+                                    "type": "column"
+                                  },
+                                  "file": {
+                                    "column": "file",
+                                    "type": "column"
+                                  },
+                                  "id": {
+                                    "column": "id",
+                                    "type": "column"
+                                  },
+                                  "livemode": {
+                                    "column": "livemode",
+                                    "type": "column"
+                                  },
+                                  "metadata": {
+                                    "column": "metadata",
+                                    "type": "column"
+                                  },
+                                  "object": {
+                                    "column": "object",
+                                    "type": "column"
+                                  },
+                                  "url": {
+                                    "column": "url",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "type": "column"
+                          },
+                          "has_more": {
+                            "column": "has_more",
+                            "type": "column"
+                          },
+                          "object": {
+                            "column": "object",
+                            "type": "column"
+                          },
+                          "url": {
+                            "column": "url",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "purpose": {
+                      "column": "purpose",
+                      "type": "column"
+                    },
+                    "size": {
+                      "column": "size",
+                      "type": "column"
+                    },
+                    "title": {
+                      "column": "title",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    },
+                    "url": {
+                      "column": "url",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

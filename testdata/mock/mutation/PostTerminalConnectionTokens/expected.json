@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "location": null,
+        "object": "terminal.connection_token",
+        "secret": "pst_test_EYaaCPF2R8lL8NK17UlpFtp"
+      },
+      "type": "procedure"
+    }
+  ]
+}

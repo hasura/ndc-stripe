@@ -1,0 +1,126 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "5f8WhdD9pE"
+      ]
+    },
+    "value_list": {
+      "type": "literal",
+      "value": "yXXx8LMMa3"
+    }
+  },
+  "collection": "GetRadarValueListsValueList",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "alias": {
+              "column": "alias",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "created_by": {
+              "column": "created_by",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "item_type": {
+              "column": "item_type",
+              "type": "column"
+            },
+            "list_items": {
+              "column": "list_items",
+              "fields": {
+                "fields": {
+                  "data": {
+                    "column": "data",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "created": {
+                            "column": "created",
+                            "type": "column"
+                          },
+                          "created_by": {
+                            "column": "created_by",
+                            "type": "column"
+                          },
+                          "id": {
+                            "column": "id",
+                            "type": "column"
+                          },
+                          "livemode": {
+                            "column": "livemode",
+                            "type": "column"
+                          },
+                          "object": {
+                            "column": "object",
+                            "type": "column"
+                          },
+                          "value": {
+                            "column": "value",
+                            "type": "column"
+                          },
+                          "value_list": {
+                            "column": "value_list",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  },
+                  "has_more": {
+                    "column": "has_more",
+                    "type": "column"
+                  },
+                  "object": {
+                    "column": "object",
+                    "type": "column"
+                  },
+                  "url": {
+                    "column": "url",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

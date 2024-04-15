@@ -1,0 +1,17 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 100,
+        "balance_transaction": null,
+        "created": 1234567890,
+        "currency": "usd",
+        "fee": "PZ9L0EDKlx",
+        "id": "6P6WzdRCGV",
+        "metadata": {},
+        "object": "fee_refund"
+      },
+      "type": "procedure"
+    }
+  ]
+}

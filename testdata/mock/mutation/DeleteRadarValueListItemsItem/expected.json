@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "deleted": true,
+        "id": "zb2Cw456as",
+        "object": "radar.value_list_item"
+      },
+      "type": "procedure"
+    }
+  ]
+}

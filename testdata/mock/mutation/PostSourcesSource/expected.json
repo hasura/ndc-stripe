@@ -1,0 +1,70 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "ach_credit_transfer": {
+          "account_number": "test_52796e3294dc",
+          "bank_name": "TEST BANK",
+          "fingerprint": "ecpwEzmBOSMOqQTL",
+          "refund_account_holder_name": null,
+          "refund_account_holder_type": null,
+          "refund_routing_number": null,
+          "routing_number": "110000000",
+          "swift_code": "TSTEZ122"
+        },
+        "ach_debit": null,
+        "acss_debit": null,
+        "alipay": null,
+        "amount": 1047685429,
+        "au_becs_debit": null,
+        "bancontact": null,
+        "card": null,
+        "card_present": null,
+        "client_secret": "src_client_secret_YKwbc23bbUEBnMfgjAmYdnp0",
+        "code_verification": null,
+        "created": 1234567890,
+        "currency": "usd",
+        "customer": null,
+        "eps": null,
+        "flow": "receiver",
+        "giropay": null,
+        "ideal": null,
+        "klarna": null,
+        "livemode": false,
+        "metadata": {},
+        "multibanco": null,
+        "object": "source",
+        "owner": {
+          "address": null,
+          "email": "jenny.rosen@example.com",
+          "name": null,
+          "phone": null,
+          "verified_address": null,
+          "verified_email": null,
+          "verified_name": null,
+          "verified_phone": null
+        },
+        "p24": null,
+        "receiver": {
+          "address": "121042882-38381234567890123",
+          "amount_charged": 0,
+          "amount_received": 0,
+          "amount_returned": 0,
+          "refund_attributes_method": "email",
+          "refund_attributes_status": "missing"
+        },
+        "redirect": null,
+        "sepa_debit": null,
+        "sofort": null,
+        "source_order": null,
+        "statement_descriptor": null,
+        "status": "pending",
+        "three_d_secure": null,
+        "type": "ach_credit_transfer",
+        "usage": "reusable",
+        "wechat": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

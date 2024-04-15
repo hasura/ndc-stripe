@@ -1,0 +1,138 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "zZQf7JZXTq"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "G3BfD3XuK8"
+      ]
+    },
+    "financial_account": {
+      "type": "literal",
+      "value": "rvraMRue19"
+    },
+    "limit": {
+      "type": "literal",
+      "value": 20112
+    },
+    "received_credit": {
+      "type": "literal",
+      "value": "yY21oldBHo"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "FRm1SJk8lG"
+    },
+    "status": {
+      "type": "literal",
+      "value": "processing"
+    }
+  },
+  "collection": "GetTreasuryCreditReversals",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "financial_account": {
+                      "column": "financial_account",
+                      "type": "column"
+                    },
+                    "hosted_regulatory_receipt_url": {
+                      "column": "hosted_regulatory_receipt_url",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "network": {
+                      "column": "network",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "received_credit": {
+                      "column": "received_credit",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "status_transitions": {
+                      "column": "status_transitions",
+                      "fields": {
+                        "fields": {
+                          "posted_at": {
+                            "column": "posted_at",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "transaction": {
+                      "column": "transaction",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

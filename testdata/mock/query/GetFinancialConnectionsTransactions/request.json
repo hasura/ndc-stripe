@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "account": {
+      "type": "literal",
+      "value": "liCBO1UEbW"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "WADobpIcu8"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "GEINBiUHNP"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 17172
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "nyqiWcYTPs"
+    },
+    "transacted_at": {
+      "type": "literal",
+      "value": null
+    },
+    "transaction_refresh": {
+      "type": "literal",
+      "value": {
+        "after": "AQ2q2hdi3H"
+      }
+    }
+  },
+  "collection": "GetFinancialConnectionsTransactions",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "account": {
+                      "column": "account",
+                      "type": "column"
+                    },
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "status_transitions": {
+                      "column": "status_transitions",
+                      "fields": {
+                        "fields": {
+                          "posted_at": {
+                            "column": "posted_at",
+                            "type": "column"
+                          },
+                          "void_at": {
+                            "column": "void_at",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "transacted_at": {
+                      "column": "transacted_at",
+                      "type": "column"
+                    },
+                    "transaction_refresh": {
+                      "column": "transaction_refresh",
+                      "type": "column"
+                    },
+                    "updated": {
+                      "column": "updated",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 1469912373,
+        "amount_details": { "atm_fee": null, "cashback_amount": null },
+        "authorization": "iauth_1OPouuJN5vQBdWExicfRiUm4",
+        "balance_transaction": null,
+        "card": "EFKXYCXFwF",
+        "cardholder": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+        "created": 1234567890,
+        "currency": "3n5KgzPfkT",
+        "dispute": null,
+        "livemode": false,
+        "merchant_amount": -100,
+        "merchant_currency": "usd",
+        "merchant_data": {
+          "category": "chemicals_and_allied_products",
+          "category_code": "4121",
+          "city": "QE2kZWjo3Y",
+          "country": "R2MhWGIJtv",
+          "name": "cwV109YbgU",
+          "network_id": "SB8QqVKIvF",
+          "postal_code": "WTnKJVVfPR",
+          "state": "JpNSlQVhea",
+          "terminal_id": "zs1WOAnRcU",
+          "url": "Dl050B6NhU"
+        },
+        "metadata": {},
+        "network_data": {
+          "authorization_code": null,
+          "processing_date": "2023-12-21",
+          "transaction_id": null
+        },
+        "object": "issuing.transaction",
+        "purchase_details": null,
+        "token": null,
+        "treasury": null,
+        "type": "capture",
+        "wallet": "apple_pay"
+      },
+      "type": "procedure"
+    }
+  ]
+}

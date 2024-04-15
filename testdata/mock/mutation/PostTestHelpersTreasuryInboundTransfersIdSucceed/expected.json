@@ -1,0 +1,56 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 10000,
+        "cancelable": true,
+        "created": 1234567890,
+        "currency": "usd",
+        "description": "InboundTransfer from my external bank account",
+        "failure_details": null,
+        "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
+        "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgYOEtbDkck6Nv2qFp3js1PntieIqQDERWMh17q9c735bplptY1B0Am1liqX_copS8vzlwmXl-r1E2jHWIEMxg",
+        "linked_flows": { "received_debit": null },
+        "livemode": false,
+        "metadata": {},
+        "object": "treasury.inbound_transfer",
+        "origin_payment_method": "pm_1OPouwJN5vQBdWExnzH1xIFm",
+        "origin_payment_method_details": {
+          "billing_details": {
+            "address": {
+              "city": "San Francisco",
+              "country": "US",
+              "line1": "1234 Fake Street",
+              "line2": null,
+              "postal_code": "94102",
+              "state": "CA"
+            },
+            "email": null,
+            "name": "Jane Austen"
+          },
+          "type": "us_bank_account",
+          "us_bank_account": {
+            "account_holder_type": "company",
+            "account_type": "checking",
+            "bank_name": "STRIPE TEST BANK",
+            "fingerprint": "oBMt5pBDd633Ahah",
+            "last4": "6789",
+            "mandate": null,
+            "network": "ach",
+            "routing_number": "110000000"
+          }
+        },
+        "returned": false,
+        "statement_descriptor": "transfer",
+        "status": "processing",
+        "status_transitions": {
+          "canceled_at": null,
+          "failed_at": null,
+          "succeeded_at": null
+        },
+        "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+      },
+      "type": "procedure"
+    }
+  ]
+}

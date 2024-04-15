@@ -1,0 +1,17 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1234567890,
+        "deleted": null,
+        "expires_at": 1234567890,
+        "livemode": false,
+        "name": "oZXD7lPKap",
+        "object": "apps.secret",
+        "payload": null,
+        "scope": { "type": "user", "user": null }
+      },
+      "type": "procedure"
+    }
+  ]
+}

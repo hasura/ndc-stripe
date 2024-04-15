@@ -1,0 +1,359 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "SpVPO3bMot"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "GJ3T5vbvRS"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 5121
+    },
+    "setup_intent": {
+      "type": "literal",
+      "value": "quu6QikXmB"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "8h9KYjeKIZ"
+    }
+  },
+  "collection": "GetSetupAttempts",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "application": {
+                      "column": "application",
+                      "type": "column"
+                    },
+                    "attach_to_self": {
+                      "column": "attach_to_self",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "customer": {
+                      "column": "customer",
+                      "type": "column"
+                    },
+                    "flow_directions": {
+                      "column": "flow_directions",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "on_behalf_of": {
+                      "column": "on_behalf_of",
+                      "type": "column"
+                    },
+                    "payment_method": {
+                      "column": "payment_method",
+                      "type": "column"
+                    },
+                    "payment_method_details": {
+                      "column": "payment_method_details",
+                      "fields": {
+                        "fields": {
+                          "acss_debit": {
+                            "column": "acss_debit",
+                            "type": "column"
+                          },
+                          "au_becs_debit": {
+                            "column": "au_becs_debit",
+                            "type": "column"
+                          },
+                          "bacs_debit": {
+                            "column": "bacs_debit",
+                            "type": "column"
+                          },
+                          "bancontact": {
+                            "column": "bancontact",
+                            "fields": {
+                              "fields": {
+                                "bank_code": {
+                                  "column": "bank_code",
+                                  "type": "column"
+                                },
+                                "bank_name": {
+                                  "column": "bank_name",
+                                  "type": "column"
+                                },
+                                "bic": {
+                                  "column": "bic",
+                                  "type": "column"
+                                },
+                                "generated_sepa_debit": {
+                                  "column": "generated_sepa_debit",
+                                  "type": "column"
+                                },
+                                "generated_sepa_debit_mandate": {
+                                  "column": "generated_sepa_debit_mandate",
+                                  "type": "column"
+                                },
+                                "iban_last4": {
+                                  "column": "iban_last4",
+                                  "type": "column"
+                                },
+                                "preferred_language": {
+                                  "column": "preferred_language",
+                                  "type": "column"
+                                },
+                                "verified_name": {
+                                  "column": "verified_name",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "boleto": {
+                            "column": "boleto",
+                            "type": "column"
+                          },
+                          "card": {
+                            "column": "card",
+                            "fields": {
+                              "fields": {
+                                "brand": {
+                                  "column": "brand",
+                                  "type": "column"
+                                },
+                                "checks": {
+                                  "column": "checks",
+                                  "type": "column"
+                                },
+                                "country": {
+                                  "column": "country",
+                                  "type": "column"
+                                },
+                                "exp_month": {
+                                  "column": "exp_month",
+                                  "type": "column"
+                                },
+                                "exp_year": {
+                                  "column": "exp_year",
+                                  "type": "column"
+                                },
+                                "fingerprint": {
+                                  "column": "fingerprint",
+                                  "type": "column"
+                                },
+                                "funding": {
+                                  "column": "funding",
+                                  "type": "column"
+                                },
+                                "last4": {
+                                  "column": "last4",
+                                  "type": "column"
+                                },
+                                "network": {
+                                  "column": "network",
+                                  "type": "column"
+                                },
+                                "three_d_secure": {
+                                  "column": "three_d_secure",
+                                  "type": "column"
+                                },
+                                "wallet": {
+                                  "column": "wallet",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "card_present": {
+                            "column": "card_present",
+                            "fields": {
+                              "fields": {
+                                "generated_card": {
+                                  "column": "generated_card",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "cashapp": {
+                            "column": "cashapp",
+                            "type": "column"
+                          },
+                          "ideal": {
+                            "column": "ideal",
+                            "fields": {
+                              "fields": {
+                                "bank": {
+                                  "column": "bank",
+                                  "type": "column"
+                                },
+                                "bic": {
+                                  "column": "bic",
+                                  "type": "column"
+                                },
+                                "generated_sepa_debit": {
+                                  "column": "generated_sepa_debit",
+                                  "type": "column"
+                                },
+                                "generated_sepa_debit_mandate": {
+                                  "column": "generated_sepa_debit_mandate",
+                                  "type": "column"
+                                },
+                                "iban_last4": {
+                                  "column": "iban_last4",
+                                  "type": "column"
+                                },
+                                "verified_name": {
+                                  "column": "verified_name",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "klarna": {
+                            "column": "klarna",
+                            "type": "column"
+                          },
+                          "link": {
+                            "column": "link",
+                            "type": "column"
+                          },
+                          "paypal": {
+                            "column": "paypal",
+                            "type": "column"
+                          },
+                          "sepa_debit": {
+                            "column": "sepa_debit",
+                            "type": "column"
+                          },
+                          "sofort": {
+                            "column": "sofort",
+                            "fields": {
+                              "fields": {
+                                "bank_code": {
+                                  "column": "bank_code",
+                                  "type": "column"
+                                },
+                                "bank_name": {
+                                  "column": "bank_name",
+                                  "type": "column"
+                                },
+                                "bic": {
+                                  "column": "bic",
+                                  "type": "column"
+                                },
+                                "generated_sepa_debit": {
+                                  "column": "generated_sepa_debit",
+                                  "type": "column"
+                                },
+                                "generated_sepa_debit_mandate": {
+                                  "column": "generated_sepa_debit_mandate",
+                                  "type": "column"
+                                },
+                                "iban_last4": {
+                                  "column": "iban_last4",
+                                  "type": "column"
+                                },
+                                "preferred_language": {
+                                  "column": "preferred_language",
+                                  "type": "column"
+                                },
+                                "verified_name": {
+                                  "column": "verified_name",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "type": {
+                            "column": "type",
+                            "type": "column"
+                          },
+                          "us_bank_account": {
+                            "column": "us_bank_account",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "setup_error": {
+                      "column": "setup_error",
+                      "type": "column"
+                    },
+                    "setup_intent": {
+                      "column": "setup_intent",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "usage": {
+                      "column": "usage",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "active": false,
+        "after_completion": {
+          "hosted_confirmation": { "custom_message": "sbl9atGV8m" },
+          "redirect": null,
+          "type": "hosted_confirmation"
+        },
+        "allow_promotion_codes": false,
+        "application": null,
+        "application_fee_amount": null,
+        "application_fee_percent": null,
+        "automatic_tax": { "enabled": false, "liability": null },
+        "billing_address_collection": "required",
+        "consent_collection": null,
+        "currency": "usd",
+        "custom_fields": [],
+        "custom_text": {
+          "after_submit": null,
+          "shipping_address": null,
+          "submit": null,
+          "terms_of_service_acceptance": null
+        },
+        "customer_creation": "if_required",
+        "id": "41jb7m2TfA",
+        "inactive_message": null,
+        "invoice_creation": null,
+        "line_items": null,
+        "livemode": false,
+        "metadata": {},
+        "object": "payment_link",
+        "on_behalf_of": null,
+        "payment_intent_data": null,
+        "payment_method_collection": "if_required",
+        "payment_method_types": null,
+        "phone_number_collection": { "enabled": false },
+        "restrictions": null,
+        "shipping_address_collection": null,
+        "shipping_options": [],
+        "submit_type": "auto",
+        "subscription_data": null,
+        "tax_id_collection": { "enabled": false },
+        "transfer_data": null,
+        "url": "https://pakrym-payment_links_ingress-mydev.dev.stripe.me/test_4gw3eYbvN3ixabe6oo"
+      },
+      "type": "procedure"
+    }
+  ]
+}

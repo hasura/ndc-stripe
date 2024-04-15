@@ -1,0 +1,89 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "4oF1tT837h"
+      ]
+    },
+    "session": {
+      "type": "literal",
+      "value": "2Y9dFXRHBz"
+    }
+  },
+  "collection": "GetIdentityVerificationSessionsSession",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "client_reference_id": {
+              "column": "client_reference_id",
+              "type": "column"
+            },
+            "client_secret": {
+              "column": "client_secret",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "last_error": {
+              "column": "last_error",
+              "type": "column"
+            },
+            "last_verification_report": {
+              "column": "last_verification_report",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "options": {
+              "column": "options",
+              "type": "column"
+            },
+            "redaction": {
+              "column": "redaction",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            },
+            "verified_outputs": {
+              "column": "verified_outputs",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

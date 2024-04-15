@@ -1,0 +1,28 @@
+{
+  "arguments": {
+    "account": {
+      "type": "literal",
+      "value": "QVtOegu8or"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "KekuiRE0ry"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "YYT6XFf90P"
+    }
+  },
+  "collection": "GetAccountsAccountExternalAccountsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "available": { "eur": 10000 },
+          "customer": "mRjWHSS7AH",
+          "livemode": false,
+          "object": "cash_balance",
+          "settings": {
+            "reconciliation_mode": "automatic",
+            "using_merchant_default": true
+          }
+        }
+      }
+    ]
+  }
+]

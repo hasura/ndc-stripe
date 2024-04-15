@@ -1,0 +1,27 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "country": "DE",
+        "created": 1234567890,
+        "customer": "tIo6QwQE9g",
+        "livemode": false,
+        "object": "tax_id",
+        "owner": {
+          "account": null,
+          "application": null,
+          "customer": "tIo6QwQE9g",
+          "type": "customer"
+        },
+        "type": "tr_tin",
+        "value": "IVkplsK6RM",
+        "verification": {
+          "status": "pending",
+          "verified_address": null,
+          "verified_name": null
+        }
+      },
+      "type": "procedure"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "O8cuni8ZoA"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "P4V7uvqdJ7"
+    }
+  },
+  "collection": "GetTreasuryOutboundPaymentsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "cancelable": {
+              "column": "cancelable",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "customer": {
+              "column": "customer",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "destination_payment_method": {
+              "column": "destination_payment_method",
+              "type": "column"
+            },
+            "destination_payment_method_details": {
+              "column": "destination_payment_method_details",
+              "type": "column"
+            },
+            "end_user_details": {
+              "column": "end_user_details",
+              "type": "column"
+            },
+            "expected_arrival_date": {
+              "column": "expected_arrival_date",
+              "type": "column"
+            },
+            "financial_account": {
+              "column": "financial_account",
+              "type": "column"
+            },
+            "hosted_regulatory_receipt_url": {
+              "column": "hosted_regulatory_receipt_url",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "returned_details": {
+              "column": "returned_details",
+              "type": "column"
+            },
+            "statement_descriptor": {
+              "column": "statement_descriptor",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "status_transitions": {
+              "column": "status_transitions",
+              "fields": {
+                "fields": {
+                  "canceled_at": {
+                    "column": "canceled_at",
+                    "type": "column"
+                  },
+                  "failed_at": {
+                    "column": "failed_at",
+                    "type": "column"
+                  },
+                  "posted_at": {
+                    "column": "posted_at",
+                    "type": "column"
+                  },
+                  "returned_at": {
+                    "column": "returned_at",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "transaction": {
+              "column": "transaction",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

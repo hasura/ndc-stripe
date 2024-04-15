@@ -1,0 +1,30 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteApplePayDomainsDomain",
+      "arguments": {
+        "body": null,
+        "domain": "ODxWx2NCz8"
+      },
+      "fields": {
+        "fields": {
+          "deleted": {
+            "column": "deleted",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": 1000,
+              "balance_transaction": null,
+              "created": 1234567890,
+              "currency": "usd",
+              "description": "Top-up description",
+              "expected_availability_date": 123456789,
+              "failure_code": null,
+              "failure_message": null,
+              "id": "tu_1OPounJN5vQBdWExFC5ZOuYf",
+              "livemode": false,
+              "metadata": { "order_id": "12345678" },
+              "object": "topup",
+              "source": {
+                "ach_debit": {
+                  "bank_name": "STRIPE TEST BANK",
+                  "country": "US",
+                  "fingerprint": "5Wh4KBcfDrz5IOnx",
+                  "last4": "6789",
+                  "routing_number": "110000000",
+                  "type": "individual"
+                },
+                "amount": null,
+                "client_secret": "src_client_secret_zJrY2MSz4b4vCQlw9TZcZLEg",
+                "created": 1710375218,
+                "currency": "usd",
+                "flow": "code_verification",
+                "id": "src_1Ou1vSI2S8mDw66k17wJMt0I",
+                "livemode": false,
+                "metadata": {},
+                "object": "source",
+                "owner": {
+                  "address": null,
+                  "email": "jenny.rosen@example.com",
+                  "name": "Jenny Rosen",
+                  "phone": null,
+                  "verified_address": null,
+                  "verified_email": null,
+                  "verified_name": null,
+                  "verified_phone": null
+                },
+                "statement_descriptor": null,
+                "status": "pending",
+                "type": "ach_debit",
+                "usage": "reusable"
+              },
+              "statement_descriptor": null,
+              "status": "pending",
+              "transfer_group": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/topups"
+        }
+      }
+    ]
+  }
+]

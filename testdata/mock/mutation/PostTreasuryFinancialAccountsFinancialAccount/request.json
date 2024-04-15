@@ -1,0 +1,626 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTreasuryFinancialAccountsFinancialAccount",
+      "arguments": {
+        "features": {
+          "card_issuing": {
+            "requested": true
+          },
+          "deposit_insurance": {
+            "requested": true
+          },
+          "financial_addresses": {
+            "aba": {
+              "requested": false
+            }
+          },
+          "inbound_transfers": {
+            "ach": {
+              "requested": true
+            }
+          },
+          "intra_stripe_flows": {
+            "requested": false
+          },
+          "outbound_payments": {
+            "ach": {
+              "requested": false
+            },
+            "us_domestic_wire": {
+              "requested": false
+            }
+          },
+          "outbound_transfers": {
+            "ach": {
+              "requested": false
+            },
+            "us_domestic_wire": {
+              "requested": false
+            }
+          }
+        },
+        "financial_account": "pTvLFWvqtC",
+        "metadata": null,
+        "platform_restrictions": {
+          "inbound_flows": "unrestricted",
+          "outbound_flows": "unrestricted"
+        }
+      },
+      "fields": {
+        "fields": {
+          "active_features": {
+            "column": "active_features",
+            "type": "column"
+          },
+          "balance": {
+            "column": "balance",
+            "fields": {
+              "fields": {
+                "cash": {
+                  "column": "cash",
+                  "type": "column"
+                },
+                "inbound_pending": {
+                  "column": "inbound_pending",
+                  "type": "column"
+                },
+                "outbound_pending": {
+                  "column": "outbound_pending",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "country": {
+            "column": "country",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "features": {
+            "column": "features",
+            "fields": {
+              "fields": {
+                "card_issuing": {
+                  "column": "card_issuing",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "deposit_insurance": {
+                  "column": "deposit_insurance",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "financial_addresses": {
+                  "column": "financial_addresses",
+                  "fields": {
+                    "fields": {
+                      "aba": {
+                        "column": "aba",
+                        "fields": {
+                          "fields": {
+                            "requested": {
+                              "column": "requested",
+                              "type": "column"
+                            },
+                            "status": {
+                              "column": "status",
+                              "type": "column"
+                            },
+                            "status_details": {
+                              "column": "status_details",
+                              "fields": {
+                                "fields": {
+                                  "fields": {
+                                    "code": {
+                                      "column": "code",
+                                      "type": "column"
+                                    },
+                                    "resolution": {
+                                      "column": "resolution",
+                                      "type": "column"
+                                    },
+                                    "restriction": {
+                                      "column": "restriction",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "inbound_transfers": {
+                  "column": "inbound_transfers",
+                  "fields": {
+                    "fields": {
+                      "ach": {
+                        "column": "ach",
+                        "fields": {
+                          "fields": {
+                            "requested": {
+                              "column": "requested",
+                              "type": "column"
+                            },
+                            "status": {
+                              "column": "status",
+                              "type": "column"
+                            },
+                            "status_details": {
+                              "column": "status_details",
+                              "fields": {
+                                "fields": {
+                                  "fields": {
+                                    "code": {
+                                      "column": "code",
+                                      "type": "column"
+                                    },
+                                    "resolution": {
+                                      "column": "resolution",
+                                      "type": "column"
+                                    },
+                                    "restriction": {
+                                      "column": "restriction",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "intra_stripe_flows": {
+                  "column": "intra_stripe_flows",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "outbound_payments": {
+                  "column": "outbound_payments",
+                  "fields": {
+                    "fields": {
+                      "ach": {
+                        "column": "ach",
+                        "fields": {
+                          "fields": {
+                            "requested": {
+                              "column": "requested",
+                              "type": "column"
+                            },
+                            "status": {
+                              "column": "status",
+                              "type": "column"
+                            },
+                            "status_details": {
+                              "column": "status_details",
+                              "fields": {
+                                "fields": {
+                                  "fields": {
+                                    "code": {
+                                      "column": "code",
+                                      "type": "column"
+                                    },
+                                    "resolution": {
+                                      "column": "resolution",
+                                      "type": "column"
+                                    },
+                                    "restriction": {
+                                      "column": "restriction",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "us_domestic_wire": {
+                        "column": "us_domestic_wire",
+                        "fields": {
+                          "fields": {
+                            "requested": {
+                              "column": "requested",
+                              "type": "column"
+                            },
+                            "status": {
+                              "column": "status",
+                              "type": "column"
+                            },
+                            "status_details": {
+                              "column": "status_details",
+                              "fields": {
+                                "fields": {
+                                  "fields": {
+                                    "code": {
+                                      "column": "code",
+                                      "type": "column"
+                                    },
+                                    "resolution": {
+                                      "column": "resolution",
+                                      "type": "column"
+                                    },
+                                    "restriction": {
+                                      "column": "restriction",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "outbound_transfers": {
+                  "column": "outbound_transfers",
+                  "fields": {
+                    "fields": {
+                      "ach": {
+                        "column": "ach",
+                        "fields": {
+                          "fields": {
+                            "requested": {
+                              "column": "requested",
+                              "type": "column"
+                            },
+                            "status": {
+                              "column": "status",
+                              "type": "column"
+                            },
+                            "status_details": {
+                              "column": "status_details",
+                              "fields": {
+                                "fields": {
+                                  "fields": {
+                                    "code": {
+                                      "column": "code",
+                                      "type": "column"
+                                    },
+                                    "resolution": {
+                                      "column": "resolution",
+                                      "type": "column"
+                                    },
+                                    "restriction": {
+                                      "column": "restriction",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "us_domestic_wire": {
+                        "column": "us_domestic_wire",
+                        "fields": {
+                          "fields": {
+                            "requested": {
+                              "column": "requested",
+                              "type": "column"
+                            },
+                            "status": {
+                              "column": "status",
+                              "type": "column"
+                            },
+                            "status_details": {
+                              "column": "status_details",
+                              "fields": {
+                                "fields": {
+                                  "fields": {
+                                    "code": {
+                                      "column": "code",
+                                      "type": "column"
+                                    },
+                                    "resolution": {
+                                      "column": "resolution",
+                                      "type": "column"
+                                    },
+                                    "restriction": {
+                                      "column": "restriction",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "financial_addresses": {
+            "column": "financial_addresses",
+            "fields": {
+              "fields": {
+                "fields": {
+                  "aba": {
+                    "column": "aba",
+                    "fields": {
+                      "fields": {
+                        "account_holder_name": {
+                          "column": "account_holder_name",
+                          "type": "column"
+                        },
+                        "account_number": {
+                          "column": "account_number",
+                          "type": "column"
+                        },
+                        "account_number_last4": {
+                          "column": "account_number_last4",
+                          "type": "column"
+                        },
+                        "bank_name": {
+                          "column": "bank_name",
+                          "type": "column"
+                        },
+                        "routing_number": {
+                          "column": "routing_number",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "supported_networks": {
+                    "column": "supported_networks",
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "pending_features": {
+            "column": "pending_features",
+            "type": "column"
+          },
+          "platform_restrictions": {
+            "column": "platform_restrictions",
+            "fields": {
+              "fields": {
+                "inbound_flows": {
+                  "column": "inbound_flows",
+                  "type": "column"
+                },
+                "outbound_flows": {
+                  "column": "outbound_flows",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "restricted_features": {
+            "column": "restricted_features",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "status_details": {
+            "column": "status_details",
+            "fields": {
+              "fields": {
+                "closed": {
+                  "column": "closed",
+                  "fields": {
+                    "fields": {
+                      "reasons": {
+                        "column": "reasons",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "supported_currencies": {
+            "column": "supported_currencies",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

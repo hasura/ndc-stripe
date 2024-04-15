@@ -1,0 +1,63 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "application": null,
+              "application_fee_percent": null,
+              "automatic_tax": null,
+              "billing_cycle_anchor": null,
+              "billing_cycle_anchor_config": null,
+              "billing_thresholds": null,
+              "cancel_at": null,
+              "cancel_at_period_end": null,
+              "canceled_at": null,
+              "cancellation_details": null,
+              "collection_method": null,
+              "created": 1234567890,
+              "currency": "usd",
+              "current_period_end": null,
+              "current_period_start": null,
+              "customer": null,
+              "days_until_due": null,
+              "default_payment_method": null,
+              "default_source": null,
+              "default_tax_rates": null,
+              "description": null,
+              "discount": null,
+              "ended_at": null,
+              "id": "price_1OPouiJN5vQBdWExAQaqTooZ",
+              "items": null,
+              "latest_invoice": null,
+              "livemode": false,
+              "metadata": {},
+              "next_pending_invoice_item_invoice": null,
+              "object": "price",
+              "on_behalf_of": null,
+              "pause_collection": null,
+              "payment_settings": null,
+              "pending_invoice_item_interval": null,
+              "pending_setup_intent": null,
+              "pending_update": null,
+              "schedule": null,
+              "start_date": null,
+              "status": null,
+              "test_clock": null,
+              "transfer_data": null,
+              "trial_end": null,
+              "trial_settings": null,
+              "trial_start": null
+            }
+          ],
+          "has_more": false,
+          "next_page": null,
+          "object": "search_result",
+          "total_count": 1,
+          "url": "/v1/prices/search"
+        }
+      }
+    ]
+  }
+]

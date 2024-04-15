@@ -1,0 +1,25 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "actionable": true,
+              "charge": "ch_1234",
+              "created": 1234567890,
+              "fraud_type": "misc",
+              "id": "issfr_1OPouuJN5vQBdWEx1nfPQnik",
+              "livemode": false,
+              "object": "radar.early_fraud_warning",
+              "payment_intent": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/radar/early_fraud_warnings"
+        }
+      }
+    ]
+  }
+]

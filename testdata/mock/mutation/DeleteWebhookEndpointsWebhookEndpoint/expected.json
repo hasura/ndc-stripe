@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "deleted": true,
+        "id": "QeuW8t9NlD",
+        "object": "webhook_endpoint"
+      },
+      "type": "procedure"
+    }
+  ]
+}

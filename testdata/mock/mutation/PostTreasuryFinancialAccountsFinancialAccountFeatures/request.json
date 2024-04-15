@@ -1,0 +1,462 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTreasuryFinancialAccountsFinancialAccountFeatures",
+      "arguments": {
+        "card_issuing": {
+          "requested": false
+        },
+        "deposit_insurance": {
+          "requested": false
+        },
+        "expand": [],
+        "financial_account": "66mbGEIA2H",
+        "financial_addresses": {
+          "aba": {
+            "requested": true
+          }
+        },
+        "inbound_transfers": {
+          "ach": {
+            "requested": true
+          }
+        },
+        "intra_stripe_flows": {
+          "requested": false
+        },
+        "outbound_payments": {
+          "ach": {
+            "requested": false
+          },
+          "us_domestic_wire": {
+            "requested": true
+          }
+        },
+        "outbound_transfers": {
+          "ach": {
+            "requested": false
+          },
+          "us_domestic_wire": {
+            "requested": false
+          }
+        }
+      },
+      "fields": {
+        "fields": {
+          "card_issuing": {
+            "column": "card_issuing",
+            "fields": {
+              "fields": {
+                "requested": {
+                  "column": "requested",
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "code": {
+                          "column": "code",
+                          "type": "column"
+                        },
+                        "resolution": {
+                          "column": "resolution",
+                          "type": "column"
+                        },
+                        "restriction": {
+                          "column": "restriction",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "deposit_insurance": {
+            "column": "deposit_insurance",
+            "fields": {
+              "fields": {
+                "requested": {
+                  "column": "requested",
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "code": {
+                          "column": "code",
+                          "type": "column"
+                        },
+                        "resolution": {
+                          "column": "resolution",
+                          "type": "column"
+                        },
+                        "restriction": {
+                          "column": "restriction",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "financial_addresses": {
+            "column": "financial_addresses",
+            "fields": {
+              "fields": {
+                "aba": {
+                  "column": "aba",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "inbound_transfers": {
+            "column": "inbound_transfers",
+            "fields": {
+              "fields": {
+                "ach": {
+                  "column": "ach",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "intra_stripe_flows": {
+            "column": "intra_stripe_flows",
+            "fields": {
+              "fields": {
+                "requested": {
+                  "column": "requested",
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "code": {
+                          "column": "code",
+                          "type": "column"
+                        },
+                        "resolution": {
+                          "column": "resolution",
+                          "type": "column"
+                        },
+                        "restriction": {
+                          "column": "restriction",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "outbound_payments": {
+            "column": "outbound_payments",
+            "fields": {
+              "fields": {
+                "ach": {
+                  "column": "ach",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "us_domestic_wire": {
+                  "column": "us_domestic_wire",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "outbound_transfers": {
+            "column": "outbound_transfers",
+            "fields": {
+              "fields": {
+                "ach": {
+                  "column": "ach",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "us_domestic_wire": {
+                  "column": "us_domestic_wire",
+                  "fields": {
+                    "fields": {
+                      "requested": {
+                        "column": "requested",
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      },
+                      "status_details": {
+                        "column": "status_details",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "resolution": {
+                                "column": "resolution",
+                                "type": "column"
+                              },
+                              "restriction": {
+                                "column": "restriction",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

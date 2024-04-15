@@ -1,0 +1,44 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "active": false,
+        "code": "OmxckdA8qj",
+        "coupon": {
+          "amount_off": null,
+          "applies_to": null,
+          "created": 1703175364,
+          "currency": "usd",
+          "currency_options": null,
+          "duration": "repeating",
+          "duration_in_months": 3,
+          "id": "Z4OV52SU",
+          "livemode": false,
+          "max_redemptions": null,
+          "metadata": {},
+          "name": "25.5% off",
+          "object": "coupon",
+          "percent_off": 25.5,
+          "redeem_by": null,
+          "times_redeemed": 0,
+          "valid": true
+        },
+        "created": 1234567890,
+        "customer": "uIsFFjp9CU",
+        "expires_at": 209948022,
+        "livemode": false,
+        "max_redemptions": 1714547927,
+        "metadata": {},
+        "object": "promotion_code",
+        "restrictions": {
+          "currency_options": null,
+          "first_time_transaction": false,
+          "minimum_amount": 1699766210,
+          "minimum_amount_currency": "m49P92SYud"
+        },
+        "times_redeemed": 0
+      },
+      "type": "procedure"
+    }
+  ]
+}

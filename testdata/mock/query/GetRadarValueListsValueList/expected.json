@@ -1,0 +1,35 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "alias": "custom_ip_blocklist",
+          "created": 1234567890,
+          "created_by": "jenny@example.com",
+          "id": "yXXx8LMMa3",
+          "item_type": "ip_address",
+          "list_items": {
+            "data": [
+              {
+                "created": 1234567890,
+                "created_by": "jenny@example.com",
+                "id": "rsli_1OPouuJN5vQBdWExu3DMfSOX",
+                "livemode": false,
+                "object": "radar.value_list_item",
+                "value": "1.2.3.4",
+                "value_list": "rsl_1OPouuJN5vQBdWExHVJyCl0n"
+              }
+            ],
+            "has_more": false,
+            "object": "list",
+            "url": "/v1/radar/value_list_items?value_list=rsl_1OPouuJN5vQBdWExWiMNdstK"
+          },
+          "livemode": false,
+          "metadata": {},
+          "name": "Custom IP Blocklist",
+          "object": "radar.value_list"
+        }
+      }
+    ]
+  }
+]

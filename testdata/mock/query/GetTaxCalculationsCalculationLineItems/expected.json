@@ -1,0 +1,28 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": 1499,
+              "amount_tax": 148,
+              "id": "tax_li_PEHTRKid3aAj4P",
+              "livemode": false,
+              "object": "tax.calculation_line_item",
+              "product": null,
+              "quantity": 1,
+              "reference": "Pepperoni Pizza",
+              "tax_behavior": "exclusive",
+              "tax_breakdown": null,
+              "tax_code": "txcd_40060003"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/tax/calculations/id_123/line_items"
+        }
+      }
+    ]
+  }
+]

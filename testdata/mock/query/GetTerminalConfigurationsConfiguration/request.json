@@ -1,0 +1,24 @@
+{
+  "arguments": {
+    "configuration": {
+      "type": "literal",
+      "value": "5Exuth9PGJ"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "Oj9gOozP9T"
+      ]
+    }
+  },
+  "collection": "GetTerminalConfigurationsConfiguration",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "type": "column"
+      }
+    }
+  }
+}

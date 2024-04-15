@@ -1,0 +1,19 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "configuration": "nvNhPydGGA",
+        "created": 1234567890,
+        "customer": "ntu47NQUW6",
+        "flow": null,
+        "livemode": true,
+        "locale": "pl",
+        "object": "billing_portal.session",
+        "on_behalf_of": "motfbd6rdA",
+        "return_url": "Jkf1gz1M8L",
+        "url": "https://pakrym-customer_portal-mydev.dev.stripe.me/session/{SESSION_SECRET}"
+      },
+      "type": "procedure"
+    }
+  ]
+}

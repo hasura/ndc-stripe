@@ -1,0 +1,150 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostPlansPlan",
+      "arguments": {
+        "active": true,
+        "expand": [
+          "Ugpp1vlynP"
+        ],
+        "metadata": null,
+        "nickname": "NkUS1jrbEd",
+        "plan": "W4GAIRb7Lt",
+        "product": "W2Kq48y5Pk",
+        "trial_period_days": 1481166597
+      },
+      "fields": {
+        "fields": {
+          "active": {
+            "column": "active",
+            "type": "column"
+          },
+          "aggregate_usage": {
+            "column": "aggregate_usage",
+            "type": "column"
+          },
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "amount_decimal": {
+            "column": "amount_decimal",
+            "type": "column"
+          },
+          "billing_scheme": {
+            "column": "billing_scheme",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "interval": {
+            "column": "interval",
+            "type": "column"
+          },
+          "interval_count": {
+            "column": "interval_count",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "meter": {
+            "column": "meter",
+            "type": "column"
+          },
+          "nickname": {
+            "column": "nickname",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "product": {
+            "column": "product",
+            "type": "column"
+          },
+          "tiers": {
+            "column": "tiers",
+            "fields": {
+              "fields": {
+                "fields": {
+                  "flat_amount": {
+                    "column": "flat_amount",
+                    "type": "column"
+                  },
+                  "flat_amount_decimal": {
+                    "column": "flat_amount_decimal",
+                    "type": "column"
+                  },
+                  "unit_amount": {
+                    "column": "unit_amount",
+                    "type": "column"
+                  },
+                  "unit_amount_decimal": {
+                    "column": "unit_amount_decimal",
+                    "type": "column"
+                  },
+                  "up_to": {
+                    "column": "up_to",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "type": "column"
+          },
+          "tiers_mode": {
+            "column": "tiers_mode",
+            "type": "column"
+          },
+          "transform_usage": {
+            "column": "transform_usage",
+            "fields": {
+              "fields": {
+                "divide_by": {
+                  "column": "divide_by",
+                  "type": "column"
+                },
+                "round": {
+                  "column": "round",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "trial_period_days": {
+            "column": "trial_period_days",
+            "type": "column"
+          },
+          "usage_type": {
+            "column": "usage_type",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

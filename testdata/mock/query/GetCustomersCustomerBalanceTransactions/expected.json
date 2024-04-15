@@ -1,0 +1,30 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": -500,
+              "created": 1234567890,
+              "credit_note": null,
+              "currency": "usd",
+              "customer": "lvO6bFaMrX",
+              "description": null,
+              "ending_balance": -500,
+              "id": "cbtxn_1OPoulJN5vQBdWExjRxTJd1t",
+              "invoice": null,
+              "livemode": false,
+              "metadata": null,
+              "object": "customer_balance_transaction",
+              "type": "adjustment"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/customers/lvO6bFaMrX/balance_transactions"
+        }
+      }
+    ]
+  }
+]

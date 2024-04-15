@@ -1,0 +1,19 @@
+services:
+  ndc-stripe:
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    volumes:
+      - ./config:/config:ro
+    environment:
+      STRIPE_SERVER_URL: ${STRIPE_SERVER_URL}
+      STRIPE_BASIC_AUTH_TOKEN: ${STRIPE_BASIC_AUTH_TOKEN}
+      STRIPE_BEARER_AUTH_TOKEN: ${STRIPE_BEARER_AUTH_TOKEN}
+      HASURA_LOG_LEVEL: debug
+
+  stripe-mock:
+    # https://hub.docker.com/r/stripe/stripe-mock/tags
+    image: stripe/stripe-mock:v0.184.0
+    ports:
+      - "12111-12112:12111-12112"

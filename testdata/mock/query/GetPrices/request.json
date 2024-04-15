@@ -1,0 +1,206 @@
+{
+  "arguments": {
+    "active": {
+      "type": "literal",
+      "value": false
+    },
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "currency": {
+      "type": "literal",
+      "value": "mojODr1XuP"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "eoyF3ullho"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "GP7m4fej02"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 12374
+    },
+    "lookup_keys": {
+      "type": "literal",
+      "value": [
+        "gDRlfMKRyN"
+      ]
+    },
+    "product": {
+      "type": "literal",
+      "value": "oDUCOyp371"
+    },
+    "recurring": {
+      "type": "literal",
+      "value": {
+        "interval": "day",
+        "usage_type": "licensed"
+      }
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "f9ZOsjRd65"
+    },
+    "type": {
+      "type": "literal",
+      "value": "recurring"
+    }
+  },
+  "collection": "GetPrices",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "active": {
+                      "column": "active",
+                      "type": "column"
+                    },
+                    "billing_scheme": {
+                      "column": "billing_scheme",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "currency_options": {
+                      "column": "currency_options",
+                      "type": "column"
+                    },
+                    "custom_unit_amount": {
+                      "column": "custom_unit_amount",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "lookup_key": {
+                      "column": "lookup_key",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "nickname": {
+                      "column": "nickname",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "product": {
+                      "column": "product",
+                      "type": "column"
+                    },
+                    "recurring": {
+                      "column": "recurring",
+                      "type": "column"
+                    },
+                    "tax_behavior": {
+                      "column": "tax_behavior",
+                      "type": "column"
+                    },
+                    "tiers": {
+                      "column": "tiers",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "flat_amount": {
+                              "column": "flat_amount",
+                              "type": "column"
+                            },
+                            "flat_amount_decimal": {
+                              "column": "flat_amount_decimal",
+                              "type": "column"
+                            },
+                            "unit_amount": {
+                              "column": "unit_amount",
+                              "type": "column"
+                            },
+                            "unit_amount_decimal": {
+                              "column": "unit_amount_decimal",
+                              "type": "column"
+                            },
+                            "up_to": {
+                              "column": "up_to",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "tiers_mode": {
+                      "column": "tiers_mode",
+                      "type": "column"
+                    },
+                    "transform_quantity": {
+                      "column": "transform_quantity",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    },
+                    "unit_amount": {
+                      "column": "unit_amount",
+                      "type": "column"
+                    },
+                    "unit_amount_decimal": {
+                      "column": "unit_amount_decimal",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

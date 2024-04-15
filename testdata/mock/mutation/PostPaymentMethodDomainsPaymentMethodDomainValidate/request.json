@@ -1,0 +1,142 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostPaymentMethodDomainsPaymentMethodDomainValidate",
+      "arguments": {
+        "expand": ["apple_pay"],
+        "payment_method_domain": "X6ri9HyzNk"
+      },
+      "fields": {
+        "fields": {
+          "apple_pay": {
+            "column": "apple_pay",
+            "fields": {
+              "fields": {
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "error_message": {
+                        "column": "error_message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "domain_name": {
+            "column": "domain_name",
+            "type": "column"
+          },
+          "enabled": {
+            "column": "enabled",
+            "type": "column"
+          },
+          "google_pay": {
+            "column": "google_pay",
+            "fields": {
+              "fields": {
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "error_message": {
+                        "column": "error_message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "link": {
+            "column": "link",
+            "fields": {
+              "fields": {
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "error_message": {
+                        "column": "error_message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "paypal": {
+            "column": "paypal",
+            "fields": {
+              "fields": {
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "status_details": {
+                  "column": "status_details",
+                  "fields": {
+                    "fields": {
+                      "error_message": {
+                        "column": "error_message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "arguments": {
+    "amount": {
+      "type": "literal",
+      "value": null
+    },
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "Eas0srz7rZ"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "TUfnvID4kN"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 25744
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "VDqx4ItN0P"
+    },
+    "status": {
+      "type": "literal",
+      "value": "canceled"
+    }
+  },
+  "collection": "GetTopups",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "balance_transaction": {
+                      "column": "balance_transaction",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "expected_availability_date": {
+                      "column": "expected_availability_date",
+                      "type": "column"
+                    },
+                    "failure_code": {
+                      "column": "failure_code",
+                      "type": "column"
+                    },
+                    "failure_message": {
+                      "column": "failure_message",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "source": {
+                      "column": "source",
+                      "type": "column"
+                    },
+                    "statement_descriptor": {
+                      "column": "statement_descriptor",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "transfer_group": {
+                      "column": "transfer_group",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

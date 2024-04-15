@@ -1,0 +1,14 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteCustomersCustomerBankAccountsId",
+      "arguments": {
+        "expand": ["customer"],
+        "customer": "X1bVAba7Sg",
+        "id": "sET2Jz3QD6"
+      }
+    }
+  ]
+}

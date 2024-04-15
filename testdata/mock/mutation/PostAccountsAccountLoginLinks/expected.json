@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1234567890,
+        "object": "login_link",
+        "url": "https://pakrym-manage-mydev.dev.stripe.me/express/acct_1OPouMJN5vQBdWEx/KDbirv0KG5kK"
+      },
+      "type": "procedure"
+    }
+  ]
+}

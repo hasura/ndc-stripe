@@ -1,0 +1,14 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1234567890,
+        "expires": 1234567890,
+        "livemode": false,
+        "object": "ephemeral_key",
+        "secret": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

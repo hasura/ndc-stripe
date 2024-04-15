@@ -1,0 +1,77 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 358023064,
+        "balance_transaction": null,
+        "created": 1234567890,
+        "currency": "eQOg9yMnWX",
+        "description": "6rFfDZZKkh",
+        "expected_availability_date": 123456789,
+        "failure_code": null,
+        "failure_message": null,
+        "livemode": false,
+        "metadata": { "order_id": "12345678" },
+        "object": "topup",
+        "source": {
+          "ach_credit_transfer": null,
+          "ach_debit": {
+            "bank_name": "STRIPE TEST BANK",
+            "country": "US",
+            "fingerprint": "5Wh4KBcfDrz5IOnx",
+            "last4": "6789",
+            "routing_number": "110000000",
+            "type": "individual"
+          },
+          "acss_debit": null,
+          "alipay": null,
+          "amount": null,
+          "au_becs_debit": null,
+          "bancontact": null,
+          "card": null,
+          "card_present": null,
+          "client_secret": "src_client_secret_zJrY2MSz4b4vCQlw9TZcZLEg",
+          "code_verification": null,
+          "created": 1710375218,
+          "currency": "usd",
+          "customer": null,
+          "eps": null,
+          "flow": "code_verification",
+          "giropay": null,
+          "ideal": null,
+          "klarna": null,
+          "livemode": false,
+          "metadata": {},
+          "multibanco": null,
+          "object": "source",
+          "owner": {
+            "address": null,
+            "email": "jenny.rosen@example.com",
+            "name": "Jenny Rosen",
+            "phone": null,
+            "verified_address": null,
+            "verified_email": null,
+            "verified_name": null,
+            "verified_phone": null
+          },
+          "p24": null,
+          "receiver": null,
+          "redirect": null,
+          "sepa_debit": null,
+          "sofort": null,
+          "source_order": null,
+          "statement_descriptor": null,
+          "status": "pending",
+          "three_d_secure": null,
+          "type": "ach_debit",
+          "usage": "reusable",
+          "wechat": null
+        },
+        "statement_descriptor": "vlcy2LE46R",
+        "status": "pending",
+        "transfer_group": "zag9Uaz9PB"
+      },
+      "type": "procedure"
+    }
+  ]
+}

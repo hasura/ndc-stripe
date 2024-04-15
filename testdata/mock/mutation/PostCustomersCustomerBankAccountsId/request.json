@@ -1,0 +1,41 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCustomersCustomerBankAccountsId",
+      "arguments": {
+        "account_holder_name": "QLCHVR9jDv",
+        "account_holder_type": "company",
+        "address_city": "UTxIWupE4z",
+        "address_country": "6KckJNZMpJ",
+        "address_line1": "CDZHeD8q7P",
+        "address_line2": "dH3BjOh5cF",
+        "address_state": "AQhDM1nQgN",
+        "address_zip": "ptta3Trrco",
+        "customer": "ikzceXp4RN",
+        "exp_month": "5YkKMuhXYC",
+        "exp_year": "Zs9fum74H9",
+        "expand": [
+          "ipaPqVKFbd"
+        ],
+        "id": "7hHMcQN1Ex",
+        "metadata": null,
+        "name": "8vw4W2ICuO",
+        "owner": {
+          "address": {
+            "city": "xzA2Uy48zV",
+            "country": "OCc3BDAudx",
+            "line1": "oKs48vSmtK",
+            "line2": "nUGqoGdnOq",
+            "postal_code": "pA3gbbAS9B",
+            "state": "DT5Tv8ckFi"
+          },
+          "email": "4B0abtQJ2d",
+          "name": "Eswv4vHXoh",
+          "phone": "KItUpiIQ1b"
+        }
+      }
+    }
+  ]
+}

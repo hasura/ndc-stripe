@@ -1,0 +1,28 @@
+{
+  "arguments": {
+    "account": {
+      "type": "literal",
+      "value": "SALWucs0f0"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "J85VAdOpx4"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "GPTWtho8i8"
+    }
+  },
+  "collection": "GetAccountsAccountBankAccountsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "type": "column"
+      }
+    }
+  }
+}

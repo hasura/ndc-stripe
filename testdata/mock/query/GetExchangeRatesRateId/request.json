@@ -1,0 +1,35 @@
+{
+  "arguments": {
+    "rate_id": {
+      "type": "literal",
+      "value": "XUlNhRoG3f"
+    }
+  },
+  "collection": "GetExchangeRatesRateId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "rates": {
+              "column": "rates",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

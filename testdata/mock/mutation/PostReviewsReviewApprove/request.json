@@ -1,0 +1,116 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostReviewsReviewApprove",
+      "arguments": {
+        "expand": ["OF0ybR4zRj"],
+        "review": "Eho9O8x55m"
+      },
+      "fields": {
+        "fields": {
+          "billing_zip": {
+            "column": "billing_zip",
+            "type": "column"
+          },
+          "charge": {
+            "column": "charge",
+            "type": "column"
+          },
+          "closed_reason": {
+            "column": "closed_reason",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "ip_address": {
+            "column": "ip_address",
+            "type": "column"
+          },
+          "ip_address_location": {
+            "column": "ip_address_location",
+            "fields": {
+              "fields": {
+                "city": {
+                  "column": "city",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "latitude": {
+                  "column": "latitude",
+                  "type": "column"
+                },
+                "longitude": {
+                  "column": "longitude",
+                  "type": "column"
+                },
+                "region": {
+                  "column": "region",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "open": {
+            "column": "open",
+            "type": "column"
+          },
+          "opened_reason": {
+            "column": "opened_reason",
+            "type": "column"
+          },
+          "payment_intent": {
+            "column": "payment_intent",
+            "type": "column"
+          },
+          "reason": {
+            "column": "reason",
+            "type": "column"
+          },
+          "session": {
+            "column": "session",
+            "fields": {
+              "fields": {
+                "browser": {
+                  "column": "browser",
+                  "type": "column"
+                },
+                "device": {
+                  "column": "device",
+                  "type": "column"
+                },
+                "platform": {
+                  "column": "platform",
+                  "type": "column"
+                },
+                "version": {
+                  "column": "version",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

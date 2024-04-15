@@ -1,0 +1,60 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "client_reference_id": null,
+          "created": 1234567890,
+          "document": {
+            "address": {
+              "city": "San Francisco",
+              "country": "US",
+              "line1": "1234 Main St.",
+              "line2": null,
+              "postal_code": null,
+              "state": "CA"
+            },
+            "dob": null,
+            "error": null,
+            "expiration_date": {
+              "day": 1,
+              "month": 12,
+              "year": 2025
+            },
+            "files": [
+              "file_PEHTDcVdS1FsitkFp1GIIfBV",
+              "file_PEHTLEOP6X1X7QoBzeaNVDVV"
+            ],
+            "first_name": "Jenny",
+            "issued_date": {
+              "day": 1,
+              "month": 12,
+              "year": 2020
+            },
+            "issuing_country": "US",
+            "last_name": "Rosen",
+            "number": null,
+            "status": "verified",
+            "type": "driving_license"
+          },
+          "id": "ZeBHtecqPv",
+          "id_number": null,
+          "livemode": false,
+          "object": "identity.verification_report",
+          "options": {
+            "document": {
+              "allowed_types": null,
+              "require_id_number": null,
+              "require_live_capture": null,
+              "require_matching_selfie": null
+            },
+            "id_number": {}
+          },
+          "selfie": null,
+          "type": "document",
+          "verification_session": "vs_1OPouwJN5vQBdWExbazjv0rx"
+        }
+      }
+    ]
+  }
+]

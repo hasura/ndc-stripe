@@ -1,0 +1,31 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "address": {
+                "city": "San Francisco",
+                "country": "US",
+                "line1": "1234 Fake Street",
+                "line2": null,
+                "postal_code": "94102",
+                "state": "CA"
+              },
+              "configuration_overrides": null,
+              "display_name": "My First Store",
+              "id": "tml_NGBMEGFknv9VbAajaGp51lDl",
+              "livemode": false,
+              "metadata": {},
+              "object": "terminal.location"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/terminal/locations"
+        }
+      }
+    ]
+  }
+]

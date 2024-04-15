@@ -1,0 +1,85 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "sStTRIZakH"
+      ]
+    },
+    "review": {
+      "type": "literal",
+      "value": "CLAB0R1ncW"
+    }
+  },
+  "collection": "GetReviewsReview",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "billing_zip": {
+              "column": "billing_zip",
+              "type": "column"
+            },
+            "charge": {
+              "column": "charge",
+              "type": "column"
+            },
+            "closed_reason": {
+              "column": "closed_reason",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "ip_address": {
+              "column": "ip_address",
+              "type": "column"
+            },
+            "ip_address_location": {
+              "column": "ip_address_location",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "open": {
+              "column": "open",
+              "type": "column"
+            },
+            "opened_reason": {
+              "column": "opened_reason",
+              "type": "column"
+            },
+            "payment_intent": {
+              "column": "payment_intent",
+              "type": "column"
+            },
+            "reason": {
+              "column": "reason",
+              "type": "column"
+            },
+            "session": {
+              "column": "session",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

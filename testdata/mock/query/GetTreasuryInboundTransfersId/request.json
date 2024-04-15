@@ -1,0 +1,135 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "tmvYPRyA8l"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "250q0HPNWd"
+    }
+  },
+  "collection": "GetTreasuryInboundTransfersId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "cancelable": {
+              "column": "cancelable",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "failure_details": {
+              "column": "failure_details",
+              "type": "column"
+            },
+            "financial_account": {
+              "column": "financial_account",
+              "type": "column"
+            },
+            "hosted_regulatory_receipt_url": {
+              "column": "hosted_regulatory_receipt_url",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "linked_flows": {
+              "column": "linked_flows",
+              "fields": {
+                "fields": {
+                  "received_debit": {
+                    "column": "received_debit",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "origin_payment_method": {
+              "column": "origin_payment_method",
+              "type": "column"
+            },
+            "origin_payment_method_details": {
+              "column": "origin_payment_method_details",
+              "type": "column"
+            },
+            "returned": {
+              "column": "returned",
+              "type": "column"
+            },
+            "statement_descriptor": {
+              "column": "statement_descriptor",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "status_transitions": {
+              "column": "status_transitions",
+              "fields": {
+                "fields": {
+                  "canceled_at": {
+                    "column": "canceled_at",
+                    "type": "column"
+                  },
+                  "failed_at": {
+                    "column": "failed_at",
+                    "type": "column"
+                  },
+                  "succeeded_at": {
+                    "column": "succeeded_at",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "transaction": {
+              "column": "transaction",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

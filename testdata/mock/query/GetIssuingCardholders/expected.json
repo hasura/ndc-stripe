@@ -1,0 +1,52 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "billing": {
+                "address": {
+                  "city": "Beverly Hills",
+                  "country": "US",
+                  "line1": "123 Fake St",
+                  "line2": "Apt 3",
+                  "postal_code": "90210",
+                  "state": "CA"
+                }
+              },
+              "company": null,
+              "created": 1234567890,
+              "email": "jenny@example.com",
+              "id": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+              "individual": null,
+              "livemode": false,
+              "metadata": {},
+              "name": "Jenny Rosen",
+              "object": "issuing.cardholder",
+              "phone_number": "+18008675309",
+              "preferred_locales": ["en"],
+              "requirements": {
+                "disabled_reason": null,
+                "past_due": []
+              },
+              "spending_controls": {
+                "allowed_categories": [],
+                "allowed_merchant_countries": null,
+                "blocked_categories": [],
+                "blocked_merchant_countries": null,
+                "spending_limits": [],
+                "spending_limits_currency": null
+              },
+              "status": "active",
+              "type": "individual"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/issuing/cardholders"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "amount": 1000,
+          "created": 1234567890,
+          "currency": "usd",
+          "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
+          "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMga8M0E_q486Nv0d0rrdNKVtgXmdjiQ9H6AyLkOWWj7S6Gc_skc7RdLmZGn9gzZ2bQuYuVUAeCuCc_M0fyz5iw",
+          "id": "e3G7RLyLOU",
+          "livemode": false,
+          "metadata": {},
+          "network": "ach",
+          "object": "treasury.credit_reversal",
+          "received_credit": "rc_1OPouxJN5vQBdWExlRb8gNBH",
+          "status": "processing",
+          "status_transitions": { "posted_at": null },
+          "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 1518288496,
+        "balance_transaction": null,
+        "created": 1234567890,
+        "currency": "usd",
+        "destination_payment_refund": null,
+        "metadata": {},
+        "object": "transfer_reversal",
+        "source_refund": null,
+        "transfer": "tr_1OPounJN5vQBdWExGHeyZqlt"
+      },
+      "type": "procedure"
+    }
+  ]
+}

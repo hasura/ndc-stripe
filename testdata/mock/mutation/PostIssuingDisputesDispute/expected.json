@@ -1,0 +1,33 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 1101415944,
+        "balance_transactions": [],
+        "created": 1234567890,
+        "currency": "usd",
+        "evidence": {
+          "canceled": null,
+          "duplicate": null,
+          "fraudulent": {
+            "additional_documentation": null,
+            "explanation": "Fraud; card reported lost on 12/21/2023"
+          },
+          "merchandise_not_as_described": null,
+          "not_received": null,
+          "other": null,
+          "reason": "duplicate",
+          "service_not_as_described": null
+        },
+        "id": "qPaAOu1365",
+        "livemode": false,
+        "metadata": {},
+        "object": "issuing.dispute",
+        "status": "unsubmitted",
+        "transaction": "ipi_1OPouuJN5vQBdWExyOINiqR1",
+        "treasury": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

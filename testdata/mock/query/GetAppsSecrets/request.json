@@ -1,0 +1,115 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "gqXrGBpmvy"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 21932
+    },
+    "scope": {
+      "type": "literal",
+      "value": {
+        "type": "user",
+        "user": "rIeMLI4br4"
+      }
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "1CwVkcjz4Q"
+    }
+  },
+  "collection": "GetAppsSecrets",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "deleted": {
+                      "column": "deleted",
+                      "type": "column"
+                    },
+                    "expires_at": {
+                      "column": "expires_at",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "name": {
+                      "column": "name",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "payload": {
+                      "column": "payload",
+                      "type": "column"
+                    },
+                    "scope": {
+                      "column": "scope",
+                      "fields": {
+                        "fields": {
+                          "type": {
+                            "column": "type",
+                            "type": "column"
+                          },
+                          "user": {
+                            "column": "user",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

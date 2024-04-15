@@ -1,0 +1,59 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "eDVqWtfOzW"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "wVyzYuQ2Ir"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 12944
+    },
+    "object": {
+      "type": "literal",
+      "value": "FwueDxNfSH"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "3WjxnZ3peg"
+    }
+  },
+  "collection": "GetCustomersCustomerSources",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

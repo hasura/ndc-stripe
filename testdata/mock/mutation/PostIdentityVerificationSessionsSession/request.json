@@ -1,0 +1,216 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostIdentityVerificationSessionsSession",
+      "arguments": {
+        "expand": [
+          "9g9z2xzdqa"
+        ],
+        "metadata": null,
+        "options": {
+          "document": null
+        },
+        "session": "q5vWXp70GX",
+        "type": "id_number"
+      },
+      "fields": {
+        "fields": {
+          "client_reference_id": {
+            "column": "client_reference_id",
+            "type": "column"
+          },
+          "client_secret": {
+            "column": "client_secret",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "last_error": {
+            "column": "last_error",
+            "fields": {
+              "fields": {
+                "code": {
+                  "column": "code",
+                  "type": "column"
+                },
+                "reason": {
+                  "column": "reason",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "last_verification_report": {
+            "column": "last_verification_report",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "options": {
+            "column": "options",
+            "fields": {
+              "fields": {
+                "document": {
+                  "column": "document",
+                  "fields": {
+                    "fields": {
+                      "allowed_types": {
+                        "column": "allowed_types",
+                        "type": "column"
+                      },
+                      "require_id_number": {
+                        "column": "require_id_number",
+                        "type": "column"
+                      },
+                      "require_live_capture": {
+                        "column": "require_live_capture",
+                        "type": "column"
+                      },
+                      "require_matching_selfie": {
+                        "column": "require_matching_selfie",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "id_number": {
+                  "column": "id_number",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "redaction": {
+            "column": "redaction",
+            "fields": {
+              "fields": {
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          },
+          "url": {
+            "column": "url",
+            "type": "column"
+          },
+          "verified_outputs": {
+            "column": "verified_outputs",
+            "fields": {
+              "fields": {
+                "address": {
+                  "column": "address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "dob": {
+                  "column": "dob",
+                  "fields": {
+                    "fields": {
+                      "day": {
+                        "column": "day",
+                        "type": "column"
+                      },
+                      "month": {
+                        "column": "month",
+                        "type": "column"
+                      },
+                      "year": {
+                        "column": "year",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "first_name": {
+                  "column": "first_name",
+                  "type": "column"
+                },
+                "id_number": {
+                  "column": "id_number",
+                  "type": "column"
+                },
+                "id_number_type": {
+                  "column": "id_number_type",
+                  "type": "column"
+                },
+                "last_name": {
+                  "column": "last_name",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

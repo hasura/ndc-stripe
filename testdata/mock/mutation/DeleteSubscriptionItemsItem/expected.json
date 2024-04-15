@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "deleted": true,
+        "id": "i2J8t12Syq",
+        "object": "subscription_item"
+      },
+      "type": "procedure"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostFileLinksLink",
+      "arguments": {
+        "expand": [
+          "Qxg4JSACvp"
+        ],
+        "expires_at": null,
+        "link": "6jEE8ajQho",
+        "metadata": null
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "expired": {
+            "column": "expired",
+            "type": "column"
+          },
+          "expires_at": {
+            "column": "expires_at",
+            "type": "column"
+          },
+          "file": {
+            "column": "file",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "url": {
+            "column": "url",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

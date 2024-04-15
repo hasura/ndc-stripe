@@ -1,0 +1,444 @@
+{
+  "arguments": {
+    "automatic_tax": {
+      "type": "literal",
+      "value": {
+        "enabled": true,
+        "liability": null
+      }
+    },
+    "coupon": {
+      "type": "literal",
+      "value": "wUAndXeGFP"
+    },
+    "currency": {
+      "type": "literal",
+      "value": "IpwXCwlfDn"
+    },
+    "customer": {
+      "type": "literal",
+      "value": "U3r7EJpCna"
+    },
+    "customer_details": {
+      "type": "literal",
+      "value": {
+        "address": null,
+        "shipping": null,
+        "tax": {
+          "ip_address": null
+        },
+        "tax_exempt": "exempt",
+        "tax_ids": [
+          {
+            "type": "ca_gst_hst",
+            "value": "rfP9aClbM0"
+          }
+        ]
+      }
+    },
+    "discounts": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "RSX2VjYZ7A"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "9bVuspIRVg"
+      ]
+    },
+    "invoice_items": {
+      "type": "literal",
+      "value": [
+        {
+          "amount": 25341,
+          "currency": "cNilO8bYUE",
+          "description": "Aw33XmxRjs",
+          "discountable": true,
+          "discounts": null,
+          "invoiceitem": "SyLMAZVyEj",
+          "metadata": null,
+          "period": {
+            "end": 14167,
+            "start": 10290
+          },
+          "price": "yameF0z1s1",
+          "price_data": {
+            "currency": "HVnon1jPZ1",
+            "product": "VmuQZgPQdo",
+            "tax_behavior": "unspecified",
+            "unit_amount": 15425,
+            "unit_amount_decimal": "86j67sptF0"
+          },
+          "quantity": 11893,
+          "tax_behavior": "exclusive",
+          "tax_code": null,
+          "tax_rates": null,
+          "unit_amount": 11385,
+          "unit_amount_decimal": "SR4VUPkqet"
+        }
+      ]
+    },
+    "issuer": {
+      "type": "literal",
+      "value": null
+    },
+    "limit": {
+      "type": "literal",
+      "value": 12402
+    },
+    "on_behalf_of": {
+      "type": "literal",
+      "value": null
+    },
+    "schedule": {
+      "type": "literal",
+      "value": "Eyabl3gR8F"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "VIkM5Osdwh"
+    },
+    "subscription": {
+      "type": "literal",
+      "value": "QU0mk335kx"
+    },
+    "subscription_billing_cycle_anchor": {
+      "type": "literal",
+      "value": null
+    },
+    "subscription_cancel_at": {
+      "type": "literal",
+      "value": null
+    },
+    "subscription_cancel_at_period_end": {
+      "type": "literal",
+      "value": false
+    },
+    "subscription_cancel_now": {
+      "type": "literal",
+      "value": true
+    },
+    "subscription_default_tax_rates": {
+      "type": "literal",
+      "value": null
+    },
+    "subscription_items": {
+      "type": "literal",
+      "value": [
+        {
+          "billing_thresholds": null,
+          "clear_usage": true,
+          "deleted": false,
+          "id": "jffGSlfiqF",
+          "metadata": null,
+          "price": "98NeVnbRTC",
+          "price_data": {
+            "currency": "OSNwRBmGsN",
+            "product": "mMetOfHgRr",
+            "recurring": {
+              "interval": "year",
+              "interval_count": 3864
+            },
+            "tax_behavior": "unspecified",
+            "unit_amount": 15430,
+            "unit_amount_decimal": "uHtUrZQAaB"
+          },
+          "quantity": 4684,
+          "tax_rates": null
+        }
+      ]
+    },
+    "subscription_proration_behavior": {
+      "type": "literal",
+      "value": "always_invoice"
+    },
+    "subscription_proration_date": {
+      "type": "literal",
+      "value": 3548
+    },
+    "subscription_resume_at": {
+      "type": "literal",
+      "value": "now"
+    },
+    "subscription_start_date": {
+      "type": "literal",
+      "value": 32559
+    },
+    "subscription_trial_end": {
+      "type": "literal",
+      "value": null
+    },
+    "subscription_trial_from_plan": {
+      "type": "literal",
+      "value": false
+    }
+  },
+  "collection": "GetInvoicesUpcomingLines",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "amount_excluding_tax": {
+                      "column": "amount_excluding_tax",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "discount_amounts": {
+                      "column": "discount_amounts",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "amount": {
+                              "column": "amount",
+                              "type": "column"
+                            },
+                            "discount": {
+                              "column": "discount",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "discountable": {
+                      "column": "discountable",
+                      "type": "column"
+                    },
+                    "discounts": {
+                      "column": "discounts",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "invoice": {
+                      "column": "invoice",
+                      "type": "column"
+                    },
+                    "invoice_item": {
+                      "column": "invoice_item",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "period": {
+                      "column": "period",
+                      "fields": {
+                        "fields": {
+                          "end": {
+                            "column": "end",
+                            "type": "column"
+                          },
+                          "start": {
+                            "column": "start",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "price": {
+                      "column": "price",
+                      "type": "column"
+                    },
+                    "proration": {
+                      "column": "proration",
+                      "type": "column"
+                    },
+                    "proration_details": {
+                      "column": "proration_details",
+                      "type": "column"
+                    },
+                    "quantity": {
+                      "column": "quantity",
+                      "type": "column"
+                    },
+                    "subscription": {
+                      "column": "subscription",
+                      "type": "column"
+                    },
+                    "subscription_item": {
+                      "column": "subscription_item",
+                      "type": "column"
+                    },
+                    "tax_amounts": {
+                      "column": "tax_amounts",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "amount": {
+                              "column": "amount",
+                              "type": "column"
+                            },
+                            "inclusive": {
+                              "column": "inclusive",
+                              "type": "column"
+                            },
+                            "tax_rate": {
+                              "column": "tax_rate",
+                              "type": "column"
+                            },
+                            "taxability_reason": {
+                              "column": "taxability_reason",
+                              "type": "column"
+                            },
+                            "taxable_amount": {
+                              "column": "taxable_amount",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "tax_rates": {
+                      "column": "tax_rates",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "active": {
+                              "column": "active",
+                              "type": "column"
+                            },
+                            "country": {
+                              "column": "country",
+                              "type": "column"
+                            },
+                            "created": {
+                              "column": "created",
+                              "type": "column"
+                            },
+                            "description": {
+                              "column": "description",
+                              "type": "column"
+                            },
+                            "display_name": {
+                              "column": "display_name",
+                              "type": "column"
+                            },
+                            "effective_percentage": {
+                              "column": "effective_percentage",
+                              "type": "column"
+                            },
+                            "id": {
+                              "column": "id",
+                              "type": "column"
+                            },
+                            "inclusive": {
+                              "column": "inclusive",
+                              "type": "column"
+                            },
+                            "jurisdiction": {
+                              "column": "jurisdiction",
+                              "type": "column"
+                            },
+                            "jurisdiction_level": {
+                              "column": "jurisdiction_level",
+                              "type": "column"
+                            },
+                            "livemode": {
+                              "column": "livemode",
+                              "type": "column"
+                            },
+                            "metadata": {
+                              "column": "metadata",
+                              "type": "column"
+                            },
+                            "object": {
+                              "column": "object",
+                              "type": "column"
+                            },
+                            "percentage": {
+                              "column": "percentage",
+                              "type": "column"
+                            },
+                            "state": {
+                              "column": "state",
+                              "type": "column"
+                            },
+                            "tax_type": {
+                              "column": "tax_type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    },
+                    "unit_amount_excluding_tax": {
+                      "column": "unit_amount_excluding_tax",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "deleted": true,
+        "id": "EZAFd2Drqg",
+        "object": "test_helpers.test_clock"
+      },
+      "type": "procedure"
+    }
+  ]
+}

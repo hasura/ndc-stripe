@@ -1,0 +1,66 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostWebhookEndpoints",
+      "arguments": {
+        "api_version": "2018-02-05",
+        "connect": false,
+        "description": null,
+        "enabled_events": ["customer.deleted"],
+        "metadata": null,
+        "url": "1EJwcKaR9g"
+      },
+      "fields": {
+        "fields": {
+          "api_version": {
+            "column": "api_version",
+            "type": "column"
+          },
+          "application": {
+            "column": "application",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "description": {
+            "column": "description",
+            "type": "column"
+          },
+          "enabled_events": {
+            "column": "enabled_events",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "secret": {
+            "column": "secret",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "url": {
+            "column": "url",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

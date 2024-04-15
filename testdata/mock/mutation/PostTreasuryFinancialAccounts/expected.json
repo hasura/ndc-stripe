@@ -1,0 +1,44 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "active_features": [
+          "financial_addresses.aba",
+          "outbound_payments.ach",
+          "outbound_payments.us_domestic_wire"
+        ],
+        "balance": {
+          "cash": { "usd": 0 },
+          "inbound_pending": { "usd": 0 },
+          "outbound_pending": { "usd": 0 }
+        },
+        "country": "US",
+        "created": 1234567890,
+        "features": null,
+        "financial_addresses": [
+          {
+            "aba": {
+              "account_holder_name": "Jenny Rosen",
+              "account_number": null,
+              "account_number_last4": "7890",
+              "bank_name": "STRIPE TEST BANK",
+              "routing_number": "0000000001"
+            },
+            "supported_networks": ["ach", "us_domestic_wire"],
+            "type": "aba"
+          }
+        ],
+        "livemode": true,
+        "metadata": null,
+        "object": "treasury.financial_account",
+        "pending_features": [],
+        "platform_restrictions": null,
+        "restricted_features": [],
+        "status": "open",
+        "status_details": { "closed": null },
+        "supported_currencies": ["J7gEFzU1mI"]
+      },
+      "type": "procedure"
+    }
+  ]
+}

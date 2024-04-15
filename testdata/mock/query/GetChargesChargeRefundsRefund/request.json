@@ -1,0 +1,396 @@
+{
+  "arguments": {
+    "charge": {
+      "type": "literal",
+      "value": "aUGZpQvFU0"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "refund": {
+      "type": "literal",
+      "value": "b0vxRJyPVH"
+    }
+  },
+  "collection": "GetChargesChargeRefundsRefund",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "balance_transaction": {
+              "column": "balance_transaction",
+              "type": "column"
+            },
+            "charge": {
+              "column": "charge",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "destination_details": {
+              "column": "destination_details",
+              "fields": {
+                "fields": {
+                  "affirm": {
+                    "column": "affirm",
+                    "type": "column"
+                  },
+                  "afterpay_clearpay": {
+                    "column": "afterpay_clearpay",
+                    "type": "column"
+                  },
+                  "alipay": {
+                    "column": "alipay",
+                    "type": "column"
+                  },
+                  "au_bank_transfer": {
+                    "column": "au_bank_transfer",
+                    "type": "column"
+                  },
+                  "blik": {
+                    "column": "blik",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "br_bank_transfer": {
+                    "column": "br_bank_transfer",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "card": {
+                    "column": "card",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        },
+                        "reference_type": {
+                          "column": "reference_type",
+                          "type": "column"
+                        },
+                        "type": {
+                          "column": "type",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "cashapp": {
+                    "column": "cashapp",
+                    "type": "column"
+                  },
+                  "customer_cash_balance": {
+                    "column": "customer_cash_balance",
+                    "type": "column"
+                  },
+                  "eps": {
+                    "column": "eps",
+                    "type": "column"
+                  },
+                  "eu_bank_transfer": {
+                    "column": "eu_bank_transfer",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "gb_bank_transfer": {
+                    "column": "gb_bank_transfer",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "giropay": {
+                    "column": "giropay",
+                    "type": "column"
+                  },
+                  "grabpay": {
+                    "column": "grabpay",
+                    "type": "column"
+                  },
+                  "jp_bank_transfer": {
+                    "column": "jp_bank_transfer",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "klarna": {
+                    "column": "klarna",
+                    "type": "column"
+                  },
+                  "mx_bank_transfer": {
+                    "column": "mx_bank_transfer",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "p24": {
+                    "column": "p24",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "paynow": {
+                    "column": "paynow",
+                    "type": "column"
+                  },
+                  "paypal": {
+                    "column": "paypal",
+                    "type": "column"
+                  },
+                  "pix": {
+                    "column": "pix",
+                    "type": "column"
+                  },
+                  "revolut": {
+                    "column": "revolut",
+                    "type": "column"
+                  },
+                  "sofort": {
+                    "column": "sofort",
+                    "type": "column"
+                  },
+                  "swish": {
+                    "column": "swish",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "th_bank_transfer": {
+                    "column": "th_bank_transfer",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  },
+                  "us_bank_transfer": {
+                    "column": "us_bank_transfer",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "reference_status": {
+                          "column": "reference_status",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "wechat_pay": {
+                    "column": "wechat_pay",
+                    "type": "column"
+                  },
+                  "zip": {
+                    "column": "zip",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "failure_balance_transaction": {
+              "column": "failure_balance_transaction",
+              "type": "column"
+            },
+            "failure_reason": {
+              "column": "failure_reason",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "instructions_email": {
+              "column": "instructions_email",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "next_action": {
+              "column": "next_action",
+              "fields": {
+                "fields": {
+                  "display_details": {
+                    "column": "display_details",
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "payment_intent": {
+              "column": "payment_intent",
+              "type": "column"
+            },
+            "reason": {
+              "column": "reason",
+              "type": "column"
+            },
+            "receipt_number": {
+              "column": "receipt_number",
+              "type": "column"
+            },
+            "source_transfer_reversal": {
+              "column": "source_transfer_reversal",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "transfer_reversal": {
+              "column": "transfer_reversal",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "billing": {
+          "address": {
+            "city": "SMkfwk1XQA",
+            "country": "HW15IKvBUg",
+            "line1": "IpHKpOQZcU",
+            "line2": "HmUnv9aX4k",
+            "postal_code": "P69fFoyxc2",
+            "state": "wp2P4RzlPY"
+          }
+        },
+        "company": null,
+        "created": 1234567890,
+        "email": "C6WjQEPi2R",
+        "individual": null,
+        "livemode": false,
+        "metadata": {},
+        "name": "RgKFUWcyhL",
+        "object": "issuing.cardholder",
+        "phone_number": "doLy2TCpdn",
+        "preferred_locales": ["de"],
+        "requirements": { "disabled_reason": null, "past_due": [] },
+        "spending_controls": {
+          "allowed_categories": [],
+          "allowed_merchant_countries": null,
+          "blocked_categories": [],
+          "blocked_merchant_countries": null,
+          "spending_limits": [],
+          "spending_limits_currency": null
+        },
+        "status": "active",
+        "type": "company"
+      },
+      "type": "procedure"
+    }
+  ]
+}

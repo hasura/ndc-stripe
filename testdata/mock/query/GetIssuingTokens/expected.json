@@ -1,0 +1,29 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "card": "ic_1OPouuJN5vQBdWExtrIXaPAW",
+              "created": 1234567890,
+              "device_fingerprint": null,
+              "id": "intok_1OPouuJN5vQBdWEx5hqkGy26",
+              "last4": "2424",
+              "livemode": false,
+              "network": "visa",
+              "network_data": null,
+              "network_updated_at": 1234567890,
+              "object": "issuing.token",
+              "status": "active",
+              "wallet_provider": "apple_pay"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/issuing/tokens"
+        }
+      }
+    ]
+  }
+]

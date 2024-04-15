@@ -1,0 +1,41 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "address": null,
+        "balance": 342392976,
+        "cash_balance": null,
+        "created": 1234567890,
+        "currency": "usd",
+        "default_source": null,
+        "delinquent": false,
+        "description": "phHBv2b7mK",
+        "discount": null,
+        "email": "2awMQSb6cU",
+        "invoice_credit_balance": null,
+        "invoice_prefix": "nWo6ulehWT",
+        "invoice_settings": {
+          "custom_fields": null,
+          "default_payment_method": "Cvv9SKoKLi",
+          "footer": "Jj8dMr3F9E",
+          "rendering_options": null
+        },
+        "livemode": false,
+        "metadata": {},
+        "name": "2OrdxWPzR3",
+        "next_invoice_sequence": 1982425254,
+        "object": "customer",
+        "phone": "is75ZHtuPb",
+        "preferred_locales": ["OfdLiD6Gac"],
+        "shipping": null,
+        "sources": null,
+        "subscriptions": null,
+        "tax": null,
+        "tax_exempt": "none",
+        "tax_ids": null,
+        "test_clock": "G1O4ggYprh"
+      },
+      "type": "procedure"
+    }
+  ]
+}

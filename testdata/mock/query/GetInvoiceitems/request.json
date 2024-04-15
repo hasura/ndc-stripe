@@ -1,0 +1,248 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "customer": {
+      "type": "literal",
+      "value": "pgyWsLVuP1"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "s096RcJciQ"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "invoice": {
+      "type": "literal",
+      "value": "5LY6iQC7AR"
+    },
+    "limit": {
+      "type": "literal",
+      "value": 23178
+    },
+    "pending": {
+      "type": "literal",
+      "value": false
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "5NjQoCRxPd"
+    }
+  },
+  "collection": "GetInvoiceitems",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "customer": {
+                      "column": "customer",
+                      "type": "column"
+                    },
+                    "date": {
+                      "column": "date",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "discountable": {
+                      "column": "discountable",
+                      "type": "column"
+                    },
+                    "discounts": {
+                      "column": "discounts",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "invoice": {
+                      "column": "invoice",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "period": {
+                      "column": "period",
+                      "fields": {
+                        "fields": {
+                          "end": {
+                            "column": "end",
+                            "type": "column"
+                          },
+                          "start": {
+                            "column": "start",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "price": {
+                      "column": "price",
+                      "type": "column"
+                    },
+                    "proration": {
+                      "column": "proration",
+                      "type": "column"
+                    },
+                    "quantity": {
+                      "column": "quantity",
+                      "type": "column"
+                    },
+                    "subscription": {
+                      "column": "subscription",
+                      "type": "column"
+                    },
+                    "subscription_item": {
+                      "column": "subscription_item",
+                      "type": "column"
+                    },
+                    "tax_rates": {
+                      "column": "tax_rates",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "active": {
+                              "column": "active",
+                              "type": "column"
+                            },
+                            "country": {
+                              "column": "country",
+                              "type": "column"
+                            },
+                            "created": {
+                              "column": "created",
+                              "type": "column"
+                            },
+                            "description": {
+                              "column": "description",
+                              "type": "column"
+                            },
+                            "display_name": {
+                              "column": "display_name",
+                              "type": "column"
+                            },
+                            "effective_percentage": {
+                              "column": "effective_percentage",
+                              "type": "column"
+                            },
+                            "id": {
+                              "column": "id",
+                              "type": "column"
+                            },
+                            "inclusive": {
+                              "column": "inclusive",
+                              "type": "column"
+                            },
+                            "jurisdiction": {
+                              "column": "jurisdiction",
+                              "type": "column"
+                            },
+                            "jurisdiction_level": {
+                              "column": "jurisdiction_level",
+                              "type": "column"
+                            },
+                            "livemode": {
+                              "column": "livemode",
+                              "type": "column"
+                            },
+                            "metadata": {
+                              "column": "metadata",
+                              "type": "column"
+                            },
+                            "object": {
+                              "column": "object",
+                              "type": "column"
+                            },
+                            "percentage": {
+                              "column": "percentage",
+                              "type": "column"
+                            },
+                            "state": {
+                              "column": "state",
+                              "type": "column"
+                            },
+                            "tax_type": {
+                              "column": "tax_type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "test_clock": {
+                      "column": "test_clock",
+                      "type": "column"
+                    },
+                    "unit_amount": {
+                      "column": "unit_amount",
+                      "type": "column"
+                    },
+                    "unit_amount_decimal": {
+                      "column": "unit_amount_decimal",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

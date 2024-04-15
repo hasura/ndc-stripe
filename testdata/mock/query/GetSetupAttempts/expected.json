@@ -1,0 +1,61 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "application": null,
+              "attach_to_self": null,
+              "created": 1234567890,
+              "customer": null,
+              "flow_directions": null,
+              "id": "setatt_123456789012345678901234",
+              "livemode": false,
+              "object": "setup_attempt",
+              "on_behalf_of": null,
+              "payment_method": "card_1OPoudJN5vQBdWExSTD9mIPF",
+              "payment_method_details": {
+                "acss_debit": null,
+                "au_becs_debit": null,
+                "bacs_debit": null,
+                "bancontact": null,
+                "boleto": null,
+                "card": {
+                  "brand": null,
+                  "checks": null,
+                  "country": null,
+                  "exp_month": null,
+                  "exp_year": null,
+                  "fingerprint": null,
+                  "funding": null,
+                  "last4": null,
+                  "network": null,
+                  "three_d_secure": null,
+                  "wallet": null
+                },
+                "card_present": null,
+                "cashapp": null,
+                "ideal": null,
+                "klarna": null,
+                "link": null,
+                "paypal": null,
+                "sepa_debit": null,
+                "sofort": null,
+                "type": "card",
+                "us_bank_account": null
+              },
+              "setup_error": null,
+              "setup_intent": "seti_1OPoutJN5vQBdWExijPulwWI",
+              "status": "succeeded",
+              "usage": "off_session"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/setup_attempts"
+        }
+      }
+    ]
+  }
+]

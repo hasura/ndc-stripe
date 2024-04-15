@@ -1,0 +1,99 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "BGbyvGsfAQ"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 26740
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "AQrZnpcj68"
+    },
+    "value": {
+      "type": "literal",
+      "value": "Iyh5JoMWz6"
+    },
+    "value_list": {
+      "type": "literal",
+      "value": "zm7oc4NDne"
+    }
+  },
+  "collection": "GetRadarValueListItems",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "created_by": {
+                      "column": "created_by",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "value": {
+                      "column": "value",
+                      "type": "column"
+                    },
+                    "value_list": {
+                      "column": "value_list",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

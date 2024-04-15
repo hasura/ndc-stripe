@@ -1,0 +1,31 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "client_reference_id": null,
+        "client_secret": null,
+        "created": 1234567890,
+        "last_error": null,
+        "last_verification_report": "vr_PEHTCbeksNcBl9s8mpoBQapA",
+        "livemode": false,
+        "metadata": {},
+        "object": "identity.verification_session",
+        "options": {
+          "document": {
+            "allowed_types": null,
+            "require_id_number": null,
+            "require_live_capture": null,
+            "require_matching_selfie": true
+          },
+          "id_number": null
+        },
+        "redaction": null,
+        "status": "verified",
+        "type": "document",
+        "url": null,
+        "verified_outputs": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

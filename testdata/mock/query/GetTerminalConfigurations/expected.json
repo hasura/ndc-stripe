@@ -1,0 +1,28 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "bbpos_wisepos_e": {
+                "splashscreen": "file_1OPouuJN5vQBdWExsQRSvk0Q"
+              },
+              "id": "tmc_ElVUAjF8xXG3hj",
+              "is_account_default": false,
+              "livemode": false,
+              "name": null,
+              "object": "terminal.configuration",
+              "offline": null,
+              "tipping": null,
+              "verifone_p400": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/terminal/configurations"
+        }
+      }
+    ]
+  }
+]

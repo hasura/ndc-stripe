@@ -1,0 +1,97 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "mqGeR7BX3E"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "46JOX27Uh4"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "OLSQH26dnJ"
+    },
+    "limit": {
+      "type": "literal",
+      "value": 15444
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "0Bd727SGfz"
+    }
+  },
+  "collection": "GetApplicationFeesIdRefunds",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "balance_transaction": {
+                      "column": "balance_transaction",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "fee": {
+                      "column": "fee",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

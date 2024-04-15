@@ -1,0 +1,26 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "bin": "424242",
+          "clearing_date": 1703175372,
+          "created": 1234567890,
+          "currency": "usd",
+          "id": "GqkmyLiOG5",
+          "interchange_fees": 44,
+          "livemode": false,
+          "metadata": {},
+          "net_total": 3575,
+          "network": "visa",
+          "network_fees": 37,
+          "network_settlement_identifier": "1000633976",
+          "object": "issuing.settlement",
+          "settlement_service": "international",
+          "transaction_count": 2,
+          "transaction_volume": 3656
+        }
+      }
+    ]
+  }
+]

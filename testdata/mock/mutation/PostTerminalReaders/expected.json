@@ -1,0 +1,20 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "action": null,
+        "device_sw_version": null,
+        "device_type": "bbpos_wisepos_e",
+        "ip_address": "192.168.2.2",
+        "label": "k82APFchdt",
+        "livemode": false,
+        "location": "m7C8pQB5Jd",
+        "metadata": {},
+        "object": "terminal.reader",
+        "serial_number": "123-456-789",
+        "status": "online"
+      },
+      "type": "procedure"
+    }
+  ]
+}

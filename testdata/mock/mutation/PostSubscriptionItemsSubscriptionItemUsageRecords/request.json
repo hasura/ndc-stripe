@@ -1,0 +1,41 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostSubscriptionItemsSubscriptionItemUsageRecords",
+      "arguments": {
+        "action": "increment",
+        "expand": [],
+        "quantity": 1476515968,
+        "subscription_item": "gwtu6iWi2t",
+        "timestamp": null
+      },
+      "fields": {
+        "fields": {
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "quantity": {
+            "column": "quantity",
+            "type": "column"
+          },
+          "subscription_item": {
+            "column": "subscription_item",
+            "type": "column"
+          },
+          "timestamp": {
+            "column": "timestamp",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

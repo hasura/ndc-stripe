@@ -1,0 +1,27 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": 1100,
+              "balance_transaction": null,
+              "created": 1234567890,
+              "currency": "usd",
+              "destination_payment_refund": null,
+              "id": "trr_1OPounJN5vQBdWExmrkKTeuo",
+              "metadata": {},
+              "object": "transfer_reversal",
+              "source_refund": null,
+              "transfer": "tr_1OPounJN5vQBdWExGHeyZqlt"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/transfers/6MMCc1YuOX/reversals"
+        }
+      }
+    ]
+  }
+]

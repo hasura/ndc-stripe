@@ -1,0 +1,167 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": 100,
+              "amount_captured": 0,
+              "amount_refunded": 0,
+              "application": null,
+              "application_fee": null,
+              "application_fee_amount": null,
+              "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
+              "billing_details": {
+                "address": {
+                  "city": null,
+                  "country": null,
+                  "line1": null,
+                  "line2": null,
+                  "postal_code": null,
+                  "state": null
+                },
+                "email": null,
+                "name": "Jenny Rosen",
+                "phone": null
+              },
+              "calculated_statement_descriptor": null,
+              "captured": false,
+              "created": 1234567890,
+              "currency": "usd",
+              "customer": null,
+              "description": "My First Test Charge (created for API docs)",
+              "disputed": false,
+              "failure_balance_transaction": null,
+              "failure_code": null,
+              "failure_message": null,
+              "fraud_details": {},
+              "id": "ch_1OPoueJN5vQBdWEx5AWizjSY",
+              "invoice": null,
+              "livemode": false,
+              "metadata": {},
+              "object": "charge",
+              "on_behalf_of": null,
+              "outcome": null,
+              "paid": true,
+              "payment_intent": null,
+              "payment_method": "card_1OPoudJN5vQBdWExSTD9mIPF",
+              "payment_method_details": {
+                "card": {
+                  "amount_authorized": null,
+                  "brand": "visa",
+                  "checks": {
+                    "address_line1_check": null,
+                    "address_postal_code_check": null,
+                    "cvc_check": "pass"
+                  },
+                  "country": "US",
+                  "exp_month": 8,
+                  "exp_year": 2024,
+                  "extended_authorization": { "status": "disabled" },
+                  "fingerprint": "r40d4vOgg3VecDJF",
+                  "funding": "credit",
+                  "incremental_authorization": { "status": "unavailable" },
+                  "installments": null,
+                  "last4": "4242",
+                  "mandate": null,
+                  "multicapture": { "status": "unavailable" },
+                  "network": "visa",
+                  "network_token": { "used": false },
+                  "overcapture": {
+                    "maximum_amount_capturable": 100,
+                    "status": "unavailable"
+                  },
+                  "three_d_secure": null,
+                  "wallet": null
+                },
+                "type": "card"
+              },
+              "radar_options": null,
+              "receipt_email": null,
+              "receipt_number": null,
+              "receipt_url": "https://pakrym-manage-mydev.dev.stripe.me/receipts/payment/CAcaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KL3JkawGMgZvNmQ3SW46LCKn_twcP-jc9phNH9BfAtUKJcNs5Gy9n0cn7wNp9IWz2coUhEmAKuyETwtJ",
+              "refunded": false,
+              "refunds": {
+                "data": [
+                  {
+                    "amount": 100,
+                    "balance_transaction": null,
+                    "charge": "ch_1OPoueJN5vQBdWEx5AWizjSY",
+                    "created": 1234567890,
+                    "currency": "usd",
+                    "description": null,
+                    "destination_details": {
+                      "affirm": null,
+                      "afterpay_clearpay": null,
+                      "alipay": null,
+                      "au_bank_transfer": null,
+                      "blik": null,
+                      "br_bank_transfer": null,
+                      "card": {
+                        "reference": null,
+                        "reference_status": null,
+                        "reference_type": null,
+                        "type": "reversal"
+                      },
+                      "cashapp": null,
+                      "customer_cash_balance": null,
+                      "eps": null,
+                      "eu_bank_transfer": null,
+                      "gb_bank_transfer": null,
+                      "giropay": null,
+                      "grabpay": null,
+                      "jp_bank_transfer": null,
+                      "klarna": null,
+                      "mx_bank_transfer": null,
+                      "p24": null,
+                      "paynow": null,
+                      "paypal": null,
+                      "pix": null,
+                      "revolut": null,
+                      "sofort": null,
+                      "swish": null,
+                      "th_bank_transfer": null,
+                      "type": "card",
+                      "us_bank_transfer": null,
+                      "wechat_pay": null,
+                      "zip": null
+                    },
+                    "failure_balance_transaction": null,
+                    "failure_reason": null,
+                    "id": "re_1OPoujJN5vQBdWExUGBANu1j",
+                    "instructions_email": null,
+                    "metadata": {},
+                    "next_action": null,
+                    "object": "refund",
+                    "payment_intent": null,
+                    "reason": null,
+                    "receipt_number": null,
+                    "source_transfer_reversal": null,
+                    "status": "succeeded",
+                    "transfer_reversal": null
+                  }
+                ],
+                "has_more": false,
+                "object": "list",
+                "url": "/v1/charges/ch_1OPoueJN5vQBdWEx5AWizjSY/refunds"
+              },
+              "review": null,
+              "shipping": null,
+              "source_transfer": null,
+              "statement_descriptor": null,
+              "statement_descriptor_suffix": null,
+              "status": "succeeded",
+              "transfer": null,
+              "transfer_data": null,
+              "transfer_group": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/charges"
+        }
+      }
+    ]
+  }
+]

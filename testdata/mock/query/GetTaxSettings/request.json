@@ -1,0 +1,84 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "hMvKbPrV4R"
+      ]
+    }
+  },
+  "collection": "GetTaxSettings",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "defaults": {
+              "column": "defaults",
+              "fields": {
+                "fields": {
+                  "tax_behavior": {
+                    "column": "tax_behavior",
+                    "type": "column"
+                  },
+                  "tax_code": {
+                    "column": "tax_code",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "head_office": {
+              "column": "head_office",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "status_details": {
+              "column": "status_details",
+              "fields": {
+                "fields": {
+                  "active": {
+                    "column": "active",
+                    "type": "column"
+                  },
+                  "pending": {
+                    "column": "pending",
+                    "fields": {
+                      "fields": {
+                        "missing_fields": {
+                          "column": "missing_fields",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

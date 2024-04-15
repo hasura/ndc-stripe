@@ -1,0 +1,130 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTaxSettings",
+      "arguments": {
+        "defaults": {
+          "tax_behavior": "inferred_by_currency",
+          "tax_code": "qOZzLkzrdI"
+        },
+        "expand": [
+          "awQxX7MOUX"
+        ],
+        "head_office": {
+          "address": {
+            "city": "GrBiysEbqQ",
+            "country": "FIWksrBJjN",
+            "line1": "RoA6bhCp4D",
+            "line2": "5clzWRvIbA",
+            "postal_code": "8KsXiUQXLs",
+            "state": "73uTME2tDe"
+          }
+        }
+      },
+      "fields": {
+        "fields": {
+          "defaults": {
+            "column": "defaults",
+            "fields": {
+              "fields": {
+                "tax_behavior": {
+                  "column": "tax_behavior",
+                  "type": "column"
+                },
+                "tax_code": {
+                  "column": "tax_code",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "head_office": {
+            "column": "head_office",
+            "fields": {
+              "fields": {
+                "address": {
+                  "column": "address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "status_details": {
+            "column": "status_details",
+            "fields": {
+              "fields": {
+                "active": {
+                  "column": "active",
+                  "type": "column"
+                },
+                "pending": {
+                  "column": "pending",
+                  "fields": {
+                    "fields": {
+                      "missing_fields": {
+                        "column": "missing_fields",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

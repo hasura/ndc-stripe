@@ -1,0 +1,47 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "account": "acct_1OPouMJN5vQBdWEx",
+              "amount": 100,
+              "amount_refunded": 0,
+              "application": "ca_PEHTxk3gWAWtTbzqUoOxfbLUkWTusmur",
+              "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
+              "charge": "ch_1OPoueJN5vQBdWEx5AWizjSY",
+              "created": 1234567890,
+              "currency": "usd",
+              "id": "fee_1OPounJN5vQBdWExWgwi95uU",
+              "livemode": false,
+              "object": "application_fee",
+              "originating_transaction": null,
+              "refunded": false,
+              "refunds": {
+                "data": [
+                  {
+                    "amount": 100,
+                    "balance_transaction": null,
+                    "created": 1234567890,
+                    "currency": "usd",
+                    "fee": "fee_1OPounJN5vQBdWExWgwi95uU",
+                    "id": "fr_1OPouoJN5vQBdWExfoD1ectq",
+                    "metadata": {},
+                    "object": "fee_refund"
+                  }
+                ],
+                "has_more": false,
+                "object": "list",
+                "url": "/v1/application_fees/fee_1OPounJN5vQBdWExWgwi95uU/refunds"
+              }
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/application_fees"
+        }
+      }
+    ]
+  }
+]

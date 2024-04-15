@@ -1,0 +1,18 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "bbpos_wisepos_e": {
+            "splashscreen": "file_1OPouuJN5vQBdWExsQRSvk0Q"
+          },
+          "id": "5Exuth9PGJ",
+          "is_account_default": false,
+          "livemode": false,
+          "name": null,
+          "object": "terminal.configuration"
+        }
+      }
+    ]
+  }
+]

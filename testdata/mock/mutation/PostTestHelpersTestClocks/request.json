@@ -1,0 +1,47 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTestHelpersTestClocks",
+      "arguments": {
+        "expand": [],
+        "frozen_time": 1231781653,
+        "name": "nJ8Cdx18Jv"
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "deletes_after": {
+            "column": "deletes_after",
+            "type": "column"
+          },
+          "frozen_time": {
+            "column": "frozen_time",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

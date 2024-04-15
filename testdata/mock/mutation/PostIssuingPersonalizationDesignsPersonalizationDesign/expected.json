@@ -1,0 +1,22 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "card_logo": null,
+        "carrier_text": null,
+        "created": 1234567890,
+        "id": "OjDPr8B2Jd",
+        "livemode": false,
+        "lookup_key": "my_card_design_lookup_key",
+        "metadata": {},
+        "name": "My Card Design V1",
+        "object": "issuing.personalization_design",
+        "physical_bundle": "piUVKHZtwJ",
+        "preferences": { "is_default": true, "is_platform_default": null },
+        "rejection_reasons": { "card_logo": [], "carrier_text": [] },
+        "status": "review"
+      },
+      "type": "procedure"
+    }
+  ]
+}

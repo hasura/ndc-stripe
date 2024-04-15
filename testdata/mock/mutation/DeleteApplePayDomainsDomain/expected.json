@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "deleted": true,
+        "id": "ODxWx2NCz8",
+        "object": "apple_pay_domain"
+      },
+      "type": "procedure"
+    }
+  ]
+}

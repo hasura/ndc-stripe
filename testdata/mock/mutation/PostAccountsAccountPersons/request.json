@@ -1,0 +1,408 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostAccountsAccountPersons",
+      "arguments": {
+        "account": "1uAxJYW41H",
+        "additional_tos_acceptances": {
+          "account": {
+            "date": 13029,
+            "ip": "sw1TvqpSyx",
+            "user_agent": null
+          }
+        },
+        "address": {
+          "city": "7rNfI8DTRa",
+          "country": "rHLRntYJKe",
+          "line1": "MqvNWnqF4D",
+          "line2": "TzfVgTxzWk",
+          "postal_code": "ojG8aRk75v",
+          "state": "7G1Jvg4VgQ"
+        },
+        "address_kana": {
+          "city": "YxjcRHR5uV",
+          "country": "kE1KyeorvP",
+          "line1": "y1YzHoRYG0",
+          "line2": "QuwqsWCAHK",
+          "postal_code": "9VBUwp1BLo",
+          "state": "AUXjkTmKgG",
+          "town": "C5nQs5qkMu"
+        },
+        "address_kanji": {
+          "city": "UhuUP80gD6",
+          "country": "yh0EumsBJb",
+          "line1": "rrbbnjsVCZ",
+          "line2": "sK1T7V6fsi",
+          "postal_code": "TD5mXL5yFr",
+          "state": "8l9L9aBy7y",
+          "town": "fqJOQzuqwO"
+        },
+        "dob": null,
+        "documents": {
+          "company_authorization": {
+            "files": [null]
+          },
+          "passport": {
+            "files": [null]
+          },
+          "visa": {
+            "files": [null]
+          }
+        },
+        "email": "hegnu4gE7G",
+        "expand": ["89FTa3z9Hy"],
+        "first_name": "ijaRTbbl2r",
+        "first_name_kana": "5lB5JIHVIR",
+        "first_name_kanji": "aUyZWDu7If",
+        "full_name_aliases": null,
+        "gender": "Szmx91xHh5",
+        "id_number": "E2jMD1XNOq",
+        "id_number_secondary": "W5zHchYuho",
+        "last_name": "5aRGDL4gbr",
+        "last_name_kana": "bxU2fO179s",
+        "last_name_kanji": "m8zG4lGjrN",
+        "maiden_name": "wy3yS7DU9N",
+        "metadata": null,
+        "nationality": "Zap7fk3VDG",
+        "person_token": "HXxroD4umP",
+        "phone": "FAxgWFY5bL",
+        "political_exposure": "QPZQ2A7MJA",
+        "registered_address": {
+          "city": "H5tvTXwDHh",
+          "country": "DpkHO86tKs",
+          "line1": "JlcfHH3snN",
+          "line2": "0bWRlGRaCq",
+          "postal_code": "pDCYPxgLsY",
+          "state": "IHsQ76WgNU"
+        },
+        "relationship": {
+          "director": false,
+          "executive": true,
+          "legal_guardian": true,
+          "owner": false,
+          "percent_ownership": null,
+          "representative": true,
+          "title": "RU2IuSBKTR"
+        },
+        "ssn_last_4": "GuE200qDkq",
+        "verification": {
+          "additional_document": {
+            "back": "weo0TxV6yQ",
+            "front": "9Vgr39sfKF"
+          },
+          "document": {
+            "back": "2XGGmsiTmD",
+            "front": "6UXm1EQ15S"
+          }
+        }
+      },
+      "fields": {
+        "fields": {
+          "account": {
+            "column": "account",
+            "type": "column"
+          },
+          "additional_tos_acceptances": {
+            "column": "additional_tos_acceptances",
+            "fields": {
+              "fields": {
+                "account": {
+                  "column": "account",
+                  "fields": {
+                    "fields": {
+                      "date": {
+                        "column": "date",
+                        "type": "column"
+                      },
+                      "ip": {
+                        "column": "ip",
+                        "type": "column"
+                      },
+                      "user_agent": {
+                        "column": "user_agent",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "address": {
+            "column": "address",
+            "fields": {
+              "fields": {
+                "city": {
+                  "column": "city",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "line1": {
+                  "column": "line1",
+                  "type": "column"
+                },
+                "line2": {
+                  "column": "line2",
+                  "type": "column"
+                },
+                "postal_code": {
+                  "column": "postal_code",
+                  "type": "column"
+                },
+                "state": {
+                  "column": "state",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "address_kana": {
+            "column": "address_kana",
+            "type": "column"
+          },
+          "address_kanji": {
+            "column": "address_kanji",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "dob": {
+            "column": "dob",
+            "fields": {
+              "fields": {
+                "day": {
+                  "column": "day",
+                  "type": "column"
+                },
+                "month": {
+                  "column": "month",
+                  "type": "column"
+                },
+                "year": {
+                  "column": "year",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "email": {
+            "column": "email",
+            "type": "column"
+          },
+          "first_name": {
+            "column": "first_name",
+            "type": "column"
+          },
+          "first_name_kana": {
+            "column": "first_name_kana",
+            "type": "column"
+          },
+          "first_name_kanji": {
+            "column": "first_name_kanji",
+            "type": "column"
+          },
+          "full_name_aliases": {
+            "column": "full_name_aliases",
+            "type": "column"
+          },
+          "future_requirements": {
+            "column": "future_requirements",
+            "type": "column"
+          },
+          "gender": {
+            "column": "gender",
+            "type": "column"
+          },
+          "id_number_provided": {
+            "column": "id_number_provided",
+            "type": "column"
+          },
+          "id_number_secondary_provided": {
+            "column": "id_number_secondary_provided",
+            "type": "column"
+          },
+          "last_name": {
+            "column": "last_name",
+            "type": "column"
+          },
+          "last_name_kana": {
+            "column": "last_name_kana",
+            "type": "column"
+          },
+          "last_name_kanji": {
+            "column": "last_name_kanji",
+            "type": "column"
+          },
+          "maiden_name": {
+            "column": "maiden_name",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "nationality": {
+            "column": "nationality",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "phone": {
+            "column": "phone",
+            "type": "column"
+          },
+          "political_exposure": {
+            "column": "political_exposure",
+            "type": "column"
+          },
+          "registered_address": {
+            "column": "registered_address",
+            "fields": {
+              "fields": {
+                "city": {
+                  "column": "city",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "line1": {
+                  "column": "line1",
+                  "type": "column"
+                },
+                "line2": {
+                  "column": "line2",
+                  "type": "column"
+                },
+                "postal_code": {
+                  "column": "postal_code",
+                  "type": "column"
+                },
+                "state": {
+                  "column": "state",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "relationship": {
+            "column": "relationship",
+            "fields": {
+              "fields": {
+                "director": {
+                  "column": "director",
+                  "type": "column"
+                },
+                "executive": {
+                  "column": "executive",
+                  "type": "column"
+                },
+                "legal_guardian": {
+                  "column": "legal_guardian",
+                  "type": "column"
+                },
+                "owner": {
+                  "column": "owner",
+                  "type": "column"
+                },
+                "percent_ownership": {
+                  "column": "percent_ownership",
+                  "type": "column"
+                },
+                "representative": {
+                  "column": "representative",
+                  "type": "column"
+                },
+                "title": {
+                  "column": "title",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "requirements": {
+            "column": "requirements",
+            "type": "column"
+          },
+          "ssn_last_4_provided": {
+            "column": "ssn_last_4_provided",
+            "type": "column"
+          },
+          "verification": {
+            "column": "verification",
+            "fields": {
+              "fields": {
+                "additional_document": {
+                  "column": "additional_document",
+                  "type": "column"
+                },
+                "details": {
+                  "column": "details",
+                  "type": "column"
+                },
+                "details_code": {
+                  "column": "details_code",
+                  "type": "column"
+                },
+                "document": {
+                  "column": "document",
+                  "fields": {
+                    "fields": {
+                      "back": {
+                        "column": "back",
+                        "type": "column"
+                      },
+                      "details": {
+                        "column": "details",
+                        "type": "column"
+                      },
+                      "details_code": {
+                        "column": "details_code",
+                        "type": "column"
+                      },
+                      "front": {
+                        "column": "front",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

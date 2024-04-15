@@ -1,0 +1,87 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTaxRates",
+      "arguments": {
+        "active": false,
+        "country": "pnMyKf4ie5",
+        "description": "AAPrxrudIw",
+        "display_name": "UyIC0HYmfS",
+        "expand": [],
+        "inclusive": true,
+        "jurisdiction": "8PLzs3Jvpz",
+        "metadata": null,
+        "percentage": 1.9590973106309286,
+        "state": "qkRSk7lku0",
+        "tax_type": "sales_tax"
+      },
+      "fields": {
+        "fields": {
+          "active": {
+            "column": "active",
+            "type": "column"
+          },
+          "country": {
+            "column": "country",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "description": {
+            "column": "description",
+            "type": "column"
+          },
+          "display_name": {
+            "column": "display_name",
+            "type": "column"
+          },
+          "effective_percentage": {
+            "column": "effective_percentage",
+            "type": "column"
+          },
+          "inclusive": {
+            "column": "inclusive",
+            "type": "column"
+          },
+          "jurisdiction": {
+            "column": "jurisdiction",
+            "type": "column"
+          },
+          "jurisdiction_level": {
+            "column": "jurisdiction_level",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "percentage": {
+            "column": "percentage",
+            "type": "column"
+          },
+          "state": {
+            "column": "state",
+            "type": "column"
+          },
+          "tax_type": {
+            "column": "tax_type",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

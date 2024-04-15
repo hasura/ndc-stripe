@@ -1,0 +1,162 @@
+{
+  "arguments": {
+    "calculation": {
+      "type": "literal",
+      "value": "QQUYrMQbjT"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "JJHsFpXBB8"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "4zxvz9Ojuq"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 31824
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "YIy8PdPk5V"
+    }
+  },
+  "collection": "GetTaxCalculationsCalculationLineItems",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "amount_tax": {
+                      "column": "amount_tax",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "product": {
+                      "column": "product",
+                      "type": "column"
+                    },
+                    "quantity": {
+                      "column": "quantity",
+                      "type": "column"
+                    },
+                    "reference": {
+                      "column": "reference",
+                      "type": "column"
+                    },
+                    "tax_behavior": {
+                      "column": "tax_behavior",
+                      "type": "column"
+                    },
+                    "tax_breakdown": {
+                      "column": "tax_breakdown",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "amount": {
+                              "column": "amount",
+                              "type": "column"
+                            },
+                            "jurisdiction": {
+                              "column": "jurisdiction",
+                              "fields": {
+                                "fields": {
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  },
+                                  "display_name": {
+                                    "column": "display_name",
+                                    "type": "column"
+                                  },
+                                  "level": {
+                                    "column": "level",
+                                    "type": "column"
+                                  },
+                                  "state": {
+                                    "column": "state",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            },
+                            "sourcing": {
+                              "column": "sourcing",
+                              "type": "column"
+                            },
+                            "tax_rate_details": {
+                              "column": "tax_rate_details",
+                              "type": "column"
+                            },
+                            "taxability_reason": {
+                              "column": "taxability_reason",
+                              "type": "column"
+                            },
+                            "taxable_amount": {
+                              "column": "taxable_amount",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "tax_code": {
+                      "column": "tax_code",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

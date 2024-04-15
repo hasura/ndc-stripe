@@ -1,0 +1,98 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "0NdRsivW8Z"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "aCclJMV2wl"
+    }
+  },
+  "collection": "GetTreasuryTransactionEntriesId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "balance_impact": {
+              "column": "balance_impact",
+              "fields": {
+                "fields": {
+                  "cash": {
+                    "column": "cash",
+                    "type": "column"
+                  },
+                  "inbound_pending": {
+                    "column": "inbound_pending",
+                    "type": "column"
+                  },
+                  "outbound_pending": {
+                    "column": "outbound_pending",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "effective_at": {
+              "column": "effective_at",
+              "type": "column"
+            },
+            "financial_account": {
+              "column": "financial_account",
+              "type": "column"
+            },
+            "flow": {
+              "column": "flow",
+              "type": "column"
+            },
+            "flow_details": {
+              "column": "flow_details",
+              "type": "column"
+            },
+            "flow_type": {
+              "column": "flow_type",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "transaction": {
+              "column": "transaction",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

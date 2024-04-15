@@ -1,0 +1,228 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTestHelpersCustomersCustomerFundCashBalance",
+      "arguments": {
+        "amount": 2029857043,
+        "currency": "xfxqUmG3NN",
+        "customer": "G3MSUENqan",
+        "expand": ["CKRaeG9MXP"],
+        "reference": "JFheJirWVR"
+      },
+      "fields": {
+        "fields": {
+          "adjusted_for_overdraft": {
+            "column": "adjusted_for_overdraft",
+            "fields": {
+              "fields": {
+                "balance_transaction": {
+                  "column": "balance_transaction",
+                  "type": "column"
+                },
+                "linked_transaction": {
+                  "column": "linked_transaction",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "applied_to_payment": {
+            "column": "applied_to_payment",
+            "fields": {
+              "fields": {
+                "payment_intent": {
+                  "column": "payment_intent",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "ending_balance": {
+            "column": "ending_balance",
+            "type": "column"
+          },
+          "funded": {
+            "column": "funded",
+            "fields": {
+              "fields": {
+                "bank_transfer": {
+                  "column": "bank_transfer",
+                  "fields": {
+                    "fields": {
+                      "eu_bank_transfer": {
+                        "column": "eu_bank_transfer",
+                        "fields": {
+                          "fields": {
+                            "bic": {
+                              "column": "bic",
+                              "type": "column"
+                            },
+                            "iban_last4": {
+                              "column": "iban_last4",
+                              "type": "column"
+                            },
+                            "sender_name": {
+                              "column": "sender_name",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "gb_bank_transfer": {
+                        "column": "gb_bank_transfer",
+                        "fields": {
+                          "fields": {
+                            "account_number_last4": {
+                              "column": "account_number_last4",
+                              "type": "column"
+                            },
+                            "sender_name": {
+                              "column": "sender_name",
+                              "type": "column"
+                            },
+                            "sort_code": {
+                              "column": "sort_code",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "jp_bank_transfer": {
+                        "column": "jp_bank_transfer",
+                        "fields": {
+                          "fields": {
+                            "sender_bank": {
+                              "column": "sender_bank",
+                              "type": "column"
+                            },
+                            "sender_branch": {
+                              "column": "sender_branch",
+                              "type": "column"
+                            },
+                            "sender_name": {
+                              "column": "sender_name",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "reference": {
+                        "column": "reference",
+                        "type": "column"
+                      },
+                      "type": {
+                        "column": "type",
+                        "type": "column"
+                      },
+                      "us_bank_transfer": {
+                        "column": "us_bank_transfer",
+                        "fields": {
+                          "fields": {
+                            "network": {
+                              "column": "network",
+                              "type": "column"
+                            },
+                            "sender_name": {
+                              "column": "sender_name",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "net_amount": {
+            "column": "net_amount",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "refunded_from_payment": {
+            "column": "refunded_from_payment",
+            "fields": {
+              "fields": {
+                "refund": {
+                  "column": "refund",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "transferred_to_balance": {
+            "column": "transferred_to_balance",
+            "fields": {
+              "fields": {
+                "balance_transaction": {
+                  "column": "balance_transaction",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          },
+          "unapplied_from_payment": {
+            "column": "unapplied_from_payment",
+            "fields": {
+              "fields": {
+                "payment_intent": {
+                  "column": "payment_intent",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

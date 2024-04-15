@@ -1,0 +1,80 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "id": {
+      "type": "literal",
+      "value": "eQGxmiqx0P"
+    }
+  },
+  "collection": "GetEventsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "account": {
+              "column": "account",
+              "type": "column"
+            },
+            "api_version": {
+              "column": "api_version",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "object": {
+                    "column": "object",
+                    "type": "column"
+                  },
+                  "previous_attributes": {
+                    "column": "previous_attributes",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "pending_webhooks": {
+              "column": "pending_webhooks",
+              "type": "column"
+            },
+            "request": {
+              "column": "request",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

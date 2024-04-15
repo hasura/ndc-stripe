@@ -1,0 +1,53 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "amount": 1282253659,
+        "cancelable": false,
+        "created": 1234567890,
+        "currency": "yjN5YA0xv3",
+        "customer": "6Bt3kOuPv4",
+        "description": "2HKLUFAuFm",
+        "destination_payment_method": "cqbpKpsBLF",
+        "destination_payment_method_details": {
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": null,
+              "state": null
+            },
+            "email": null,
+            "name": null
+          },
+          "financial_account": null,
+          "type": "us_bank_account",
+          "us_bank_account": null
+        },
+        "end_user_details": {
+          "ip_address": null,
+          "present": false
+        },
+        "expected_arrival_date": 1234567890,
+        "financial_account": "n6w2eiQwBm",
+        "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgaR9eFFZxA6Nf1Uo94Mpn-7Tsn_H3VUq5eU5VqUXb9OIEaCinxrEDg2YK6jwW9CYt3AXOyCohxB6swPKWTL",
+        "livemode": false,
+        "metadata": {},
+        "object": "treasury.outbound_payment",
+        "returned_details": null,
+        "statement_descriptor": "XgWdPdfSKK",
+        "status": "processing",
+        "status_transitions": {
+          "canceled_at": null,
+          "failed_at": null,
+          "posted_at": null,
+          "returned_at": null
+        },
+        "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+      }
+    }
+  ]
+}

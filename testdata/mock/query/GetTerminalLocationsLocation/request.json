@@ -1,0 +1,24 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "6wVafi2Rj9"
+      ]
+    },
+    "location": {
+      "type": "literal",
+      "value": "ipRYbd93Aq"
+    }
+  },
+  "collection": "GetTerminalLocationsLocation",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "type": "column"
+      }
+    }
+  }
+}

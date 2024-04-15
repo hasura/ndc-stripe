@@ -1,0 +1,87 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCustomerSessions",
+      "arguments": {
+        "components": {
+          "buy_button": {
+            "enabled": true
+          },
+          "pricing_table": {
+            "enabled": true
+          }
+        },
+        "customer": "DR7QKzT3nU",
+        "expand": [
+          "QJedQIyrye"
+        ]
+      },
+      "fields": {
+        "fields": {
+          "client_secret": {
+            "column": "client_secret",
+            "type": "column"
+          },
+          "components": {
+            "column": "components",
+            "fields": {
+              "fields": {
+                "buy_button": {
+                  "column": "buy_button",
+                  "fields": {
+                    "fields": {
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "pricing_table": {
+                  "column": "pricing_table",
+                  "fields": {
+                    "fields": {
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "expires_at": {
+            "column": "expires_at",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

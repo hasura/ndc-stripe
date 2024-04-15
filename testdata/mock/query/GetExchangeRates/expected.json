@@ -1,0 +1,20 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "id": "rate_7573642d636164",
+              "object": "exchange_rate",
+              "rates": {}
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/exchange_rates"
+        }
+      }
+    ]
+  }
+]

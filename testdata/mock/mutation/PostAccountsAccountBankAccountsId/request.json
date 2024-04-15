@@ -1,0 +1,33 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostAccountsAccountBankAccountsId",
+      "arguments": {
+        "account": "mDg7OK6w5B",
+        "account_holder_name": "xJRmsHHROk",
+        "account_holder_type": "company",
+        "account_type": "futsu",
+        "address_city": "4Ho4zciTox",
+        "address_country": "HRt5nyJiBG",
+        "address_line1": "LsKKUFtlw9",
+        "address_line2": "hB2IqOlQFp",
+        "address_state": "6qJLH9AMPh",
+        "address_zip": "7l63P6pL9W",
+        "default_for_currency": false,
+        "documents": {
+          "bank_account_ownership_verification": {
+            "files": [""]
+          }
+        },
+        "exp_month": "txIsXbYI8s",
+        "exp_year": "bV29jjUDC4",
+        "expand": ["raJPxARJt9"],
+        "id": "9JInLnM2Rk",
+        "metadata": null,
+        "name": "7hPQfyrEtP"
+      }
+    }
+  ]
+}

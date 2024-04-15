@@ -1,0 +1,29 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "action": null,
+              "device_sw_version": null,
+              "device_type": "bbpos_wisepos_e",
+              "id": "tmr_BKknTibEn0JgG9fJJXUV93Wy",
+              "ip_address": "192.168.2.2",
+              "label": "Blue Rabbit",
+              "livemode": false,
+              "location": null,
+              "metadata": {},
+              "object": "terminal.reader",
+              "serial_number": "123-456-789",
+              "status": "online"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/terminal/readers"
+        }
+      }
+    ]
+  }
+]

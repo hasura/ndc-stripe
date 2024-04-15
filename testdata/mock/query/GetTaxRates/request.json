@@ -1,0 +1,137 @@
+{
+  "arguments": {
+    "active": {
+      "type": "literal",
+      "value": false
+    },
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "QbcQTZaKvv"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "ZEZWn4Okjy"
+      ]
+    },
+    "inclusive": {
+      "type": "literal",
+      "value": false
+    },
+    "limit": {
+      "type": "literal",
+      "value": 19525
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "jziqYD8sJq"
+    }
+  },
+  "collection": "GetTaxRates",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "active": {
+                      "column": "active",
+                      "type": "column"
+                    },
+                    "country": {
+                      "column": "country",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "display_name": {
+                      "column": "display_name",
+                      "type": "column"
+                    },
+                    "effective_percentage": {
+                      "column": "effective_percentage",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "inclusive": {
+                      "column": "inclusive",
+                      "type": "column"
+                    },
+                    "jurisdiction": {
+                      "column": "jurisdiction",
+                      "type": "column"
+                    },
+                    "jurisdiction_level": {
+                      "column": "jurisdiction_level",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "percentage": {
+                      "column": "percentage",
+                      "type": "column"
+                    },
+                    "state": {
+                      "column": "state",
+                      "type": "column"
+                    },
+                    "tax_type": {
+                      "column": "tax_type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

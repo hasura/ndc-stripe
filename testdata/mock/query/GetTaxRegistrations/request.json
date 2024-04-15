@@ -1,0 +1,1137 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "WquvRt5jAS"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "XSWJLXDt6E"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 27733
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "GBrLuWGQic"
+    },
+    "status": {
+      "type": "literal",
+      "value": "expired"
+    }
+  },
+  "collection": "GetTaxRegistrations",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "active_from": {
+                      "column": "active_from",
+                      "type": "column"
+                    },
+                    "country": {
+                      "column": "country",
+                      "type": "column"
+                    },
+                    "country_options": {
+                      "column": "country_options",
+                      "fields": {
+                        "fields": {
+                          "ae": {
+                            "column": "ae",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "at": {
+                            "column": "at",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "au": {
+                            "column": "au",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "be": {
+                            "column": "be",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "bg": {
+                            "column": "bg",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "ca": {
+                            "column": "ca",
+                            "fields": {
+                              "fields": {
+                                "province_standard": {
+                                  "column": "province_standard",
+                                  "fields": {
+                                    "fields": {
+                                      "province": {
+                                        "column": "province",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "ch": {
+                            "column": "ch",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "cl": {
+                            "column": "cl",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "co": {
+                            "column": "co",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "cy": {
+                            "column": "cy",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "cz": {
+                            "column": "cz",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "de": {
+                            "column": "de",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "dk": {
+                            "column": "dk",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "ee": {
+                            "column": "ee",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "es": {
+                            "column": "es",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "fi": {
+                            "column": "fi",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "fr": {
+                            "column": "fr",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "gb": {
+                            "column": "gb",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "gr": {
+                            "column": "gr",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "hr": {
+                            "column": "hr",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "hu": {
+                            "column": "hu",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "id": {
+                            "column": "id",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "ie": {
+                            "column": "ie",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "is": {
+                            "column": "is",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "it": {
+                            "column": "it",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "jp": {
+                            "column": "jp",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "kr": {
+                            "column": "kr",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "lt": {
+                            "column": "lt",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "lu": {
+                            "column": "lu",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "lv": {
+                            "column": "lv",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "mt": {
+                            "column": "mt",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "mx": {
+                            "column": "mx",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "my": {
+                            "column": "my",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "nl": {
+                            "column": "nl",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "no": {
+                            "column": "no",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "nz": {
+                            "column": "nz",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "pl": {
+                            "column": "pl",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "pt": {
+                            "column": "pt",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "ro": {
+                            "column": "ro",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "sa": {
+                            "column": "sa",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "se": {
+                            "column": "se",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "sg": {
+                            "column": "sg",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "si": {
+                            "column": "si",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "sk": {
+                            "column": "sk",
+                            "fields": {
+                              "fields": {
+                                "standard": {
+                                  "column": "standard",
+                                  "fields": {
+                                    "fields": {
+                                      "place_of_supply_scheme": {
+                                        "column": "place_of_supply_scheme",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "th": {
+                            "column": "th",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "tr": {
+                            "column": "tr",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "us": {
+                            "column": "us",
+                            "fields": {
+                              "fields": {
+                                "local_amusement_tax": {
+                                  "column": "local_amusement_tax",
+                                  "fields": {
+                                    "fields": {
+                                      "jurisdiction": {
+                                        "column": "jurisdiction",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "local_lease_tax": {
+                                  "column": "local_lease_tax",
+                                  "fields": {
+                                    "fields": {
+                                      "jurisdiction": {
+                                        "column": "jurisdiction",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "state": {
+                                  "column": "state",
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "vn": {
+                            "column": "vn",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "za": {
+                            "column": "za",
+                            "fields": {
+                              "fields": {
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "expires_at": {
+                      "column": "expires_at",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

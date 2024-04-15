@@ -1,0 +1,55 @@
+{
+  "arguments": {
+    "account": {
+      "type": "literal",
+      "value": "63YyJT72lf"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "6hf6XsJPUa"
+    },
+    "limit": {
+      "type": "literal",
+      "value": 9311
+    },
+    "object": {
+      "type": "literal",
+      "value": "bank_account"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "trB6ZbXTxb"
+    }
+  },
+  "collection": "GetAccountsAccountExternalAccounts",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

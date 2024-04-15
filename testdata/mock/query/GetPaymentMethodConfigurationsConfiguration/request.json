@@ -1,0 +1,1217 @@
+{
+  "arguments": {
+    "configuration": {
+      "type": "literal",
+      "value": "XzLgOiBGdG"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "4BBcPgpUmw"
+      ]
+    }
+  },
+  "collection": "GetPaymentMethodConfigurationsConfiguration",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "acss_debit": {
+              "column": "acss_debit",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "active": {
+              "column": "active",
+              "type": "column"
+            },
+            "affirm": {
+              "column": "affirm",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "afterpay_clearpay": {
+              "column": "afterpay_clearpay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "alipay": {
+              "column": "alipay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "apple_pay": {
+              "column": "apple_pay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "application": {
+              "column": "application",
+              "type": "column"
+            },
+            "au_becs_debit": {
+              "column": "au_becs_debit",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "bacs_debit": {
+              "column": "bacs_debit",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "bancontact": {
+              "column": "bancontact",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "blik": {
+              "column": "blik",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "boleto": {
+              "column": "boleto",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "card": {
+              "column": "card",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "cartes_bancaires": {
+              "column": "cartes_bancaires",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "cashapp": {
+              "column": "cashapp",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "customer_balance": {
+              "column": "customer_balance",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "eps": {
+              "column": "eps",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "fpx": {
+              "column": "fpx",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "giropay": {
+              "column": "giropay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "google_pay": {
+              "column": "google_pay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "grabpay": {
+              "column": "grabpay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "ideal": {
+              "column": "ideal",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "is_default": {
+              "column": "is_default",
+              "type": "column"
+            },
+            "jcb": {
+              "column": "jcb",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "klarna": {
+              "column": "klarna",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "konbini": {
+              "column": "konbini",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "link": {
+              "column": "link",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "oxxo": {
+              "column": "oxxo",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "p24": {
+              "column": "p24",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "parent": {
+              "column": "parent",
+              "type": "column"
+            },
+            "paynow": {
+              "column": "paynow",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "paypal": {
+              "column": "paypal",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "promptpay": {
+              "column": "promptpay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "revolut_pay": {
+              "column": "revolut_pay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "sepa_debit": {
+              "column": "sepa_debit",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "sofort": {
+              "column": "sofort",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "us_bank_account": {
+              "column": "us_bank_account",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "wechat_pay": {
+              "column": "wechat_pay",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "type": "column"
+                  },
+                  "display_preference": {
+                    "column": "display_preference",
+                    "fields": {
+                      "fields": {
+                        "overridable": {
+                          "column": "overridable",
+                          "type": "column"
+                        },
+                        "preference": {
+                          "column": "preference",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

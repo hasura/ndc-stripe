@@ -1,0 +1,30 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteAccountsAccountPersonsPerson",
+      "arguments": {
+        "account": "h2ID33brK0",
+        "person": "GaOeQU0rcQ"
+      },
+      "fields": {
+        "fields": {
+          "deleted": {
+            "column": "deleted",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

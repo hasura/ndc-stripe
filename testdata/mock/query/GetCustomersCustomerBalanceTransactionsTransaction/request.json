@@ -1,0 +1,83 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "PfGf7rhQZA"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "transaction": {
+      "type": "literal",
+      "value": "blistBqjIq"
+    }
+  },
+  "collection": "GetCustomersCustomerBalanceTransactionsTransaction",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "credit_note": {
+              "column": "credit_note",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "customer": {
+              "column": "customer",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "ending_balance": {
+              "column": "ending_balance",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "invoice": {
+              "column": "invoice",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

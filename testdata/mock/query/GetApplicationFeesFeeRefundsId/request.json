@@ -1,0 +1,63 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "fee": {
+      "type": "literal",
+      "value": "TnfUVSUcJn"
+    },
+    "id": {
+      "type": "literal",
+      "value": "97oCLmzaOW"
+    }
+  },
+  "collection": "GetApplicationFeesFeeRefundsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "balance_transaction": {
+              "column": "balance_transaction",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "fee": {
+              "column": "fee",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

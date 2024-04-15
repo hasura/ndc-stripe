@@ -1,0 +1,40 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostEphemeralKeys",
+      "arguments": {
+        "customer": "zEdtMyqIr7",
+        "issuing_card": "779MQubBKl",
+        "nonce": "ajpvAdpU2Y",
+        "verification_session": "y7pkeUwpND"
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "expires": {
+            "column": "expires",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "secret": {
+            "column": "secret",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

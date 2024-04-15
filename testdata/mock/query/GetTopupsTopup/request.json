@@ -1,0 +1,91 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": []
+    },
+    "topup": {
+      "type": "literal",
+      "value": "f2XqNrdtFA"
+    }
+  },
+  "collection": "GetTopupsTopup",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "balance_transaction": {
+              "column": "balance_transaction",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "expected_availability_date": {
+              "column": "expected_availability_date",
+              "type": "column"
+            },
+            "failure_code": {
+              "column": "failure_code",
+              "type": "column"
+            },
+            "failure_message": {
+              "column": "failure_message",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "source": {
+              "column": "source",
+              "type": "column"
+            },
+            "statement_descriptor": {
+              "column": "statement_descriptor",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "transfer_group": {
+              "column": "transfer_group",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

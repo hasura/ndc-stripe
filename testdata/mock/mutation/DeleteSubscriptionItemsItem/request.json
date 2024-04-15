@@ -1,0 +1,32 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteSubscriptionItemsItem",
+      "arguments": {
+        "clear_usage": true,
+        "proration_behavior": "create_prorations",
+        "proration_date": 17255,
+        "item": "i2J8t12Syq"
+      },
+      "fields": {
+        "fields": {
+          "deleted": {
+            "column": "deleted",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

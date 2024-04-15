@@ -1,0 +1,29 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "bank_transfer": {
+          "country": "DE",
+          "financial_addresses": [
+            {
+              "aba": null,
+              "iban": null,
+              "sort_code": null,
+              "spei": null,
+              "supported_networks": ["sepa", "domestic_wire_us"],
+              "swift": null,
+              "type": "iban",
+              "zengin": null
+            }
+          ],
+          "type": "gb_bank_transfer"
+        },
+        "currency": "YvDqH0MbxZ",
+        "funding_type": "bank_transfer",
+        "livemode": false,
+        "object": "funding_instructions"
+      }
+    }
+  ]
+}

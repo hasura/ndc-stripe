@@ -1,0 +1,67 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "account": null,
+          "address_city": null,
+          "address_country": null,
+          "address_line1": null,
+          "address_line1_check": null,
+          "address_line2": null,
+          "address_state": null,
+          "address_zip": null,
+          "address_zip_check": null,
+          "available_payout_methods": null,
+          "brand": "Visa",
+          "country": "US",
+          "currency": null,
+          "customer": {
+            "address": null,
+            "balance": 0,
+            "created": 1234567890,
+            "currency": "usd",
+            "default_source": null,
+            "delinquent": false,
+            "description": null,
+            "discount": null,
+            "email": null,
+            "id": "OoEYGScQ2p",
+            "invoice_prefix": "B4749BD",
+            "invoice_settings": {
+              "custom_fields": null,
+              "default_payment_method": null,
+              "footer": null,
+              "rendering_options": null
+            },
+            "livemode": false,
+            "metadata": {},
+            "name": null,
+            "next_invoice_sequence": 1,
+            "object": "customer",
+            "phone": null,
+            "preferred_locales": [],
+            "shipping": null,
+            "tax_exempt": "none",
+            "test_clock": null
+          },
+          "cvc_check": "pass",
+          "default_for_currency": null,
+          "dynamic_last4": null,
+          "exp_month": 8,
+          "exp_year": 2024,
+          "fingerprint": "r40d4vOgg3VecDJF",
+          "funding": "credit",
+          "id": "wgSuY4olGR",
+          "last4": "4242",
+          "metadata": {},
+          "name": "Jenny Rosen",
+          "networks": null,
+          "object": "card",
+          "status": null,
+          "tokenization_method": null
+        }
+      }
+    ]
+  }
+]

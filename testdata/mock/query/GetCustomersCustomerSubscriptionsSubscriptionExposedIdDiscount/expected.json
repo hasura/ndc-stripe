@@ -1,0 +1,66 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "checkout_session": null,
+          "coupon": {
+            "amount_off": null,
+            "applies_to": null,
+            "created": 1703175364,
+            "currency": "usd",
+            "currency_options": null,
+            "duration": "repeating",
+            "duration_in_months": 3,
+            "id": "Z4OV52SU",
+            "livemode": false,
+            "max_redemptions": null,
+            "metadata": {},
+            "name": "25.5% off",
+            "object": "coupon",
+            "percent_off": 25.5,
+            "redeem_by": null,
+            "times_redeemed": 0,
+            "valid": true
+          },
+          "customer": {
+            "address": null,
+            "balance": 0,
+            "created": 1234567890,
+            "currency": "usd",
+            "default_source": null,
+            "delinquent": false,
+            "description": null,
+            "discount": null,
+            "email": null,
+            "id": "gtS8UThZ9Z",
+            "invoice_prefix": "B4749BD",
+            "invoice_settings": {
+              "custom_fields": null,
+              "default_payment_method": null,
+              "footer": null,
+              "rendering_options": null
+            },
+            "livemode": false,
+            "metadata": {},
+            "name": null,
+            "next_invoice_sequence": 1,
+            "object": "customer",
+            "phone": null,
+            "preferred_locales": [],
+            "shipping": null,
+            "tax_exempt": "none",
+            "test_clock": null
+          },
+          "end": 1234567890,
+          "invoice": null,
+          "invoice_item": null,
+          "object": "discount",
+          "promotion_code": null,
+          "start": 1234567890,
+          "subscription": null
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteAccountsAccountBankAccountsId",
+      "arguments": {
+        "account": "Q9xCerWexz",
+        "id": "JJ5li8hjdY"
+      }
+    }
+  ]
+}

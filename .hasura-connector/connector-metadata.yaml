@@ -1,0 +1,17 @@
+packagingDefinition:
+  type: PrebuiltDockerImage
+  dockerImage: ghcr.io/hasura/ndc-stripe:v0.1.1
+supportedEnvironmentVariables:
+  - STRIPE_SERVER_URL
+  - STRIPE_BASIC_AUTH_TOKEN
+  - STRIPE_BEARER_AUTH_TOKEN
+  - STRIPE_TIMEOUT
+  - STRIPE_RETRY_TIMES
+  - STRIPE_RETRY_DELAY
+  - STRIPE_RETRY_HTTP_STATUS
+commands: {}
+dockerComposeWatch:
+  # copy config files into the existing container and restart it
+  - path: ./config
+    target: /config
+    action: sync+restart

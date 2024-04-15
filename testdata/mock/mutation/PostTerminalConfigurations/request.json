@@ -1,0 +1,373 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTerminalConfigurations",
+      "arguments": {},
+      "fields": {
+        "fields": {
+          "bbpos_wisepos_e": {
+            "column": "bbpos_wisepos_e",
+            "fields": {
+              "fields": {
+                "splashscreen": {
+                  "column": "splashscreen",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "is_account_default": {
+            "column": "is_account_default",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "offline": {
+            "column": "offline",
+            "fields": {
+              "fields": {
+                "enabled": {
+                  "column": "enabled",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "tipping": {
+            "column": "tipping",
+            "fields": {
+              "fields": {
+                "aud": {
+                  "column": "aud",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "cad": {
+                  "column": "cad",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "chf": {
+                  "column": "chf",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "czk": {
+                  "column": "czk",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "dkk": {
+                  "column": "dkk",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "eur": {
+                  "column": "eur",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "gbp": {
+                  "column": "gbp",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "hkd": {
+                  "column": "hkd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "myr": {
+                  "column": "myr",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "nok": {
+                  "column": "nok",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "nzd": {
+                  "column": "nzd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "sek": {
+                  "column": "sek",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "sgd": {
+                  "column": "sgd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "usd": {
+                  "column": "usd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "verifone_p400": {
+            "column": "verifone_p400",
+            "fields": {
+              "fields": {
+                "splashscreen": {
+                  "column": "splashscreen",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

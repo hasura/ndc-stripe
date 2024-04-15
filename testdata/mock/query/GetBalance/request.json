@@ -1,0 +1,247 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "1Y4biwiYXW"
+      ]
+    }
+  },
+  "collection": "GetBalance",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "available": {
+              "column": "available",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "source_types": {
+                      "column": "source_types",
+                      "fields": {
+                        "fields": {
+                          "bank_account": {
+                            "column": "bank_account",
+                            "type": "column"
+                          },
+                          "card": {
+                            "column": "card",
+                            "type": "column"
+                          },
+                          "fpx": {
+                            "column": "fpx",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "connect_reserved": {
+              "column": "connect_reserved",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "source_types": {
+                      "column": "source_types",
+                      "fields": {
+                        "fields": {
+                          "bank_account": {
+                            "column": "bank_account",
+                            "type": "column"
+                          },
+                          "card": {
+                            "column": "card",
+                            "type": "column"
+                          },
+                          "fpx": {
+                            "column": "fpx",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "instant_available": {
+              "column": "instant_available",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "source_types": {
+                      "column": "source_types",
+                      "fields": {
+                        "fields": {
+                          "bank_account": {
+                            "column": "bank_account",
+                            "type": "column"
+                          },
+                          "card": {
+                            "column": "card",
+                            "type": "column"
+                          },
+                          "fpx": {
+                            "column": "fpx",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "issuing": {
+              "column": "issuing",
+              "fields": {
+                "fields": {
+                  "available": {
+                    "column": "available",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "amount": {
+                            "column": "amount",
+                            "type": "column"
+                          },
+                          "currency": {
+                            "column": "currency",
+                            "type": "column"
+                          },
+                          "source_types": {
+                            "column": "source_types",
+                            "fields": {
+                              "fields": {
+                                "bank_account": {
+                                  "column": "bank_account",
+                                  "type": "column"
+                                },
+                                "card": {
+                                  "column": "card",
+                                  "type": "column"
+                                },
+                                "fpx": {
+                                  "column": "fpx",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "pending": {
+              "column": "pending",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "source_types": {
+                      "column": "source_types",
+                      "fields": {
+                        "fields": {
+                          "bank_account": {
+                            "column": "bank_account",
+                            "type": "column"
+                          },
+                          "card": {
+                            "column": "card",
+                            "type": "column"
+                          },
+                          "fpx": {
+                            "column": "fpx",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

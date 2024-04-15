@@ -1,0 +1,137 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostShippingRates",
+      "arguments": {
+        "delivery_estimate": {
+          "maximum": {
+            "unit": "month",
+            "value": 33677137
+          },
+          "minimum": {
+            "unit": "business_day",
+            "value": 1427055924
+          }
+        },
+        "display_name": "Dmew3pwnfr",
+        "expand": ["lHtqhoYHoc"],
+        "fixed_amount": {
+          "amount": 183544048,
+          "currency": "96XWGAgEVJ",
+          "currency_options": null
+        },
+        "metadata": null,
+        "tax_behavior": "inclusive",
+        "tax_code": "ex7KeWB6wy",
+        "type": "fixed_amount"
+      },
+      "fields": {
+        "fields": {
+          "active": {
+            "column": "active",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "delivery_estimate": {
+            "column": "delivery_estimate",
+            "fields": {
+              "fields": {
+                "maximum": {
+                  "column": "maximum",
+                  "fields": {
+                    "fields": {
+                      "unit": {
+                        "column": "unit",
+                        "type": "column"
+                      },
+                      "value": {
+                        "column": "value",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "minimum": {
+                  "column": "minimum",
+                  "fields": {
+                    "fields": {
+                      "unit": {
+                        "column": "unit",
+                        "type": "column"
+                      },
+                      "value": {
+                        "column": "value",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "display_name": {
+            "column": "display_name",
+            "type": "column"
+          },
+          "fixed_amount": {
+            "column": "fixed_amount",
+            "fields": {
+              "fields": {
+                "amount": {
+                  "column": "amount",
+                  "type": "column"
+                },
+                "currency": {
+                  "column": "currency",
+                  "type": "column"
+                },
+                "currency_options": {
+                  "column": "currency_options",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "tax_behavior": {
+            "column": "tax_behavior",
+            "type": "column"
+          },
+          "tax_code": {
+            "column": "tax_code",
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

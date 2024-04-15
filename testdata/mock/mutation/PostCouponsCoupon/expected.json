@@ -1,0 +1,26 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount_off": null,
+        "applies_to": { "products": [] },
+        "created": 1234567890,
+        "currency": "usd",
+        "currency_options": null,
+        "duration": "repeating",
+        "duration_in_months": 3,
+        "id": "gOtWlJElEv",
+        "livemode": false,
+        "max_redemptions": null,
+        "metadata": {},
+        "name": "BWkqEvgkyG",
+        "object": "coupon",
+        "percent_off": 25.5,
+        "redeem_by": 1234567890,
+        "times_redeemed": 0,
+        "valid": true
+      },
+      "type": "procedure"
+    }
+  ]
+}

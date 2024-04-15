@@ -1,0 +1,136 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteCustomersCustomerSubscriptionsSubscriptionExposedIdDiscount",
+      "arguments": {
+        "customer": "s2ehhh8aXr",
+        "subscription_exposed_id": "QyuaOU1ypf"
+      },
+      "fields": {
+        "fields": {
+          "checkout_session": {
+            "column": "checkout_session",
+            "type": "column"
+          },
+          "coupon": {
+            "column": "coupon",
+            "fields": {
+              "fields": {
+                "amount_off": {
+                  "column": "amount_off",
+                  "type": "column"
+                },
+                "applies_to": {
+                  "column": "applies_to",
+                  "fields": {
+                    "fields": {
+                      "products": {
+                        "column": "products",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "created": {
+                  "column": "created",
+                  "type": "column"
+                },
+                "currency": {
+                  "column": "currency",
+                  "type": "column"
+                },
+                "currency_options": {
+                  "column": "currency_options",
+                  "type": "column"
+                },
+                "duration": {
+                  "column": "duration",
+                  "type": "column"
+                },
+                "duration_in_months": {
+                  "column": "duration_in_months",
+                  "type": "column"
+                },
+                "livemode": {
+                  "column": "livemode",
+                  "type": "column"
+                },
+                "max_redemptions": {
+                  "column": "max_redemptions",
+                  "type": "column"
+                },
+                "metadata": {
+                  "column": "metadata",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "percent_off": {
+                  "column": "percent_off",
+                  "type": "column"
+                },
+                "redeem_by": {
+                  "column": "redeem_by",
+                  "type": "column"
+                },
+                "times_redeemed": {
+                  "column": "times_redeemed",
+                  "type": "column"
+                },
+                "valid": {
+                  "column": "valid",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "deleted": {
+            "column": "deleted",
+            "type": "column"
+          },
+          "invoice": {
+            "column": "invoice",
+            "type": "column"
+          },
+          "invoice_item": {
+            "column": "invoice_item",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "promotion_code": {
+            "column": "promotion_code",
+            "type": "column"
+          },
+          "start": {
+            "column": "start",
+            "type": "column"
+          },
+          "subscription": {
+            "column": "subscription",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

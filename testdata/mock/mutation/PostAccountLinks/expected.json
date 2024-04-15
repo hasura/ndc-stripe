@@ -1,0 +1,13 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1234567890,
+        "expires_at": 1234567890,
+        "object": "account_link",
+        "url": "https://pakrym-manage-mydev.dev.stripe.me/setup/s/acct_1OPouMJN5vQBdWEx/A70LFGX6VXGE"
+      },
+      "type": "procedure"
+    }
+  ]
+}

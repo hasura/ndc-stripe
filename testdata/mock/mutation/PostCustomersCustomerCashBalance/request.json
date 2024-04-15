@@ -1,0 +1,56 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCustomersCustomerCashBalance",
+      "arguments": {
+        "customer": "przxQ4AmtR",
+        "expand": [
+          "s0uTRt15Bh"
+        ],
+        "settings": {
+          "reconciliation_mode": "automatic"
+        }
+      },
+      "fields": {
+        "fields": {
+          "available": {
+            "column": "available",
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "settings": {
+            "column": "settings",
+            "fields": {
+              "fields": {
+                "reconciliation_mode": {
+                  "column": "reconciliation_mode",
+                  "type": "column"
+                },
+                "using_merchant_default": {
+                  "column": "using_merchant_default",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "arguments": {
+    "report_type": {
+      "type": "literal",
+      "value": "lqRhpeHpoA"
+    }
+  },
+  "collection": "GetReportingReportTypesReportType",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data_available_end": {
+              "column": "data_available_end",
+              "type": "column"
+            },
+            "data_available_start": {
+              "column": "data_available_start",
+              "type": "column"
+            },
+            "default_columns": {
+              "column": "default_columns",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "updated": {
+              "column": "updated",
+              "type": "column"
+            },
+            "version": {
+              "column": "version",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

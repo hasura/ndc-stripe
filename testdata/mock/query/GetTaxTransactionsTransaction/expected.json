@@ -1,0 +1,63 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1234567890,
+          "currency": "usd",
+          "customer": null,
+          "customer_details": {
+            "address": {
+              "city": "South San Francisco",
+              "country": "US",
+              "line1": "354 Oyster Point Blvd",
+              "line2": "",
+              "postal_code": "94080",
+              "state": "CA"
+            },
+            "address_source": "shipping",
+            "ip_address": null,
+            "tax_ids": [],
+            "taxability_override": "none"
+          },
+          "id": "gIgLx3l6au",
+          "line_items": {
+            "data": [
+              {
+                "amount": 1499,
+                "amount_tax": 148,
+                "id": "tax_li_PEHTRKid3aAj4P",
+                "livemode": false,
+                "metadata": null,
+                "object": "tax.transaction_line_item",
+                "product": null,
+                "quantity": 1,
+                "reference": "Pepperoni Pizza",
+                "reversal": null,
+                "tax_behavior": "exclusive",
+                "tax_code": "txcd_40060003",
+                "type": "transaction"
+              }
+            ],
+            "has_more": false,
+            "object": "list",
+            "url": "/v1/tax/transactions/id_123/line_items"
+          },
+          "livemode": false,
+          "metadata": null,
+          "object": "tax.transaction",
+          "reference": "myOrder_123",
+          "reversal": null,
+          "shipping_cost": {
+            "amount": 300,
+            "amount_tax": 0,
+            "tax_behavior": "exclusive",
+            "tax_code": "txcd_92010001"
+          },
+          "tax_date": 1234567890,
+          "type": "transaction"
+        }
+      }
+    ]
+  }
+]

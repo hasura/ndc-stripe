@@ -1,0 +1,113 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostPayoutsPayout",
+      "arguments": {
+        "expand": [
+          "dS48r68bfS"
+        ],
+        "metadata": null,
+        "payout": "uNptlgOizK"
+      },
+      "fields": {
+        "fields": {
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "arrival_date": {
+            "column": "arrival_date",
+            "type": "column"
+          },
+          "automatic": {
+            "column": "automatic",
+            "type": "column"
+          },
+          "balance_transaction": {
+            "column": "balance_transaction",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "description": {
+            "column": "description",
+            "type": "column"
+          },
+          "destination": {
+            "column": "destination",
+            "type": "column"
+          },
+          "failure_balance_transaction": {
+            "column": "failure_balance_transaction",
+            "type": "column"
+          },
+          "failure_code": {
+            "column": "failure_code",
+            "type": "column"
+          },
+          "failure_message": {
+            "column": "failure_message",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "method": {
+            "column": "method",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "original_payout": {
+            "column": "original_payout",
+            "type": "column"
+          },
+          "reconciliation_status": {
+            "column": "reconciliation_status",
+            "type": "column"
+          },
+          "reversed_by": {
+            "column": "reversed_by",
+            "type": "column"
+          },
+          "source_type": {
+            "column": "source_type",
+            "type": "column"
+          },
+          "statement_descriptor": {
+            "column": "statement_descriptor",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "api_version": null,
+        "application": null,
+        "created": 1234567890,
+        "description": "This is my webhook, I like it a lot",
+        "enabled_events": ["charge.failed"],
+        "livemode": false,
+        "metadata": {},
+        "object": "webhook_endpoint",
+        "secret": null,
+        "status": "enabled",
+        "url": "q2WR6CIYTQ"
+      },
+      "type": "procedure"
+    }
+  ]
+}

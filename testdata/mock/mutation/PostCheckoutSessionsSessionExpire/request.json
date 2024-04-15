@@ -1,0 +1,2186 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCheckoutSessionsSessionExpire",
+      "arguments": {
+        "expand": ["bfXYh6fLbs"],
+        "session": "wxJTtTaSfa"
+      },
+      "fields": {
+        "fields": {
+          "after_expiration": {
+            "column": "after_expiration",
+            "fields": {
+              "fields": {
+                "recovery": {
+                  "column": "recovery",
+                  "fields": {
+                    "fields": {
+                      "allow_promotion_codes": {
+                        "column": "allow_promotion_codes",
+                        "type": "column"
+                      },
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      },
+                      "expires_at": {
+                        "column": "expires_at",
+                        "type": "column"
+                      },
+                      "url": {
+                        "column": "url",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "allow_promotion_codes": {
+            "column": "allow_promotion_codes",
+            "type": "column"
+          },
+          "amount_subtotal": {
+            "column": "amount_subtotal",
+            "type": "column"
+          },
+          "amount_total": {
+            "column": "amount_total",
+            "type": "column"
+          },
+          "automatic_tax": {
+            "column": "automatic_tax",
+            "fields": {
+              "fields": {
+                "enabled": {
+                  "column": "enabled",
+                  "type": "column"
+                },
+                "liability": {
+                  "column": "liability",
+                  "fields": {
+                    "fields": {
+                      "account": {
+                        "column": "account",
+                        "type": "column"
+                      },
+                      "type": {
+                        "column": "type",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "billing_address_collection": {
+            "column": "billing_address_collection",
+            "type": "column"
+          },
+          "cancel_url": {
+            "column": "cancel_url",
+            "type": "column"
+          },
+          "client_reference_id": {
+            "column": "client_reference_id",
+            "type": "column"
+          },
+          "client_secret": {
+            "column": "client_secret",
+            "type": "column"
+          },
+          "consent": {
+            "column": "consent",
+            "fields": {
+              "fields": {
+                "promotions": {
+                  "column": "promotions",
+                  "type": "column"
+                },
+                "terms_of_service": {
+                  "column": "terms_of_service",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "consent_collection": {
+            "column": "consent_collection",
+            "fields": {
+              "fields": {
+                "payment_method_reuse_agreement": {
+                  "column": "payment_method_reuse_agreement",
+                  "fields": {
+                    "fields": {
+                      "position": {
+                        "column": "position",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "promotions": {
+                  "column": "promotions",
+                  "type": "column"
+                },
+                "terms_of_service": {
+                  "column": "terms_of_service",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "currency_conversion": {
+            "column": "currency_conversion",
+            "fields": {
+              "fields": {
+                "amount_subtotal": {
+                  "column": "amount_subtotal",
+                  "type": "column"
+                },
+                "amount_total": {
+                  "column": "amount_total",
+                  "type": "column"
+                },
+                "fx_rate": {
+                  "column": "fx_rate",
+                  "type": "column"
+                },
+                "source_currency": {
+                  "column": "source_currency",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "custom_fields": {
+            "column": "custom_fields",
+            "fields": {
+              "fields": {
+                "fields": {
+                  "dropdown": {
+                    "column": "dropdown",
+                    "fields": {
+                      "fields": {
+                        "options": {
+                          "column": "options",
+                          "fields": {
+                            "fields": {
+                              "fields": {
+                                "label": {
+                                  "column": "label",
+                                  "type": "column"
+                                },
+                                "value": {
+                                  "column": "value",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "array"
+                          },
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "key": {
+                    "column": "key",
+                    "type": "column"
+                  },
+                  "label": {
+                    "column": "label",
+                    "fields": {
+                      "fields": {
+                        "custom": {
+                          "column": "custom",
+                          "type": "column"
+                        },
+                        "type": {
+                          "column": "type",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "numeric": {
+                    "column": "numeric",
+                    "fields": {
+                      "fields": {
+                        "maximum_length": {
+                          "column": "maximum_length",
+                          "type": "column"
+                        },
+                        "minimum_length": {
+                          "column": "minimum_length",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "optional": {
+                    "column": "optional",
+                    "type": "column"
+                  },
+                  "text": {
+                    "column": "text",
+                    "fields": {
+                      "fields": {
+                        "maximum_length": {
+                          "column": "maximum_length",
+                          "type": "column"
+                        },
+                        "minimum_length": {
+                          "column": "minimum_length",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "type": "column"
+          },
+          "custom_text": {
+            "column": "custom_text",
+            "fields": {
+              "fields": {
+                "after_submit": {
+                  "column": "after_submit",
+                  "fields": {
+                    "fields": {
+                      "message": {
+                        "column": "message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "shipping_address": {
+                  "column": "shipping_address",
+                  "fields": {
+                    "fields": {
+                      "message": {
+                        "column": "message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "submit": {
+                  "column": "submit",
+                  "fields": {
+                    "fields": {
+                      "message": {
+                        "column": "message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "terms_of_service_acceptance": {
+                  "column": "terms_of_service_acceptance",
+                  "fields": {
+                    "fields": {
+                      "message": {
+                        "column": "message",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "customer_creation": {
+            "column": "customer_creation",
+            "type": "column"
+          },
+          "customer_details": {
+            "column": "customer_details",
+            "fields": {
+              "fields": {
+                "address": {
+                  "column": "address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "email": {
+                  "column": "email",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "phone": {
+                  "column": "phone",
+                  "type": "column"
+                },
+                "tax_exempt": {
+                  "column": "tax_exempt",
+                  "type": "column"
+                },
+                "tax_ids": {
+                  "column": "tax_ids",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "type": {
+                          "column": "type",
+                          "type": "column"
+                        },
+                        "value": {
+                          "column": "value",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "customer_email": {
+            "column": "customer_email",
+            "type": "column"
+          },
+          "expires_at": {
+            "column": "expires_at",
+            "type": "column"
+          },
+          "invoice": {
+            "column": "invoice",
+            "type": "column"
+          },
+          "invoice_creation": {
+            "column": "invoice_creation",
+            "fields": {
+              "fields": {
+                "enabled": {
+                  "column": "enabled",
+                  "type": "column"
+                },
+                "invoice_data": {
+                  "column": "invoice_data",
+                  "fields": {
+                    "fields": {
+                      "account_tax_ids": {
+                        "column": "account_tax_ids",
+                        "type": "column"
+                      },
+                      "custom_fields": {
+                        "column": "custom_fields",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "name": {
+                                "column": "name",
+                                "type": "column"
+                              },
+                              "value": {
+                                "column": "value",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      },
+                      "description": {
+                        "column": "description",
+                        "type": "column"
+                      },
+                      "footer": {
+                        "column": "footer",
+                        "type": "column"
+                      },
+                      "issuer": {
+                        "column": "issuer",
+                        "fields": {
+                          "fields": {
+                            "account": {
+                              "column": "account",
+                              "type": "column"
+                            },
+                            "type": {
+                              "column": "type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "metadata": {
+                        "column": "metadata",
+                        "type": "column"
+                      },
+                      "rendering_options": {
+                        "column": "rendering_options",
+                        "fields": {
+                          "fields": {
+                            "amount_tax_display": {
+                              "column": "amount_tax_display",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "line_items": {
+            "column": "line_items",
+            "fields": {
+              "fields": {
+                "data": {
+                  "column": "data",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "amount_discount": {
+                          "column": "amount_discount",
+                          "type": "column"
+                        },
+                        "amount_subtotal": {
+                          "column": "amount_subtotal",
+                          "type": "column"
+                        },
+                        "amount_tax": {
+                          "column": "amount_tax",
+                          "type": "column"
+                        },
+                        "amount_total": {
+                          "column": "amount_total",
+                          "type": "column"
+                        },
+                        "currency": {
+                          "column": "currency",
+                          "type": "column"
+                        },
+                        "description": {
+                          "column": "description",
+                          "type": "column"
+                        },
+                        "discounts": {
+                          "column": "discounts",
+                          "fields": {
+                            "fields": {
+                              "fields": {
+                                "amount": {
+                                  "column": "amount",
+                                  "type": "column"
+                                },
+                                "discount": {
+                                  "column": "discount",
+                                  "fields": {
+                                    "fields": {
+                                      "checkout_session": {
+                                        "column": "checkout_session",
+                                        "type": "column"
+                                      },
+                                      "coupon": {
+                                        "column": "coupon",
+                                        "fields": {
+                                          "fields": {
+                                            "amount_off": {
+                                              "column": "amount_off",
+                                              "type": "column"
+                                            },
+                                            "applies_to": {
+                                              "column": "applies_to",
+                                              "fields": {
+                                                "fields": {
+                                                  "products": {
+                                                    "column": "products",
+                                                    "type": "column"
+                                                  }
+                                                },
+                                                "type": "object"
+                                              },
+                                              "type": "column"
+                                            },
+                                            "created": {
+                                              "column": "created",
+                                              "type": "column"
+                                            },
+                                            "currency": {
+                                              "column": "currency",
+                                              "type": "column"
+                                            },
+                                            "currency_options": {
+                                              "column": "currency_options",
+                                              "type": "column"
+                                            },
+                                            "duration": {
+                                              "column": "duration",
+                                              "type": "column"
+                                            },
+                                            "duration_in_months": {
+                                              "column": "duration_in_months",
+                                              "type": "column"
+                                            },
+                                            "id": {
+                                              "column": "id",
+                                              "type": "column"
+                                            },
+                                            "livemode": {
+                                              "column": "livemode",
+                                              "type": "column"
+                                            },
+                                            "max_redemptions": {
+                                              "column": "max_redemptions",
+                                              "type": "column"
+                                            },
+                                            "metadata": {
+                                              "column": "metadata",
+                                              "type": "column"
+                                            },
+                                            "name": {
+                                              "column": "name",
+                                              "type": "column"
+                                            },
+                                            "object": {
+                                              "column": "object",
+                                              "type": "column"
+                                            },
+                                            "percent_off": {
+                                              "column": "percent_off",
+                                              "type": "column"
+                                            },
+                                            "redeem_by": {
+                                              "column": "redeem_by",
+                                              "type": "column"
+                                            },
+                                            "times_redeemed": {
+                                              "column": "times_redeemed",
+                                              "type": "column"
+                                            },
+                                            "valid": {
+                                              "column": "valid",
+                                              "type": "column"
+                                            }
+                                          },
+                                          "type": "object"
+                                        },
+                                        "type": "column"
+                                      },
+                                      "customer": {
+                                        "column": "customer",
+                                        "type": "column"
+                                      },
+                                      "end": {
+                                        "column": "end",
+                                        "type": "column"
+                                      },
+                                      "id": {
+                                        "column": "id",
+                                        "type": "column"
+                                      },
+                                      "invoice": {
+                                        "column": "invoice",
+                                        "type": "column"
+                                      },
+                                      "invoice_item": {
+                                        "column": "invoice_item",
+                                        "type": "column"
+                                      },
+                                      "object": {
+                                        "column": "object",
+                                        "type": "column"
+                                      },
+                                      "promotion_code": {
+                                        "column": "promotion_code",
+                                        "type": "column"
+                                      },
+                                      "start": {
+                                        "column": "start",
+                                        "type": "column"
+                                      },
+                                      "subscription": {
+                                        "column": "subscription",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "array"
+                          },
+                          "type": "column"
+                        },
+                        "id": {
+                          "column": "id",
+                          "type": "column"
+                        },
+                        "object": {
+                          "column": "object",
+                          "type": "column"
+                        },
+                        "price": {
+                          "column": "price",
+                          "fields": {
+                            "fields": {
+                              "active": {
+                                "column": "active",
+                                "type": "column"
+                              },
+                              "billing_scheme": {
+                                "column": "billing_scheme",
+                                "type": "column"
+                              },
+                              "created": {
+                                "column": "created",
+                                "type": "column"
+                              },
+                              "currency": {
+                                "column": "currency",
+                                "type": "column"
+                              },
+                              "currency_options": {
+                                "column": "currency_options",
+                                "type": "column"
+                              },
+                              "custom_unit_amount": {
+                                "column": "custom_unit_amount",
+                                "fields": {
+                                  "fields": {
+                                    "maximum": {
+                                      "column": "maximum",
+                                      "type": "column"
+                                    },
+                                    "minimum": {
+                                      "column": "minimum",
+                                      "type": "column"
+                                    },
+                                    "preset": {
+                                      "column": "preset",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "column"
+                              },
+                              "id": {
+                                "column": "id",
+                                "type": "column"
+                              },
+                              "livemode": {
+                                "column": "livemode",
+                                "type": "column"
+                              },
+                              "lookup_key": {
+                                "column": "lookup_key",
+                                "type": "column"
+                              },
+                              "metadata": {
+                                "column": "metadata",
+                                "type": "column"
+                              },
+                              "nickname": {
+                                "column": "nickname",
+                                "type": "column"
+                              },
+                              "object": {
+                                "column": "object",
+                                "type": "column"
+                              },
+                              "product": {
+                                "column": "product",
+                                "type": "column"
+                              },
+                              "recurring": {
+                                "column": "recurring",
+                                "fields": {
+                                  "fields": {
+                                    "aggregate_usage": {
+                                      "column": "aggregate_usage",
+                                      "type": "column"
+                                    },
+                                    "interval": {
+                                      "column": "interval",
+                                      "type": "column"
+                                    },
+                                    "interval_count": {
+                                      "column": "interval_count",
+                                      "type": "column"
+                                    },
+                                    "meter": {
+                                      "column": "meter",
+                                      "type": "column"
+                                    },
+                                    "usage_type": {
+                                      "column": "usage_type",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "column"
+                              },
+                              "tax_behavior": {
+                                "column": "tax_behavior",
+                                "type": "column"
+                              },
+                              "tiers": {
+                                "column": "tiers",
+                                "fields": {
+                                  "fields": {
+                                    "fields": {
+                                      "flat_amount": {
+                                        "column": "flat_amount",
+                                        "type": "column"
+                                      },
+                                      "flat_amount_decimal": {
+                                        "column": "flat_amount_decimal",
+                                        "type": "column"
+                                      },
+                                      "unit_amount": {
+                                        "column": "unit_amount",
+                                        "type": "column"
+                                      },
+                                      "unit_amount_decimal": {
+                                        "column": "unit_amount_decimal",
+                                        "type": "column"
+                                      },
+                                      "up_to": {
+                                        "column": "up_to",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "array"
+                                },
+                                "type": "column"
+                              },
+                              "tiers_mode": {
+                                "column": "tiers_mode",
+                                "type": "column"
+                              },
+                              "transform_quantity": {
+                                "column": "transform_quantity",
+                                "fields": {
+                                  "fields": {
+                                    "divide_by": {
+                                      "column": "divide_by",
+                                      "type": "column"
+                                    },
+                                    "round": {
+                                      "column": "round",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "column"
+                              },
+                              "type": {
+                                "column": "type",
+                                "type": "column"
+                              },
+                              "unit_amount": {
+                                "column": "unit_amount",
+                                "type": "column"
+                              },
+                              "unit_amount_decimal": {
+                                "column": "unit_amount_decimal",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "quantity": {
+                          "column": "quantity",
+                          "type": "column"
+                        },
+                        "taxes": {
+                          "column": "taxes",
+                          "fields": {
+                            "fields": {
+                              "fields": {
+                                "amount": {
+                                  "column": "amount",
+                                  "type": "column"
+                                },
+                                "rate": {
+                                  "column": "rate",
+                                  "fields": {
+                                    "fields": {
+                                      "active": {
+                                        "column": "active",
+                                        "type": "column"
+                                      },
+                                      "country": {
+                                        "column": "country",
+                                        "type": "column"
+                                      },
+                                      "created": {
+                                        "column": "created",
+                                        "type": "column"
+                                      },
+                                      "description": {
+                                        "column": "description",
+                                        "type": "column"
+                                      },
+                                      "display_name": {
+                                        "column": "display_name",
+                                        "type": "column"
+                                      },
+                                      "effective_percentage": {
+                                        "column": "effective_percentage",
+                                        "type": "column"
+                                      },
+                                      "id": {
+                                        "column": "id",
+                                        "type": "column"
+                                      },
+                                      "inclusive": {
+                                        "column": "inclusive",
+                                        "type": "column"
+                                      },
+                                      "jurisdiction": {
+                                        "column": "jurisdiction",
+                                        "type": "column"
+                                      },
+                                      "jurisdiction_level": {
+                                        "column": "jurisdiction_level",
+                                        "type": "column"
+                                      },
+                                      "livemode": {
+                                        "column": "livemode",
+                                        "type": "column"
+                                      },
+                                      "metadata": {
+                                        "column": "metadata",
+                                        "type": "column"
+                                      },
+                                      "object": {
+                                        "column": "object",
+                                        "type": "column"
+                                      },
+                                      "percentage": {
+                                        "column": "percentage",
+                                        "type": "column"
+                                      },
+                                      "state": {
+                                        "column": "state",
+                                        "type": "column"
+                                      },
+                                      "tax_type": {
+                                        "column": "tax_type",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "taxability_reason": {
+                                  "column": "taxability_reason",
+                                  "type": "column"
+                                },
+                                "taxable_amount": {
+                                  "column": "taxable_amount",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "array"
+                          },
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "has_more": {
+                  "column": "has_more",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "url": {
+                  "column": "url",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "locale": {
+            "column": "locale",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "mode": {
+            "column": "mode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "payment_intent": {
+            "column": "payment_intent",
+            "type": "column"
+          },
+          "payment_link": {
+            "column": "payment_link",
+            "type": "column"
+          },
+          "payment_method_collection": {
+            "column": "payment_method_collection",
+            "type": "column"
+          },
+          "payment_method_configuration_details": {
+            "column": "payment_method_configuration_details",
+            "fields": {
+              "fields": {
+                "id": {
+                  "column": "id",
+                  "type": "column"
+                },
+                "parent": {
+                  "column": "parent",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "payment_method_options": {
+            "column": "payment_method_options",
+            "fields": {
+              "fields": {
+                "acss_debit": {
+                  "column": "acss_debit",
+                  "fields": {
+                    "fields": {
+                      "currency": {
+                        "column": "currency",
+                        "type": "column"
+                      },
+                      "mandate_options": {
+                        "column": "mandate_options",
+                        "fields": {
+                          "fields": {
+                            "custom_mandate_url": {
+                              "column": "custom_mandate_url",
+                              "type": "column"
+                            },
+                            "default_for": {
+                              "column": "default_for",
+                              "type": "column"
+                            },
+                            "interval_description": {
+                              "column": "interval_description",
+                              "type": "column"
+                            },
+                            "payment_schedule": {
+                              "column": "payment_schedule",
+                              "type": "column"
+                            },
+                            "transaction_type": {
+                              "column": "transaction_type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      },
+                      "verification_method": {
+                        "column": "verification_method",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "affirm": {
+                  "column": "affirm",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "afterpay_clearpay": {
+                  "column": "afterpay_clearpay",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "alipay": {
+                  "column": "alipay",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "au_becs_debit": {
+                  "column": "au_becs_debit",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "bacs_debit": {
+                  "column": "bacs_debit",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "bancontact": {
+                  "column": "bancontact",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "boleto": {
+                  "column": "boleto",
+                  "fields": {
+                    "fields": {
+                      "expires_after_days": {
+                        "column": "expires_after_days",
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "card": {
+                  "column": "card",
+                  "fields": {
+                    "fields": {
+                      "installments": {
+                        "column": "installments",
+                        "fields": {
+                          "fields": {
+                            "enabled": {
+                              "column": "enabled",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "request_three_d_secure": {
+                        "column": "request_three_d_secure",
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      },
+                      "statement_descriptor_suffix_kana": {
+                        "column": "statement_descriptor_suffix_kana",
+                        "type": "column"
+                      },
+                      "statement_descriptor_suffix_kanji": {
+                        "column": "statement_descriptor_suffix_kanji",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "cashapp": {
+                  "column": "cashapp",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "customer_balance": {
+                  "column": "customer_balance",
+                  "fields": {
+                    "fields": {
+                      "bank_transfer": {
+                        "column": "bank_transfer",
+                        "fields": {
+                          "fields": {
+                            "eu_bank_transfer": {
+                              "column": "eu_bank_transfer",
+                              "fields": {
+                                "fields": {
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            },
+                            "requested_address_types": {
+                              "column": "requested_address_types",
+                              "type": "column"
+                            },
+                            "type": {
+                              "column": "type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "funding_type": {
+                        "column": "funding_type",
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "eps": {
+                  "column": "eps",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "fpx": {
+                  "column": "fpx",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "giropay": {
+                  "column": "giropay",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "grabpay": {
+                  "column": "grabpay",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "ideal": {
+                  "column": "ideal",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "klarna": {
+                  "column": "klarna",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "konbini": {
+                  "column": "konbini",
+                  "fields": {
+                    "fields": {
+                      "expires_after_days": {
+                        "column": "expires_after_days",
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "link": {
+                  "column": "link",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "oxxo": {
+                  "column": "oxxo",
+                  "fields": {
+                    "fields": {
+                      "expires_after_days": {
+                        "column": "expires_after_days",
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "p24": {
+                  "column": "p24",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "paynow": {
+                  "column": "paynow",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "paypal": {
+                  "column": "paypal",
+                  "fields": {
+                    "fields": {
+                      "capture_method": {
+                        "column": "capture_method",
+                        "type": "column"
+                      },
+                      "preferred_locale": {
+                        "column": "preferred_locale",
+                        "type": "column"
+                      },
+                      "reference": {
+                        "column": "reference",
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "pix": {
+                  "column": "pix",
+                  "fields": {
+                    "fields": {
+                      "expires_after_seconds": {
+                        "column": "expires_after_seconds",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "revolut_pay": {
+                  "column": "revolut_pay",
+                  "type": "column"
+                },
+                "sepa_debit": {
+                  "column": "sepa_debit",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "sofort": {
+                  "column": "sofort",
+                  "fields": {
+                    "fields": {
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "swish": {
+                  "column": "swish",
+                  "fields": {
+                    "fields": {
+                      "reference": {
+                        "column": "reference",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "us_bank_account": {
+                  "column": "us_bank_account",
+                  "fields": {
+                    "fields": {
+                      "financial_connections": {
+                        "column": "financial_connections",
+                        "fields": {
+                          "fields": {
+                            "permissions": {
+                              "column": "permissions",
+                              "type": "column"
+                            },
+                            "prefetch": {
+                              "column": "prefetch",
+                              "type": "column"
+                            },
+                            "return_url": {
+                              "column": "return_url",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "setup_future_usage": {
+                        "column": "setup_future_usage",
+                        "type": "column"
+                      },
+                      "verification_method": {
+                        "column": "verification_method",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "payment_method_types": {
+            "column": "payment_method_types",
+            "type": "column"
+          },
+          "payment_status": {
+            "column": "payment_status",
+            "type": "column"
+          },
+          "phone_number_collection": {
+            "column": "phone_number_collection",
+            "fields": {
+              "fields": {
+                "enabled": {
+                  "column": "enabled",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "recovered_from": {
+            "column": "recovered_from",
+            "type": "column"
+          },
+          "redirect_on_completion": {
+            "column": "redirect_on_completion",
+            "type": "column"
+          },
+          "return_url": {
+            "column": "return_url",
+            "type": "column"
+          },
+          "setup_intent": {
+            "column": "setup_intent",
+            "type": "column"
+          },
+          "shipping_address_collection": {
+            "column": "shipping_address_collection",
+            "fields": {
+              "fields": {
+                "allowed_countries": {
+                  "column": "allowed_countries",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "shipping_cost": {
+            "column": "shipping_cost",
+            "fields": {
+              "fields": {
+                "amount_subtotal": {
+                  "column": "amount_subtotal",
+                  "type": "column"
+                },
+                "amount_tax": {
+                  "column": "amount_tax",
+                  "type": "column"
+                },
+                "amount_total": {
+                  "column": "amount_total",
+                  "type": "column"
+                },
+                "shipping_rate": {
+                  "column": "shipping_rate",
+                  "type": "column"
+                },
+                "taxes": {
+                  "column": "taxes",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "amount": {
+                          "column": "amount",
+                          "type": "column"
+                        },
+                        "rate": {
+                          "column": "rate",
+                          "fields": {
+                            "fields": {
+                              "active": {
+                                "column": "active",
+                                "type": "column"
+                              },
+                              "country": {
+                                "column": "country",
+                                "type": "column"
+                              },
+                              "created": {
+                                "column": "created",
+                                "type": "column"
+                              },
+                              "description": {
+                                "column": "description",
+                                "type": "column"
+                              },
+                              "display_name": {
+                                "column": "display_name",
+                                "type": "column"
+                              },
+                              "effective_percentage": {
+                                "column": "effective_percentage",
+                                "type": "column"
+                              },
+                              "id": {
+                                "column": "id",
+                                "type": "column"
+                              },
+                              "inclusive": {
+                                "column": "inclusive",
+                                "type": "column"
+                              },
+                              "jurisdiction": {
+                                "column": "jurisdiction",
+                                "type": "column"
+                              },
+                              "jurisdiction_level": {
+                                "column": "jurisdiction_level",
+                                "type": "column"
+                              },
+                              "livemode": {
+                                "column": "livemode",
+                                "type": "column"
+                              },
+                              "metadata": {
+                                "column": "metadata",
+                                "type": "column"
+                              },
+                              "object": {
+                                "column": "object",
+                                "type": "column"
+                              },
+                              "percentage": {
+                                "column": "percentage",
+                                "type": "column"
+                              },
+                              "state": {
+                                "column": "state",
+                                "type": "column"
+                              },
+                              "tax_type": {
+                                "column": "tax_type",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "taxability_reason": {
+                          "column": "taxability_reason",
+                          "type": "column"
+                        },
+                        "taxable_amount": {
+                          "column": "taxable_amount",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "shipping_details": {
+            "column": "shipping_details",
+            "fields": {
+              "fields": {
+                "address": {
+                  "column": "address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "carrier": {
+                  "column": "carrier",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "phone": {
+                  "column": "phone",
+                  "type": "column"
+                },
+                "tracking_number": {
+                  "column": "tracking_number",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "shipping_options": {
+            "column": "shipping_options",
+            "fields": {
+              "fields": {
+                "fields": {
+                  "shipping_amount": {
+                    "column": "shipping_amount",
+                    "type": "column"
+                  },
+                  "shipping_rate": {
+                    "column": "shipping_rate",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "submit_type": {
+            "column": "submit_type",
+            "type": "column"
+          },
+          "subscription": {
+            "column": "subscription",
+            "type": "column"
+          },
+          "success_url": {
+            "column": "success_url",
+            "type": "column"
+          },
+          "tax_id_collection": {
+            "column": "tax_id_collection",
+            "fields": {
+              "fields": {
+                "enabled": {
+                  "column": "enabled",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "total_details": {
+            "column": "total_details",
+            "fields": {
+              "fields": {
+                "amount_discount": {
+                  "column": "amount_discount",
+                  "type": "column"
+                },
+                "amount_shipping": {
+                  "column": "amount_shipping",
+                  "type": "column"
+                },
+                "amount_tax": {
+                  "column": "amount_tax",
+                  "type": "column"
+                },
+                "breakdown": {
+                  "column": "breakdown",
+                  "fields": {
+                    "fields": {
+                      "discounts": {
+                        "column": "discounts",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "amount": {
+                                "column": "amount",
+                                "type": "column"
+                              },
+                              "discount": {
+                                "column": "discount",
+                                "fields": {
+                                  "fields": {
+                                    "checkout_session": {
+                                      "column": "checkout_session",
+                                      "type": "column"
+                                    },
+                                    "coupon": {
+                                      "column": "coupon",
+                                      "fields": {
+                                        "fields": {
+                                          "amount_off": {
+                                            "column": "amount_off",
+                                            "type": "column"
+                                          },
+                                          "applies_to": {
+                                            "column": "applies_to",
+                                            "fields": {
+                                              "fields": {
+                                                "products": {
+                                                  "column": "products",
+                                                  "type": "column"
+                                                }
+                                              },
+                                              "type": "object"
+                                            },
+                                            "type": "column"
+                                          },
+                                          "created": {
+                                            "column": "created",
+                                            "type": "column"
+                                          },
+                                          "currency": {
+                                            "column": "currency",
+                                            "type": "column"
+                                          },
+                                          "currency_options": {
+                                            "column": "currency_options",
+                                            "type": "column"
+                                          },
+                                          "duration": {
+                                            "column": "duration",
+                                            "type": "column"
+                                          },
+                                          "duration_in_months": {
+                                            "column": "duration_in_months",
+                                            "type": "column"
+                                          },
+                                          "id": {
+                                            "column": "id",
+                                            "type": "column"
+                                          },
+                                          "livemode": {
+                                            "column": "livemode",
+                                            "type": "column"
+                                          },
+                                          "max_redemptions": {
+                                            "column": "max_redemptions",
+                                            "type": "column"
+                                          },
+                                          "metadata": {
+                                            "column": "metadata",
+                                            "type": "column"
+                                          },
+                                          "name": {
+                                            "column": "name",
+                                            "type": "column"
+                                          },
+                                          "object": {
+                                            "column": "object",
+                                            "type": "column"
+                                          },
+                                          "percent_off": {
+                                            "column": "percent_off",
+                                            "type": "column"
+                                          },
+                                          "redeem_by": {
+                                            "column": "redeem_by",
+                                            "type": "column"
+                                          },
+                                          "times_redeemed": {
+                                            "column": "times_redeemed",
+                                            "type": "column"
+                                          },
+                                          "valid": {
+                                            "column": "valid",
+                                            "type": "column"
+                                          }
+                                        },
+                                        "type": "object"
+                                      },
+                                      "type": "column"
+                                    },
+                                    "customer": {
+                                      "column": "customer",
+                                      "type": "column"
+                                    },
+                                    "end": {
+                                      "column": "end",
+                                      "type": "column"
+                                    },
+                                    "id": {
+                                      "column": "id",
+                                      "type": "column"
+                                    },
+                                    "invoice": {
+                                      "column": "invoice",
+                                      "type": "column"
+                                    },
+                                    "invoice_item": {
+                                      "column": "invoice_item",
+                                      "type": "column"
+                                    },
+                                    "object": {
+                                      "column": "object",
+                                      "type": "column"
+                                    },
+                                    "promotion_code": {
+                                      "column": "promotion_code",
+                                      "type": "column"
+                                    },
+                                    "start": {
+                                      "column": "start",
+                                      "type": "column"
+                                    },
+                                    "subscription": {
+                                      "column": "subscription",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      },
+                      "taxes": {
+                        "column": "taxes",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "amount": {
+                                "column": "amount",
+                                "type": "column"
+                              },
+                              "rate": {
+                                "column": "rate",
+                                "fields": {
+                                  "fields": {
+                                    "active": {
+                                      "column": "active",
+                                      "type": "column"
+                                    },
+                                    "country": {
+                                      "column": "country",
+                                      "type": "column"
+                                    },
+                                    "created": {
+                                      "column": "created",
+                                      "type": "column"
+                                    },
+                                    "description": {
+                                      "column": "description",
+                                      "type": "column"
+                                    },
+                                    "display_name": {
+                                      "column": "display_name",
+                                      "type": "column"
+                                    },
+                                    "effective_percentage": {
+                                      "column": "effective_percentage",
+                                      "type": "column"
+                                    },
+                                    "id": {
+                                      "column": "id",
+                                      "type": "column"
+                                    },
+                                    "inclusive": {
+                                      "column": "inclusive",
+                                      "type": "column"
+                                    },
+                                    "jurisdiction": {
+                                      "column": "jurisdiction",
+                                      "type": "column"
+                                    },
+                                    "jurisdiction_level": {
+                                      "column": "jurisdiction_level",
+                                      "type": "column"
+                                    },
+                                    "livemode": {
+                                      "column": "livemode",
+                                      "type": "column"
+                                    },
+                                    "metadata": {
+                                      "column": "metadata",
+                                      "type": "column"
+                                    },
+                                    "object": {
+                                      "column": "object",
+                                      "type": "column"
+                                    },
+                                    "percentage": {
+                                      "column": "percentage",
+                                      "type": "column"
+                                    },
+                                    "state": {
+                                      "column": "state",
+                                      "type": "column"
+                                    },
+                                    "tax_type": {
+                                      "column": "tax_type",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "column"
+                              },
+                              "taxability_reason": {
+                                "column": "taxability_reason",
+                                "type": "column"
+                              },
+                              "taxable_amount": {
+                                "column": "taxable_amount",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "ui_mode": {
+            "column": "ui_mode",
+            "type": "column"
+          },
+          "url": {
+            "column": "url",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

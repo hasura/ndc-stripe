@@ -1,0 +1,28 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "33f0uHUSfT"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "NdoeNRuSjg"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "NuciQ7r5Ms"
+    }
+  },
+  "collection": "GetCustomersCustomerSourcesId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "type": "column"
+      }
+    }
+  }
+}

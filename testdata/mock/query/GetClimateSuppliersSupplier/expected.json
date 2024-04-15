@@ -1,0 +1,25 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "id": "zOiSpRUQ6O",
+          "info_url": "https://frontierclimate.com/portfolio/charm-industrial",
+          "livemode": false,
+          "locations": [
+            {
+              "city": "San Francisco",
+              "country": "US",
+              "latitude": 37.7749,
+              "longitude": -122.4194,
+              "region": "CA"
+            }
+          ],
+          "name": "Charm Industrial",
+          "object": "climate.supplier",
+          "removal_pathway": "biomass_carbon_removal_and_storage"
+        }
+      }
+    ]
+  }
+]

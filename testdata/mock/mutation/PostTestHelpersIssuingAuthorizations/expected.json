@@ -1,0 +1,130 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 1553576839,
+        "amount_details": { "atm_fee": null, "cashback_amount": null },
+        "approved": true,
+        "authorization_method": "online",
+        "balance_transactions": [],
+        "card": {
+          "brand": "Visa",
+          "cancellation_reason": null,
+          "cardholder": {
+            "billing": {
+              "address": {
+                "city": "Beverly Hills",
+                "country": "US",
+                "line1": "123 Fake St",
+                "line2": "Apt 3",
+                "postal_code": "90210",
+                "state": "CA"
+              }
+            },
+            "company": null,
+            "created": 1703175372,
+            "email": "jenny@example.com",
+            "individual": null,
+            "livemode": false,
+            "metadata": {},
+            "name": "Jenny Rosen",
+            "object": "issuing.cardholder",
+            "phone_number": "+18008675309",
+            "preferred_locales": ["en"],
+            "requirements": { "disabled_reason": null, "past_due": [] },
+            "spending_controls": {
+              "allowed_categories": [],
+              "allowed_merchant_countries": null,
+              "blocked_categories": [],
+              "blocked_merchant_countries": null,
+              "spending_limits": [],
+              "spending_limits_currency": null
+            },
+            "status": "active",
+            "type": "individual"
+          },
+          "created": 1703175372,
+          "currency": "usd",
+          "cvc": null,
+          "exp_month": 8,
+          "exp_year": 2024,
+          "financial_account": null,
+          "last4": "4242",
+          "livemode": false,
+          "metadata": {},
+          "number": null,
+          "object": "issuing.card",
+          "personalization_design": null,
+          "replaced_by": null,
+          "replacement_for": null,
+          "replacement_reason": null,
+          "shipping": null,
+          "spending_controls": {
+            "allowed_categories": null,
+            "allowed_merchant_countries": null,
+            "blocked_categories": null,
+            "blocked_merchant_countries": null,
+            "spending_limits": [],
+            "spending_limits_currency": null
+          },
+          "status": "active",
+          "type": "physical",
+          "wallets": {
+            "apple_pay": { "eligible": true, "ineligible_reason": null },
+            "google_pay": {
+              "eligible": false,
+              "ineligible_reason": "missing_agreement"
+            },
+            "primary_account_identifier": null
+          }
+        },
+        "cardholder": null,
+        "created": 1234567890,
+        "currency": "AFGxKxB928",
+        "livemode": false,
+        "merchant_amount": 0,
+        "merchant_currency": "usd",
+        "merchant_data": {
+          "category": "car_and_truck_dealers_used_only",
+          "category_code": "4121",
+          "city": "9a4PR4FE5z",
+          "country": "ajcPZKHACc",
+          "name": "qnigPCPqmv",
+          "network_id": "aoBEdHpvhW",
+          "postal_code": "0svDhNbpfq",
+          "state": "khoR8E4Nwf",
+          "terminal_id": "qQjqjQiNzX",
+          "url": "SGzNUVni89"
+        },
+        "metadata": {},
+        "network_data": null,
+        "object": "issuing.authorization",
+        "pending_request": {
+          "amount": 700,
+          "amount_details": { "atm_fee": null, "cashback_amount": null },
+          "currency": "usd",
+          "is_amount_controllable": false,
+          "merchant_amount": 700,
+          "merchant_currency": "usd",
+          "network_risk_score": null
+        },
+        "request_history": [],
+        "status": "pending",
+        "token": null,
+        "transactions": [],
+        "treasury": null,
+        "verification_data": {
+          "address_line1_check": "not_provided",
+          "address_postal_code_check": "mismatch",
+          "authentication_exemption": null,
+          "cvc_check": "not_provided",
+          "expiry_check": "not_provided",
+          "postal_code": null,
+          "three_d_secure": { "result": "authenticated" }
+        },
+        "wallet": "google_pay"
+      },
+      "type": "procedure"
+    }
+  ]
+}

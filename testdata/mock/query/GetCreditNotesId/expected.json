@@ -1,0 +1,100 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "amount": 1690,
+          "amount_shipping": 0,
+          "created": 1234567890,
+          "currency": "usd",
+          "customer": {
+            "address": null,
+            "balance": 0,
+            "created": 1234567890,
+            "currency": "usd",
+            "default_source": null,
+            "delinquent": false,
+            "description": null,
+            "discount": null,
+            "email": null,
+            "id": "cus_PEHTtYpY7elppN",
+            "invoice_prefix": "B4749BD",
+            "invoice_settings": {
+              "custom_fields": null,
+              "default_payment_method": null,
+              "footer": null,
+              "rendering_options": null
+            },
+            "livemode": false,
+            "metadata": {},
+            "name": null,
+            "next_invoice_sequence": 1,
+            "object": "customer",
+            "phone": null,
+            "preferred_locales": [],
+            "shipping": null,
+            "tax_exempt": "none",
+            "test_clock": null
+          },
+          "customer_balance_transaction": null,
+          "discount_amount": 0,
+          "discount_amounts": [],
+          "effective_at": 1234567890,
+          "id": "uBT2N0YrYp",
+          "invoice": "in_1OPouvJN5vQBdWExRyU1EhWP",
+          "lines": {
+            "data": [
+              {
+                "amount": 1000,
+                "amount_excluding_tax": 1000,
+                "description": "My First Invoice Item (created for API docs)",
+                "discount_amount": 0,
+                "discount_amounts": [],
+                "id": "cnli_1OPouvJN5vQBdWExkO30YEXZ",
+                "invoice_line_item": "il_1OPouvJN5vQBdWEx4xnltBII",
+                "livemode": false,
+                "object": "credit_note_line_item",
+                "quantity": 1,
+                "tax_amounts": [],
+                "tax_rates": [],
+                "type": "invoice_line_item",
+                "unit_amount": null,
+                "unit_amount_decimal": null,
+                "unit_amount_excluding_tax": "1000"
+              }
+            ],
+            "has_more": false,
+            "object": "list",
+            "url": "/v1/credit_notes/uBT2N0YrYp/lines"
+          },
+          "livemode": false,
+          "memo": null,
+          "metadata": {},
+          "number": "ABCD-1234-CN-01",
+          "object": "credit_note",
+          "out_of_band_amount": null,
+          "pdf": "https://pakrym-manage-mydev.dev.stripe.me/credit_notes/acct_1OPouMJN5vQBdWEx/cnst_123456789/pdf?s=ap",
+          "reason": null,
+          "refund": null,
+          "shipping_cost": null,
+          "status": "issued",
+          "subtotal": 1690,
+          "subtotal_excluding_tax": 1690,
+          "tax_amounts": [
+            {
+              "amount": 190,
+              "inclusive": false,
+              "tax_rate": "txr_1OPouvJN5vQBdWExvkEZYzsQ",
+              "taxability_reason": null,
+              "taxable_amount": 1000
+            }
+          ],
+          "total": 1690,
+          "total_excluding_tax": null,
+          "type": "pre_payment",
+          "voided_at": 1234567890
+        }
+      }
+    ]
+  }
+]

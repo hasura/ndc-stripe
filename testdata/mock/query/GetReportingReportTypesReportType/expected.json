@@ -1,0 +1,24 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data_available_end": 1234567890,
+          "data_available_start": 1234567890,
+          "default_columns": [
+            "category",
+            "currency",
+            "description",
+            "net_amount"
+          ],
+          "id": "lqRhpeHpoA",
+          "livemode": true,
+          "name": "Balance summary",
+          "object": "reporting.report_type",
+          "updated": 1234567890,
+          "version": 1
+        }
+      }
+    ]
+  }
+]

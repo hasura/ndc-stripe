@@ -1,0 +1,31 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "available": [
+            {
+              "amount": 0,
+              "currency": "usd",
+              "source_types": { "bank_account": null, "card": 0, "fpx": null }
+            }
+          ],
+          "connect_reserved": [
+            { "amount": 0, "currency": "usd", "source_types": null }
+          ],
+          "instant_available": null,
+          "issuing": null,
+          "livemode": false,
+          "object": "balance",
+          "pending": [
+            {
+              "amount": 0,
+              "currency": "usd",
+              "source_types": { "bank_account": null, "card": 0, "fpx": null }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

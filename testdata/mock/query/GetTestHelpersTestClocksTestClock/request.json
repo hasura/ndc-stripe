@@ -1,0 +1,55 @@
+{
+  "arguments": {
+    "test_clock": {
+      "type": "literal",
+      "value": "gkav8F30Qp"
+    }
+  },
+  "collection": "GetTestHelpersTestClocksTestClock",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "deletes_after": {
+              "column": "deletes_after",
+              "type": "column"
+            },
+            "frozen_time": {
+              "column": "frozen_time",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

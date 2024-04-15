@@ -1,0 +1,16 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteCustomersCustomerSourcesId",
+      "arguments": {
+        "body": {
+          "expand": ["customer"]
+        },
+        "customer": "PIeQadBsHz",
+        "id": "lZL6CaLOMi"
+      }
+    }
+  ]
+}

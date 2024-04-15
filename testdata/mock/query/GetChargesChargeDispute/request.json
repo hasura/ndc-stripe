@@ -1,0 +1,330 @@
+{
+  "arguments": {
+    "charge": {
+      "type": "literal",
+      "value": "1YMDiPxbb1"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    }
+  },
+  "collection": "GetChargesChargeDispute",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "balance_transactions": {
+              "column": "balance_transactions",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "available_on": {
+                      "column": "available_on",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "exchange_rate": {
+                      "column": "exchange_rate",
+                      "type": "column"
+                    },
+                    "fee": {
+                      "column": "fee",
+                      "type": "column"
+                    },
+                    "fee_details": {
+                      "column": "fee_details",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "amount": {
+                              "column": "amount",
+                              "type": "column"
+                            },
+                            "application": {
+                              "column": "application",
+                              "type": "column"
+                            },
+                            "currency": {
+                              "column": "currency",
+                              "type": "column"
+                            },
+                            "description": {
+                              "column": "description",
+                              "type": "column"
+                            },
+                            "type": {
+                              "column": "type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "net": {
+                      "column": "net",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "reporting_category": {
+                      "column": "reporting_category",
+                      "type": "column"
+                    },
+                    "source": {
+                      "column": "source",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "charge": {
+              "column": "charge",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "evidence": {
+              "column": "evidence",
+              "fields": {
+                "fields": {
+                  "access_activity_log": {
+                    "column": "access_activity_log",
+                    "type": "column"
+                  },
+                  "billing_address": {
+                    "column": "billing_address",
+                    "type": "column"
+                  },
+                  "cancellation_policy": {
+                    "column": "cancellation_policy",
+                    "type": "column"
+                  },
+                  "cancellation_policy_disclosure": {
+                    "column": "cancellation_policy_disclosure",
+                    "type": "column"
+                  },
+                  "cancellation_rebuttal": {
+                    "column": "cancellation_rebuttal",
+                    "type": "column"
+                  },
+                  "customer_communication": {
+                    "column": "customer_communication",
+                    "type": "column"
+                  },
+                  "customer_email_address": {
+                    "column": "customer_email_address",
+                    "type": "column"
+                  },
+                  "customer_name": {
+                    "column": "customer_name",
+                    "type": "column"
+                  },
+                  "customer_purchase_ip": {
+                    "column": "customer_purchase_ip",
+                    "type": "column"
+                  },
+                  "customer_signature": {
+                    "column": "customer_signature",
+                    "type": "column"
+                  },
+                  "duplicate_charge_documentation": {
+                    "column": "duplicate_charge_documentation",
+                    "type": "column"
+                  },
+                  "duplicate_charge_explanation": {
+                    "column": "duplicate_charge_explanation",
+                    "type": "column"
+                  },
+                  "duplicate_charge_id": {
+                    "column": "duplicate_charge_id",
+                    "type": "column"
+                  },
+                  "product_description": {
+                    "column": "product_description",
+                    "type": "column"
+                  },
+                  "receipt": {
+                    "column": "receipt",
+                    "type": "column"
+                  },
+                  "refund_policy": {
+                    "column": "refund_policy",
+                    "type": "column"
+                  },
+                  "refund_policy_disclosure": {
+                    "column": "refund_policy_disclosure",
+                    "type": "column"
+                  },
+                  "refund_refusal_explanation": {
+                    "column": "refund_refusal_explanation",
+                    "type": "column"
+                  },
+                  "service_date": {
+                    "column": "service_date",
+                    "type": "column"
+                  },
+                  "service_documentation": {
+                    "column": "service_documentation",
+                    "type": "column"
+                  },
+                  "shipping_address": {
+                    "column": "shipping_address",
+                    "type": "column"
+                  },
+                  "shipping_carrier": {
+                    "column": "shipping_carrier",
+                    "type": "column"
+                  },
+                  "shipping_date": {
+                    "column": "shipping_date",
+                    "type": "column"
+                  },
+                  "shipping_documentation": {
+                    "column": "shipping_documentation",
+                    "type": "column"
+                  },
+                  "shipping_tracking_number": {
+                    "column": "shipping_tracking_number",
+                    "type": "column"
+                  },
+                  "uncategorized_file": {
+                    "column": "uncategorized_file",
+                    "type": "column"
+                  },
+                  "uncategorized_text": {
+                    "column": "uncategorized_text",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "evidence_details": {
+              "column": "evidence_details",
+              "fields": {
+                "fields": {
+                  "due_by": {
+                    "column": "due_by",
+                    "type": "column"
+                  },
+                  "has_evidence": {
+                    "column": "has_evidence",
+                    "type": "column"
+                  },
+                  "past_due": {
+                    "column": "past_due",
+                    "type": "column"
+                  },
+                  "submission_count": {
+                    "column": "submission_count",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "is_charge_refundable": {
+              "column": "is_charge_refundable",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "payment_intent": {
+              "column": "payment_intent",
+              "type": "column"
+            },
+            "payment_method_details": {
+              "column": "payment_method_details",
+              "fields": {
+                "fields": {
+                  "card": {
+                    "column": "card",
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "reason": {
+              "column": "reason",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

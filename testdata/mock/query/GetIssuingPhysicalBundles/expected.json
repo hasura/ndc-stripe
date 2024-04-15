@@ -1,0 +1,24 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "features": null,
+              "id": "ics_PjUv222Xszs9R1",
+              "livemode": false,
+              "name": "My Card Bundle V1",
+              "object": "issuing.physical_bundle",
+              "status": "active",
+              "type": "custom"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/issuing/physical_bundles"
+        }
+      }
+    ]
+  }
+]

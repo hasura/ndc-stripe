@@ -1,0 +1,25 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "email": "nobody+janesmith@stripe.com",
+              "id": "fcaown_1OPouwJN5vQBdWEx0GENYe0S",
+              "name": "Jane Smith",
+              "object": "financial_connections.account_owner",
+              "ownership": "fcaowns_1OPouwJN5vQBdWExxKE8Bg4J",
+              "phone": "+1 555-555-5555",
+              "raw_address": "123 Main Street, Everytown USA",
+              "refreshed_at": 1234567890
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/linked_accounts/1US7IUdAmH/owners"
+        }
+      }
+    ]
+  }
+]

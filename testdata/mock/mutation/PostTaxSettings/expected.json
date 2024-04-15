@@ -1,0 +1,27 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "defaults": {
+          "tax_behavior": "inferred_by_currency",
+          "tax_code": "qOZzLkzrdI"
+        },
+        "head_office": {
+          "address": {
+            "city": null,
+            "country": "US",
+            "line1": null,
+            "line2": null,
+            "postal_code": null,
+            "state": "CA"
+          }
+        },
+        "livemode": false,
+        "object": "tax.settings",
+        "status": "active",
+        "status_details": { "active": {}, "pending": null }
+      },
+      "type": "procedure"
+    }
+  ]
+}

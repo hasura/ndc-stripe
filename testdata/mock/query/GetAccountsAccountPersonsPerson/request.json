@@ -1,0 +1,335 @@
+{
+  "arguments": {
+    "account": {
+      "type": "literal",
+      "value": "4OOws9i1u5"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "person": {
+      "type": "literal",
+      "value": "Nz6PlLcqmY"
+    }
+  },
+  "collection": "GetAccountsAccountPersonsPerson",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "account": {
+              "column": "account",
+              "type": "column"
+            },
+            "additional_tos_acceptances": {
+              "column": "additional_tos_acceptances",
+              "fields": {
+                "fields": {
+                  "account": {
+                    "column": "account",
+                    "fields": {
+                      "fields": {
+                        "date": {
+                          "column": "date",
+                          "type": "column"
+                        },
+                        "ip": {
+                          "column": "ip",
+                          "type": "column"
+                        },
+                        "user_agent": {
+                          "column": "user_agent",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "address": {
+              "column": "address",
+              "fields": {
+                "fields": {
+                  "city": {
+                    "column": "city",
+                    "type": "column"
+                  },
+                  "country": {
+                    "column": "country",
+                    "type": "column"
+                  },
+                  "line1": {
+                    "column": "line1",
+                    "type": "column"
+                  },
+                  "line2": {
+                    "column": "line2",
+                    "type": "column"
+                  },
+                  "postal_code": {
+                    "column": "postal_code",
+                    "type": "column"
+                  },
+                  "state": {
+                    "column": "state",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "address_kana": {
+              "column": "address_kana",
+              "type": "column"
+            },
+            "address_kanji": {
+              "column": "address_kanji",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "dob": {
+              "column": "dob",
+              "fields": {
+                "fields": {
+                  "day": {
+                    "column": "day",
+                    "type": "column"
+                  },
+                  "month": {
+                    "column": "month",
+                    "type": "column"
+                  },
+                  "year": {
+                    "column": "year",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "email": {
+              "column": "email",
+              "type": "column"
+            },
+            "first_name": {
+              "column": "first_name",
+              "type": "column"
+            },
+            "first_name_kana": {
+              "column": "first_name_kana",
+              "type": "column"
+            },
+            "first_name_kanji": {
+              "column": "first_name_kanji",
+              "type": "column"
+            },
+            "full_name_aliases": {
+              "column": "full_name_aliases",
+              "type": "column"
+            },
+            "future_requirements": {
+              "column": "future_requirements",
+              "type": "column"
+            },
+            "gender": {
+              "column": "gender",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "id_number_provided": {
+              "column": "id_number_provided",
+              "type": "column"
+            },
+            "id_number_secondary_provided": {
+              "column": "id_number_secondary_provided",
+              "type": "column"
+            },
+            "last_name": {
+              "column": "last_name",
+              "type": "column"
+            },
+            "last_name_kana": {
+              "column": "last_name_kana",
+              "type": "column"
+            },
+            "last_name_kanji": {
+              "column": "last_name_kanji",
+              "type": "column"
+            },
+            "maiden_name": {
+              "column": "maiden_name",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "nationality": {
+              "column": "nationality",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "phone": {
+              "column": "phone",
+              "type": "column"
+            },
+            "political_exposure": {
+              "column": "political_exposure",
+              "type": "column"
+            },
+            "registered_address": {
+              "column": "registered_address",
+              "fields": {
+                "fields": {
+                  "city": {
+                    "column": "city",
+                    "type": "column"
+                  },
+                  "country": {
+                    "column": "country",
+                    "type": "column"
+                  },
+                  "line1": {
+                    "column": "line1",
+                    "type": "column"
+                  },
+                  "line2": {
+                    "column": "line2",
+                    "type": "column"
+                  },
+                  "postal_code": {
+                    "column": "postal_code",
+                    "type": "column"
+                  },
+                  "state": {
+                    "column": "state",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "relationship": {
+              "column": "relationship",
+              "fields": {
+                "fields": {
+                  "director": {
+                    "column": "director",
+                    "type": "column"
+                  },
+                  "executive": {
+                    "column": "executive",
+                    "type": "column"
+                  },
+                  "legal_guardian": {
+                    "column": "legal_guardian",
+                    "type": "column"
+                  },
+                  "owner": {
+                    "column": "owner",
+                    "type": "column"
+                  },
+                  "percent_ownership": {
+                    "column": "percent_ownership",
+                    "type": "column"
+                  },
+                  "representative": {
+                    "column": "representative",
+                    "type": "column"
+                  },
+                  "title": {
+                    "column": "title",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "requirements": {
+              "column": "requirements",
+              "type": "column"
+            },
+            "ssn_last_4_provided": {
+              "column": "ssn_last_4_provided",
+              "type": "column"
+            },
+            "verification": {
+              "column": "verification",
+              "fields": {
+                "fields": {
+                  "additional_document": {
+                    "column": "additional_document",
+                    "type": "column"
+                  },
+                  "details": {
+                    "column": "details",
+                    "type": "column"
+                  },
+                  "details_code": {
+                    "column": "details_code",
+                    "type": "column"
+                  },
+                  "document": {
+                    "column": "document",
+                    "fields": {
+                      "fields": {
+                        "back": {
+                          "column": "back",
+                          "type": "column"
+                        },
+                        "details": {
+                          "column": "details",
+                          "type": "column"
+                        },
+                        "details_code": {
+                          "column": "details_code",
+                          "type": "column"
+                        },
+                        "front": {
+                          "column": "front",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "status": {
+                    "column": "status",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

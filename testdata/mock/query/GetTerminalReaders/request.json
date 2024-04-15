@@ -1,0 +1,125 @@
+{
+  "arguments": {
+    "device_type": {
+      "type": "literal",
+      "value": "bbpos_wisepad3"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "O7OpPoMvSG"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "JudGOS39Z0"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 5499
+    },
+    "location": {
+      "type": "literal",
+      "value": "dNMidGZtKp"
+    },
+    "serial_number": {
+      "type": "literal",
+      "value": "6uSZkFNnn0"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "aHDWjcGMZ3"
+    },
+    "status": {
+      "type": "literal",
+      "value": "offline"
+    }
+  },
+  "collection": "GetTerminalReaders",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "action": {
+                      "column": "action",
+                      "type": "column"
+                    },
+                    "device_sw_version": {
+                      "column": "device_sw_version",
+                      "type": "column"
+                    },
+                    "device_type": {
+                      "column": "device_type",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "ip_address": {
+                      "column": "ip_address",
+                      "type": "column"
+                    },
+                    "label": {
+                      "column": "label",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "location": {
+                      "column": "location",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "serial_number": {
+                      "column": "serial_number",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

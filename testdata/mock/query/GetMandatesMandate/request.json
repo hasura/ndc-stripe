@@ -1,0 +1,251 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "dVRItgcNky"
+      ]
+    },
+    "mandate": {
+      "type": "literal",
+      "value": "LgZBqc0rl1"
+    }
+  },
+  "collection": "GetMandatesMandate",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "customer_acceptance": {
+              "column": "customer_acceptance",
+              "fields": {
+                "fields": {
+                  "accepted_at": {
+                    "column": "accepted_at",
+                    "type": "column"
+                  },
+                  "offline": {
+                    "column": "offline",
+                    "type": "column"
+                  },
+                  "online": {
+                    "column": "online",
+                    "fields": {
+                      "fields": {
+                        "ip_address": {
+                          "column": "ip_address",
+                          "type": "column"
+                        },
+                        "user_agent": {
+                          "column": "user_agent",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "multi_use": {
+              "column": "multi_use",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "on_behalf_of": {
+              "column": "on_behalf_of",
+              "type": "column"
+            },
+            "payment_method": {
+              "column": "payment_method",
+              "type": "column"
+            },
+            "payment_method_details": {
+              "column": "payment_method_details",
+              "fields": {
+                "fields": {
+                  "acss_debit": {
+                    "column": "acss_debit",
+                    "fields": {
+                      "fields": {
+                        "default_for": {
+                          "column": "default_for",
+                          "type": "column"
+                        },
+                        "interval_description": {
+                          "column": "interval_description",
+                          "type": "column"
+                        },
+                        "payment_schedule": {
+                          "column": "payment_schedule",
+                          "type": "column"
+                        },
+                        "transaction_type": {
+                          "column": "transaction_type",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "au_becs_debit": {
+                    "column": "au_becs_debit",
+                    "fields": {
+                      "fields": {
+                        "url": {
+                          "column": "url",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "bacs_debit": {
+                    "column": "bacs_debit",
+                    "fields": {
+                      "fields": {
+                        "network_status": {
+                          "column": "network_status",
+                          "type": "column"
+                        },
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "revocation_reason": {
+                          "column": "revocation_reason",
+                          "type": "column"
+                        },
+                        "url": {
+                          "column": "url",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "card": {
+                    "column": "card",
+                    "type": "column"
+                  },
+                  "cashapp": {
+                    "column": "cashapp",
+                    "type": "column"
+                  },
+                  "link": {
+                    "column": "link",
+                    "type": "column"
+                  },
+                  "paypal": {
+                    "column": "paypal",
+                    "fields": {
+                      "fields": {
+                        "billing_agreement_id": {
+                          "column": "billing_agreement_id",
+                          "type": "column"
+                        },
+                        "payer_id": {
+                          "column": "payer_id",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "sepa_debit": {
+                    "column": "sepa_debit",
+                    "fields": {
+                      "fields": {
+                        "reference": {
+                          "column": "reference",
+                          "type": "column"
+                        },
+                        "url": {
+                          "column": "url",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  },
+                  "us_bank_account": {
+                    "column": "us_bank_account",
+                    "fields": {
+                      "fields": {
+                        "collection_method": {
+                          "column": "collection_method",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "single_use": {
+              "column": "single_use",
+              "fields": {
+                "fields": {
+                  "amount": {
+                    "column": "amount",
+                    "type": "column"
+                  },
+                  "currency": {
+                    "column": "currency",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

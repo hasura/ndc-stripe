@@ -1,0 +1,133 @@
+{
+  "arguments": {
+    "client_reference_id": {
+      "type": "literal",
+      "value": "7jOpsl2RLq"
+    },
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "djvQnmhuiL"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "Z95B0fyy3q"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 29060
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "2R9R6lnpIa"
+    },
+    "status": {
+      "type": "literal",
+      "value": "requires_input"
+    }
+  },
+  "collection": "GetIdentityVerificationSessions",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "client_reference_id": {
+                      "column": "client_reference_id",
+                      "type": "column"
+                    },
+                    "client_secret": {
+                      "column": "client_secret",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "last_error": {
+                      "column": "last_error",
+                      "type": "column"
+                    },
+                    "last_verification_report": {
+                      "column": "last_verification_report",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "options": {
+                      "column": "options",
+                      "type": "column"
+                    },
+                    "redaction": {
+                      "column": "redaction",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    },
+                    "url": {
+                      "column": "url",
+                      "type": "column"
+                    },
+                    "verified_outputs": {
+                      "column": "verified_outputs",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

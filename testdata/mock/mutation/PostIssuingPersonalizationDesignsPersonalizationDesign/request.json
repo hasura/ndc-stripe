@@ -1,0 +1,129 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostIssuingPersonalizationDesignsPersonalizationDesign",
+      "arguments": {
+        "card_logo": null,
+        "carrier_text": null,
+        "expand": [
+          "THGBwHelDb"
+        ],
+        "lookup_key": null,
+        "metadata": null,
+        "name": null,
+        "personalization_design": "OjDPr8B2Jd",
+        "physical_bundle": "piUVKHZtwJ",
+        "preferences": {
+          "is_default": true
+        },
+        "transfer_lookup_key": true
+      },
+      "fields": {
+        "fields": {
+          "card_logo": {
+            "column": "card_logo",
+            "type": "column"
+          },
+          "carrier_text": {
+            "column": "carrier_text",
+            "fields": {
+              "fields": {
+                "footer_body": {
+                  "column": "footer_body",
+                  "type": "column"
+                },
+                "footer_title": {
+                  "column": "footer_title",
+                  "type": "column"
+                },
+                "header_body": {
+                  "column": "header_body",
+                  "type": "column"
+                },
+                "header_title": {
+                  "column": "header_title",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "lookup_key": {
+            "column": "lookup_key",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "physical_bundle": {
+            "column": "physical_bundle",
+            "type": "column"
+          },
+          "preferences": {
+            "column": "preferences",
+            "fields": {
+              "fields": {
+                "is_default": {
+                  "column": "is_default",
+                  "type": "column"
+                },
+                "is_platform_default": {
+                  "column": "is_platform_default",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "rejection_reasons": {
+            "column": "rejection_reasons",
+            "fields": {
+              "fields": {
+                "card_logo": {
+                  "column": "card_logo",
+                  "type": "column"
+                },
+                "carrier_text": {
+                  "column": "carrier_text",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

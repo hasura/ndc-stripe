@@ -1,0 +1,73 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount_subtotal": 0,
+        "amount_total": 0,
+        "application": null,
+        "application_fee_amount": null,
+        "application_fee_percent": null,
+        "automatic_tax": { "enabled": true, "liability": null, "status": null },
+        "collection_method": "send_invoice",
+        "computed": {
+          "recurring": null,
+          "upfront": {
+            "amount_subtotal": 0,
+            "amount_total": 0,
+            "line_items": null,
+            "total_details": {
+              "amount_discount": 0,
+              "amount_shipping": 0,
+              "amount_tax": 0,
+              "breakdown": null
+            }
+          }
+        },
+        "created": 1234567890,
+        "currency": "usd",
+        "customer": "VStoxrndov",
+        "default_tax_rates": [],
+        "description": null,
+        "discounts": [],
+        "expires_at": 1579094307,
+        "footer": null,
+        "from_quote": null,
+        "header": null,
+        "invoice": null,
+        "invoice_settings": {
+          "days_until_due": 674003666,
+          "issuer": { "account": null, "type": "self" }
+        },
+        "line_items": null,
+        "livemode": false,
+        "metadata": {},
+        "number": null,
+        "object": "quote",
+        "on_behalf_of": null,
+        "status": "draft",
+        "status_transitions": {
+          "accepted_at": null,
+          "canceled_at": null,
+          "finalized_at": null
+        },
+        "subscription": null,
+        "subscription_data": {
+          "description": "Vz2T6CKyMu",
+          "effective_date": null,
+          "metadata": null,
+          "trial_period_days": null
+        },
+        "subscription_schedule": null,
+        "test_clock": "i1W4zw1JB4",
+        "total_details": {
+          "amount_discount": 0,
+          "amount_shipping": 0,
+          "amount_tax": 0,
+          "breakdown": null
+        },
+        "transfer_data": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

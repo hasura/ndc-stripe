@@ -1,0 +1,34 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostApplePayDomains",
+      "arguments": {
+        "domain_name": "Kh0KyQ9nUS",
+        "expand": []
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "domain_name": {
+            "column": "domain_name",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

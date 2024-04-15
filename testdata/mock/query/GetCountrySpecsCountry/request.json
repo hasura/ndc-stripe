@@ -1,0 +1,98 @@
+{
+  "arguments": {
+    "country": {
+      "type": "literal",
+      "value": "hU3FfJ7upQ"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    }
+  },
+  "collection": "GetCountrySpecsCountry",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "default_currency": {
+              "column": "default_currency",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "supported_bank_account_currencies": {
+              "column": "supported_bank_account_currencies",
+              "type": "column"
+            },
+            "supported_payment_currencies": {
+              "column": "supported_payment_currencies",
+              "type": "column"
+            },
+            "supported_payment_methods": {
+              "column": "supported_payment_methods",
+              "type": "column"
+            },
+            "supported_transfer_countries": {
+              "column": "supported_transfer_countries",
+              "type": "column"
+            },
+            "verification_fields": {
+              "column": "verification_fields",
+              "fields": {
+                "fields": {
+                  "company": {
+                    "column": "company",
+                    "fields": {
+                      "fields": {
+                        "additional": {
+                          "column": "additional",
+                          "type": "column"
+                        },
+                        "minimum": {
+                          "column": "minimum",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "individual": {
+                    "column": "individual",
+                    "fields": {
+                      "fields": {
+                        "additional": {
+                          "column": "additional",
+                          "type": "column"
+                        },
+                        "minimum": {
+                          "column": "minimum",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

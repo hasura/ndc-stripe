@@ -1,0 +1,29 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTerminalConnectionTokens",
+      "arguments": {
+        "location": "95jpm0miZr"
+      },
+      "fields": {
+        "fields": {
+          "location": {
+            "column": "location",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "secret": {
+            "column": "secret",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

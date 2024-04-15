@@ -1,0 +1,41 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 1100,
+        "amount_reversed": 0,
+        "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
+        "created": 1234567890,
+        "currency": "usd",
+        "description": "mcVoXNTWh5",
+        "destination": "acct_1OPouMJN5vQBdWEx",
+        "destination_payment": "py_PEHTHL4uD4U3Hv",
+        "livemode": false,
+        "metadata": {},
+        "object": "transfer",
+        "reversals": {
+          "data": [
+            {
+              "amount": 1100,
+              "balance_transaction": null,
+              "created": 1234567890,
+              "currency": "usd",
+              "destination_payment_refund": null,
+              "metadata": {},
+              "object": "transfer_reversal",
+              "source_refund": null,
+              "transfer": "y4GQpClgnd"
+            }
+          ],
+          "has_more": false,
+          "object": "list"
+        },
+        "reversed": false,
+        "source_transaction": null,
+        "source_type": "card",
+        "transfer_group": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

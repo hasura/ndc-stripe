@@ -1,0 +1,19 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1234567890,
+          "expired": false,
+          "expires_at": 1234567890,
+          "file": "file_1OPouvJN5vQBdWExtMnVibvZ",
+          "id": "DVD9jyXg4Z",
+          "livemode": false,
+          "metadata": {},
+          "object": "file_link",
+          "url": "https://pakrym-upload-mydev.dev.stripe.me/links/MDB8YWNjdF8xT1BvdU1KTjV2UUJkV0V4fGZsX3Rlc3RfNkRjY2xBMFA1UlByQ0FiQzRWZk1Hd3B300VOpaJG5C"
+        }
+      }
+    ]
+  }
+]

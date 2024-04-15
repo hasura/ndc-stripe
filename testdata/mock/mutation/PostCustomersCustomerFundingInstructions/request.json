@@ -1,0 +1,226 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCustomersCustomerFundingInstructions",
+      "arguments": {
+        "bank_transfer": {
+          "eu_bank_transfer": {
+            "country": "btFgd6fA2L"
+          },
+          "requested_address_types": ["iban"],
+          "type": "gb_bank_transfer"
+        },
+        "currency": "YvDqH0MbxZ",
+        "customer": "HkT6Qx90zF",
+        "expand": [],
+        "funding_type": "bank_transfer"
+      },
+      "fields": {
+        "fields": {
+          "bank_transfer": {
+            "column": "bank_transfer",
+            "fields": {
+              "fields": {
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "financial_addresses": {
+                  "column": "financial_addresses",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "aba": {
+                          "column": "aba",
+                          "fields": {
+                            "fields": {
+                              "account_number": {
+                                "column": "account_number",
+                                "type": "column"
+                              },
+                              "bank_name": {
+                                "column": "bank_name",
+                                "type": "column"
+                              },
+                              "routing_number": {
+                                "column": "routing_number",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "iban": {
+                          "column": "iban",
+                          "fields": {
+                            "fields": {
+                              "account_holder_name": {
+                                "column": "account_holder_name",
+                                "type": "column"
+                              },
+                              "bic": {
+                                "column": "bic",
+                                "type": "column"
+                              },
+                              "country": {
+                                "column": "country",
+                                "type": "column"
+                              },
+                              "iban": {
+                                "column": "iban",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "sort_code": {
+                          "column": "sort_code",
+                          "fields": {
+                            "fields": {
+                              "account_holder_name": {
+                                "column": "account_holder_name",
+                                "type": "column"
+                              },
+                              "account_number": {
+                                "column": "account_number",
+                                "type": "column"
+                              },
+                              "sort_code": {
+                                "column": "sort_code",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "spei": {
+                          "column": "spei",
+                          "fields": {
+                            "fields": {
+                              "bank_code": {
+                                "column": "bank_code",
+                                "type": "column"
+                              },
+                              "bank_name": {
+                                "column": "bank_name",
+                                "type": "column"
+                              },
+                              "clabe": {
+                                "column": "clabe",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "supported_networks": {
+                          "column": "supported_networks",
+                          "type": "column"
+                        },
+                        "swift": {
+                          "column": "swift",
+                          "fields": {
+                            "fields": {
+                              "account_number": {
+                                "column": "account_number",
+                                "type": "column"
+                              },
+                              "bank_name": {
+                                "column": "bank_name",
+                                "type": "column"
+                              },
+                              "swift_code": {
+                                "column": "swift_code",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "type": {
+                          "column": "type",
+                          "type": "column"
+                        },
+                        "zengin": {
+                          "column": "zengin",
+                          "fields": {
+                            "fields": {
+                              "account_holder_name": {
+                                "column": "account_holder_name",
+                                "type": "column"
+                              },
+                              "account_number": {
+                                "column": "account_number",
+                                "type": "column"
+                              },
+                              "account_type": {
+                                "column": "account_type",
+                                "type": "column"
+                              },
+                              "bank_code": {
+                                "column": "bank_code",
+                                "type": "column"
+                              },
+                              "bank_name": {
+                                "column": "bank_name",
+                                "type": "column"
+                              },
+                              "branch_code": {
+                                "column": "branch_code",
+                                "type": "column"
+                              },
+                              "branch_name": {
+                                "column": "branch_name",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "funding_type": {
+            "column": "funding_type",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

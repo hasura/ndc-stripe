@@ -1,0 +1,75 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCustomersCustomerBalanceTransactionsTransaction",
+      "arguments": {
+        "customer": "8e9Fx9PVRo",
+        "description": "7LaEhRPZed",
+        "expand": [
+          "XK7VWZPXRf"
+        ],
+        "metadata": null,
+        "transaction": "ZimmUGtVLv"
+      },
+      "fields": {
+        "fields": {
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "credit_note": {
+            "column": "credit_note",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "description": {
+            "column": "description",
+            "type": "column"
+          },
+          "ending_balance": {
+            "column": "ending_balance",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "invoice": {
+            "column": "invoice",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

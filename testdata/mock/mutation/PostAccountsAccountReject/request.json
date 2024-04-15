@@ -1,0 +1,890 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostAccountsAccountReject",
+      "arguments": {
+        "account": "ZkpednMQcx",
+        "expand": [
+          "A39K1I78Dt"
+        ],
+        "reason": "vBznJqIMbS"
+      },
+      "fields": {
+        "fields": {
+          "business_profile": {
+            "column": "business_profile",
+            "type": "column"
+          },
+          "business_type": {
+            "column": "business_type",
+            "type": "column"
+          },
+          "capabilities": {
+            "column": "capabilities",
+            "fields": {
+              "fields": {
+                "acss_debit_payments": {
+                  "column": "acss_debit_payments",
+                  "type": "column"
+                },
+                "affirm_payments": {
+                  "column": "affirm_payments",
+                  "type": "column"
+                },
+                "afterpay_clearpay_payments": {
+                  "column": "afterpay_clearpay_payments",
+                  "type": "column"
+                },
+                "amazon_pay_payments": {
+                  "column": "amazon_pay_payments",
+                  "type": "column"
+                },
+                "au_becs_debit_payments": {
+                  "column": "au_becs_debit_payments",
+                  "type": "column"
+                },
+                "bacs_debit_payments": {
+                  "column": "bacs_debit_payments",
+                  "type": "column"
+                },
+                "bancontact_payments": {
+                  "column": "bancontact_payments",
+                  "type": "column"
+                },
+                "bank_transfer_payments": {
+                  "column": "bank_transfer_payments",
+                  "type": "column"
+                },
+                "blik_payments": {
+                  "column": "blik_payments",
+                  "type": "column"
+                },
+                "boleto_payments": {
+                  "column": "boleto_payments",
+                  "type": "column"
+                },
+                "card_issuing": {
+                  "column": "card_issuing",
+                  "type": "column"
+                },
+                "card_payments": {
+                  "column": "card_payments",
+                  "type": "column"
+                },
+                "cartes_bancaires_payments": {
+                  "column": "cartes_bancaires_payments",
+                  "type": "column"
+                },
+                "cashapp_payments": {
+                  "column": "cashapp_payments",
+                  "type": "column"
+                },
+                "eps_payments": {
+                  "column": "eps_payments",
+                  "type": "column"
+                },
+                "fpx_payments": {
+                  "column": "fpx_payments",
+                  "type": "column"
+                },
+                "giropay_payments": {
+                  "column": "giropay_payments",
+                  "type": "column"
+                },
+                "grabpay_payments": {
+                  "column": "grabpay_payments",
+                  "type": "column"
+                },
+                "ideal_payments": {
+                  "column": "ideal_payments",
+                  "type": "column"
+                },
+                "india_international_payments": {
+                  "column": "india_international_payments",
+                  "type": "column"
+                },
+                "jcb_payments": {
+                  "column": "jcb_payments",
+                  "type": "column"
+                },
+                "klarna_payments": {
+                  "column": "klarna_payments",
+                  "type": "column"
+                },
+                "konbini_payments": {
+                  "column": "konbini_payments",
+                  "type": "column"
+                },
+                "legacy_payments": {
+                  "column": "legacy_payments",
+                  "type": "column"
+                },
+                "link_payments": {
+                  "column": "link_payments",
+                  "type": "column"
+                },
+                "mobilepay_payments": {
+                  "column": "mobilepay_payments",
+                  "type": "column"
+                },
+                "oxxo_payments": {
+                  "column": "oxxo_payments",
+                  "type": "column"
+                },
+                "p24_payments": {
+                  "column": "p24_payments",
+                  "type": "column"
+                },
+                "paynow_payments": {
+                  "column": "paynow_payments",
+                  "type": "column"
+                },
+                "promptpay_payments": {
+                  "column": "promptpay_payments",
+                  "type": "column"
+                },
+                "revolut_pay_payments": {
+                  "column": "revolut_pay_payments",
+                  "type": "column"
+                },
+                "sepa_debit_payments": {
+                  "column": "sepa_debit_payments",
+                  "type": "column"
+                },
+                "sofort_payments": {
+                  "column": "sofort_payments",
+                  "type": "column"
+                },
+                "swish_payments": {
+                  "column": "swish_payments",
+                  "type": "column"
+                },
+                "tax_reporting_us_1099_k": {
+                  "column": "tax_reporting_us_1099_k",
+                  "type": "column"
+                },
+                "tax_reporting_us_1099_misc": {
+                  "column": "tax_reporting_us_1099_misc",
+                  "type": "column"
+                },
+                "transfers": {
+                  "column": "transfers",
+                  "type": "column"
+                },
+                "treasury": {
+                  "column": "treasury",
+                  "type": "column"
+                },
+                "us_bank_account_ach_payments": {
+                  "column": "us_bank_account_ach_payments",
+                  "type": "column"
+                },
+                "zip_payments": {
+                  "column": "zip_payments",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "charges_enabled": {
+            "column": "charges_enabled",
+            "type": "column"
+          },
+          "company": {
+            "column": "company",
+            "fields": {
+              "fields": {
+                "address": {
+                  "column": "address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "address_kana": {
+                  "column": "address_kana",
+                  "type": "column"
+                },
+                "address_kanji": {
+                  "column": "address_kanji",
+                  "type": "column"
+                },
+                "directors_provided": {
+                  "column": "directors_provided",
+                  "type": "column"
+                },
+                "executives_provided": {
+                  "column": "executives_provided",
+                  "type": "column"
+                },
+                "export_license_id": {
+                  "column": "export_license_id",
+                  "type": "column"
+                },
+                "export_purpose_code": {
+                  "column": "export_purpose_code",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "name_kana": {
+                  "column": "name_kana",
+                  "type": "column"
+                },
+                "name_kanji": {
+                  "column": "name_kanji",
+                  "type": "column"
+                },
+                "owners_provided": {
+                  "column": "owners_provided",
+                  "type": "column"
+                },
+                "ownership_declaration": {
+                  "column": "ownership_declaration",
+                  "type": "column"
+                },
+                "phone": {
+                  "column": "phone",
+                  "type": "column"
+                },
+                "structure": {
+                  "column": "structure",
+                  "type": "column"
+                },
+                "tax_id_provided": {
+                  "column": "tax_id_provided",
+                  "type": "column"
+                },
+                "tax_id_registrar": {
+                  "column": "tax_id_registrar",
+                  "type": "column"
+                },
+                "vat_id_provided": {
+                  "column": "vat_id_provided",
+                  "type": "column"
+                },
+                "verification": {
+                  "column": "verification",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "controller": {
+            "column": "controller",
+            "fields": {
+              "fields": {
+                "is_controller": {
+                  "column": "is_controller",
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "country": {
+            "column": "country",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "default_currency": {
+            "column": "default_currency",
+            "type": "column"
+          },
+          "details_submitted": {
+            "column": "details_submitted",
+            "type": "column"
+          },
+          "email": {
+            "column": "email",
+            "type": "column"
+          },
+          "external_accounts": {
+            "column": "external_accounts",
+            "fields": {
+              "fields": {
+                "data": {
+                  "column": "data",
+                  "type": "column"
+                },
+                "has_more": {
+                  "column": "has_more",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "url": {
+                  "column": "url",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "future_requirements": {
+            "column": "future_requirements",
+            "fields": {
+              "fields": {
+                "alternatives": {
+                  "column": "alternatives",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "alternative_fields_due": {
+                          "column": "alternative_fields_due",
+                          "type": "column"
+                        },
+                        "original_fields_due": {
+                          "column": "original_fields_due",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "current_deadline": {
+                  "column": "current_deadline",
+                  "type": "column"
+                },
+                "currently_due": {
+                  "column": "currently_due",
+                  "type": "column"
+                },
+                "disabled_reason": {
+                  "column": "disabled_reason",
+                  "type": "column"
+                },
+                "errors": {
+                  "column": "errors",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "code": {
+                          "column": "code",
+                          "type": "column"
+                        },
+                        "reason": {
+                          "column": "reason",
+                          "type": "column"
+                        },
+                        "requirement": {
+                          "column": "requirement",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "eventually_due": {
+                  "column": "eventually_due",
+                  "type": "column"
+                },
+                "past_due": {
+                  "column": "past_due",
+                  "type": "column"
+                },
+                "pending_verification": {
+                  "column": "pending_verification",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "individual": {
+            "column": "individual",
+            "fields": {
+              "fields": {
+                "account": {
+                  "column": "account",
+                  "type": "column"
+                },
+                "additional_tos_acceptances": {
+                  "column": "additional_tos_acceptances",
+                  "fields": {
+                    "fields": {
+                      "account": {
+                        "column": "account",
+                        "fields": {
+                          "fields": {
+                            "date": {
+                              "column": "date",
+                              "type": "column"
+                            },
+                            "ip": {
+                              "column": "ip",
+                              "type": "column"
+                            },
+                            "user_agent": {
+                              "column": "user_agent",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "address": {
+                  "column": "address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "address_kana": {
+                  "column": "address_kana",
+                  "type": "column"
+                },
+                "address_kanji": {
+                  "column": "address_kanji",
+                  "type": "column"
+                },
+                "created": {
+                  "column": "created",
+                  "type": "column"
+                },
+                "dob": {
+                  "column": "dob",
+                  "fields": {
+                    "fields": {
+                      "day": {
+                        "column": "day",
+                        "type": "column"
+                      },
+                      "month": {
+                        "column": "month",
+                        "type": "column"
+                      },
+                      "year": {
+                        "column": "year",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "email": {
+                  "column": "email",
+                  "type": "column"
+                },
+                "first_name": {
+                  "column": "first_name",
+                  "type": "column"
+                },
+                "first_name_kana": {
+                  "column": "first_name_kana",
+                  "type": "column"
+                },
+                "first_name_kanji": {
+                  "column": "first_name_kanji",
+                  "type": "column"
+                },
+                "full_name_aliases": {
+                  "column": "full_name_aliases",
+                  "type": "column"
+                },
+                "future_requirements": {
+                  "column": "future_requirements",
+                  "type": "column"
+                },
+                "gender": {
+                  "column": "gender",
+                  "type": "column"
+                },
+                "id": {
+                  "column": "id",
+                  "type": "column"
+                },
+                "id_number_provided": {
+                  "column": "id_number_provided",
+                  "type": "column"
+                },
+                "id_number_secondary_provided": {
+                  "column": "id_number_secondary_provided",
+                  "type": "column"
+                },
+                "last_name": {
+                  "column": "last_name",
+                  "type": "column"
+                },
+                "last_name_kana": {
+                  "column": "last_name_kana",
+                  "type": "column"
+                },
+                "last_name_kanji": {
+                  "column": "last_name_kanji",
+                  "type": "column"
+                },
+                "maiden_name": {
+                  "column": "maiden_name",
+                  "type": "column"
+                },
+                "metadata": {
+                  "column": "metadata",
+                  "type": "column"
+                },
+                "nationality": {
+                  "column": "nationality",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "phone": {
+                  "column": "phone",
+                  "type": "column"
+                },
+                "political_exposure": {
+                  "column": "political_exposure",
+                  "type": "column"
+                },
+                "registered_address": {
+                  "column": "registered_address",
+                  "fields": {
+                    "fields": {
+                      "city": {
+                        "column": "city",
+                        "type": "column"
+                      },
+                      "country": {
+                        "column": "country",
+                        "type": "column"
+                      },
+                      "line1": {
+                        "column": "line1",
+                        "type": "column"
+                      },
+                      "line2": {
+                        "column": "line2",
+                        "type": "column"
+                      },
+                      "postal_code": {
+                        "column": "postal_code",
+                        "type": "column"
+                      },
+                      "state": {
+                        "column": "state",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "relationship": {
+                  "column": "relationship",
+                  "fields": {
+                    "fields": {
+                      "director": {
+                        "column": "director",
+                        "type": "column"
+                      },
+                      "executive": {
+                        "column": "executive",
+                        "type": "column"
+                      },
+                      "legal_guardian": {
+                        "column": "legal_guardian",
+                        "type": "column"
+                      },
+                      "owner": {
+                        "column": "owner",
+                        "type": "column"
+                      },
+                      "percent_ownership": {
+                        "column": "percent_ownership",
+                        "type": "column"
+                      },
+                      "representative": {
+                        "column": "representative",
+                        "type": "column"
+                      },
+                      "title": {
+                        "column": "title",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "requirements": {
+                  "column": "requirements",
+                  "type": "column"
+                },
+                "ssn_last_4_provided": {
+                  "column": "ssn_last_4_provided",
+                  "type": "column"
+                },
+                "verification": {
+                  "column": "verification",
+                  "fields": {
+                    "fields": {
+                      "additional_document": {
+                        "column": "additional_document",
+                        "type": "column"
+                      },
+                      "details": {
+                        "column": "details",
+                        "type": "column"
+                      },
+                      "details_code": {
+                        "column": "details_code",
+                        "type": "column"
+                      },
+                      "document": {
+                        "column": "document",
+                        "fields": {
+                          "fields": {
+                            "back": {
+                              "column": "back",
+                              "type": "column"
+                            },
+                            "details": {
+                              "column": "details",
+                              "type": "column"
+                            },
+                            "details_code": {
+                              "column": "details_code",
+                              "type": "column"
+                            },
+                            "front": {
+                              "column": "front",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "status": {
+                        "column": "status",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "payouts_enabled": {
+            "column": "payouts_enabled",
+            "type": "column"
+          },
+          "requirements": {
+            "column": "requirements",
+            "fields": {
+              "fields": {
+                "alternatives": {
+                  "column": "alternatives",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "alternative_fields_due": {
+                          "column": "alternative_fields_due",
+                          "type": "column"
+                        },
+                        "original_fields_due": {
+                          "column": "original_fields_due",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "current_deadline": {
+                  "column": "current_deadline",
+                  "type": "column"
+                },
+                "currently_due": {
+                  "column": "currently_due",
+                  "type": "column"
+                },
+                "disabled_reason": {
+                  "column": "disabled_reason",
+                  "type": "column"
+                },
+                "errors": {
+                  "column": "errors",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "code": {
+                          "column": "code",
+                          "type": "column"
+                        },
+                        "reason": {
+                          "column": "reason",
+                          "type": "column"
+                        },
+                        "requirement": {
+                          "column": "requirement",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "eventually_due": {
+                  "column": "eventually_due",
+                  "type": "column"
+                },
+                "past_due": {
+                  "column": "past_due",
+                  "type": "column"
+                },
+                "pending_verification": {
+                  "column": "pending_verification",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "settings": {
+            "column": "settings",
+            "type": "column"
+          },
+          "tos_acceptance": {
+            "column": "tos_acceptance",
+            "fields": {
+              "fields": {
+                "date": {
+                  "column": "date",
+                  "type": "column"
+                },
+                "ip": {
+                  "column": "ip",
+                  "type": "column"
+                },
+                "service_agreement": {
+                  "column": "service_agreement",
+                  "type": "column"
+                },
+                "user_agent": {
+                  "column": "user_agent",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

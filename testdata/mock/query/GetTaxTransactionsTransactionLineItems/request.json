@@ -1,0 +1,117 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "aZPWBhd8fP"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "cbxhLdXqNb"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 4367
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "QdMdhKqco7"
+    },
+    "transaction": {
+      "type": "literal",
+      "value": "K2vNaGCMAe"
+    }
+  },
+  "collection": "GetTaxTransactionsTransactionLineItems",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "amount_tax": {
+                      "column": "amount_tax",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "product": {
+                      "column": "product",
+                      "type": "column"
+                    },
+                    "quantity": {
+                      "column": "quantity",
+                      "type": "column"
+                    },
+                    "reference": {
+                      "column": "reference",
+                      "type": "column"
+                    },
+                    "reversal": {
+                      "column": "reversal",
+                      "type": "column"
+                    },
+                    "tax_behavior": {
+                      "column": "tax_behavior",
+                      "type": "column"
+                    },
+                    "tax_code": {
+                      "column": "tax_code",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

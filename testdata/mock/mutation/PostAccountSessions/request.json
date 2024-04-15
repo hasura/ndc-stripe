@@ -1,0 +1,227 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostAccountSessions",
+      "arguments": {
+        "account": "Q6Frj3GVbu",
+        "components": {
+          "account_onboarding": {
+            "enabled": false
+          },
+          "documents": {
+            "enabled": false
+          },
+          "payment_details": {
+            "enabled": false,
+            "features": {
+              "capture_payments": true,
+              "destination_on_behalf_of_charge_management": true,
+              "dispute_management": false,
+              "refund_management": true
+            }
+          },
+          "payments": {
+            "enabled": false,
+            "features": {
+              "capture_payments": true,
+              "destination_on_behalf_of_charge_management": false,
+              "dispute_management": false,
+              "refund_management": true
+            }
+          },
+          "payouts": {
+            "enabled": true,
+            "features": {
+              "edit_payout_schedule": false,
+              "instant_payouts": true,
+              "standard_payouts": false
+            }
+          }
+        },
+        "expand": [
+          "HNo1S6ZOX8"
+        ]
+      },
+      "fields": {
+        "fields": {
+          "account": {
+            "column": "account",
+            "type": "column"
+          },
+          "client_secret": {
+            "column": "client_secret",
+            "type": "column"
+          },
+          "components": {
+            "column": "components",
+            "fields": {
+              "fields": {
+                "account_onboarding": {
+                  "column": "account_onboarding",
+                  "fields": {
+                    "fields": {
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      },
+                      "features": {
+                        "column": "features",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "documents": {
+                  "column": "documents",
+                  "fields": {
+                    "fields": {
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      },
+                      "features": {
+                        "column": "features",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "payment_details": {
+                  "column": "payment_details",
+                  "fields": {
+                    "fields": {
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      },
+                      "features": {
+                        "column": "features",
+                        "fields": {
+                          "fields": {
+                            "capture_payments": {
+                              "column": "capture_payments",
+                              "type": "column"
+                            },
+                            "destination_on_behalf_of_charge_management": {
+                              "column": "destination_on_behalf_of_charge_management",
+                              "type": "column"
+                            },
+                            "dispute_management": {
+                              "column": "dispute_management",
+                              "type": "column"
+                            },
+                            "refund_management": {
+                              "column": "refund_management",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "payments": {
+                  "column": "payments",
+                  "fields": {
+                    "fields": {
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      },
+                      "features": {
+                        "column": "features",
+                        "fields": {
+                          "fields": {
+                            "capture_payments": {
+                              "column": "capture_payments",
+                              "type": "column"
+                            },
+                            "destination_on_behalf_of_charge_management": {
+                              "column": "destination_on_behalf_of_charge_management",
+                              "type": "column"
+                            },
+                            "dispute_management": {
+                              "column": "dispute_management",
+                              "type": "column"
+                            },
+                            "refund_management": {
+                              "column": "refund_management",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "payouts": {
+                  "column": "payouts",
+                  "fields": {
+                    "fields": {
+                      "enabled": {
+                        "column": "enabled",
+                        "type": "column"
+                      },
+                      "features": {
+                        "column": "features",
+                        "fields": {
+                          "fields": {
+                            "edit_payout_schedule": {
+                              "column": "edit_payout_schedule",
+                              "type": "column"
+                            },
+                            "instant_payouts": {
+                              "column": "instant_payouts",
+                              "type": "column"
+                            },
+                            "standard_payouts": {
+                              "column": "standard_payouts",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "expires_at": {
+            "column": "expires_at",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

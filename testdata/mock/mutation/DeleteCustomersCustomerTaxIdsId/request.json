@@ -1,0 +1,30 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteCustomersCustomerTaxIdsId",
+      "arguments": {
+        "customer": "K5LpJ51LA4",
+        "id": "uO8TJ91Glj"
+      },
+      "fields": {
+        "fields": {
+          "deleted": {
+            "column": "deleted",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

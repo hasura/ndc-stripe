@@ -1,0 +1,184 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "d5KZKifMal"
+      ]
+    },
+    "promotion_code": {
+      "type": "literal",
+      "value": "KppGPejboY"
+    }
+  },
+  "collection": "GetPromotionCodesPromotionCode",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "active": {
+              "column": "active",
+              "type": "column"
+            },
+            "code": {
+              "column": "code",
+              "type": "column"
+            },
+            "coupon": {
+              "column": "coupon",
+              "fields": {
+                "fields": {
+                  "amount_off": {
+                    "column": "amount_off",
+                    "type": "column"
+                  },
+                  "applies_to": {
+                    "column": "applies_to",
+                    "fields": {
+                      "fields": {
+                        "products": {
+                          "column": "products",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "created": {
+                    "column": "created",
+                    "type": "column"
+                  },
+                  "currency": {
+                    "column": "currency",
+                    "type": "column"
+                  },
+                  "currency_options": {
+                    "column": "currency_options",
+                    "type": "column"
+                  },
+                  "duration": {
+                    "column": "duration",
+                    "type": "column"
+                  },
+                  "duration_in_months": {
+                    "column": "duration_in_months",
+                    "type": "column"
+                  },
+                  "id": {
+                    "column": "id",
+                    "type": "column"
+                  },
+                  "livemode": {
+                    "column": "livemode",
+                    "type": "column"
+                  },
+                  "max_redemptions": {
+                    "column": "max_redemptions",
+                    "type": "column"
+                  },
+                  "metadata": {
+                    "column": "metadata",
+                    "type": "column"
+                  },
+                  "name": {
+                    "column": "name",
+                    "type": "column"
+                  },
+                  "object": {
+                    "column": "object",
+                    "type": "column"
+                  },
+                  "percent_off": {
+                    "column": "percent_off",
+                    "type": "column"
+                  },
+                  "redeem_by": {
+                    "column": "redeem_by",
+                    "type": "column"
+                  },
+                  "times_redeemed": {
+                    "column": "times_redeemed",
+                    "type": "column"
+                  },
+                  "valid": {
+                    "column": "valid",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "customer": {
+              "column": "customer",
+              "type": "column"
+            },
+            "expires_at": {
+              "column": "expires_at",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "max_redemptions": {
+              "column": "max_redemptions",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "restrictions": {
+              "column": "restrictions",
+              "fields": {
+                "fields": {
+                  "currency_options": {
+                    "column": "currency_options",
+                    "type": "column"
+                  },
+                  "first_time_transaction": {
+                    "column": "first_time_transaction",
+                    "type": "column"
+                  },
+                  "minimum_amount": {
+                    "column": "minimum_amount",
+                    "type": "column"
+                  },
+                  "minimum_amount_currency": {
+                    "column": "minimum_amount_currency",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "times_redeemed": {
+              "column": "times_redeemed",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

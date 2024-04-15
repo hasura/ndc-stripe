@@ -1,0 +1,227 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "kkxBr1nLxf"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "lHpr6tSXqs"
+    }
+  },
+  "collection": "GetTreasuryReceivedCreditsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "failure_code": {
+              "column": "failure_code",
+              "type": "column"
+            },
+            "financial_account": {
+              "column": "financial_account",
+              "type": "column"
+            },
+            "hosted_regulatory_receipt_url": {
+              "column": "hosted_regulatory_receipt_url",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "initiating_payment_method_details": {
+              "column": "initiating_payment_method_details",
+              "fields": {
+                "fields": {
+                  "balance": {
+                    "column": "balance",
+                    "type": "column"
+                  },
+                  "billing_details": {
+                    "column": "billing_details",
+                    "fields": {
+                      "fields": {
+                        "address": {
+                          "column": "address",
+                          "fields": {
+                            "fields": {
+                              "city": {
+                                "column": "city",
+                                "type": "column"
+                              },
+                              "country": {
+                                "column": "country",
+                                "type": "column"
+                              },
+                              "line1": {
+                                "column": "line1",
+                                "type": "column"
+                              },
+                              "line2": {
+                                "column": "line2",
+                                "type": "column"
+                              },
+                              "postal_code": {
+                                "column": "postal_code",
+                                "type": "column"
+                              },
+                              "state": {
+                                "column": "state",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "email": {
+                          "column": "email",
+                          "type": "column"
+                        },
+                        "name": {
+                          "column": "name",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "financial_account": {
+                    "column": "financial_account",
+                    "fields": {
+                      "fields": {
+                        "id": {
+                          "column": "id",
+                          "type": "column"
+                        },
+                        "network": {
+                          "column": "network",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "issuing_card": {
+                    "column": "issuing_card",
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  },
+                  "us_bank_account": {
+                    "column": "us_bank_account",
+                    "fields": {
+                      "fields": {
+                        "bank_name": {
+                          "column": "bank_name",
+                          "type": "column"
+                        },
+                        "last4": {
+                          "column": "last4",
+                          "type": "column"
+                        },
+                        "routing_number": {
+                          "column": "routing_number",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "linked_flows": {
+              "column": "linked_flows",
+              "fields": {
+                "fields": {
+                  "credit_reversal": {
+                    "column": "credit_reversal",
+                    "type": "column"
+                  },
+                  "issuing_authorization": {
+                    "column": "issuing_authorization",
+                    "type": "column"
+                  },
+                  "issuing_transaction": {
+                    "column": "issuing_transaction",
+                    "type": "column"
+                  },
+                  "source_flow": {
+                    "column": "source_flow",
+                    "type": "column"
+                  },
+                  "source_flow_details": {
+                    "column": "source_flow_details",
+                    "type": "column"
+                  },
+                  "source_flow_type": {
+                    "column": "source_flow_type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "network": {
+              "column": "network",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "reversal_details": {
+              "column": "reversal_details",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "transaction": {
+              "column": "transaction",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

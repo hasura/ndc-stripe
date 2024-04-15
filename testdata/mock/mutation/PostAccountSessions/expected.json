@@ -1,0 +1,52 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "account": "Q6Frj3GVbu",
+        "client_secret": "_PEHTFHffpUcokiSVrrc6TERNdA8300TQ5tgKincvQQYRY0v",
+        "components": {
+          "account_onboarding": {
+            "enabled": false,
+            "features": {
+              "external_account_collection": true
+            }
+          },
+          "documents": {
+            "enabled": false,
+            "features": {}
+          },
+          "payment_details": {
+            "enabled": false,
+            "features": {
+              "capture_payments": true,
+              "destination_on_behalf_of_charge_management": null,
+              "dispute_management": false,
+              "refund_management": true
+            }
+          },
+          "payments": {
+            "enabled": false,
+            "features": {
+              "capture_payments": true,
+              "destination_on_behalf_of_charge_management": null,
+              "dispute_management": false,
+              "refund_management": true
+            }
+          },
+          "payouts": {
+            "enabled": true,
+            "features": {
+              "edit_payout_schedule": false,
+              "instant_payouts": true,
+              "standard_payouts": false
+            }
+          }
+        },
+        "expires_at": 1234567890,
+        "livemode": false,
+        "object": "account_session"
+      }
+    }
+  ]
+}

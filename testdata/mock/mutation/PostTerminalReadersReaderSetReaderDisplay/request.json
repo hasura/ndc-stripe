@@ -1,0 +1,281 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTerminalReadersReaderSetReaderDisplay",
+      "arguments": {
+        "cart": {
+          "currency": "zrVW8fgP5o",
+          "line_items": [
+            {
+              "amount": 1025289059,
+              "description": "tMeMHxX1oy",
+              "quantity": 812070047
+            }
+          ],
+          "tax": 1752399825,
+          "total": 1927950075
+        },
+        "expand": ["IFQYQK7uo3"],
+        "reader": "ZZKCmwd4js",
+        "type": "cart"
+      },
+      "fields": {
+        "fields": {
+          "action": {
+            "column": "action",
+            "fields": {
+              "fields": {
+                "failure_code": {
+                  "column": "failure_code",
+                  "type": "column"
+                },
+                "failure_message": {
+                  "column": "failure_message",
+                  "type": "column"
+                },
+                "process_payment_intent": {
+                  "column": "process_payment_intent",
+                  "fields": {
+                    "fields": {
+                      "payment_intent": {
+                        "column": "payment_intent",
+                        "type": "column"
+                      },
+                      "process_config": {
+                        "column": "process_config",
+                        "fields": {
+                          "fields": {
+                            "enable_customer_cancellation": {
+                              "column": "enable_customer_cancellation",
+                              "type": "column"
+                            },
+                            "skip_tipping": {
+                              "column": "skip_tipping",
+                              "type": "column"
+                            },
+                            "tipping": {
+                              "column": "tipping",
+                              "fields": {
+                                "fields": {
+                                  "amount_eligible": {
+                                    "column": "amount_eligible",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "process_setup_intent": {
+                  "column": "process_setup_intent",
+                  "fields": {
+                    "fields": {
+                      "generated_card": {
+                        "column": "generated_card",
+                        "type": "column"
+                      },
+                      "process_config": {
+                        "column": "process_config",
+                        "fields": {
+                          "fields": {
+                            "enable_customer_cancellation": {
+                              "column": "enable_customer_cancellation",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "setup_intent": {
+                        "column": "setup_intent",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "refund_payment": {
+                  "column": "refund_payment",
+                  "fields": {
+                    "fields": {
+                      "amount": {
+                        "column": "amount",
+                        "type": "column"
+                      },
+                      "charge": {
+                        "column": "charge",
+                        "type": "column"
+                      },
+                      "metadata": {
+                        "column": "metadata",
+                        "type": "column"
+                      },
+                      "payment_intent": {
+                        "column": "payment_intent",
+                        "type": "column"
+                      },
+                      "reason": {
+                        "column": "reason",
+                        "type": "column"
+                      },
+                      "refund": {
+                        "column": "refund",
+                        "type": "column"
+                      },
+                      "refund_application_fee": {
+                        "column": "refund_application_fee",
+                        "type": "column"
+                      },
+                      "refund_payment_config": {
+                        "column": "refund_payment_config",
+                        "fields": {
+                          "fields": {
+                            "enable_customer_cancellation": {
+                              "column": "enable_customer_cancellation",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "reverse_transfer": {
+                        "column": "reverse_transfer",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "set_reader_display": {
+                  "column": "set_reader_display",
+                  "fields": {
+                    "fields": {
+                      "cart": {
+                        "column": "cart",
+                        "fields": {
+                          "fields": {
+                            "currency": {
+                              "column": "currency",
+                              "type": "column"
+                            },
+                            "line_items": {
+                              "column": "line_items",
+                              "fields": {
+                                "fields": {
+                                  "fields": {
+                                    "amount": {
+                                      "column": "amount",
+                                      "type": "column"
+                                    },
+                                    "description": {
+                                      "column": "description",
+                                      "type": "column"
+                                    },
+                                    "quantity": {
+                                      "column": "quantity",
+                                      "type": "column"
+                                    }
+                                  },
+                                  "type": "object"
+                                },
+                                "type": "array"
+                              },
+                              "type": "column"
+                            },
+                            "tax": {
+                              "column": "tax",
+                              "type": "column"
+                            },
+                            "total": {
+                              "column": "total",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "type": {
+                        "column": "type",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "device_sw_version": {
+            "column": "device_sw_version",
+            "type": "column"
+          },
+          "device_type": {
+            "column": "device_type",
+            "type": "column"
+          },
+          "ip_address": {
+            "column": "ip_address",
+            "type": "column"
+          },
+          "label": {
+            "column": "label",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "location": {
+            "column": "location",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "serial_number": {
+            "column": "serial_number",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

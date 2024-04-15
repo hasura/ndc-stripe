@@ -1,0 +1,130 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "t4eQfekyH5"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 25930
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "hsSaDCAxK4"
+    }
+  },
+  "collection": "GetCountrySpecs",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "default_currency": {
+                      "column": "default_currency",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "supported_bank_account_currencies": {
+                      "column": "supported_bank_account_currencies",
+                      "type": "column"
+                    },
+                    "supported_payment_currencies": {
+                      "column": "supported_payment_currencies",
+                      "type": "column"
+                    },
+                    "supported_payment_methods": {
+                      "column": "supported_payment_methods",
+                      "type": "column"
+                    },
+                    "supported_transfer_countries": {
+                      "column": "supported_transfer_countries",
+                      "type": "column"
+                    },
+                    "verification_fields": {
+                      "column": "verification_fields",
+                      "fields": {
+                        "fields": {
+                          "company": {
+                            "column": "company",
+                            "fields": {
+                              "fields": {
+                                "additional": {
+                                  "column": "additional",
+                                  "type": "column"
+                                },
+                                "minimum": {
+                                  "column": "minimum",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "individual": {
+                            "column": "individual",
+                            "fields": {
+                              "fields": {
+                                "additional": {
+                                  "column": "additional",
+                                  "type": "column"
+                                },
+                                "minimum": {
+                                  "column": "minimum",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

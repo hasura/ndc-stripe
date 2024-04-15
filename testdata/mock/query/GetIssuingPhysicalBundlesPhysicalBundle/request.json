@@ -1,0 +1,74 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "dK62WdWMPs"
+      ]
+    },
+    "physical_bundle": {
+      "type": "literal",
+      "value": "xEKbnJ5fTx"
+    }
+  },
+  "collection": "GetIssuingPhysicalBundlesPhysicalBundle",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "features": {
+              "column": "features",
+              "fields": {
+                "fields": {
+                  "card_logo": {
+                    "column": "card_logo",
+                    "type": "column"
+                  },
+                  "carrier_text": {
+                    "column": "carrier_text",
+                    "type": "column"
+                  },
+                  "second_line": {
+                    "column": "second_line",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

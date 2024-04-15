@@ -1,0 +1,57 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "amount": 10000,
+          "cancelable": true,
+          "created": 1234567890,
+          "currency": "usd",
+          "description": "OutboundTransfer to my external bank account",
+          "destination_payment_method": "pm_1OPouwJN5vQBdWExnzH1xIFm",
+          "destination_payment_method_details": {
+            "billing_details": {
+              "address": {
+                "city": "San Francisco",
+                "country": "US",
+                "line1": "1234 Fake Street",
+                "line2": null,
+                "postal_code": "94102",
+                "state": "CA"
+              },
+              "email": null,
+              "name": "Jane Austen"
+            },
+            "type": "us_bank_account",
+            "us_bank_account": {
+              "account_holder_type": "company",
+              "account_type": "checking",
+              "bank_name": "STRIPE TEST BANK",
+              "fingerprint": "oBMt5pBDd633Ahah",
+              "last4": "6789",
+              "network": "ach",
+              "routing_number": "110000000"
+            }
+          },
+          "expected_arrival_date": 1234567890,
+          "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
+          "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgbubL2Juz06Nv36NszL7bgMw-HdKdK3GPWOCnC-aVisnjcPYKMEC58GB1yGAIqB2xYannP_UefTP7OEMOIRww",
+          "id": "TCtBFbk8UG",
+          "livemode": false,
+          "metadata": {},
+          "object": "treasury.outbound_transfer",
+          "returned_details": null,
+          "statement_descriptor": "transfer",
+          "status": "processing",
+          "status_transitions": {
+            "canceled_at": null,
+            "failed_at": null,
+            "posted_at": null,
+            "returned_at": null
+          },
+          "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+        }
+      }
+    ]
+  }
+]

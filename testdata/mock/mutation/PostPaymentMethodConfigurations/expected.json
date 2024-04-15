@@ -1,0 +1,204 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "acss_debit": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "off",
+            "value": "off"
+          }
+        },
+        "active": true,
+        "affirm": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "off",
+            "value": "off"
+          }
+        },
+        "afterpay_clearpay": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "none",
+            "value": "off"
+          }
+        },
+        "alipay": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "none",
+            "value": "off"
+          }
+        },
+        "apple_pay": {
+          "available": true,
+          "display_preference": {
+            "overridable": null,
+            "preference": "none",
+            "value": "on"
+          }
+        },
+        "application": null,
+        "au_becs_debit": null,
+        "bacs_debit": null,
+        "bancontact": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "off",
+            "value": "off"
+          }
+        },
+        "blik": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "none",
+            "value": "off"
+          }
+        },
+        "boleto": null,
+        "card": {
+          "available": true,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "on"
+          }
+        },
+        "cartes_bancaires": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "off"
+          }
+        },
+        "cashapp": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "none",
+            "value": "off"
+          }
+        },
+        "customer_balance": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "none",
+            "value": "off"
+          }
+        },
+        "eps": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "none",
+            "value": "off"
+          }
+        },
+        "fpx": null,
+        "giropay": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "off"
+          }
+        },
+        "google_pay": {
+          "available": true,
+          "display_preference": {
+            "overridable": null,
+            "preference": "off",
+            "value": "on"
+          }
+        },
+        "grabpay": null,
+        "ideal": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "off",
+            "value": "off"
+          }
+        },
+        "is_default": true,
+        "jcb": null,
+        "klarna": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "off",
+            "value": "off"
+          }
+        },
+        "konbini": null,
+        "link": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "off"
+          }
+        },
+        "livemode": false,
+        "name": "awpKyvT2oc",
+        "object": "payment_method_configuration",
+        "oxxo": null,
+        "p24": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "off"
+          }
+        },
+        "parent": "bjFS85bJ7G",
+        "paynow": null,
+        "paypal": null,
+        "promptpay": null,
+        "revolut_pay": null,
+        "sepa_debit": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "off"
+          }
+        },
+        "sofort": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "off"
+          }
+        },
+        "us_bank_account": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "on",
+            "value": "off"
+          }
+        },
+        "wechat_pay": {
+          "available": false,
+          "display_preference": {
+            "overridable": null,
+            "preference": "off",
+            "value": "off"
+          }
+        }
+      },
+      "type": "procedure"
+    }
+  ]
+}

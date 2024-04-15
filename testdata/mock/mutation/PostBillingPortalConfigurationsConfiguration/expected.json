@@ -1,0 +1,45 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "active": false,
+        "application": null,
+        "business_profile": {
+          "headline": null,
+          "privacy_policy_url": "https://example.com/privacy",
+          "terms_of_service_url": "https://example.com/terms"
+        },
+        "created": 1234567890,
+        "default_return_url": null,
+        "features": {
+          "customer_update": {
+            "allowed_updates": ["email", "tax_id"],
+            "enabled": false
+          },
+          "invoice_history": { "enabled": true },
+          "payment_method_update": { "enabled": true },
+          "subscription_cancel": {
+            "cancellation_reason": { "enabled": false, "options": [] },
+            "enabled": true,
+            "mode": "at_period_end",
+            "proration_behavior": "create_prorations"
+          },
+          "subscription_update": {
+            "default_allowed_updates": [],
+            "enabled": false,
+            "products": null,
+            "proration_behavior": "always_invoice"
+          }
+        },
+        "id": "9At5cXphRt",
+        "is_default": true,
+        "livemode": true,
+        "login_page": { "enabled": true, "url": null },
+        "metadata": null,
+        "object": "billing_portal.configuration",
+        "updated": 1234567890
+      },
+      "type": "procedure"
+    }
+  ]
+}

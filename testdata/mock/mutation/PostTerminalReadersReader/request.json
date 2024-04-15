@@ -1,0 +1,17 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTerminalReadersReader",
+      "arguments": {
+        "expand": [
+          "Sj9hKYaMeJ"
+        ],
+        "label": null,
+        "metadata": null,
+        "reader": "Hv73xNkwk5"
+      }
+    }
+  ]
+}

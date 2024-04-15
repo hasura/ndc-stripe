@@ -1,0 +1,15 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1234567890,
+          "domain_name": "example.com",
+          "id": "XiY0csK5O9",
+          "livemode": true,
+          "object": "apple_pay_domain"
+        }
+      }
+    ]
+  }
+]

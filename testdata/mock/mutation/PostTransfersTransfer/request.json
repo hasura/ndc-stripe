@@ -1,0 +1,144 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTransfersTransfer",
+      "arguments": {
+        "description": "mcVoXNTWh5",
+        "expand": [],
+        "transfer": "y4GQpClgnd"
+      },
+      "fields": {
+        "fields": {
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "amount_reversed": {
+            "column": "amount_reversed",
+            "type": "column"
+          },
+          "balance_transaction": {
+            "column": "balance_transaction",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "description": {
+            "column": "description",
+            "type": "column"
+          },
+          "destination": {
+            "column": "destination",
+            "type": "column"
+          },
+          "destination_payment": {
+            "column": "destination_payment",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "reversals": {
+            "column": "reversals",
+            "fields": {
+              "fields": {
+                "data": {
+                  "column": "data",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "amount": {
+                          "column": "amount",
+                          "type": "column"
+                        },
+                        "balance_transaction": {
+                          "column": "balance_transaction",
+                          "type": "column"
+                        },
+                        "created": {
+                          "column": "created",
+                          "type": "column"
+                        },
+                        "currency": {
+                          "column": "currency",
+                          "type": "column"
+                        },
+                        "destination_payment_refund": {
+                          "column": "destination_payment_refund",
+                          "type": "column"
+                        },
+                        "metadata": {
+                          "column": "metadata",
+                          "type": "column"
+                        },
+                        "object": {
+                          "column": "object",
+                          "type": "column"
+                        },
+                        "source_refund": {
+                          "column": "source_refund",
+                          "type": "column"
+                        },
+                        "transfer": {
+                          "column": "transfer",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "has_more": {
+                  "column": "has_more",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "reversed": {
+            "column": "reversed",
+            "type": "column"
+          },
+          "source_transaction": {
+            "column": "source_transaction",
+            "type": "column"
+          },
+          "source_type": {
+            "column": "source_type",
+            "type": "column"
+          },
+          "transfer_group": {
+            "column": "transfer_group",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

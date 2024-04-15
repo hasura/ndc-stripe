@@ -1,0 +1,14 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteCustomersCustomerCardsId",
+      "arguments": {
+        "expand": ["customer"],
+        "customer": "NnTGZunBlY",
+        "id": "HZNBDQmWOw"
+      }
+    }
+  ]
+}

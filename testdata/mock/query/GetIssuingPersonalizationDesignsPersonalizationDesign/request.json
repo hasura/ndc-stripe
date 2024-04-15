@@ -1,0 +1,105 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "personalization_design": {
+      "type": "literal",
+      "value": "VXKnjpEOsK"
+    }
+  },
+  "collection": "GetIssuingPersonalizationDesignsPersonalizationDesign",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "card_logo": {
+              "column": "card_logo",
+              "type": "column"
+            },
+            "carrier_text": {
+              "column": "carrier_text",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "lookup_key": {
+              "column": "lookup_key",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "physical_bundle": {
+              "column": "physical_bundle",
+              "type": "column"
+            },
+            "preferences": {
+              "column": "preferences",
+              "fields": {
+                "fields": {
+                  "is_default": {
+                    "column": "is_default",
+                    "type": "column"
+                  },
+                  "is_platform_default": {
+                    "column": "is_platform_default",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "rejection_reasons": {
+              "column": "rejection_reasons",
+              "fields": {
+                "fields": {
+                  "card_logo": {
+                    "column": "card_logo",
+                    "type": "column"
+                  },
+                  "carrier_text": {
+                    "column": "carrier_text",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

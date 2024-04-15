@@ -1,0 +1,249 @@
+{
+  "arguments": {
+    "configuration": {
+      "type": "literal",
+      "value": "mZCUUvnWZt"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    }
+  },
+  "collection": "GetBillingPortalConfigurationsConfiguration",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "active": {
+              "column": "active",
+              "type": "column"
+            },
+            "application": {
+              "column": "application",
+              "type": "column"
+            },
+            "business_profile": {
+              "column": "business_profile",
+              "fields": {
+                "fields": {
+                  "headline": {
+                    "column": "headline",
+                    "type": "column"
+                  },
+                  "privacy_policy_url": {
+                    "column": "privacy_policy_url",
+                    "type": "column"
+                  },
+                  "terms_of_service_url": {
+                    "column": "terms_of_service_url",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "default_return_url": {
+              "column": "default_return_url",
+              "type": "column"
+            },
+            "features": {
+              "column": "features",
+              "fields": {
+                "fields": {
+                  "customer_update": {
+                    "column": "customer_update",
+                    "fields": {
+                      "fields": {
+                        "allowed_updates": {
+                          "column": "allowed_updates",
+                          "type": "column"
+                        },
+                        "enabled": {
+                          "column": "enabled",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "invoice_history": {
+                    "column": "invoice_history",
+                    "fields": {
+                      "fields": {
+                        "enabled": {
+                          "column": "enabled",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "payment_method_update": {
+                    "column": "payment_method_update",
+                    "fields": {
+                      "fields": {
+                        "enabled": {
+                          "column": "enabled",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "subscription_cancel": {
+                    "column": "subscription_cancel",
+                    "fields": {
+                      "fields": {
+                        "cancellation_reason": {
+                          "column": "cancellation_reason",
+                          "fields": {
+                            "fields": {
+                              "enabled": {
+                                "column": "enabled",
+                                "type": "column"
+                              },
+                              "options": {
+                                "column": "options",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "column"
+                        },
+                        "enabled": {
+                          "column": "enabled",
+                          "type": "column"
+                        },
+                        "mode": {
+                          "column": "mode",
+                          "type": "column"
+                        },
+                        "proration_behavior": {
+                          "column": "proration_behavior",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "subscription_pause": {
+                    "column": "subscription_pause",
+                    "fields": {
+                      "fields": {
+                        "enabled": {
+                          "column": "enabled",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "subscription_update": {
+                    "column": "subscription_update",
+                    "fields": {
+                      "fields": {
+                        "default_allowed_updates": {
+                          "column": "default_allowed_updates",
+                          "type": "column"
+                        },
+                        "enabled": {
+                          "column": "enabled",
+                          "type": "column"
+                        },
+                        "products": {
+                          "column": "products",
+                          "fields": {
+                            "fields": {
+                              "fields": {
+                                "prices": {
+                                  "column": "prices",
+                                  "type": "column"
+                                },
+                                "product": {
+                                  "column": "product",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "array"
+                          },
+                          "type": "column"
+                        },
+                        "proration_behavior": {
+                          "column": "proration_behavior",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "is_default": {
+              "column": "is_default",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "login_page": {
+              "column": "login_page",
+              "fields": {
+                "fields": {
+                  "enabled": {
+                    "column": "enabled",
+                    "type": "column"
+                  },
+                  "url": {
+                    "column": "url",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "updated": {
+              "column": "updated",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "adjusted_for_overdraft": null,
+          "applied_to_payment": null,
+          "created": 1234567890,
+          "currency": "eur",
+          "customer": {
+            "address": null,
+            "balance": 0,
+            "created": 1234567890,
+            "currency": "usd",
+            "default_source": null,
+            "delinquent": false,
+            "description": null,
+            "discount": null,
+            "email": null,
+            "id": "EAn8YNaG9m",
+            "invoice_prefix": "B4749BD",
+            "invoice_settings": {
+              "custom_fields": null,
+              "default_payment_method": null,
+              "footer": null,
+              "rendering_options": null
+            },
+            "livemode": false,
+            "metadata": {},
+            "name": null,
+            "next_invoice_sequence": 1,
+            "object": "customer",
+            "phone": null,
+            "preferred_locales": [],
+            "shipping": null,
+            "tax_exempt": "none",
+            "test_clock": null
+          },
+          "ending_balance": 10000,
+          "funded": {
+            "bank_transfer": {
+              "eu_bank_transfer": {
+                "bic": "BANKDEAAXXX",
+                "iban_last4": "7089",
+                "sender_name": "Sample Business GmbH"
+              },
+              "gb_bank_transfer": null,
+              "jp_bank_transfer": null,
+              "reference": "Payment for Invoice 629C465-155",
+              "type": "eu_bank_transfer",
+              "us_bank_transfer": null
+            }
+          },
+          "id": "tPHo10CEeU",
+          "livemode": false,
+          "net_amount": 5000,
+          "object": "customer_cash_balance_transaction",
+          "refunded_from_payment": null,
+          "transferred_to_balance": null,
+          "type": "funded",
+          "unapplied_from_payment": null
+        }
+      }
+    ]
+  }
+]

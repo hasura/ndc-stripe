@@ -1,0 +1,22 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "address": {
+          "city": "win9j7b8On",
+          "country": "1ntgDcBToU",
+          "line1": "97pd7CZOVH",
+          "line2": "lLUucnZwYR",
+          "postal_code": "gUUFXNXyw5",
+          "state": "dvRoZcYIWe"
+        },
+        "configuration_overrides": null,
+        "display_name": "YIKC9rSZ99",
+        "livemode": false,
+        "metadata": {},
+        "object": "terminal.location"
+      },
+      "type": "procedure"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "active": true,
+          "created": 1234567890,
+          "delivery_estimate": null,
+          "display_name": "Ground shipping",
+          "fixed_amount": {
+            "amount": 500,
+            "currency": "usd",
+            "currency_options": null
+          },
+          "id": "YuI1e9uj5O",
+          "livemode": false,
+          "metadata": {},
+          "object": "shipping_rate",
+          "tax_behavior": "unspecified",
+          "tax_code": null,
+          "type": "fixed_amount"
+        }
+      }
+    ]
+  }
+]

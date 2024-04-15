@@ -1,0 +1,51 @@
+{
+  "arguments": {
+    "item": {
+      "type": "literal",
+      "value": "8c8dV5gohi"
+    }
+  },
+  "collection": "GetRadarValueListItemsItem",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "created_by": {
+              "column": "created_by",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "value": {
+              "column": "value",
+              "type": "column"
+            },
+            "value_list": {
+              "column": "value_list",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

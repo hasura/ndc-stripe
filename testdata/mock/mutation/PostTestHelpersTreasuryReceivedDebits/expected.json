@@ -1,0 +1,55 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 869572916,
+        "created": 1234567890,
+        "currency": "uxBZdwHmBb",
+        "description": "wMEWhsrikn",
+        "failure_code": null,
+        "financial_account": "Jxukm238dW",
+        "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgZqCQzu5wU6Nv3BettKOuxLU_e9_QIggyk_Iu_hjDWSPq7SWu9O0hf2ORmZ5RoneWewCsaDdCIgZuoDPI5FOA",
+        "initiating_payment_method_details": {
+          "balance": null,
+          "billing_details": {
+            "address": {
+              "city": null,
+              "country": null,
+              "line1": null,
+              "line2": null,
+              "postal_code": null,
+              "state": null
+            },
+            "email": null,
+            "name": "Jane Austen"
+          },
+          "financial_account": null,
+          "issuing_card": null,
+          "type": "us_bank_account",
+          "us_bank_account": {
+            "bank_name": "STRIPE TEST BANK",
+            "last4": "6789",
+            "routing_number": "51zADri2Ld"
+          }
+        },
+        "linked_flows": {
+          "debit_reversal": null,
+          "inbound_transfer": null,
+          "issuing_authorization": null,
+          "issuing_transaction": null,
+          "payout": null
+        },
+        "livemode": false,
+        "network": "ach",
+        "object": "treasury.received_debit",
+        "reversal_details": {
+          "deadline": 1703548800,
+          "restricted_reason": null
+        },
+        "status": "succeeded",
+        "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+      },
+      "type": "procedure"
+    }
+  ]
+}

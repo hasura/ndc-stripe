@@ -1,0 +1,397 @@
+{
+  "arguments": {
+    "dispute": {
+      "type": "literal",
+      "value": "RdOaskzFaR"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "2imHvHcnOv"
+      ]
+    }
+  },
+  "collection": "GetIssuingDisputesDispute",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "balance_transactions": {
+              "column": "balance_transactions",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "available_on": {
+                      "column": "available_on",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "description": {
+                      "column": "description",
+                      "type": "column"
+                    },
+                    "exchange_rate": {
+                      "column": "exchange_rate",
+                      "type": "column"
+                    },
+                    "fee": {
+                      "column": "fee",
+                      "type": "column"
+                    },
+                    "fee_details": {
+                      "column": "fee_details",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "amount": {
+                              "column": "amount",
+                              "type": "column"
+                            },
+                            "application": {
+                              "column": "application",
+                              "type": "column"
+                            },
+                            "currency": {
+                              "column": "currency",
+                              "type": "column"
+                            },
+                            "description": {
+                              "column": "description",
+                              "type": "column"
+                            },
+                            "type": {
+                              "column": "type",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "net": {
+                      "column": "net",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "reporting_category": {
+                      "column": "reporting_category",
+                      "type": "column"
+                    },
+                    "source": {
+                      "column": "source",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "evidence": {
+              "column": "evidence",
+              "fields": {
+                "fields": {
+                  "canceled": {
+                    "column": "canceled",
+                    "fields": {
+                      "fields": {
+                        "additional_documentation": {
+                          "column": "additional_documentation",
+                          "type": "column"
+                        },
+                        "canceled_at": {
+                          "column": "canceled_at",
+                          "type": "column"
+                        },
+                        "cancellation_policy_provided": {
+                          "column": "cancellation_policy_provided",
+                          "type": "column"
+                        },
+                        "cancellation_reason": {
+                          "column": "cancellation_reason",
+                          "type": "column"
+                        },
+                        "expected_at": {
+                          "column": "expected_at",
+                          "type": "column"
+                        },
+                        "explanation": {
+                          "column": "explanation",
+                          "type": "column"
+                        },
+                        "product_description": {
+                          "column": "product_description",
+                          "type": "column"
+                        },
+                        "product_type": {
+                          "column": "product_type",
+                          "type": "column"
+                        },
+                        "return_status": {
+                          "column": "return_status",
+                          "type": "column"
+                        },
+                        "returned_at": {
+                          "column": "returned_at",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "duplicate": {
+                    "column": "duplicate",
+                    "fields": {
+                      "fields": {
+                        "additional_documentation": {
+                          "column": "additional_documentation",
+                          "type": "column"
+                        },
+                        "card_statement": {
+                          "column": "card_statement",
+                          "type": "column"
+                        },
+                        "cash_receipt": {
+                          "column": "cash_receipt",
+                          "type": "column"
+                        },
+                        "check_image": {
+                          "column": "check_image",
+                          "type": "column"
+                        },
+                        "explanation": {
+                          "column": "explanation",
+                          "type": "column"
+                        },
+                        "original_transaction": {
+                          "column": "original_transaction",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "fraudulent": {
+                    "column": "fraudulent",
+                    "fields": {
+                      "fields": {
+                        "additional_documentation": {
+                          "column": "additional_documentation",
+                          "type": "column"
+                        },
+                        "explanation": {
+                          "column": "explanation",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "merchandise_not_as_described": {
+                    "column": "merchandise_not_as_described",
+                    "fields": {
+                      "fields": {
+                        "additional_documentation": {
+                          "column": "additional_documentation",
+                          "type": "column"
+                        },
+                        "explanation": {
+                          "column": "explanation",
+                          "type": "column"
+                        },
+                        "received_at": {
+                          "column": "received_at",
+                          "type": "column"
+                        },
+                        "return_description": {
+                          "column": "return_description",
+                          "type": "column"
+                        },
+                        "return_status": {
+                          "column": "return_status",
+                          "type": "column"
+                        },
+                        "returned_at": {
+                          "column": "returned_at",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "not_received": {
+                    "column": "not_received",
+                    "fields": {
+                      "fields": {
+                        "additional_documentation": {
+                          "column": "additional_documentation",
+                          "type": "column"
+                        },
+                        "expected_at": {
+                          "column": "expected_at",
+                          "type": "column"
+                        },
+                        "explanation": {
+                          "column": "explanation",
+                          "type": "column"
+                        },
+                        "product_description": {
+                          "column": "product_description",
+                          "type": "column"
+                        },
+                        "product_type": {
+                          "column": "product_type",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "other": {
+                    "column": "other",
+                    "fields": {
+                      "fields": {
+                        "additional_documentation": {
+                          "column": "additional_documentation",
+                          "type": "column"
+                        },
+                        "explanation": {
+                          "column": "explanation",
+                          "type": "column"
+                        },
+                        "product_description": {
+                          "column": "product_description",
+                          "type": "column"
+                        },
+                        "product_type": {
+                          "column": "product_type",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "reason": {
+                    "column": "reason",
+                    "type": "column"
+                  },
+                  "service_not_as_described": {
+                    "column": "service_not_as_described",
+                    "fields": {
+                      "fields": {
+                        "additional_documentation": {
+                          "column": "additional_documentation",
+                          "type": "column"
+                        },
+                        "canceled_at": {
+                          "column": "canceled_at",
+                          "type": "column"
+                        },
+                        "cancellation_reason": {
+                          "column": "cancellation_reason",
+                          "type": "column"
+                        },
+                        "explanation": {
+                          "column": "explanation",
+                          "type": "column"
+                        },
+                        "received_at": {
+                          "column": "received_at",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "transaction": {
+              "column": "transaction",
+              "type": "column"
+            },
+            "treasury": {
+              "column": "treasury",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

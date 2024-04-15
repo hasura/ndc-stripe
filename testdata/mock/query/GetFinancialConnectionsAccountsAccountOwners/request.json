@@ -1,0 +1,99 @@
+{
+  "arguments": {
+    "account": {
+      "type": "literal",
+      "value": "vlBA4W9XQN"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "tC8J6GZ5ID"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 21237
+    },
+    "ownership": {
+      "type": "literal",
+      "value": "f9f8dVJYkY"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "FDCWOKEzKU"
+    }
+  },
+  "collection": "GetFinancialConnectionsAccountsAccountOwners",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "email": {
+                      "column": "email",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "name": {
+                      "column": "name",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "ownership": {
+                      "column": "ownership",
+                      "type": "column"
+                    },
+                    "phone": {
+                      "column": "phone",
+                      "type": "column"
+                    },
+                    "raw_address": {
+                      "column": "raw_address",
+                      "type": "column"
+                    },
+                    "refreshed_at": {
+                      "column": "refreshed_at",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

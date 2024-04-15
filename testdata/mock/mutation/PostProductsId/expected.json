@@ -1,0 +1,27 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "active": true,
+        "created": 1234567890,
+        "default_price": "wbsOHFq6vh",
+        "description": "Comfortable gray cotton t-shirt",
+        "features": null,
+        "id": "yM9ww5TPVE",
+        "images": [],
+        "livemode": false,
+        "metadata": {},
+        "name": "rfTdoSZsz5",
+        "object": "product",
+        "package_dimensions": null,
+        "shippable": true,
+        "statement_descriptor": "7E4a5ECWQb",
+        "tax_code": null,
+        "unit_label": null,
+        "updated": 1234567890,
+        "url": null
+      }
+    }
+  ]
+}

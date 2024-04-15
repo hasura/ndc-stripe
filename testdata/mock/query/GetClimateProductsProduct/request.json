@@ -1,0 +1,127 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "product": {
+      "type": "literal",
+      "value": "ZN3lIOektA"
+    }
+  },
+  "collection": "GetClimateProductsProduct",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "current_prices_per_metric_ton": {
+              "column": "current_prices_per_metric_ton",
+              "type": "column"
+            },
+            "delivery_year": {
+              "column": "delivery_year",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metric_tons_available": {
+              "column": "metric_tons_available",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "suppliers": {
+              "column": "suppliers",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "info_url": {
+                      "column": "info_url",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "locations": {
+                      "column": "locations",
+                      "fields": {
+                        "fields": {
+                          "fields": {
+                            "city": {
+                              "column": "city",
+                              "type": "column"
+                            },
+                            "country": {
+                              "column": "country",
+                              "type": "column"
+                            },
+                            "latitude": {
+                              "column": "latitude",
+                              "type": "column"
+                            },
+                            "longitude": {
+                              "column": "longitude",
+                              "type": "column"
+                            },
+                            "region": {
+                              "column": "region",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "type": "column"
+                    },
+                    "name": {
+                      "column": "name",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "removal_pathway": {
+                      "column": "removal_pathway",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

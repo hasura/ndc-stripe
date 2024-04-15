@@ -1,0 +1,24 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "id": "sis_1OPoumJN5vQBdWEx7TSOHJ9Q",
+              "invoice": "in_1OPoulJN5vQBdWExBI9AQC8z",
+              "livemode": false,
+              "object": "usage_record_summary",
+              "period": { "end": 1703175364, "start": 1700583364 },
+              "subscription_item": "lU0TNqmse4",
+              "total_usage": 123
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/subscription_items/lU0TNqmse4/usage_record_summaries"
+        }
+      }
+    ]
+  }
+]

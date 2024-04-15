@@ -1,0 +1,17 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1234567890,
+          "created_by": "jenny@example.com",
+          "id": "8c8dV5gohi",
+          "livemode": false,
+          "object": "radar.value_list_item",
+          "value": "1.2.3.4",
+          "value_list": "rsl_1OPouuJN5vQBdWExHVJyCl0n"
+        }
+      }
+    ]
+  }
+]

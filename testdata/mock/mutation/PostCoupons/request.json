@@ -1,0 +1,112 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostCoupons",
+      "arguments": {
+        "amount_off": 466032453,
+        "applies_to": {
+          "products": [
+            "zBBXn8U68a"
+          ]
+        },
+        "currency": "zkmFoYWU6s",
+        "currency_options": null,
+        "duration": "forever",
+        "duration_in_months": 2027029336,
+        "expand": [
+          "9MMp6pHQmj"
+        ],
+        "id": "i6T01WkdM4",
+        "max_redemptions": 1709136794,
+        "metadata": null,
+        "name": "gpacoPT3PI",
+        "percent_off": 1.3615117160938779,
+        "redeem_by": 104774411
+      },
+      "fields": {
+        "fields": {
+          "amount_off": {
+            "column": "amount_off",
+            "type": "column"
+          },
+          "applies_to": {
+            "column": "applies_to",
+            "fields": {
+              "fields": {
+                "products": {
+                  "column": "products",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "currency_options": {
+            "column": "currency_options",
+            "type": "column"
+          },
+          "duration": {
+            "column": "duration",
+            "type": "column"
+          },
+          "duration_in_months": {
+            "column": "duration_in_months",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "max_redemptions": {
+            "column": "max_redemptions",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "percent_off": {
+            "column": "percent_off",
+            "type": "column"
+          },
+          "redeem_by": {
+            "column": "redeem_by",
+            "type": "column"
+          },
+          "times_redeemed": {
+            "column": "times_redeemed",
+            "type": "column"
+          },
+          "valid": {
+            "column": "valid",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

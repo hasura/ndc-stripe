@@ -1,0 +1,29 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "ach_credit_transfer": {
+            "customer_data": null,
+            "fingerprint": null,
+            "last4": null,
+            "routing_number": null
+          },
+          "amount": 500,
+          "chf_credit_transfer": null,
+          "created": 1234567890,
+          "currency": "usd",
+          "gbp_credit_transfer": null,
+          "id": "sQ1KvCNM9e",
+          "livemode": false,
+          "object": "source_transaction",
+          "paper_check": null,
+          "sepa_credit_transfer": null,
+          "source": "EOruupE0Gz",
+          "status": "succeeded",
+          "type": "ach_credit_transfer"
+        }
+      }
+    ]
+  }
+]

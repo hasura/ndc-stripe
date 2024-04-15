@@ -1,0 +1,20 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "amount": 1100,
+          "balance_transaction": null,
+          "created": 1234567890,
+          "currency": "usd",
+          "destination_payment_refund": null,
+          "id": "dG7BlMmoQQ",
+          "metadata": {},
+          "object": "transfer_reversal",
+          "source_refund": null,
+          "transfer": "oS8GN7yv8A"
+        }
+      }
+    ]
+  }
+]

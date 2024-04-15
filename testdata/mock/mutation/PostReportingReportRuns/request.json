@@ -1,0 +1,215 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostReportingReportRuns",
+      "arguments": {
+        "expand": ["jpoLa7COiX"],
+        "parameters": {
+          "columns": ["XSXYcw1RKn"],
+          "connected_account": "2Q2xbYOA7c",
+          "currency": "jgkIf18MYT",
+          "interval_end": 1508019646,
+          "interval_start": 1123441130,
+          "payout": "mDP9TgIqwU",
+          "reporting_category": "issuing_authorization_hold",
+          "timezone": "America/St_Thomas"
+        },
+        "report_type": "Am0CHzCZbR"
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "error": {
+            "column": "error",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "parameters": {
+            "column": "parameters",
+            "fields": {
+              "fields": {
+                "columns": {
+                  "column": "columns",
+                  "type": "column"
+                },
+                "connected_account": {
+                  "column": "connected_account",
+                  "type": "column"
+                },
+                "currency": {
+                  "column": "currency",
+                  "type": "column"
+                },
+                "interval_end": {
+                  "column": "interval_end",
+                  "type": "column"
+                },
+                "interval_start": {
+                  "column": "interval_start",
+                  "type": "column"
+                },
+                "payout": {
+                  "column": "payout",
+                  "type": "column"
+                },
+                "reporting_category": {
+                  "column": "reporting_category",
+                  "type": "column"
+                },
+                "timezone": {
+                  "column": "timezone",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "report_type": {
+            "column": "report_type",
+            "type": "column"
+          },
+          "result": {
+            "column": "result",
+            "fields": {
+              "fields": {
+                "created": {
+                  "column": "created",
+                  "type": "column"
+                },
+                "expires_at": {
+                  "column": "expires_at",
+                  "type": "column"
+                },
+                "filename": {
+                  "column": "filename",
+                  "type": "column"
+                },
+                "id": {
+                  "column": "id",
+                  "type": "column"
+                },
+                "links": {
+                  "column": "links",
+                  "fields": {
+                    "fields": {
+                      "data": {
+                        "column": "data",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "created": {
+                                "column": "created",
+                                "type": "column"
+                              },
+                              "expired": {
+                                "column": "expired",
+                                "type": "column"
+                              },
+                              "expires_at": {
+                                "column": "expires_at",
+                                "type": "column"
+                              },
+                              "file": {
+                                "column": "file",
+                                "type": "column"
+                              },
+                              "id": {
+                                "column": "id",
+                                "type": "column"
+                              },
+                              "livemode": {
+                                "column": "livemode",
+                                "type": "column"
+                              },
+                              "metadata": {
+                                "column": "metadata",
+                                "type": "column"
+                              },
+                              "object": {
+                                "column": "object",
+                                "type": "column"
+                              },
+                              "url": {
+                                "column": "url",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      },
+                      "has_more": {
+                        "column": "has_more",
+                        "type": "column"
+                      },
+                      "object": {
+                        "column": "object",
+                        "type": "column"
+                      },
+                      "url": {
+                        "column": "url",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "purpose": {
+                  "column": "purpose",
+                  "type": "column"
+                },
+                "size": {
+                  "column": "size",
+                  "type": "column"
+                },
+                "title": {
+                  "column": "title",
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                },
+                "url": {
+                  "column": "url",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "succeeded_at": {
+            "column": "succeeded_at",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

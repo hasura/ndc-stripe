@@ -1,0 +1,118 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "1owb49qHRw"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "GGJCx5tibX"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 32661
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "GpzfW5SAC4"
+    }
+  },
+  "collection": "GetTerminalLocations",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "address": {
+                      "column": "address",
+                      "fields": {
+                        "fields": {
+                          "city": {
+                            "column": "city",
+                            "type": "column"
+                          },
+                          "country": {
+                            "column": "country",
+                            "type": "column"
+                          },
+                          "line1": {
+                            "column": "line1",
+                            "type": "column"
+                          },
+                          "line2": {
+                            "column": "line2",
+                            "type": "column"
+                          },
+                          "postal_code": {
+                            "column": "postal_code",
+                            "type": "column"
+                          },
+                          "state": {
+                            "column": "state",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "configuration_overrides": {
+                      "column": "configuration_overrides",
+                      "type": "column"
+                    },
+                    "display_name": {
+                      "column": "display_name",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": 100,
+              "available_on": 1234567890,
+              "created": 1234567890,
+              "currency": "usd",
+              "description": "My First Test Charge (created for API docs)",
+              "exchange_rate": null,
+              "fee": 0,
+              "fee_details": [],
+              "id": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
+              "net": 100,
+              "object": "balance_transaction",
+              "reporting_category": "charge",
+              "source": "ch_1OPoueJN5vQBdWExHvNS496R",
+              "status": "available",
+              "type": "charge"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/balance_transactions"
+        }
+      }
+    ]
+  }
+]

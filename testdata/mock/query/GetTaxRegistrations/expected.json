@@ -1,0 +1,81 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "active_from": 1234567890,
+              "country": "US",
+              "country_options": {
+                "ae": null,
+                "at": null,
+                "au": null,
+                "be": null,
+                "bg": null,
+                "ca": null,
+                "ch": null,
+                "cl": null,
+                "co": null,
+                "cy": null,
+                "cz": null,
+                "de": null,
+                "dk": null,
+                "ee": null,
+                "es": null,
+                "fi": null,
+                "fr": null,
+                "gb": null,
+                "gr": null,
+                "hr": null,
+                "hu": null,
+                "id": null,
+                "ie": null,
+                "is": null,
+                "it": null,
+                "jp": null,
+                "kr": null,
+                "lt": null,
+                "lu": null,
+                "lv": null,
+                "mt": null,
+                "mx": null,
+                "my": null,
+                "nl": null,
+                "no": null,
+                "nz": null,
+                "pl": null,
+                "pt": null,
+                "ro": null,
+                "sa": null,
+                "se": null,
+                "sg": null,
+                "si": null,
+                "sk": null,
+                "th": null,
+                "tr": null,
+                "us": {
+                  "local_amusement_tax": null,
+                  "local_lease_tax": null,
+                  "state": "CA",
+                  "type": "state_sales_tax"
+                },
+                "vn": null,
+                "za": null
+              },
+              "created": 1234567890,
+              "expires_at": 1234567890,
+              "id": "taxreg_PEHTqoThMP4gyv",
+              "livemode": false,
+              "object": "tax.registration",
+              "status": "active"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/tax/registrations"
+        }
+      }
+    ]
+  }
+]

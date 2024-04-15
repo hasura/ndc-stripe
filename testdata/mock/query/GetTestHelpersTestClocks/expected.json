@@ -1,0 +1,25 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "created": 1234567890,
+              "deletes_after": 1234567890,
+              "frozen_time": 1234567890,
+              "id": "clock_1OPoumJN5vQBdWEx6P81PQHY",
+              "livemode": false,
+              "name": null,
+              "object": "test_helpers.test_clock",
+              "status": "ready"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/test_helpers/test_clocks"
+        }
+      }
+    ]
+  }
+]

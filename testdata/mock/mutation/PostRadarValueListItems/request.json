@@ -1,0 +1,42 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostRadarValueListItems",
+      "arguments": {
+        "value": "qgfGzMyfg2",
+        "value_list": "gWKwmMBRqB"
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "created_by": {
+            "column": "created_by",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "value": {
+            "column": "value",
+            "type": "column"
+          },
+          "value_list": {
+            "column": "value_list",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

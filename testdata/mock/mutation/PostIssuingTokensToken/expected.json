@@ -1,0 +1,27 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "card": "ic_1OPouuJN5vQBdWExtrIXaPAW",
+        "created": 1234567890,
+        "device_fingerprint": null,
+        "id": "NmmUPQcHNE",
+        "last4": "2424",
+        "livemode": false,
+        "network": "visa",
+        "network_data": {
+          "device": null,
+          "mastercard": null,
+          "type": "mastercard",
+          "visa": null,
+          "wallet_provider": null
+        },
+        "network_updated_at": 1234567890,
+        "object": "issuing.token",
+        "status": "active",
+        "wallet_provider": "apple_pay"
+      },
+      "type": "procedure"
+    }
+  ]
+}

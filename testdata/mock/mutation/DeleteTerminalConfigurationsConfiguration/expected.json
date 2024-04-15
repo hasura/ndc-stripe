@@ -1,0 +1,12 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "deleted": true,
+        "id": "cXlbIe7wvc",
+        "object": "terminal.configuration"
+      },
+      "type": "procedure"
+    }
+  ]
+}

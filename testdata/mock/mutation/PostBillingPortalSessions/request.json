@@ -1,0 +1,102 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostBillingPortalSessions",
+      "arguments": {
+        "configuration": "nvNhPydGGA",
+        "customer": "ntu47NQUW6",
+        "expand": ["DT8QRk9CO3"],
+        "flow_data": {
+          "after_completion": {
+            "hosted_confirmation": {
+              "custom_message": "YErgSApu5Y"
+            },
+            "redirect": {
+              "return_url": "tXtfUt9FYz"
+            },
+            "type": "hosted_confirmation"
+          },
+          "subscription_cancel": {
+            "retention": {
+              "coupon_offer": {
+                "coupon": "3vePgP9U6M"
+              },
+              "type": "coupon_offer"
+            },
+            "subscription": "GJM9MUyTvA"
+          },
+          "subscription_update": {
+            "subscription": "AWAJVByUvP"
+          },
+          "subscription_update_confirm": {
+            "discounts": [
+              {
+                "coupon": "qCkKT4yK2Y",
+                "promotion_code": "ArD1uwExIq"
+              }
+            ],
+            "items": [
+              {
+                "id": "L5fG4jrr4O",
+                "price": "DLZOiZfIAm",
+                "quantity": 13380
+              }
+            ],
+            "subscription": "Wh6Aj0eqDa"
+          },
+          "type": "subscription_update_confirm"
+        },
+        "locale": "pl",
+        "on_behalf_of": "motfbd6rdA",
+        "return_url": "Jkf1gz1M8L"
+      },
+      "fields": {
+        "fields": {
+          "configuration": {
+            "column": "configuration",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "customer": {
+            "column": "customer",
+            "type": "column"
+          },
+          "flow": {
+            "column": "flow",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "locale": {
+            "column": "locale",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "on_behalf_of": {
+            "column": "on_behalf_of",
+            "type": "column"
+          },
+          "return_url": {
+            "column": "return_url",
+            "type": "column"
+          },
+          "url": {
+            "column": "url",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

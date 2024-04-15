@@ -1,0 +1,22 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "card": "ic_1OPouuJN5vQBdWExtrIXaPAW",
+          "created": 1234567890,
+          "device_fingerprint": null,
+          "id": "aGkLvw1bad",
+          "last4": "2424",
+          "livemode": false,
+          "network": "visa",
+          "network_data": null,
+          "network_updated_at": 1234567890,
+          "object": "issuing.token",
+          "status": "active",
+          "wallet_provider": "apple_pay"
+        }
+      }
+    ]
+  }
+]

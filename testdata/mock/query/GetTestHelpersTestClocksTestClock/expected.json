@@ -1,0 +1,18 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1234567890,
+          "deletes_after": 1234567890,
+          "frozen_time": 1234567890,
+          "id": "gkav8F30Qp",
+          "livemode": false,
+          "name": null,
+          "object": "test_helpers.test_clock",
+          "status": "ready"
+        }
+      }
+    ]
+  }
+]

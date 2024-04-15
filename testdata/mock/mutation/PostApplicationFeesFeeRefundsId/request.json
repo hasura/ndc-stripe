@@ -1,0 +1,54 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostApplicationFeesFeeRefundsId",
+      "arguments": {
+        "expand": [
+          "fcfHI5DXeL"
+        ],
+        "fee": "PZ9L0EDKlx",
+        "id": "6P6WzdRCGV",
+        "metadata": null
+      },
+      "fields": {
+        "fields": {
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "balance_transaction": {
+            "column": "balance_transaction",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "fee": {
+            "column": "fee",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

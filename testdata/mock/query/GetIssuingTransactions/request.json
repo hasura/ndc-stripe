@@ -1,0 +1,210 @@
+{
+  "arguments": {
+    "card": {
+      "type": "literal",
+      "value": "zPGHkL3CHY"
+    },
+    "cardholder": {
+      "type": "literal",
+      "value": "620U9B0gsn"
+    },
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "ABy0bJsUL6"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "Oj4CwlQ0Em"
+      ]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 24225
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "rjdoNwiPeQ"
+    },
+    "type": {
+      "type": "literal",
+      "value": "capture"
+    }
+  },
+  "collection": "GetIssuingTransactions",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "amount": {
+                      "column": "amount",
+                      "type": "column"
+                    },
+                    "amount_details": {
+                      "column": "amount_details",
+                      "type": "column"
+                    },
+                    "authorization": {
+                      "column": "authorization",
+                      "type": "column"
+                    },
+                    "balance_transaction": {
+                      "column": "balance_transaction",
+                      "type": "column"
+                    },
+                    "card": {
+                      "column": "card",
+                      "type": "column"
+                    },
+                    "cardholder": {
+                      "column": "cardholder",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "dispute": {
+                      "column": "dispute",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "merchant_amount": {
+                      "column": "merchant_amount",
+                      "type": "column"
+                    },
+                    "merchant_currency": {
+                      "column": "merchant_currency",
+                      "type": "column"
+                    },
+                    "merchant_data": {
+                      "column": "merchant_data",
+                      "fields": {
+                        "fields": {
+                          "category": {
+                            "column": "category",
+                            "type": "column"
+                          },
+                          "category_code": {
+                            "column": "category_code",
+                            "type": "column"
+                          },
+                          "city": {
+                            "column": "city",
+                            "type": "column"
+                          },
+                          "country": {
+                            "column": "country",
+                            "type": "column"
+                          },
+                          "name": {
+                            "column": "name",
+                            "type": "column"
+                          },
+                          "network_id": {
+                            "column": "network_id",
+                            "type": "column"
+                          },
+                          "postal_code": {
+                            "column": "postal_code",
+                            "type": "column"
+                          },
+                          "state": {
+                            "column": "state",
+                            "type": "column"
+                          },
+                          "terminal_id": {
+                            "column": "terminal_id",
+                            "type": "column"
+                          },
+                          "url": {
+                            "column": "url",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "network_data": {
+                      "column": "network_data",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "purchase_details": {
+                      "column": "purchase_details",
+                      "type": "column"
+                    },
+                    "token": {
+                      "column": "token",
+                      "type": "column"
+                    },
+                    "treasury": {
+                      "column": "treasury",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    },
+                    "wallet": {
+                      "column": "wallet",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

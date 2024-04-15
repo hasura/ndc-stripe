@@ -1,0 +1,221 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostIssuingTokensToken",
+      "arguments": {
+        "expand": ["network_data"],
+        "status": "active",
+        "token": "NmmUPQcHNE"
+      },
+      "fields": {
+        "fields": {
+          "card": {
+            "column": "card",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "device_fingerprint": {
+            "column": "device_fingerprint",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "last4": {
+            "column": "last4",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "network": {
+            "column": "network",
+            "type": "column"
+          },
+          "network_data": {
+            "column": "network_data",
+            "fields": {
+              "fields": {
+                "device": {
+                  "column": "device",
+                  "fields": {
+                    "fields": {
+                      "device_fingerprint": {
+                        "column": "device_fingerprint",
+                        "type": "column"
+                      },
+                      "ip_address": {
+                        "column": "ip_address",
+                        "type": "column"
+                      },
+                      "location": {
+                        "column": "location",
+                        "type": "column"
+                      },
+                      "name": {
+                        "column": "name",
+                        "type": "column"
+                      },
+                      "phone_number": {
+                        "column": "phone_number",
+                        "type": "column"
+                      },
+                      "type": {
+                        "column": "type",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "mastercard": {
+                  "column": "mastercard",
+                  "fields": {
+                    "fields": {
+                      "card_reference_id": {
+                        "column": "card_reference_id",
+                        "type": "column"
+                      },
+                      "token_reference_id": {
+                        "column": "token_reference_id",
+                        "type": "column"
+                      },
+                      "token_requestor_id": {
+                        "column": "token_requestor_id",
+                        "type": "column"
+                      },
+                      "token_requestor_name": {
+                        "column": "token_requestor_name",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                },
+                "visa": {
+                  "column": "visa",
+                  "fields": {
+                    "fields": {
+                      "card_reference_id": {
+                        "column": "card_reference_id",
+                        "type": "column"
+                      },
+                      "token_reference_id": {
+                        "column": "token_reference_id",
+                        "type": "column"
+                      },
+                      "token_requestor_id": {
+                        "column": "token_requestor_id",
+                        "type": "column"
+                      },
+                      "token_risk_score": {
+                        "column": "token_risk_score",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "wallet_provider": {
+                  "column": "wallet_provider",
+                  "fields": {
+                    "fields": {
+                      "account_id": {
+                        "column": "account_id",
+                        "type": "column"
+                      },
+                      "account_trust_score": {
+                        "column": "account_trust_score",
+                        "type": "column"
+                      },
+                      "card_number_source": {
+                        "column": "card_number_source",
+                        "type": "column"
+                      },
+                      "cardholder_address": {
+                        "column": "cardholder_address",
+                        "fields": {
+                          "fields": {
+                            "line1": {
+                              "column": "line1",
+                              "type": "column"
+                            },
+                            "postal_code": {
+                              "column": "postal_code",
+                              "type": "column"
+                            }
+                          },
+                          "type": "object"
+                        },
+                        "type": "column"
+                      },
+                      "cardholder_name": {
+                        "column": "cardholder_name",
+                        "type": "column"
+                      },
+                      "device_trust_score": {
+                        "column": "device_trust_score",
+                        "type": "column"
+                      },
+                      "hashed_account_email_address": {
+                        "column": "hashed_account_email_address",
+                        "type": "column"
+                      },
+                      "reason_codes": {
+                        "column": "reason_codes",
+                        "type": "column"
+                      },
+                      "suggested_decision": {
+                        "column": "suggested_decision",
+                        "type": "column"
+                      },
+                      "suggested_decision_version": {
+                        "column": "suggested_decision_version",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "network_updated_at": {
+            "column": "network_updated_at",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "wallet_provider": {
+            "column": "wallet_provider",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

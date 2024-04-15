@@ -1,0 +1,27 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "active": true,
+        "created": 1234567890,
+        "default_price": "price_1OPougJN5vQBdWExAuB7D8i5",
+        "description": "PVHJ2nJtQ8",
+        "features": null,
+        "id": "DvJOU9lYK1",
+        "images": ["qQn3H5PQo3"],
+        "livemode": false,
+        "metadata": {},
+        "name": "6oie1zNs7A",
+        "object": "product",
+        "package_dimensions": null,
+        "shippable": false,
+        "statement_descriptor": "rzYRr0OaOG",
+        "tax_code": "f9pLone8GH",
+        "unit_label": "GIqRozpmha",
+        "updated": 1234567890,
+        "url": "Ncu2fBuf8a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "arguments": {
+    "early_fraud_warning": {
+      "type": "literal",
+      "value": "4seSNNnOZD"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "IbONFVhoW3"
+      ]
+    }
+  },
+  "collection": "GetRadarEarlyFraudWarningsEarlyFraudWarning",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "actionable": {
+              "column": "actionable",
+              "type": "column"
+            },
+            "charge": {
+              "column": "charge",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "fraud_type": {
+              "column": "fraud_type",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "payment_intent": {
+              "column": "payment_intent",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

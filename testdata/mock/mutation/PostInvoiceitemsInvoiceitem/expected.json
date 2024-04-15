@@ -1,0 +1,53 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 15000062,
+        "currency": "usd",
+        "customer": "cus_PEHTtYpY7elppN",
+        "date": 1234567890,
+        "description": "AncdjXGpFh",
+        "discountable": true,
+        "discounts": [],
+        "id": "Qr1RNLiG7A",
+        "invoice": null,
+        "livemode": false,
+        "metadata": {},
+        "object": "invoiceitem",
+        "period": { "end": 237547588, "start": 1162154481 },
+        "price": {
+          "active": true,
+          "billing_scheme": "per_unit",
+          "created": 1703175358,
+          "currency": "usd",
+          "currency_options": null,
+          "custom_unit_amount": null,
+          "id": "price_1OPougJN5vQBdWEx6kfkXDIL",
+          "livemode": false,
+          "lookup_key": null,
+          "metadata": {},
+          "nickname": null,
+          "object": "price",
+          "product": "prod_PEHTfnvdJH6K0k",
+          "recurring": null,
+          "tax_behavior": "unspecified",
+          "tiers": null,
+          "tiers_mode": null,
+          "transform_quantity": null,
+          "type": "one_time",
+          "unit_amount": 1000,
+          "unit_amount_decimal": "1000"
+        },
+        "proration": false,
+        "quantity": 295688260,
+        "subscription": null,
+        "subscription_item": null,
+        "tax_rates": [],
+        "test_clock": null,
+        "unit_amount": 175533066,
+        "unit_amount_decimal": "92wrViaDBG"
+      },
+      "type": "procedure"
+    }
+  ]
+}

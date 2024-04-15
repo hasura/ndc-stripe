@@ -1,0 +1,21 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "description": "A physical good that can be moved or touched. Also known as tangible personal property.",
+              "id": "txcd_99999999",
+              "name": "General - Tangible Goods",
+              "object": "tax_code"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/tax_codes"
+        }
+      }
+    ]
+  }
+]

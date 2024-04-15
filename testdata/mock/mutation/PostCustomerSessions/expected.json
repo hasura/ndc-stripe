@@ -1,0 +1,19 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "client_secret": "_PMG9cUABRpWoToRKwjVQsfVNtZ0oe5m5LuRYsgOe68eoLHh",
+        "components": {
+          "buy_button": { "enabled": true },
+          "pricing_table": { "enabled": true }
+        },
+        "created": 1234567890,
+        "customer": "DR7QKzT3nU",
+        "expires_at": 1234567890,
+        "livemode": false,
+        "object": "customer_session"
+      },
+      "type": "procedure"
+    }
+  ]
+}

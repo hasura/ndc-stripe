@@ -1,0 +1,32 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "amount_fees": 300,
+          "amount_subtotal": 10000,
+          "amount_total": 10300,
+          "beneficiary": { "public_name": "Frontier Climate" },
+          "canceled_at": 1234567890,
+          "cancellation_reason": null,
+          "certificate": null,
+          "confirmed_at": 1234567890,
+          "created": 1234567890,
+          "currency": "usd",
+          "delayed_at": 1234567890,
+          "delivered_at": 1234567890,
+          "delivery_details": [],
+          "expected_delivery_year": 2027,
+          "id": "rZ08V1LJKo",
+          "livemode": false,
+          "metadata": {},
+          "metric_tons": "10",
+          "object": "climate.order",
+          "product": "climsku_frontier_offtake_portfolio_2027",
+          "product_substituted_at": 1234567890,
+          "status": "open"
+        }
+      }
+    ]
+  }
+]

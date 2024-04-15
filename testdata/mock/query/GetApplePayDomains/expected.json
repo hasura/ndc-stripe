@@ -1,0 +1,22 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "created": 1234567890,
+              "domain_name": "example.com",
+              "id": "apwc_1OPoujJN5vQBdWExuvzAhTDs",
+              "livemode": true,
+              "object": "apple_pay_domain"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/apple_pay/domains"
+        }
+      }
+    ]
+  }
+]

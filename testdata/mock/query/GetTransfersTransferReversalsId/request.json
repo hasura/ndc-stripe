@@ -1,0 +1,73 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "mBZyZoSBmy"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "dG7BlMmoQQ"
+    },
+    "transfer": {
+      "type": "literal",
+      "value": "oS8GN7yv8A"
+    }
+  },
+  "collection": "GetTransfersTransferReversalsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "balance_transaction": {
+              "column": "balance_transaction",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "destination_payment_refund": {
+              "column": "destination_payment_refund",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "source_refund": {
+              "column": "source_refund",
+              "type": "column"
+            },
+            "transfer": {
+              "column": "transfer",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

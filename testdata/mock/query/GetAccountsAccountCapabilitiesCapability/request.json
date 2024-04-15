@@ -1,0 +1,211 @@
+{
+  "arguments": {
+    "account": {
+      "type": "literal",
+      "value": "F40y2wAdoF"
+    },
+    "capability": {
+      "type": "literal",
+      "value": "RIqPr54sDu"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "cOnYIpINnC"
+      ]
+    }
+  },
+  "collection": "GetAccountsAccountCapabilitiesCapability",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "account": {
+              "column": "account",
+              "type": "column"
+            },
+            "future_requirements": {
+              "column": "future_requirements",
+              "fields": {
+                "fields": {
+                  "alternatives": {
+                    "column": "alternatives",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "alternative_fields_due": {
+                            "column": "alternative_fields_due",
+                            "type": "column"
+                          },
+                          "original_fields_due": {
+                            "column": "original_fields_due",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  },
+                  "current_deadline": {
+                    "column": "current_deadline",
+                    "type": "column"
+                  },
+                  "currently_due": {
+                    "column": "currently_due",
+                    "type": "column"
+                  },
+                  "disabled_reason": {
+                    "column": "disabled_reason",
+                    "type": "column"
+                  },
+                  "errors": {
+                    "column": "errors",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "code": {
+                            "column": "code",
+                            "type": "column"
+                          },
+                          "reason": {
+                            "column": "reason",
+                            "type": "column"
+                          },
+                          "requirement": {
+                            "column": "requirement",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  },
+                  "eventually_due": {
+                    "column": "eventually_due",
+                    "type": "column"
+                  },
+                  "past_due": {
+                    "column": "past_due",
+                    "type": "column"
+                  },
+                  "pending_verification": {
+                    "column": "pending_verification",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "requested": {
+              "column": "requested",
+              "type": "column"
+            },
+            "requested_at": {
+              "column": "requested_at",
+              "type": "column"
+            },
+            "requirements": {
+              "column": "requirements",
+              "fields": {
+                "fields": {
+                  "alternatives": {
+                    "column": "alternatives",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "alternative_fields_due": {
+                            "column": "alternative_fields_due",
+                            "type": "column"
+                          },
+                          "original_fields_due": {
+                            "column": "original_fields_due",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  },
+                  "current_deadline": {
+                    "column": "current_deadline",
+                    "type": "column"
+                  },
+                  "currently_due": {
+                    "column": "currently_due",
+                    "type": "column"
+                  },
+                  "disabled_reason": {
+                    "column": "disabled_reason",
+                    "type": "column"
+                  },
+                  "errors": {
+                    "column": "errors",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "code": {
+                            "column": "code",
+                            "type": "column"
+                          },
+                          "reason": {
+                            "column": "reason",
+                            "type": "column"
+                          },
+                          "requirement": {
+                            "column": "requirement",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  },
+                  "eventually_due": {
+                    "column": "eventually_due",
+                    "type": "column"
+                  },
+                  "past_due": {
+                    "column": "past_due",
+                    "type": "column"
+                  },
+                  "pending_verification": {
+                    "column": "pending_verification",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

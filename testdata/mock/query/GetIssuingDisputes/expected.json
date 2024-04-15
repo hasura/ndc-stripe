@@ -1,0 +1,41 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": 100,
+              "balance_transactions": null,
+              "created": 1234567890,
+              "currency": "usd",
+              "evidence": {
+                "canceled": null,
+                "duplicate": null,
+                "fraudulent": {
+                  "additional_documentation": null,
+                  "explanation": "Fraud; card reported lost on 12/21/2023"
+                },
+                "merchandise_not_as_described": null,
+                "not_received": null,
+                "other": null,
+                "reason": "fraudulent",
+                "service_not_as_described": null
+              },
+              "id": "idp_1OPouuJN5vQBdWEx0fS3VE9m",
+              "livemode": false,
+              "metadata": {},
+              "object": "issuing.dispute",
+              "status": "unsubmitted",
+              "transaction": "ipi_1OPouuJN5vQBdWExyOINiqR1",
+              "treasury": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/issuing/disputes"
+        }
+      }
+    ]
+  }
+]

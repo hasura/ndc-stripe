@@ -1,0 +1,215 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "OJ9wJtn6Wx"
+      ]
+    },
+    "order": {
+      "type": "literal",
+      "value": "rZ08V1LJKo"
+    }
+  },
+  "collection": "GetClimateOrdersOrder",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "amount_fees": {
+              "column": "amount_fees",
+              "type": "column"
+            },
+            "amount_subtotal": {
+              "column": "amount_subtotal",
+              "type": "column"
+            },
+            "amount_total": {
+              "column": "amount_total",
+              "type": "column"
+            },
+            "beneficiary": {
+              "column": "beneficiary",
+              "fields": {
+                "fields": {
+                  "public_name": {
+                    "column": "public_name",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "canceled_at": {
+              "column": "canceled_at",
+              "type": "column"
+            },
+            "cancellation_reason": {
+              "column": "cancellation_reason",
+              "type": "column"
+            },
+            "certificate": {
+              "column": "certificate",
+              "type": "column"
+            },
+            "confirmed_at": {
+              "column": "confirmed_at",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "delayed_at": {
+              "column": "delayed_at",
+              "type": "column"
+            },
+            "delivered_at": {
+              "column": "delivered_at",
+              "type": "column"
+            },
+            "delivery_details": {
+              "column": "delivery_details",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "delivered_at": {
+                      "column": "delivered_at",
+                      "type": "column"
+                    },
+                    "location": {
+                      "column": "location",
+                      "type": "column"
+                    },
+                    "metric_tons": {
+                      "column": "metric_tons",
+                      "type": "column"
+                    },
+                    "registry_url": {
+                      "column": "registry_url",
+                      "type": "column"
+                    },
+                    "supplier": {
+                      "column": "supplier",
+                      "fields": {
+                        "fields": {
+                          "id": {
+                            "column": "id",
+                            "type": "column"
+                          },
+                          "info_url": {
+                            "column": "info_url",
+                            "type": "column"
+                          },
+                          "livemode": {
+                            "column": "livemode",
+                            "type": "column"
+                          },
+                          "locations": {
+                            "column": "locations",
+                            "fields": {
+                              "fields": {
+                                "fields": {
+                                  "city": {
+                                    "column": "city",
+                                    "type": "column"
+                                  },
+                                  "country": {
+                                    "column": "country",
+                                    "type": "column"
+                                  },
+                                  "latitude": {
+                                    "column": "latitude",
+                                    "type": "column"
+                                  },
+                                  "longitude": {
+                                    "column": "longitude",
+                                    "type": "column"
+                                  },
+                                  "region": {
+                                    "column": "region",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "type": "column"
+                          },
+                          "name": {
+                            "column": "name",
+                            "type": "column"
+                          },
+                          "object": {
+                            "column": "object",
+                            "type": "column"
+                          },
+                          "removal_pathway": {
+                            "column": "removal_pathway",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "expected_delivery_year": {
+              "column": "expected_delivery_year",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "metric_tons": {
+              "column": "metric_tons",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "product": {
+              "column": "product",
+              "type": "column"
+            },
+            "product_substituted_at": {
+              "column": "product_substituted_at",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

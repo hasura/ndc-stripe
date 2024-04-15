@@ -1,0 +1,60 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": 1000,
+        "balance_transactions": [],
+        "charge": "JqnDDTkgEy",
+        "created": 1234567890,
+        "currency": "usd",
+        "evidence": {
+          "access_activity_log": "HKSczbiQD5",
+          "billing_address": "q7WWotAEwf",
+          "cancellation_policy": "NBvfrMLWYa",
+          "cancellation_policy_disclosure": "m6F8Cp7PmL",
+          "cancellation_rebuttal": "5b80eJNL6P",
+          "customer_communication": "uCEUYn51ez",
+          "customer_email_address": "zKUsMZlels",
+          "customer_name": "EbyPmvEQC4",
+          "customer_purchase_ip": "FZSsUzVUSb",
+          "customer_signature": "rY1ezmP0dy",
+          "duplicate_charge_documentation": "Pq6mMgtApT",
+          "duplicate_charge_explanation": "Ix4X52aYmD",
+          "duplicate_charge_id": "04AQ67pLKH",
+          "product_description": "7A8w5Lef9S",
+          "receipt": "VAGqHqGaYa",
+          "refund_policy": "YskhTXQPz3",
+          "refund_policy_disclosure": "hkWXkhUbX3",
+          "refund_refusal_explanation": "GeeJPE5yzg",
+          "service_date": "dkXeksM8Ag",
+          "service_documentation": "hg1WH9eSqk",
+          "shipping_address": "W5FIBrGbO4",
+          "shipping_carrier": "6N35S4KZvU",
+          "shipping_date": "ZoZCZ65X1N",
+          "shipping_documentation": "pgtTGuSN62",
+          "shipping_tracking_number": "l4UMkLqE3U",
+          "uncategorized_file": "Rl4EWwG3d0",
+          "uncategorized_text": "J0KlVQHdcN"
+        },
+        "evidence_details": {
+          "due_by": 1704844799,
+          "has_evidence": false,
+          "past_due": false,
+          "submission_count": 0
+        },
+        "is_charge_refundable": true,
+        "livemode": false,
+        "metadata": {},
+        "object": "dispute",
+        "payment_intent": null,
+        "payment_method_details": {
+          "card": { "brand": "visa", "network_reason_code": "10.4" },
+          "type": "card"
+        },
+        "reason": "general",
+        "status": "warning_needs_response"
+      },
+      "type": "procedure"
+    }
+  ]
+}

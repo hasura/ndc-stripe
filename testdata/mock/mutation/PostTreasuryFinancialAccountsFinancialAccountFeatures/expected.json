@@ -1,0 +1,55 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "card_issuing": {
+          "requested": false,
+          "status": "active",
+          "status_details": []
+        },
+        "deposit_insurance": {
+          "requested": false,
+          "status": "active",
+          "status_details": []
+        },
+        "financial_addresses": {
+          "aba": { "requested": true, "status": "active", "status_details": [] }
+        },
+        "inbound_transfers": {
+          "ach": { "requested": true, "status": "active", "status_details": [] }
+        },
+        "intra_stripe_flows": {
+          "requested": false,
+          "status": "active",
+          "status_details": []
+        },
+        "object": "treasury.financial_account_features",
+        "outbound_payments": {
+          "ach": {
+            "requested": false,
+            "status": "active",
+            "status_details": []
+          },
+          "us_domestic_wire": {
+            "requested": true,
+            "status": "active",
+            "status_details": []
+          }
+        },
+        "outbound_transfers": {
+          "ach": {
+            "requested": false,
+            "status": "active",
+            "status_details": []
+          },
+          "us_domestic_wire": {
+            "requested": false,
+            "status": "active",
+            "status_details": []
+          }
+        }
+      },
+      "type": "procedure"
+    }
+  ]
+}

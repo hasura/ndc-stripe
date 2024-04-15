@@ -1,0 +1,42 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "DeleteEphemeralKeysKey",
+      "arguments": {
+        "expand": [],
+        "key": "ks7nvk2Ixt"
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "expires": {
+            "column": "expires",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "secret": {
+            "column": "secret",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "effective_at": {
+      "type": "literal",
+      "value": null
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "Ng4KHWp0vv"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "QAg53zUMzS"
+      ]
+    },
+    "financial_account": {
+      "type": "literal",
+      "value": "Ah3qvn4ghX"
+    },
+    "limit": {
+      "type": "literal",
+      "value": 12263
+    },
+    "order_by": {
+      "type": "literal",
+      "value": "created"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "jA4bVSBUCI"
+    },
+    "transaction": {
+      "type": "literal",
+      "value": "Z0mCcLEtV3"
+    }
+  },
+  "collection": "GetTreasuryTransactionEntries",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "balance_impact": {
+                      "column": "balance_impact",
+                      "fields": {
+                        "fields": {
+                          "cash": {
+                            "column": "cash",
+                            "type": "column"
+                          },
+                          "inbound_pending": {
+                            "column": "inbound_pending",
+                            "type": "column"
+                          },
+                          "outbound_pending": {
+                            "column": "outbound_pending",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "effective_at": {
+                      "column": "effective_at",
+                      "type": "column"
+                    },
+                    "financial_account": {
+                      "column": "financial_account",
+                      "type": "column"
+                    },
+                    "flow": {
+                      "column": "flow",
+                      "type": "column"
+                    },
+                    "flow_details": {
+                      "column": "flow_details",
+                      "type": "column"
+                    },
+                    "flow_type": {
+                      "column": "flow_type",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "transaction": {
+                      "column": "transaction",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

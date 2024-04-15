@@ -1,0 +1,33 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": 1000,
+              "amount_excluding_tax": 1000,
+              "description": "My First Invoice Item (created for API docs)",
+              "discount_amount": 0,
+              "discount_amounts": [],
+              "id": "cnli_1OPouvJN5vQBdWExkO30YEXZ",
+              "invoice_line_item": "il_1OPouvJN5vQBdWEx4xnltBII",
+              "livemode": false,
+              "object": "credit_note_line_item",
+              "quantity": 1,
+              "tax_amounts": [],
+              "tax_rates": [],
+              "type": "invoice_line_item",
+              "unit_amount": null,
+              "unit_amount_decimal": null,
+              "unit_amount_excluding_tax": "1000"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/credit_notes/preview/lines"
+        }
+      }
+    ]
+  }
+]

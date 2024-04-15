@@ -1,0 +1,65 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "fEvyA4HJbZ"
+      ]
+    },
+    "link": {
+      "type": "literal",
+      "value": "DVD9jyXg4Z"
+    }
+  },
+  "collection": "GetFileLinksLink",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "expired": {
+              "column": "expired",
+              "type": "column"
+            },
+            "expires_at": {
+              "column": "expires_at",
+              "type": "column"
+            },
+            "file": {
+              "column": "file",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

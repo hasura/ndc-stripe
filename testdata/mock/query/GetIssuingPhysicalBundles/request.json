@@ -1,0 +1,112 @@
+{
+  "arguments": {
+    "ending_before": {
+      "type": "literal",
+      "value": "Kqz9dWfXIj"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 13276
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "4xeoUtBIsb"
+    },
+    "status": {
+      "type": "literal",
+      "value": "active"
+    },
+    "type": {
+      "type": "literal",
+      "value": "standard"
+    }
+  },
+  "collection": "GetIssuingPhysicalBundles",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "features": {
+                      "column": "features",
+                      "fields": {
+                        "fields": {
+                          "card_logo": {
+                            "column": "card_logo",
+                            "type": "column"
+                          },
+                          "carrier_text": {
+                            "column": "carrier_text",
+                            "type": "column"
+                          },
+                          "second_line": {
+                            "column": "second_line",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "name": {
+                      "column": "name",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

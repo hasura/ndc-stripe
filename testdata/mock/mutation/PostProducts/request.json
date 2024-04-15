@@ -1,0 +1,159 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostProducts",
+      "arguments": {
+        "active": true,
+        "default_price_data": {
+          "currency": "ZIO7vImxtj",
+          "currency_options": null,
+          "recurring": {
+            "interval": "week",
+            "interval_count": 1298660606
+          },
+          "tax_behavior": "exclusive",
+          "unit_amount": 1168405628,
+          "unit_amount_decimal": "FWAgPxtwWy"
+        },
+        "description": "PVHJ2nJtQ8",
+        "expand": [
+          "mANvHQNYmR"
+        ],
+        "features": [
+          {
+            "name": "tauX6PP33t"
+          }
+        ],
+        "id": "DvJOU9lYK1",
+        "images": [
+          "qQn3H5PQo3"
+        ],
+        "metadata": null,
+        "name": "6oie1zNs7A",
+        "package_dimensions": {
+          "height": 1.5817307332932071,
+          "length": 0.5355025441015139,
+          "weight": 0.5195265207803034,
+          "width": 1.7707129746302712
+        },
+        "shippable": false,
+        "statement_descriptor": "rzYRr0OaOG",
+        "tax_code": "f9pLone8GH",
+        "unit_label": "GIqRozpmha",
+        "url": "Ncu2fBuf8a"
+      },
+      "fields": {
+        "fields": {
+          "active": {
+            "column": "active",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "default_price": {
+            "column": "default_price",
+            "type": "column"
+          },
+          "description": {
+            "column": "description",
+            "type": "column"
+          },
+          "features": {
+            "column": "features",
+            "fields": {
+              "fields": {
+                "fields": {
+                  "name": {
+                    "column": "name",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "images": {
+            "column": "images",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "package_dimensions": {
+            "column": "package_dimensions",
+            "fields": {
+              "fields": {
+                "height": {
+                  "column": "height",
+                  "type": "column"
+                },
+                "length": {
+                  "column": "length",
+                  "type": "column"
+                },
+                "weight": {
+                  "column": "weight",
+                  "type": "column"
+                },
+                "width": {
+                  "column": "width",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "shippable": {
+            "column": "shippable",
+            "type": "column"
+          },
+          "statement_descriptor": {
+            "column": "statement_descriptor",
+            "type": "column"
+          },
+          "tax_code": {
+            "column": "tax_code",
+            "type": "column"
+          },
+          "unit_label": {
+            "column": "unit_label",
+            "type": "column"
+          },
+          "updated": {
+            "column": "updated",
+            "type": "column"
+          },
+          "url": {
+            "column": "url",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "3l1pHKAIwB"
+      ]
+    },
+    "id": {
+      "type": "literal",
+      "value": "yjQrvLSb16"
+    }
+  },
+  "collection": "GetTaxIdsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "country": {
+              "column": "country",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "customer": {
+              "column": "customer",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "owner": {
+              "column": "owner",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            },
+            "value": {
+              "column": "value",
+              "type": "column"
+            },
+            "verification": {
+              "column": "verification",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

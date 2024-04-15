@@ -1,0 +1,139 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostApplicationFeesIdRefund",
+      "arguments": {
+        "amount": 15432,
+        "directive": "ePwMkBUPaL",
+        "expand": [
+          "EbEXChod0N"
+        ],
+        "id": "i2mXtv7Vfk"
+      },
+      "fields": {
+        "fields": {
+          "account": {
+            "column": "account",
+            "type": "column"
+          },
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "amount_refunded": {
+            "column": "amount_refunded",
+            "type": "column"
+          },
+          "application": {
+            "column": "application",
+            "type": "column"
+          },
+          "balance_transaction": {
+            "column": "balance_transaction",
+            "type": "column"
+          },
+          "charge": {
+            "column": "charge",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "originating_transaction": {
+            "column": "originating_transaction",
+            "type": "column"
+          },
+          "refunded": {
+            "column": "refunded",
+            "type": "column"
+          },
+          "refunds": {
+            "column": "refunds",
+            "fields": {
+              "fields": {
+                "data": {
+                  "column": "data",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "amount": {
+                          "column": "amount",
+                          "type": "column"
+                        },
+                        "balance_transaction": {
+                          "column": "balance_transaction",
+                          "type": "column"
+                        },
+                        "created": {
+                          "column": "created",
+                          "type": "column"
+                        },
+                        "currency": {
+                          "column": "currency",
+                          "type": "column"
+                        },
+                        "fee": {
+                          "column": "fee",
+                          "type": "column"
+                        },
+                        "id": {
+                          "column": "id",
+                          "type": "column"
+                        },
+                        "metadata": {
+                          "column": "metadata",
+                          "type": "column"
+                        },
+                        "object": {
+                          "column": "object",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "has_more": {
+                  "column": "has_more",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "url": {
+                  "column": "url",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount_off": 466032453,
+        "applies_to": null,
+        "created": 1234567890,
+        "currency": "zkmFoYWU6s",
+        "currency_options": null,
+        "duration": "forever",
+        "duration_in_months": 2027029336,
+        "id": "i6T01WkdM4",
+        "livemode": false,
+        "max_redemptions": 1709136794,
+        "metadata": {},
+        "name": "gpacoPT3PI",
+        "object": "coupon",
+        "percent_off": 1.361512,
+        "redeem_by": 104774411,
+        "times_redeemed": 0,
+        "valid": true
+      },
+      "type": "procedure"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "amount": 100,
+        "balance_transaction": null,
+        "charge": "ch_1OPoueJN5vQBdWEx5AWizjSY",
+        "created": 1234567890,
+        "currency": "usd",
+        "description": null,
+        "destination_details": {
+          "affirm": null,
+          "afterpay_clearpay": null,
+          "alipay": null,
+          "au_bank_transfer": null,
+          "blik": null,
+          "br_bank_transfer": null,
+          "card": {
+            "reference": null,
+            "reference_status": null,
+            "reference_type": null,
+            "type": "reversal"
+          },
+          "cashapp": null,
+          "customer_cash_balance": null,
+          "eps": null,
+          "eu_bank_transfer": null,
+          "gb_bank_transfer": null,
+          "giropay": null,
+          "grabpay": null,
+          "jp_bank_transfer": null,
+          "klarna": null,
+          "mx_bank_transfer": null,
+          "p24": null,
+          "paynow": null,
+          "paypal": null,
+          "pix": null,
+          "revolut": null,
+          "sofort": null,
+          "swish": null,
+          "th_bank_transfer": null,
+          "type": "card",
+          "us_bank_transfer": null,
+          "wechat_pay": null,
+          "zip": null
+        },
+        "failure_balance_transaction": null,
+        "failure_reason": null,
+        "instructions_email": null,
+        "metadata": {},
+        "next_action": null,
+        "object": "refund",
+        "payment_intent": null,
+        "reason": null,
+        "receipt_number": null,
+        "source_transfer_reversal": null,
+        "status": "succeeded",
+        "transfer_reversal": null
+      }
+    }
+  ]
+}

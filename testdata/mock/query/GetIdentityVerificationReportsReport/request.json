@@ -1,0 +1,214 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "1KNl7nWMov"
+      ]
+    },
+    "report": {
+      "type": "literal",
+      "value": "ZeBHtecqPv"
+    }
+  },
+  "collection": "GetIdentityVerificationReportsReport",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "client_reference_id": {
+              "column": "client_reference_id",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "document": {
+              "column": "document",
+              "fields": {
+                "fields": {
+                  "address": {
+                    "column": "address",
+                    "type": "column"
+                  },
+                  "dob": {
+                    "column": "dob",
+                    "type": "column"
+                  },
+                  "error": {
+                    "column": "error",
+                    "type": "column"
+                  },
+                  "expiration_date": {
+                    "column": "expiration_date",
+                    "type": "column"
+                  },
+                  "files": {
+                    "column": "files",
+                    "type": "column"
+                  },
+                  "first_name": {
+                    "column": "first_name",
+                    "type": "column"
+                  },
+                  "issued_date": {
+                    "column": "issued_date",
+                    "type": "column"
+                  },
+                  "issuing_country": {
+                    "column": "issuing_country",
+                    "type": "column"
+                  },
+                  "last_name": {
+                    "column": "last_name",
+                    "type": "column"
+                  },
+                  "number": {
+                    "column": "number",
+                    "type": "column"
+                  },
+                  "status": {
+                    "column": "status",
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "id_number": {
+              "column": "id_number",
+              "fields": {
+                "fields": {
+                  "dob": {
+                    "column": "dob",
+                    "type": "column"
+                  },
+                  "error": {
+                    "column": "error",
+                    "type": "column"
+                  },
+                  "first_name": {
+                    "column": "first_name",
+                    "type": "column"
+                  },
+                  "id_number": {
+                    "column": "id_number",
+                    "type": "column"
+                  },
+                  "id_number_type": {
+                    "column": "id_number_type",
+                    "type": "column"
+                  },
+                  "last_name": {
+                    "column": "last_name",
+                    "type": "column"
+                  },
+                  "status": {
+                    "column": "status",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "options": {
+              "column": "options",
+              "fields": {
+                "fields": {
+                  "document": {
+                    "column": "document",
+                    "fields": {
+                      "fields": {
+                        "allowed_types": {
+                          "column": "allowed_types",
+                          "type": "column"
+                        },
+                        "require_id_number": {
+                          "column": "require_id_number",
+                          "type": "column"
+                        },
+                        "require_live_capture": {
+                          "column": "require_live_capture",
+                          "type": "column"
+                        },
+                        "require_matching_selfie": {
+                          "column": "require_matching_selfie",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "id_number": {
+                    "column": "id_number",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "selfie": {
+              "column": "selfie",
+              "fields": {
+                "fields": {
+                  "document": {
+                    "column": "document",
+                    "type": "column"
+                  },
+                  "error": {
+                    "column": "error",
+                    "type": "column"
+                  },
+                  "selfie": {
+                    "column": "selfie",
+                    "type": "column"
+                  },
+                  "status": {
+                    "column": "status",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            },
+            "verification_session": {
+              "column": "verification_session",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

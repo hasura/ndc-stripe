@@ -1,0 +1,194 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": null
+    },
+    "email": {
+      "type": "literal",
+      "value": "KcXoZVEwFG"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "EP0jZ46AWo"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 23290
+    },
+    "phone_number": {
+      "type": "literal",
+      "value": "EJ8O6JNlVn"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "WeZ515Guda"
+    },
+    "status": {
+      "type": "literal",
+      "value": "blocked"
+    },
+    "type": {
+      "type": "literal",
+      "value": "individual"
+    }
+  },
+  "collection": "GetIssuingCardholders",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "billing": {
+                      "column": "billing",
+                      "fields": {
+                        "fields": {
+                          "address": {
+                            "column": "address",
+                            "fields": {
+                              "fields": {
+                                "city": {
+                                  "column": "city",
+                                  "type": "column"
+                                },
+                                "country": {
+                                  "column": "country",
+                                  "type": "column"
+                                },
+                                "line1": {
+                                  "column": "line1",
+                                  "type": "column"
+                                },
+                                "line2": {
+                                  "column": "line2",
+                                  "type": "column"
+                                },
+                                "postal_code": {
+                                  "column": "postal_code",
+                                  "type": "column"
+                                },
+                                "state": {
+                                  "column": "state",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "company": {
+                      "column": "company",
+                      "type": "column"
+                    },
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "email": {
+                      "column": "email",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "individual": {
+                      "column": "individual",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "name": {
+                      "column": "name",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "phone_number": {
+                      "column": "phone_number",
+                      "type": "column"
+                    },
+                    "preferred_locales": {
+                      "column": "preferred_locales",
+                      "type": "column"
+                    },
+                    "requirements": {
+                      "column": "requirements",
+                      "fields": {
+                        "fields": {
+                          "disabled_reason": {
+                            "column": "disabled_reason",
+                            "type": "column"
+                          },
+                          "past_due": {
+                            "column": "past_due",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "spending_controls": {
+                      "column": "spending_controls",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "QHBGvtjQL6"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "RqQegQTqwa"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["customer"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 8503
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "YVzplmP0MV"
+    }
+  },
+  "collection": "GetCustomersCustomerBankAccounts",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "account": {
+                      "column": "account",
+                      "type": "column"
+                    },
+                    "account_holder_name": {
+                      "column": "account_holder_name",
+                      "type": "column"
+                    },
+                    "account_holder_type": {
+                      "column": "account_holder_type",
+                      "type": "column"
+                    },
+                    "account_type": {
+                      "column": "account_type",
+                      "type": "column"
+                    },
+                    "available_payout_methods": {
+                      "column": "available_payout_methods",
+                      "type": "column"
+                    },
+                    "bank_name": {
+                      "column": "bank_name",
+                      "type": "column"
+                    },
+                    "country": {
+                      "column": "country",
+                      "type": "column"
+                    },
+                    "currency": {
+                      "column": "currency",
+                      "type": "column"
+                    },
+                    "customer": {
+                      "column": "customer",
+                      "type": "column"
+                    },
+                    "default_for_currency": {
+                      "column": "default_for_currency",
+                      "type": "column"
+                    },
+                    "fingerprint": {
+                      "column": "fingerprint",
+                      "type": "column"
+                    },
+                    "future_requirements": {
+                      "column": "future_requirements",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "last4": {
+                      "column": "last4",
+                      "type": "column"
+                    },
+                    "metadata": {
+                      "column": "metadata",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "requirements": {
+                      "column": "requirements",
+                      "type": "column"
+                    },
+                    "routing_number": {
+                      "column": "routing_number",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

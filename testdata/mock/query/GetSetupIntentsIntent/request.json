@@ -1,0 +1,133 @@
+{
+  "arguments": {
+    "client_secret": {
+      "type": "literal",
+      "value": "NVoZLA1cRk"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "82uC9qbqjA"
+      ]
+    },
+    "intent": {
+      "type": "literal",
+      "value": "snxok2Ggtr"
+    }
+  },
+  "collection": "GetSetupIntentsIntent",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "application": {
+              "column": "application",
+              "type": "column"
+            },
+            "attach_to_self": {
+              "column": "attach_to_self",
+              "type": "column"
+            },
+            "automatic_payment_methods": {
+              "column": "automatic_payment_methods",
+              "type": "column"
+            },
+            "cancellation_reason": {
+              "column": "cancellation_reason",
+              "type": "column"
+            },
+            "client_secret": {
+              "column": "client_secret",
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "customer": {
+              "column": "customer",
+              "type": "column"
+            },
+            "description": {
+              "column": "description",
+              "type": "column"
+            },
+            "flow_directions": {
+              "column": "flow_directions",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "last_setup_error": {
+              "column": "last_setup_error",
+              "type": "column"
+            },
+            "latest_attempt": {
+              "column": "latest_attempt",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "mandate": {
+              "column": "mandate",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "next_action": {
+              "column": "next_action",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "on_behalf_of": {
+              "column": "on_behalf_of",
+              "type": "column"
+            },
+            "payment_method": {
+              "column": "payment_method",
+              "type": "column"
+            },
+            "payment_method_configuration_details": {
+              "column": "payment_method_configuration_details",
+              "type": "column"
+            },
+            "payment_method_options": {
+              "column": "payment_method_options",
+              "type": "column"
+            },
+            "payment_method_types": {
+              "column": "payment_method_types",
+              "type": "column"
+            },
+            "single_use_mandate": {
+              "column": "single_use_mandate",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "usage": {
+              "column": "usage",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

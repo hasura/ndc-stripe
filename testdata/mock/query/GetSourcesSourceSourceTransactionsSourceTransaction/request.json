@@ -1,0 +1,198 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": [
+        "dqTqj9PG0z"
+      ]
+    },
+    "source": {
+      "type": "literal",
+      "value": "EOruupE0Gz"
+    },
+    "source_transaction": {
+      "type": "literal",
+      "value": "sQ1KvCNM9e"
+    }
+  },
+  "collection": "GetSourcesSourceSourceTransactionsSourceTransaction",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "ach_credit_transfer": {
+              "column": "ach_credit_transfer",
+              "fields": {
+                "fields": {
+                  "customer_data": {
+                    "column": "customer_data",
+                    "type": "column"
+                  },
+                  "fingerprint": {
+                    "column": "fingerprint",
+                    "type": "column"
+                  },
+                  "last4": {
+                    "column": "last4",
+                    "type": "column"
+                  },
+                  "routing_number": {
+                    "column": "routing_number",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "amount": {
+              "column": "amount",
+              "type": "column"
+            },
+            "chf_credit_transfer": {
+              "column": "chf_credit_transfer",
+              "fields": {
+                "fields": {
+                  "reference": {
+                    "column": "reference",
+                    "type": "column"
+                  },
+                  "sender_address_country": {
+                    "column": "sender_address_country",
+                    "type": "column"
+                  },
+                  "sender_address_line1": {
+                    "column": "sender_address_line1",
+                    "type": "column"
+                  },
+                  "sender_iban": {
+                    "column": "sender_iban",
+                    "type": "column"
+                  },
+                  "sender_name": {
+                    "column": "sender_name",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "gbp_credit_transfer": {
+              "column": "gbp_credit_transfer",
+              "fields": {
+                "fields": {
+                  "fingerprint": {
+                    "column": "fingerprint",
+                    "type": "column"
+                  },
+                  "funding_method": {
+                    "column": "funding_method",
+                    "type": "column"
+                  },
+                  "last4": {
+                    "column": "last4",
+                    "type": "column"
+                  },
+                  "reference": {
+                    "column": "reference",
+                    "type": "column"
+                  },
+                  "sender_account_number": {
+                    "column": "sender_account_number",
+                    "type": "column"
+                  },
+                  "sender_name": {
+                    "column": "sender_name",
+                    "type": "column"
+                  },
+                  "sender_sort_code": {
+                    "column": "sender_sort_code",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "paper_check": {
+              "column": "paper_check",
+              "fields": {
+                "fields": {
+                  "available_at": {
+                    "column": "available_at",
+                    "type": "column"
+                  },
+                  "invoices": {
+                    "column": "invoices",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "sepa_credit_transfer": {
+              "column": "sepa_credit_transfer",
+              "fields": {
+                "fields": {
+                  "reference": {
+                    "column": "reference",
+                    "type": "column"
+                  },
+                  "sender_iban": {
+                    "column": "sender_iban",
+                    "type": "column"
+                  },
+                  "sender_name": {
+                    "column": "sender_name",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "source": {
+              "column": "source",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "type": {
+              "column": "type",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

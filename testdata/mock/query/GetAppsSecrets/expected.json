@@ -1,0 +1,26 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "created": 1234567890,
+              "deleted": null,
+              "expires_at": 1234567890,
+              "id": "appsecret_5110QzMIZ0005GiEH1m0419O8KAxCG",
+              "livemode": false,
+              "name": "test-secret",
+              "object": "apps.secret",
+              "payload": null,
+              "scope": { "type": "account", "user": null }
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/apps/secrets"
+        }
+      }
+    ]
+  }
+]

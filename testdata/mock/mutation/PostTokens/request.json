@@ -1,0 +1,570 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTokens",
+      "arguments": {
+        "account": {
+          "business_type": "company",
+          "company": {
+            "address": {
+              "city": "bND6bzQSDP",
+              "country": "jFYCQwD80J",
+              "line1": "VARPPMBY6g",
+              "line2": "31jgkevcyP",
+              "postal_code": "xnjDURknKT",
+              "state": "YStOM28SQJ"
+            },
+            "address_kana": {
+              "city": "SFQiLewrpX",
+              "country": "Um3P3SJ5GF",
+              "line1": "570zsQYIqU",
+              "line2": "pDVyyYzfRo",
+              "postal_code": "GWfy5Ml7bb",
+              "state": "YZhw4W5pt0",
+              "town": "BZRS62NarB"
+            },
+            "address_kanji": {
+              "city": "NfW1y2AbuP",
+              "country": "MOgkvALjXz",
+              "line1": "5uPD8cFQae",
+              "line2": "bYRxLMYEzD",
+              "postal_code": "vK7zhpGoYt",
+              "state": "8VEUDkkeyQ",
+              "town": "p3H3K9E0u2"
+            },
+            "directors_provided": false,
+            "executives_provided": false,
+            "export_license_id": "DiFu8lkWr7",
+            "export_purpose_code": "TipZaaNeUp",
+            "name": "T3NI94ljvG",
+            "name_kana": "OBmmuJXGeE",
+            "name_kanji": "Dsczoq1uOn",
+            "owners_provided": true,
+            "ownership_declaration": {
+              "date": 22904467,
+              "ip": "JSQsWymsfB",
+              "user_agent": "ynaXyEMbxx"
+            },
+            "ownership_declaration_shown_and_signed": false,
+            "phone": "J8SncyN8ZG",
+            "registration_number": "3vbjrVGhku",
+            "structure": "public_company",
+            "tax_id": "SwBgl1RtAJ",
+            "tax_id_registrar": "peiPIZRrS3",
+            "vat_id": "EMtuBfIY7V",
+            "verification": {
+              "document": {
+                "back": "4xOXkgzl0M",
+                "front": "DDE9Otf9qe"
+              }
+            }
+          },
+          "individual": {
+            "address": {
+              "city": "AJAJgZ2Asu",
+              "country": "9KNjRHoGKa",
+              "line1": "PKHfRuPhSt",
+              "line2": "lc7lFzqlJh",
+              "postal_code": "OEAkR4JVrG",
+              "state": "yf1oUxvDAE"
+            },
+            "address_kana": {
+              "city": "3V8y53FIhz",
+              "country": "U4IuZJyloy",
+              "line1": "JSrmBpUO5j",
+              "line2": "YrQ2efIK0y",
+              "postal_code": "B3Xq5hPzgm",
+              "state": "QEful5O4Rh",
+              "town": "D4Q6Olqo4r"
+            },
+            "address_kanji": {
+              "city": "8zGPUped0H",
+              "country": "N8SHdOONDC",
+              "line1": "l3UqQuOQCr",
+              "line2": "71wFK658fc",
+              "postal_code": "bDGaVO3Tcb",
+              "state": "rZPTwkMdED",
+              "town": "4dDWr4Rt2D"
+            },
+            "dob": null,
+            "email": "WXFWT61jDj",
+            "first_name": "a3lVfnWbJO",
+            "first_name_kana": "cImQ0ufhEx",
+            "first_name_kanji": "yY05fVFHW8",
+            "full_name_aliases": null,
+            "gender": "NbLp4PzVEX",
+            "id_number": "5Z65yKEwMd",
+            "id_number_secondary": "PPDBZZNVgj",
+            "last_name": "42bVQfkQUZ",
+            "last_name_kana": "O2sGBL4PtC",
+            "last_name_kanji": "RNDuoQAhJH",
+            "maiden_name": "GIuI6ZTvHv",
+            "metadata": null,
+            "phone": "Fh4ZMuc5u0",
+            "political_exposure": "existing",
+            "registered_address": {
+              "city": "cKS8Kq6Puy",
+              "country": "xgyZGBIAek",
+              "line1": "VVKK4fHSUd",
+              "line2": "eTSxm8nKg5",
+              "postal_code": "ZyQTtUJf0E",
+              "state": "j1kGcD9FvV"
+            },
+            "relationship": {
+              "director": false,
+              "executive": true,
+              "owner": true,
+              "percent_ownership": null,
+              "title": "FFBGDoiMKJ"
+            },
+            "ssn_last_4": "0mKq8vlOBz",
+            "verification": {
+              "additional_document": {
+                "back": "znxzgGcdHC",
+                "front": "uPjEc27WOc"
+              },
+              "document": {
+                "back": "O9z7bHcyyH",
+                "front": "LcMBOWVqjD"
+              }
+            }
+          },
+          "tos_shown_and_accepted": false
+        },
+        "bank_account": {
+          "account_holder_name": "nigfIkEemL",
+          "account_holder_type": "individual",
+          "account_number": "buQVLBj1cX",
+          "account_type": "futsu",
+          "country": "OubC8wK1eK",
+          "currency": "fBXgGkRs8F",
+          "payment_method": "YusShwGcqk",
+          "routing_number": "tyOa4pRwO1"
+        },
+        "card": null,
+        "customer": "QKZr6ItvTa",
+        "cvc_update": {
+          "cvc": "U46XiPTmUf"
+        },
+        "person": {
+          "additional_tos_acceptances": {
+            "account": {
+              "date": 1701259038,
+              "ip": "257pcAyf1v",
+              "user_agent": null
+            }
+          },
+          "address": {
+            "city": "uXjh0P7PNa",
+            "country": "tlvyPQ5yG0",
+            "line1": "NvdiKOQ20Q",
+            "line2": "hPoqhqLwDy",
+            "postal_code": "2pcqHDzBur",
+            "state": "8xdqTFoXKu"
+          },
+          "address_kana": {
+            "city": "xW178oUvOB",
+            "country": "mFPV7DFxUM",
+            "line1": "K10JRROtil",
+            "line2": "6alPgLDrUM",
+            "postal_code": "7dRpyND5Ja",
+            "state": "F9Q0YKyEYd",
+            "town": "gNpBDxsHHm"
+          },
+          "address_kanji": {
+            "city": "SRwZZUXiXg",
+            "country": "XnYGl1uqnp",
+            "line1": "ghzAZjuMnW",
+            "line2": "8rSdIVd3Vi",
+            "postal_code": "dXsgbUV2ba",
+            "state": "qeFvSSAVvR",
+            "town": "XJZV0F0BO5"
+          },
+          "dob": null,
+          "documents": {
+            "company_authorization": {
+              "files": [null]
+            },
+            "passport": {
+              "files": [null]
+            },
+            "visa": {
+              "files": [null]
+            }
+          },
+          "email": "Zu9mQ5aX48",
+          "first_name": "0oPXjCq5CT",
+          "first_name_kana": "AcCQoaagYl",
+          "first_name_kanji": "wv19FYEcSX",
+          "full_name_aliases": null,
+          "gender": "9ayOcz86Do",
+          "id_number": "GuwQZF08wE",
+          "id_number_secondary": "XtcUoN2t0o",
+          "last_name": "iVyrpEk7dn",
+          "last_name_kana": "0Md29jO326",
+          "last_name_kanji": "Hf5vapYbdD",
+          "maiden_name": "sn3mCivrg0",
+          "metadata": null,
+          "nationality": "eCdJyO0Lk1",
+          "phone": "w4f7oww2hj",
+          "political_exposure": "2bkHSsHSKN",
+          "registered_address": {
+            "city": "r5ZSPlUS4a",
+            "country": "5FENedbd6s",
+            "line1": "XGbsjZ4SFZ",
+            "line2": "RAuO1RMfBT",
+            "postal_code": "mtGlwjayhb",
+            "state": "rFRa6eFkig"
+          },
+          "relationship": {
+            "director": false,
+            "executive": true,
+            "legal_guardian": false,
+            "owner": true,
+            "percent_ownership": null,
+            "representative": false,
+            "title": "IbWM4d8kCB"
+          },
+          "ssn_last_4": "iSZCwIEvaf",
+          "verification": {
+            "additional_document": {
+              "back": "XObyqijtvW",
+              "front": "atIk5QpZrI"
+            },
+            "document": {
+              "back": "VD6AkXOyH5",
+              "front": "7whEvpA72b"
+            }
+          }
+        },
+        "pii": {
+          "id_number": "lwDaPiywIu"
+        }
+      },
+      "fields": {
+        "fields": {
+          "bank_account": {
+            "column": "bank_account",
+            "fields": {
+              "fields": {
+                "account": {
+                  "column": "account",
+                  "type": "column"
+                },
+                "account_holder_name": {
+                  "column": "account_holder_name",
+                  "type": "column"
+                },
+                "account_holder_type": {
+                  "column": "account_holder_type",
+                  "type": "column"
+                },
+                "account_type": {
+                  "column": "account_type",
+                  "type": "column"
+                },
+                "available_payout_methods": {
+                  "column": "available_payout_methods",
+                  "type": "column"
+                },
+                "bank_name": {
+                  "column": "bank_name",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "currency": {
+                  "column": "currency",
+                  "type": "column"
+                },
+                "customer": {
+                  "column": "customer",
+                  "type": "column"
+                },
+                "default_for_currency": {
+                  "column": "default_for_currency",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "future_requirements": {
+                  "column": "future_requirements",
+                  "fields": {
+                    "fields": {
+                      "currently_due": {
+                        "column": "currently_due",
+                        "type": "column"
+                      },
+                      "errors": {
+                        "column": "errors",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "reason": {
+                                "column": "reason",
+                                "type": "column"
+                              },
+                              "requirement": {
+                                "column": "requirement",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      },
+                      "past_due": {
+                        "column": "past_due",
+                        "type": "column"
+                      },
+                      "pending_verification": {
+                        "column": "pending_verification",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "metadata": {
+                  "column": "metadata",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "requirements": {
+                  "column": "requirements",
+                  "fields": {
+                    "fields": {
+                      "currently_due": {
+                        "column": "currently_due",
+                        "type": "column"
+                      },
+                      "errors": {
+                        "column": "errors",
+                        "fields": {
+                          "fields": {
+                            "fields": {
+                              "code": {
+                                "column": "code",
+                                "type": "column"
+                              },
+                              "reason": {
+                                "column": "reason",
+                                "type": "column"
+                              },
+                              "requirement": {
+                                "column": "requirement",
+                                "type": "column"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "type": "column"
+                      },
+                      "past_due": {
+                        "column": "past_due",
+                        "type": "column"
+                      },
+                      "pending_verification": {
+                        "column": "pending_verification",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "routing_number": {
+                  "column": "routing_number",
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "card": {
+            "column": "card",
+            "fields": {
+              "fields": {
+                "account": {
+                  "column": "account",
+                  "type": "column"
+                },
+                "address_city": {
+                  "column": "address_city",
+                  "type": "column"
+                },
+                "address_country": {
+                  "column": "address_country",
+                  "type": "column"
+                },
+                "address_line1": {
+                  "column": "address_line1",
+                  "type": "column"
+                },
+                "address_line1_check": {
+                  "column": "address_line1_check",
+                  "type": "column"
+                },
+                "address_line2": {
+                  "column": "address_line2",
+                  "type": "column"
+                },
+                "address_state": {
+                  "column": "address_state",
+                  "type": "column"
+                },
+                "address_zip": {
+                  "column": "address_zip",
+                  "type": "column"
+                },
+                "address_zip_check": {
+                  "column": "address_zip_check",
+                  "type": "column"
+                },
+                "available_payout_methods": {
+                  "column": "available_payout_methods",
+                  "type": "column"
+                },
+                "brand": {
+                  "column": "brand",
+                  "type": "column"
+                },
+                "country": {
+                  "column": "country",
+                  "type": "column"
+                },
+                "currency": {
+                  "column": "currency",
+                  "type": "column"
+                },
+                "customer": {
+                  "column": "customer",
+                  "type": "column"
+                },
+                "cvc_check": {
+                  "column": "cvc_check",
+                  "type": "column"
+                },
+                "default_for_currency": {
+                  "column": "default_for_currency",
+                  "type": "column"
+                },
+                "dynamic_last4": {
+                  "column": "dynamic_last4",
+                  "type": "column"
+                },
+                "exp_month": {
+                  "column": "exp_month",
+                  "type": "column"
+                },
+                "exp_year": {
+                  "column": "exp_year",
+                  "type": "column"
+                },
+                "fingerprint": {
+                  "column": "fingerprint",
+                  "type": "column"
+                },
+                "funding": {
+                  "column": "funding",
+                  "type": "column"
+                },
+                "last4": {
+                  "column": "last4",
+                  "type": "column"
+                },
+                "metadata": {
+                  "column": "metadata",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "networks": {
+                  "column": "networks",
+                  "fields": {
+                    "fields": {
+                      "preferred": {
+                        "column": "preferred",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                },
+                "status": {
+                  "column": "status",
+                  "type": "column"
+                },
+                "tokenization_method": {
+                  "column": "tokenization_method",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "client_ip": {
+            "column": "client_ip",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          },
+          "used": {
+            "column": "used",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTransfers",
+      "arguments": {
+        "amount": 1764834864,
+        "currency": "nR06Nyx9M3",
+        "description": "nkMB2b2ijH",
+        "destination": "Q2gW7O9SCL",
+        "expand": [],
+        "source_transaction": "p87URpoqwe",
+        "source_type": "fpx",
+        "transfer_group": "pmdDLyuU9G"
+      },
+      "fields": {
+        "fields": {
+          "amount": {
+            "column": "amount",
+            "type": "column"
+          },
+          "amount_reversed": {
+            "column": "amount_reversed",
+            "type": "column"
+          },
+          "balance_transaction": {
+            "column": "balance_transaction",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "description": {
+            "column": "description",
+            "type": "column"
+          },
+          "destination": {
+            "column": "destination",
+            "type": "column"
+          },
+          "destination_payment": {
+            "column": "destination_payment",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "reversals": {
+            "column": "reversals",
+            "fields": {
+              "fields": {
+                "data": {
+                  "column": "data",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "amount": {
+                          "column": "amount",
+                          "type": "column"
+                        },
+                        "balance_transaction": {
+                          "column": "balance_transaction",
+                          "type": "column"
+                        },
+                        "created": {
+                          "column": "created",
+                          "type": "column"
+                        },
+                        "currency": {
+                          "column": "currency",
+                          "type": "column"
+                        },
+                        "destination_payment_refund": {
+                          "column": "destination_payment_refund",
+                          "type": "column"
+                        },
+                        "metadata": {
+                          "column": "metadata",
+                          "type": "column"
+                        },
+                        "object": {
+                          "column": "object",
+                          "type": "column"
+                        },
+                        "source_refund": {
+                          "column": "source_refund",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "has_more": {
+                  "column": "has_more",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "reversed": {
+            "column": "reversed",
+            "type": "column"
+          },
+          "source_transaction": {
+            "column": "source_transaction",
+            "type": "column"
+          },
+          "source_type": {
+            "column": "source_type",
+            "type": "column"
+          },
+          "transfer_group": {
+            "column": "transfer_group",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}
