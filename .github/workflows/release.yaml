@@ -35,7 +35,11 @@ jobs:
       - name: Get version from tag
         id: get-version
         run: |
-          echo "tagged_version=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          if [[ "$GITHUB_REF_TYPE" == 'tag' ]]; then
+            echo "tagged_version=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          else
+            echo "tagged_version=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+          fi
         shell: bash
 
       - name: Extract metadata (tags, labels) for Docker
