@@ -28,6 +28,12 @@ docker-compose up -d --build
 
 The connector serves the HTTP service at `http://localhost:8080` and connect to the internal `stripe-mock` service.
 
+### Update dependencies
+
+```sh
+NDC_REST_VERSION=\<version\> make update-deps
+```
+
 ### Update schema
 
 Update `VERSION` in [Makefile](./Makefile) and run:

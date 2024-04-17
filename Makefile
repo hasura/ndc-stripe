@@ -1,5 +1,5 @@
 STRIPE_VERSION ?= v956
-NDC_REST_VERSION ?= v0.1.1
+NDC_REST_VERSION ?= v0.1.2
 UID ?= $(shell id -u)
 GID ?= $(shell id -g)
 
@@ -9,4 +9,8 @@ build-schema:
 		-f https://raw.githubusercontent.com/stripe/openapi/$(STRIPE_VERSION)/openapi/spec3.json \
 		--trim-prefix /v1 --spec openapi3 \
 		--env-prefix STRIPE \
-		-o /home/config/schema.json 
+		-o /home/config/schema.json
+
+.PHONY: update-deps
+update-deps:
+	VERSION=$(NDC_REST_VERSION) scripts/update-deps.sh
