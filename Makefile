@@ -1,5 +1,5 @@
-STRIPE_VERSION ?= v956
-NDC_REST_VERSION ?= v0.1.2
+STRIPE_VERSION ?= v1027
+NDC_REST_VERSION ?= v0.1.3
 UID ?= $(shell id -u)
 GID ?= $(shell id -g)
 
