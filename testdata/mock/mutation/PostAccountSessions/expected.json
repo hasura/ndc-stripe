@@ -20,7 +20,7 @@
             "enabled": false,
             "features": {
               "capture_payments": true,
-              "destination_on_behalf_of_charge_management": null,
+              "destination_on_behalf_of_charge_management": true,
               "dispute_management": false,
               "refund_management": true
             }
@@ -29,7 +29,7 @@
             "enabled": false,
             "features": {
               "capture_payments": true,
-              "destination_on_behalf_of_charge_management": null,
+              "destination_on_behalf_of_charge_management": false,
               "dispute_management": false,
               "refund_management": true
             }
