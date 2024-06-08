@@ -5,22 +5,24 @@
       "type": "procedure",
       "name": "PostIssuingPersonalizationDesigns",
       "arguments": {
-        "card_logo": "QUZ3e480cP",
-        "carrier_text": {
-          "footer_body": null,
-          "footer_title": null,
-          "header_body": null,
-          "header_title": null
-        },
-        "expand": ["P616CPa10Y"],
-        "lookup_key": "6UNoMTKF99",
-        "metadata": null,
-        "name": "0ms36syNES",
-        "physical_bundle": "si3Ly8RlSB",
-        "preferences": {
-          "is_default": false
-        },
-        "transfer_lookup_key": true
+        "body": {
+          "card_logo": "7Wne5SpQ6y",
+          "carrier_text": {
+            "footer_body": "6cJG3JfxqC",
+            "footer_title": "h1hMCqXePh",
+            "header_body": "hXVR3EImF4",
+            "header_title": "tH4pwKCMJw"
+          },
+          "expand": ["QCuayTy41O"],
+          "lookup_key": "frGDfL55Rl",
+          "metadata": null,
+          "name": "pwayElVHIM",
+          "physical_bundle": "DifbYtmU2O",
+          "preferences": {
+            "is_default": true
+          },
+          "transfer_lookup_key": true
+        }
       },
       "fields": {
         "fields": {

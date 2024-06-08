@@ -5,10 +5,11 @@
       "type": "procedure",
       "name": "PostFileLinks",
       "arguments": {
-        "expand": ["KA6Ws3xPEK"],
-        "expires_at": 1772280223,
-        "file": "mcWBLWtQcT",
-        "metadata": null
+        "body": {
+          "expires_at": 1600462158,
+          "file": "g065v6bUt6",
+          "metadata": null
+        }
       },
       "fields": {
         "fields": {

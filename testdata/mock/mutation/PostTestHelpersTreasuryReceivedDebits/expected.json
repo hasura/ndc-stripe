@@ -2,12 +2,12 @@
   "operation_results": [
     {
       "result": {
-        "amount": 869572916,
+        "amount": 1758802940,
         "created": 1234567890,
-        "currency": "uxBZdwHmBb",
-        "description": "wMEWhsrikn",
+        "currency": "e6rG4TaASK",
+        "description": "eN7kMAj8ki",
         "failure_code": null,
-        "financial_account": "Jxukm238dW",
+        "financial_account": "4Lg9AhWEGv",
         "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgZqCQzu5wU6Nv3BettKOuxLU_e9_QIggyk_Iu_hjDWSPq7SWu9O0hf2ORmZ5RoneWewCsaDdCIgZuoDPI5FOA",
         "initiating_payment_method_details": {
           "balance": null,
@@ -29,7 +29,7 @@
           "us_bank_account": {
             "bank_name": "STRIPE TEST BANK",
             "last4": "6789",
-            "routing_number": "51zADri2Ld"
+            "routing_number": "gKWbBE2GaY"
           }
         },
         "linked_flows": {

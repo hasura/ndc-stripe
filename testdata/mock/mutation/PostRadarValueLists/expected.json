@@ -2,10 +2,10 @@
   "operation_results": [
     {
       "result": {
-        "alias": "QIexYx1wI1",
+        "alias": "yRgMgJ50fm",
         "created": 1234567890,
         "created_by": "jenny@example.com",
-        "item_type": "card_fingerprint",
+        "item_type": "ip_address",
         "list_items": {
           "data": [
             {
@@ -24,7 +24,7 @@
         },
         "livemode": false,
         "metadata": {},
-        "name": "yBxos3HMFe",
+        "name": "Z7oQWuzLOJ",
         "object": "radar.value_list"
       },
       "type": "procedure"

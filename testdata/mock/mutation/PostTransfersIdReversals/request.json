@@ -5,12 +5,14 @@
       "type": "procedure",
       "name": "PostTransfersIdReversals",
       "arguments": {
-        "amount": 1518288496,
-        "description": "Wz14NquYvo",
-        "expand": [],
-        "id": "5fbp7pnOmy",
-        "metadata": null,
-        "refund_application_fee": false
+        "body": {
+          "amount": 634665827,
+          "description": "fTGEdVEATi",
+          "expand": [],
+          "metadata": null,
+          "refund_application_fee": true
+        },
+        "id": "DVgwnhWD4l"
       },
       "fields": {
         "fields": {

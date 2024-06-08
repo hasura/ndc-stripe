@@ -5,8 +5,10 @@
       "type": "procedure",
       "name": "PostRadarValueListItems",
       "arguments": {
-        "value": "qgfGzMyfg2",
-        "value_list": "gWKwmMBRqB"
+        "body": {
+          "value": "O9CXMM85ua",
+          "value_list": "qfSdPIiUGR"
+        }
       },
       "fields": {
         "fields": {

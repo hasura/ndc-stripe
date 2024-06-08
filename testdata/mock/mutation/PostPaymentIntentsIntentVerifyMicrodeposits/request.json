@@ -5,15 +5,13 @@
       "type": "procedure",
       "name": "PostPaymentIntentsIntentVerifyMicrodeposits",
       "arguments": {
-        "amounts": [
-          107550628
-        ],
-        "client_secret": "ehlpQ1ViLr",
-        "descriptor_code": "wQyFYdCnON",
-        "expand": [
-          "4VjUYB6XLz"
-        ],
-        "intent": "F6xBqMrY1d"
+        "body": {
+          "amounts": [1295240724],
+          "client_secret": "Eo22g8EUux",
+          "descriptor_code": "MYzifq6sZr",
+          "expand": ["VahEN1DFP2"]
+        },
+        "intent": "aQWTgVpIKs"
       },
       "fields": {
         "fields": {

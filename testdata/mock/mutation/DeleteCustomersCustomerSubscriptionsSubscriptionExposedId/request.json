@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "DeleteCustomersCustomerSubscriptionsSubscriptionExposedId",
       "arguments": {
-        "expand": ["customer"],
-        "invoice_now": true,
-        "prorate": true,
-        "customer": "da1ucis3lE",
-        "subscription_exposed_id": "swWhRwxfSn"
+        "body": {
+          "expand": ["customer"],
+          "invoice_now": true,
+          "prorate": true
+        },
+        "customer": "n4zccGlYwT",
+        "subscription_exposed_id": "QQAKLwlLHY"
       },
       "fields": {
         "fields": {

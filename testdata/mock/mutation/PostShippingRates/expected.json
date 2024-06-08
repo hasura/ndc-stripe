@@ -5,17 +5,17 @@
         "active": true,
         "created": 1234567890,
         "delivery_estimate": null,
-        "display_name": "Dmew3pwnfr",
+        "display_name": "H92rEasQ6n",
         "fixed_amount": {
-          "amount": 183544048,
-          "currency": "96XWGAgEVJ",
+          "amount": 291197997,
+          "currency": "ti2c5KRtAc",
           "currency_options": null
         },
         "livemode": false,
         "metadata": {},
         "object": "shipping_rate",
         "tax_behavior": "inclusive",
-        "tax_code": "ex7KeWB6wy",
+        "tax_code": "pMzS69JaKE",
         "type": "fixed_amount"
       },
       "type": "procedure"

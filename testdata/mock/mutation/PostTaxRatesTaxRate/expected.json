@@ -3,20 +3,20 @@
     {
       "result": {
         "active": true,
-        "country": "nY1neYdrfg",
+        "country": "bH6wWx29Db",
         "created": 1234567890,
-        "description": "AGHCOqKBf5",
-        "display_name": "Ibau6SxkTc",
+        "description": "ico4XyCKCr",
+        "display_name": "QiKv7U9OXn",
         "effective_percentage": null,
         "inclusive": false,
-        "jurisdiction": "m85DUGBJ1Q",
+        "jurisdiction": "EveDi5NGhO",
         "jurisdiction_level": null,
         "livemode": false,
         "metadata": {},
         "object": "tax_rate",
         "percentage": 19,
-        "state": "X7L5JxM1dr",
-        "tax_type": "pst"
+        "state": "Po6Thao87y",
+        "tax_type": "rst"
       },
       "type": "procedure"
     }

@@ -2,9 +2,7 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": [
-        "5AayxMUsFS"
-      ]
+      "value": ["5AayxMUsFS"]
     },
     "id": {
       "type": "literal",
@@ -35,8 +33,20 @@
               "column": "description",
               "type": "column"
             },
-            "features": {
-              "column": "features",
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "images": {
+              "column": "images",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "marketing_features": {
+              "column": "marketing_features",
               "fields": {
                 "fields": {
                   "fields": {
@@ -49,18 +59,6 @@
                 },
                 "type": "array"
               },
-              "type": "column"
-            },
-            "id": {
-              "column": "id",
-              "type": "column"
-            },
-            "images": {
-              "column": "images",
-              "type": "column"
-            },
-            "livemode": {
-              "column": "livemode",
               "type": "column"
             },
             "metadata": {
@@ -77,6 +75,27 @@
             },
             "package_dimensions": {
               "column": "package_dimensions",
+              "fields": {
+                "fields": {
+                  "height": {
+                    "column": "height",
+                    "type": "column"
+                  },
+                  "length": {
+                    "column": "length",
+                    "type": "column"
+                  },
+                  "weight": {
+                    "column": "weight",
+                    "type": "column"
+                  },
+                  "width": {
+                    "column": "width",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "shippable": {

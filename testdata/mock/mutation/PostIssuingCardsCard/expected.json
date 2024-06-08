@@ -1,10 +1,9 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "brand": "Visa",
-        "cancellation_reason": "stolen",
+        "cancellation_reason": "lost",
         "cardholder": {
           "billing": {
             "address": {
@@ -27,10 +26,7 @@
           "object": "issuing.cardholder",
           "phone_number": "+18008675309",
           "preferred_locales": ["en"],
-          "requirements": {
-            "disabled_reason": null,
-            "past_due": []
-          },
+          "requirements": { "disabled_reason": null, "past_due": [] },
           "spending_controls": {
             "allowed_categories": [],
             "allowed_merchant_countries": null,
@@ -48,7 +44,7 @@
         "exp_month": 8,
         "exp_year": 2024,
         "financial_account": null,
-        "id": "vqVC06Fble",
+        "id": "VU1BnlU0fj",
         "last4": "4242",
         "livemode": false,
         "metadata": {},
@@ -60,27 +56,25 @@
         "replacement_reason": null,
         "shipping": null,
         "spending_controls": {
-          "allowed_categories": ["automobile_associations"],
-          "allowed_merchant_countries": ["HInpIvV3qF"],
-          "blocked_categories": ["florists_supplies_nursery_stock_and_flowers"],
-          "blocked_merchant_countries": ["9XelumMeYb"],
+          "allowed_categories": ["motorcycle_shops_and_dealers"],
+          "allowed_merchant_countries": ["nQwdnKtReE"],
+          "blocked_categories": ["automated_fuel_dispensers"],
+          "blocked_merchant_countries": ["Hq4I3TkQ6e"],
           "spending_limits": [],
           "spending_limits_currency": null
         },
-        "status": "active",
+        "status": "inactive",
         "type": "physical",
         "wallets": {
-          "apple_pay": {
-            "eligible": true,
-            "ineligible_reason": null
-          },
+          "apple_pay": { "eligible": true, "ineligible_reason": null },
           "google_pay": {
             "eligible": false,
             "ineligible_reason": "missing_agreement"
           },
           "primary_account_identifier": null
         }
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

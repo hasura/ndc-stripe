@@ -5,11 +5,11 @@
       "type": "procedure",
       "name": "PostAccountsAccountReject",
       "arguments": {
-        "account": "ZkpednMQcx",
-        "expand": [
-          "A39K1I78Dt"
-        ],
-        "reason": "vBznJqIMbS"
+        "account": "kvQEDT1af3",
+        "body": {
+          "expand": ["pIxkWMPpcS"],
+          "reason": "mldpwqhpvE"
+        }
       },
       "fields": {
         "fields": {

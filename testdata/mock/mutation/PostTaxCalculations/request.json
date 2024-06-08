@@ -5,45 +5,57 @@
       "type": "procedure",
       "name": "PostTaxCalculations",
       "arguments": {
-        "currency": "h0leXfd4Rz",
-        "customer": "Lkceb8R7Kt",
-        "customer_details": {
-          "address": {
-            "city": null,
-            "country": "szG7hvySOG",
-            "line1": null,
-            "line2": null,
-            "postal_code": null,
-            "state": null
+        "body": {
+          "currency": "CYxUsAzz5k",
+          "customer": "M3E34bw4v7",
+          "customer_details": {
+            "address": {
+              "city": "zgs5RG5jwY",
+              "country": "OJBeC85AhJ",
+              "line1": "H4w1Jd3AfJ",
+              "line2": "irpCkepWO7",
+              "postal_code": "OFxngR2xw7",
+              "state": "nUtaPbTc9x"
+            },
+            "address_source": "billing",
+            "ip_address": "rVY94CfBjy",
+            "tax_ids": [
+              {
+                "type": "bo_tin",
+                "value": "p9Ab9sv0Yx"
+              }
+            ],
+            "taxability_override": "customer_exempt"
           },
-          "address_source": "shipping",
-          "ip_address": "Abx4fLH61X",
-          "tax_ids": [
+          "expand": ["Bw9wVmdC9o"],
+          "line_items": [
             {
-              "type": "is_vat",
-              "value": "2yuBWTL4Rw"
+              "amount": 1054159982,
+              "product": "3lSFFjk5sZ",
+              "quantity": 1570523163,
+              "reference": "TydrtBwLzv",
+              "tax_behavior": "inclusive",
+              "tax_code": "9DnmJchlxX"
             }
           ],
-          "taxability_override": "customer_exempt"
-        },
-        "expand": ["ZCQJKPIqiF"],
-        "line_items": [
-          {
-            "amount": 146818982,
-            "product": "5izq3rXhyy",
-            "quantity": 465026093,
-            "reference": "WueDd3Mtqf",
-            "tax_behavior": "inclusive",
-            "tax_code": "IEF1xOlDJ8"
-          }
-        ],
-        "shipping_cost": {
-          "amount": 450037637,
-          "shipping_rate": "9a7mQzqbPl",
-          "tax_behavior": "inclusive",
-          "tax_code": "keBcxbz03N"
-        },
-        "tax_date": 1032978067
+          "ship_from_details": {
+            "address": {
+              "city": "sJjSm2jA6d",
+              "country": "XSF43PzYeO",
+              "line1": "Flwm02i9AS",
+              "line2": "5dtt6WRDkV",
+              "postal_code": "CeWxNHQKm9",
+              "state": "eRBRQRBaxU"
+            }
+          },
+          "shipping_cost": {
+            "amount": 971513670,
+            "shipping_rate": "MGaYcMVZC8",
+            "tax_behavior": "exclusive",
+            "tax_code": "HR2Ole8FYB"
+          },
+          "tax_date": 1951426810
+        }
       },
       "fields": {
         "fields": {

@@ -2,21 +2,21 @@
   "operation_results": [
     {
       "result": {
-        "active": false,
-        "country": "pnMyKf4ie5",
+        "active": true,
+        "country": "ci0RI2jKot",
         "created": 1234567890,
-        "description": "AAPrxrudIw",
-        "display_name": "UyIC0HYmfS",
+        "description": "i00MwPdtZu",
+        "display_name": "4KonYHLNAh",
         "effective_percentage": null,
-        "inclusive": true,
-        "jurisdiction": "8PLzs3Jvpz",
+        "inclusive": false,
+        "jurisdiction": "p3384zvV4G",
         "jurisdiction_level": null,
         "livemode": false,
         "metadata": {},
         "object": "tax_rate",
-        "percentage": 1.959097,
-        "state": "qkRSk7lku0",
-        "tax_type": "sales_tax"
+        "percentage": 0.775443,
+        "state": "ja7hjUBBoj",
+        "tax_type": "communications_tax"
       },
       "type": "procedure"
     }

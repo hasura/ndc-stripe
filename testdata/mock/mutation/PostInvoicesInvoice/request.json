@@ -4,60 +4,143 @@
     {
       "type": "procedure",
       "name": "PostInvoicesInvoice",
+
       "arguments": {
-        "account_tax_ids": null,
-        "application_fee_amount": 976322665,
-        "auto_advance": false,
-        "automatic_tax": {
-          "enabled": true,
-          "liability": {
-            "account": "NbXofAW78Z",
-            "type": "self"
-          }
-        },
-        "collection_method": "charge_automatically",
-        "custom_fields": null,
-        "days_until_due": 2140088485,
-        "default_payment_method": "HFZwE3Zcbl",
-        "default_source": null,
-        "default_tax_rates": null,
-        "description": "sKia6Xdgg0",
-        "discounts": null,
-        "due_date": 1478625462,
-        "effective_at": null,
-        "expand": ["kEFpVFAgzn"],
-        "footer": "b9OZXDqfjU",
-        "invoice": "HWtcxcrpGf",
-        "issuer": {
-          "account": "saTwjwcxj7",
-          "type": "self"
-        },
-        "metadata": null,
-        "number": null,
-        "on_behalf_of": null,
-        "payment_settings": {
-          "default_mandate": null,
-          "payment_method_options": {
-            "acss_debit": null,
-            "bancontact": null,
-            "card": null,
-            "customer_balance": null,
-            "konbini": null,
-            "sepa_debit": null,
-            "us_bank_account": null
+        "body": {
+          "account_tax_ids": ["KD8J0T4GKL"],
+          "application_fee_amount": 2049281266,
+          "auto_advance": false,
+          "automatic_tax": {
+            "enabled": false,
+            "liability": {
+              "account": "nOQJ5ccDh8",
+              "type": "account"
+            }
           },
-          "payment_method_types": null
-        },
-        "rendering": {
-          "amount_tax_display": "",
-          "pdf": {
-            "page_size": "auto"
+          "collection_method": "send_invoice",
+          "custom_fields": [
+            {
+              "name": "hmkDVOIWMu",
+              "value": "UjM7hpzZwK"
+            }
+          ],
+          "days_until_due": 1679467941,
+          "default_payment_method": "5tNdpzrl36",
+          "default_source": "RmPrx9wKv3",
+          "default_tax_rates": ["gFSRuujq8Y"],
+          "description": "QBcDHcy6Qa",
+          "discounts": [
+            {
+              "coupon": "jY9RNdQo1Y",
+              "discount": "2fSd5rEAxM",
+              "promotion_code": "9MWQiORnPO"
+            }
+          ],
+          "due_date": 1820050018,
+          "effective_at": 1493038588,
+          "expand": ["74Nudrnw6N"],
+          "footer": "TdjjRI5AvA",
+          "issuer": {
+            "account": "VOQuDEVXqo",
+            "type": "account"
+          },
+          "metadata": null,
+          "number": "6pj9VThbeS",
+          "on_behalf_of": "dlWie3CPJe",
+          "payment_settings": {
+            "default_mandate": "Xlg0DLp45X",
+            "payment_method_options": {
+              "acss_debit": {
+                "mandate_options": {
+                  "transaction_type": "business"
+                },
+                "verification_method": "microdeposits"
+              },
+              "bancontact": {
+                "preferred_language": "de"
+              },
+              "card": {
+                "installments": {
+                  "enabled": false,
+                  "plan": {
+                    "count": 1124492057,
+                    "interval": "month",
+                    "type": "fixed_count"
+                  }
+                },
+                "request_three_d_secure": "challenge"
+              },
+              "customer_balance": {
+                "bank_transfer": {
+                  "eu_bank_transfer": {
+                    "country": "xy8Kui9atb"
+                  },
+                  "type": "DYS5OnQayV"
+                },
+                "funding_type": "1znydRaHpT"
+              },
+              "konbini": null,
+              "sepa_debit": null,
+              "us_bank_account": {
+                "financial_connections": {
+                  "permissions": ["payment_method"],
+                  "prefetch": ["ownership"]
+                },
+                "verification_method": "automatic"
+              }
+            },
+            "payment_method_types": ["ach_credit_transfer"]
+          },
+          "rendering": {
+            "amount_tax_display": "include_inclusive_tax",
+            "pdf": {
+              "page_size": "a4"
+            }
+          },
+          "shipping_cost": {
+            "shipping_rate": "1EKRdguUon",
+            "shipping_rate_data": {
+              "delivery_estimate": {
+                "maximum": {
+                  "unit": "hour",
+                  "value": 1311746211
+                },
+                "minimum": {
+                  "unit": "hour",
+                  "value": 312939612
+                }
+              },
+              "display_name": "62ujYEKO7c",
+              "fixed_amount": {
+                "amount": 1403266918,
+                "currency": "jE26GBj9DK",
+                "currency_options": null
+              },
+              "metadata": null,
+              "tax_behavior": "unspecified",
+              "tax_code": "aRsGM5v7WK",
+              "type": "fixed_amount"
+            }
+          },
+          "shipping_details": {
+            "address": {
+              "city": "fna6686yIZ",
+              "country": "ogl6NOOc4R",
+              "line1": "zkvGNkaFlc",
+              "line2": "FnCVG5aOKq",
+              "postal_code": "de7ARYxHKt",
+              "state": "RAq1YaDAfN"
+            },
+            "name": "d92WfKky4I",
+            "phone": "SJk9V6sc0I"
+          },
+          "statement_descriptor": "xZEviTX57l",
+          "transfer_data": {
+            "amount": 315465511,
+            "destination": "zt4eZwcNFn"
           }
         },
-        "shipping_cost": null,
-        "shipping_details": null,
-        "statement_descriptor": "IdlzUD9LTJ",
-        "transfer_data": null
+        "invoice": "ysXYqgeRYt"
       },
       "fields": {
         "fields": {

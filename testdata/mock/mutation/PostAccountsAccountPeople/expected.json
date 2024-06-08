@@ -2,17 +2,21 @@
   "operation_results": [
     {
       "result": {
-        "account": "vVDSeRxjwJ",
+        "account": "2wRQHZSnw5",
         "additional_tos_acceptances": {
-          "account": { "date": 8012, "ip": "qct35Hb43Q", "user_agent": null }
+          "account": {
+            "date": 357733549,
+            "ip": "7NXBLw2XqM",
+            "user_agent": "zNVyF5j88O"
+          }
         },
         "address": null,
         "address_kana": null,
         "address_kanji": null,
         "created": 1234567890,
-        "dob": { "day": null, "month": null, "year": null },
+        "dob": { "day": 2144860809, "month": 408809060, "year": 2069096385 },
         "email": null,
-        "first_name": "ctgudAGeDt",
+        "first_name": "64COqRPuuM",
         "first_name_kana": null,
         "first_name_kanji": null,
         "full_name_aliases": null,
@@ -27,7 +31,7 @@
         "gender": null,
         "id_number_provided": false,
         "id_number_secondary_provided": null,
-        "last_name": "EcUkxWgGKI",
+        "last_name": "aa6DDqA1Se",
         "last_name_kana": null,
         "last_name_kanji": null,
         "maiden_name": null,
@@ -39,12 +43,12 @@
         "registered_address": null,
         "relationship": {
           "director": true,
-          "executive": false,
+          "executive": true,
           "legal_guardian": false,
-          "owner": true,
-          "percent_ownership": null,
+          "owner": false,
+          "percent_ownership": 0.009567,
           "representative": true,
-          "title": "YUnvJ0wksV"
+          "title": "oGDRt3u4Vk"
         },
         "requirements": {
           "alternatives": [],
@@ -65,10 +69,10 @@
           "details": null,
           "details_code": null,
           "document": {
-            "back": "O2uwVn5Qcu",
+            "back": "mvVriMJOxA",
             "details": null,
             "details_code": null,
-            "front": "aKeZ2CQlwj"
+            "front": "nUeGh9Z6Ci"
           },
           "status": "unverified"
         }

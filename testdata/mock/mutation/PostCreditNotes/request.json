@@ -5,32 +5,40 @@
       "type": "procedure",
       "name": "PostCreditNotes",
       "arguments": {
-        "amount": 1900631518,
-        "credit_amount": 1432890813,
-        "effective_at": 554955196,
-        "expand": ["VtKh0xFYYB"],
-        "invoice": "IvVEXViVCX",
-        "lines": [
-          {
-            "amount": 170347162,
-            "description": "vJa7xzUybT",
-            "invoice_line_item": "dWXfcwZ3Ff",
-            "quantity": 1410261903,
-            "tax_amounts": null,
-            "tax_rates": null,
-            "type": "invoice_line_item",
-            "unit_amount": 107229684,
-            "unit_amount_decimal": "pPMPa4RAm8"
+        "body": {
+          "amount": 1717269065,
+          "credit_amount": 1458839015,
+          "effective_at": 2080019775,
+          "expand": ["C6DD1qX9Nl"],
+          "invoice": "BijgTxKru7",
+          "lines": [
+            {
+              "amount": 308351000,
+              "description": "hXEOMTWTLb",
+              "invoice_line_item": "kQT4CLsNk2",
+              "quantity": 1202389566,
+              "tax_amounts": [
+                {
+                  "amount": 2138154963,
+                  "tax_rate": "wtKQaiTsmw",
+                  "taxable_amount": 2009981542
+                }
+              ],
+              "tax_rates": ["81vlDY2Pfw"],
+              "type": "custom_line_item",
+              "unit_amount": 797662111,
+              "unit_amount_decimal": "3bPEsGXz3W"
+            }
+          ],
+          "memo": "mvghxC3tvb",
+          "metadata": null,
+          "out_of_band_amount": 1717779356,
+          "reason": "order_change",
+          "refund": "oZPXd7uWDJ",
+          "refund_amount": 395722968,
+          "shipping_cost": {
+            "shipping_rate": "DX9T2IgxJf"
           }
-        ],
-        "memo": "zRxb9cRliZ",
-        "metadata": null,
-        "out_of_band_amount": 1806805348,
-        "reason": "fraudulent",
-        "refund": "zsYTwNgYNq",
-        "refund_amount": 185086560,
-        "shipping_cost": {
-          "shipping_rate": "ICKhqAXV1Y"
         }
       },
       "fields": {

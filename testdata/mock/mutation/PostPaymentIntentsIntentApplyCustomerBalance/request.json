@@ -5,10 +5,12 @@
       "type": "procedure",
       "name": "PostPaymentIntentsIntentApplyCustomerBalance",
       "arguments": {
-        "amount": 1467389698,
-        "currency": "ob04yIEDo5",
-        "expand": ["p6Ce2u6LJu"],
-        "intent": "3bmI0cEyGP"
+        "body": {
+          "amount": 1503852306,
+          "currency": "5nAe9QA9L4",
+          "expand": ["shmagMUOET"]
+        },
+        "intent": "T25PE1DIKk"
       },
       "fields": {
         "fields": {

@@ -1,0 +1,15 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "active": true,
+        "livemode": true,
+        "lookup_key": "sSAzrF4xC2",
+        "metadata": { "undefined": "metadata" },
+        "name": "56YQggTBfk",
+        "object": "entitlements.feature"
+      },
+      "type": "procedure"
+    }
+  ]
+}

@@ -4,6 +4,7 @@
       {
         "__value": {
           "account_holder": {
+            "account": null,
             "customer": "cus_PEHTIoPSgT0tXQ",
             "type": "customer"
           },
@@ -11,6 +12,7 @@
             "data": [
               {
                 "account_holder": {
+                  "account": null,
                   "customer": "cus_PEHTIoPSgT0tXQ",
                   "type": "customer"
                 },

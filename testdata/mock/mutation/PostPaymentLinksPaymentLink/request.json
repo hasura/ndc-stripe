@@ -5,86 +5,137 @@
       "type": "procedure",
       "name": "PostPaymentLinksPaymentLink",
       "arguments": {
-        "active": false,
-        "after_completion": {
-          "hosted_confirmation": {
-            "custom_message": "sbl9atGV8m"
+        "body": {
+          "active": true,
+          "after_completion": {
+            "hosted_confirmation": {
+              "custom_message": "ZsuNPOu5cL"
+            },
+            "redirect": {
+              "url": "NLi8dGaHCY"
+            },
+            "type": "redirect"
           },
-          "redirect": {
-            "url": "x8NUTMSBYP"
-          },
-          "type": "hosted_confirmation"
-        },
-        "allow_promotion_codes": false,
-        "automatic_tax": {
-          "enabled": false,
-          "liability": {
-            "account": "JGopkAUFvc",
-            "type": "account"
-          }
-        },
-        "billing_address_collection": "required",
-        "custom_fields": null,
-        "custom_text": {
-          "after_submit": null,
-          "shipping_address": null,
-          "submit": null,
-          "terms_of_service_acceptance": null
-        },
-        "customer_creation": "if_required",
-        "expand": [
-          "AbupRWk3UR"
-        ],
-        "inactive_message": null,
-        "invoice_creation": {
-          "enabled": false,
-          "invoice_data": {
-            "account_tax_ids": null,
-            "custom_fields": null,
-            "description": "0Xw9OEWkr4",
-            "footer": "OM0RGV9UGW",
-            "issuer": {
-              "account": "8eb3BXSz6w",
+          "allow_promotion_codes": true,
+          "automatic_tax": {
+            "enabled": true,
+            "liability": {
+              "account": "IasqjdSZhf",
               "type": "account"
-            },
-            "metadata": null,
-            "rendering_options": null
-          }
-        },
-        "line_items": [
-          {
-            "adjustable_quantity": {
-              "enabled": false,
-              "maximum": 1366672412,
-              "minimum": 1125087401
-            },
-            "id": "c6dsEAvPRj",
-            "quantity": 1470239165
-          }
-        ],
-        "metadata": null,
-        "payment_intent_data": {
-          "description": null,
-          "metadata": null,
-          "statement_descriptor": null,
-          "statement_descriptor_suffix": null,
-          "transfer_group": null
-        },
-        "payment_link": "41jb7m2TfA",
-        "payment_method_collection": "if_required",
-        "payment_method_types": null,
-        "restrictions": null,
-        "shipping_address_collection": null,
-        "subscription_data": {
-          "invoice_settings": {
-            "issuer": {
-              "account": "RKLT5JvzHv",
-              "type": "self"
             }
           },
+          "billing_address_collection": "required",
+          "custom_fields": [
+            {
+              "dropdown": {
+                "options": [
+                  {
+                    "label": "P25LUmOrwV",
+                    "value": "6JIYf5TILZ"
+                  }
+                ]
+              },
+              "key": "c56a9L79Jv",
+              "label": {
+                "custom": "XL9WpV6faN",
+                "type": "custom"
+              },
+              "numeric": {
+                "maximum_length": 1314685894,
+                "minimum_length": 579357813
+              },
+              "optional": false,
+              "text": {
+                "maximum_length": 1832799530,
+                "minimum_length": 374404061
+              },
+              "type": "numeric"
+            }
+          ],
+          "custom_text": {
+            "after_submit": {
+              "message": "1HSm2lNJP8"
+            },
+            "shipping_address": {
+              "message": "DxAFXaK1xA"
+            },
+            "submit": {
+              "message": "Xw6o1AQCrz"
+            },
+            "terms_of_service_acceptance": {
+              "message": "V4VlNuSYqZ"
+            }
+          },
+          "customer_creation": "if_required",
+          "expand": ["eLp9Cn8DWM"],
+          "inactive_message": "d6iRQIxyGd",
+          "invoice_creation": {
+            "enabled": false,
+            "invoice_data": {
+              "account_tax_ids": ["s24bh5vpKf"],
+              "custom_fields": [
+                {
+                  "name": "Rl9Aj7If27",
+                  "value": "px9fOn3obp"
+                }
+              ],
+              "description": "PUgR1CcjTT",
+              "footer": "ClabVT4JPp",
+              "issuer": {
+                "account": "Ok2IbqOynz",
+                "type": "self"
+              },
+              "metadata": null,
+              "rendering_options": {
+                "amount_tax_display": "exclude_tax"
+              }
+            }
+          },
+          "line_items": [
+            {
+              "adjustable_quantity": {
+                "enabled": false,
+                "maximum": 347325326,
+                "minimum": 417211894
+              },
+              "id": "2y7I823ASD",
+              "quantity": 1660797548
+            }
+          ],
           "metadata": null,
-          "trial_settings": null
-        }
+          "payment_intent_data": {
+            "description": "VYyWFNkeZr",
+            "metadata": null,
+            "statement_descriptor": "gklTd3jGJV",
+            "statement_descriptor_suffix": "I0FiHM416Y",
+            "transfer_group": "et1ACaAt3w"
+          },
+          "payment_method_collection": "if_required",
+          "payment_method_types": ["cashapp"],
+          "restrictions": {
+            "completed_sessions": {
+              "limit": 1768599170
+            }
+          },
+          "shipping_address_collection": {
+            "allowed_countries": ["NP"]
+          },
+          "subscription_data": {
+            "invoice_settings": {
+              "issuer": {
+                "account": "Si8rTrk6ly",
+                "type": "account"
+              }
+            },
+            "metadata": null,
+            "trial_settings": {
+              "end_behavior": {
+                "missing_payment_method": "cancel"
+              }
+            }
+          }
+        },
+        "payment_link": "IDu02NpFC2"
       },
       "fields": {
         "fields": {

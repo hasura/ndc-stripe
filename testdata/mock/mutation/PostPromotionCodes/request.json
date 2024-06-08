@@ -5,19 +5,21 @@
       "type": "procedure",
       "name": "PostPromotionCodes",
       "arguments": {
-        "active": false,
-        "code": "OmxckdA8qj",
-        "coupon": "5ETkF2cpWV",
-        "customer": "uIsFFjp9CU",
-        "expand": ["HcaITkFax0"],
-        "expires_at": 209948022,
-        "max_redemptions": 1714547927,
-        "metadata": null,
-        "restrictions": {
-          "currency_options": null,
-          "first_time_transaction": false,
-          "minimum_amount": 1699766210,
-          "minimum_amount_currency": "m49P92SYud"
+        "body": {
+          "active": false,
+          "code": "Y2QmFnbMW2",
+          "coupon": "CGRT3gD6h7",
+          "customer": "8BnzwCHENR",
+          "expand": ["8Tcq6ENzHT"],
+          "expires_at": 294168187,
+          "max_redemptions": 1304524309,
+          "metadata": null,
+          "restrictions": {
+            "currency_options": null,
+            "first_time_transaction": true,
+            "minimum_amount": 218799189,
+            "minimum_amount_currency": "1B0ilEGgsR"
+          }
         }
       },
       "fields": {

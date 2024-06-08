@@ -4,11 +4,11 @@
       "result": {
         "created": 1234567890,
         "deleted": null,
-        "expires_at": 27956,
+        "expires_at": 761605873,
         "livemode": false,
-        "name": "cQN1yyuJg5",
+        "name": "ugPdxSJciY",
         "object": "apps.secret",
-        "payload": "QI7mcWMH9u",
+        "payload": "YKErIyPq76",
         "scope": { "type": "user", "user": null }
       },
       "type": "procedure"

@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostFinancialConnectionsAccountsAccountSubscribe",
       "arguments": {
-        "account": "4XKwM9SVCj",
-        "expand": ["balance"],
-        "features": ["transactions"]
+        "account": "5oFJzWnpGK",
+        "body": {
+          "expand": ["AvdbMGXs1C"],
+          "features": ["transactions"]
+        }
       },
       "fields": {
         "fields": {

@@ -5,63 +5,82 @@
       "type": "procedure",
       "name": "PostQuotes",
       "arguments": {
-        "application_fee_amount": null,
-        "application_fee_percent": null,
-        "automatic_tax": {
-          "enabled": true,
-          "liability": {
-            "account": "0MAr6BnVwh",
-            "type": "account"
-          }
-        },
-        "collection_method": "send_invoice",
-        "customer": "VStoxrndov",
-        "default_tax_rates": null,
-        "description": null,
-        "discounts": null,
-        "expand": ["PxloHUNP3X"],
-        "expires_at": 1579094307,
-        "footer": null,
-        "from_quote": {
-          "is_revision": true,
-          "quote": "sPK4J9uZDE"
-        },
-        "header": null,
-        "invoice_settings": {
-          "days_until_due": 674003666,
-          "issuer": {
-            "account": "P3m6nMQmEZ",
-            "type": "self"
-          }
-        },
-        "line_items": [
-          {
-            "price": "bxh8zpU9FE",
-            "price_data": {
-              "currency": "X695mwOadz",
-              "product": "Ny4mguD68N",
-              "recurring": {
-                "interval": "day",
-                "interval_count": 1816935627
+        "body": {
+          "application_fee_amount": 713450951,
+          "application_fee_percent": 1.156448490219482,
+          "automatic_tax": {
+            "enabled": false,
+            "liability": {
+              "account": "ReB8S9GXw7",
+              "type": "self"
+            }
+          },
+          "collection_method": "send_invoice",
+          "customer": "Q5qcj6es1R",
+          "default_tax_rates": ["z92GcnuuvT"],
+          "description": "kLC54Fqw4I",
+          "discounts": [
+            {
+              "coupon": "A9tyRPnL7t",
+              "discount": "UcIu8pwZIj",
+              "promotion_code": "UcFNhckfY9"
+            }
+          ],
+          "expand": ["PrwqUjicUz"],
+          "expires_at": 1462182928,
+          "footer": "Vq9UTWzfIc",
+          "from_quote": {
+            "is_revision": true,
+            "quote": "u3bMszm6M3"
+          },
+          "header": "VPePo5zYbN",
+          "invoice_settings": {
+            "days_until_due": 1931599111,
+            "issuer": {
+              "account": "S4vfcKvgCb",
+              "type": "self"
+            }
+          },
+          "line_items": [
+            {
+              "discounts": [
+                {
+                  "coupon": "ryekIPQlUU",
+                  "discount": "e0yZRvAo6N",
+                  "promotion_code": "Wf6etwnhnp"
+                }
+              ],
+              "price": "mtjhimDj0t",
+              "price_data": {
+                "currency": "4uNcBXvyNe",
+                "product": "GQrovnUYyk",
+                "recurring": {
+                  "interval": "day",
+                  "interval_count": 128190810
+                },
+                "tax_behavior": "inclusive",
+                "unit_amount": 1014353711,
+                "unit_amount_decimal": "L86jvR0YP5"
               },
-              "tax_behavior": "unspecified",
-              "unit_amount": 1826320929,
-              "unit_amount_decimal": "Fy8TioiVli"
-            },
-            "quantity": 286520425,
-            "tax_rates": null
-          }
-        ],
-        "metadata": null,
-        "on_behalf_of": null,
-        "subscription_data": {
-          "description": "Vz2T6CKyMu",
-          "effective_date": null,
+              "quantity": 847105815,
+              "tax_rates": ["62TVF86u4N"]
+            }
+          ],
           "metadata": null,
-          "trial_period_days": null
-        },
-        "test_clock": "i1W4zw1JB4",
-        "transfer_data": null
+          "on_behalf_of": "v8OrHpgEV4",
+          "subscription_data": {
+            "description": "F10WDpUVga",
+            "effective_date": null,
+            "metadata": null,
+            "trial_period_days": 1026814436
+          },
+          "test_clock": "WSBESFYLFd",
+          "transfer_data": {
+            "amount": 906978725,
+            "amount_percent": 0.9689221252699037,
+            "destination": "9QPCaQl7ez"
+          }
+        }
       },
       "fields": {
         "fields": {

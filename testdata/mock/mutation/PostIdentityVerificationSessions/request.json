@@ -5,14 +5,26 @@
       "type": "procedure",
       "name": "PostIdentityVerificationSessions",
       "arguments": {
-        "client_reference_id": "aNZ7P1VGU1",
-        "expand": ["B8I94Q8Few"],
-        "metadata": null,
-        "options": {
-          "document": null
-        },
-        "return_url": "9CQ0DXFUxe",
-        "type": "document"
+        "body": {
+          "client_reference_id": "sCBLzaaLDg",
+          "expand": ["570Tu8SnIa"],
+          "metadata": null,
+          "options": {
+            "document": {
+              "allowed_types": ["driving_license"],
+              "require_id_number": false,
+              "require_live_capture": false,
+              "require_matching_selfie": true
+            }
+          },
+          "provided_details": {
+            "email": "dGtowSukiz",
+            "phone": "ITGHjpFNGv"
+          },
+          "return_url": "XhNdPo94tK",
+          "type": "document",
+          "verification_flow": "RXHXXfDuRa"
+        }
       },
       "fields": {
         "fields": {

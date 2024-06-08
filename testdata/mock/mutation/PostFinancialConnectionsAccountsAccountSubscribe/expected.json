@@ -7,13 +7,7 @@
           "customer": "cus_PEHTIoPSgT0tXQ",
           "type": "customer"
         },
-        "balance": {
-          "as_of": 0,
-          "cash": null,
-          "credit": null,
-          "current": {},
-          "type": "cash"
-        },
+        "balance": null,
         "balance_refresh": null,
         "category": "cash",
         "created": 1234567890,

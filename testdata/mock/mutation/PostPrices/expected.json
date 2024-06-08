@@ -5,15 +5,15 @@
         "active": true,
         "billing_scheme": "per_unit",
         "created": 1234567890,
-        "currency": "QVw2HTkxuP",
+        "currency": "AOYns9le3q",
         "currency_options": null,
         "custom_unit_amount": null,
         "livemode": false,
-        "lookup_key": "8dZGYAriBZ",
+        "lookup_key": "JPRekVp6la",
         "metadata": {},
-        "nickname": "3s3T7VLwY1",
+        "nickname": "hfMcCXhTwX",
         "object": "price",
-        "product": "fMc3ej6e5U",
+        "product": "1a99WXByeM",
         "recurring": {
           "aggregate_usage": null,
           "interval": "month",
@@ -21,13 +21,13 @@
           "meter": null,
           "usage_type": "licensed"
         },
-        "tax_behavior": "unspecified",
+        "tax_behavior": "exclusive",
         "tiers": null,
-        "tiers_mode": null,
+        "tiers_mode": "graduated",
         "transform_quantity": null,
         "type": "recurring",
-        "unit_amount": 79470472,
-        "unit_amount_decimal": "eNn9SyfUuC"
+        "unit_amount": 146140120,
+        "unit_amount_decimal": "wT3cFshgjK"
       },
       "type": "procedure"
     }

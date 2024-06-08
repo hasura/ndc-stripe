@@ -2,9 +2,7 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": [
-        "6wVafi2Rj9"
-      ]
+      "value": ["6wVafi2Rj9"]
     },
     "location": {
       "type": "literal",
@@ -17,6 +15,64 @@
     "fields": {
       "__value": {
         "column": "__value",
+        "fields": {
+          "fields": {
+            "address": {
+              "column": "address",
+              "fields": {
+                "fields": {
+                  "city": {
+                    "column": "city",
+                    "type": "column"
+                  },
+                  "country": {
+                    "column": "country",
+                    "type": "column"
+                  },
+                  "line1": {
+                    "column": "line1",
+                    "type": "column"
+                  },
+                  "line2": {
+                    "column": "line2",
+                    "type": "column"
+                  },
+                  "postal_code": {
+                    "column": "postal_code",
+                    "type": "column"
+                  },
+                  "state": {
+                    "column": "state",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "configuration_overrides": {
+              "column": "configuration_overrides",
+              "type": "column"
+            },
+            "display_name": {
+              "column": "display_name",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
         "type": "column"
       }
     }

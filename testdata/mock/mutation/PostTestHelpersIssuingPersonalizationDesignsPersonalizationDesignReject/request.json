@@ -5,12 +5,14 @@
       "type": "procedure",
       "name": "PostTestHelpersIssuingPersonalizationDesignsPersonalizationDesignReject",
       "arguments": {
-        "expand": ["carrier_text"],
-        "personalization_design": "gGGHA7besB",
-        "rejection_reasons": {
-          "card_logo": ["network_name"],
-          "carrier_text": ["non_fiat_currency"]
-        }
+        "body": {
+          "expand": ["carrier_text"],
+          "rejection_reasons": {
+            "card_logo": ["geographic_location"],
+            "carrier_text": ["other_entity"]
+          }
+        },
+        "personalization_design": "rFjHEiEzBI"
       },
       "fields": {
         "fields": {

@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostFinancialConnectionsAccountsAccountRefresh",
       "arguments": {
-        "account": "Dii0uT3t2M",
-        "expand": ["cHSYHIqPK4"],
-        "features": ["transactions"]
+        "account": "QyEFwDRUjI",
+        "body": {
+          "expand": ["9q3JMiivxI"],
+          "features": ["balance"]
+        }
       },
       "fields": {
         "fields": {

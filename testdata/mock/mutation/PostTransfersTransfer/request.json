@@ -5,9 +5,12 @@
       "type": "procedure",
       "name": "PostTransfersTransfer",
       "arguments": {
-        "description": "mcVoXNTWh5",
-        "expand": [],
-        "transfer": "y4GQpClgnd"
+        "body": {
+          "description": "sZh38b8gn0",
+          "expand": ["reversals"],
+          "metadata": null
+        },
+        "transfer": "CysBCQHJF5"
       },
       "fields": {
         "fields": {

@@ -5,109 +5,143 @@
       "type": "procedure",
       "name": "PostSubscriptionSchedulesSchedule",
       "arguments": {
-        "default_settings": {
-          "application_fee_percent": 0.44388421791567495,
-          "automatic_tax": {
-            "enabled": false,
-            "liability": {
-              "account": "zGJtWwbZFk",
-              "type": "account"
-            }
-          },
-          "billing_cycle_anchor": "automatic",
-          "billing_thresholds": null,
-          "collection_method": "charge_automatically",
-          "default_payment_method": "63CTdsnYBp",
-          "description": null,
-          "invoice_settings": {
-            "account_tax_ids": null,
-            "days_until_due": 1575093966,
-            "issuer": {
-              "account": "O7vHVlC90l",
-              "type": "account"
-            }
-          },
-          "on_behalf_of": null,
-          "transfer_data": null
-        },
-        "end_behavior": "release",
-        "expand": ["8DBsDyMuLZ"],
-        "metadata": null,
-        "phases": [
-          {
-            "add_invoice_items": [
-              {
-                "price": "Brnx6F2SW3",
-                "price_data": {
-                  "currency": "KutyN1a7f7",
-                  "product": "TS7Fs9Hy8B",
-                  "tax_behavior": "exclusive",
-                  "unit_amount": 2120841752,
-                  "unit_amount_decimal": "GxHaMm19uk"
-                },
-                "quantity": 1365407829,
-                "tax_rates": null
-              }
-            ],
-            "application_fee_percent": 0.5578590779530731,
+        "body": {
+          "default_settings": {
+            "application_fee_percent": 1.4357013066051985,
             "automatic_tax": {
               "enabled": true,
               "liability": {
-                "account": "vgma2C8hRU",
+                "account": "stb7YnEwzG",
                 "type": "account"
               }
             },
-            "billing_cycle_anchor": "automatic",
-            "billing_thresholds": null,
+            "billing_cycle_anchor": "phase_start",
+            "billing_thresholds": {
+              "amount_gte": 1765165243,
+              "reset_billing_cycle_anchor": false
+            },
             "collection_method": "charge_automatically",
-            "coupon": "16L84UVStP",
-            "default_payment_method": "WGL7QqJOtQ",
-            "default_tax_rates": null,
-            "description": null,
-            "end_date": null,
+            "default_payment_method": "dOGJ6UMPct",
+            "description": "Vih3OzuWeG",
             "invoice_settings": {
-              "account_tax_ids": null,
-              "days_until_due": 1225898904,
+              "account_tax_ids": ["VV3WaB08e2"],
+              "days_until_due": 690645153,
               "issuer": {
-                "account": "HSIW02Nwbu",
+                "account": "WQHGm8tO00",
                 "type": "account"
               }
             },
-            "items": [
-              {
-                "billing_thresholds": null,
-                "metadata": null,
-                "price": "wsJvXbiSV8",
-                "price_data": {
-                  "currency": "Se3SC2fQcl",
-                  "product": "W9pqDICERA",
-                  "recurring": {
-                    "interval": "month",
-                    "interval_count": 97217333
-                  },
-                  "tax_behavior": "inclusive",
-                  "unit_amount": 1972558655,
-                  "unit_amount_decimal": "uu9JdD5mJ0"
-                },
-                "quantity": 1961565488,
-                "tax_rates": null
-              }
-            ],
-            "iterations": 1748902771,
-            "metadata": null,
-            "on_behalf_of": "1qZ6qu6tnN",
-            "proration_behavior": "none",
-            "start_date": null,
+            "on_behalf_of": "JZ0DJ7mg7Y",
             "transfer_data": {
-              "amount_percent": 1.8197681872261562,
-              "destination": "2PxD4N4KKK"
-            },
-            "trial": false,
-            "trial_end": null
-          }
-        ],
-        "proration_behavior": "always_invoice",
-        "schedule": "Y2iXR5rS9p"
+              "amount_percent": 0.4741355198560335,
+              "destination": "NTgJZ5wMow"
+            }
+          },
+          "end_behavior": "none",
+          "expand": ["8muarpidqz"],
+          "metadata": null,
+          "phases": [
+            {
+              "add_invoice_items": [
+                {
+                  "discounts": [
+                    {
+                      "coupon": "a52IBAfgs0",
+                      "discount": "MrcPMcw0QV",
+                      "promotion_code": "e6o6eNarHI"
+                    }
+                  ],
+                  "price": "EgpayihoDl",
+                  "price_data": {
+                    "currency": "yKJt7ZFVCs",
+                    "product": "jR56lpYV8P",
+                    "tax_behavior": "unspecified",
+                    "unit_amount": 1819379748,
+                    "unit_amount_decimal": "wz9xqL0Jo4"
+                  },
+                  "quantity": 1897015278,
+                  "tax_rates": ["JvGeHTNEVh"]
+                }
+              ],
+              "application_fee_percent": 1.1132047409395094,
+              "automatic_tax": {
+                "enabled": false,
+                "liability": {
+                  "account": "kktGAa32Vl",
+                  "type": "self"
+                }
+              },
+              "billing_cycle_anchor": "automatic",
+              "billing_thresholds": {
+                "amount_gte": 2076999592,
+                "reset_billing_cycle_anchor": true
+              },
+              "collection_method": "send_invoice",
+              "coupon": "5bQMb9moGv",
+              "default_payment_method": "rA6YDo7e0j",
+              "default_tax_rates": ["hUq6wolEfS"],
+              "description": "6ga5giaZDF",
+              "discounts": [
+                {
+                  "coupon": "A0Ty8sEaVU",
+                  "discount": "qmMLfIzwHw",
+                  "promotion_code": "Ig8gN5gMdT"
+                }
+              ],
+              "end_date": null,
+              "invoice_settings": {
+                "account_tax_ids": ["DlCT2RrpoF"],
+                "days_until_due": 630915416,
+                "issuer": {
+                  "account": "W4mirJDOHD",
+                  "type": "account"
+                }
+              },
+              "items": [
+                {
+                  "billing_thresholds": {
+                    "usage_gte": 1553909779
+                  },
+                  "discounts": [
+                    {
+                      "coupon": "KN8GKa5ifP",
+                      "discount": "PBCVfNSlpc",
+                      "promotion_code": "0PAEvqFdKQ"
+                    }
+                  ],
+                  "metadata": null,
+                  "price": "WVMSkl2qFF",
+                  "price_data": {
+                    "currency": "Ed7qtfaY9F",
+                    "product": "uucXlFBRAN",
+                    "recurring": {
+                      "interval": "day",
+                      "interval_count": 1390148477
+                    },
+                    "tax_behavior": "exclusive",
+                    "unit_amount": 382926222,
+                    "unit_amount_decimal": "ltCfeTXtub"
+                  },
+                  "quantity": 1042240039,
+                  "tax_rates": ["Zr8WMmZuxV"]
+                }
+              ],
+              "iterations": 2008259779,
+              "metadata": null,
+              "on_behalf_of": "osekUxyJAt",
+              "proration_behavior": "always_invoice",
+              "start_date": null,
+              "transfer_data": {
+                "amount_percent": 0.7980630889819349,
+                "destination": "2JbmzQ142Y"
+              },
+              "trial": false,
+              "trial_end": null
+            }
+          ],
+          "proration_behavior": "create_prorations"
+        },
+        "schedule": "05tGItdH94"
       },
       "fields": {
         "fields": {

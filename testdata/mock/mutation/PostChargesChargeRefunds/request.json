@@ -5,18 +5,20 @@
       "type": "procedure",
       "name": "PostChargesChargeRefunds",
       "arguments": {
-        "amount": 16444,
-        "charge": "LLhmzlbpIB",
-        "currency": "57FrwSyeWD",
-        "customer": "m8OZQgkTfa",
-        "expand": ["UvBdRHD4my"],
-        "instructions_email": "MvJBtt9KfM",
-        "metadata": null,
-        "origin": "customer_balance",
-        "payment_intent": "TZ7WPkjqbJ",
-        "reason": "requested_by_customer",
-        "refund_application_fee": true,
-        "reverse_transfer": true
+        "body": {
+          "amount": 1217430726,
+          "currency": "NefYPvllip",
+          "customer": "BoZNnwPG5i",
+          "expand": ["YLkRQa7qB7"],
+          "instructions_email": "oe2jo5a5vM",
+          "metadata": null,
+          "origin": "customer_balance",
+          "payment_intent": "9ymDW3X3P8",
+          "reason": "duplicate",
+          "refund_application_fee": true,
+          "reverse_transfer": true
+        },
+        "charge": "7eL7CsEsc3"
       },
       "fields": {
         "fields": {

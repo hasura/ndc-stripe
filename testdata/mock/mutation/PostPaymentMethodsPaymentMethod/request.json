@@ -5,28 +5,37 @@
       "type": "procedure",
       "name": "PostPaymentMethodsPaymentMethod",
       "arguments": {
-        "billing_details": {
-          "address": null,
-          "email": null,
-          "name": null,
-          "phone": null
-        },
-        "card": {
-          "exp_month": 931967596,
-          "exp_year": 723058953,
-          "networks": {
-            "preferred": "visa"
+        "body": {
+          "allow_redisplay": "always",
+          "billing_details": {
+            "address": {
+              "city": "yFg8MJ4VAJ",
+              "country": "2Xa1tN20K0",
+              "line1": "fasqWxSMrx",
+              "line2": "1qxpI6qG1k",
+              "postal_code": "thi7IRWZ23",
+              "state": "ZS8DrjbK5x"
+            },
+            "email": "tafzQsNS1m",
+            "name": "i2QwiQutJY",
+            "phone": "hKZx0TaRrV"
+          },
+          "card": {
+            "exp_month": 1903520488,
+            "exp_year": 1153484715,
+            "networks": {
+              "preferred": "mastercard"
+            }
+          },
+          "expand": ["Y1W3BCCsW4"],
+          "link": null,
+          "metadata": null,
+          "us_bank_account": {
+            "account_holder_type": "individual",
+            "account_type": "savings"
           }
         },
-        "expand": [
-          "EMWhuNNATG"
-        ],
-        "metadata": null,
-        "payment_method": "PODI3Jh0Wu",
-        "us_bank_account": {
-          "account_holder_type": "company",
-          "account_type": "checking"
-        }
+        "payment_method": "QcxY4vOD4g"
       },
       "fields": {
         "fields": {

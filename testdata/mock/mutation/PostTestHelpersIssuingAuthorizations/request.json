@@ -5,44 +5,46 @@
       "type": "procedure",
       "name": "PostTestHelpersIssuingAuthorizations",
       "arguments": {
-        "amount": 1553576839,
-        "amount_details": {
-          "atm_fee": 1514892879,
-          "cashback_amount": 1715723150
-        },
-        "authorization_method": "online",
-        "card": "03uyzTiuKW",
-        "currency": "AFGxKxB928",
-        "expand": ["sZIUIIwWnW"],
-        "is_amount_controllable": true,
-        "merchant_data": {
-          "category": "car_and_truck_dealers_used_only",
-          "city": "9a4PR4FE5z",
-          "country": "ajcPZKHACc",
-          "name": "qnigPCPqmv",
-          "network_id": "aoBEdHpvhW",
-          "postal_code": "0svDhNbpfq",
-          "state": "khoR8E4Nwf",
-          "terminal_id": "qQjqjQiNzX",
-          "url": "SGzNUVni89"
-        },
-        "network_data": {
-          "acquiring_institution_id": "xvl7yVpQhj"
-        },
-        "verification_data": {
-          "address_line1_check": "not_provided",
-          "address_postal_code_check": "mismatch",
-          "authentication_exemption": {
-            "claimed_by": "issuer",
-            "type": "transaction_risk_analysis"
+        "body": {
+          "amount": 128797864,
+          "amount_details": {
+            "atm_fee": 70934439,
+            "cashback_amount": 1790338599
           },
-          "cvc_check": "not_provided",
-          "expiry_check": "not_provided",
-          "three_d_secure": {
-            "result": "attempt_acknowledged"
-          }
-        },
-        "wallet": "google_pay"
+          "authorization_method": "chip",
+          "card": "7u1hRBzBrS",
+          "currency": "wFYOwqcQTs",
+          "expand": ["2dI3yP93dd"],
+          "is_amount_controllable": false,
+          "merchant_data": {
+            "category": "wig_and_toupee_stores",
+            "city": "pJd06a5Cyr",
+            "country": "Sgotttv9An",
+            "name": "97oeXH2z5O",
+            "network_id": "K1J317wCE7",
+            "postal_code": "jm8tnmxrxb",
+            "state": "6LrtJz9Djk",
+            "terminal_id": "A407mAaYHT",
+            "url": "nnV8IKyPtw"
+          },
+          "network_data": {
+            "acquiring_institution_id": "KICWeazphO"
+          },
+          "verification_data": {
+            "address_line1_check": "not_provided",
+            "address_postal_code_check": "not_provided",
+            "authentication_exemption": {
+              "claimed_by": "acquirer",
+              "type": "unknown"
+            },
+            "cvc_check": "not_provided",
+            "expiry_check": "not_provided",
+            "three_d_secure": {
+              "result": "required"
+            }
+          },
+          "wallet": "apple_pay"
+        }
       },
       "fields": {
         "fields": {

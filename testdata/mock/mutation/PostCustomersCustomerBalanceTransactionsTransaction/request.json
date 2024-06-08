@@ -5,13 +5,13 @@
       "type": "procedure",
       "name": "PostCustomersCustomerBalanceTransactionsTransaction",
       "arguments": {
-        "customer": "8e9Fx9PVRo",
-        "description": "7LaEhRPZed",
-        "expand": [
-          "XK7VWZPXRf"
-        ],
-        "metadata": null,
-        "transaction": "ZimmUGtVLv"
+        "body": {
+          "description": "aPu2cGCIJq",
+          "expand": ["IJcqt7hRmK"],
+          "metadata": null
+        },
+        "customer": "VgNLQfCREl",
+        "transaction": "60laFDpVIU"
       },
       "fields": {
         "fields": {

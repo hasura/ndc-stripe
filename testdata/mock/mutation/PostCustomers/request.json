@@ -5,45 +5,72 @@
       "type": "procedure",
       "name": "PostCustomers",
       "arguments": {
-        "address": null,
-        "balance": 342392976,
-        "cash_balance": {
-          "settings": {
-            "reconciliation_mode": "manual"
-          }
-        },
-        "coupon": "SRd8R0pVGe",
-        "description": "phHBv2b7mK",
-        "email": "2awMQSb6cU",
-        "expand": ["pZ0s05HSGY"],
-        "invoice_prefix": "nWo6ulehWT",
-        "invoice_settings": {
-          "custom_fields": null,
-          "default_payment_method": "Cvv9SKoKLi",
-          "footer": "Jj8dMr3F9E",
-          "rendering_options": null
-        },
-        "metadata": null,
-        "name": "2OrdxWPzR3",
-        "next_invoice_sequence": 1982425254,
-        "payment_method": "TiYejKf8Jl",
-        "phone": "is75ZHtuPb",
-        "preferred_locales": ["OfdLiD6Gac"],
-        "promotion_code": "fUFl1eNrOg",
-        "shipping": null,
-        "source": "ADrWkOInLJ",
-        "tax": {
-          "ip_address": null,
-          "validate_location": "immediately"
-        },
-        "tax_exempt": "none",
-        "tax_id_data": [
-          {
-            "type": "jp_cn",
-            "value": "N8pVTHQqRG"
-          }
-        ],
-        "test_clock": "G1O4ggYprh"
+        "body": {
+          "address": {
+            "city": "t18sRBRJwd",
+            "country": "9JJs4w4djv",
+            "line1": "dHdLqUjJDZ",
+            "line2": "Vild4V01pL",
+            "postal_code": "sJQ25WX6nN",
+            "state": "BRQ3qWHKlG"
+          },
+          "balance": 775543402,
+          "cash_balance": {
+            "settings": {
+              "reconciliation_mode": "manual"
+            }
+          },
+          "coupon": "lGok7POp2b",
+          "description": "A08ne39SoL",
+          "email": "iFJYvEGLas",
+          "expand": ["BvxYktYX4e"],
+          "invoice_prefix": "RvZjba1uzF",
+          "invoice_settings": {
+            "custom_fields": [
+              {
+                "name": "Xse2dVVwZG",
+                "value": "iH1eJJz5ZA"
+              }
+            ],
+            "default_payment_method": "T39Zc3xghm",
+            "footer": "OHRG7PJiwY",
+            "rendering_options": {
+              "amount_tax_display": "include_inclusive_tax"
+            }
+          },
+          "metadata": null,
+          "name": "TtGqijV8kf",
+          "next_invoice_sequence": 1232549417,
+          "payment_method": "jp5lUoMzAj",
+          "phone": "jg1BIWwWK3",
+          "preferred_locales": ["RdlUdNqQti"],
+          "promotion_code": "vicmoX0JQx",
+          "shipping": {
+            "address": {
+              "city": "uoK2fpFLgo",
+              "country": "CXdCndNZ1K",
+              "line1": "169u8crK6p",
+              "line2": "DFs1iJmkuO",
+              "postal_code": "PMwvr1N8Fd",
+              "state": "is1W5rGs4K"
+            },
+            "name": "grAKnmngAP",
+            "phone": "pwBS0rTIHv"
+          },
+          "source": "FRg11nUBux",
+          "tax": {
+            "ip_address": "RcDosGCdbK",
+            "validate_location": "immediately"
+          },
+          "tax_exempt": "",
+          "tax_id_data": [
+            {
+              "type": "ve_rif",
+              "value": "U5jzdXa5Jf"
+            }
+          ],
+          "test_clock": "TirmU14YyX"
+        }
       },
       "fields": {
         "fields": {

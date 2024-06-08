@@ -34,7 +34,6 @@
                   "mode": "at_period_end",
                   "proration_behavior": "none"
                 },
-                "subscription_pause": null,
                 "subscription_update": {
                   "default_allowed_updates": [],
                   "enabled": false,

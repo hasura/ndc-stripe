@@ -5,18 +5,20 @@
       "type": "procedure",
       "name": "PostTerminalLocations",
       "arguments": {
-        "address": {
-          "city": "win9j7b8On",
-          "country": "1ntgDcBToU",
-          "line1": "97pd7CZOVH",
-          "line2": "lLUucnZwYR",
-          "postal_code": "gUUFXNXyw5",
-          "state": "dvRoZcYIWe"
-        },
-        "configuration_overrides": "9YcugmHqVp",
-        "display_name": "YIKC9rSZ99",
-        "expand": ["8vgr93rcaZ"],
-        "metadata": null
+        "body": {
+          "address": {
+            "city": "SalAQWtLeb",
+            "country": "Ih0BVgjuqC",
+            "line1": "0BSnxFJRuH",
+            "line2": "sDOfAz1w37",
+            "postal_code": "IqmzOk8IXC",
+            "state": "MqNQrPTFSy"
+          },
+          "configuration_overrides": "ISiJhVDleI",
+          "display_name": "9TGmRZOYzd",
+          "expand": ["Yi7QMUkGJ8"],
+          "metadata": null
+        }
       },
       "fields": {
         "fields": {

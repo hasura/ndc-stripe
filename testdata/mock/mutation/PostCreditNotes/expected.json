@@ -2,7 +2,7 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1900631518,
+        "amount": 1717269065,
         "amount_shipping": 0,
         "created": 1234567890,
         "currency": "usd",
@@ -10,8 +10,8 @@
         "customer_balance_transaction": null,
         "discount_amount": 0,
         "discount_amounts": [],
-        "effective_at": 554955196,
-        "invoice": "IvVEXViVCX",
+        "effective_at": 2080019775,
+        "invoice": "BijgTxKru7",
         "lines": {
           "data": [
             {
@@ -37,14 +37,14 @@
           "object": "list"
         },
         "livemode": false,
-        "memo": "zRxb9cRliZ",
+        "memo": "mvghxC3tvb",
         "metadata": {},
         "number": "ABCD-1234-CN-01",
         "object": "credit_note",
-        "out_of_band_amount": 1806805348,
+        "out_of_band_amount": 1717779356,
         "pdf": "https://pakrym-manage-mydev.dev.stripe.me/credit_notes/acct_1OPouMJN5vQBdWEx/cnst_123456789/pdf?s=ap",
-        "reason": "fraudulent",
-        "refund": "zsYTwNgYNq",
+        "reason": "order_change",
+        "refund": "oZPXd7uWDJ",
         "shipping_cost": null,
         "status": "issued",
         "subtotal": 1690,

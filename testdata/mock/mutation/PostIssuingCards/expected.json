@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "brand": "Visa",
         "cancellation_reason": null,
@@ -27,10 +26,7 @@
           "object": "issuing.cardholder",
           "phone_number": "+18008675309",
           "preferred_locales": ["en"],
-          "requirements": {
-            "disabled_reason": null,
-            "past_due": []
-          },
+          "requirements": { "disabled_reason": null, "past_due": [] },
           "spending_controls": {
             "allowed_categories": [],
             "allowed_merchant_countries": null,
@@ -43,7 +39,7 @@
           "type": "individual"
         },
         "created": 1234567890,
-        "currency": "bsGdOTHWuk",
+        "currency": "cfcevuVyGS",
         "cvc": null,
         "exp_month": 8,
         "exp_year": 2024,
@@ -55,33 +51,29 @@
         "object": "issuing.card",
         "personalization_design": null,
         "replaced_by": null,
-        "replacement_for": "UKTC43qS3c",
+        "replacement_for": "QvABEOqvgj",
         "replacement_reason": "damaged",
         "shipping": null,
         "spending_controls": {
-          "allowed_categories": ["manual_cash_disburse"],
-          "allowed_merchant_countries": ["zZ3fPfwpWu"],
-          "blocked_categories": [
-            "fireplace_fireplace_screens_and_accessories_stores"
-          ],
-          "blocked_merchant_countries": ["PNNhrZAETH"],
+          "allowed_categories": ["car_washes"],
+          "allowed_merchant_countries": ["Fcnr3i19c6"],
+          "blocked_categories": ["car_and_truck_dealers_new_used"],
+          "blocked_merchant_countries": ["TrNwyQnytz"],
           "spending_limits": [],
           "spending_limits_currency": null
         },
         "status": "active",
         "type": "virtual",
         "wallets": {
-          "apple_pay": {
-            "eligible": true,
-            "ineligible_reason": null
-          },
+          "apple_pay": { "eligible": true, "ineligible_reason": null },
           "google_pay": {
             "eligible": false,
             "ineligible_reason": "missing_agreement"
           },
           "primary_account_identifier": null
         }
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

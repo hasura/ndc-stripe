@@ -5,182 +5,204 @@
       "type": "procedure",
       "name": "PostPaymentMethodConfigurations",
       "arguments": {
-        "acss_debit": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "affirm": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "afterpay_clearpay": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "alipay": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "apple_pay": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "apple_pay_later": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "au_becs_debit": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "bacs_debit": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "bancontact": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "blik": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "boleto": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "card": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "cartes_bancaires": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "cashapp": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "customer_balance": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "eps": {
-          "display_preference": {
-            "preference": "none"
-          }
-        },
-        "expand": ["EYi6eSEH1i"],
-        "fpx": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "giropay": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "google_pay": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "grabpay": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "ideal": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "jcb": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "klarna": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "konbini": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "link": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "name": "awpKyvT2oc",
-        "oxxo": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "p24": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "parent": "bjFS85bJ7G",
-        "paynow": {
-          "display_preference": {
-            "preference": "off"
-          }
-        },
-        "paypal": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "promptpay": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "revolut_pay": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "sepa_debit": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "sofort": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "us_bank_account": {
-          "display_preference": {
-            "preference": "on"
-          }
-        },
-        "wechat_pay": {
-          "display_preference": {
-            "preference": "off"
+        "body": {
+          "acss_debit": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "affirm": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "afterpay_clearpay": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "alipay": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "amazon_pay": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "apple_pay": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "apple_pay_later": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "au_becs_debit": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "bacs_debit": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "bancontact": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "blik": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "boleto": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "card": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "cartes_bancaires": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "cashapp": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "customer_balance": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "eps": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "expand": ["ma19wGh5Vs"],
+          "fpx": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "giropay": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "google_pay": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "grabpay": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "ideal": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "jcb": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "klarna": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "konbini": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "link": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "mobilepay": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "name": "G71N8xvnY9",
+          "oxxo": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "p24": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "parent": "OsCQsMpVy3",
+          "paynow": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "paypal": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "promptpay": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "revolut_pay": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "sepa_debit": {
+            "display_preference": {
+              "preference": "off"
+            }
+          },
+          "sofort": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "swish": {
+            "display_preference": {
+              "preference": "on"
+            }
+          },
+          "us_bank_account": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "wechat_pay": {
+            "display_preference": {
+              "preference": "none"
+            }
+          },
+          "zip": {
+            "display_preference": {
+              "preference": "none"
+            }
           }
         }
       },

@@ -5,16 +5,18 @@
       "type": "procedure",
       "name": "PostPaymentIntentsIntentIncrementAuthorization",
       "arguments": {
-        "amount": 536490284,
-        "application_fee_amount": 632568941,
-        "description": "TF4x1RupyU",
-        "expand": ["F5kjerl2DT"],
-        "intent": "0sw0jBhn6Y",
-        "metadata": null,
-        "statement_descriptor": "pLDBSRtoPH",
-        "transfer_data": {
-          "amount": 972693937
-        }
+        "body": {
+          "amount": 1908815064,
+          "application_fee_amount": 1255648272,
+          "description": "P2VOtS674b",
+          "expand": ["2LVhHHQt8u"],
+          "metadata": null,
+          "statement_descriptor": "6ohtJzgnpf",
+          "transfer_data": {
+            "amount": 1814764663
+          }
+        },
+        "intent": "PsrwJkZDwL"
       },
       "fields": {
         "fields": {

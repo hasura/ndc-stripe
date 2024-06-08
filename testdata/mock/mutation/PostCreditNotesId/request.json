@@ -5,12 +5,12 @@
       "type": "procedure",
       "name": "PostCreditNotesId",
       "arguments": {
-        "expand": [
-          "Ys4ihFuXNl"
-        ],
-        "id": "T8Y7OXd6eT",
-        "memo": "5IpcFjqbTA",
-        "metadata": null
+        "body": {
+          "expand": ["fskxWxlFLX"],
+          "memo": "pi8bSzwAUF",
+          "metadata": null
+        },
+        "id": "7aBiRPlFJj"
       },
       "fields": {
         "fields": {

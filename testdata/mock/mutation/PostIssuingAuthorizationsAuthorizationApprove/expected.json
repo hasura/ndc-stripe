@@ -2,7 +2,7 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1152469636,
+        "amount": 181530061,
         "amount_details": { "atm_fee": null, "cashback_amount": null },
         "approved": true,
         "authorization_method": "keyed_in",
@@ -83,7 +83,7 @@
         "cardholder": null,
         "created": 1234567890,
         "currency": "usd",
-        "id": "wpkikqDQqM",
+        "id": "nURH3bQMKr",
         "livemode": false,
         "merchant_amount": 0,
         "merchant_currency": "usd",

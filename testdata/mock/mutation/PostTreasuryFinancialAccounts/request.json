@@ -4,50 +4,54 @@
     {
       "type": "procedure",
       "name": "PostTreasuryFinancialAccounts",
+
       "arguments": {
-        "features": {
-          "card_issuing": {
-            "requested": true
-          },
-          "deposit_insurance": {
-            "requested": false
-          },
-          "financial_addresses": {
-            "aba": {
-              "requested": false
-            }
-          },
-          "inbound_transfers": {
-            "ach": {
-              "requested": true
-            }
-          },
-          "intra_stripe_flows": {
-            "requested": true
-          },
-          "outbound_payments": {
-            "ach": {
+        "body": {
+          "expand": ["0cv2AeAyRI"],
+          "features": {
+            "card_issuing": {
               "requested": false
             },
-            "us_domestic_wire": {
-              "requested": false
-            }
-          },
-          "outbound_transfers": {
-            "ach": {
+            "deposit_insurance": {
+              "requested": true
+            },
+            "financial_addresses": {
+              "aba": {
+                "requested": true
+              }
+            },
+            "inbound_transfers": {
+              "ach": {
+                "requested": true
+              }
+            },
+            "intra_stripe_flows": {
               "requested": false
             },
-            "us_domestic_wire": {
-              "requested": true
+            "outbound_payments": {
+              "ach": {
+                "requested": true
+              },
+              "us_domestic_wire": {
+                "requested": true
+              }
+            },
+            "outbound_transfers": {
+              "ach": {
+                "requested": true
+              },
+              "us_domestic_wire": {
+                "requested": true
+              }
             }
-          }
-        },
-        "metadata": null,
-        "platform_restrictions": {
-          "inbound_flows": "unrestricted",
-          "outbound_flows": "restricted"
-        },
-        "supported_currencies": ["J7gEFzU1mI"]
+          },
+          "metadata": null,
+          "platform_restrictions": {
+            "inbound_flows": "unrestricted",
+            "outbound_flows": "unrestricted"
+          },
+          "supported_currencies": ["0NeCORssGC"]
+        }
       },
       "fields": {
         "fields": {

@@ -5,15 +5,15 @@
       "type": "procedure",
       "name": "PostPromotionCodesPromotionCode",
       "arguments": {
-        "active": true,
-        "expand": [
-          "4lMyrLeaeg"
-        ],
-        "metadata": null,
-        "promotion_code": "1UjkQN3iPH",
-        "restrictions": {
-          "currency_options": null
-        }
+        "body": {
+          "active": false,
+          "expand": ["KNopOSDHSm"],
+          "metadata": null,
+          "restrictions": {
+            "currency_options": null
+          }
+        },
+        "promotion_code": "SuPGMW6xX2"
       },
       "fields": {
         "fields": {

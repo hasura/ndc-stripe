@@ -2,11 +2,11 @@
   "operation_results": [
     {
       "result": {
-        "amount": 16444,
+        "amount": 1217430726,
         "balance_transaction": null,
-        "charge": "LLhmzlbpIB",
+        "charge": "7eL7CsEsc3",
         "created": 1234567890,
-        "currency": "57FrwSyeWD",
+        "currency": "NefYPvllip",
         "description": null,
         "destination_details": {
           "affirm": null,
@@ -50,8 +50,8 @@
         "metadata": {},
         "next_action": null,
         "object": "refund",
-        "payment_intent": "TZ7WPkjqbJ",
-        "reason": "requested_by_customer",
+        "payment_intent": "9ymDW3X3P8",
+        "reason": "duplicate",
         "receipt_number": null,
         "source_transfer_reversal": null,
         "status": "succeeded",

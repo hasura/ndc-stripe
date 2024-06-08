@@ -5,16 +5,18 @@
       "type": "procedure",
       "name": "PostTaxRatesTaxRate",
       "arguments": {
-        "active": true,
-        "country": "nY1neYdrfg",
-        "description": "AGHCOqKBf5",
-        "display_name": "Ibau6SxkTc",
-        "expand": [],
-        "jurisdiction": "m85DUGBJ1Q",
-        "metadata": null,
-        "state": "X7L5JxM1dr",
-        "tax_rate": "Y8S1rYkpvT",
-        "tax_type": "pst"
+        "body": {
+          "active": true,
+          "country": "bH6wWx29Db",
+          "description": "ico4XyCKCr",
+          "display_name": "QiKv7U9OXn",
+          "expand": [],
+          "jurisdiction": "EveDi5NGhO",
+          "metadata": null,
+          "state": "Po6Thao87y",
+          "tax_type": "rst"
+        },
+        "tax_rate": "NdoB8cBkt7"
       },
       "fields": {
         "fields": {

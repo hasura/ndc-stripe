@@ -5,250 +5,273 @@
       "type": "procedure",
       "name": "PostTaxRegistrations",
       "arguments": {
-        "active_from": "now",
-        "country": "xvPu1Ws6kl",
-        "country_options": {
-          "ae": {
-            "type": "standard"
-          },
-          "at": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+        "body": {
+          "active_from": "now",
+          "country": "X5aez7mcoA",
+          "country_options": {
+            "ae": {
+              "type": "standard"
             },
-            "type": "oss_non_union"
-          },
-          "au": {
-            "type": "standard"
-          },
-          "be": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "at": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "standard"
             },
-            "type": "oss_non_union"
-          },
-          "bg": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "au": {
+              "type": "standard"
             },
-            "type": "standard"
-          },
-          "ca": {
-            "province_standard": {
-              "province": "h907MEw5Cb"
+            "be": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "oss_non_union"
             },
-            "type": "simplified"
-          },
-          "ch": {
-            "type": "standard"
-          },
-          "cl": {
-            "type": "simplified"
-          },
-          "co": {
-            "type": "simplified"
-          },
-          "cy": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "bg": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "standard"
             },
-            "type": "oss_union"
-          },
-          "cz": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "bh": {
+              "type": "standard"
             },
-            "type": "ioss"
-          },
-          "de": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "ca": {
+              "province_standard": {
+                "province": "hTXJVp43Ik"
+              },
+              "type": "standard"
             },
-            "type": "ioss"
-          },
-          "dk": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "ch": {
+              "type": "standard"
             },
-            "type": "ioss"
-          },
-          "ee": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "cl": {
+              "type": "simplified"
             },
-            "type": "standard"
-          },
-          "es": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "co": {
+              "type": "simplified"
             },
-            "type": "oss_non_union"
-          },
-          "fi": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "cy": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "oss_union"
             },
-            "type": "ioss"
-          },
-          "fr": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "cz": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "standard"
             },
-            "type": "oss_non_union"
-          },
-          "gb": {
-            "type": "standard"
-          },
-          "gr": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "de": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "ioss"
             },
-            "type": "oss_union"
-          },
-          "hr": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "dk": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "ioss"
             },
-            "type": "standard"
-          },
-          "hu": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "ee": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "standard"
             },
-            "type": "oss_union"
-          },
-          "id": {
-            "type": "simplified"
-          },
-          "ie": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "eg": {
+              "type": "simplified"
             },
-            "type": "oss_union"
-          },
-          "is": {
-            "type": "standard"
-          },
-          "it": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "es": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "oss_union"
             },
-            "type": "oss_union"
-          },
-          "jp": {
-            "type": "standard"
-          },
-          "kr": {
-            "type": "simplified"
-          },
-          "lt": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "fi": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "oss_union"
             },
-            "type": "oss_non_union"
-          },
-          "lu": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "fr": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "oss_non_union"
             },
-            "type": "standard"
-          },
-          "lv": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "gb": {
+              "type": "standard"
             },
-            "type": "standard"
-          },
-          "mt": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "ge": {
+              "type": "simplified"
             },
-            "type": "standard"
-          },
-          "mx": {
-            "type": "simplified"
-          },
-          "my": {
-            "type": "simplified"
-          },
-          "nl": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "gr": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "ioss"
             },
-            "type": "ioss"
-          },
-          "no": {
-            "type": "standard"
-          },
-          "nz": {
-            "type": "standard"
-          },
-          "pl": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "hr": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "ioss"
             },
-            "type": "standard"
-          },
-          "pt": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "hu": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "standard"
             },
-            "type": "standard"
-          },
-          "ro": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "id": {
+              "type": "simplified"
             },
-            "type": "standard"
-          },
-          "sa": {
-            "type": "simplified"
-          },
-          "se": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "ie": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "oss_non_union"
             },
-            "type": "oss_union"
-          },
-          "sg": {
-            "type": "standard"
-          },
-          "si": {
-            "standard": {
-              "place_of_supply_scheme": "small_seller"
+            "is": {
+              "type": "standard"
             },
-            "type": "ioss"
-          },
-          "sk": {
-            "standard": {
-              "place_of_supply_scheme": "standard"
+            "it": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "ioss"
             },
-            "type": "oss_non_union"
-          },
-          "th": {
-            "type": "simplified"
-          },
-          "tr": {
-            "type": "simplified"
-          },
-          "us": {
-            "local_amusement_tax": {
-              "jurisdiction": "bAsPl7wTcU"
+            "jp": {
+              "type": "standard"
             },
-            "local_lease_tax": {
-              "jurisdiction": "DADh4UByUG"
+            "ke": {
+              "type": "simplified"
             },
-            "state": "NrU1ODxzMN",
-            "type": "state_sales_tax"
+            "kr": {
+              "type": "simplified"
+            },
+            "kz": {
+              "type": "simplified"
+            },
+            "lt": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "ioss"
+            },
+            "lu": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "ioss"
+            },
+            "lv": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "ioss"
+            },
+            "mt": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "oss_union"
+            },
+            "mx": {
+              "type": "simplified"
+            },
+            "my": {
+              "type": "simplified"
+            },
+            "ng": {
+              "type": "simplified"
+            },
+            "nl": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "oss_non_union"
+            },
+            "no": {
+              "type": "standard"
+            },
+            "nz": {
+              "type": "standard"
+            },
+            "om": {
+              "type": "standard"
+            },
+            "pl": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "oss_non_union"
+            },
+            "pt": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "oss_non_union"
+            },
+            "ro": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "oss_non_union"
+            },
+            "sa": {
+              "type": "simplified"
+            },
+            "se": {
+              "standard": {
+                "place_of_supply_scheme": "standard"
+              },
+              "type": "ioss"
+            },
+            "sg": {
+              "type": "standard"
+            },
+            "si": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "standard"
+            },
+            "sk": {
+              "standard": {
+                "place_of_supply_scheme": "small_seller"
+              },
+              "type": "oss_union"
+            },
+            "th": {
+              "type": "simplified"
+            },
+            "tr": {
+              "type": "simplified"
+            },
+            "us": {
+              "local_amusement_tax": {
+                "jurisdiction": "28KiVwYV79"
+              },
+              "local_lease_tax": {
+                "jurisdiction": "F01Tx1IzsY"
+              },
+              "state": "dbR1qpRfVo",
+              "type": "state_sales_tax"
+            },
+            "vn": {
+              "type": "simplified"
+            },
+            "za": {
+              "type": "standard"
+            }
           },
-          "vn": {
-            "type": "simplified"
-          },
-          "za": {
-            "type": "standard"
-          }
-        },
-        "expand": ["RXQj0gX9Pv"],
-        "expires_at": 1194566953
+          "expand": ["country_options"],
+          "expires_at": 2042971317
+        }
       },
       "fields": {
         "fields": {

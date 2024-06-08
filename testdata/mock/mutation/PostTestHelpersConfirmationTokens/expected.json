@@ -1,0 +1,84 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1234567890,
+        "expires_at": 1234567890,
+        "livemode": true,
+        "mandate_data": null,
+        "object": "confirmation_token",
+        "payment_intent": null,
+        "payment_method_preview": {
+          "acss_debit": null,
+          "affirm": null,
+          "afterpay_clearpay": null,
+          "alipay": null,
+          "allow_redisplay": null,
+          "amazon_pay": null,
+          "au_becs_debit": null,
+          "bacs_debit": null,
+          "bancontact": null,
+          "billing_details": {
+            "address": {
+              "city": "San Francisco",
+              "country": "US",
+              "line1": "1234 Fake Street",
+              "line2": null,
+              "postal_code": "94102",
+              "state": "CA"
+            },
+            "email": null,
+            "name": "Jane Austen",
+            "phone": null
+          },
+          "blik": null,
+          "boleto": null,
+          "card": null,
+          "card_present": null,
+          "cashapp": null,
+          "customer_balance": null,
+          "eps": null,
+          "fpx": null,
+          "giropay": null,
+          "grabpay": null,
+          "ideal": null,
+          "interac_present": null,
+          "klarna": null,
+          "konbini": null,
+          "link": null,
+          "mobilepay": null,
+          "oxxo": null,
+          "p24": null,
+          "paynow": null,
+          "paypal": null,
+          "pix": null,
+          "promptpay": null,
+          "revolut_pay": null,
+          "sepa_debit": null,
+          "sofort": null,
+          "swish": null,
+          "type": "card",
+          "us_bank_account": {
+            "account_holder_type": "company",
+            "account_type": "checking",
+            "bank_name": "STRIPE TEST BANK",
+            "financial_connections_account": null,
+            "fingerprint": "6wfQAEPlPmv9GKyV",
+            "last4": "6789",
+            "networks": { "preferred": "ach", "supported": ["ach"] },
+            "routing_number": "110000000",
+            "status_details": { "blocked": null }
+          },
+          "wechat_pay": null,
+          "zip": null
+        },
+        "return_url": "ElIdWjmhlr",
+        "setup_future_usage": "off_session",
+        "setup_intent": null,
+        "shipping": null,
+        "use_stripe_sdk": true
+      },
+      "type": "procedure"
+    }
+  ]
+}

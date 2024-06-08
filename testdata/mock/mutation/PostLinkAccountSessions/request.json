@@ -5,18 +5,20 @@
       "type": "procedure",
       "name": "PostLinkAccountSessions",
       "arguments": {
-        "account_holder": {
-          "account": "4fEYmJV580",
-          "customer": "wKXvWeFRa9",
-          "type": "account"
-        },
-        "expand": ["JBoqWffxl9"],
-        "filters": {
-          "countries": ["ch7MDuoGMc"]
-        },
-        "permissions": ["ownership"],
-        "prefetch": ["ownership"],
-        "return_url": "FcHxpsFcxU"
+        "body": {
+          "account_holder": {
+            "account": "2FbUjnkOsW",
+            "customer": "WezWUpOEBY",
+            "type": "account"
+          },
+          "expand": ["Wthym7p658"],
+          "filters": {
+            "countries": ["03PLExz3Mn"]
+          },
+          "permissions": ["transactions"],
+          "prefetch": ["transactions"],
+          "return_url": "4IzewnkNul"
+        }
       },
       "fields": {
         "fields": {

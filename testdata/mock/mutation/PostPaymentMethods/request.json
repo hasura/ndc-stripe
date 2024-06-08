@@ -5,68 +5,110 @@
       "type": "procedure",
       "name": "PostPaymentMethods",
       "arguments": {
-        "acss_debit": {
-          "account_number": "2fFTzyjCKm",
-          "institution_number": "SEoxS9lNCl",
-          "transit_number": "CqcdLypbR6"
-        },
-        "au_becs_debit": {
-          "account_number": "lTMKaSzFRy",
-          "bsb_number": "Y9E5k2Iybk"
-        },
-        "bacs_debit": {
-          "account_number": "StgGdFdlZV",
-          "sort_code": "flbE7SgIFA"
-        },
-        "billing_details": {
-          "address": null,
-          "email": null,
-          "name": null,
-          "phone": null
-        },
-        "boleto": {
-          "tax_id": "idKWxEr2tM"
-        },
-        "card": null,
-        "customer": "PRB6Nlgcgi",
-        "eps": {
-          "bank": "bawag_psk_ag"
-        },
-        "expand": ["hH5PWWe3Ig"],
-        "fpx": {
-          "bank": "alliance_bank"
-        },
-        "ideal": {
-          "bank": "yoursafe"
-        },
-        "klarna": {
-          "dob": {
-            "day": 1483977025,
-            "month": 1593886711,
-            "year": 333716421
-          }
-        },
-        "metadata": null,
-        "p24": {
-          "bank": "mbank_mtransfer"
-        },
-        "payment_method": "WPtqOIaFGH",
-        "radar_options": {
-          "session": "fextxmFNxS"
-        },
-        "sepa_debit": {
-          "iban": "yPfNkYAr9V"
-        },
-        "sofort": {
-          "country": "NL"
-        },
-        "type": "giropay",
-        "us_bank_account": {
-          "account_holder_type": "company",
-          "account_number": "xwq95pmqbh",
-          "account_type": "savings",
-          "financial_connections_account": "dxkOtQBUVH",
-          "routing_number": "bQ7ZEn7CnB"
+        "body": {
+          "acss_debit": {
+            "account_number": "BRABWaPohE",
+            "institution_number": "eia4k1N9So",
+            "transit_number": "sX1MSNnv6Q"
+          },
+          "affirm": null,
+          "afterpay_clearpay": null,
+          "alipay": null,
+          "allow_redisplay": "limited",
+          "amazon_pay": null,
+          "au_becs_debit": {
+            "account_number": "RRd0JNZ4q8",
+            "bsb_number": "3o4pW3Novk"
+          },
+          "bacs_debit": {
+            "account_number": "GroyKXk6NA",
+            "sort_code": "BJFAlzzrVs"
+          },
+          "bancontact": null,
+          "billing_details": {
+            "address": {
+              "city": "mGAVcShadq",
+              "country": "266hAUpvyh",
+              "line1": "KSdcgYWPD9",
+              "line2": "QPcJ4P593j",
+              "postal_code": "JT1ju6mISM",
+              "state": "Li2M6C58h9"
+            },
+            "email": "ursQNIMDSb",
+            "name": "fMZ3PcZxHs",
+            "phone": "TqEnOsJQtt"
+          },
+          "blik": null,
+          "boleto": {
+            "tax_id": "13WNii4Izm"
+          },
+          "card": {
+            "cvc": "xcYTMd66Vu",
+            "exp_month": 970650170,
+            "exp_year": 1728044604,
+            "networks": {
+              "preferred": "visa"
+            },
+            "number": "KjkCBhHNn7",
+            "token": "lookH1DBR4"
+          },
+          "cashapp": null,
+          "customer": "9Tw4KDWjia",
+          "customer_balance": null,
+          "eps": {
+            "bank": "brull_kallmus_bank_ag"
+          },
+          "expand": ["iJxuA6WljZ"],
+          "fpx": {
+            "bank": "maybank2u"
+          },
+          "giropay": null,
+          "grabpay": null,
+          "ideal": {
+            "bank": "moneyou"
+          },
+          "interac_present": null,
+          "klarna": {
+            "dob": {
+              "day": 1389704617,
+              "month": 2031256919,
+              "year": 1668526013
+            }
+          },
+          "konbini": null,
+          "link": null,
+          "metadata": null,
+          "mobilepay": null,
+          "oxxo": null,
+          "p24": {
+            "bank": "volkswagen_bank"
+          },
+          "payment_method": "EFf0vRZ6FP",
+          "paynow": null,
+          "paypal": null,
+          "pix": null,
+          "promptpay": null,
+          "radar_options": {
+            "session": "min7bVmA89"
+          },
+          "revolut_pay": null,
+          "sepa_debit": {
+            "iban": "zigsm5IgHU"
+          },
+          "sofort": {
+            "country": "DE"
+          },
+          "swish": null,
+          "type": "p24",
+          "us_bank_account": {
+            "account_holder_type": "individual",
+            "account_number": "2DdrDa3UII",
+            "account_type": "checking",
+            "financial_connections_account": "mAq3RqLmzc",
+            "routing_number": "m36eZRmmLu"
+          },
+          "wechat_pay": null,
+          "zip": null
         }
       },
       "fields": {
@@ -110,6 +152,14 @@
           },
           "alipay": {
             "column": "alipay",
+            "type": "column"
+          },
+          "allow_redisplay": {
+            "column": "allow_redisplay",
+            "type": "column"
+          },
+          "amazon_pay": {
+            "column": "amazon_pay",
             "type": "column"
           },
           "au_becs_debit": {
@@ -369,6 +419,10 @@
                                   },
                                   "overcapture_supported": {
                                     "column": "overcapture_supported",
+                                    "type": "column"
+                                  },
+                                  "preferred_locales": {
+                                    "column": "preferred_locales",
                                     "type": "column"
                                   },
                                   "read_method": {
@@ -736,6 +790,10 @@
                     },
                     "type": "object"
                   },
+                  "type": "column"
+                },
+                "preferred_locales": {
+                  "column": "preferred_locales",
                   "type": "column"
                 },
                 "read_method": {

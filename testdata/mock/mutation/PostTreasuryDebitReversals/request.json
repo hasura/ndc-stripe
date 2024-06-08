@@ -5,7 +5,11 @@
       "type": "procedure",
       "name": "PostTreasuryDebitReversals",
       "arguments": {
-        "received_debit": "qk7FXfevWr"
+        "body": {
+          "expand": ["linked_flows"],
+          "metadata": null,
+          "received_debit": "KgpQaYsqfr"
+        }
       },
       "fields": {
         "fields": {

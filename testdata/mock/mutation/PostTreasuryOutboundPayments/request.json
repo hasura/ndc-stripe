@@ -5,40 +5,51 @@
       "type": "procedure",
       "name": "PostTreasuryOutboundPayments",
       "arguments": {
-        "amount": 1282253659,
-        "currency": "yjN5YA0xv3",
-        "customer": "6Bt3kOuPv4",
-        "description": "2HKLUFAuFm",
-        "destination_payment_method": "cqbpKpsBLF",
-        "destination_payment_method_data": {
-          "billing_details": {
-            "address": null,
-            "email": null,
-            "name": null,
-            "phone": null
+        "body": {
+          "amount": 568518177,
+          "currency": "GDpW9s37XT",
+          "customer": "VcZhBQpZiI",
+          "description": "CSI7Wl3OnC",
+          "destination_payment_method": "nT7qTJulsw",
+          "destination_payment_method_data": {
+            "billing_details": {
+              "address": {
+                "city": "EV0RSFeCRp",
+                "country": "8mlm9A4Hc6",
+                "line1": "7rkLm2o9ib",
+                "line2": "fjdSCNb8kf",
+                "postal_code": "JYe0u3Pjz6",
+                "state": "BRZxw6Pmj2"
+              },
+              "email": "Yvc0uKKIjU",
+              "name": "qGKT66G8Kt",
+              "phone": "02KLXXFCfH"
+            },
+            "financial_account": "207iB7cj3e",
+            "metadata": null,
+            "type": "financial_account",
+            "us_bank_account": {
+              "account_holder_type": "company",
+              "account_number": "tXtVz8xZHe",
+              "account_type": "savings",
+              "financial_connections_account": "tsmgi0noRj",
+              "routing_number": "VwbB8j0UN8"
+            }
           },
-          "financial_account": "fY0Rz7FYND",
+          "destination_payment_method_options": {
+            "us_bank_account": {
+              "network": "us_domestic_wire"
+            }
+          },
+          "end_user_details": {
+            "ip_address": "kLcK2R7wAe",
+            "present": false
+          },
+          "expand": ["kmMOkgio96"],
+          "financial_account": "3c5Mt4h2Ur",
           "metadata": null,
-          "type": "financial_account",
-          "us_bank_account": {
-            "account_holder_type": "individual",
-            "account_number": "eSbg9HvnYZ",
-            "account_type": "checking",
-            "financial_connections_account": "2jrvXfVU4Z",
-            "routing_number": "y1uVkBmXoJ"
-          }
-        },
-        "destination_payment_method_options": {
-          "us_bank_account": null
-        },
-        "end_user_details": {
-          "ip_address": "LQGXCF5W2U",
-          "present": true
-        },
-        "expand": ["hhw2Uyf9q0"],
-        "financial_account": "n6w2eiQwBm",
-        "metadata": null,
-        "statement_descriptor": "XgWdPdfSKK"
+          "statement_descriptor": "AZS5tRYw5P"
+        }
       },
       "fields": {
         "fields": {

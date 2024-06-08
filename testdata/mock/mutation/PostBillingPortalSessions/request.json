@@ -4,53 +4,56 @@
     {
       "type": "procedure",
       "name": "PostBillingPortalSessions",
+
       "arguments": {
-        "configuration": "nvNhPydGGA",
-        "customer": "ntu47NQUW6",
-        "expand": ["DT8QRk9CO3"],
-        "flow_data": {
-          "after_completion": {
-            "hosted_confirmation": {
-              "custom_message": "YErgSApu5Y"
-            },
-            "redirect": {
-              "return_url": "tXtfUt9FYz"
-            },
-            "type": "hosted_confirmation"
-          },
-          "subscription_cancel": {
-            "retention": {
-              "coupon_offer": {
-                "coupon": "3vePgP9U6M"
+        "body": {
+          "configuration": "j6KwEJJWSc",
+          "customer": "M87odAW4od",
+          "expand": ["F26TREL93i"],
+          "flow_data": {
+            "after_completion": {
+              "hosted_confirmation": {
+                "custom_message": "IOmfhXxUix"
               },
-              "type": "coupon_offer"
+              "redirect": {
+                "return_url": "8ujLDq9tga"
+              },
+              "type": "portal_homepage"
             },
-            "subscription": "GJM9MUyTvA"
+            "subscription_cancel": {
+              "retention": {
+                "coupon_offer": {
+                  "coupon": "tfs8GURsyB"
+                },
+                "type": "coupon_offer"
+              },
+              "subscription": "OIsbGNb5tH"
+            },
+            "subscription_update": {
+              "subscription": "QGtmgPjzfn"
+            },
+            "subscription_update_confirm": {
+              "discounts": [
+                {
+                  "coupon": "IeFIUOJJTK",
+                  "promotion_code": "qp7zzGLCa0"
+                }
+              ],
+              "items": [
+                {
+                  "id": "tLT3qm338C",
+                  "price": "hV8cdP4Kax",
+                  "quantity": 194294776
+                }
+              ],
+              "subscription": "ZGl4AYgaFz"
+            },
+            "type": "subscription_cancel"
           },
-          "subscription_update": {
-            "subscription": "AWAJVByUvP"
-          },
-          "subscription_update_confirm": {
-            "discounts": [
-              {
-                "coupon": "qCkKT4yK2Y",
-                "promotion_code": "ArD1uwExIq"
-              }
-            ],
-            "items": [
-              {
-                "id": "L5fG4jrr4O",
-                "price": "DLZOiZfIAm",
-                "quantity": 13380
-              }
-            ],
-            "subscription": "Wh6Aj0eqDa"
-          },
-          "type": "subscription_update_confirm"
-        },
-        "locale": "pl",
-        "on_behalf_of": "motfbd6rdA",
-        "return_url": "Jkf1gz1M8L"
+          "locale": "ja",
+          "on_behalf_of": "JiAjT6QHT3",
+          "return_url": "lOmM5PaNT7"
+        }
       },
       "fields": {
         "fields": {

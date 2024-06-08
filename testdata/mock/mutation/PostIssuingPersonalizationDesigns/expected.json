@@ -2,16 +2,16 @@
   "operation_results": [
     {
       "result": {
-        "card_logo": "QUZ3e480cP",
+        "card_logo": "7Wne5SpQ6y",
         "carrier_text": null,
         "created": 1234567890,
         "livemode": false,
-        "lookup_key": "6UNoMTKF99",
+        "lookup_key": "frGDfL55Rl",
         "metadata": {},
-        "name": "0ms36syNES",
+        "name": "pwayElVHIM",
         "object": "issuing.personalization_design",
-        "physical_bundle": "si3Ly8RlSB",
-        "preferences": { "is_default": false, "is_platform_default": null },
+        "physical_bundle": "DifbYtmU2O",
+        "preferences": { "is_default": true, "is_platform_default": null },
         "rejection_reasons": { "card_logo": [], "carrier_text": [] },
         "status": "review"
       },

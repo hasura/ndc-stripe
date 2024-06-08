@@ -5,8 +5,8 @@
         "adjusted_for_overdraft": null,
         "applied_to_payment": null,
         "created": 1234567890,
-        "currency": "xfxqUmG3NN",
-        "customer": "G3MSUENqan",
+        "currency": "D007nTCwBv",
+        "customer": "aovion2v3d",
         "ending_balance": 10000,
         "funded": {
           "bank_transfer": {

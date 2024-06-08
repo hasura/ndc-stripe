@@ -13,8 +13,8 @@
           "customer": "cus_PjUutxjlduca42",
           "type": "customer"
         },
-        "type": "rs_pib",
-        "value": "czHxh3Qt0T",
+        "type": "bg_uic",
+        "value": "PllVT0Nhhy",
         "verification": {
           "status": "pending",
           "verified_address": null,

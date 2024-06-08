@@ -61,8 +61,10 @@
           "failure_balance_transaction": null,
           "failure_code": null,
           "failure_message": null,
-          "fraud_details": {},
-          "id": "LuB05EYauF",
+          "fraud_details": {
+            "stripe_report": null,
+            "user_report": null
+          },
           "invoice": null,
           "livemode": false,
           "metadata": {},
@@ -73,9 +75,22 @@
           "payment_intent": null,
           "payment_method": "card_1OPoudJN5vQBdWExSTD9mIPF",
           "payment_method_details": {
+            "ach_credit_transfer": null,
+            "ach_debit": null,
+            "acss_debit": null,
+            "affirm": null,
+            "afterpay_clearpay": null,
+            "alipay": null,
+            "amazon_pay": null,
+            "au_becs_debit": null,
+            "bacs_debit": null,
+            "bancontact": null,
+            "blik": null,
+            "boleto": null,
             "card": {
               "amount_authorized": null,
               "brand": "visa",
+              "capture_before": null,
               "checks": {
                 "address_line1_check": null,
                 "address_postal_code_check": null,
@@ -84,16 +99,24 @@
               "country": "US",
               "exp_month": 8,
               "exp_year": 2024,
-              "extended_authorization": { "status": "disabled" },
+              "extended_authorization": {
+                "status": "disabled"
+              },
               "fingerprint": "r40d4vOgg3VecDJF",
               "funding": "credit",
-              "incremental_authorization": { "status": "unavailable" },
+              "incremental_authorization": {
+                "status": "unavailable"
+              },
               "installments": null,
               "last4": "4242",
               "mandate": null,
-              "multicapture": { "status": "unavailable" },
+              "multicapture": {
+                "status": "unavailable"
+              },
               "network": "visa",
-              "network_token": { "used": false },
+              "network_token": {
+                "used": false
+              },
               "overcapture": {
                 "maximum_amount_capturable": 100,
                 "status": "unavailable"
@@ -101,7 +124,36 @@
               "three_d_secure": null,
               "wallet": null
             },
-            "type": "card"
+            "card_present": null,
+            "cashapp": null,
+            "customer_balance": null,
+            "eps": null,
+            "fpx": null,
+            "giropay": null,
+            "grabpay": null,
+            "ideal": null,
+            "interac_present": null,
+            "klarna": null,
+            "konbini": null,
+            "link": null,
+            "mobilepay": null,
+            "multibanco": null,
+            "oxxo": null,
+            "p24": null,
+            "paynow": null,
+            "paypal": null,
+            "pix": null,
+            "promptpay": null,
+            "revolut_pay": null,
+            "sepa_debit": null,
+            "sofort": null,
+            "stripe_account": null,
+            "swish": null,
+            "type": "card",
+            "us_bank_account": null,
+            "wechat": null,
+            "wechat_pay": null,
+            "zip": null
           },
           "radar_options": null,
           "receipt_email": null,
@@ -121,6 +173,7 @@
                   "affirm": null,
                   "afterpay_clearpay": null,
                   "alipay": null,
+                  "amazon_pay": null,
                   "au_bank_transfer": null,
                   "blik": null,
                   "br_bank_transfer": null,
@@ -155,7 +208,6 @@
                 },
                 "failure_balance_transaction": null,
                 "failure_reason": null,
-                "id": "re_1OPoujJN5vQBdWExUGBANu1j",
                 "instructions_email": null,
                 "metadata": {},
                 "next_action": null,
@@ -169,8 +221,7 @@
               }
             ],
             "has_more": false,
-            "object": "list",
-            "url": "/v1/charges/LuB05EYauF/refunds"
+            "object": "list"
           },
           "review": null,
           "shipping": null,

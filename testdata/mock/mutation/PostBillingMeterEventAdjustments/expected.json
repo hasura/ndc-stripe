@@ -1,0 +1,15 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "cancel": null,
+        "event_name": "lOcBwwqJ9k",
+        "livemode": false,
+        "object": "billing.meter_event_adjustment",
+        "status": "complete",
+        "type": "cancel"
+      },
+      "type": "procedure"
+    }
+  ]
+}

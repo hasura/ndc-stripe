@@ -5,14 +5,16 @@
       "type": "procedure",
       "name": "PostTaxIds",
       "arguments": {
-        "expand": ["vIlend59mN"],
-        "owner": {
-          "account": "XYbaSr1LQx",
-          "customer": "jtcXnQ1LBK",
-          "type": "application"
-        },
-        "type": "rs_pib",
-        "value": "czHxh3Qt0T"
+        "body": {
+          "expand": ["7fNCibmD1o"],
+          "owner": {
+            "account": "HunKVzrffQ",
+            "customer": "EYe4jQX2le",
+            "type": "account"
+          },
+          "type": "bg_uic",
+          "value": "PllVT0Nhhy"
+        }
       },
       "fields": {
         "fields": {

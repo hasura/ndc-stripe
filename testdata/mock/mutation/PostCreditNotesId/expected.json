@@ -11,7 +11,7 @@
         "discount_amount": 0,
         "discount_amounts": [],
         "effective_at": 1234567890,
-        "id": "T8Y7OXd6eT",
+        "id": "7aBiRPlFJj",
         "invoice": "in_1OPouvJN5vQBdWExRyU1EhWP",
         "lines": {
           "data": [
@@ -36,10 +36,10 @@
           ],
           "has_more": false,
           "object": "list",
-          "url": "/v1/credit_notes/T8Y7OXd6eT/lines"
+          "url": "/v1/credit_notes/7aBiRPlFJj/lines"
         },
         "livemode": false,
-        "memo": "5IpcFjqbTA",
+        "memo": "pi8bSzwAUF",
         "metadata": {},
         "number": "ABCD-1234-CN-01",
         "object": "credit_note",

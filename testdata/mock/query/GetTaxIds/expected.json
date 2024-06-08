@@ -8,10 +8,14 @@
               "country": "DE",
               "created": 1234567890,
               "customer": "cus_PEHTIoPSgT0tXQ",
-              "id": "txi_1OPouvJN5vQBdWExlr1piCRz",
               "livemode": false,
               "object": "tax_id",
-              "owner": { "customer": "cus_PjUutxjlduca42", "type": "customer" },
+              "owner": {
+                "account": null,
+                "application": null,
+                "customer": "cus_PjUutxjlduca42",
+                "type": "customer"
+              },
               "type": "eu_vat",
               "value": "DE123456789",
               "verification": {

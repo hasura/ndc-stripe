@@ -5,21 +5,23 @@
       "type": "procedure",
       "name": "PostTerminalReadersReaderSetReaderDisplay",
       "arguments": {
-        "cart": {
-          "currency": "zrVW8fgP5o",
-          "line_items": [
-            {
-              "amount": 1025289059,
-              "description": "tMeMHxX1oy",
-              "quantity": 812070047
-            }
-          ],
-          "tax": 1752399825,
-          "total": 1927950075
+        "body": {
+          "cart": {
+            "currency": "i1re5mA7t3",
+            "line_items": [
+              {
+                "amount": 1967385128,
+                "description": "DTvKEjyjZI",
+                "quantity": 1375595913
+              }
+            ],
+            "tax": 1634676426,
+            "total": 1892910897
+          },
+          "expand": ["jaQa5Za9eA"],
+          "type": "cart"
         },
-        "expand": ["IFQYQK7uo3"],
-        "reader": "ZZKCmwd4js",
-        "type": "cart"
+        "reader": "cOLxXITpZV"
       },
       "fields": {
         "fields": {

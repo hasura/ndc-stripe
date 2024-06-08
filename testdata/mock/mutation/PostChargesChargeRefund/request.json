@@ -5,15 +5,17 @@
       "type": "procedure",
       "name": "PostChargesChargeRefund",
       "arguments": {
-        "amount": 563,
-        "charge": "rY2URG48ZL",
-        "expand": ["billing_details"],
-        "instructions_email": "HcnK6UfsYY",
-        "metadata": null,
-        "payment_intent": "SDgyBYlfra",
-        "reason": "requested_by_customer",
-        "refund_application_fee": false,
-        "reverse_transfer": true
+        "body": {
+          "amount": 1312562450,
+          "expand": ["mPXKJhBKbm"],
+          "instructions_email": "xB2MYNPDse",
+          "metadata": null,
+          "payment_intent": "qGb5uf6yh7",
+          "reason": "requested_by_customer",
+          "refund_application_fee": false,
+          "reverse_transfer": false
+        },
+        "charge": "uAgaeZQ1Fs"
       },
       "fields": {
         "fields": {

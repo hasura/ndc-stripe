@@ -1,0 +1,22 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "entitlement_feature": {
+            "active": true,
+            "livemode": true,
+            "lookup_key": "lookup_key",
+            "metadata": {
+              "undefined": "metadata"
+            },
+            "name": "name",
+            "object": "entitlements.feature"
+          },
+          "livemode": true,
+          "object": "product_feature"
+        }
+      }
+    ]
+  }
+]

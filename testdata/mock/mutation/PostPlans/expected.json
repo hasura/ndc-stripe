@@ -2,26 +2,26 @@
   "operation_results": [
     {
       "result": {
-        "active": true,
-        "aggregate_usage": "max",
-        "amount": 1433120566,
-        "amount_decimal": "uiPRfsiH2E",
+        "active": false,
+        "aggregate_usage": "last_during_period",
+        "amount": 1165391114,
+        "amount_decimal": "VL0f5axcC2",
         "billing_scheme": "per_unit",
         "created": 1234567890,
-        "currency": "yYG8D8YEjT",
+        "currency": "IAl1RHXjHa",
         "interval": "week",
-        "interval_count": 1141607703,
+        "interval_count": 756044873,
         "livemode": false,
         "metadata": {},
         "meter": null,
-        "nickname": null,
+        "nickname": "ZzGMYZiqAl",
         "object": "plan",
         "product": "prod_PEHTfnvdJH6K0k",
         "tiers": null,
-        "tiers_mode": null,
+        "tiers_mode": "volume",
         "transform_usage": null,
-        "trial_period_days": null,
-        "usage_type": "licensed"
+        "trial_period_days": 1205967936,
+        "usage_type": "metered"
       },
       "type": "procedure"
     }

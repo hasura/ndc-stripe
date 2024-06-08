@@ -5,21 +5,21 @@
       "type": "procedure",
       "name": "PostTaxSettings",
       "arguments": {
-        "defaults": {
-          "tax_behavior": "inferred_by_currency",
-          "tax_code": "qOZzLkzrdI"
-        },
-        "expand": [
-          "awQxX7MOUX"
-        ],
-        "head_office": {
-          "address": {
-            "city": "GrBiysEbqQ",
-            "country": "FIWksrBJjN",
-            "line1": "RoA6bhCp4D",
-            "line2": "5clzWRvIbA",
-            "postal_code": "8KsXiUQXLs",
-            "state": "73uTME2tDe"
+        "body": {
+          "defaults": {
+            "tax_behavior": "inferred_by_currency",
+            "tax_code": "fdCqWwp3oD"
+          },
+          "expand": ["bOhSVPb2Yx"],
+          "head_office": {
+            "address": {
+              "city": "0bzb5hQJkF",
+              "country": "lADSbG1ObB",
+              "line1": "65hRel2qDD",
+              "line2": "jLqLfHw6fi",
+              "postal_code": "5hLsd4XgB7",
+              "state": "eLUsPOLJLX"
+            }
           }
         }
       },

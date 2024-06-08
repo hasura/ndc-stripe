@@ -5,15 +5,21 @@
       "type": "procedure",
       "name": "PostTreasuryOutboundTransfers",
       "arguments": {
-        "amount": 1423500312,
-        "currency": "qnIr0AgFSj",
-        "description": "V1fM8pR61O",
-        "destination_payment_method": "4RvZmScKDC",
-        "destination_payment_method_options": {
-          "us_bank_account": null
-        },
-        "financial_account": "Hyoq6uybk6",
-        "statement_descriptor": "67jh4zadqJ"
+        "body": {
+          "amount": 1774885134,
+          "currency": "yNvGPnJLNC",
+          "description": "35Ijz7kChJ",
+          "destination_payment_method": "gVKbdXrBXg",
+          "destination_payment_method_options": {
+            "us_bank_account": {
+              "network": "ach"
+            }
+          },
+          "expand": ["8CztSqdZun"],
+          "financial_account": "jTPqBIQvgb",
+          "metadata": null,
+          "statement_descriptor": "qN5mjuW4am"
+        }
       },
       "fields": {
         "fields": {

@@ -4,54 +4,55 @@
     {
       "type": "procedure",
       "name": "PostIssuingCards",
+
       "arguments": {
-        "cardholder": "216CfZ2BZw",
-        "currency": "bsGdOTHWuk",
-        "expand": ["HVG3LQF1eB"],
-        "financial_account": "g3xGjgiOR9",
-        "metadata": null,
-        "personalization_design": "4hNBYlxGUz",
-        "pin": {
-          "encrypted_number": "TGj5U9tP56"
-        },
-        "replacement_for": "UKTC43qS3c",
-        "replacement_reason": "damaged",
-        "second_line": null,
-        "shipping": {
-          "address": {
-            "city": "1CjFB3UNWG",
-            "country": "6faP3LeMWe",
-            "line1": "1gULoB70VQ",
-            "line2": "yF5CCwczXk",
-            "postal_code": "TnQYUKi5w0",
-            "state": "M5l7HR8kGm"
+        "body": {
+          "cardholder": "Uwh02UUD8k",
+          "currency": "cfcevuVyGS",
+          "expand": ["AnAGqXXJoa"],
+          "financial_account": "VTwjcdVUao",
+          "metadata": null,
+          "personalization_design": "SYj1TwAhe8",
+          "pin": {
+            "encrypted_number": "AggMcv92nw"
           },
-          "customs": {
-            "eori_number": "bKVsAmSdEG"
+          "replacement_for": "QvABEOqvgj",
+          "replacement_reason": "damaged",
+          "second_line": "C80TxobvBk",
+          "shipping": {
+            "address": {
+              "city": "u88240aThF",
+              "country": "wL3T1fxgVC",
+              "line1": "udBp9pAxo5",
+              "line2": "9C4oh6P49A",
+              "postal_code": "su1r3e3jpV",
+              "state": "zmTazBXWTS"
+            },
+            "customs": {
+              "eori_number": "8crosPxF6d"
+            },
+            "name": "Cw22cJso9d",
+            "phone_number": "d2GJixoXpS",
+            "require_signature": false,
+            "service": "priority",
+            "type": "individual"
           },
-          "name": "71jMSAc6WU",
-          "phone_number": "yFteW5yTlW",
-          "require_signature": false,
-          "service": "standard",
-          "type": "bulk"
-        },
-        "spending_controls": {
-          "allowed_categories": ["manual_cash_disburse"],
-          "allowed_merchant_countries": ["zZ3fPfwpWu"],
-          "blocked_categories": [
-            "fireplace_fireplace_screens_and_accessories_stores"
-          ],
-          "blocked_merchant_countries": ["PNNhrZAETH"],
-          "spending_limits": [
-            {
-              "amount": 771982577,
-              "categories": ["secretarial_support_services"],
-              "interval": "daily"
-            }
-          ]
-        },
-        "status": "active",
-        "type": "virtual"
+          "spending_controls": {
+            "allowed_categories": ["car_washes"],
+            "allowed_merchant_countries": ["Fcnr3i19c6"],
+            "blocked_categories": ["car_and_truck_dealers_new_used"],
+            "blocked_merchant_countries": ["TrNwyQnytz"],
+            "spending_limits": [
+              {
+                "amount": 1112047779,
+                "categories": ["insurance_default"],
+                "interval": "weekly"
+              }
+            ]
+          },
+          "status": "active",
+          "type": "virtual"
+        }
       },
       "fields": {
         "fields": {

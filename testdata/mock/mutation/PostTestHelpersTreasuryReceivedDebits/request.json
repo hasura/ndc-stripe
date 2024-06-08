@@ -5,20 +5,22 @@
       "type": "procedure",
       "name": "PostTestHelpersTreasuryReceivedDebits",
       "arguments": {
-        "amount": 869572916,
-        "currency": "uxBZdwHmBb",
-        "description": "wMEWhsrikn",
-        "expand": [],
-        "financial_account": "Jxukm238dW",
-        "initiating_payment_method_details": {
-          "type": "us_bank_account",
-          "us_bank_account": {
-            "account_holder_name": "KK9KQMOTdw",
-            "account_number": "kBpSCqOVQJ",
-            "routing_number": "51zADri2Ld"
-          }
-        },
-        "network": "ach"
+        "body": {
+          "amount": 1758802940,
+          "currency": "e6rG4TaASK",
+          "description": "eN7kMAj8ki",
+          "expand": ["7HFOFUzX3G"],
+          "financial_account": "4Lg9AhWEGv",
+          "initiating_payment_method_details": {
+            "type": "us_bank_account",
+            "us_bank_account": {
+              "account_holder_name": "IaHKdl5ml6",
+              "account_number": "D0HX4jhUai",
+              "routing_number": "gKWbBE2GaY"
+            }
+          },
+          "network": "ach"
+        }
       },
       "fields": {
         "fields": {

@@ -5,43 +5,45 @@
       "type": "procedure",
       "name": "PostTreasuryFinancialAccountsFinancialAccountFeatures",
       "arguments": {
-        "card_issuing": {
-          "requested": false
-        },
-        "deposit_insurance": {
-          "requested": false
-        },
-        "expand": [],
-        "financial_account": "66mbGEIA2H",
-        "financial_addresses": {
-          "aba": {
-            "requested": true
-          }
-        },
-        "inbound_transfers": {
-          "ach": {
-            "requested": true
-          }
-        },
-        "intra_stripe_flows": {
-          "requested": false
-        },
-        "outbound_payments": {
-          "ach": {
+        "body": {
+          "card_issuing": {
             "requested": false
           },
-          "us_domestic_wire": {
+          "deposit_insurance": {
             "requested": true
+          },
+          "expand": ["ONSda2PRr7"],
+          "financial_addresses": {
+            "aba": {
+              "requested": false
+            }
+          },
+          "inbound_transfers": {
+            "ach": {
+              "requested": true
+            }
+          },
+          "intra_stripe_flows": {
+            "requested": true
+          },
+          "outbound_payments": {
+            "ach": {
+              "requested": true
+            },
+            "us_domestic_wire": {
+              "requested": false
+            }
+          },
+          "outbound_transfers": {
+            "ach": {
+              "requested": false
+            },
+            "us_domestic_wire": {
+              "requested": false
+            }
           }
         },
-        "outbound_transfers": {
-          "ach": {
-            "requested": false
-          },
-          "us_domestic_wire": {
-            "requested": false
-          }
-        }
+        "financial_account": "IzOf0ZJNSv"
       },
       "fields": {
         "fields": {

@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "PostTestHelpersTreasuryInboundTransfersIdFail",
       "arguments": {
-        "expand": ["failure_details"],
-        "failure_details": {
-          "code": "invalid_account_number"
+        "body": {
+          "expand": ["failure_details"],
+          "failure_details": {
+            "code": "no_account"
+          }
         },
-        "id": "YbBNLYJGEg"
+        "id": "Nwboo8O0uG"
       },
       "fields": {
         "fields": {

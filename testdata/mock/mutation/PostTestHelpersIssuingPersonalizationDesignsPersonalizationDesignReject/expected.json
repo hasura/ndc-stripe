@@ -18,8 +18,8 @@
         "physical_bundle": "ics_Fiiwz3T83opOUd",
         "preferences": { "is_default": false, "is_platform_default": null },
         "rejection_reasons": {
-          "card_logo": ["network_name"],
-          "carrier_text": ["non_fiat_currency"]
+          "card_logo": ["geographic_location"],
+          "carrier_text": ["other_entity"]
         },
         "status": "review"
       },

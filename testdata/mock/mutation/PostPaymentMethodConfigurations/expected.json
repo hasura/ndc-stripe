@@ -6,7 +6,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "none",
             "value": "off"
           }
         },
@@ -15,7 +15,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -23,7 +23,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -58,7 +58,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -67,7 +67,7 @@
           "available": true,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "none",
             "value": "on"
           }
         },
@@ -75,7 +75,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "none",
             "value": "off"
           }
         },
@@ -83,7 +83,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -91,7 +91,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -99,7 +99,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -116,7 +116,7 @@
           "available": true,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "none",
             "value": "on"
           }
         },
@@ -125,7 +125,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -135,7 +135,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -144,12 +144,12 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "off",
             "value": "off"
           }
         },
         "livemode": false,
-        "name": "awpKyvT2oc",
+        "name": "G71N8xvnY9",
         "object": "payment_method_configuration",
         "oxxo": null,
         "p24": {
@@ -160,7 +160,7 @@
             "value": "off"
           }
         },
-        "parent": "bjFS85bJ7G",
+        "parent": "OsCQsMpVy3",
         "paynow": null,
         "paypal": null,
         "promptpay": null,
@@ -169,7 +169,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -185,7 +185,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "none",
             "value": "off"
           }
         },
@@ -193,7 +193,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "none",
             "value": "off"
           }
         }

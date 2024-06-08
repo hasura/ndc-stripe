@@ -3,8 +3,6 @@
     "rows": [
       {
         "__value": {
-          "features": null,
-          "id": "xEKbnJ5fTx",
           "livemode": false,
           "name": "My Card Bundle V1",
           "object": "issuing.physical_bundle",

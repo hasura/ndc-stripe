@@ -11,8 +11,8 @@
             "postal_code": "94102",
             "state": "CA"
           },
+          "configuration_overrides": null,
           "display_name": "My First Store",
-          "id": "ipRYbd93Aq",
           "livemode": false,
           "metadata": {},
           "object": "terminal.location"

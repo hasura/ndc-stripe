@@ -1,6 +1,7 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "billing_thresholds": null,
         "created": 1703175363,
@@ -35,11 +36,10 @@
           "unit_amount": 2000,
           "unit_amount_decimal": "2000"
         },
-        "quantity": 2079579455,
+        "quantity": 1038008118,
         "subscription": "sub_1OPoulJN5vQBdWExmDmopkQy",
         "tax_rates": []
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

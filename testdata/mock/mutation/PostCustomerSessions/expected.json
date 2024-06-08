@@ -4,11 +4,11 @@
       "result": {
         "client_secret": "_PMG9cUABRpWoToRKwjVQsfVNtZ0oe5m5LuRYsgOe68eoLHh",
         "components": {
-          "buy_button": { "enabled": true },
-          "pricing_table": { "enabled": true }
+          "buy_button": { "enabled": false },
+          "pricing_table": { "enabled": false }
         },
         "created": 1234567890,
-        "customer": "DR7QKzT3nU",
+        "customer": "XXJ64wcGaF",
         "expires_at": 1234567890,
         "livemode": false,
         "object": "customer_session"

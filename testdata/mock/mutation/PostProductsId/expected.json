@@ -1,27 +1,27 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
-        "active": true,
+        "active": false,
         "created": 1234567890,
-        "default_price": "wbsOHFq6vh",
-        "description": "Comfortable gray cotton t-shirt",
+        "default_price": "IbjBsDZHjj",
+        "description": "zc6SyZYWid",
         "features": null,
-        "id": "yM9ww5TPVE",
-        "images": [],
+        "id": "Dqxz8zVk1w",
+        "images": ["afL5wjKrQi"],
         "livemode": false,
         "metadata": {},
-        "name": "rfTdoSZsz5",
+        "name": "RnwMkobzis",
         "object": "product",
         "package_dimensions": null,
-        "shippable": true,
-        "statement_descriptor": "7E4a5ECWQb",
-        "tax_code": null,
-        "unit_label": null,
+        "shippable": false,
+        "statement_descriptor": "jcz63cTIuY",
+        "tax_code": "Avj5SmlV9l",
+        "unit_label": "LBI3AekhYT",
         "updated": 1234567890,
-        "url": null
-      }
+        "url": "KELeNwHnkB"
+      },
+      "type": "procedure"
     }
   ]
 }

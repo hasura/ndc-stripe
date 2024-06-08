@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostSetupIntentsIntentCancel",
       "arguments": {
-        "cancellation_reason": "requested_by_customer",
-        "expand": ["UwJH3W9zV3"],
-        "intent": "rb8OR56uin"
+        "body": {
+          "cancellation_reason": "abandoned",
+          "expand": ["hWyNVJAPHA"]
+        },
+        "intent": "OQwoIodOHP"
       },
       "fields": {
         "fields": {

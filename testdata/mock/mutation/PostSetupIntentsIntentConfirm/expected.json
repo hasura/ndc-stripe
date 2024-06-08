@@ -6,7 +6,7 @@
         "attach_to_self": null,
         "automatic_payment_methods": null,
         "cancellation_reason": null,
-        "client_secret": "seti_1OPoutJN5vQBdWExijPulwWI_secret_PEHTJ4I4FBJxR6sDa0HTdK98RaYgSSc",
+        "client_secret": "Zc5wwbffqz",
         "created": 1234567890,
         "customer": null,
         "description": null,
@@ -19,7 +19,7 @@
         "next_action": null,
         "object": "setup_intent",
         "on_behalf_of": null,
-        "payment_method": "1GLQTEnmqv",
+        "payment_method": "OlhSBuvy6r",
         "payment_method_configuration_details": null,
         "payment_method_options": {
           "acss_debit": null,

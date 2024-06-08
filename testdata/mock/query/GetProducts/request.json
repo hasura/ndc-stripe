@@ -14,15 +14,11 @@
     },
     "expand": {
       "type": "literal",
-      "value": [
-        "RwHdk6xiaW"
-      ]
+      "value": ["RwHdk6xiaW"]
     },
     "ids": {
       "type": "literal",
-      "value": [
-        "tTWOCprN3g"
-      ]
+      "value": ["tTWOCprN3g"]
     },
     "limit": {
       "type": "literal",
@@ -70,8 +66,16 @@
                       "column": "description",
                       "type": "column"
                     },
-                    "features": {
-                      "column": "features",
+                    "images": {
+                      "column": "images",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "marketing_features": {
+                      "column": "marketing_features",
                       "fields": {
                         "fields": {
                           "fields": {
@@ -84,18 +88,6 @@
                         },
                         "type": "array"
                       },
-                      "type": "column"
-                    },
-                    "id": {
-                      "column": "id",
-                      "type": "column"
-                    },
-                    "images": {
-                      "column": "images",
-                      "type": "column"
-                    },
-                    "livemode": {
-                      "column": "livemode",
                       "type": "column"
                     },
                     "metadata": {
@@ -112,6 +104,27 @@
                     },
                     "package_dimensions": {
                       "column": "package_dimensions",
+                      "fields": {
+                        "fields": {
+                          "height": {
+                            "column": "height",
+                            "type": "column"
+                          },
+                          "length": {
+                            "column": "length",
+                            "type": "column"
+                          },
+                          "weight": {
+                            "column": "weight",
+                            "type": "column"
+                          },
+                          "width": {
+                            "column": "width",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
                       "type": "column"
                     },
                     "shippable": {
@@ -151,10 +164,6 @@
             },
             "object": {
               "column": "object",
-              "type": "column"
-            },
-            "url": {
-              "column": "url",
               "type": "column"
             }
           },

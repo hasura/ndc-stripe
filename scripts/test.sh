@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ROOT="$(pwd)"
-NDC_TEST_VERSION=v0.1.2
+NDC_TEST_VERSION=v0.1.4
 
 http_wait() {
   printf "$1:\t "

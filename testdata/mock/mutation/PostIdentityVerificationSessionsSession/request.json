@@ -5,15 +5,24 @@
       "type": "procedure",
       "name": "PostIdentityVerificationSessionsSession",
       "arguments": {
-        "expand": [
-          "9g9z2xzdqa"
-        ],
-        "metadata": null,
-        "options": {
-          "document": null
+        "body": {
+          "expand": ["vLNztXm7pD"],
+          "metadata": null,
+          "options": {
+            "document": {
+              "allowed_types": ["passport"],
+              "require_id_number": true,
+              "require_live_capture": true,
+              "require_matching_selfie": true
+            }
+          },
+          "provided_details": {
+            "email": "i6VwtJRK4D",
+            "phone": "2Q21gGNGUp"
+          },
+          "type": "id_number"
         },
-        "session": "q5vWXp70GX",
-        "type": "id_number"
+        "session": "Ha5hFWOCf7"
       },
       "fields": {
         "fields": {

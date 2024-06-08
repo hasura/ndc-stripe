@@ -1,0 +1,540 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTerminalConfigurationsConfiguration",
+      "arguments": {
+        "bbpos_wisepos_e": {
+          "splashscreen": "l9qdelmYe2"
+        },
+        "configuration": "OqNxd6YMS0",
+        "expand": [
+          "diqJ6SMfWx"
+        ],
+        "name": "Web38adSkV",
+        "offline": {
+          "enabled": false
+        },
+        "stripe_s700": {
+          "splashscreen": "A40uvLcQmP"
+        },
+        "tipping": {
+          "aud": {
+            "fixed_amounts": [
+              384707265
+            ],
+            "percentages": [
+              1410812129
+            ],
+            "smart_tip_threshold": 1218229771
+          },
+          "cad": {
+            "fixed_amounts": [
+              1762193476
+            ],
+            "percentages": [
+              585856910
+            ],
+            "smart_tip_threshold": 1001412267
+          },
+          "chf": {
+            "fixed_amounts": [
+              1961323359
+            ],
+            "percentages": [
+              703292825
+            ],
+            "smart_tip_threshold": 222804773
+          },
+          "czk": {
+            "fixed_amounts": [
+              1236126865
+            ],
+            "percentages": [
+              833891113
+            ],
+            "smart_tip_threshold": 1203984369
+          },
+          "dkk": {
+            "fixed_amounts": [
+              1983612904
+            ],
+            "percentages": [
+              1084055682
+            ],
+            "smart_tip_threshold": 1438190531
+          },
+          "eur": {
+            "fixed_amounts": [
+              227040187
+            ],
+            "percentages": [
+              1843481389
+            ],
+            "smart_tip_threshold": 596546115
+          },
+          "gbp": {
+            "fixed_amounts": [
+              662406198
+            ],
+            "percentages": [
+              276094133
+            ],
+            "smart_tip_threshold": 133772701
+          },
+          "hkd": {
+            "fixed_amounts": [
+              1094689077
+            ],
+            "percentages": [
+              1122671693
+            ],
+            "smart_tip_threshold": 1249455331
+          },
+          "myr": {
+            "fixed_amounts": [
+              449415913
+            ],
+            "percentages": [
+              264325049
+            ],
+            "smart_tip_threshold": 201281975
+          },
+          "nok": {
+            "fixed_amounts": [
+              472289141
+            ],
+            "percentages": [
+              150229113
+            ],
+            "smart_tip_threshold": 1365622273
+          },
+          "nzd": {
+            "fixed_amounts": [
+              1409895190
+            ],
+            "percentages": [
+              366491898
+            ],
+            "smart_tip_threshold": 357261587
+          },
+          "sek": {
+            "fixed_amounts": [
+              1210651794
+            ],
+            "percentages": [
+              788139969
+            ],
+            "smart_tip_threshold": 696549478
+          },
+          "sgd": {
+            "fixed_amounts": [
+              1386219697
+            ],
+            "percentages": [
+              362055368
+            ],
+            "smart_tip_threshold": 1735212673
+          },
+          "usd": {
+            "fixed_amounts": [
+              1388289640
+            ],
+            "percentages": [
+              1401161713
+            ],
+            "smart_tip_threshold": 764154948
+          }
+        },
+        "verifone_p400": {
+          "splashscreen": "cwt9AuP6ff"
+        }
+      },
+      "fields": {
+        "fields": {
+          "bbpos_wisepos_e": {
+            "column": "bbpos_wisepos_e",
+            "fields": {
+              "fields": {
+                "splashscreen": {
+                  "column": "splashscreen",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "deleted": {
+            "column": "deleted",
+            "type": "column"
+          },
+          "id": {
+            "column": "id",
+            "type": "column"
+          },
+          "is_account_default": {
+            "column": "is_account_default",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "offline": {
+            "column": "offline",
+            "fields": {
+              "fields": {
+                "enabled": {
+                  "column": "enabled",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "stripe_s700": {
+            "column": "stripe_s700",
+            "fields": {
+              "fields": {
+                "splashscreen": {
+                  "column": "splashscreen",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "tipping": {
+            "column": "tipping",
+            "fields": {
+              "fields": {
+                "aud": {
+                  "column": "aud",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "cad": {
+                  "column": "cad",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "chf": {
+                  "column": "chf",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "czk": {
+                  "column": "czk",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "dkk": {
+                  "column": "dkk",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "eur": {
+                  "column": "eur",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "gbp": {
+                  "column": "gbp",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "hkd": {
+                  "column": "hkd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "myr": {
+                  "column": "myr",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "nok": {
+                  "column": "nok",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "nzd": {
+                  "column": "nzd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "sek": {
+                  "column": "sek",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "sgd": {
+                  "column": "sgd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                },
+                "usd": {
+                  "column": "usd",
+                  "fields": {
+                    "fields": {
+                      "fixed_amounts": {
+                        "column": "fixed_amounts",
+                        "type": "column"
+                      },
+                      "percentages": {
+                        "column": "percentages",
+                        "type": "column"
+                      },
+                      "smart_tip_threshold": {
+                        "column": "smart_tip_threshold",
+                        "type": "column"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "verifone_p400": {
+            "column": "verifone_p400",
+            "fields": {
+              "fields": {
+                "splashscreen": {
+                  "column": "splashscreen",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

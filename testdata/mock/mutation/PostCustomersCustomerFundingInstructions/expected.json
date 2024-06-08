@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "bank_transfer": {
           "country": "DE",
@@ -17,13 +16,14 @@
               "zengin": null
             }
           ],
-          "type": "gb_bank_transfer"
+          "type": "us_bank_transfer"
         },
-        "currency": "YvDqH0MbxZ",
+        "currency": "yShGdG1cOG",
         "funding_type": "bank_transfer",
         "livemode": false,
         "object": "funding_instructions"
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

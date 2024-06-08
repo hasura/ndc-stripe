@@ -3,7 +3,7 @@
     {
       "result": {
         "active": false,
-        "code": "OmxckdA8qj",
+        "code": "Y2QmFnbMW2",
         "coupon": {
           "amount_off": null,
           "applies_to": null,
@@ -24,17 +24,17 @@
           "valid": true
         },
         "created": 1234567890,
-        "customer": "uIsFFjp9CU",
-        "expires_at": 209948022,
+        "customer": "8BnzwCHENR",
+        "expires_at": 294168187,
         "livemode": false,
-        "max_redemptions": 1714547927,
+        "max_redemptions": 1304524309,
         "metadata": {},
         "object": "promotion_code",
         "restrictions": {
           "currency_options": null,
-          "first_time_transaction": false,
-          "minimum_amount": 1699766210,
-          "minimum_amount_currency": "m49P92SYud"
+          "first_time_transaction": true,
+          "minimum_amount": 218799189,
+          "minimum_amount_currency": "1B0ilEGgsR"
         },
         "times_redeemed": 0
       },

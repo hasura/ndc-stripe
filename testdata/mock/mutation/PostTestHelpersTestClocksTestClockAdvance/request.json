@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostTestHelpersTestClocksTestClockAdvance",
       "arguments": {
-        "expand": [],
-        "frozen_time": 1034133697,
-        "test_clock": "QYIspzCzdu"
+        "body": {
+          "expand": [],
+          "frozen_time": 597772345
+        },
+        "test_clock": "tCgOrbcBl4"
       },
       "fields": {
         "fields": {

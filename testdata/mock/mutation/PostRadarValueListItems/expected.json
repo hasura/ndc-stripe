@@ -1,15 +1,15 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "created": 1234567890,
         "created_by": "jenny@example.com",
         "livemode": false,
         "object": "radar.value_list_item",
-        "value": "qgfGzMyfg2",
-        "value_list": "gWKwmMBRqB"
-      }
+        "value": "O9CXMM85ua",
+        "value_list": "qfSdPIiUGR"
+      },
+      "type": "procedure"
     }
   ]
 }

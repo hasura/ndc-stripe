@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "PostAppsSecretsDelete",
       "arguments": {
-        "expand": ["MiCb41Np3L"],
-        "name": "oZXD7lPKap",
-        "scope": {
-          "type": "user",
-          "user": "usBhF1ZO3b"
+        "body": {
+          "expand": ["VtPwkxfyae"],
+          "name": "j7jFznS29k",
+          "scope": {
+            "type": "user",
+            "user": "i7xNql8dx4"
+          }
         }
       },
       "fields": {

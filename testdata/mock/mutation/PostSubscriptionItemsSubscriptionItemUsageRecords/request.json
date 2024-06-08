@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "PostSubscriptionItemsSubscriptionItemUsageRecords",
       "arguments": {
-        "action": "increment",
-        "expand": [],
-        "quantity": 1476515968,
-        "subscription_item": "gwtu6iWi2t",
-        "timestamp": null
+        "body": {
+          "action": "set",
+          "expand": [],
+          "quantity": 733294699,
+          "timestamp": null
+        },
+        "subscription_item": "MFjanUh7qL"
       },
       "fields": {
         "fields": {

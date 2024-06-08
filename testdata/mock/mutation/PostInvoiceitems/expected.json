@@ -2,18 +2,18 @@
   "operation_results": [
     {
       "result": {
-        "amount": 243424112,
-        "currency": "ncBLC6zLzx",
-        "customer": "u8nAq0PbVs",
+        "amount": 352477877,
+        "currency": "tLIicQNU2h",
+        "customer": "opLOXi13Dn",
         "date": 1234567890,
-        "description": "WWkM9N3Kd3",
+        "description": "LSw7XR2kSy",
         "discountable": false,
         "discounts": [],
-        "invoice": "ai0LLiISte",
+        "invoice": "1kkj1rI5Xi",
         "livemode": false,
         "metadata": {},
         "object": "invoiceitem",
-        "period": { "end": 1010797144, "start": 1117050625 },
+        "period": { "end": 1349303058, "start": 1845223391 },
         "price": {
           "active": true,
           "billing_scheme": "per_unit",
@@ -38,13 +38,13 @@
           "unit_amount_decimal": "1000"
         },
         "proration": false,
-        "quantity": 1033909266,
-        "subscription": "L1NF7RGry2",
+        "quantity": 598389401,
+        "subscription": "hBZX75PPcL",
         "subscription_item": null,
         "tax_rates": [],
         "test_clock": null,
-        "unit_amount": 1585784468,
-        "unit_amount_decimal": "zs2JZzzoy3"
+        "unit_amount": 639473157,
+        "unit_amount_decimal": "zQcF0v2y8x"
       },
       "type": "procedure"
     }

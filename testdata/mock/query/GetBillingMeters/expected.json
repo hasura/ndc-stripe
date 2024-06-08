@@ -1,0 +1,39 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "created": 1234567890,
+              "customer_mapping": {
+                "event_payload_key": "customer",
+                "type": "by_id"
+              },
+              "default_aggregation": {
+                "formula": "sum"
+              },
+              "display_name": "test-meter",
+              "event_name": "test-meter-event-name",
+              "event_time_window": null,
+              "id": "meter_123",
+              "livemode": true,
+              "object": "billing.meter",
+              "status": "active",
+              "status_transitions": {
+                "deactivated_at": null
+              },
+              "updated": 1234567890,
+              "value_settings": {
+                "event_payload_key": "value"
+              }
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/billing/meters"
+        }
+      }
+    ]
+  }
+]
