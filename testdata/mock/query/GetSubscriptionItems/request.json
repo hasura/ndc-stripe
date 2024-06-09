@@ -36,14 +36,23 @@
                   "fields": {
                     "billing_thresholds": {
                       "column": "billing_thresholds",
+                      "fields": {
+                        "fields": {
+                          "usage_gte": {
+                            "column": "usage_gte",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
                       "type": "column"
                     },
                     "created": {
                       "column": "created",
                       "type": "column"
                     },
-                    "id": {
-                      "column": "id",
+                    "discounts": {
+                      "column": "discounts",
                       "type": "column"
                     },
                     "metadata": {
@@ -80,10 +89,23 @@
                           },
                           "custom_unit_amount": {
                             "column": "custom_unit_amount",
-                            "type": "column"
-                          },
-                          "id": {
-                            "column": "id",
+                            "fields": {
+                              "fields": {
+                                "maximum": {
+                                  "column": "maximum",
+                                  "type": "column"
+                                },
+                                "minimum": {
+                                  "column": "minimum",
+                                  "type": "column"
+                                },
+                                "preset": {
+                                  "column": "preset",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "livemode": {
@@ -112,6 +134,31 @@
                           },
                           "recurring": {
                             "column": "recurring",
+                            "fields": {
+                              "fields": {
+                                "aggregate_usage": {
+                                  "column": "aggregate_usage",
+                                  "type": "column"
+                                },
+                                "interval": {
+                                  "column": "interval",
+                                  "type": "column"
+                                },
+                                "interval_count": {
+                                  "column": "interval_count",
+                                  "type": "column"
+                                },
+                                "meter": {
+                                  "column": "meter",
+                                  "type": "column"
+                                },
+                                "usage_type": {
+                                  "column": "usage_type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "tax_behavior": {
@@ -156,6 +203,19 @@
                           },
                           "transform_quantity": {
                             "column": "transform_quantity",
+                            "fields": {
+                              "fields": {
+                                "divide_by": {
+                                  "column": "divide_by",
+                                  "type": "column"
+                                },
+                                "round": {
+                                  "column": "round",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "type": {
@@ -210,10 +270,6 @@
                             },
                             "effective_percentage": {
                               "column": "effective_percentage",
-                              "type": "column"
-                            },
-                            "id": {
-                              "column": "id",
                               "type": "column"
                             },
                             "inclusive": {
@@ -272,10 +328,6 @@
             },
             "object": {
               "column": "object",
-              "type": "column"
-            },
-            "url": {
-              "column": "url",
               "type": "column"
             }
           },

@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostTestHelpersIssuingPersonalizationDesignsPersonalizationDesignDeactivate",
       "arguments": {
-        "expand": ["carrier_text"],
+        "body": {
+          "expand": ["carrier_text"]
+        },
         "personalization_design": "mng9vasayq"
       },
       "fields": {

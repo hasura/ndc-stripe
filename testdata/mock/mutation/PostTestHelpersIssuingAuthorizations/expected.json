@@ -2,10 +2,10 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1553576839,
+        "amount": 128797864,
         "amount_details": { "atm_fee": null, "cashback_amount": null },
         "approved": true,
-        "authorization_method": "online",
+        "authorization_method": "chip",
         "balance_transactions": [],
         "card": {
           "brand": "Visa",
@@ -80,21 +80,21 @@
         },
         "cardholder": null,
         "created": 1234567890,
-        "currency": "AFGxKxB928",
+        "currency": "wFYOwqcQTs",
         "livemode": false,
         "merchant_amount": 0,
         "merchant_currency": "usd",
         "merchant_data": {
-          "category": "car_and_truck_dealers_used_only",
+          "category": "wig_and_toupee_stores",
           "category_code": "4121",
-          "city": "9a4PR4FE5z",
-          "country": "ajcPZKHACc",
-          "name": "qnigPCPqmv",
-          "network_id": "aoBEdHpvhW",
-          "postal_code": "0svDhNbpfq",
-          "state": "khoR8E4Nwf",
-          "terminal_id": "qQjqjQiNzX",
-          "url": "SGzNUVni89"
+          "city": "pJd06a5Cyr",
+          "country": "Sgotttv9An",
+          "name": "97oeXH2z5O",
+          "network_id": "K1J317wCE7",
+          "postal_code": "jm8tnmxrxb",
+          "state": "6LrtJz9Djk",
+          "terminal_id": "A407mAaYHT",
+          "url": "nnV8IKyPtw"
         },
         "metadata": {},
         "network_data": null,
@@ -115,14 +115,14 @@
         "treasury": null,
         "verification_data": {
           "address_line1_check": "not_provided",
-          "address_postal_code_check": "mismatch",
+          "address_postal_code_check": "not_provided",
           "authentication_exemption": null,
           "cvc_check": "not_provided",
           "expiry_check": "not_provided",
           "postal_code": null,
           "three_d_secure": { "result": "authenticated" }
         },
-        "wallet": "google_pay"
+        "wallet": "apple_pay"
       },
       "type": "procedure"
     }

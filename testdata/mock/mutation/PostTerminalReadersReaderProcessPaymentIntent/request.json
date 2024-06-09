@@ -5,16 +5,18 @@
       "type": "procedure",
       "name": "PostTerminalReadersReaderProcessPaymentIntent",
       "arguments": {
-        "expand": [],
-        "payment_intent": "JwLSHoZMOM",
-        "process_config": {
-          "enable_customer_cancellation": false,
-          "skip_tipping": true,
-          "tipping": {
-            "amount_eligible": 1924802395
+        "body": {
+          "expand": [],
+          "payment_intent": "QkiDiORpDT",
+          "process_config": {
+            "enable_customer_cancellation": true,
+            "skip_tipping": false,
+            "tipping": {
+              "amount_eligible": 1941005058
+            }
           }
         },
-        "reader": "52grDa4LY7"
+        "reader": "7vqbDOVoAh"
       },
       "fields": {
         "fields": {

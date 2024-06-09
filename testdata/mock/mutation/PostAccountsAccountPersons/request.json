@@ -4,97 +4,104 @@
     {
       "type": "procedure",
       "name": "PostAccountsAccountPersons",
+
       "arguments": {
-        "account": "1uAxJYW41H",
-        "additional_tos_acceptances": {
-          "account": {
-            "date": 13029,
-            "ip": "sw1TvqpSyx",
-            "user_agent": null
-          }
-        },
-        "address": {
-          "city": "7rNfI8DTRa",
-          "country": "rHLRntYJKe",
-          "line1": "MqvNWnqF4D",
-          "line2": "TzfVgTxzWk",
-          "postal_code": "ojG8aRk75v",
-          "state": "7G1Jvg4VgQ"
-        },
-        "address_kana": {
-          "city": "YxjcRHR5uV",
-          "country": "kE1KyeorvP",
-          "line1": "y1YzHoRYG0",
-          "line2": "QuwqsWCAHK",
-          "postal_code": "9VBUwp1BLo",
-          "state": "AUXjkTmKgG",
-          "town": "C5nQs5qkMu"
-        },
-        "address_kanji": {
-          "city": "UhuUP80gD6",
-          "country": "yh0EumsBJb",
-          "line1": "rrbbnjsVCZ",
-          "line2": "sK1T7V6fsi",
-          "postal_code": "TD5mXL5yFr",
-          "state": "8l9L9aBy7y",
-          "town": "fqJOQzuqwO"
-        },
-        "dob": null,
-        "documents": {
-          "company_authorization": {
-            "files": [null]
+        "account": "Sy1CsLpo5S",
+        "body": {
+          "additional_tos_acceptances": {
+            "account": {
+              "date": 226390029,
+              "ip": "gHjWwcVXFL",
+              "user_agent": "izfvXz0Wcr"
+            }
           },
-          "passport": {
-            "files": [null]
+          "address": {
+            "city": "u0VrMZjfQn",
+            "country": "POC9no1Ezh",
+            "line1": "0nW1pcs2We",
+            "line2": "Yzguwdw85u",
+            "postal_code": "KgxWLVcSTQ",
+            "state": "oO64bk7ILb"
           },
-          "visa": {
-            "files": [null]
-          }
-        },
-        "email": "hegnu4gE7G",
-        "expand": ["89FTa3z9Hy"],
-        "first_name": "ijaRTbbl2r",
-        "first_name_kana": "5lB5JIHVIR",
-        "first_name_kanji": "aUyZWDu7If",
-        "full_name_aliases": null,
-        "gender": "Szmx91xHh5",
-        "id_number": "E2jMD1XNOq",
-        "id_number_secondary": "W5zHchYuho",
-        "last_name": "5aRGDL4gbr",
-        "last_name_kana": "bxU2fO179s",
-        "last_name_kanji": "m8zG4lGjrN",
-        "maiden_name": "wy3yS7DU9N",
-        "metadata": null,
-        "nationality": "Zap7fk3VDG",
-        "person_token": "HXxroD4umP",
-        "phone": "FAxgWFY5bL",
-        "political_exposure": "QPZQ2A7MJA",
-        "registered_address": {
-          "city": "H5tvTXwDHh",
-          "country": "DpkHO86tKs",
-          "line1": "JlcfHH3snN",
-          "line2": "0bWRlGRaCq",
-          "postal_code": "pDCYPxgLsY",
-          "state": "IHsQ76WgNU"
-        },
-        "relationship": {
-          "director": false,
-          "executive": true,
-          "legal_guardian": true,
-          "owner": false,
-          "percent_ownership": null,
-          "representative": true,
-          "title": "RU2IuSBKTR"
-        },
-        "ssn_last_4": "GuE200qDkq",
-        "verification": {
-          "additional_document": {
-            "back": "weo0TxV6yQ",
-            "front": "9Vgr39sfKF"
+          "address_kana": {
+            "city": "430XayuAS4",
+            "country": "5Es7ZCPuR5",
+            "line1": "EHUDjzVe2j",
+            "line2": "cUXBwWDivz",
+            "postal_code": "HfZsiYmZsp",
+            "state": "woJvzocd8j",
+            "town": "X7nvg7fZt4"
           },
-          "document": {
-            "back": "2XGGmsiTmD",
-            "front": "6UXm1EQ15S"
+          "address_kanji": {
+            "city": "mRdwFCIAk0",
+            "country": "QT55ueu8qw",
+            "line1": "DFgx7xNXHV",
+            "line2": "IELMa2kBlW",
+            "postal_code": "ZTqdroEZKc",
+            "state": "HOHxip4wJ2",
+            "town": "jYJZwgzGlI"
+          },
+          "dob": {
+            "day": 1590137575,
+            "month": 929758384,
+            "year": 1308862971
+          },
+          "documents": {
+            "company_authorization": {
+              "files": ["2Kfxbi3ZhU"]
+            },
+            "passport": {
+              "files": ["sNRsOBUGkM"]
+            },
+            "visa": {
+              "files": ["aeQ9XfCW2c"]
+            }
+          },
+          "email": "f5FfWx1SFt",
+          "expand": ["gQkYs2CKy3"],
+          "first_name": "rmy5PJwWRJ",
+          "first_name_kana": "8GlW1kacuk",
+          "first_name_kanji": "7JiwIUpYzc",
+          "full_name_aliases": ["USkIs9OTt2"],
+          "gender": "kMitspkAnt",
+          "id_number": "ftyot4U1f0",
+          "id_number_secondary": "kBPQgLCJxH",
+          "last_name": "zxQ6a7HPGp",
+          "last_name_kana": "Hp8RQGU52n",
+          "last_name_kanji": "4gM4LvylMj",
+          "maiden_name": "FYkzGq3wGn",
+          "metadata": null,
+          "nationality": "SLi9bbGGcI",
+          "person_token": "xp0BJKZklg",
+          "phone": "DnTyGc7qLj",
+          "political_exposure": "soTjfouyF7",
+          "registered_address": {
+            "city": "XM34cMdj1d",
+            "country": "CkkXVNXxPm",
+            "line1": "oadTQMxdki",
+            "line2": "hF7X9e9QGE",
+            "postal_code": "dBWP6VjBmx",
+            "state": "Hh2XQHGk2U"
+          },
+          "relationship": {
+            "director": true,
+            "executive": false,
+            "legal_guardian": true,
+            "owner": false,
+            "percent_ownership": 0.25700171816586165,
+            "representative": false,
+            "title": "o8vCvg4Sub"
+          },
+          "ssn_last_4": "slW37GCq2P",
+          "verification": {
+            "additional_document": {
+              "back": "pudZ2hcFAo",
+              "front": "Df1rF7VRZB"
+            },
+            "document": {
+              "back": "73Xxs8CYun",
+              "front": "3dhtH6kdDR"
+            }
           }
         }
       },

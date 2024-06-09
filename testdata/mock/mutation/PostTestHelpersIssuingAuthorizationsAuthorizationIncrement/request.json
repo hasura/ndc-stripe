@@ -5,10 +5,12 @@
       "type": "procedure",
       "name": "PostTestHelpersIssuingAuthorizationsAuthorizationIncrement",
       "arguments": {
-        "authorization": "bekIlcDJjN",
-        "expand": ["AvBqOpCqWE"],
-        "increment_amount": 2123354892,
-        "is_amount_controllable": true
+        "authorization": "400tBlOe3V",
+        "body": {
+          "expand": ["GCVLZNYKVE"],
+          "increment_amount": 1348380603,
+          "is_amount_controllable": true
+        }
       },
       "fields": {
         "fields": {

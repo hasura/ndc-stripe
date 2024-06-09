@@ -5,21 +5,20 @@
       "type": "procedure",
       "name": "PostChargesChargeCapture",
       "arguments": {
-        "amount": 2647,
-        "application_fee": 25245,
-        "application_fee_amount": 30765,
-        "charge": "IbOcwl9KXs",
-        "expand": [
-          "fU7tiXzYgS"
-        ],
-        "receipt_email": "FJbgJgtetz",
-        "statement_descriptor": "mdjwkNekwG",
-        "statement_descriptor_suffix": "pbGQGixyKr",
-        "transfer_data": {
-          "amount_percent": 2.4795988,
-          "destination": "HNECuKb2lw"
+        "body": {
+          "amount": 1618950507,
+          "application_fee": 632806754,
+          "application_fee_amount": 1141752893,
+          "expand": ["2KyykFHtaZ"],
+          "receipt_email": "thwZ6wfetI",
+          "statement_descriptor": "vyQoyIt0X8",
+          "statement_descriptor_suffix": "4fhVGcoWeD",
+          "transfer_data": {
+            "amount": 157343157
+          },
+          "transfer_group": "QfaCzgqCwc"
         },
-        "transfer_group": "MV2hoBuaq9"
+        "charge": "G9M0IE05Yb"
       },
       "fields": {
         "fields": {

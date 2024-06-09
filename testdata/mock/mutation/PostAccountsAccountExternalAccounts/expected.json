@@ -1,0 +1,44 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "account": null,
+        "account_holder_name": "Jane Austen",
+        "account_holder_type": "individual",
+        "account_type": null,
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "available_payout_methods": null,
+        "bank_name": "STRIPE TEST BANK",
+        "brand": null,
+        "country": "US",
+        "currency": "usd",
+        "customer": null,
+        "cvc_check": null,
+        "default_for_currency": null,
+        "dynamic_last4": null,
+        "exp_month": null,
+        "exp_year": null,
+        "fingerprint": "1JWtPxqbdX5Gamtz",
+        "funding": null,
+        "future_requirements": null,
+        "last4": "6789",
+        "metadata": {},
+        "name": null,
+        "networks": null,
+        "object": "bank_account",
+        "requirements": null,
+        "routing_number": "110000000",
+        "status": "new",
+        "tokenization_method": null
+      }
+    }
+  ]
+}

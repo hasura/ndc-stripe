@@ -2,39 +2,39 @@
   "operation_results": [
     {
       "result": {
-        "active": false,
+        "active": true,
         "application": null,
         "business_profile": {
-          "headline": null,
-          "privacy_policy_url": "https://example.com/privacy",
-          "terms_of_service_url": "https://example.com/terms"
+          "headline": "6ElbBQUSGz",
+          "privacy_policy_url": "gNMZSF94nC",
+          "terms_of_service_url": "KVxSOJddnm"
         },
         "created": 1234567890,
-        "default_return_url": null,
+        "default_return_url": "ecBN33F9VY",
         "features": {
-          "customer_update": {
-            "allowed_updates": ["email", "tax_id"],
-            "enabled": false
-          },
-          "invoice_history": { "enabled": true },
+          "customer_update": { "allowed_updates": ["name"], "enabled": true },
+          "invoice_history": { "enabled": false },
           "payment_method_update": { "enabled": true },
           "subscription_cancel": {
-            "cancellation_reason": { "enabled": false, "options": [] },
+            "cancellation_reason": {
+              "enabled": false,
+              "options": ["customer_service"]
+            },
             "enabled": true,
             "mode": "at_period_end",
-            "proration_behavior": "create_prorations"
+            "proration_behavior": "always_invoice"
           },
           "subscription_update": {
-            "default_allowed_updates": [],
+            "default_allowed_updates": ["promotion_code"],
             "enabled": false,
             "products": null,
-            "proration_behavior": "always_invoice"
+            "proration_behavior": "none"
           }
         },
-        "id": "9At5cXphRt",
+        "id": "F0HD6q16i8",
         "is_default": true,
         "livemode": true,
-        "login_page": { "enabled": true, "url": null },
+        "login_page": { "enabled": false, "url": null },
         "metadata": null,
         "object": "billing_portal.configuration",
         "updated": 1234567890

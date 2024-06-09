@@ -5,8 +5,10 @@
       "type": "procedure",
       "name": "PostTestHelpersIssuingPersonalizationDesignsPersonalizationDesignActivate",
       "arguments": {
-        "expand": ["carrier_text"],
-        "personalization_design": "msChid2MyC"
+        "body": {
+          "expand": ["carrier_text"]
+        },
+        "personalization_design": "UkWsGdqXDy"
       },
       "fields": {
         "fields": {

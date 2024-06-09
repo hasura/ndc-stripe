@@ -5,19 +5,19 @@
       "type": "procedure",
       "name": "PostPaymentIntentsIntentCapture",
       "arguments": {
-        "amount_to_capture": 1811917042,
-        "application_fee_amount": 1547227874,
-        "expand": [
-          "GvqiY9juh7"
-        ],
-        "final_capture": false,
-        "intent": "011pDx7hjA",
-        "metadata": null,
-        "statement_descriptor": "PVK5yJC912",
-        "statement_descriptor_suffix": "RVgNpJrhP2",
-        "transfer_data": {
-          "amount": 399768556
-        }
+        "body": {
+          "amount_to_capture": 1237370937,
+          "application_fee_amount": 47178020,
+          "expand": ["LvhunpbuZU"],
+          "final_capture": false,
+          "metadata": null,
+          "statement_descriptor": "iVNO8ObNCn",
+          "statement_descriptor_suffix": "5toAdhUmD4",
+          "transfer_data": {
+            "amount": 1342622441
+          }
+        },
+        "intent": "Ueh6j72HSO"
       },
       "fields": {
         "fields": {

@@ -8,30 +8,34 @@
           "status_details": []
         },
         "deposit_insurance": {
-          "requested": false,
+          "requested": true,
           "status": "active",
           "status_details": []
         },
         "financial_addresses": {
-          "aba": { "requested": true, "status": "active", "status_details": [] }
+          "aba": {
+            "requested": false,
+            "status": "active",
+            "status_details": []
+          }
         },
         "inbound_transfers": {
           "ach": { "requested": true, "status": "active", "status_details": [] }
         },
         "intra_stripe_flows": {
-          "requested": false,
+          "requested": true,
           "status": "active",
           "status_details": []
         },
         "object": "treasury.financial_account_features",
         "outbound_payments": {
           "ach": {
-            "requested": false,
+            "requested": true,
             "status": "active",
             "status_details": []
           },
           "us_domestic_wire": {
-            "requested": true,
+            "requested": false,
             "status": "active",
             "status_details": []
           }

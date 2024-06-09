@@ -5,57 +5,59 @@
       "type": "procedure",
       "name": "PostTestHelpersIssuingTransactionsCreateUnlinkedRefund",
       "arguments": {
-        "amount": 1469912373,
-        "card": "EFKXYCXFwF",
-        "currency": "3n5KgzPfkT",
-        "expand": ["merchant_data"],
-        "merchant_data": {
-          "category": "chemicals_and_allied_products",
-          "city": "QE2kZWjo3Y",
-          "country": "R2MhWGIJtv",
-          "name": "cwV109YbgU",
-          "network_id": "SB8QqVKIvF",
-          "postal_code": "WTnKJVVfPR",
-          "state": "JpNSlQVhea",
-          "terminal_id": "zs1WOAnRcU",
-          "url": "Dl050B6NhU"
-        },
-        "purchase_details": {
-          "flight": {
-            "departure_at": 1052638766,
-            "passenger_name": "3IBctio6bY",
-            "refundable": true,
-            "segments": [
+        "body": {
+          "amount": 596226003,
+          "card": "nUx0Slngu8",
+          "currency": "JQF7HCHMza",
+          "expand": ["8olmvUDrK3"],
+          "merchant_data": {
+            "category": "direct_marketing_combination_catalog_and_retail_merchant",
+            "city": "LMWHFCFJao",
+            "country": "UZB32UyXOg",
+            "name": "7STvSCNflr",
+            "network_id": "tfKuwmCFFp",
+            "postal_code": "y0ZloIIOg4",
+            "state": "4e5lJq6jEy",
+            "terminal_id": "AHMgREqV6I",
+            "url": "FqYV7qkNtb"
+          },
+          "purchase_details": {
+            "flight": {
+              "departure_at": 1043803491,
+              "passenger_name": "Ym0N8Sgsmh",
+              "refundable": false,
+              "segments": [
+                {
+                  "arrival_airport_code": "DI1C59j9DL",
+                  "carrier": "ELWYJFEXk5",
+                  "departure_airport_code": "VJvdWJBHPG",
+                  "flight_number": "LslUK9oUPA",
+                  "service_class": "Qw8M4Np6wY",
+                  "stopover_allowed": false
+                }
+              ],
+              "travel_agency": "ZMuQjMiY58"
+            },
+            "fuel": {
+              "type": "unleaded_plus",
+              "unit": "liter",
+              "unit_cost_decimal": "nFyekNihu5",
+              "volume_decimal": "3AEKnVuPOO"
+            },
+            "lodging": {
+              "check_in_at": 355462945,
+              "nights": 1077040544
+            },
+            "receipt": [
               {
-                "arrival_airport_code": "v5bnUjkPYj",
-                "carrier": "nMs9GN1sTC",
-                "departure_airport_code": "g8TpbOk2M8",
-                "flight_number": "Bha39J6962",
-                "service_class": "sVLzCQsNVB",
-                "stopover_allowed": true
+                "description": "UjLBJGcdB6",
+                "quantity": "L8KyW7q1Jw",
+                "total": 1252668036,
+                "unit_cost": 895882940
               }
             ],
-            "travel_agency": "mD3ztnZqHj"
-          },
-          "fuel": {
-            "type": "unleaded_super",
-            "unit": "us_gallon",
-            "unit_cost_decimal": "XGTJ5lhxgo",
-            "volume_decimal": "1hK90N7Ave"
-          },
-          "lodging": {
-            "check_in_at": 513784856,
-            "nights": 2078283416
-          },
-          "receipt": [
-            {
-              "description": "XHuZ52Irvy",
-              "quantity": "kLMMUd7X0U",
-              "total": 961238150,
-              "unit_cost": 1674817485
-            }
-          ],
-          "reference": "j0K4JmWJDj"
+            "reference": "eJElRp3jca"
+          }
         }
       },
       "fields": {

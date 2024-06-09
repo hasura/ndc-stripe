@@ -6,7 +6,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "none",
             "value": "off"
           }
         },
@@ -15,7 +15,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "none",
             "value": "off"
           }
         },
@@ -31,7 +31,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "none",
             "value": "off"
           }
         },
@@ -39,7 +39,7 @@
           "available": true,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "off",
             "value": "on"
           }
         },
@@ -50,7 +50,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -58,7 +58,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -67,7 +67,7 @@
           "available": true,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "none",
             "value": "on"
           }
         },
@@ -75,7 +75,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -99,7 +99,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -116,17 +116,17 @@
           "available": true,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "on",
             "value": "on"
           }
         },
         "grabpay": null,
-        "id": "InVFZ74QJI",
+        "id": "c42gIpdZjN",
         "ideal": {
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "none",
             "value": "off"
           }
         },
@@ -136,7 +136,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -145,19 +145,19 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "off",
             "value": "off"
           }
         },
         "livemode": false,
-        "name": "OF59vLNIXu",
+        "name": "YZr4LcCMje",
         "object": "payment_method_configuration",
         "oxxo": null,
         "p24": {
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "none",
+            "preference": "on",
             "value": "off"
           }
         },
@@ -170,7 +170,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -178,7 +178,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -186,7 +186,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "on",
+            "preference": "off",
             "value": "off"
           }
         },
@@ -194,7 +194,7 @@
           "available": false,
           "display_preference": {
             "overridable": null,
-            "preference": "off",
+            "preference": "on",
             "value": "off"
           }
         }

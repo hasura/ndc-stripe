@@ -5,14 +5,16 @@
       "type": "procedure",
       "name": "DeleteSubscriptionsSubscriptionExposedId",
       "arguments": {
-        "cancellation_details": {
-          "comment": null,
-          "feedback": ""
+        "body": {
+          "cancellation_details": {
+            "comment": "r7aLbUs2jq",
+            "feedback": "customer_service"
+          },
+          "expand": ["SmftjQXtu2"],
+          "invoice_now": true,
+          "prorate": false
         },
-        "expand": ["customer"],
-        "invoice_now": false,
-        "prorate": false,
-        "subscription_exposed_id": "3gOLKgmJ21"
+        "subscription_exposed_id": "9GUGj0pxnB"
       },
       "fields": {
         "fields": {

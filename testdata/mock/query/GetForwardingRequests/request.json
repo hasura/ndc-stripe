@@ -1,0 +1,183 @@
+{
+  "arguments": {
+    "created": {
+      "type": "literal",
+      "value": {
+        "gt": 1583260778,
+        "gte": 554983468,
+        "lt": 1336115260,
+        "lte": 1599828351
+      }
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "n4wXdLZ8oc"
+    },
+    "expand": {
+      "type": "literal",
+      "value": ["NmTm6vWqh3"]
+    },
+    "limit": {
+      "type": "literal",
+      "value": 353194758
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "qSUboVkbhf"
+    }
+  },
+  "collection": "GetForwardingRequests",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "payment_method": {
+                      "column": "payment_method",
+                      "type": "column"
+                    },
+                    "replacements": {
+                      "column": "replacements",
+                      "type": "column"
+                    },
+                    "request_context": {
+                      "column": "request_context",
+                      "fields": {
+                        "fields": {
+                          "destination_duration": {
+                            "column": "destination_duration",
+                            "type": "column"
+                          },
+                          "destination_ip_address": {
+                            "column": "destination_ip_address",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "request_details": {
+                      "column": "request_details",
+                      "fields": {
+                        "fields": {
+                          "body": {
+                            "column": "body",
+                            "type": "column"
+                          },
+                          "headers": {
+                            "column": "headers",
+                            "fields": {
+                              "fields": {
+                                "fields": {
+                                  "name": {
+                                    "column": "name",
+                                    "type": "column"
+                                  },
+                                  "value": {
+                                    "column": "value",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "type": "column"
+                          },
+                          "http_method": {
+                            "column": "http_method",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "response_details": {
+                      "column": "response_details",
+                      "fields": {
+                        "fields": {
+                          "body": {
+                            "column": "body",
+                            "type": "column"
+                          },
+                          "headers": {
+                            "column": "headers",
+                            "fields": {
+                              "fields": {
+                                "fields": {
+                                  "name": {
+                                    "column": "name",
+                                    "type": "column"
+                                  },
+                                  "value": {
+                                    "column": "value",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "type": "column"
+                          },
+                          "status": {
+                            "column": "status",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "url": {
+                      "column": "url",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

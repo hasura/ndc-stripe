@@ -4,25 +4,25 @@
       "result": {
         "billing": {
           "address": {
-            "city": "wfhtKE1LWh",
-            "country": "C7h5Xo77UQ",
-            "line1": "UrgjTk2ZdK",
-            "line2": "NvsiCJQ0rw",
-            "postal_code": "ykqsriptHP",
-            "state": "u44k4vBapm"
+            "city": "ERcOqiDiHM",
+            "country": "IVknwb7wQj",
+            "line1": "ChAxX0t9Zh",
+            "line2": "4d38KQ1vKC",
+            "postal_code": "JJ7RXMQJms",
+            "state": "7rkPoclL6m"
           }
         },
         "company": null,
         "created": 1234567890,
-        "email": "4k0aEkJ0QS",
-        "id": "7qsbavqCeB",
+        "email": "I0SfsuyhAs",
+        "id": "maTXoPUU09",
         "individual": null,
         "livemode": false,
         "metadata": {},
         "name": "Jenny Rosen",
         "object": "issuing.cardholder",
-        "phone_number": "6XwPgiaP6S",
-        "preferred_locales": ["de"],
+        "phone_number": "OFldi7IhjV",
+        "preferred_locales": ["it"],
         "requirements": { "disabled_reason": null, "past_due": [] },
         "spending_controls": {
           "allowed_categories": [],

@@ -8,8 +8,8 @@
         "cancellation_reason": null,
         "client_secret": "seti_1OPoutJN5vQBdWExijPulwWI_secret_PEHTJ4I4FBJxR6sDa0HTdK98RaYgSSc",
         "created": 1234567890,
-        "customer": "gSPWsb1g21",
-        "description": "xfDduShTcv",
+        "customer": "QQYdCeFvQY",
+        "description": "ZDBafjSpg3",
         "flow_directions": ["outbound"],
         "last_setup_error": null,
         "latest_attempt": null,
@@ -19,7 +19,7 @@
         "next_action": null,
         "object": "setup_intent",
         "on_behalf_of": null,
-        "payment_method": "sbX83aGPMk",
+        "payment_method": "X5ATKogSjW",
         "payment_method_configuration_details": null,
         "payment_method_options": {
           "acss_debit": null,
@@ -29,7 +29,7 @@
           "sepa_debit": null,
           "us_bank_account": null
         },
-        "payment_method_types": ["rZQ94mI2KM"],
+        "payment_method_types": ["VGIHEknIeu"],
         "single_use_mandate": null,
         "status": "requires_payment_method",
         "usage": "off_session"

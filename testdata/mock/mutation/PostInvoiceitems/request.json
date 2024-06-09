@@ -5,34 +5,42 @@
       "type": "procedure",
       "name": "PostInvoiceitems",
       "arguments": {
-        "amount": 243424112,
-        "currency": "ncBLC6zLzx",
-        "customer": "u8nAq0PbVs",
-        "description": "WWkM9N3Kd3",
-        "discountable": false,
-        "discounts": null,
-        "expand": ["pKwZjObuYl"],
-        "invoice": "ai0LLiISte",
-        "metadata": null,
-        "period": {
-          "end": 1010797144,
-          "start": 1117050625
-        },
-        "price": "duMnEeYNSm",
-        "price_data": {
-          "currency": "2bMgYyV1Pe",
-          "product": "mfig4YD9Xw",
+        "body": {
+          "amount": 352477877,
+          "currency": "tLIicQNU2h",
+          "customer": "opLOXi13Dn",
+          "description": "LSw7XR2kSy",
+          "discountable": false,
+          "discounts": [
+            {
+              "coupon": "PB81tZuzGe",
+              "discount": "NvfK0Qg0v6",
+              "promotion_code": "9yrQPB40Nb"
+            }
+          ],
+          "expand": ["gnAiLDlGlW"],
+          "invoice": "1kkj1rI5Xi",
+          "metadata": null,
+          "period": {
+            "end": 1349303058,
+            "start": 1845223391
+          },
+          "price": "7LeZ3XxuKG",
+          "price_data": {
+            "currency": "fo4zOfY6iY",
+            "product": "nvikud2YSA",
+            "tax_behavior": "unspecified",
+            "unit_amount": 1096932601,
+            "unit_amount_decimal": "9DCzH9q9XF"
+          },
+          "quantity": 598389401,
+          "subscription": "hBZX75PPcL",
           "tax_behavior": "unspecified",
-          "unit_amount": 397063451,
-          "unit_amount_decimal": "dpQABXuxqG"
-        },
-        "quantity": 1033909266,
-        "subscription": "L1NF7RGry2",
-        "tax_behavior": "unspecified",
-        "tax_code": null,
-        "tax_rates": ["evyRfg3KeP"],
-        "unit_amount": 1585784468,
-        "unit_amount_decimal": "zs2JZzzoy3"
+          "tax_code": "qCEPHgR8BA",
+          "tax_rates": ["fEXDguoL0E"],
+          "unit_amount": 639473157,
+          "unit_amount_decimal": "zQcF0v2y8x"
+        }
       },
       "fields": {
         "fields": {

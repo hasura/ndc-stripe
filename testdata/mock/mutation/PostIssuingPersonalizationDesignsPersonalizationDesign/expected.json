@@ -2,17 +2,17 @@
   "operation_results": [
     {
       "result": {
-        "card_logo": null,
+        "card_logo": "B9yAQvGAkr",
         "carrier_text": null,
         "created": 1234567890,
-        "id": "OjDPr8B2Jd",
+        "id": "zWJPcNzdvq",
         "livemode": false,
-        "lookup_key": "my_card_design_lookup_key",
+        "lookup_key": "c7VbZWYRaJ",
         "metadata": {},
-        "name": "My Card Design V1",
+        "name": "cOBfo3ayQc",
         "object": "issuing.personalization_design",
-        "physical_bundle": "piUVKHZtwJ",
-        "preferences": { "is_default": true, "is_platform_default": null },
+        "physical_bundle": "LeMxab32UK",
+        "preferences": { "is_default": false, "is_platform_default": null },
         "rejection_reasons": { "card_logo": [], "carrier_text": [] },
         "status": "review"
       },

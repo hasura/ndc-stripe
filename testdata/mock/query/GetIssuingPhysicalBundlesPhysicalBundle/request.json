@@ -2,9 +2,7 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": [
-        "dK62WdWMPs"
-      ]
+      "value": ["dK62WdWMPs"]
     },
     "physical_bundle": {
       "type": "literal",
@@ -19,31 +17,6 @@
         "column": "__value",
         "fields": {
           "fields": {
-            "features": {
-              "column": "features",
-              "fields": {
-                "fields": {
-                  "card_logo": {
-                    "column": "card_logo",
-                    "type": "column"
-                  },
-                  "carrier_text": {
-                    "column": "carrier_text",
-                    "type": "column"
-                  },
-                  "second_line": {
-                    "column": "second_line",
-                    "type": "column"
-                  }
-                },
-                "type": "object"
-              },
-              "type": "column"
-            },
-            "id": {
-              "column": "id",
-              "type": "column"
-            },
             "livemode": {
               "column": "livemode",
               "type": "column"

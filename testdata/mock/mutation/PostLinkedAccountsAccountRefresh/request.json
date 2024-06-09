@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostLinkedAccountsAccountRefresh",
       "arguments": {
-        "account": "ZjIuR6dHNO",
-        "expand": ["f4BZXqxkEO"],
-        "features": ["ownership"]
+        "account": "Fd2aD4GHCD",
+        "body": {
+          "expand": ["balance"],
+          "features": ["balance"]
+        }
       },
       "fields": {
         "fields": {

@@ -1,0 +1,99 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "pRE7CttgLz"
+    },
+    "end_time": {
+      "type": "literal",
+      "value": 2029718194
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "oGp3OOG8w3"
+    },
+    "expand": {
+      "type": "literal",
+      "value": []
+    },
+    "id": {
+      "type": "literal",
+      "value": "2Z2L349Q0a"
+    },
+    "limit": {
+      "type": "literal",
+      "value": 1518667717
+    },
+    "start_time": {
+      "type": "literal",
+      "value": 1196098555
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "c5GZGLYGCt"
+    },
+    "value_grouping_window": {
+      "type": "literal",
+      "value": "hour"
+    }
+  },
+  "collection": "GetBillingMetersIdEventSummaries",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "aggregated_value": {
+                      "column": "aggregated_value",
+                      "type": "column"
+                    },
+                    "end_time": {
+                      "column": "end_time",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "meter": {
+                      "column": "meter",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "start_time": {
+                      "column": "start_time",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

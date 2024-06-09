@@ -2,7 +2,7 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1467389698,
+        "amount": 1503852306,
         "amount_capturable": 0,
         "amount_details": { "tip": { "amount": null } },
         "amount_received": 0,
@@ -15,7 +15,7 @@
         "client_secret": "pi_1OPougJN5vQBdWEx8s2Dj0YR_secret_XeXo8Ee1ITOJzjVWEtPoWG5ha",
         "confirmation_method": "automatic",
         "created": 1234567890,
-        "currency": "ob04yIEDo5",
+        "currency": "5nAe9QA9L4",
         "customer": null,
         "description": null,
         "invoice": null,

@@ -25,7 +25,9 @@
                   "email": null,
                   "name": null
                 },
-                "type": "us_bank_account"
+                "financial_account": null,
+                "type": "us_bank_account",
+                "us_bank_account": null
               },
               "end_user_details": {
                 "ip_address": null,
@@ -47,6 +49,7 @@
                 "posted_at": null,
                 "returned_at": null
               },
+              "tracking_details": null,
               "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
             }
           ],

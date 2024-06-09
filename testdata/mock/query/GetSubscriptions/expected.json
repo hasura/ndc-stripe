@@ -7,7 +7,10 @@
             {
               "application": null,
               "application_fee_percent": null,
-              "automatic_tax": { "enabled": false, "liability": null },
+              "automatic_tax": {
+                "enabled": false,
+                "liability": null
+              },
               "billing_cycle_anchor": 1234567890,
               "billing_cycle_anchor_config": null,
               "billing_thresholds": null,
@@ -31,14 +34,76 @@
               "default_tax_rates": [],
               "description": null,
               "discount": null,
+              "discounts": [
+                {
+                  "checkout_session": null,
+                  "coupon": {
+                    "amount_off": null,
+                    "created": 1028554472,
+                    "currency": null,
+                    "duration": "forever",
+                    "duration_in_months": null,
+                    "id": "obj_123",
+                    "livemode": true,
+                    "max_redemptions": null,
+                    "metadata": null,
+                    "name": null,
+                    "object": "coupon",
+                    "percent_off": null,
+                    "redeem_by": null,
+                    "times_redeemed": 990066668,
+                    "valid": true
+                  },
+                  "customer": null,
+                  "end": null,
+                  "id": "obj_123",
+                  "invoice": null,
+                  "invoice_item": null,
+                  "object": "discount",
+                  "promotion_code": null,
+                  "start": 109757538,
+                  "subscription": null,
+                  "subscription_item": null
+                }
+              ],
               "ended_at": 1234567890,
-              "id": "sub_1OPouiJN5vQBdWExOgfg6t5C",
               "items": {
                 "data": [
                   {
                     "billing_thresholds": null,
                     "created": 1703175363,
-                    "id": "si_PEHTIbRiA7RW9V",
+                    "discounts": [
+                      {
+                        "checkout_session": null,
+                        "coupon": {
+                          "amount_off": null,
+                          "created": 1028554472,
+                          "currency": null,
+                          "duration": "forever",
+                          "duration_in_months": null,
+                          "id": "obj_123",
+                          "livemode": true,
+                          "max_redemptions": null,
+                          "metadata": null,
+                          "name": null,
+                          "object": "coupon",
+                          "percent_off": null,
+                          "redeem_by": null,
+                          "times_redeemed": 990066668,
+                          "valid": true
+                        },
+                        "customer": null,
+                        "end": null,
+                        "id": "obj_123",
+                        "invoice": null,
+                        "invoice_item": null,
+                        "object": "discount",
+                        "promotion_code": null,
+                        "start": 109757538,
+                        "subscription": null,
+                        "subscription_item": null
+                      }
+                    ],
                     "metadata": {},
                     "object": "subscription_item",
                     "price": {
@@ -48,7 +113,6 @@
                       "currency": "usd",
                       "currency_options": null,
                       "custom_unit_amount": null,
-                      "id": "price_1OPouiJN5vQBdWExAQaqTooZ",
                       "livemode": false,
                       "lookup_key": null,
                       "metadata": {},
@@ -59,6 +123,7 @@
                         "aggregate_usage": null,
                         "interval": "month",
                         "interval_count": 1,
+                        "meter": null,
                         "usage_type": "licensed"
                       },
                       "tax_behavior": "unspecified",
@@ -100,7 +165,9 @@
               "transfer_data": null,
               "trial_end": 1234567890,
               "trial_settings": {
-                "end_behavior": { "missing_payment_method": "create_invoice" }
+                "end_behavior": {
+                  "missing_payment_method": "create_invoice"
+                }
               },
               "trial_start": 1234567890
             }

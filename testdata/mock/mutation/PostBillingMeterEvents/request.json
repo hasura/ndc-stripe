@@ -1,0 +1,53 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostBillingMeterEvents",
+      "arguments": {
+        "body": {
+          "event_name": "k8hAOi2B52",
+          "identifier": "iQLmkWhHpY",
+          "payload": {
+            "value": "25",
+            "stripe_customer_id": "cus_NciAYcXfLnqBoz"
+          },
+          "timestamp": 931468280
+        }
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "event_name": {
+            "column": "event_name",
+            "type": "column"
+          },
+          "identifier": {
+            "column": "identifier",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "payload": {
+            "column": "payload",
+            "type": "column"
+          },
+          "timestamp": {
+            "column": "timestamp",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

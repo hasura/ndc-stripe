@@ -5,35 +5,35 @@
         "active": true,
         "application": null,
         "business_profile": {
-          "headline": null,
-          "privacy_policy_url": "oHRIKYH7Xh",
-          "terms_of_service_url": "l1i7X4v4Mn"
+          "headline": "anG08gZXfL",
+          "privacy_policy_url": "HI5v0P4k4p",
+          "terms_of_service_url": "8Yqn11SpLL"
         },
         "created": 1234567890,
-        "default_return_url": null,
+        "default_return_url": "LV2oDtAtQ9",
         "features": {
           "customer_update": {
-            "allowed_updates": ["email", "tax_id"],
-            "enabled": false
+            "allowed_updates": ["shipping"],
+            "enabled": true
           },
-          "invoice_history": { "enabled": true },
+          "invoice_history": { "enabled": false },
           "payment_method_update": { "enabled": false },
           "subscription_cancel": {
-            "cancellation_reason": { "enabled": true, "options": [] },
+            "cancellation_reason": { "enabled": true, "options": ["other"] },
             "enabled": false,
-            "mode": "immediately",
-            "proration_behavior": "create_prorations"
+            "mode": "at_period_end",
+            "proration_behavior": "always_invoice"
           },
           "subscription_update": {
-            "default_allowed_updates": [],
-            "enabled": false,
+            "default_allowed_updates": ["promotion_code"],
+            "enabled": true,
             "products": null,
-            "proration_behavior": "create_prorations"
+            "proration_behavior": "always_invoice"
           }
         },
         "is_default": true,
         "livemode": true,
-        "login_page": { "enabled": false, "url": null },
+        "login_page": { "enabled": true, "url": null },
         "metadata": null,
         "object": "billing_portal.configuration",
         "updated": 1234567890

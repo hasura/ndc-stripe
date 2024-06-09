@@ -5,7 +5,11 @@
       "type": "procedure",
       "name": "PostTreasuryCreditReversals",
       "arguments": {
-        "received_credit": "dLjU9V2Nv9"
+        "body": {
+          "expand": [],
+          "metadata": null,
+          "received_credit": "8YDI8LExIe"
+        }
       },
       "fields": {
         "fields": {

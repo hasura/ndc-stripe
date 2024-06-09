@@ -2,12 +2,12 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1075,
+        "amount": 1819298113,
         "amount_captured": 0,
         "amount_refunded": 0,
         "application": null,
         "application_fee": null,
-        "application_fee_amount": 17802,
+        "application_fee_amount": 706251098,
         "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
         "billing_details": {
           "address": {
@@ -25,9 +25,9 @@
         "calculated_statement_descriptor": null,
         "captured": false,
         "created": 1234567890,
-        "currency": "jUBFdYI9hy",
-        "customer": "JAiDgjX0IH",
-        "description": "GqgS5fCM5T",
+        "currency": "0VRWTeVGiI",
+        "customer": "We0letKrpT",
+        "description": "nLf2EfRBym",
         "disputed": false,
         "failure_balance_transaction": null,
         "failure_code": null,
@@ -37,7 +37,7 @@
         "livemode": false,
         "metadata": {},
         "object": "charge",
-        "on_behalf_of": "L0R2eYN1Rl",
+        "on_behalf_of": "FN4WFYQaDO",
         "outcome": null,
         "paid": true,
         "payment_intent": null,
@@ -74,7 +74,7 @@
           "type": "card"
         },
         "radar_options": null,
-        "receipt_email": "wWHK6Soxqt",
+        "receipt_email": "GXrqW6zk4b",
         "receipt_number": null,
         "receipt_url": "https://pakrym-manage-mydev.dev.stripe.me/receipts/payment/CAcaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KL3JkawGMgZvNmQ3SW46LCKn_twcP-jc9phNH9BfAtUKJcNs5Gy9n0cn7wNp9IWz2coUhEmAKuyETwtJ",
         "refunded": false,
@@ -143,12 +143,12 @@
         "review": null,
         "shipping": null,
         "source_transfer": null,
-        "statement_descriptor": "1K8qRHmSXi",
-        "statement_descriptor_suffix": "iH5BvV8EkG",
+        "statement_descriptor": "UKqyFLtf6x",
+        "statement_descriptor_suffix": "zVsZgrgL2E",
         "status": "succeeded",
         "transfer": null,
         "transfer_data": null,
-        "transfer_group": "KmLCQtgMV4"
+        "transfer_group": "x06JUN8Ya4"
       },
       "type": "procedure"
     }

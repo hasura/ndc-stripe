@@ -1,11 +1,10 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "amount_total": 1947,
-        "currency": "h0leXfd4Rz",
-        "customer": "Lkceb8R7Kt",
+        "currency": "CYxUsAzz5k",
+        "customer": "M3E34bw4v7",
         "customer_details": {
           "address": {
             "city": "South San Francisco",
@@ -15,8 +14,8 @@
             "postal_code": "94080",
             "state": "CA"
           },
-          "address_source": "shipping",
-          "ip_address": "Abx4fLH61X",
+          "address_source": "billing",
+          "ip_address": "rVY94CfBjy",
           "tax_ids": [],
           "taxability_override": "customer_exempt"
         },
@@ -79,8 +78,9 @@
             "taxable_amount": 0
           }
         ],
-        "tax_date": 1032978067
-      }
+        "tax_date": 1951426810
+      },
+      "type": "procedure"
     }
   ]
 }

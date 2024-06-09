@@ -160,19 +160,6 @@
                             },
                             "type": "column"
                           },
-                          "subscription_pause": {
-                            "column": "subscription_pause",
-                            "fields": {
-                              "fields": {
-                                "enabled": {
-                                  "column": "enabled",
-                                  "type": "column"
-                                }
-                              },
-                              "type": "object"
-                            },
-                            "type": "column"
-                          },
                           "subscription_update": {
                             "column": "subscription_update",
                             "fields": {

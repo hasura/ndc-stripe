@@ -1,0 +1,15 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "active": false,
+        "livemode": true,
+        "lookup_key": "lookup_key",
+        "metadata": { "undefined": "metadata" },
+        "name": "j496CxsdrO",
+        "object": "entitlements.feature"
+      },
+      "type": "procedure"
+    }
+  ]
+}

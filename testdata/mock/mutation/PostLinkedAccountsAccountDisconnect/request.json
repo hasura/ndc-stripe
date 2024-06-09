@@ -5,8 +5,10 @@
       "type": "procedure",
       "name": "PostLinkedAccountsAccountDisconnect",
       "arguments": {
-        "account": "sVWk4qTNiy",
-        "expand": ["balance"]
+        "account": "jX7VAXrzFb",
+        "body": {
+          "expand": ["balance"]
+        }
       },
       "fields": {
         "fields": {

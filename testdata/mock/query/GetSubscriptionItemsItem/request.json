@@ -2,9 +2,7 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": [
-        "QLvbiA5uci"
-      ]
+      "value": ["QLvbiA5uci"]
     },
     "item": {
       "type": "literal",
@@ -21,10 +19,23 @@
           "fields": {
             "billing_thresholds": {
               "column": "billing_thresholds",
+              "fields": {
+                "fields": {
+                  "usage_gte": {
+                    "column": "usage_gte",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "created": {
               "column": "created",
+              "type": "column"
+            },
+            "discounts": {
+              "column": "discounts",
               "type": "column"
             },
             "id": {
@@ -65,6 +76,23 @@
                   },
                   "custom_unit_amount": {
                     "column": "custom_unit_amount",
+                    "fields": {
+                      "fields": {
+                        "maximum": {
+                          "column": "maximum",
+                          "type": "column"
+                        },
+                        "minimum": {
+                          "column": "minimum",
+                          "type": "column"
+                        },
+                        "preset": {
+                          "column": "preset",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
                     "type": "column"
                   },
                   "id": {
@@ -97,6 +125,31 @@
                   },
                   "recurring": {
                     "column": "recurring",
+                    "fields": {
+                      "fields": {
+                        "aggregate_usage": {
+                          "column": "aggregate_usage",
+                          "type": "column"
+                        },
+                        "interval": {
+                          "column": "interval",
+                          "type": "column"
+                        },
+                        "interval_count": {
+                          "column": "interval_count",
+                          "type": "column"
+                        },
+                        "meter": {
+                          "column": "meter",
+                          "type": "column"
+                        },
+                        "usage_type": {
+                          "column": "usage_type",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
                     "type": "column"
                   },
                   "tax_behavior": {
@@ -141,6 +194,19 @@
                   },
                   "transform_quantity": {
                     "column": "transform_quantity",
+                    "fields": {
+                      "fields": {
+                        "divide_by": {
+                          "column": "divide_by",
+                          "type": "column"
+                        },
+                        "round": {
+                          "column": "round",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
                     "type": "column"
                   },
                   "type": {

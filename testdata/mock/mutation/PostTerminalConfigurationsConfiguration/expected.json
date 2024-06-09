@@ -1,0 +1,22 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "bbpos_wisepos_e": {
+          "splashscreen": "file_1OPouuJN5vQBdWExsQRSvk0Q"
+        },
+        "deleted": null,
+        "id": "OqNxd6YMS0",
+        "is_account_default": false,
+        "livemode": false,
+        "name": null,
+        "object": "terminal.configuration",
+        "offline": null,
+        "stripe_s700": null,
+        "tipping": null,
+        "verifone_p400": null
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@
         "application": null,
         "attach_to_self": null,
         "automatic_payment_methods": null,
-        "cancellation_reason": "requested_by_customer",
+        "cancellation_reason": "abandoned",
         "client_secret": "seti_1OPoutJN5vQBdWExijPulwWI_secret_PEHTJ4I4FBJxR6sDa0HTdK98RaYgSSc",
         "created": 1234567890,
         "customer": null,

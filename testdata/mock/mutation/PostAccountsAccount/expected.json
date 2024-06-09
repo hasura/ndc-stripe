@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "business_profile": {
           "annual_revenue": null,
@@ -15,7 +14,7 @@
           "support_url": null,
           "url": null
         },
-        "business_type": "company",
+        "business_type": "individual",
         "capabilities": {
           "acss_debit_payments": null,
           "affirm_payments": null,
@@ -60,15 +59,12 @@
         },
         "charges_enabled": false,
         "company": null,
-        "controller": {
-          "is_controller": null,
-          "type": "account"
-        },
+        "controller": { "is_controller": null, "type": "account" },
         "country": "US",
         "created": 1234567890,
-        "default_currency": "eIJkhJgiHH",
+        "default_currency": "6qXwzH3u0A",
         "details_submitted": false,
-        "email": "wD19bLHiNY",
+        "email": "Y5dP9sV9E9",
         "external_accounts": {
           "data": [
             {
@@ -90,7 +86,7 @@
           ],
           "has_more": false,
           "object": "list",
-          "url": "/v1/accounts/H5WLkoDMBd/external_accounts"
+          "url": "/v1/accounts/vFaBU9cWPy/external_accounts"
         },
         "future_requirements": {
           "alternatives": [],
@@ -102,7 +98,7 @@
           "past_due": [],
           "pending_verification": []
         },
-        "id": "H5WLkoDMBd",
+        "id": "vFaBU9cWPy",
         "individual": null,
         "metadata": {},
         "object": "account",
@@ -142,28 +138,15 @@
             "primary_color": null,
             "secondary_color": null
           },
-          "card_issuing": {
-            "tos_acceptance": {
-              "date": null,
-              "ip": null
-            }
-          },
+          "card_issuing": { "tos_acceptance": { "date": null, "ip": null } },
           "card_payments": {
-            "decline_on": {
-              "avs_failure": true,
-              "cvc_failure": true
-            },
+            "decline_on": { "avs_failure": true, "cvc_failure": true },
             "statement_descriptor_prefix": null,
             "statement_descriptor_prefix_kana": null,
             "statement_descriptor_prefix_kanji": null
           },
-          "dashboard": {
-            "display_name": null,
-            "timezone": "Etc/UTC"
-          },
-          "invoices": {
-            "default_account_tax_ids": null
-          },
+          "dashboard": { "display_name": null, "timezone": "Etc/UTC" },
+          "invoices": { "default_account_tax_ids": null },
           "payments": {
             "statement_descriptor": null,
             "statement_descriptor_kana": null,
@@ -173,22 +156,20 @@
           },
           "payouts": {
             "debit_negative_balances": true,
-            "schedule": {
-              "delay_days": 2,
-              "interval": "daily"
-            },
+            "schedule": { "delay_days": 2, "interval": "daily" },
             "statement_descriptor": null
           },
           "sepa_debit_payments": {}
         },
         "tos_acceptance": {
-          "date": 2684,
-          "ip": "YL6U8Cw5Jt",
+          "date": 1385989229,
+          "ip": "VqEy7gXIse",
           "service_agreement": null,
-          "user_agent": "ykJjydrlCL"
+          "user_agent": "zDzdLBPwgD"
         },
         "type": "standard"
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

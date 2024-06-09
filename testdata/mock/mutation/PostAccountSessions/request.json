@@ -5,44 +5,74 @@
       "type": "procedure",
       "name": "PostAccountSessions",
       "arguments": {
-        "account": "Q6Frj3GVbu",
-        "components": {
-          "account_onboarding": {
-            "enabled": false
-          },
-          "documents": {
-            "enabled": false
-          },
-          "payment_details": {
-            "enabled": false,
-            "features": {
-              "capture_payments": true,
-              "destination_on_behalf_of_charge_management": true,
-              "dispute_management": false,
-              "refund_management": true
+        "body": {
+          "account": "u3z6nbYHBx",
+          "components": {
+            "account_management": {
+              "enabled": false,
+              "features": {
+                "external_account_collection": true
+              }
+            },
+            "account_onboarding": {
+              "enabled": false,
+              "features": {
+                "external_account_collection": false
+              }
+            },
+            "balances": {
+              "enabled": true,
+              "features": {
+                "edit_payout_schedule": false,
+                "external_account_collection": true,
+                "instant_payouts": false,
+                "standard_payouts": true
+              }
+            },
+            "documents": {
+              "enabled": true,
+              "features": null
+            },
+            "notification_banner": {
+              "enabled": false,
+              "features": {
+                "external_account_collection": true
+              }
+            },
+            "payment_details": {
+              "enabled": false,
+              "features": {
+                "capture_payments": true,
+                "destination_on_behalf_of_charge_management": false,
+                "dispute_management": true,
+                "refund_management": false
+              }
+            },
+            "payments": {
+              "enabled": false,
+              "features": {
+                "capture_payments": true,
+                "destination_on_behalf_of_charge_management": true,
+                "dispute_management": false,
+                "refund_management": true
+              }
+            },
+            "payouts": {
+              "enabled": true,
+              "features": {
+                "edit_payout_schedule": false,
+                "external_account_collection": false,
+                "instant_payouts": true,
+                "standard_payouts": false
+              }
+            },
+            "payouts_list": {
+              "enabled": true,
+              "features": null
             }
           },
-          "payments": {
-            "enabled": false,
-            "features": {
-              "capture_payments": true,
-              "destination_on_behalf_of_charge_management": false,
-              "dispute_management": false,
-              "refund_management": true
-            }
-          },
-          "payouts": {
-            "enabled": true,
-            "features": {
-              "edit_payout_schedule": false,
-              "instant_payouts": true,
-              "standard_payouts": false
-            }
-          }
-        },
-        "expand": [
-          "HNo1S6ZOX8"
-        ]
+          "expand": []
+        }
       },
       "fields": {
         "fields": {

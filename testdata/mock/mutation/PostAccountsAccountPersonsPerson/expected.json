@@ -2,17 +2,21 @@
   "operation_results": [
     {
       "result": {
-        "account": "UZ2jRdzvJl",
+        "account": "RITV0ieecD",
         "additional_tos_acceptances": {
-          "account": { "date": 7450, "ip": "qJzr3uTP6v", "user_agent": null }
+          "account": {
+            "date": 505094360,
+            "ip": "NNCuXQZV63",
+            "user_agent": "oaUpwt4RvL"
+          }
         },
         "address": null,
         "address_kana": null,
         "address_kanji": null,
         "created": 1234567890,
-        "dob": { "day": null, "month": null, "year": null },
+        "dob": { "day": 1702721472, "month": 1189070135, "year": 579485788 },
         "email": null,
-        "first_name": "qER3aYXFgG",
+        "first_name": "cnuBRn2fpG",
         "first_name_kana": null,
         "first_name_kanji": null,
         "full_name_aliases": null,
@@ -25,10 +29,10 @@
           "pending_verification": []
         },
         "gender": null,
-        "id": "ljIC35JUNx",
+        "id": "j63qBJhV6E",
         "id_number_provided": false,
         "id_number_secondary_provided": null,
-        "last_name": "eCfpNC2RON",
+        "last_name": "0ECljoz2kO",
         "last_name_kana": null,
         "last_name_kanji": null,
         "maiden_name": null,
@@ -39,13 +43,13 @@
         "political_exposure": null,
         "registered_address": null,
         "relationship": {
-          "director": true,
-          "executive": false,
+          "director": false,
+          "executive": true,
           "legal_guardian": true,
-          "owner": true,
-          "percent_ownership": null,
-          "representative": true,
-          "title": "EHc4VxuI8D"
+          "owner": false,
+          "percent_ownership": 1.198502,
+          "representative": false,
+          "title": "9lncJki7Qc"
         },
         "requirements": {
           "alternatives": [],
@@ -66,10 +70,10 @@
           "details": null,
           "details_code": null,
           "document": {
-            "back": "nuIcj0vra0",
+            "back": "ygOgrnXo5n",
             "details": null,
             "details_code": null,
-            "front": "mhr38WZPMW"
+            "front": "HKwgRxPI8U"
           },
           "status": "unverified"
         }

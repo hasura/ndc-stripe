@@ -1,14 +1,10 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "application": null,
         "application_fee_percent": null,
-        "automatic_tax": {
-          "enabled": false,
-          "liability": null
-        },
+        "automatic_tax": { "enabled": false, "liability": null },
         "billing_cycle_anchor": 1234567890,
         "billing_cycle_anchor_config": null,
         "billing_thresholds": null,
@@ -25,35 +21,7 @@
         "currency": "usd",
         "current_period_end": 1234567890,
         "current_period_start": 1234567890,
-        "customer": {
-          "address": null,
-          "balance": 0,
-          "created": 1234567890,
-          "currency": "usd",
-          "default_source": null,
-          "delinquent": false,
-          "description": null,
-          "discount": null,
-          "email": null,
-          "id": "cus_PEHTtYpY7elppN",
-          "invoice_prefix": "B4749BD",
-          "invoice_settings": {
-            "custom_fields": null,
-            "default_payment_method": null,
-            "footer": null,
-            "rendering_options": null
-          },
-          "livemode": false,
-          "metadata": {},
-          "name": null,
-          "next_invoice_sequence": 1,
-          "object": "customer",
-          "phone": null,
-          "preferred_locales": [],
-          "shipping": null,
-          "tax_exempt": "none",
-          "test_clock": null
-        },
+        "customer": "cus_PEHTIoPSgT0tXQ",
         "days_until_due": null,
         "default_payment_method": null,
         "default_source": null,
@@ -61,7 +29,7 @@
         "description": null,
         "discount": null,
         "ended_at": 1234567890,
-        "id": "3gOLKgmJ21",
+        "id": "9GUGj0pxnB",
         "items": {
           "data": [
             {
@@ -129,12 +97,11 @@
         "transfer_data": null,
         "trial_end": 1234567890,
         "trial_settings": {
-          "end_behavior": {
-            "missing_payment_method": "create_invoice"
-          }
+          "end_behavior": { "missing_payment_method": "create_invoice" }
         },
         "trial_start": 1234567890
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

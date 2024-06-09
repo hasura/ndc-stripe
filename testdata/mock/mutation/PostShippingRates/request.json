@@ -5,27 +5,29 @@
       "type": "procedure",
       "name": "PostShippingRates",
       "arguments": {
-        "delivery_estimate": {
-          "maximum": {
-            "unit": "month",
-            "value": 33677137
+        "body": {
+          "delivery_estimate": {
+            "maximum": {
+              "unit": "hour",
+              "value": 1414547296
+            },
+            "minimum": {
+              "unit": "business_day",
+              "value": 1606897167
+            }
           },
-          "minimum": {
-            "unit": "business_day",
-            "value": 1427055924
-          }
-        },
-        "display_name": "Dmew3pwnfr",
-        "expand": ["lHtqhoYHoc"],
-        "fixed_amount": {
-          "amount": 183544048,
-          "currency": "96XWGAgEVJ",
-          "currency_options": null
-        },
-        "metadata": null,
-        "tax_behavior": "inclusive",
-        "tax_code": "ex7KeWB6wy",
-        "type": "fixed_amount"
+          "display_name": "H92rEasQ6n",
+          "expand": ["FLpkWGXuIj"],
+          "fixed_amount": {
+            "amount": 291197997,
+            "currency": "ti2c5KRtAc",
+            "currency_options": null
+          },
+          "metadata": null,
+          "tax_behavior": "inclusive",
+          "tax_code": "pMzS69JaKE",
+          "type": "fixed_amount"
+        }
       },
       "fields": {
         "fields": {

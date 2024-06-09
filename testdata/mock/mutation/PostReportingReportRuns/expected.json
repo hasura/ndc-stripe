@@ -10,13 +10,13 @@
           "columns": null,
           "connected_account": null,
           "currency": null,
-          "interval_end": 1508019646,
-          "interval_start": 1123441130,
+          "interval_end": 1008274719,
+          "interval_start": 1728628658,
           "payout": null,
           "reporting_category": null,
           "timezone": null
         },
-        "report_type": "Am0CHzCZbR",
+        "report_type": "j4gpktV68P",
         "result": {
           "created": 1703175373,
           "expires_at": 1734711373,

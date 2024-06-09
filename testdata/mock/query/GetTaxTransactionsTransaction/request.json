@@ -2,9 +2,7 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": [
-        "bhfHaIimAs"
-      ]
+      "value": ["bhfHaIimAs"]
     },
     "transaction": {
       "type": "literal",
@@ -37,6 +35,35 @@
                 "fields": {
                   "address": {
                     "column": "address",
+                    "fields": {
+                      "fields": {
+                        "city": {
+                          "column": "city",
+                          "type": "column"
+                        },
+                        "country": {
+                          "column": "country",
+                          "type": "column"
+                        },
+                        "line1": {
+                          "column": "line1",
+                          "type": "column"
+                        },
+                        "line2": {
+                          "column": "line2",
+                          "type": "column"
+                        },
+                        "postal_code": {
+                          "column": "postal_code",
+                          "type": "column"
+                        },
+                        "state": {
+                          "column": "state",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
                     "type": "column"
                   },
                   "address_source": {
@@ -76,10 +103,6 @@
               },
               "type": "column"
             },
-            "id": {
-              "column": "id",
-              "type": "column"
-            },
             "line_items": {
               "column": "line_items",
               "fields": {
@@ -95,10 +118,6 @@
                           },
                           "amount_tax": {
                             "column": "amount_tax",
-                            "type": "column"
-                          },
-                          "id": {
-                            "column": "id",
                             "type": "column"
                           },
                           "livemode": {
@@ -127,6 +146,15 @@
                           },
                           "reversal": {
                             "column": "reversal",
+                            "fields": {
+                              "fields": {
+                                "original_line_item": {
+                                  "column": "original_line_item",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "tax_behavior": {
@@ -155,10 +183,6 @@
                   "object": {
                     "column": "object",
                     "type": "column"
-                  },
-                  "url": {
-                    "column": "url",
-                    "type": "column"
                   }
                 },
                 "type": "object"
@@ -183,10 +207,86 @@
             },
             "reversal": {
               "column": "reversal",
+              "fields": {
+                "fields": {
+                  "original_transaction": {
+                    "column": "original_transaction",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "ship_from_details": {
+              "column": "ship_from_details",
+              "fields": {
+                "fields": {
+                  "address": {
+                    "column": "address",
+                    "fields": {
+                      "fields": {
+                        "city": {
+                          "column": "city",
+                          "type": "column"
+                        },
+                        "country": {
+                          "column": "country",
+                          "type": "column"
+                        },
+                        "line1": {
+                          "column": "line1",
+                          "type": "column"
+                        },
+                        "line2": {
+                          "column": "line2",
+                          "type": "column"
+                        },
+                        "postal_code": {
+                          "column": "postal_code",
+                          "type": "column"
+                        },
+                        "state": {
+                          "column": "state",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "shipping_cost": {
               "column": "shipping_cost",
+              "fields": {
+                "fields": {
+                  "amount": {
+                    "column": "amount",
+                    "type": "column"
+                  },
+                  "amount_tax": {
+                    "column": "amount_tax",
+                    "type": "column"
+                  },
+                  "shipping_rate": {
+                    "column": "shipping_rate",
+                    "type": "column"
+                  },
+                  "tax_behavior": {
+                    "column": "tax_behavior",
+                    "type": "column"
+                  },
+                  "tax_code": {
+                    "column": "tax_code",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "tax_date": {

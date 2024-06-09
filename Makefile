@@ -1,15 +1,13 @@
-STRIPE_VERSION ?= v1027
-NDC_REST_VERSION ?= v0.1.3
+NDC_REST_VERSION ?= v0.2.0
 UID ?= $(shell id -u)
 GID ?= $(shell id -g)
 
 .PHONY: build-schema
 build-schema:
-	docker run -v ./config:/home/config -u $(UID):$(GID) --rm ghcr.io/hasura/ndc-rest:$(NDC_REST_VERSION) convert \
-		-f https://raw.githubusercontent.com/stripe/openapi/$(STRIPE_VERSION)/openapi/spec3.json \
-		--trim-prefix /v1 --spec openapi3 \
-		--env-prefix STRIPE \
-		-o /home/config/schema.json
+	go install github.com/hasura/ndc-rest-schema@$(NDC_REST_VERSION)
+	ndc-rest-schema convert \
+		-c schema/config.yaml \
+		-o config/schema.json
 
 .PHONY: update-deps
 update-deps:

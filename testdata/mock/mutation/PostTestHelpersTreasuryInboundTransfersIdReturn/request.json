@@ -5,8 +5,10 @@
       "type": "procedure",
       "name": "PostTestHelpersTreasuryInboundTransfersIdReturn",
       "arguments": {
-        "expand": ["failure_details"],
-        "id": "HtIJcE429B"
+        "body": {
+          "expand": ["failure_details"]
+        },
+        "id": "cdRWBtFNBV"
       },
       "fields": {
         "fields": {

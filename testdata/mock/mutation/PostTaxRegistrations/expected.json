@@ -3,7 +3,7 @@
     {
       "result": {
         "active_from": 1234567890,
-        "country": "xvPu1Ws6kl",
+        "country": "X5aez7mcoA",
         "country_options": {
           "ae": null,
           "at": null,
@@ -54,14 +54,14 @@
           "us": {
             "local_amusement_tax": null,
             "local_lease_tax": null,
-            "state": "NrU1ODxzMN",
+            "state": "dbR1qpRfVo",
             "type": "state_sales_tax"
           },
           "vn": null,
           "za": null
         },
         "created": 1234567890,
-        "expires_at": 1194566953,
+        "expires_at": 2042971317,
         "livemode": false,
         "object": "tax.registration",
         "status": "active"

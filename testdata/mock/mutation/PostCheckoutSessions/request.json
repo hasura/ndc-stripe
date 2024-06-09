@@ -5,364 +5,397 @@
       "type": "procedure",
       "name": "PostCheckoutSessions",
       "arguments": {
-        "after_expiration": {
-          "recovery": {
-            "allow_promotion_codes": true,
-            "enabled": false
-          }
-        },
-        "allow_promotion_codes": false,
-        "automatic_tax": {
-          "enabled": false,
-          "liability": {
-            "account": "4stHqT5Xoi",
-            "type": "account"
-          }
-        },
-        "billing_address_collection": "required",
-        "cancel_url": "BepUDhw9w9",
-        "client_reference_id": "83G1wk1f4R",
-        "consent_collection": {
-          "payment_method_reuse_agreement": {
-            "position": "auto"
-          },
-          "promotions": "auto",
-          "terms_of_service": "none"
-        },
-        "currency": "Ttam2YWnVc",
-        "custom_fields": [
-          {
-            "dropdown": {
-              "options": [
-                {
-                  "label": "ACIn5JpQvv",
-                  "value": "B5EN7qrWiE"
-                }
-              ]
-            },
-            "key": "Hg17U8oCtz",
-            "label": {
-              "custom": "1SUPKGifT2",
-              "type": "custom"
-            },
-            "numeric": {
-              "maximum_length": 861502232,
-              "minimum_length": 1424852546
-            },
-            "optional": true,
-            "text": {
-              "maximum_length": 939914322,
-              "minimum_length": 1212890770
-            },
-            "type": "dropdown"
-          }
-        ],
-        "custom_text": {
-          "after_submit": null,
-          "shipping_address": null,
-          "submit": null,
-          "terms_of_service_acceptance": null
-        },
-        "customer": "A1Mv2SmjFx",
-        "customer_creation": "if_required",
-        "customer_email": "odboXYOygp",
-        "customer_update": {
-          "address": "never",
-          "name": "auto",
-          "shipping": "auto"
-        },
-        "discounts": [
-          {
-            "coupon": "49NXPMKwl6",
-            "promotion_code": "7PL0AopNfx"
-          }
-        ],
-        "expand": ["86yldqLYdI"],
-        "expires_at": 1248318141,
-        "invoice_creation": {
-          "enabled": false,
-          "invoice_data": {
-            "account_tax_ids": null,
-            "custom_fields": null,
-            "description": "6Kyl40El8S",
-            "footer": "IDvo16Iz0B",
-            "issuer": {
-              "account": "3u9VUD5neM",
-              "type": "account"
-            },
-            "metadata": null,
-            "rendering_options": null
-          }
-        },
-        "line_items": [
-          {
-            "adjustable_quantity": {
-              "enabled": false,
-              "maximum": 1226870487,
-              "minimum": 1295621804
-            },
-            "dynamic_tax_rates": ["ASEeDhv4D4"],
-            "price": "s1RCx2w0o0",
-            "price_data": {
-              "currency": "u1zJeGToqS",
-              "product": "Mh3GFfex6R",
-              "product_data": {
-                "description": "qOlVAKPpCh",
-                "images": ["BtClYEm08v"],
-                "metadata": null,
-                "name": "EZoGYHfUGk",
-                "tax_code": "MVMesGuWGf"
-              },
-              "recurring": {
-                "interval": "year",
-                "interval_count": 316705098
-              },
-              "tax_behavior": "unspecified",
-              "unit_amount": 1277093313,
-              "unit_amount_decimal": "9ecAEWSld2"
-            },
-            "quantity": 1858332887,
-            "tax_rates": ["88nXJij3fn"]
-          }
-        ],
-        "locale": "es",
-        "metadata": null,
-        "mode": "payment",
-        "payment_intent_data": {
-          "application_fee_amount": 1821372066,
-          "capture_method": "manual",
-          "description": "yGrlma8u3u",
-          "metadata": null,
-          "on_behalf_of": "1iH6EmrIOX",
-          "receipt_email": "foBwnB84ST",
-          "setup_future_usage": "on_session",
-          "shipping": {
-            "address": {
-              "city": "Cf8K39kstH",
-              "country": "PHkg91I6LH",
-              "line1": "hYwHzUe27n",
-              "line2": "7NLqHX0dzU",
-              "postal_code": "qLQ4lla5cN",
-              "state": "vweC7AQI5y"
-            },
-            "carrier": "3dVakaJ48N",
-            "name": "L5CNSvkp2c",
-            "phone": "fUyW178hoU",
-            "tracking_number": "ZUzWje8Whm"
-          },
-          "statement_descriptor": "5G6Iq3BLXt",
-          "statement_descriptor_suffix": "eiR8OugrHE",
-          "transfer_data": {
-            "amount": 1929680517,
-            "destination": "j7Z59r4c0e"
-          },
-          "transfer_group": "H02YZ4ePeO"
-        },
-        "payment_method_collection": "always",
-        "payment_method_configuration": "4AaIGdxHuf",
-        "payment_method_options": {
-          "acss_debit": {
-            "currency": "usd",
-            "mandate_options": {
-              "custom_mandate_url": null,
-              "default_for": ["subscription"],
-              "interval_description": "7X8QeqmhKf",
-              "payment_schedule": "combined",
-              "transaction_type": "business"
-            },
-            "setup_future_usage": "on_session",
-            "verification_method": "instant"
-          },
-          "affirm": {
-            "setup_future_usage": "none"
-          },
-          "afterpay_clearpay": {
-            "setup_future_usage": "none"
-          },
-          "alipay": {
-            "setup_future_usage": "none"
-          },
-          "au_becs_debit": {
-            "setup_future_usage": "none"
-          },
-          "bacs_debit": {
-            "setup_future_usage": "on_session"
-          },
-          "bancontact": {
-            "setup_future_usage": "none"
-          },
-          "boleto": {
-            "expires_after_days": 710800986,
-            "setup_future_usage": "off_session"
-          },
-          "card": {
-            "installments": {
+        "body": {
+          "after_expiration": {
+            "recovery": {
+              "allow_promotion_codes": true,
               "enabled": true
-            },
-            "request_three_d_secure": "challenge",
-            "setup_future_usage": "off_session",
-            "statement_descriptor_suffix_kana": "NgfOKLAwpS",
-            "statement_descriptor_suffix_kanji": "JJKuuU0tD8"
-          },
-          "cashapp": {
-            "setup_future_usage": "off_session"
-          },
-          "customer_balance": {
-            "bank_transfer": {
-              "eu_bank_transfer": {
-                "country": "lpS5f5nMIy"
-              },
-              "requested_address_types": ["spei"],
-              "type": "gb_bank_transfer"
-            },
-            "funding_type": "bank_transfer",
-            "setup_future_usage": "none"
-          },
-          "eps": {
-            "setup_future_usage": "none"
-          },
-          "fpx": {
-            "setup_future_usage": "none"
-          },
-          "giropay": {
-            "setup_future_usage": "none"
-          },
-          "grabpay": {
-            "setup_future_usage": "none"
-          },
-          "ideal": {
-            "setup_future_usage": "none"
-          },
-          "klarna": {
-            "setup_future_usage": "none"
-          },
-          "konbini": {
-            "expires_after_days": 317340585,
-            "setup_future_usage": "none"
-          },
-          "link": {
-            "setup_future_usage": "off_session"
-          },
-          "oxxo": {
-            "expires_after_days": 1204694251,
-            "setup_future_usage": "none"
-          },
-          "p24": {
-            "setup_future_usage": "none",
-            "tos_shown_and_accepted": false
-          },
-          "paynow": {
-            "setup_future_usage": "none"
-          },
-          "paypal": {
-            "capture_method": "manual",
-            "preferred_locale": "nl-BE",
-            "reference": "hKQpUxxYMF",
-            "risk_correlation_id": "23LaSpBav5",
-            "setup_future_usage": "off_session"
-          },
-          "pix": {
-            "expires_after_seconds": 924485570
-          },
-          "revolut_pay": {
-            "setup_future_usage": "none"
-          },
-          "sepa_debit": {
-            "setup_future_usage": "on_session"
-          },
-          "sofort": {
-            "setup_future_usage": "none"
-          },
-          "swish": {
-            "reference": "FpGoEFSYxZ"
-          },
-          "us_bank_account": {
-            "financial_connections": {
-              "permissions": ["ownership"],
-              "prefetch": ["transactions"]
-            },
-            "setup_future_usage": "on_session",
-            "verification_method": "instant"
-          },
-          "wechat_pay": {
-            "app_id": "pYKa4jowHN",
-            "client": "web",
-            "setup_future_usage": "none"
-          }
-        },
-        "payment_method_types": ["au_becs_debit"],
-        "phone_number_collection": {
-          "enabled": false
-        },
-        "redirect_on_completion": "never",
-        "return_url": "DJBy9NZCo5",
-        "setup_intent_data": {
-          "description": "zXAmaakwOC",
-          "metadata": null,
-          "on_behalf_of": "ckxJrMqzWT"
-        },
-        "shipping_address_collection": {
-          "allowed_countries": ["MK"]
-        },
-        "shipping_options": [
-          {
-            "shipping_rate": "wvmqA2AiwY",
-            "shipping_rate_data": {
-              "delivery_estimate": {
-                "maximum": {
-                  "unit": "business_day",
-                  "value": 746686721
-                },
-                "minimum": {
-                  "unit": "week",
-                  "value": 505395191
-                }
-              },
-              "display_name": "mPSXBcyJ5k",
-              "fixed_amount": {
-                "amount": 1915527975,
-                "currency": "Qk3pJv6Y0t",
-                "currency_options": null
-              },
-              "metadata": null,
-              "tax_behavior": "inclusive",
-              "tax_code": "7ZkgSgyf7t",
-              "type": "fixed_amount"
             }
-          }
-        ],
-        "submit_type": "book",
-        "subscription_data": {
-          "application_fee_percent": 0.38781413311471963,
-          "billing_cycle_anchor": 1012133395,
-          "default_tax_rates": ["pOqtgO1Z84"],
-          "description": "ynAHRPTuaY",
-          "invoice_settings": {
-            "issuer": {
-              "account": "ZpkoTVO1NJ",
+          },
+          "allow_promotion_codes": true,
+          "automatic_tax": {
+            "enabled": false,
+            "liability": {
+              "account": "gW7D0WhP9C",
               "type": "self"
             }
           },
-          "metadata": null,
-          "on_behalf_of": "1jEtd1v8jL",
-          "proration_behavior": "none",
-          "transfer_data": {
-            "amount_percent": 1.0030981342848833,
-            "destination": "bJV8RvJiNq"
+          "billing_address_collection": "auto",
+          "cancel_url": "qpmWppPyIv",
+          "client_reference_id": "ZcJeCf6JAa",
+          "consent_collection": {
+            "payment_method_reuse_agreement": {
+              "position": "auto"
+            },
+            "promotions": "auto",
+            "terms_of_service": "required"
           },
-          "trial_end": 1070431661,
-          "trial_period_days": 1633028448,
-          "trial_settings": {
-            "end_behavior": {
-              "missing_payment_method": "cancel"
+          "currency": "oVljMB8lon",
+          "custom_fields": [
+            {
+              "dropdown": {
+                "default_value": "b1lvJpRgRK",
+                "options": [
+                  {
+                    "label": "W3oysCi31d",
+                    "value": "hXN8MppU0k"
+                  }
+                ]
+              },
+              "key": "5ZeyjIHLn8",
+              "label": {
+                "custom": "uabTz3xzdn",
+                "type": "custom"
+              },
+              "numeric": {
+                "default_value": "MZuzkoX7TJ",
+                "maximum_length": 678468035,
+                "minimum_length": 2134997439
+              },
+              "optional": false,
+              "text": {
+                "default_value": "bynYV6Rmod",
+                "maximum_length": 331815114,
+                "minimum_length": 1689246767
+              },
+              "type": "dropdown"
             }
-          }
-        },
-        "success_url": "tVEcQZ8Fx9",
-        "tax_id_collection": {
-          "enabled": true
-        },
-        "ui_mode": "embedded"
+          ],
+          "custom_text": {
+            "after_submit": {
+              "message": "b7ifuedi9S"
+            },
+            "shipping_address": {
+              "message": "XeD5TkmC8k"
+            },
+            "submit": {
+              "message": "vGcSz5eSlo"
+            },
+            "terms_of_service_acceptance": {
+              "message": "zGLTTZItPl"
+            }
+          },
+          "customer": "mT4BKOSu9s",
+          "customer_creation": "always",
+          "customer_email": "1xiCJ8M7Pr",
+          "customer_update": {
+            "address": "never",
+            "name": "never",
+            "shipping": "auto"
+          },
+          "discounts": [
+            {
+              "coupon": "tOlEXiZKv9",
+              "promotion_code": "Xknj8juRnm"
+            }
+          ],
+          "expand": ["ZBxEXz7SN0"],
+          "expires_at": 1756067225,
+          "invoice_creation": {
+            "enabled": true,
+            "invoice_data": {
+              "account_tax_ids": ["dev8vFF6xG"],
+              "custom_fields": [
+                {
+                  "name": "LBlZjJ4gEy",
+                  "value": "EWoKgkV3fg"
+                }
+              ],
+              "description": "MiePp9LfkQ",
+              "footer": "OAELqbYbKV",
+              "issuer": {
+                "account": "aqOwDzxnyg",
+                "type": "account"
+              },
+              "metadata": null,
+              "rendering_options": {
+                "amount_tax_display": "exclude_tax"
+              }
+            }
+          },
+          "line_items": [
+            {
+              "adjustable_quantity": {
+                "enabled": false,
+                "maximum": 1665059759,
+                "minimum": 905088217
+              },
+              "dynamic_tax_rates": ["jMMvH8TmQD"],
+              "price": "fR6vnvprv8",
+              "price_data": {
+                "currency": "euIDO8C4A7",
+                "product": "xilQ2QDVdA",
+                "product_data": {
+                  "description": "DQECtJEsLI",
+                  "images": ["gE5K8MOzRc"],
+                  "metadata": null,
+                  "name": "ak6UVjXl1B",
+                  "tax_code": "PzbIHvqWJp"
+                },
+                "recurring": {
+                  "interval": "day",
+                  "interval_count": 592739346
+                },
+                "tax_behavior": "inclusive",
+                "unit_amount": 945322526,
+                "unit_amount_decimal": "vkJPCvrn9Q"
+              },
+              "quantity": 968305911,
+              "tax_rates": ["Ts1bPAoT0T"]
+            }
+          ],
+          "locale": "ru",
+          "metadata": null,
+          "mode": "payment",
+          "payment_intent_data": {
+            "application_fee_amount": 2033958571,
+            "capture_method": "manual",
+            "description": "yoalRHw9ZG",
+            "metadata": null,
+            "on_behalf_of": "mpkGzXu3st",
+            "receipt_email": "LxJLYGjJ4r",
+            "setup_future_usage": "off_session",
+            "shipping": {
+              "address": {
+                "city": "v6nZI33cUt",
+                "country": "O8MBVcia7c",
+                "line1": "3YghEmysVn",
+                "line2": "CM9x9Jizzu",
+                "postal_code": "1aAilmcYiq",
+                "state": "ILODDWP1IP"
+              },
+              "carrier": "P8mCJlEq1J",
+              "name": "mJYqgRIh3S",
+              "phone": "CWAbvZM4Kw",
+              "tracking_number": "XGOZIrLZf0"
+            },
+            "statement_descriptor": "JCOo6lU8Fy",
+            "statement_descriptor_suffix": "dtPJwyuc4i",
+            "transfer_data": {
+              "amount": 94957585,
+              "destination": "LrcNMrJPkO"
+            },
+            "transfer_group": "XKfPQPVhOT"
+          },
+          "payment_method_collection": "always",
+          "payment_method_configuration": "uwYSwIZP4V",
+          "payment_method_data": {
+            "allow_redisplay": "always"
+          },
+          "payment_method_options": {
+            "acss_debit": {
+              "currency": "usd",
+              "mandate_options": {
+                "custom_mandate_url": "FZwPtJKktL",
+                "default_for": ["invoice"],
+                "interval_description": "iMgay8S9If",
+                "payment_schedule": "sporadic",
+                "transaction_type": "business"
+              },
+              "setup_future_usage": "off_session",
+              "verification_method": "instant"
+            },
+            "affirm": {
+              "setup_future_usage": "none"
+            },
+            "afterpay_clearpay": {
+              "setup_future_usage": "none"
+            },
+            "alipay": {
+              "setup_future_usage": "none"
+            },
+            "amazon_pay": {
+              "setup_future_usage": "none"
+            },
+            "au_becs_debit": {
+              "setup_future_usage": "none"
+            },
+            "bacs_debit": {
+              "setup_future_usage": "off_session"
+            },
+            "bancontact": {
+              "setup_future_usage": "none"
+            },
+            "boleto": {
+              "expires_after_days": 953467886,
+              "setup_future_usage": "none"
+            },
+            "card": {
+              "installments": {
+                "enabled": true
+              },
+              "request_three_d_secure": "any",
+              "setup_future_usage": "on_session",
+              "statement_descriptor_suffix_kana": "ZvJtIONyDK",
+              "statement_descriptor_suffix_kanji": "Y57zexRcIH"
+            },
+            "cashapp": {
+              "setup_future_usage": "off_session"
+            },
+            "customer_balance": {
+              "bank_transfer": {
+                "eu_bank_transfer": {
+                  "country": "mzrVWAjBTc"
+                },
+                "requested_address_types": ["sepa"],
+                "type": "gb_bank_transfer"
+              },
+              "funding_type": "bank_transfer",
+              "setup_future_usage": "none"
+            },
+            "eps": {
+              "setup_future_usage": "none"
+            },
+            "fpx": {
+              "setup_future_usage": "none"
+            },
+            "giropay": {
+              "setup_future_usage": "none"
+            },
+            "grabpay": {
+              "setup_future_usage": "none"
+            },
+            "ideal": {
+              "setup_future_usage": "none"
+            },
+            "klarna": {
+              "setup_future_usage": "none"
+            },
+            "konbini": {
+              "expires_after_days": 664583520,
+              "setup_future_usage": "none"
+            },
+            "link": {
+              "setup_future_usage": "none"
+            },
+            "mobilepay": {
+              "setup_future_usage": "none"
+            },
+            "oxxo": {
+              "expires_after_days": 1925345768,
+              "setup_future_usage": "none"
+            },
+            "p24": {
+              "setup_future_usage": "none",
+              "tos_shown_and_accepted": true
+            },
+            "paynow": {
+              "setup_future_usage": "none"
+            },
+            "paypal": {
+              "capture_method": "manual",
+              "preferred_locale": "de-DE",
+              "reference": "ulLn2NXA1P",
+              "risk_correlation_id": "fj1J6Nux6P",
+              "setup_future_usage": "none"
+            },
+            "pix": {
+              "expires_after_seconds": 191312234
+            },
+            "revolut_pay": {
+              "setup_future_usage": "off_session"
+            },
+            "sepa_debit": {
+              "setup_future_usage": "none"
+            },
+            "sofort": {
+              "setup_future_usage": "none"
+            },
+            "swish": {
+              "reference": "rXJq1EX4rc"
+            },
+            "us_bank_account": {
+              "financial_connections": {
+                "permissions": ["ownership"],
+                "prefetch": ["transactions"]
+              },
+              "setup_future_usage": "none",
+              "verification_method": "automatic"
+            },
+            "wechat_pay": {
+              "app_id": "9Pu0d1pZ2r",
+              "client": "ios",
+              "setup_future_usage": "none"
+            }
+          },
+          "payment_method_types": ["giropay"],
+          "phone_number_collection": {
+            "enabled": true
+          },
+          "redirect_on_completion": "never",
+          "return_url": "YgIdKykEHC",
+          "saved_payment_method_options": {
+            "allow_redisplay_filters": ["unspecified"],
+            "payment_method_save": "enabled"
+          },
+          "setup_intent_data": {
+            "description": "U9qFTQnt1W",
+            "metadata": null,
+            "on_behalf_of": "165u5Fvodj"
+          },
+          "shipping_address_collection": {
+            "allowed_countries": ["JO"]
+          },
+          "shipping_options": [
+            {
+              "shipping_rate": "5PAjqTpMjw",
+              "shipping_rate_data": {
+                "delivery_estimate": {
+                  "maximum": {
+                    "unit": "week",
+                    "value": 479399576
+                  },
+                  "minimum": {
+                    "unit": "day",
+                    "value": 1640284987
+                  }
+                },
+                "display_name": "PXozGQQnBA",
+                "fixed_amount": {
+                  "amount": 2040036333,
+                  "currency": "KkRL3jvZMO",
+                  "currency_options": null
+                },
+                "metadata": null,
+                "tax_behavior": "exclusive",
+                "tax_code": "NKSQxYdCfO",
+                "type": "fixed_amount"
+              }
+            }
+          ],
+          "submit_type": "donate",
+          "subscription_data": {
+            "application_fee_percent": 1.7020678102144877,
+            "billing_cycle_anchor": 1981798554,
+            "default_tax_rates": ["b3jgFBJq4f"],
+            "description": "7mpaD2E0jf",
+            "invoice_settings": {
+              "issuer": {
+                "account": "axhiYamJKY",
+                "type": "account"
+              }
+            },
+            "metadata": null,
+            "on_behalf_of": "oGsMnSifXV",
+            "proration_behavior": "create_prorations",
+            "transfer_data": {
+              "amount_percent": 1.5805719275050356,
+              "destination": "wzJ3U1Tyhd"
+            },
+            "trial_end": 606476058,
+            "trial_period_days": 1684102049,
+            "trial_settings": {
+              "end_behavior": {
+                "missing_payment_method": "create_invoice"
+              }
+            }
+          },
+          "success_url": "hDTwi34TAz",
+          "tax_id_collection": {
+            "enabled": true
+          },
+          "ui_mode": "hosted"
+        }
       },
       "fields": {
         "fields": {

@@ -5,12 +5,15 @@
       "type": "procedure",
       "name": "PostWebhookEndpoints",
       "arguments": {
-        "api_version": "2018-02-05",
-        "connect": false,
-        "description": null,
-        "enabled_events": ["customer.deleted"],
-        "metadata": null,
-        "url": "1EJwcKaR9g"
+        "body": {
+          "api_version": "2013-07-05",
+          "connect": false,
+          "description": "eJf44KL9bn",
+          "enabled_events": ["customer.subscription.pending_update_applied"],
+          "expand": [],
+          "metadata": null,
+          "url": "boHC3w8ZUr"
+        }
       },
       "fields": {
         "fields": {

@@ -2,17 +2,17 @@
   "operation_results": [
     {
       "result": {
-        "active": false,
+        "active": true,
         "after_completion": {
-          "hosted_confirmation": { "custom_message": "sbl9atGV8m" },
+          "hosted_confirmation": { "custom_message": "ZsuNPOu5cL" },
           "redirect": null,
-          "type": "hosted_confirmation"
+          "type": "redirect"
         },
-        "allow_promotion_codes": false,
+        "allow_promotion_codes": true,
         "application": null,
         "application_fee_amount": null,
         "application_fee_percent": null,
-        "automatic_tax": { "enabled": false, "liability": null },
+        "automatic_tax": { "enabled": true, "liability": null },
         "billing_address_collection": "required",
         "consent_collection": null,
         "currency": "usd",
@@ -24,8 +24,8 @@
           "terms_of_service_acceptance": null
         },
         "customer_creation": "if_required",
-        "id": "41jb7m2TfA",
-        "inactive_message": null,
+        "id": "IDu02NpFC2",
+        "inactive_message": "d6iRQIxyGd",
         "invoice_creation": null,
         "line_items": null,
         "livemode": false,
@@ -34,7 +34,7 @@
         "on_behalf_of": null,
         "payment_intent_data": null,
         "payment_method_collection": "if_required",
-        "payment_method_types": null,
+        "payment_method_types": ["cashapp"],
         "phone_number_collection": { "enabled": false },
         "restrictions": null,
         "shipping_address_collection": null,

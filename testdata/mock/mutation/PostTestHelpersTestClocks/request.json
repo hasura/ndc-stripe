@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostTestHelpersTestClocks",
       "arguments": {
-        "expand": [],
-        "frozen_time": 1231781653,
-        "name": "nJ8Cdx18Jv"
+        "body": {
+          "expand": [],
+          "frozen_time": 1231781653,
+          "name": "nJ8Cdx18Jv"
+        }
       },
       "fields": {
         "fields": {

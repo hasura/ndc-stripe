@@ -2,9 +2,7 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": [
-        "WlDgv1Kc1d"
-      ]
+      "value": ["WlDgv1Kc1d"]
     },
     "price": {
       "type": "literal",
@@ -41,10 +39,23 @@
             },
             "custom_unit_amount": {
               "column": "custom_unit_amount",
-              "type": "column"
-            },
-            "id": {
-              "column": "id",
+              "fields": {
+                "fields": {
+                  "maximum": {
+                    "column": "maximum",
+                    "type": "column"
+                  },
+                  "minimum": {
+                    "column": "minimum",
+                    "type": "column"
+                  },
+                  "preset": {
+                    "column": "preset",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "livemode": {
@@ -73,6 +84,31 @@
             },
             "recurring": {
               "column": "recurring",
+              "fields": {
+                "fields": {
+                  "aggregate_usage": {
+                    "column": "aggregate_usage",
+                    "type": "column"
+                  },
+                  "interval": {
+                    "column": "interval",
+                    "type": "column"
+                  },
+                  "interval_count": {
+                    "column": "interval_count",
+                    "type": "column"
+                  },
+                  "meter": {
+                    "column": "meter",
+                    "type": "column"
+                  },
+                  "usage_type": {
+                    "column": "usage_type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "tax_behavior": {
@@ -117,6 +153,19 @@
             },
             "transform_quantity": {
               "column": "transform_quantity",
+              "fields": {
+                "fields": {
+                  "divide_by": {
+                    "column": "divide_by",
+                    "type": "column"
+                  },
+                  "round": {
+                    "column": "round",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "type": {

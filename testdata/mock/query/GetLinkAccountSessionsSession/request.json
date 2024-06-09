@@ -2,9 +2,7 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": [
-        "0Ixr2VmMh7"
-      ]
+      "value": ["0Ixr2VmMh7"]
     },
     "session": {
       "type": "literal",
@@ -21,6 +19,23 @@
           "fields": {
             "account_holder": {
               "column": "account_holder",
+              "fields": {
+                "fields": {
+                  "account": {
+                    "column": "account",
+                    "type": "column"
+                  },
+                  "customer": {
+                    "column": "customer",
+                    "type": "column"
+                  },
+                  "type": {
+                    "column": "type",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
               "type": "column"
             },
             "accounts": {
@@ -34,14 +49,91 @@
                         "fields": {
                           "account_holder": {
                             "column": "account_holder",
+                            "fields": {
+                              "fields": {
+                                "account": {
+                                  "column": "account",
+                                  "type": "column"
+                                },
+                                "customer": {
+                                  "column": "customer",
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "balance": {
                             "column": "balance",
+                            "fields": {
+                              "fields": {
+                                "as_of": {
+                                  "column": "as_of",
+                                  "type": "column"
+                                },
+                                "cash": {
+                                  "column": "cash",
+                                  "fields": {
+                                    "fields": {
+                                      "available": {
+                                        "column": "available",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "credit": {
+                                  "column": "credit",
+                                  "fields": {
+                                    "fields": {
+                                      "used": {
+                                        "column": "used",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "current": {
+                                  "column": "current",
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "balance_refresh": {
                             "column": "balance_refresh",
+                            "fields": {
+                              "fields": {
+                                "last_attempted_at": {
+                                  "column": "last_attempted_at",
+                                  "type": "column"
+                                },
+                                "next_refresh_available_at": {
+                                  "column": "next_refresh_available_at",
+                                  "type": "column"
+                                },
+                                "status": {
+                                  "column": "status",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "category": {
@@ -82,6 +174,23 @@
                           },
                           "ownership_refresh": {
                             "column": "ownership_refresh",
+                            "fields": {
+                              "fields": {
+                                "last_attempted_at": {
+                                  "column": "last_attempted_at",
+                                  "type": "column"
+                                },
+                                "next_refresh_available_at": {
+                                  "column": "next_refresh_available_at",
+                                  "type": "column"
+                                },
+                                "status": {
+                                  "column": "status",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           },
                           "permissions": {
@@ -106,6 +215,27 @@
                           },
                           "transaction_refresh": {
                             "column": "transaction_refresh",
+                            "fields": {
+                              "fields": {
+                                "id": {
+                                  "column": "id",
+                                  "type": "column"
+                                },
+                                "last_attempted_at": {
+                                  "column": "last_attempted_at",
+                                  "type": "column"
+                                },
+                                "next_refresh_available_at": {
+                                  "column": "next_refresh_available_at",
+                                  "type": "column"
+                                },
+                                "status": {
+                                  "column": "status",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
                             "type": "column"
                           }
                         },

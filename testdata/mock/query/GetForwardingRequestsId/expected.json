@@ -1,0 +1,44 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1234567890,
+          "livemode": false,
+          "object": "forwarding.request",
+          "payment_method": "pm_456",
+          "replacements": [],
+          "request_context": {
+            "destination_duration": 234,
+            "destination_ip_address": ""
+          },
+          "request_details": {
+            "body": "'{\"amount\":{\"value\":1000,\"currency\":\"usd\"},\"paymentMethod\":{\"cvc\": \"***\",\"expiryMonth\": \"03\",\"expiryYear\": \"2030\",\"holderName\": \"First Last\",\"number\": \"************4242\",\"type\": \"scheme\",},\"merchantAccount\":\"{{MERCHANT_ID}}\",\"reference\":\"{{REFERENCE_ID}}\"}'",
+            "headers": [
+              {
+                "name": "Idempotency-Key",
+                "value": "{{UPSTREAM_IDEMPOTENCY_KEY}}"
+              }
+            ],
+            "http_method": "POST"
+          },
+          "response_details": {
+            "body": "'{\"transactionId\":\"example1234\"}'",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "application/json;charset=UTF-8"
+              },
+              {
+                "name": "Idempotency-Key",
+                "value": "{{UPSTREAM_IDEMPOTENCY_KEY}}"
+              }
+            ],
+            "status": 200
+          },
+          "url": "https://endpoint-url/v1/payments"
+        }
+      }
+    ]
+  }
+]

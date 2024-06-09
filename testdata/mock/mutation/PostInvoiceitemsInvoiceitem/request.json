@@ -5,33 +5,39 @@
       "type": "procedure",
       "name": "PostInvoiceitemsInvoiceitem",
       "arguments": {
-        "amount": 15000062,
-        "description": "AncdjXGpFh",
-        "discountable": true,
-        "discounts": null,
-        "expand": [
-          "aKoCmRNYb3"
-        ],
-        "invoiceitem": "Qr1RNLiG7A",
-        "metadata": null,
-        "period": {
-          "end": 237547588,
-          "start": 1162154481
+        "body": {
+          "amount": 260217078,
+          "description": "6pOsXzUpjm",
+          "discountable": true,
+          "discounts": [
+            {
+              "coupon": "T4ccDOWUhy",
+              "discount": "drOwFsH6Js",
+              "promotion_code": "nmmpRmyT3w"
+            }
+          ],
+          "expand": ["jqxEGfdD6e"],
+          "metadata": null,
+          "period": {
+            "end": 1369275605,
+            "start": 2103987931
+          },
+          "price": "yT1DL1h1ng",
+          "price_data": {
+            "currency": "do9XqTpACq",
+            "product": "lJe2Myzm2O",
+            "tax_behavior": "unspecified",
+            "unit_amount": 1641096991,
+            "unit_amount_decimal": "V50TSznp42"
+          },
+          "quantity": 1819954680,
+          "tax_behavior": "unspecified",
+          "tax_code": "DbWmQGvPks",
+          "tax_rates": ["R56LIJdB2d"],
+          "unit_amount": 872651531,
+          "unit_amount_decimal": "E05C3LxOh5"
         },
-        "price": "rEIXW8a1bM",
-        "price_data": {
-          "currency": "2xYbNRDWAz",
-          "product": "9NiehNP3v1",
-          "tax_behavior": "inclusive",
-          "unit_amount": 255235342,
-          "unit_amount_decimal": "cavAOHvFmh"
-        },
-        "quantity": 295688260,
-        "tax_behavior": "inclusive",
-        "tax_code": null,
-        "tax_rates": null,
-        "unit_amount": 175533066,
-        "unit_amount_decimal": "92wrViaDBG"
+        "invoiceitem": "CMPqC4aUTb"
       },
       "fields": {
         "fields": {

@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostPaymentMethodDomains",
       "arguments": {
-        "domain_name": "FHrriKHbSt",
-        "enabled": false,
-        "expand": ["HQ4ekDrxWK"]
+        "body": {
+          "domain_name": "RutGS2TzpH",
+          "enabled": false,
+          "expand": []
+        }
       },
       "fields": {
         "fields": {

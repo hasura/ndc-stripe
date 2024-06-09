@@ -1,0 +1,30 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "entitlement_feature": {
+                "active": true,
+                "id": "obj_123",
+                "livemode": true,
+                "lookup_key": "lookup_key",
+                "metadata": {
+                  "undefined": "metadata"
+                },
+                "name": "name",
+                "object": "entitlements.feature"
+              },
+              "id": "obj_123",
+              "livemode": true,
+              "object": "product_feature"
+            }
+          ],
+          "has_more": false,
+          "object": "list"
+        }
+      }
+    ]
+  }
+]

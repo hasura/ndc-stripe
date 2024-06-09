@@ -5,25 +5,27 @@
       "type": "procedure",
       "name": "PostTaxTransactionsCreateReversal",
       "arguments": {
-        "expand": ["3qXoruObjK"],
-        "flat_amount": 243440471,
-        "line_items": [
-          {
-            "amount": 978151657,
-            "amount_tax": 69251115,
-            "metadata": null,
-            "original_line_item": "lOtcIZSXZX",
-            "quantity": 123974977,
-            "reference": "60hLqmc0fu"
+        "body": {
+          "expand": ["UTZStf2exk"],
+          "flat_amount": 252456619,
+          "line_items": [
+            {
+              "amount": 1196198138,
+              "amount_tax": 752499762,
+              "metadata": null,
+              "original_line_item": "GZ5yxJNQ24",
+              "quantity": 1025939165,
+              "reference": "mPT9pm4zQn"
+            }
+          ],
+          "metadata": null,
+          "mode": "full",
+          "original_transaction": "Q3fHccBw64",
+          "reference": "QMBVVseHmX",
+          "shipping_cost": {
+            "amount": 1563521352,
+            "amount_tax": 1230348360
           }
-        ],
-        "metadata": null,
-        "mode": "partial",
-        "original_transaction": "OGevcLfqhc",
-        "reference": "LZ6s0rKkSO",
-        "shipping_cost": {
-          "amount": 1080696689,
-          "amount_tax": 2144434459
         }
       },
       "fields": {

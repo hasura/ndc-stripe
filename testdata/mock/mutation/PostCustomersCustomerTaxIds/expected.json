@@ -4,17 +4,17 @@
       "result": {
         "country": "DE",
         "created": 1234567890,
-        "customer": "tIo6QwQE9g",
+        "customer": "y2htvlotuY",
         "livemode": false,
         "object": "tax_id",
         "owner": {
           "account": null,
           "application": null,
-          "customer": "tIo6QwQE9g",
+          "customer": "y2htvlotuY",
           "type": "customer"
         },
-        "type": "tr_tin",
-        "value": "IVkplsK6RM",
+        "type": "ru_inn",
+        "value": "t5ku1tgAIe",
         "verification": {
           "status": "pending",
           "verified_address": null,

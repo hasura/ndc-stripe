@@ -5,10 +5,12 @@
       "type": "procedure",
       "name": "PostTaxTransactionsCreateFromCalculation",
       "arguments": {
-        "calculation": "GlXSoVP5Vw",
-        "expand": ["BYEJ5jZGgF"],
-        "metadata": null,
-        "reference": "BhQ8VgxdcO"
+        "body": {
+          "calculation": "646U36wPAR",
+          "expand": ["WS7BiqNojj"],
+          "metadata": null,
+          "reference": "k4FFbXeNG7"
+        }
       },
       "fields": {
         "fields": {

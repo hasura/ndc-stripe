@@ -5,12 +5,12 @@
       "type": "procedure",
       "name": "PostIssuingAuthorizationsAuthorizationApprove",
       "arguments": {
-        "amount": 1152469636,
-        "authorization": "wpkikqDQqM",
-        "expand": [
-          "Iu4nENIhAi"
-        ],
-        "metadata": null
+        "authorization": "nURH3bQMKr",
+        "body": {
+          "amount": 181530061,
+          "expand": ["amount_details"],
+          "metadata": null
+        }
       },
       "fields": {
         "fields": {

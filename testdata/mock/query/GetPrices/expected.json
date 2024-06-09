@@ -11,7 +11,6 @@
               "currency": "usd",
               "currency_options": null,
               "custom_unit_amount": null,
-              "id": "price_1OPouiJN5vQBdWExAQaqTooZ",
               "livemode": false,
               "lookup_key": null,
               "metadata": {},
@@ -22,6 +21,7 @@
                 "aggregate_usage": null,
                 "interval": "month",
                 "interval_count": 1,
+                "meter": null,
                 "usage_type": "licensed"
               },
               "tax_behavior": "unspecified",

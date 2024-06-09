@@ -5,18 +5,20 @@
       "type": "procedure",
       "name": "PostFinancialConnectionsSessions",
       "arguments": {
-        "account_holder": {
-          "account": "xJL4wafkOi",
-          "customer": "WvPKQJEcHe",
-          "type": "account"
-        },
-        "expand": ["accounts"],
-        "filters": {
-          "countries": ["W1v9rF8NEG"]
-        },
-        "permissions": ["balances"],
-        "prefetch": ["transactions"],
-        "return_url": "Oy0fbKNCgw"
+        "body": {
+          "account_holder": {
+            "account": "YJ0NcrH6US",
+            "customer": "kqPwfIkodq",
+            "type": "customer"
+          },
+          "expand": ["accounts"],
+          "filters": {
+            "countries": ["fWsUuDDpRJ"]
+          },
+          "permissions": ["payment_method"],
+          "prefetch": ["balances"],
+          "return_url": "eF5pNzTA91"
+        }
       },
       "fields": {
         "fields": {

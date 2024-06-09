@@ -5,25 +5,23 @@
       "type": "procedure",
       "name": "PostCoupons",
       "arguments": {
-        "amount_off": 466032453,
-        "applies_to": {
-          "products": [
-            "zBBXn8U68a"
-          ]
-        },
-        "currency": "zkmFoYWU6s",
-        "currency_options": null,
-        "duration": "forever",
-        "duration_in_months": 2027029336,
-        "expand": [
-          "9MMp6pHQmj"
-        ],
-        "id": "i6T01WkdM4",
-        "max_redemptions": 1709136794,
-        "metadata": null,
-        "name": "gpacoPT3PI",
-        "percent_off": 1.3615117160938779,
-        "redeem_by": 104774411
+        "body": {
+          "amount_off": 790312294,
+          "applies_to": {
+            "products": ["CmjsZWeJ3W"]
+          },
+          "currency": "cld3Lwf2El",
+          "currency_options": null,
+          "duration": "forever",
+          "duration_in_months": 614016444,
+          "expand": ["SFyXyqqhGB"],
+          "id": "V698qGiyMr",
+          "max_redemptions": 921052392,
+          "metadata": null,
+          "name": "5xWC9jlhxE",
+          "percent_off": 1.979774833385576,
+          "redeem_by": 881584503
+        }
       },
       "fields": {
         "fields": {

@@ -8,23 +8,32 @@
               "client_reference_id": null,
               "client_secret": null,
               "created": 1234567890,
-              "id": "vs_1OPouwJN5vQBdWExwnxAiDeP",
               "last_error": null,
               "last_verification_report": "vr_PEHTCbeksNcBl9s8mpoBQapA",
               "livemode": false,
               "metadata": {},
               "object": "identity.verification_session",
-              "options": { "document": { "require_matching_selfie": true } },
+              "options": {
+                "document": {
+                  "allowed_types": null,
+                  "require_id_number": null,
+                  "require_live_capture": null,
+                  "require_matching_selfie": true
+                },
+                "email": null,
+                "id_number": null,
+                "phone": null
+              },
+              "provided_details": null,
               "redaction": null,
               "status": "verified",
               "type": "document",
-              "url": null,
+              "verification_flow": null,
               "verified_outputs": null
             }
           ],
           "has_more": false,
-          "object": "list",
-          "url": "/v1/identity/verification_sessions"
+          "object": "list"
         }
       }
     ]

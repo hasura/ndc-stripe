@@ -5,13 +5,15 @@
       "type": "procedure",
       "name": "PostTerminalReadersReaderProcessSetupIntent",
       "arguments": {
-        "customer_consent_collected": true,
-        "expand": ["bcvdkoY2so"],
-        "process_config": {
-          "enable_customer_cancellation": false
+        "body": {
+          "customer_consent_collected": true,
+          "expand": ["jZwVmpj4br"],
+          "process_config": {
+            "enable_customer_cancellation": true
+          },
+          "setup_intent": "fITEyT6sg5"
         },
-        "reader": "wYnjSTytEr",
-        "setup_intent": "4rK6kBvP1G"
+        "reader": "OIICu1QvDo"
       },
       "fields": {
         "fields": {

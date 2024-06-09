@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "PostRadarValueLists",
       "arguments": {
-        "alias": "QIexYx1wI1",
-        "expand": ["8gAR1iUo2e"],
-        "item_type": "card_fingerprint",
-        "metadata": null,
-        "name": "yBxos3HMFe"
+        "body": {
+          "alias": "yRgMgJ50fm",
+          "expand": ["jaVyyd7ouv"],
+          "item_type": "ip_address",
+          "metadata": null,
+          "name": "Z7oQWuzLOJ"
+        }
       },
       "fields": {
         "fields": {

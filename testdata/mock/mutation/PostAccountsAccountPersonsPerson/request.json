@@ -5,107 +5,105 @@
       "type": "procedure",
       "name": "PostAccountsAccountPersonsPerson",
       "arguments": {
-        "account": "UZ2jRdzvJl",
-        "additional_tos_acceptances": {
-          "account": {
-            "date": 7450,
-            "ip": "qJzr3uTP6v",
-            "user_agent": null
+        "account": "RITV0ieecD",
+        "body": {
+          "additional_tos_acceptances": {
+            "account": {
+              "date": 505094360,
+              "ip": "NNCuXQZV63",
+              "user_agent": "oaUpwt4RvL"
+            }
+          },
+          "address": {
+            "city": "0ujqsyBXXR",
+            "country": "zOw9QfRoUs",
+            "line1": "OhMvcg81MU",
+            "line2": "afSf9k9mv6",
+            "postal_code": "yhNNgox40r",
+            "state": "29mLQTUX2e"
+          },
+          "address_kana": {
+            "city": "kpUxSVr6qP",
+            "country": "g8qJ5WBwes",
+            "line1": "Tg1Juk1OQF",
+            "line2": "oXVEYVwoGr",
+            "postal_code": "bx9f99IKHd",
+            "state": "AC5RhoUdFd",
+            "town": "1KfFuqoFyq"
+          },
+          "address_kanji": {
+            "city": "fYhoYncxQP",
+            "country": "EM3qwxiCDR",
+            "line1": "8ArdwNPi41",
+            "line2": "CFauyEoDg8",
+            "postal_code": "AM4kRamtWC",
+            "state": "u9lGG2MYGK",
+            "town": "7at0GDZ9Zq"
+          },
+          "dob": {
+            "day": 1702721472,
+            "month": 1189070135,
+            "year": 579485788
+          },
+          "documents": {
+            "company_authorization": {
+              "files": ["TRrcifIONu"]
+            },
+            "passport": {
+              "files": ["IcFvtjwFXh"]
+            },
+            "visa": {
+              "files": ["UtszZPtzv7"]
+            }
+          },
+          "email": "4ZJzj7o4KH",
+          "expand": ["DkkK8suHdO"],
+          "first_name": "cnuBRn2fpG",
+          "first_name_kana": "Vam129QmGT",
+          "first_name_kanji": "UnBXSHjfxU",
+          "full_name_aliases": ["G51UMupoAQ"],
+          "gender": "k5NxmorSNG",
+          "id_number": "pSLIt4e3QJ",
+          "id_number_secondary": "HaZt0JLJ54",
+          "last_name": "0ECljoz2kO",
+          "last_name_kana": "yhlGI2T25o",
+          "last_name_kanji": "KZsJaiO5A6",
+          "maiden_name": "i40UYfFngr",
+          "metadata": null,
+          "nationality": "swTBqGzYY3",
+          "person_token": "974IgB8a1I",
+          "phone": "CXBOplM460",
+          "political_exposure": "Z6z4NYQIfs",
+          "registered_address": {
+            "city": "5oAWo8dMHd",
+            "country": "eSHowqNK3g",
+            "line1": "blBeJrBkOe",
+            "line2": "0gPoZo8N1t",
+            "postal_code": "TG0ShAR1L4",
+            "state": "tleXsAWZzT"
+          },
+          "relationship": {
+            "director": false,
+            "executive": true,
+            "legal_guardian": true,
+            "owner": false,
+            "percent_ownership": 1.1985017861272445,
+            "representative": false,
+            "title": "9lncJki7Qc"
+          },
+          "ssn_last_4": "eeVaymlLDg",
+          "verification": {
+            "additional_document": {
+              "back": "T8LpyNeGWi",
+              "front": "umo40nYcrT"
+            },
+            "document": {
+              "back": "ygOgrnXo5n",
+              "front": "HKwgRxPI8U"
+            }
           }
         },
-        "address": {
-          "city": "5dOYzoz673",
-          "country": "D2d3nDBYug",
-          "line1": "IoccuQWIMe",
-          "line2": "X9b7kZKRW4",
-          "postal_code": "kuuqWRlpMv",
-          "state": "p51sDgUAG8"
-        },
-        "address_kana": {
-          "city": "B0hZdPVrg4",
-          "country": "FtMDe4KW4g",
-          "line1": "pQ1NjEV0go",
-          "line2": "ZPGsM9Fr4X",
-          "postal_code": "BEhpjHNK5E",
-          "state": "ATupsBZkiZ",
-          "town": "uInZHMMkyj"
-        },
-        "address_kanji": {
-          "city": "9jbtUQXRHZ",
-          "country": "1mJvHhhiaC",
-          "line1": "FUjdSX7DTR",
-          "line2": "VIEn4YgB74",
-          "postal_code": "g5g61nyAfd",
-          "state": "45WIQX4n26",
-          "town": "DgAMbsK0Im"
-        },
-        "dob": null,
-        "documents": {
-          "company_authorization": {
-            "files": [
-              null
-            ]
-          },
-          "passport": {
-            "files": [
-              null
-            ]
-          },
-          "visa": {
-            "files": [
-              null
-            ]
-          }
-        },
-        "email": "Ym3Jq3pyyA",
-        "expand": [
-          "jGNPA3p81R"
-        ],
-        "first_name": "qER3aYXFgG",
-        "first_name_kana": "zVhjTHeBGq",
-        "first_name_kanji": "7F7R52f4oO",
-        "full_name_aliases": null,
-        "gender": "vyJyna6slh",
-        "id_number": "Ix6L99meqn",
-        "id_number_secondary": "DxJCDsPoKn",
-        "last_name": "eCfpNC2RON",
-        "last_name_kana": "3GrShdFHJp",
-        "last_name_kanji": "2I43RjSx41",
-        "maiden_name": "Srjcu2JyrH",
-        "metadata": null,
-        "nationality": "DcMaYbXDFH",
-        "person": "ljIC35JUNx",
-        "person_token": "Jb4H1z0bz0",
-        "phone": "hRxuEKNop2",
-        "political_exposure": "EBcWpFRi3y",
-        "registered_address": {
-          "city": "g4KBJz3bVf",
-          "country": "jYUZOOXHen",
-          "line1": "lqMO6KBeNK",
-          "line2": "mbJvHgFmzi",
-          "postal_code": "2rOyoY7Bxt",
-          "state": "ZirBFI0znm"
-        },
-        "relationship": {
-          "director": true,
-          "executive": false,
-          "legal_guardian": true,
-          "owner": true,
-          "percent_ownership": null,
-          "representative": true,
-          "title": "EHc4VxuI8D"
-        },
-        "ssn_last_4": "Npe0R0EI3R",
-        "verification": {
-          "additional_document": {
-            "back": "xtVkia3tGV",
-            "front": "gq3ZrDEswS"
-          },
-          "document": {
-            "back": "nuIcj0vra0",
-            "front": "mhr38WZPMW"
-          }
-        }
+        "person": "j63qBJhV6E"
       },
       "fields": {
         "fields": {

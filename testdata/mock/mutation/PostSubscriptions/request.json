@@ -5,107 +5,167 @@
       "type": "procedure",
       "name": "PostSubscriptions",
       "arguments": {
-        "add_invoice_items": [
-          {
-            "price": "xZPgIkTa45",
-            "price_data": {
-              "currency": "yHM4gGhGVX",
-              "product": "R66B4Mquqg",
-              "tax_behavior": "unspecified",
-              "unit_amount": 1916215297,
-              "unit_amount_decimal": "wbZQcjhtjv"
-            },
-            "quantity": 1733272089,
-            "tax_rates": null
-          }
-        ],
-        "application_fee_percent": null,
-        "automatic_tax": {
-          "enabled": true,
-          "liability": {
-            "account": "5StBfvQ0p9",
-            "type": "self"
-          }
-        },
-        "backdate_start_date": 1489196975,
-        "billing_cycle_anchor": 1563478421,
-        "billing_cycle_anchor_config": {
-          "day_of_month": 84399660,
-          "hour": 706980887,
-          "minute": 1433812010,
-          "month": 2132076734,
-          "second": 1785674590
-        },
-        "billing_thresholds": null,
-        "cancel_at": 499896580,
-        "cancel_at_period_end": true,
-        "collection_method": "send_invoice",
-        "coupon": "kt0dtWFZQ1",
-        "currency": "OsvMasutF6",
-        "customer": "yDq51f2WiU",
-        "days_until_due": 794631994,
-        "default_payment_method": "KEkQhOoWNc",
-        "default_source": "ZgoV7BpUpA",
-        "default_tax_rates": null,
-        "description": "gM5tZPW4jk",
-        "expand": ["pMNIicqeLb"],
-        "invoice_settings": {
-          "account_tax_ids": null,
-          "issuer": {
-            "account": "vRFd3AkWYz",
-            "type": "self"
-          }
-        },
-        "items": [
-          {
-            "billing_thresholds": null,
-            "metadata": null,
-            "price": "jX9Ahb8u4d",
-            "price_data": {
-              "currency": "nO2tnYNlX4",
-              "product": "NkqUfm0ybq",
-              "recurring": {
-                "interval": "month",
-                "interval_count": 1294358154
+        "body": {
+          "add_invoice_items": [
+            {
+              "discounts": [
+                {
+                  "coupon": "7vTjEkT9RS",
+                  "discount": "5a0O2QOPKy",
+                  "promotion_code": "HZt2H5pirp"
+                }
+              ],
+              "price": "McnkotZB4x",
+              "price_data": {
+                "currency": "ZizOPaF1WJ",
+                "product": "kD2TGuCiaO",
+                "tax_behavior": "inclusive",
+                "unit_amount": 215066306,
+                "unit_amount_decimal": "b9XAtYK7yG"
               },
-              "tax_behavior": "exclusive",
-              "unit_amount": 740192951,
-              "unit_amount_decimal": "LHfhnkS1W9"
-            },
-            "quantity": 1981140210,
-            "tax_rates": null
-          }
-        ],
-        "metadata": null,
-        "off_session": false,
-        "on_behalf_of": null,
-        "payment_behavior": "allow_incomplete",
-        "payment_settings": {
-          "payment_method_options": {
-            "acss_debit": null,
-            "bancontact": null,
-            "card": null,
-            "customer_balance": null,
-            "konbini": null,
-            "sepa_debit": null,
-            "us_bank_account": null
+              "quantity": 424494546,
+              "tax_rates": ["RA2e8qOweF"]
+            }
+          ],
+          "application_fee_percent": 0.3413658668867429,
+          "automatic_tax": {
+            "enabled": true,
+            "liability": {
+              "account": "SljHJ1c8Bx",
+              "type": "self"
+            }
           },
-          "payment_method_types": null,
-          "save_default_payment_method": "on_subscription"
-        },
-        "pending_invoice_item_interval": null,
-        "promotion_code": "Tm1jkN8iin",
-        "proration_behavior": "create_prorations",
-        "transfer_data": {
-          "amount_percent": 0.2476034332454363,
-          "destination": "uaa7m8Y95C"
-        },
-        "trial_end": null,
-        "trial_from_plan": false,
-        "trial_period_days": 1736467550,
-        "trial_settings": {
-          "end_behavior": {
-            "missing_payment_method": "cancel"
+          "backdate_start_date": 1829065239,
+          "billing_cycle_anchor": 1178858003,
+          "billing_cycle_anchor_config": {
+            "day_of_month": 492209663,
+            "hour": 2003928549,
+            "minute": 589491713,
+            "month": 1458984473,
+            "second": 1198491624
+          },
+          "billing_thresholds": {
+            "amount_gte": 1719886483,
+            "reset_billing_cycle_anchor": true
+          },
+          "cancel_at": 1189710296,
+          "cancel_at_period_end": false,
+          "collection_method": "send_invoice",
+          "coupon": "kTODPTFBGt",
+          "currency": "UC7NHBvOUg",
+          "customer": "OgGclgwPLF",
+          "days_until_due": 613563871,
+          "default_payment_method": "R7uhWL4Rxe",
+          "default_source": "Vem8O5Qu62",
+          "default_tax_rates": ["IFFxeeemPH"],
+          "description": "nCRmNCLEwb",
+          "discounts": [
+            {
+              "coupon": "YwNYr1gUyZ",
+              "discount": "7SU4tnuLHT",
+              "promotion_code": "HPLEDUOZRm"
+            }
+          ],
+          "expand": ["h1zk6b7TwR"],
+          "invoice_settings": {
+            "account_tax_ids": ["Lv8CEiyhOp"],
+            "issuer": {
+              "account": "W0PX8HGGqH",
+              "type": "self"
+            }
+          },
+          "items": [
+            {
+              "billing_thresholds": {
+                "usage_gte": 1197608350
+              },
+              "discounts": [
+                {
+                  "coupon": "Cs5KjZyxMz",
+                  "discount": "se6jp6fbjs",
+                  "promotion_code": "JkKjDQLly0"
+                }
+              ],
+              "metadata": null,
+              "price": "ED1O0LShxB",
+              "price_data": {
+                "currency": "voRDnzQxA7",
+                "product": "ttoiypElaM",
+                "recurring": {
+                  "interval": "month",
+                  "interval_count": 447884992
+                },
+                "tax_behavior": "unspecified",
+                "unit_amount": 1673179714,
+                "unit_amount_decimal": "hTiFvS3ksN"
+              },
+              "quantity": 380444016,
+              "tax_rates": ["CnISKoh3xV"]
+            }
+          ],
+          "metadata": null,
+          "off_session": false,
+          "on_behalf_of": "ePeDvyaniE",
+          "payment_behavior": "error_if_incomplete",
+          "payment_settings": {
+            "payment_method_options": {
+              "acss_debit": {
+                "mandate_options": {
+                  "transaction_type": "business"
+                },
+                "verification_method": "microdeposits"
+              },
+              "bancontact": {
+                "preferred_language": "en"
+              },
+              "card": {
+                "mandate_options": {
+                  "amount": 204303133,
+                  "amount_type": "fixed",
+                  "description": "7h1T7C7RtK"
+                },
+                "network": "jcb",
+                "request_three_d_secure": "any"
+              },
+              "customer_balance": {
+                "bank_transfer": {
+                  "eu_bank_transfer": {
+                    "country": "1uV9Uv2eVg"
+                  },
+                  "type": "JC3NuwfLmh"
+                },
+                "funding_type": "2xMz1eGTUl"
+              },
+              "konbini": null,
+              "sepa_debit": null,
+              "us_bank_account": {
+                "financial_connections": {
+                  "permissions": ["balances"],
+                  "prefetch": ["balances"]
+                },
+                "verification_method": "microdeposits"
+              }
+            },
+            "payment_method_types": ["fpx"],
+            "save_default_payment_method": "off"
+          },
+          "pending_invoice_item_interval": {
+            "interval": "week",
+            "interval_count": 1998338732
+          },
+          "promotion_code": "zup3nckW5q",
+          "proration_behavior": "create_prorations",
+          "transfer_data": {
+            "amount_percent": 0.5445024717632806,
+            "destination": "dWNfwfivVA"
+          },
+          "trial_end": null,
+          "trial_from_plan": true,
+          "trial_period_days": 1669454520,
+          "trial_settings": {
+            "end_behavior": {
+              "missing_payment_method": "pause"
+            }
           }
         }
       },

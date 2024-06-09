@@ -7,7 +7,7 @@
         "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
         "created": 1234567890,
         "currency": "usd",
-        "description": "mcVoXNTWh5",
+        "description": "sZh38b8gn0",
         "destination": "acct_1OPouMJN5vQBdWEx",
         "destination_payment": "py_PEHTHL4uD4U3Hv",
         "livemode": false,
@@ -24,7 +24,7 @@
               "metadata": {},
               "object": "transfer_reversal",
               "source_refund": null,
-              "transfer": "y4GQpClgnd"
+              "transfer": "CysBCQHJF5"
             }
           ],
           "has_more": false,

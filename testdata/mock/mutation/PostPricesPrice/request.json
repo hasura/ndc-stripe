@@ -5,17 +5,17 @@
       "type": "procedure",
       "name": "PostPricesPrice",
       "arguments": {
-        "active": true,
-        "currency_options": null,
-        "expand": [
-          "LvbEdbIOuO"
-        ],
-        "lookup_key": "0fJsd8gn3v",
-        "metadata": null,
-        "nickname": "SgjbUN1OIw",
-        "price": "HeDBlMWCit",
-        "tax_behavior": "unspecified",
-        "transfer_lookup_key": false
+        "body": {
+          "active": false,
+          "currency_options": null,
+          "expand": ["mtCif1qLRA"],
+          "lookup_key": "MIpalC7UA6",
+          "metadata": null,
+          "nickname": "eQGbQhic1X",
+          "tax_behavior": "inclusive",
+          "transfer_lookup_key": false
+        },
+        "price": "tALPYucpZ0"
       },
       "fields": {
         "fields": {

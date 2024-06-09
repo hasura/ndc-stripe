@@ -5,14 +5,17 @@
       "type": "procedure",
       "name": "PostTransfers",
       "arguments": {
-        "amount": 1764834864,
-        "currency": "nR06Nyx9M3",
-        "description": "nkMB2b2ijH",
-        "destination": "Q2gW7O9SCL",
-        "expand": [],
-        "source_transaction": "p87URpoqwe",
-        "source_type": "fpx",
-        "transfer_group": "pmdDLyuU9G"
+        "body": {
+          "amount": 593562244,
+          "currency": "Y3867efivD",
+          "description": "Al7fXuCvtB",
+          "destination": "FDrg91mAXr",
+          "expand": [],
+          "metadata": null,
+          "source_transaction": "8srH4U5PAB",
+          "source_type": "card",
+          "transfer_group": "6GxB9HsaGx"
+        }
       },
       "fields": {
         "fields": {

@@ -6,9 +6,7 @@
     },
     "expand": {
       "type": "literal",
-      "value": [
-        "KekuiRE0ry"
-      ]
+      "value": ["KekuiRE0ry"]
     },
     "id": {
       "type": "literal",
@@ -21,6 +19,226 @@
     "fields": {
       "__value": {
         "column": "__value",
+        "fields": {
+          "fields": {
+            "account": {
+              "column": "account",
+              "type": "column"
+            },
+            "account_holder_name": {
+              "column": "account_holder_name",
+              "type": "column"
+            },
+            "account_holder_type": {
+              "column": "account_holder_type",
+              "type": "column"
+            },
+            "account_type": {
+              "column": "account_type",
+              "type": "column"
+            },
+            "address_city": {
+              "column": "address_city",
+              "type": "column"
+            },
+            "address_country": {
+              "column": "address_country",
+              "type": "column"
+            },
+            "address_line1": {
+              "column": "address_line1",
+              "type": "column"
+            },
+            "address_line1_check": {
+              "column": "address_line1_check",
+              "type": "column"
+            },
+            "address_line2": {
+              "column": "address_line2",
+              "type": "column"
+            },
+            "address_state": {
+              "column": "address_state",
+              "type": "column"
+            },
+            "address_zip": {
+              "column": "address_zip",
+              "type": "column"
+            },
+            "address_zip_check": {
+              "column": "address_zip_check",
+              "type": "column"
+            },
+            "available_payout_methods": {
+              "column": "available_payout_methods",
+              "type": "column"
+            },
+            "bank_name": {
+              "column": "bank_name",
+              "type": "column"
+            },
+            "country": {
+              "column": "country",
+              "type": "column"
+            },
+            "currency": {
+              "column": "currency",
+              "type": "column"
+            },
+            "customer": {
+              "column": "customer",
+              "type": "column"
+            },
+            "cvc_check": {
+              "column": "cvc_check",
+              "type": "column"
+            },
+            "default_for_currency": {
+              "column": "default_for_currency",
+              "type": "column"
+            },
+            "dynamic_last4": {
+              "column": "dynamic_last4",
+              "type": "column"
+            },
+            "fingerprint": {
+              "column": "fingerprint",
+              "type": "column"
+            },
+            "future_requirements": {
+              "column": "future_requirements",
+              "fields": {
+                "fields": {
+                  "currently_due": {
+                    "column": "currently_due",
+                    "type": "column"
+                  },
+                  "errors": {
+                    "column": "errors",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "code": {
+                            "column": "code",
+                            "type": "column"
+                          },
+                          "reason": {
+                            "column": "reason",
+                            "type": "column"
+                          },
+                          "requirement": {
+                            "column": "requirement",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  },
+                  "past_due": {
+                    "column": "past_due",
+                    "type": "column"
+                  },
+                  "pending_verification": {
+                    "column": "pending_verification",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "last4": {
+              "column": "last4",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "name": {
+              "column": "name",
+              "type": "column"
+            },
+            "networks": {
+              "column": "networks",
+              "fields": {
+                "fields": {
+                  "preferred": {
+                    "column": "preferred",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "requirements": {
+              "column": "requirements",
+              "fields": {
+                "fields": {
+                  "currently_due": {
+                    "column": "currently_due",
+                    "type": "column"
+                  },
+                  "errors": {
+                    "column": "errors",
+                    "fields": {
+                      "fields": {
+                        "fields": {
+                          "code": {
+                            "column": "code",
+                            "type": "column"
+                          },
+                          "reason": {
+                            "column": "reason",
+                            "type": "column"
+                          },
+                          "requirement": {
+                            "column": "requirement",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "type": "column"
+                  },
+                  "past_due": {
+                    "column": "past_due",
+                    "type": "column"
+                  },
+                  "pending_verification": {
+                    "column": "pending_verification",
+                    "type": "column"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "column"
+            },
+            "routing_number": {
+              "column": "routing_number",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "tokenization_method": {
+              "column": "tokenization_method",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
         "type": "column"
       }
     }

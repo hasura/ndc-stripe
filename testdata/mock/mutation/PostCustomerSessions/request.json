@@ -5,18 +5,18 @@
       "type": "procedure",
       "name": "PostCustomerSessions",
       "arguments": {
-        "components": {
-          "buy_button": {
-            "enabled": true
+        "body": {
+          "components": {
+            "buy_button": {
+              "enabled": false
+            },
+            "pricing_table": {
+              "enabled": false
+            }
           },
-          "pricing_table": {
-            "enabled": true
-          }
-        },
-        "customer": "DR7QKzT3nU",
-        "expand": [
-          "QJedQIyrye"
-        ]
+          "customer": "XXJ64wcGaF",
+          "expand": ["JpQdSkDT3X"]
+        }
       },
       "fields": {
         "fields": {

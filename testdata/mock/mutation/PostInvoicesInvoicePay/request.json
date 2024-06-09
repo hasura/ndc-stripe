@@ -5,14 +5,16 @@
       "type": "procedure",
       "name": "PostInvoicesInvoicePay",
       "arguments": {
-        "expand": ["EoefD2Vigr"],
-        "forgive": false,
-        "invoice": "ilQr9yp0bh",
-        "mandate": null,
-        "off_session": false,
-        "paid_out_of_band": true,
-        "payment_method": "TcasTNGOrM",
-        "source": "Q4uBXBQNPc"
+        "body": {
+          "expand": [],
+          "forgive": false,
+          "mandate": "QyjEvk8UKD",
+          "off_session": false,
+          "paid_out_of_band": true,
+          "payment_method": "vvKzkEQG9Q",
+          "source": "ka3BozEbmi"
+        },
+        "invoice": "0jfj3BPrXD"
       },
       "fields": {
         "fields": {

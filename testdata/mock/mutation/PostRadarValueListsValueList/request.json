@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "PostRadarValueListsValueList",
       "arguments": {
-        "alias": "PYCC6tUCdP",
-        "expand": ["list_items"],
-        "metadata": null,
-        "name": "J95sYhtSK8",
-        "value_list": "6BlVNo9uuO"
+        "body": {
+          "alias": "54AarawaVX",
+          "expand": ["list_items"],
+          "metadata": null,
+          "name": "Zd2Y75hmL7"
+        },
+        "value_list": "N80XhCSzOI"
       },
       "fields": {
         "fields": {

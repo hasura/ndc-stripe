@@ -1,35 +1,29 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
-        "account": "Q6Frj3GVbu",
+        "account": "u3z6nbYHBx",
         "client_secret": "_PEHTFHffpUcokiSVrrc6TERNdA8300TQ5tgKincvQQYRY0v",
         "components": {
           "account_onboarding": {
             "enabled": false,
-            "features": {
-              "external_account_collection": true
-            }
+            "features": { "external_account_collection": false }
           },
-          "documents": {
-            "enabled": false,
-            "features": {}
-          },
+          "documents": { "enabled": true, "features": {} },
           "payment_details": {
             "enabled": false,
             "features": {
               "capture_payments": true,
-              "destination_on_behalf_of_charge_management": true,
-              "dispute_management": false,
-              "refund_management": true
+              "destination_on_behalf_of_charge_management": false,
+              "dispute_management": true,
+              "refund_management": false
             }
           },
           "payments": {
             "enabled": false,
             "features": {
               "capture_payments": true,
-              "destination_on_behalf_of_charge_management": false,
+              "destination_on_behalf_of_charge_management": true,
               "dispute_management": false,
               "refund_management": true
             }
@@ -46,7 +40,8 @@
         "expires_at": 1234567890,
         "livemode": false,
         "object": "account_session"
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

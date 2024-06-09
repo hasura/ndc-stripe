@@ -5,20 +5,71 @@
       "type": "procedure",
       "name": "PostIssuingDisputesDispute",
       "arguments": {
-        "amount": 1101415944,
-        "dispute": "qPaAOu1365",
-        "evidence": {
-          "canceled": null,
-          "duplicate": null,
-          "fraudulent": null,
-          "merchandise_not_as_described": null,
-          "not_received": null,
-          "other": null,
-          "reason": "duplicate",
-          "service_not_as_described": null
+        "body": {
+          "amount": 1589452968,
+          "evidence": {
+            "canceled": {
+              "additional_documentation": "uFCpPacz5D",
+              "canceled_at": 1082464599,
+              "cancellation_policy_provided": true,
+              "cancellation_reason": "ikvlnp6dNJ",
+              "expected_at": 1559155676,
+              "explanation": "2uIILLxdmj",
+              "product_description": "g9FzhdmUA2",
+              "product_type": "merchandise",
+              "return_status": "",
+              "returned_at": 721302529
+            },
+            "duplicate": {
+              "additional_documentation": "nsybd6RLv2",
+              "card_statement": "UqxRlTPqOR",
+              "cash_receipt": "Q7YFVNtJhv",
+              "check_image": "xYHX0LCC8M",
+              "explanation": "QayagwgI08",
+              "original_transaction": "b8MWdeq9Iq"
+            },
+            "fraudulent": {
+              "additional_documentation": "Pt3V3a1TU3",
+              "explanation": "DO5iLPAlUM"
+            },
+            "merchandise_not_as_described": {
+              "additional_documentation": "1tn8Xi1S2m",
+              "explanation": "Xs8eWCzrLJ",
+              "received_at": 1348863994,
+              "return_description": "Gfz9wrysGH",
+              "return_status": "merchant_rejected",
+              "returned_at": 1678309802
+            },
+            "no_valid_authorization": {
+              "additional_documentation": "EW4KqwkTOo",
+              "explanation": "R6OgDU3LLs"
+            },
+            "not_received": {
+              "additional_documentation": "MfTDV0iNMx",
+              "expected_at": 1696060105,
+              "explanation": "P7VJS9lewq",
+              "product_description": "oMaUl4I0ZB",
+              "product_type": "service"
+            },
+            "other": {
+              "additional_documentation": "Z0GhfZr9FN",
+              "explanation": "GC3AZv6VTB",
+              "product_description": "DvpCTNWbjY",
+              "product_type": "merchandise"
+            },
+            "reason": "fraudulent",
+            "service_not_as_described": {
+              "additional_documentation": "6viABWtCZZ",
+              "canceled_at": 394220410,
+              "cancellation_reason": "qq9IwaHA27",
+              "explanation": "4WtV7Kq8HG",
+              "received_at": 1289540864
+            }
+          },
+          "expand": ["balance_transactions"],
+          "metadata": null
         },
-        "expand": ["balance_transactions"],
-        "metadata": null
+        "dispute": "qVLGaT4ENE"
       },
       "fields": {
         "fields": {

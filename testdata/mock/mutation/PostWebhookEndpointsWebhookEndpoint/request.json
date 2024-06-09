@@ -5,10 +5,15 @@
       "type": "procedure",
       "name": "PostWebhookEndpointsWebhookEndpoint",
       "arguments": {
-        "disabled": false,
-        "enabled_events": ["charge.failed"],
-        "url": "q2WR6CIYTQ",
-        "webhook_endpoint": "FpZCywxJEi"
+        "body": {
+          "description": "dsmqAls04n",
+          "disabled": false,
+          "enabled_events": ["invoice.payment_failed"],
+          "expand": [],
+          "metadata": null,
+          "url": "j2wLJsHuFP"
+        },
+        "webhook_endpoint": "fwhgiHQLfu"
       },
       "fields": {
         "fields": {

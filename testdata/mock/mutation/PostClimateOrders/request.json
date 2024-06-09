@@ -5,15 +5,17 @@
       "type": "procedure",
       "name": "PostClimateOrders",
       "arguments": {
-        "amount": 1093004850,
-        "beneficiary": {
-          "public_name": "PScF8FNeNt"
-        },
-        "currency": "jmFXT1ykhm",
-        "expand": ["eUo5Lmd7yZ"],
-        "metadata": null,
-        "metric_tons": "Go62E6pZQk",
-        "product": "1W4De07q7e"
+        "body": {
+          "amount": 302973661,
+          "beneficiary": {
+            "public_name": "5D6unU0YJ7"
+          },
+          "currency": "rtDv4b1sQd",
+          "expand": ["MlpKyd191Q"],
+          "metadata": null,
+          "metric_tons": "ySx3AIjnM9",
+          "product": "0K2lOZPSKc"
+        }
       },
       "fields": {
         "fields": {

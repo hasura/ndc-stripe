@@ -5,13 +5,15 @@
       "type": "procedure",
       "name": "PostAppsSecrets",
       "arguments": {
-        "expand": ["Xcb2X9hoTZ"],
-        "expires_at": 27956,
-        "name": "cQN1yyuJg5",
-        "payload": "QI7mcWMH9u",
-        "scope": {
-          "type": "user",
-          "user": "Dc4JQv612k"
+        "body": {
+          "expand": ["CtEGSMM3NS"],
+          "expires_at": 761605873,
+          "name": "ugPdxSJciY",
+          "payload": "YKErIyPq76",
+          "scope": {
+            "type": "user",
+            "user": "si2TkoKFRm"
+          }
         }
       },
       "fields": {

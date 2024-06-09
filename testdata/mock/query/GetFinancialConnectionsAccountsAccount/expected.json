@@ -4,6 +4,7 @@
       {
         "__value": {
           "account_holder": {
+            "account": null,
             "customer": "cus_PEHTIoPSgT0tXQ",
             "type": "customer"
           },
@@ -12,7 +13,6 @@
           "category": "cash",
           "created": 1234567890,
           "display_name": "Sample Checking Account",
-          "id": "ZTvfs1lGWC",
           "institution_name": "StripeBank",
           "last4": "6789",
           "livemode": false,

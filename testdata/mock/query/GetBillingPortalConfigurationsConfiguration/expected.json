@@ -17,22 +17,14 @@
               "allowed_updates": ["email", "tax_id"],
               "enabled": true
             },
-            "invoice_history": {
-              "enabled": true
-            },
-            "payment_method_update": {
-              "enabled": false
-            },
+            "invoice_history": { "enabled": true },
+            "payment_method_update": { "enabled": false },
             "subscription_cancel": {
-              "cancellation_reason": {
-                "enabled": false,
-                "options": []
-              },
+              "cancellation_reason": { "enabled": false, "options": [] },
               "enabled": false,
               "mode": "at_period_end",
               "proration_behavior": "none"
             },
-            "subscription_pause": null,
             "subscription_update": {
               "default_allowed_updates": [],
               "enabled": false,
@@ -40,13 +32,9 @@
               "proration_behavior": "none"
             }
           },
-          "id": "mZCUUvnWZt",
           "is_default": true,
           "livemode": true,
-          "login_page": {
-            "enabled": false,
-            "url": null
-          },
+          "login_page": { "enabled": false },
           "metadata": null,
           "object": "billing_portal.configuration",
           "updated": 1234567890

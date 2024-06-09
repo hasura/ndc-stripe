@@ -5,130 +5,354 @@
       "type": "procedure",
       "name": "PostPaymentIntentsIntent",
       "arguments": {
-        "amount": 1734590369,
-        "application_fee_amount": null,
-        "capture_method": "automatic_async",
-        "currency": "MHP9J8Rdwt",
-        "customer": "IpWHPM2dhP",
-        "description": "Hy2ozqRY8S",
-        "expand": [
-          "WGLb45J1qk"
-        ],
-        "intent": "CXaPA4lwud",
-        "metadata": null,
-        "payment_method": "5woGctZddX",
-        "payment_method_configuration": "DHOXqNf0EU",
-        "payment_method_data": {
-          "acss_debit": {
-            "account_number": "MhtQ5CGxlV",
-            "institution_number": "aCsudmMLdc",
-            "transit_number": "OJFpDQHun5"
+        "body": {
+          "amount": 455424125,
+          "application_fee_amount": 818465212,
+          "capture_method": "manual",
+          "currency": "99Y2GOmJzP",
+          "customer": "ATs0nRpm0Z",
+          "description": "SdWN80MK7M",
+          "expand": ["GAn2SWLXQy"],
+          "metadata": null,
+          "payment_method": "fZ0jeAZRCi",
+          "payment_method_configuration": "zrWHaYXulw",
+          "payment_method_data": {
+            "acss_debit": {
+              "account_number": "4SZqVWkut8",
+              "institution_number": "vCI2KYdwx5",
+              "transit_number": "iFsQtv39MH"
+            },
+            "affirm": null,
+            "afterpay_clearpay": null,
+            "alipay": null,
+            "allow_redisplay": "unspecified",
+            "amazon_pay": null,
+            "au_becs_debit": {
+              "account_number": "lyUxInbZhJ",
+              "bsb_number": "TrdzaJntOd"
+            },
+            "bacs_debit": {
+              "account_number": "vRHBcraBUY",
+              "sort_code": "s2wR2LAnbY"
+            },
+            "bancontact": null,
+            "billing_details": {
+              "address": {
+                "city": "Vy8zE1afjH",
+                "country": "opEDDbsBvT",
+                "line1": "sNsn2RTtbo",
+                "line2": "pLuWqpguNT",
+                "postal_code": "e3CFCjlL4x",
+                "state": "ZE9WaquTs5"
+              },
+              "email": "LMRQACocYo",
+              "name": "4j7LRv8dpr",
+              "phone": "VCGAFog61J"
+            },
+            "blik": null,
+            "boleto": {
+              "tax_id": "1ZFnCHy1b9"
+            },
+            "cashapp": null,
+            "customer_balance": null,
+            "eps": {
+              "bank": "hypo_bank_burgenland_aktiengesellschaft"
+            },
+            "fpx": {
+              "bank": "rhb"
+            },
+            "giropay": null,
+            "grabpay": null,
+            "ideal": {
+              "bank": "knab"
+            },
+            "interac_present": null,
+            "klarna": {
+              "dob": {
+                "day": 1334197048,
+                "month": 1676559163,
+                "year": 2014976145
+              }
+            },
+            "konbini": null,
+            "link": null,
+            "metadata": null,
+            "mobilepay": null,
+            "oxxo": null,
+            "p24": {
+              "bank": "pbac_z_ipko"
+            },
+            "paynow": null,
+            "paypal": null,
+            "pix": null,
+            "promptpay": null,
+            "radar_options": {
+              "session": "6LxPeJCWxE"
+            },
+            "revolut_pay": null,
+            "sepa_debit": {
+              "iban": "ZjlpSnwOSa"
+            },
+            "sofort": {
+              "country": "IT"
+            },
+            "swish": null,
+            "type": "paypal",
+            "us_bank_account": {
+              "account_holder_type": "company",
+              "account_number": "DPqkXOL2HN",
+              "account_type": "checking",
+              "financial_connections_account": "mL16f7hXZJ",
+              "routing_number": "vpDXq9FQUe"
+            },
+            "wechat_pay": null,
+            "zip": null
           },
-          "au_becs_debit": {
-            "account_number": "oAGTR9VLvd",
-            "bsb_number": "4a265poToO"
-          },
-          "bacs_debit": {
-            "account_number": "AJyA7Y9n68",
-            "sort_code": "oGG5Nfv4Fx"
-          },
-          "billing_details": {
-            "address": null,
-            "email": null,
-            "name": null,
-            "phone": null
-          },
-          "boleto": {
-            "tax_id": "qAGIXKCk0E"
-          },
-          "eps": {
-            "bank": "oberbank_ag"
-          },
-          "fpx": {
-            "bank": "public_bank"
-          },
-          "ideal": {
-            "bank": "handelsbanken"
-          },
-          "klarna": {
-            "dob": {
-              "day": 1930648183,
-              "month": 502466109,
-              "year": 1559483886
+          "payment_method_options": {
+            "acss_debit": {
+              "mandate_options": {
+                "custom_mandate_url": "Cvf3sUxXj9",
+                "interval_description": "R6wrtvNsMo",
+                "payment_schedule": "sporadic",
+                "transaction_type": "personal"
+              },
+              "setup_future_usage": "",
+              "verification_method": "instant"
+            },
+            "affirm": {
+              "capture_method": "manual",
+              "preferred_locale": "yZnjmx1rHj",
+              "setup_future_usage": "none"
+            },
+            "afterpay_clearpay": {
+              "capture_method": "manual",
+              "reference": "igoZUyAYxN",
+              "setup_future_usage": "none"
+            },
+            "alipay": {
+              "setup_future_usage": "off_session"
+            },
+            "amazon_pay": {
+              "capture_method": "",
+              "setup_future_usage": "off_session"
+            },
+            "au_becs_debit": {
+              "setup_future_usage": "none"
+            },
+            "bacs_debit": {
+              "setup_future_usage": ""
+            },
+            "bancontact": {
+              "preferred_language": "en",
+              "setup_future_usage": "none"
+            },
+            "blik": {
+              "code": "a7I6Gasg1D",
+              "setup_future_usage": "none"
+            },
+            "boleto": {
+              "expires_after_days": 1587939041,
+              "setup_future_usage": "off_session"
+            },
+            "card": {
+              "capture_method": "manual",
+              "cvc_token": "m1uoma4rqc",
+              "installments": {
+                "enabled": false,
+                "plan": {
+                  "count": 1632582160,
+                  "interval": "month",
+                  "type": "fixed_count"
+                }
+              },
+              "mandate_options": {
+                "amount": 1680988050,
+                "amount_type": "fixed",
+                "description": "WjfwT0Vfv2",
+                "end_date": 243603823,
+                "interval": "sporadic",
+                "interval_count": 2050709633,
+                "reference": "ALxQtKSds3",
+                "start_date": 1640091779,
+                "supported_types": ["india"]
+              },
+              "network": "discover",
+              "request_extended_authorization": "never",
+              "request_incremental_authorization": "if_available",
+              "request_multicapture": "never",
+              "request_overcapture": "if_available",
+              "request_three_d_secure": "challenge",
+              "require_cvc_recollection": false,
+              "setup_future_usage": "none",
+              "statement_descriptor_suffix_kana": "a7T7Xb9NB9",
+              "statement_descriptor_suffix_kanji": "pOtxWihltc",
+              "three_d_secure": {
+                "ares_trans_status": "Y",
+                "cryptogram": "xRaVaaw8ux",
+                "electronic_commerce_indicator": "05",
+                "exemption_indicator": "low_risk",
+                "network_options": {
+                  "cartes_bancaires": {
+                    "cb_avalgo": "A",
+                    "cb_exemption": "24MW9Qr7LD",
+                    "cb_score": 2073144058
+                  }
+                },
+                "requestor_challenge_indicator": "06yrKZT3Wf",
+                "transaction_id": "qiBHuSI16u",
+                "version": "1.0.2"
+              }
+            },
+            "card_present": {
+              "request_extended_authorization": false,
+              "request_incremental_authorization_support": true,
+              "routing": {
+                "requested_priority": "international"
+              }
+            },
+            "cashapp": {
+              "capture_method": "manual",
+              "setup_future_usage": "none"
+            },
+            "customer_balance": {
+              "bank_transfer": {
+                "eu_bank_transfer": {
+                  "country": "uyK0rRRMEX"
+                },
+                "requested_address_types": ["iban"],
+                "type": "us_bank_transfer"
+              },
+              "funding_type": "bank_transfer",
+              "setup_future_usage": "none"
+            },
+            "eps": {
+              "setup_future_usage": "none"
+            },
+            "fpx": {
+              "setup_future_usage": "none"
+            },
+            "giropay": {
+              "setup_future_usage": "none"
+            },
+            "grabpay": {
+              "setup_future_usage": "none"
+            },
+            "ideal": {
+              "setup_future_usage": "none"
+            },
+            "interac_present": null,
+            "klarna": {
+              "capture_method": "",
+              "preferred_locale": "fr-BE",
+              "setup_future_usage": "none"
+            },
+            "konbini": {
+              "confirmation_number": "LHJxvDUGYz",
+              "expires_after_days": 1769467575,
+              "expires_at": 1828569206,
+              "product_description": "bmJbZbNVzl",
+              "setup_future_usage": "none"
+            },
+            "link": {
+              "capture_method": "",
+              "setup_future_usage": "none"
+            },
+            "mobilepay": {
+              "capture_method": "",
+              "setup_future_usage": "none"
+            },
+            "oxxo": {
+              "expires_after_days": 1004449293,
+              "setup_future_usage": "none"
+            },
+            "p24": {
+              "setup_future_usage": "none",
+              "tos_shown_and_accepted": false
+            },
+            "paynow": {
+              "setup_future_usage": "none"
+            },
+            "paypal": {
+              "capture_method": "manual",
+              "preferred_locale": "da-DK",
+              "reference": "XUJ6iVPYWz",
+              "risk_correlation_id": "IGuA0xj4Kw",
+              "setup_future_usage": "none"
+            },
+            "pix": {
+              "expires_after_seconds": 303996858,
+              "expires_at": 196630127,
+              "setup_future_usage": "none"
+            },
+            "promptpay": {
+              "setup_future_usage": "none"
+            },
+            "revolut_pay": {
+              "capture_method": "manual",
+              "setup_future_usage": ""
+            },
+            "sepa_debit": {
+              "mandate_options": null,
+              "setup_future_usage": "on_session"
+            },
+            "sofort": {
+              "preferred_language": "pl",
+              "setup_future_usage": "none"
+            },
+            "swish": {
+              "reference": "iTlyK1Q0jt",
+              "setup_future_usage": "none"
+            },
+            "us_bank_account": {
+              "financial_connections": {
+                "permissions": ["ownership"],
+                "prefetch": ["transactions"],
+                "return_url": "fZGMa7gabS"
+              },
+              "mandate_options": {
+                "collection_method": ""
+              },
+              "networks": {
+                "requested": ["us_domestic_wire"]
+              },
+              "preferred_settlement_speed": "fastest",
+              "setup_future_usage": "",
+              "verification_method": "automatic"
+            },
+            "wechat_pay": {
+              "app_id": "fg4Vw1Phnk",
+              "client": "ios",
+              "setup_future_usage": "none"
+            },
+            "zip": {
+              "setup_future_usage": "none"
             }
           },
-          "metadata": null,
-          "p24": {
-            "bank": "inteligo"
+          "payment_method_types": ["zolx61k0QA"],
+          "receipt_email": "XLkTeKmwpQ",
+          "setup_future_usage": "off_session",
+          "shipping": {
+            "address": {
+              "city": "5LnfUcvNJs",
+              "country": "IIRYouq9o8",
+              "line1": "GtpVM5XoZe",
+              "line2": "8cKJtfqC42",
+              "postal_code": "PinVYeDWGd",
+              "state": "oUJGmHtNTy"
+            },
+            "carrier": "AzjzYUpDnz",
+            "name": "x3gdI7eeL1",
+            "phone": "zlQXdReCnQ",
+            "tracking_number": "nTylH9SMMM"
           },
-          "radar_options": {
-            "session": "TOh0CCmbiu"
+          "statement_descriptor": "iLSix8kpjl",
+          "statement_descriptor_suffix": "6bnpJMwoxi",
+          "transfer_data": {
+            "amount": 86739640
           },
-          "sepa_debit": {
-            "iban": "SKPtHpyr4C"
-          },
-          "sofort": {
-            "country": "DE"
-          },
-          "type": "alipay",
-          "us_bank_account": {
-            "account_holder_type": "company",
-            "account_number": "su6JTYHsbb",
-            "account_type": "savings",
-            "financial_connections_account": "QVdn4SyaYo",
-            "routing_number": "G7FfKkZzH9"
-          }
+          "transfer_group": "rqVLjWLy12"
         },
-        "payment_method_options": {
-          "acss_debit": null,
-          "affirm": null,
-          "afterpay_clearpay": null,
-          "alipay": null,
-          "au_becs_debit": null,
-          "bacs_debit": null,
-          "bancontact": null,
-          "blik": null,
-          "boleto": null,
-          "card": null,
-          "card_present": null,
-          "cashapp": null,
-          "customer_balance": null,
-          "eps": null,
-          "fpx": null,
-          "giropay": null,
-          "grabpay": null,
-          "ideal": null,
-          "interac_present": null,
-          "klarna": null,
-          "konbini": null,
-          "link": null,
-          "mobilepay": null,
-          "oxxo": null,
-          "p24": null,
-          "paynow": null,
-          "paypal": null,
-          "pix": null,
-          "promptpay": null,
-          "revolut_pay": null,
-          "sepa_debit": null,
-          "sofort": null,
-          "swish": null,
-          "us_bank_account": null,
-          "wechat_pay": null,
-          "zip": null
-        },
-        "payment_method_types": [
-          "XCy1vIk36K"
-        ],
-        "receipt_email": null,
-        "setup_future_usage": "off_session",
-        "shipping": null,
-        "statement_descriptor": "D2kfaAUsJR",
-        "statement_descriptor_suffix": "KbS2NIPhdk",
-        "transfer_data": {
-          "amount": 22586096
-        },
-        "transfer_group": "R4lPpK09i2"
+        "intent": "wwEgw6me0N"
       },
       "fields": {
         "fields": {

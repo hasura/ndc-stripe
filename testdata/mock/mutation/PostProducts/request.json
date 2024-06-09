@@ -5,44 +5,42 @@
       "type": "procedure",
       "name": "PostProducts",
       "arguments": {
-        "active": true,
-        "default_price_data": {
-          "currency": "ZIO7vImxtj",
-          "currency_options": null,
-          "recurring": {
-            "interval": "week",
-            "interval_count": 1298660606
+        "body": {
+          "active": true,
+          "default_price_data": {
+            "currency": "5N7BSdXdr1",
+            "currency_options": null,
+            "recurring": {
+              "interval": "week",
+              "interval_count": 793136463
+            },
+            "tax_behavior": "inclusive",
+            "unit_amount": 1973917149,
+            "unit_amount_decimal": "2xZF6AqqEA"
           },
-          "tax_behavior": "exclusive",
-          "unit_amount": 1168405628,
-          "unit_amount_decimal": "FWAgPxtwWy"
-        },
-        "description": "PVHJ2nJtQ8",
-        "expand": [
-          "mANvHQNYmR"
-        ],
-        "features": [
-          {
-            "name": "tauX6PP33t"
-          }
-        ],
-        "id": "DvJOU9lYK1",
-        "images": [
-          "qQn3H5PQo3"
-        ],
-        "metadata": null,
-        "name": "6oie1zNs7A",
-        "package_dimensions": {
-          "height": 1.5817307332932071,
-          "length": 0.5355025441015139,
-          "weight": 0.5195265207803034,
-          "width": 1.7707129746302712
-        },
-        "shippable": false,
-        "statement_descriptor": "rzYRr0OaOG",
-        "tax_code": "f9pLone8GH",
-        "unit_label": "GIqRozpmha",
-        "url": "Ncu2fBuf8a"
+          "description": "OPoMnNGOkF",
+          "expand": ["5zodNAk3Xo"],
+          "id": "784VRb31Iq",
+          "images": ["5yAxQVTVOa"],
+          "marketing_features": [
+            {
+              "name": "oDpGy0imRo"
+            }
+          ],
+          "metadata": null,
+          "name": "9w9ALRrLw1",
+          "package_dimensions": {
+            "height": 0.24849349621386327,
+            "length": 1.7440976625985274,
+            "weight": 0.06893188687768849,
+            "width": 0.41336657260408965
+          },
+          "shippable": false,
+          "statement_descriptor": "XC4xUePGXZ",
+          "tax_code": "TxpdBOWU2o",
+          "unit_label": "PnLhRixAVD",
+          "url": "jO8RUfNpfr"
+        }
       },
       "fields": {
         "fields": {

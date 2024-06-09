@@ -5,40 +5,30 @@
       "type": "procedure",
       "name": "PostIssuingCardsCard",
       "arguments": {
-        "cancellation_reason": "stolen",
-        "card": "vqVC06Fble",
-        "expand": [
-          "MToUVDJwtJ"
-        ],
-        "metadata": null,
-        "personalization_design": "4IKp8Alzku",
-        "pin": {
-          "encrypted_number": "UdVywZqxQV"
+        "body": {
+          "cancellation_reason": "lost",
+          "expand": ["ElSzBwuBuS"],
+          "metadata": null,
+          "personalization_design": "kgaMYwx4YR",
+          "pin": {
+            "encrypted_number": "YIhrBKSPcX"
+          },
+          "spending_controls": {
+            "allowed_categories": ["motorcycle_shops_and_dealers"],
+            "allowed_merchant_countries": ["nQwdnKtReE"],
+            "blocked_categories": ["automated_fuel_dispensers"],
+            "blocked_merchant_countries": ["Hq4I3TkQ6e"],
+            "spending_limits": [
+              {
+                "amount": 1302831687,
+                "categories": ["hobby_toy_and_game_shops"],
+                "interval": "yearly"
+              }
+            ]
+          },
+          "status": "inactive"
         },
-        "spending_controls": {
-          "allowed_categories": [
-            "automobile_associations"
-          ],
-          "allowed_merchant_countries": [
-            "HInpIvV3qF"
-          ],
-          "blocked_categories": [
-            "florists_supplies_nursery_stock_and_flowers"
-          ],
-          "blocked_merchant_countries": [
-            "9XelumMeYb"
-          ],
-          "spending_limits": [
-            {
-              "amount": 903070842,
-              "categories": [
-                "correspondence_schools"
-              ],
-              "interval": "all_time"
-            }
-          ]
-        },
-        "status": "active"
+        "card": "VU1BnlU0fj"
       },
       "fields": {
         "fields": {

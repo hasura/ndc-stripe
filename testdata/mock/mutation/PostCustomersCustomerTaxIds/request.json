@@ -5,10 +5,12 @@
       "type": "procedure",
       "name": "PostCustomersCustomerTaxIds",
       "arguments": {
-        "customer": "tIo6QwQE9g",
-        "expand": ["QPe8mLykyk"],
-        "type": "tr_tin",
-        "value": "IVkplsK6RM"
+        "body": {
+          "expand": ["owner"],
+          "type": "ru_inn",
+          "value": "t5ku1tgAIe"
+        },
+        "customer": "y2htvlotuY"
       },
       "fields": {
         "fields": {

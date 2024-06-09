@@ -5,20 +5,22 @@
       "type": "procedure",
       "name": "PostTestHelpersTreasuryReceivedCredits",
       "arguments": {
-        "amount": 2017036445,
-        "currency": "ANVdz8wVu6",
-        "description": "YA3XJhXQQQ",
-        "expand": [],
-        "financial_account": "IGJx4aUCYw",
-        "initiating_payment_method_details": {
-          "type": "us_bank_account",
-          "us_bank_account": {
-            "account_holder_name": "jie9dVw9ye",
-            "account_number": "o4N4n6mbs2",
-            "routing_number": "MZi3BA0zvO"
-          }
-        },
-        "network": "us_domestic_wire"
+        "body": {
+          "amount": 2026148572,
+          "currency": "z1t90oVyab",
+          "description": "ma3mbfFk1b",
+          "expand": [],
+          "financial_account": "bkirBYEHnh",
+          "initiating_payment_method_details": {
+            "type": "us_bank_account",
+            "us_bank_account": {
+              "account_holder_name": "67bEkCFsvo",
+              "account_number": "yw3r4xtduy",
+              "routing_number": "LefGvmDywR"
+            }
+          },
+          "network": "us_domestic_wire"
+        }
       },
       "fields": {
         "fields": {

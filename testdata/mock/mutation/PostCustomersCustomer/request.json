@@ -5,48 +5,71 @@
       "type": "procedure",
       "name": "PostCustomersCustomer",
       "arguments": {
-        "address": null,
-        "balance": 681110444,
-        "bank_account": null,
-        "card": null,
-        "cash_balance": {
-          "settings": {
-            "reconciliation_mode": "merchant_default"
-          }
+        "body": {
+          "address": {
+            "city": "mYxI2c9GgL",
+            "country": "lWcrgkD8Wx",
+            "line1": "tsOKi7biwM",
+            "line2": "bnbSghTo7u",
+            "postal_code": "k5Jkt5m4AR",
+            "state": "fpBxI37G5d"
+          },
+          "balance": 569789481,
+          "bank_account": null,
+          "card": null,
+          "cash_balance": {
+            "settings": {
+              "reconciliation_mode": "manual"
+            }
+          },
+          "coupon": "f9p1riElzZ",
+          "default_alipay_account": "LptNKVsQFU",
+          "default_bank_account": "pMyt8QaX22",
+          "default_card": "QJiTYUFxlt",
+          "default_source": "tA4lL7pzPT",
+          "description": "jtfjZov2gM",
+          "email": "obqkYgcOMw",
+          "expand": ["cpZPwj4IPl"],
+          "invoice_prefix": "lJm9RyDLAi",
+          "invoice_settings": {
+            "custom_fields": [
+              {
+                "name": "Gwcdh1U0d2",
+                "value": "qB3YMoQt7O"
+              }
+            ],
+            "default_payment_method": "zB9q6mC8Re",
+            "footer": "qOLKKjLxhy",
+            "rendering_options": {
+              "amount_tax_display": ""
+            }
+          },
+          "metadata": null,
+          "name": "lNARB3PBLb",
+          "next_invoice_sequence": 1517968361,
+          "phone": "7SMOBFbmuQ",
+          "preferred_locales": ["bfY6mqx0eJ"],
+          "promotion_code": "IrP6fu6iWB",
+          "shipping": {
+            "address": {
+              "city": "JQCMk0wPnb",
+              "country": "lvDtNzFanB",
+              "line1": "sk2mGJcB4g",
+              "line2": "GAcPnJ0qW4",
+              "postal_code": "VdraK4chDj",
+              "state": "PQF6t4jbNz"
+            },
+            "name": "uvEd1xUaCW",
+            "phone": "0oHNetsJHb"
+          },
+          "source": "ZhEWGgGwkv",
+          "tax": {
+            "ip_address": "cKlgRadvqL",
+            "validate_location": "deferred"
+          },
+          "tax_exempt": "none"
         },
-        "coupon": "pyOTawrbwM",
-        "customer": "aZVD9Skn3V",
-        "default_alipay_account": "PdTKwC9Q6N",
-        "default_bank_account": "2MiGlr5LRI",
-        "default_card": "gQbTEmHS46",
-        "default_source": "Rta25Mi2fE",
-        "description": "oZHvA0DPhA",
-        "email": "9svvviaiLb",
-        "expand": [
-          "mHe87kll9u"
-        ],
-        "invoice_prefix": "SzKtoTC9X5",
-        "invoice_settings": {
-          "custom_fields": null,
-          "default_payment_method": "8hhU54OYzy",
-          "footer": "IDADwawJG2",
-          "rendering_options": null
-        },
-        "metadata": null,
-        "name": "JgqOSkdlzu",
-        "next_invoice_sequence": 2088035336,
-        "phone": "MKjomfykbx",
-        "preferred_locales": [
-          "oPN2LlDZPl"
-        ],
-        "promotion_code": "hgziqpzA6F",
-        "shipping": null,
-        "source": "wLgLl56Vix",
-        "tax": {
-          "ip_address": null,
-          "validate_location": "immediately"
-        },
-        "tax_exempt": "none"
+        "customer": "oRtAxJUd3k"
       },
       "fields": {
         "fields": {

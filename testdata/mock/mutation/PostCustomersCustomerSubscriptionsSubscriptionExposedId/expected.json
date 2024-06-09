@@ -3,12 +3,12 @@
     {
       "result": {
         "application": null,
-        "application_fee_percent": null,
+        "application_fee_percent": 0.688902,
         "automatic_tax": { "enabled": true, "liability": null },
         "billing_cycle_anchor": 1234567890,
         "billing_cycle_anchor_config": null,
         "billing_thresholds": null,
-        "cancel_at": 1234567890,
+        "cancel_at": 962761190,
         "cancel_at_period_end": false,
         "canceled_at": 1234567890,
         "cancellation_details": {
@@ -21,15 +21,15 @@
         "currency": "usd",
         "current_period_end": 1234567890,
         "current_period_start": 1234567890,
-        "customer": "D5PBR0ESqg",
-        "days_until_due": 825544604,
-        "default_payment_method": "u5jVQHK8MK",
-        "default_source": null,
+        "customer": "NEuSDne9TM",
+        "days_until_due": 1295865924,
+        "default_payment_method": "BLOMO6Svxt",
+        "default_source": "qzdDl1Eib8",
         "default_tax_rates": [],
         "description": null,
         "discount": null,
         "ended_at": 1234567890,
-        "id": "kuLG7GyhJ4",
+        "id": "lu2Kt8pOix",
         "items": {
           "data": [
             {

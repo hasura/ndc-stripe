@@ -4,61 +4,81 @@
     {
       "type": "procedure",
       "name": "PostQuotesQuote",
+
       "arguments": {
-        "application_fee_amount": null,
-        "application_fee_percent": null,
-        "automatic_tax": {
-          "enabled": true,
-          "liability": {
-            "account": "yPZJJGkspH",
-            "type": "self"
-          }
-        },
-        "collection_method": "charge_automatically",
-        "customer": "xBGWjhFt61",
-        "default_tax_rates": null,
-        "description": null,
-        "discounts": null,
-        "expand": ["ieQJHdZQMc"],
-        "expires_at": 1876299990,
-        "footer": null,
-        "header": null,
-        "invoice_settings": {
-          "days_until_due": 1166162448,
-          "issuer": {
-            "account": "i8et69dunc",
-            "type": "self"
-          }
-        },
-        "line_items": [
-          {
-            "id": "CpU2LrtUhY",
-            "price": "J83gFcwPsl",
-            "price_data": {
-              "currency": "fdLBK128I0",
-              "product": "63ctodjHbV",
-              "recurring": {
-                "interval": "day",
-                "interval_count": 1629540362
+        "body": {
+          "application_fee_amount": 280859363,
+          "application_fee_percent": 0.40739152341436696,
+          "automatic_tax": {
+            "enabled": true,
+            "liability": {
+              "account": "5yK6I1yiS5",
+              "type": "self"
+            }
+          },
+          "collection_method": "charge_automatically",
+          "customer": "ggtA44u746",
+          "default_tax_rates": ["NxfDkEPnfx"],
+          "description": "OILMhguQya",
+          "discounts": [
+            {
+              "coupon": "KLwbcvH4cK",
+              "discount": "OwerXvqzWC",
+              "promotion_code": "BbRP94S6nq"
+            }
+          ],
+          "expand": ["automatic_tax"],
+          "expires_at": 1621424173,
+          "footer": "18b7ilOQVM",
+          "header": "5Et7wN3pI4",
+          "invoice_settings": {
+            "days_until_due": 1008000304,
+            "issuer": {
+              "account": "uth1LFCUCz",
+              "type": "account"
+            }
+          },
+          "line_items": [
+            {
+              "discounts": [
+                {
+                  "coupon": "fORhP9OLOZ",
+                  "discount": "OBRaKsDtwb",
+                  "promotion_code": "hjRXODAB7g"
+                }
+              ],
+              "id": "Ciaaw1XNoq",
+              "price": "4uepPRQDIH",
+              "price_data": {
+                "currency": "lWG9vWPcmd",
+                "product": "E47576KoVs",
+                "recurring": {
+                  "interval": "week",
+                  "interval_count": 1121133231
+                },
+                "tax_behavior": "unspecified",
+                "unit_amount": 1866608760,
+                "unit_amount_decimal": "Tx8256ovQJ"
               },
-              "tax_behavior": "unspecified",
-              "unit_amount": 1295480838,
-              "unit_amount_decimal": "xA8y3F9MCR"
-            },
-            "quantity": 642980651,
-            "tax_rates": null
-          }
-        ],
-        "metadata": null,
-        "on_behalf_of": null,
-        "quote": "6KqoRsx00N",
-        "subscription_data": {
-          "description": null,
-          "effective_date": null,
+              "quantity": 709662554,
+              "tax_rates": ["p9RcDvDJOi"]
+            }
+          ],
           "metadata": null,
-          "trial_period_days": null
+          "on_behalf_of": "nC8HDTmNZw",
+          "subscription_data": {
+            "description": "1L41WZ6RMW",
+            "effective_date": null,
+            "metadata": null,
+            "trial_period_days": 1815366994
+          },
+          "transfer_data": {
+            "amount": 6278235,
+            "amount_percent": 1.9896232557146376,
+            "destination": "hQFdWyCOBk"
+          }
         },
-        "transfer_data": null
+        "quote": "Frm9LRdzh3"
       },
       "fields": {
         "fields": {

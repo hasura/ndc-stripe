@@ -1,0 +1,24 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1234567890,
+        "customer_mapping": {
+          "event_payload_key": "qFN5fresOd",
+          "type": "by_id"
+        },
+        "default_aggregation": { "formula": "sum" },
+        "display_name": "4ucnRlGSsp",
+        "event_name": "ap9FM23gxm",
+        "event_time_window": "hour",
+        "livemode": true,
+        "object": "billing.meter",
+        "status": "active",
+        "status_transitions": { "deactivated_at": null },
+        "updated": 1234567890,
+        "value_settings": { "event_payload_key": "oOdri0WmDz" }
+      },
+      "type": "procedure"
+    }
+  ]
+}

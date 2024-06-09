@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "PostTestHelpersCustomersCustomerFundCashBalance",
       "arguments": {
-        "amount": 2029857043,
-        "currency": "xfxqUmG3NN",
-        "customer": "G3MSUENqan",
-        "expand": ["CKRaeG9MXP"],
-        "reference": "JFheJirWVR"
+        "body": {
+          "amount": 321331947,
+          "currency": "D007nTCwBv",
+          "expand": ["N95TWdS2Oo"],
+          "reference": "VHtScn4RnL"
+        },
+        "customer": "aovion2v3d"
       },
       "fields": {
         "fields": {

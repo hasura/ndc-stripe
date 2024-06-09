@@ -139,19 +139,6 @@
                     },
                     "type": "column"
                   },
-                  "subscription_pause": {
-                    "column": "subscription_pause",
-                    "fields": {
-                      "fields": {
-                        "enabled": {
-                          "column": "enabled",
-                          "type": "column"
-                        }
-                      },
-                      "type": "object"
-                    },
-                    "type": "column"
-                  },
                   "subscription_update": {
                     "column": "subscription_update",
                     "fields": {
@@ -198,10 +185,6 @@
               },
               "type": "column"
             },
-            "id": {
-              "column": "id",
-              "type": "column"
-            },
             "is_default": {
               "column": "is_default",
               "type": "column"
@@ -216,10 +199,6 @@
                 "fields": {
                   "enabled": {
                     "column": "enabled",
-                    "type": "column"
-                  },
-                  "url": {
-                    "column": "url",
                     "type": "column"
                   }
                 },

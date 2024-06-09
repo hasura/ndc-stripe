@@ -5,20 +5,25 @@
       "type": "procedure",
       "name": "PostIssuingPersonalizationDesignsPersonalizationDesign",
       "arguments": {
-        "card_logo": null,
-        "carrier_text": null,
-        "expand": [
-          "THGBwHelDb"
-        ],
-        "lookup_key": null,
-        "metadata": null,
-        "name": null,
-        "personalization_design": "OjDPr8B2Jd",
-        "physical_bundle": "piUVKHZtwJ",
-        "preferences": {
-          "is_default": true
+        "body": {
+          "card_logo": "B9yAQvGAkr",
+          "carrier_text": {
+            "footer_body": "EeDbYqdAzd",
+            "footer_title": "5TC4gllBql",
+            "header_body": "oJELwVREgV",
+            "header_title": "YJPUxpRd7V"
+          },
+          "expand": ["DovHL8hvUm"],
+          "lookup_key": "c7VbZWYRaJ",
+          "metadata": null,
+          "name": "cOBfo3ayQc",
+          "physical_bundle": "LeMxab32UK",
+          "preferences": {
+            "is_default": false
+          },
+          "transfer_lookup_key": true
         },
-        "transfer_lookup_key": true
+        "personalization_design": "zWJPcNzdvq"
       },
       "fields": {
         "fields": {

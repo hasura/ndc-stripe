@@ -5,76 +5,66 @@
       "type": "procedure",
       "name": "PostIssuingCardholdersCardholder",
       "arguments": {
-        "billing": {
-          "address": {
-            "city": "wfhtKE1LWh",
-            "country": "C7h5Xo77UQ",
-            "line1": "UrgjTk2ZdK",
-            "line2": "NvsiCJQ0rw",
-            "postal_code": "ykqsriptHP",
-            "state": "u44k4vBapm"
-          }
-        },
-        "cardholder": "7qsbavqCeB",
-        "company": {
-          "tax_id": "vVt0uJVhsl"
-        },
-        "email": "4k0aEkJ0QS",
-        "expand": [
-          "qIwU3U2zB8"
-        ],
-        "individual": {
-          "card_issuing": {
-            "user_terms_acceptance": {
-              "date": 1933300260,
-              "ip": "KqZ0qI6EBG",
-              "user_agent": null
+        "body": {
+          "billing": {
+            "address": {
+              "city": "ERcOqiDiHM",
+              "country": "IVknwb7wQj",
+              "line1": "ChAxX0t9Zh",
+              "line2": "4d38KQ1vKC",
+              "postal_code": "JJ7RXMQJms",
+              "state": "7rkPoclL6m"
             }
           },
-          "dob": {
-            "day": 1115390778,
-            "month": 1955235072,
-            "year": 1769330866
+          "company": {
+            "tax_id": "QDrcRqyewD"
           },
-          "first_name": "wD1osxh3l5",
-          "last_name": "Va0ZcehD7b",
-          "verification": {
-            "document": {
-              "back": "3KhiQxpmYc",
-              "front": "fYcNLd4F0S"
+          "email": "I0SfsuyhAs",
+          "expand": ["3mxIL9Lre4"],
+          "individual": {
+            "card_issuing": {
+              "user_terms_acceptance": {
+                "date": 722231676,
+                "ip": "kdtsgXVkpa",
+                "user_agent": "up9xlT1UH1"
+              }
+            },
+            "dob": {
+              "day": 96123680,
+              "month": 1661196573,
+              "year": 920114001
+            },
+            "first_name": "2XGBMSzhnm",
+            "last_name": "BVUh8A8E05",
+            "verification": {
+              "document": {
+                "back": "77w3CnxNu9",
+                "front": "C2Ox2WSG9z"
+              }
             }
-          }
+          },
+          "metadata": null,
+          "phone_number": "OFldi7IhjV",
+          "preferred_locales": ["it"],
+          "spending_controls": {
+            "allowed_categories": ["news_dealers_and_newsstands"],
+            "allowed_merchant_countries": ["xnoRgmqCqt"],
+            "blocked_categories": [
+              "government_licensed_horse_dog_racing_us_region_only"
+            ],
+            "blocked_merchant_countries": ["AY3sa0arh5"],
+            "spending_limits": [
+              {
+                "amount": 262922694,
+                "categories": ["passenger_railways"],
+                "interval": "per_authorization"
+              }
+            ],
+            "spending_limits_currency": "iG70yZCOh7"
+          },
+          "status": "active"
         },
-        "metadata": null,
-        "phone_number": "6XwPgiaP6S",
-        "preferred_locales": [
-          "de"
-        ],
-        "spending_controls": {
-          "allowed_categories": [
-            "telegraph_services"
-          ],
-          "allowed_merchant_countries": [
-            "galW5vNsHF"
-          ],
-          "blocked_categories": [
-            "professional_services"
-          ],
-          "blocked_merchant_countries": [
-            "2oSMlgX2xb"
-          ],
-          "spending_limits": [
-            {
-              "amount": 436525614,
-              "categories": [
-                "billiard_pool_establishments"
-              ],
-              "interval": "per_authorization"
-            }
-          ],
-          "spending_limits_currency": "X0DTeYoE39"
-        },
-        "status": "active"
+        "cardholder": "maTXoPUU09"
       },
       "fields": {
         "fields": {

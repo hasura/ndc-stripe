@@ -1,9 +1,10 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "after_expiration": null,
-        "allow_promotion_codes": false,
+        "allow_promotion_codes": true,
         "amount_subtotal": null,
         "amount_total": null,
         "automatic_tax": {
@@ -11,14 +12,14 @@
           "liability": null,
           "status": null
         },
-        "billing_address_collection": "required",
-        "cancel_url": "BepUDhw9w9",
-        "client_reference_id": "83G1wk1f4R",
+        "billing_address_collection": "auto",
+        "cancel_url": "qpmWppPyIv",
+        "client_reference_id": "ZcJeCf6JAa",
         "client_secret": null,
         "consent": null,
         "consent_collection": null,
         "created": 1234567890,
-        "currency": "Ttam2YWnVc",
+        "currency": "oVljMB8lon",
         "currency_conversion": null,
         "custom_fields": [],
         "custom_text": {
@@ -27,8 +28,8 @@
           "submit": null,
           "terms_of_service_acceptance": null
         },
-        "customer": "A1Mv2SmjFx",
-        "customer_creation": "if_required",
+        "customer": "mT4BKOSu9s",
+        "customer_creation": "always",
         "customer_details": {
           "address": null,
           "email": "example@example.com",
@@ -37,13 +38,13 @@
           "tax_exempt": "none",
           "tax_ids": null
         },
-        "customer_email": "odboXYOygp",
-        "expires_at": 1248318141,
+        "customer_email": "1xiCJ8M7Pr",
+        "expires_at": 1756067225,
         "invoice": null,
         "invoice_creation": null,
         "line_items": null,
         "livemode": false,
-        "locale": "es",
+        "locale": "ru",
         "metadata": {},
         "mode": "payment",
         "object": "checkout.session",
@@ -82,9 +83,11 @@
           "swish": null,
           "us_bank_account": null
         },
-        "payment_method_types": ["au_becs_debit"],
+        "payment_method_types": ["giropay"],
         "payment_status": "unpaid",
-        "phone_number_collection": { "enabled": false },
+        "phone_number_collection": {
+          "enabled": true
+        },
         "recovered_from": null,
         "redirect_on_completion": null,
         "return_url": null,
@@ -94,15 +97,14 @@
         "shipping_details": null,
         "shipping_options": [],
         "status": "open",
-        "submit_type": "book",
+        "submit_type": "donate",
         "subscription": null,
-        "success_url": "tVEcQZ8Fx9",
+        "success_url": "hDTwi34TAz",
         "tax_id_collection": null,
         "total_details": null,
-        "ui_mode": "embedded",
+        "ui_mode": "hosted",
         "url": "https://checkout.stripe.com/pay/c/cs_test_a12et9VnHfV9NETJktvuOmVoyrOB40recOCQWiVNeDlBe4IqxEIRNi1Qdf"
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

@@ -5,17 +5,19 @@
       "type": "procedure",
       "name": "PostCustomersCustomerFundingInstructions",
       "arguments": {
-        "bank_transfer": {
-          "eu_bank_transfer": {
-            "country": "btFgd6fA2L"
+        "body": {
+          "bank_transfer": {
+            "eu_bank_transfer": {
+              "country": "tc0hSlNsLI"
+            },
+            "requested_address_types": ["zengin"],
+            "type": "us_bank_transfer"
           },
-          "requested_address_types": ["iban"],
-          "type": "gb_bank_transfer"
+          "currency": "yShGdG1cOG",
+          "expand": ["OGyeNwXemg"],
+          "funding_type": "bank_transfer"
         },
-        "currency": "YvDqH0MbxZ",
-        "customer": "HkT6Qx90zF",
-        "expand": [],
-        "funding_type": "bank_transfer"
+        "customer": "qlUONwi1WW"
       },
       "fields": {
         "fields": {

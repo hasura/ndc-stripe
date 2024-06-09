@@ -5,27 +5,38 @@
       "type": "procedure",
       "name": "PostSubscriptionItems",
       "arguments": {
-        "billing_thresholds": null,
-        "expand": ["kL8Mb6UXZs"],
-        "metadata": null,
-        "payment_behavior": "default_incomplete",
-        "price": "D4yeWcBHm7",
-        "price_data": {
-          "currency": "V9qL8wqB8Q",
-          "product": "6q9R58O6Wy",
-          "recurring": {
-            "interval": "day",
-            "interval_count": 1420849207
+        "body": {
+          "billing_thresholds": {
+            "usage_gte": 353199460
           },
-          "tax_behavior": "unspecified",
-          "unit_amount": 1200752007,
-          "unit_amount_decimal": "Us8fn691cf"
-        },
-        "proration_behavior": "create_prorations",
-        "proration_date": 1672173180,
-        "quantity": 78136002,
-        "subscription": "Uxe0pNFy8j",
-        "tax_rates": null
+          "discounts": [
+            {
+              "coupon": "3jF18vRCBo",
+              "discount": "hGdqPGcY0I",
+              "promotion_code": "kDUQTZ46qM"
+            }
+          ],
+          "expand": ["6lXodvpxXd"],
+          "metadata": null,
+          "payment_behavior": "allow_incomplete",
+          "price": "oGTd3gFThg",
+          "price_data": {
+            "currency": "1z2SUCSZXw",
+            "product": "u4MxDWmMJE",
+            "recurring": {
+              "interval": "day",
+              "interval_count": 807160062
+            },
+            "tax_behavior": "exclusive",
+            "unit_amount": 806704017,
+            "unit_amount_decimal": "LmUyil04yl"
+          },
+          "proration_behavior": "always_invoice",
+          "proration_date": 728222909,
+          "quantity": 1915443156,
+          "subscription": "9XeulpRjUC",
+          "tax_rates": ["bmmYZx5WPR"]
+        }
       },
       "fields": {
         "fields": {

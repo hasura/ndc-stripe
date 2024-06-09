@@ -4,6 +4,7 @@
       {
         "__value": {
           "account_holder": {
+            "account": null,
             "customer": "cus_PEHTIoPSgT0tXQ",
             "type": "customer"
           },
@@ -11,6 +12,7 @@
             "data": [
               {
                 "account_holder": {
+                  "account": null,
                   "customer": "cus_PEHTIoPSgT0tXQ",
                   "type": "customer"
                 },
@@ -19,7 +21,6 @@
                 "category": "cash",
                 "created": 1234567890,
                 "display_name": "Sample Checking Account",
-                "id": "fca_1OPouwJN5vQBdWExZJ9BIvU6",
                 "institution_name": "StripeBank",
                 "last4": "6789",
                 "livemode": false,
@@ -35,12 +36,10 @@
               }
             ],
             "has_more": false,
-            "object": "list",
-            "url": "/v1/financial_connections/accounts"
+            "object": "list"
           },
           "client_secret": "fcsess_..._secret_...",
           "filters": null,
-          "id": "wkwvEcMCZB",
           "livemode": false,
           "object": "financial_connections.session",
           "permissions": ["balances", "payment_method"],

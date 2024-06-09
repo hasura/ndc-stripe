@@ -2,7 +2,7 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1661915822,
+        "amount": 236215179,
         "balance_transactions": null,
         "created": 1234567890,
         "currency": "usd",
@@ -10,20 +10,20 @@
           "canceled": null,
           "duplicate": null,
           "fraudulent": {
-            "additional_documentation": null,
-            "explanation": "Fraud; card reported lost on 12/21/2023"
+            "additional_documentation": "ujpjb3swr7",
+            "explanation": "WUDgt6jZTj"
           },
           "merchandise_not_as_described": null,
           "not_received": null,
           "other": null,
-          "reason": "duplicate",
+          "reason": "other",
           "service_not_as_described": null
         },
         "livemode": false,
         "metadata": {},
         "object": "issuing.dispute",
         "status": "unsubmitted",
-        "transaction": "8AojC3TKkk",
+        "transaction": "FNKX0jfrE3",
         "treasury": null
       },
       "type": "procedure"

@@ -2,11 +2,11 @@
   "operation_results": [
     {
       "result": {
-        "amount": 358023064,
+        "amount": 1315722423,
         "balance_transaction": null,
         "created": 1234567890,
-        "currency": "eQOg9yMnWX",
-        "description": "6rFfDZZKkh",
+        "currency": "aA05aLuWud",
+        "description": "Drx3lFhgfO",
         "expected_availability_date": 123456789,
         "failure_code": null,
         "failure_message": null,
@@ -67,9 +67,9 @@
           "usage": "reusable",
           "wechat": null
         },
-        "statement_descriptor": "vlcy2LE46R",
+        "statement_descriptor": "tOjgj0QVht",
         "status": "pending",
-        "transfer_group": "zag9Uaz9PB"
+        "transfer_group": "qvGKs6ssBX"
       },
       "type": "procedure"
     }

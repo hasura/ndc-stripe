@@ -5,15 +5,16 @@
       "type": "procedure",
       "name": "PostPayouts",
       "arguments": {
-        "amount": 1638409718,
-        "currency": "pUvTmwsf8d",
-        "description": "x7mJTACyxt",
-        "destination": "qQAYVk9ndR",
-        "expand": [],
-        "metadata": null,
-        "method": "instant",
-        "source_type": "fpx",
-        "statement_descriptor": "6PxLUo3AEm"
+        "body": {
+          "amount": 569438277,
+          "currency": "1DrvXsVdDq",
+          "description": "j2izGUrlXW",
+          "destination": "YgYqkfAGC0",
+          "metadata": null,
+          "method": "standard",
+          "source_type": "bank_account",
+          "statement_descriptor": "M2aq0btS7R"
+        }
       },
       "fields": {
         "fields": {

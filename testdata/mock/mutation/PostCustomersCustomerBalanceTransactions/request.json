@@ -5,12 +5,14 @@
       "type": "procedure",
       "name": "PostCustomersCustomerBalanceTransactions",
       "arguments": {
-        "amount": 415951382,
-        "currency": "hnNJscu7gs",
-        "customer": "jl2SIPH1GB",
-        "description": "P2sMec9C6G",
-        "expand": ["asV341FLOB"],
-        "metadata": null
+        "body": {
+          "amount": 2107060381,
+          "currency": "frWGPqhpT3",
+          "description": "VUsVozvWBm",
+          "expand": ["fpuLcgRR6W"],
+          "metadata": null
+        },
+        "customer": "KFazZNXP4K"
       },
       "fields": {
         "fields": {

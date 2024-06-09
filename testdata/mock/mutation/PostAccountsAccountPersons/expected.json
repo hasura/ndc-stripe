@@ -2,17 +2,21 @@
   "operation_results": [
     {
       "result": {
-        "account": "1uAxJYW41H",
+        "account": "Sy1CsLpo5S",
         "additional_tos_acceptances": {
-          "account": { "date": 13029, "ip": "sw1TvqpSyx", "user_agent": null }
+          "account": {
+            "date": 226390029,
+            "ip": "gHjWwcVXFL",
+            "user_agent": "izfvXz0Wcr"
+          }
         },
         "address": null,
         "address_kana": null,
         "address_kanji": null,
         "created": 1234567890,
-        "dob": { "day": null, "month": null, "year": null },
+        "dob": { "day": 1590137575, "month": 929758384, "year": 1308862971 },
         "email": null,
-        "first_name": "ijaRTbbl2r",
+        "first_name": "rmy5PJwWRJ",
         "first_name_kana": null,
         "first_name_kanji": null,
         "full_name_aliases": null,
@@ -27,7 +31,7 @@
         "gender": null,
         "id_number_provided": false,
         "id_number_secondary_provided": null,
-        "last_name": "5aRGDL4gbr",
+        "last_name": "zxQ6a7HPGp",
         "last_name_kana": null,
         "last_name_kanji": null,
         "maiden_name": null,
@@ -38,13 +42,13 @@
         "political_exposure": null,
         "registered_address": null,
         "relationship": {
-          "director": false,
-          "executive": true,
+          "director": true,
+          "executive": false,
           "legal_guardian": true,
           "owner": false,
-          "percent_ownership": null,
-          "representative": true,
-          "title": "RU2IuSBKTR"
+          "percent_ownership": 0.257002,
+          "representative": false,
+          "title": "o8vCvg4Sub"
         },
         "requirements": {
           "alternatives": [],
@@ -65,10 +69,10 @@
           "details": null,
           "details_code": null,
           "document": {
-            "back": "2XGGmsiTmD",
+            "back": "73Xxs8CYun",
             "details": null,
             "details_code": null,
-            "front": "6UXm1EQ15S"
+            "front": "3dhtH6kdDR"
           },
           "status": "unverified"
         }

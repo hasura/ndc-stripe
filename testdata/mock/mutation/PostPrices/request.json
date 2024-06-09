@@ -5,39 +5,49 @@
       "type": "procedure",
       "name": "PostPrices",
       "arguments": {
-        "active": true,
-        "billing_scheme": "per_unit",
-        "currency": "QVw2HTkxuP",
-        "currency_options": null,
-        "custom_unit_amount": {
-          "enabled": false,
-          "maximum": 1842983666,
-          "minimum": 1754593043,
-          "preset": 736699573
-        },
-        "lookup_key": "8dZGYAriBZ",
-        "metadata": null,
-        "nickname": "3s3T7VLwY1",
-        "product": "fMc3ej6e5U",
-        "product_data": {
+        "body": {
           "active": true,
-          "id": "cW6YrifKPk",
+          "billing_scheme": "per_unit",
+          "currency": "AOYns9le3q",
+          "currency_options": null,
+          "custom_unit_amount": {
+            "enabled": false,
+            "maximum": 1660443689,
+            "minimum": 1344877985,
+            "preset": 519060806
+          },
+          "expand": ["9m9IXJHe8O"],
+          "lookup_key": "JPRekVp6la",
           "metadata": null,
-          "name": "qJgzcd9pBx",
-          "statement_descriptor": "UpZjPhGqQL",
-          "tax_code": "bH0NXtAoQ8",
-          "unit_label": "3KMB5Y9ACi"
-        },
-        "recurring": {
-          "aggregate_usage": "last_ever",
-          "interval": "week",
-          "interval_count": 160977891,
-          "meter": "r3y843Jn8y",
-          "usage_type": "licensed"
-        },
-        "tax_behavior": "unspecified",
-        "unit_amount": 79470472,
-        "unit_amount_decimal": "eNn9SyfUuC"
+          "nickname": "hfMcCXhTwX",
+          "product": "1a99WXByeM",
+          "product_data": {
+            "active": false,
+            "id": "0bgLjpaa0M",
+            "metadata": null,
+            "name": "yNAhSd6pKu",
+            "statement_descriptor": "avbxt9EIbi",
+            "tax_code": "sqR4NGRDqn",
+            "unit_label": "AXz23PtCWi"
+          },
+          "recurring": {
+            "aggregate_usage": "sum",
+            "interval": "year",
+            "interval_count": 37798364,
+            "meter": "tNFJnOPpQt",
+            "usage_type": "metered"
+          },
+          "tax_behavior": "exclusive",
+          "tiers": [],
+          "tiers_mode": "graduated",
+          "transfer_lookup_key": false,
+          "transform_quantity": {
+            "divide_by": 850281597,
+            "round": "up"
+          },
+          "unit_amount": 146140120,
+          "unit_amount_decimal": "wT3cFshgjK"
+        }
       },
       "fields": {
         "fields": {

@@ -1,0 +1,62 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostProductsProductFeatures",
+      "arguments": {
+        "body": {
+          "entitlement_feature": "HyjRYKQmMU",
+          "expand": []
+        },
+        "product": "kLylZvplzc"
+      },
+      "fields": {
+        "fields": {
+          "entitlement_feature": {
+            "column": "entitlement_feature",
+            "fields": {
+              "fields": {
+                "active": {
+                  "column": "active",
+                  "type": "column"
+                },
+                "livemode": {
+                  "column": "livemode",
+                  "type": "column"
+                },
+                "lookup_key": {
+                  "column": "lookup_key",
+                  "type": "column"
+                },
+                "metadata": {
+                  "column": "metadata",
+                  "type": "column"
+                },
+                "name": {
+                  "column": "name",
+                  "type": "column"
+                },
+                "object": {
+                  "column": "object",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

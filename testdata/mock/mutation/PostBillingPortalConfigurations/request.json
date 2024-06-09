@@ -5,44 +5,51 @@
       "type": "procedure",
       "name": "PostBillingPortalConfigurations",
       "arguments": {
-        "business_profile": {
-          "headline": null,
-          "privacy_policy_url": "oHRIKYH7Xh",
-          "terms_of_service_url": "l1i7X4v4Mn"
-        },
-        "default_return_url": null,
-        "expand": ["5aqdXpznH8"],
-        "features": {
-          "customer_update": {
-            "allowed_updates": null,
-            "enabled": false
+        "body": {
+          "business_profile": {
+            "headline": "anG08gZXfL",
+            "privacy_policy_url": "HI5v0P4k4p",
+            "terms_of_service_url": "8Yqn11SpLL"
           },
-          "invoice_history": {
+          "default_return_url": "LV2oDtAtQ9",
+          "expand": ["a14YrIxD2H"],
+          "features": {
+            "customer_update": {
+              "allowed_updates": ["shipping"],
+              "enabled": true
+            },
+            "invoice_history": {
+              "enabled": false
+            },
+            "payment_method_update": {
+              "enabled": false
+            },
+            "subscription_cancel": {
+              "cancellation_reason": {
+                "enabled": true,
+                "options": ["other"]
+              },
+              "enabled": false,
+              "mode": "at_period_end",
+              "proration_behavior": "always_invoice"
+            },
+            "subscription_update": {
+              "default_allowed_updates": ["promotion_code"],
+              "enabled": true,
+              "products": [
+                {
+                  "prices": ["5OYU7sKgEZ"],
+                  "product": "arUZ376Jzh"
+                }
+              ],
+              "proration_behavior": "always_invoice"
+            }
+          },
+          "login_page": {
             "enabled": true
           },
-          "payment_method_update": {
-            "enabled": false
-          },
-          "subscription_cancel": {
-            "cancellation_reason": {
-              "enabled": true,
-              "options": ""
-            },
-            "enabled": false,
-            "mode": "immediately",
-            "proration_behavior": "create_prorations"
-          },
-          "subscription_update": {
-            "default_allowed_updates": "",
-            "enabled": false,
-            "products": "",
-            "proration_behavior": "create_prorations"
-          }
-        },
-        "login_page": {
-          "enabled": false
-        },
-        "metadata": null
+          "metadata": null
+        }
       },
       "fields": {
         "fields": {

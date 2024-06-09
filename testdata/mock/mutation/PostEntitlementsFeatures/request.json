@@ -1,0 +1,46 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostEntitlementsFeatures",
+      "arguments": {
+        "body": {
+          "expand": [],
+          "lookup_key": "sSAzrF4xC2",
+          "metadata": null,
+          "name": "56YQggTBfk"
+        }
+      },
+      "fields": {
+        "fields": {
+          "active": {
+            "column": "active",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "lookup_key": {
+            "column": "lookup_key",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "name": {
+            "column": "name",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

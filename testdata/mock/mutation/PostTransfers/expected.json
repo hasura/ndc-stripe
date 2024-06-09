@@ -2,13 +2,13 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1764834864,
+        "amount": 593562244,
         "amount_reversed": 0,
         "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
         "created": 1234567890,
-        "currency": "nR06Nyx9M3",
-        "description": "nkMB2b2ijH",
-        "destination": "Q2gW7O9SCL",
+        "currency": "Y3867efivD",
+        "description": "Al7fXuCvtB",
+        "destination": "FDrg91mAXr",
         "destination_payment": "py_PEHTHL4uD4U3Hv",
         "livemode": false,
         "metadata": {},
@@ -30,9 +30,9 @@
           "object": "list"
         },
         "reversed": false,
-        "source_transaction": "p87URpoqwe",
-        "source_type": "fpx",
-        "transfer_group": "pmdDLyuU9G"
+        "source_transaction": "8srH4U5PAB",
+        "source_type": "card",
+        "transfer_group": "6GxB9HsaGx"
       },
       "type": "procedure"
     }

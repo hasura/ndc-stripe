@@ -1,0 +1,57 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostBillingMeterEventAdjustments",
+      "arguments": {
+        "body": {
+          "cancel": {
+            "identifier": "PzJe8UigNU"
+          },
+          "event_name": "lOcBwwqJ9k",
+          "expand": [],
+          "type": "cancel"
+        }
+      },
+      "fields": {
+        "fields": {
+          "cancel": {
+            "column": "cancel",
+            "fields": {
+              "fields": {
+                "identifier": {
+                  "column": "identifier",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "event_name": {
+            "column": "event_name",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "type": {
+            "column": "type",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

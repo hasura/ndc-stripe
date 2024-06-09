@@ -5,148 +5,165 @@
       "type": "procedure",
       "name": "PostPaymentLinks",
       "arguments": {
-        "after_completion": {
-          "hosted_confirmation": {
-            "custom_message": "aWLnAG0oij"
+        "body": {
+          "after_completion": {
+            "hosted_confirmation": {
+              "custom_message": "Q6Dlhllvka"
+            },
+            "redirect": {
+              "url": "G1FHQ4tTci"
+            },
+            "type": "redirect"
           },
-          "redirect": {
-            "url": "WkOZWcMYip"
-          },
-          "type": "hosted_confirmation"
-        },
-        "allow_promotion_codes": true,
-        "application_fee_amount": 1655017718,
-        "application_fee_percent": 1.4622801991593635,
-        "automatic_tax": {
-          "enabled": false,
-          "liability": {
-            "account": "wttoSqQSZt",
-            "type": "account"
-          }
-        },
-        "billing_address_collection": "auto",
-        "consent_collection": {
-          "payment_method_reuse_agreement": {
-            "position": "auto"
-          },
-          "promotions": "none",
-          "terms_of_service": "required"
-        },
-        "currency": "8JomgOTaDX",
-        "custom_fields": [
-          {
-            "dropdown": {
-              "options": [
-                {
-                  "label": "f0fdG9itOn",
-                  "value": "p7faQ9B9Pt"
-                }
-              ]
-            },
-            "key": "6xHj96tRw9",
-            "label": {
-              "custom": "bA3XdPG0ZG",
-              "type": "custom"
-            },
-            "numeric": {
-              "maximum_length": 1458622188,
-              "minimum_length": 1954274465
-            },
-            "optional": true,
-            "text": {
-              "maximum_length": 1139358893,
-              "minimum_length": 2070001310
-            },
-            "type": "numeric"
-          }
-        ],
-        "custom_text": {
-          "after_submit": null,
-          "shipping_address": null,
-          "submit": null,
-          "terms_of_service_acceptance": null
-        },
-        "customer_creation": "if_required",
-        "expand": ["Aqg5vnutBv"],
-        "inactive_message": "MHe12tdTG0",
-        "invoice_creation": {
-          "enabled": true,
-          "invoice_data": {
-            "account_tax_ids": null,
-            "custom_fields": null,
-            "description": "Ur7mRKrKgN",
-            "footer": "cEnuoRlcZy",
-            "issuer": {
-              "account": "LoLsWJ23Iy",
-              "type": "self"
-            },
-            "metadata": null,
-            "rendering_options": null
-          }
-        },
-        "line_items": [
-          {
-            "adjustable_quantity": {
-              "enabled": true,
-              "maximum": 228351339,
-              "minimum": 857567290
-            },
-            "price": "Nmv4EcNu6Z",
-            "quantity": 1672464959
-          }
-        ],
-        "metadata": null,
-        "on_behalf_of": "arrH0EsTTV",
-        "payment_intent_data": {
-          "capture_method": "manual",
-          "description": "LmGDd8zeT7",
-          "metadata": null,
-          "setup_future_usage": "on_session",
-          "statement_descriptor": "rmBdK5vKpb",
-          "statement_descriptor_suffix": "N12BxrWY3C",
-          "transfer_group": "3xke1uyJPN"
-        },
-        "payment_method_collection": "always",
-        "payment_method_types": ["giropay"],
-        "phone_number_collection": {
-          "enabled": false
-        },
-        "restrictions": {
-          "completed_sessions": {
-            "limit": 1961868830
-          }
-        },
-        "shipping_address_collection": {
-          "allowed_countries": ["SG"]
-        },
-        "shipping_options": [
-          {
-            "shipping_rate": "W6tHCgWqmC"
-          }
-        ],
-        "submit_type": "auto",
-        "subscription_data": {
-          "description": "uRCNRcBEzc",
-          "invoice_settings": {
-            "issuer": {
-              "account": "ji0lGROE8A",
+          "allow_promotion_codes": true,
+          "application_fee_amount": 2067414333,
+          "application_fee_percent": 0.0019460975296871096,
+          "automatic_tax": {
+            "enabled": false,
+            "liability": {
+              "account": "SjtzmRklyC",
               "type": "account"
             }
           },
-          "metadata": null,
-          "trial_period_days": 74721826,
-          "trial_settings": {
-            "end_behavior": {
-              "missing_payment_method": "pause"
+          "billing_address_collection": "required",
+          "consent_collection": {
+            "payment_method_reuse_agreement": {
+              "position": "auto"
+            },
+            "promotions": "auto",
+            "terms_of_service": "required"
+          },
+          "currency": "zNg1yVyCys",
+          "custom_fields": [
+            {
+              "dropdown": {
+                "options": [
+                  {
+                    "label": "Q2FdJ2QRYx",
+                    "value": "4B0GjvILE4"
+                  }
+                ]
+              },
+              "key": "MZGWcn6mbs",
+              "label": {
+                "custom": "ALLXiIw0CT",
+                "type": "custom"
+              },
+              "numeric": {
+                "maximum_length": 1441954215,
+                "minimum_length": 960505013
+              },
+              "optional": true,
+              "text": {
+                "maximum_length": 1137855796,
+                "minimum_length": 1223975927
+              },
+              "type": "dropdown"
             }
+          ],
+          "custom_text": {
+            "after_submit": {
+              "message": "psC6cS65VZ"
+            },
+            "shipping_address": {
+              "message": "hmKM9DU4Qv"
+            },
+            "submit": {
+              "message": "Ohxz1Ap2Wa"
+            },
+            "terms_of_service_acceptance": {
+              "message": "B3KrC8ocXg"
+            }
+          },
+          "customer_creation": "if_required",
+          "expand": [],
+          "inactive_message": "YrL4Jj2fKt",
+          "invoice_creation": {
+            "enabled": false,
+            "invoice_data": {
+              "account_tax_ids": ["gdsaT5RknW"],
+              "custom_fields": [
+                {
+                  "name": "dhgEnyQN2g",
+                  "value": "LzxJVfDyRU"
+                }
+              ],
+              "description": "2Vfhp38DlN",
+              "footer": "AXm2ppppuC",
+              "issuer": {
+                "account": "XquFGdXXEh",
+                "type": "self"
+              },
+              "metadata": null,
+              "rendering_options": {
+                "amount_tax_display": "include_inclusive_tax"
+              }
+            }
+          },
+          "line_items": [
+            {
+              "adjustable_quantity": {
+                "enabled": false,
+                "maximum": 1046038257,
+                "minimum": 1332128975
+              },
+              "price": "2U6K3robbi",
+              "quantity": 979238705
+            }
+          ],
+          "metadata": null,
+          "on_behalf_of": "saqoNS3IbM",
+          "payment_intent_data": {
+            "capture_method": "automatic",
+            "description": "DUlyKHaGwB",
+            "metadata": null,
+            "setup_future_usage": "on_session",
+            "statement_descriptor": "nueIxPncXD",
+            "statement_descriptor_suffix": "JlcEQWhFo8",
+            "transfer_group": "lpZc4EvXVt"
+          },
+          "payment_method_collection": "if_required",
+          "payment_method_types": ["oxxo"],
+          "phone_number_collection": {
+            "enabled": true
+          },
+          "restrictions": {
+            "completed_sessions": {
+              "limit": 1469319387
+            }
+          },
+          "shipping_address_collection": {
+            "allowed_countries": ["JO"]
+          },
+          "shipping_options": [
+            {
+              "shipping_rate": "5Mgc6rhfOu"
+            }
+          ],
+          "submit_type": "book",
+          "subscription_data": {
+            "description": "1dfpPnrTCR",
+            "invoice_settings": {
+              "issuer": {
+                "account": "go8wCDbkbo",
+                "type": "self"
+              }
+            },
+            "metadata": null,
+            "trial_period_days": 1778584638,
+            "trial_settings": {
+              "end_behavior": {
+                "missing_payment_method": "pause"
+              }
+            }
+          },
+          "tax_id_collection": {
+            "enabled": true
+          },
+          "transfer_data": {
+            "amount": 2116360084,
+            "destination": "81bfVHmo0t"
           }
-        },
-        "tax_id_collection": {
-          "enabled": true
-        },
-        "transfer_data": {
-          "amount": 1939747713,
-          "destination": "DaVl9eMrBm"
         }
       },
       "fields": {

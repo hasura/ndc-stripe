@@ -5,15 +5,15 @@
       "type": "procedure",
       "name": "PostPlansPlan",
       "arguments": {
-        "active": true,
-        "expand": [
-          "Ugpp1vlynP"
-        ],
-        "metadata": null,
-        "nickname": "NkUS1jrbEd",
-        "plan": "W4GAIRb7Lt",
-        "product": "W2Kq48y5Pk",
-        "trial_period_days": 1481166597
+        "body": {
+          "active": true,
+          "expand": ["k6ZwVablOS"],
+          "metadata": null,
+          "nickname": "cPdFn9yzMP",
+          "product": "yTvVRxXMWy",
+          "trial_period_days": 1017249154
+        },
+        "plan": "EGf0pFoZ0d"
       },
       "fields": {
         "fields": {

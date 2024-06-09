@@ -2,19 +2,19 @@
   "operation_results": [
     {
       "result": {
-        "amount": 1901802844,
+        "amount": 854206536,
         "cancelable": true,
         "created": 1234567890,
-        "currency": "qwnDMuZkHV",
-        "description": "y8npllDqqA",
+        "currency": "mxoTkh1wrS",
+        "description": "tDV7VXBPQK",
         "failure_details": null,
-        "financial_account": "Y3EOS1AXHg",
+        "financial_account": "Wv3MtUaWJF",
         "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgYOEtbDkck6Nv2qFp3js1PntieIqQDERWMh17q9c735bplptY1B0Am1liqX_copS8vzlwmXl-r1E2jHWIEMxg",
         "linked_flows": { "received_debit": null },
         "livemode": false,
         "metadata": {},
         "object": "treasury.inbound_transfer",
-        "origin_payment_method": "yzYHiWzHrS",
+        "origin_payment_method": "ap8adNMC6A",
         "origin_payment_method_details": {
           "billing_details": {
             "address": {
@@ -41,7 +41,7 @@
           }
         },
         "returned": false,
-        "statement_descriptor": "Vk0CbWL4LZ",
+        "statement_descriptor": "efXEnoUreL",
         "status": "processing",
         "status_transitions": {
           "canceled_at": null,

@@ -1,6 +1,7 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "amount": 100,
         "amount_captured": 0,
@@ -26,14 +27,14 @@
         "captured": false,
         "created": 1234567890,
         "currency": "usd",
-        "customer": "PiU8Er6g9G",
-        "description": "oYMLTpn7tV",
+        "customer": "qeD4vCfAD0",
+        "description": "XWc8i8ppoY",
         "disputed": false,
         "failure_balance_transaction": null,
         "failure_code": null,
         "failure_message": null,
         "fraud_details": {},
-        "id": "cu4QXbFkrJ",
+        "id": "zIpiHfCVlE",
         "invoice": null,
         "livemode": false,
         "metadata": {},
@@ -55,16 +56,24 @@
             "country": "US",
             "exp_month": 8,
             "exp_year": 2024,
-            "extended_authorization": { "status": "disabled" },
+            "extended_authorization": {
+              "status": "disabled"
+            },
             "fingerprint": "r40d4vOgg3VecDJF",
             "funding": "credit",
-            "incremental_authorization": { "status": "unavailable" },
+            "incremental_authorization": {
+              "status": "unavailable"
+            },
             "installments": null,
             "last4": "4242",
             "mandate": null,
-            "multicapture": { "status": "unavailable" },
+            "multicapture": {
+              "status": "unavailable"
+            },
             "network": "visa",
-            "network_token": { "used": false },
+            "network_token": {
+              "used": false
+            },
             "overcapture": {
               "maximum_amount_capturable": 100,
               "status": "unavailable"
@@ -75,7 +84,7 @@
           "type": "card"
         },
         "radar_options": null,
-        "receipt_email": "0C7B1zBx5T",
+        "receipt_email": "b1E8kPt0QV",
         "receipt_number": null,
         "receipt_url": "https://pakrym-manage-mydev.dev.stripe.me/receipts/payment/CAcaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KL3JkawGMgZvNmQ3SW46LCKn_twcP-jc9phNH9BfAtUKJcNs5Gy9n0cn7wNp9IWz2coUhEmAKuyETwtJ",
         "refunded": false,
@@ -84,7 +93,7 @@
             {
               "amount": 100,
               "balance_transaction": null,
-              "charge": "cu4QXbFkrJ",
+              "charge": "zIpiHfCVlE",
               "created": 1234567890,
               "currency": "usd",
               "description": null,
@@ -141,7 +150,7 @@
           ],
           "has_more": false,
           "object": "list",
-          "url": "/v1/charges/cu4QXbFkrJ/refunds"
+          "url": "/v1/charges/zIpiHfCVlE/refunds"
         },
         "review": null,
         "shipping": null,
@@ -151,9 +160,8 @@
         "status": "succeeded",
         "transfer": null,
         "transfer_data": null,
-        "transfer_group": "5vwXC1Xuqp"
-      },
-      "type": "procedure"
+        "transfer_group": "RcjVi0USl2"
+      }
     }
   ]
 }

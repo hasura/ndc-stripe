@@ -1,0 +1,106 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostBillingMetersIdReactivate",
+      "arguments": {
+        "expand": ["RrQJgCq3q7"],
+        "id": "LFGF731WOs"
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "customer_mapping": {
+            "column": "customer_mapping",
+            "fields": {
+              "fields": {
+                "event_payload_key": {
+                  "column": "event_payload_key",
+                  "type": "column"
+                },
+                "type": {
+                  "column": "type",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "default_aggregation": {
+            "column": "default_aggregation",
+            "fields": {
+              "fields": {
+                "formula": {
+                  "column": "formula",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "display_name": {
+            "column": "display_name",
+            "type": "column"
+          },
+          "event_name": {
+            "column": "event_name",
+            "type": "column"
+          },
+          "event_time_window": {
+            "column": "event_time_window",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "status_transitions": {
+            "column": "status_transitions",
+            "fields": {
+              "fields": {
+                "deactivated_at": {
+                  "column": "deactivated_at",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          },
+          "updated": {
+            "column": "updated",
+            "type": "column"
+          },
+          "value_settings": {
+            "column": "value_settings",
+            "fields": {
+              "fields": {
+                "event_payload_key": {
+                  "column": "event_payload_key",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

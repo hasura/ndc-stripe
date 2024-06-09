@@ -43,8 +43,8 @@
         "filters": null,
         "livemode": false,
         "object": "financial_connections.session",
-        "permissions": ["ownership"],
-        "prefetch": ["ownership"],
+        "permissions": ["transactions"],
+        "prefetch": ["transactions"],
         "return_url": null
       },
       "type": "procedure"

@@ -5,8 +5,10 @@
       "type": "procedure",
       "name": "PostApplePayDomains",
       "arguments": {
-        "domain_name": "Kh0KyQ9nUS",
-        "expand": []
+        "body": {
+          "domain_name": "8TlB2TyemW",
+          "expand": []
+        }
       },
       "fields": {
         "fields": {

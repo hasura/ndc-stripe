@@ -1,0 +1,282 @@
+{
+  "operation_results": [
+    {
+      "type": "procedure",
+      "result": {
+        "account": null,
+        "account_holder_name": null,
+        "account_holder_type": null,
+        "account_type": null,
+        "ach_credit_transfer": null,
+        "ach_debit": null,
+        "acss_debit": null,
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "alipay": null,
+        "amount": null,
+        "au_becs_debit": null,
+        "available_payout_methods": null,
+        "bancontact": null,
+        "bank_name": null,
+        "brand": null,
+        "business_profile": {
+          "annual_revenue": null,
+          "estimated_worker_count": null,
+          "mcc": null,
+          "monthly_estimated_revenue": null,
+          "name": null,
+          "product_description": null,
+          "support_address": null,
+          "support_email": null,
+          "support_phone": null,
+          "support_url": null
+        },
+        "business_type": null,
+        "capabilities": {
+          "acss_debit_payments": null,
+          "affirm_payments": null,
+          "afterpay_clearpay_payments": null,
+          "amazon_pay_payments": null,
+          "au_becs_debit_payments": null,
+          "bacs_debit_payments": null,
+          "bancontact_payments": null,
+          "bank_transfer_payments": null,
+          "blik_payments": null,
+          "boleto_payments": null,
+          "card_issuing": null,
+          "card_payments": "active",
+          "cartes_bancaires_payments": null,
+          "cashapp_payments": null,
+          "eps_payments": null,
+          "fpx_payments": null,
+          "giropay_payments": null,
+          "grabpay_payments": null,
+          "ideal_payments": null,
+          "india_international_payments": null,
+          "jcb_payments": null,
+          "klarna_payments": null,
+          "konbini_payments": null,
+          "legacy_payments": null,
+          "link_payments": null,
+          "mobilepay_payments": null,
+          "oxxo_payments": null,
+          "p24_payments": null,
+          "paynow_payments": null,
+          "promptpay_payments": null,
+          "revolut_pay_payments": null,
+          "sepa_debit_payments": null,
+          "sofort_payments": null,
+          "swish_payments": null,
+          "tax_reporting_us_1099_k": null,
+          "tax_reporting_us_1099_misc": null,
+          "transfers": "active",
+          "treasury": null,
+          "us_bank_account_ach_payments": null,
+          "zip_payments": null
+        },
+        "card": null,
+        "card_present": null,
+        "charges_enabled": false,
+        "client_secret": null,
+        "code_verification": null,
+        "company": null,
+        "controller": {
+          "fees": null,
+          "is_controller": null,
+          "losses": null,
+          "requirement_collection": null,
+          "stripe_dashboard": null,
+          "type": "account"
+        },
+        "country": "US",
+        "created": 1234567890,
+        "currency": null,
+        "customer": null,
+        "cvc_check": null,
+        "default_currency": "usd",
+        "default_for_currency": null,
+        "details_submitted": false,
+        "dynamic_last4": null,
+        "email": "site@stripe.com",
+        "eps": null,
+        "exp_month": null,
+        "exp_year": null,
+        "external_accounts": {
+          "data": [
+            {
+              "account": null,
+              "account_holder_name": "Jane Austen",
+              "account_holder_type": "individual",
+              "account_type": null,
+              "address_city": null,
+              "address_country": null,
+              "address_line1": null,
+              "address_line1_check": null,
+              "address_line2": null,
+              "address_state": null,
+              "address_zip": null,
+              "address_zip_check": null,
+              "available_payout_methods": null,
+              "bank_name": "STRIPE TEST BANK",
+              "brand": null,
+              "country": "US",
+              "currency": "usd",
+              "customer": null,
+              "cvc_check": null,
+              "default_for_currency": null,
+              "dynamic_last4": null,
+              "exp_month": null,
+              "exp_year": null,
+              "fingerprint": "1JWtPxqbdX5Gamtz",
+              "funding": null,
+              "future_requirements": null,
+              "last4": "6789",
+              "metadata": {},
+              "name": null,
+              "networks": null,
+              "object": "bank_account",
+              "requirements": null,
+              "routing_number": "110000000",
+              "status": "new",
+              "tokenization_method": null
+            }
+          ],
+          "has_more": false,
+          "object": "list"
+        },
+        "fingerprint": null,
+        "flow": null,
+        "funding": null,
+        "future_requirements": {
+          "alternatives": [],
+          "current_deadline": null,
+          "currently_due": [],
+          "disabled_reason": null,
+          "errors": [],
+          "eventually_due": [],
+          "past_due": [],
+          "pending_verification": []
+        },
+        "giropay": null,
+        "ideal": null,
+        "individual": null,
+        "klarna": null,
+        "last4": null,
+        "livemode": null,
+        "metadata": {},
+        "multibanco": null,
+        "name": null,
+        "networks": null,
+        "object": "account",
+        "owner": null,
+        "p24": null,
+        "payouts_enabled": false,
+        "receiver": null,
+        "redirect": null,
+        "requirements": {
+          "alternatives": [],
+          "current_deadline": null,
+          "currently_due": [
+            "business_profile.product_description",
+            "business_profile.support_phone",
+            "business_profile.url",
+            "external_account",
+            "tos_acceptance.date",
+            "tos_acceptance.ip"
+          ],
+          "disabled_reason": "requirements.past_due",
+          "errors": [],
+          "eventually_due": [
+            "business_profile.product_description",
+            "business_profile.support_phone",
+            "business_profile.url",
+            "external_account",
+            "tos_acceptance.date",
+            "tos_acceptance.ip"
+          ],
+          "past_due": [],
+          "pending_verification": []
+        },
+        "routing_number": null,
+        "sepa_debit": null,
+        "settings": {
+          "bacs_debit_payments": {
+            "display_name": null,
+            "service_user_number": null
+          },
+          "branding": {
+            "icon": null,
+            "logo": null,
+            "primary_color": null,
+            "secondary_color": null
+          },
+          "card_issuing": {
+            "tos_acceptance": {
+              "date": null,
+              "ip": null,
+              "user_agent": null
+            }
+          },
+          "card_payments": {
+            "decline_on": {
+              "avs_failure": true,
+              "cvc_failure": true
+            },
+            "statement_descriptor_prefix": null,
+            "statement_descriptor_prefix_kana": null,
+            "statement_descriptor_prefix_kanji": null
+          },
+          "dashboard": {
+            "display_name": null,
+            "timezone": "Etc/UTC"
+          },
+          "invoices": {
+            "default_account_tax_ids": null
+          },
+          "payments": {
+            "statement_descriptor": null,
+            "statement_descriptor_kana": null,
+            "statement_descriptor_kanji": null,
+            "statement_descriptor_prefix_kana": null,
+            "statement_descriptor_prefix_kanji": null
+          },
+          "payouts": {
+            "debit_negative_balances": true,
+            "schedule": {
+              "delay_days": 2,
+              "interval": "daily",
+              "monthly_anchor": null,
+              "weekly_anchor": null
+            },
+            "statement_descriptor": null
+          },
+          "sepa_debit_payments": {
+            "creditor_id": null
+          },
+          "treasury": null
+        },
+        "sofort": null,
+        "source_order": null,
+        "statement_descriptor": null,
+        "status": null,
+        "three_d_secure": null,
+        "tokenization_method": null,
+        "tos_acceptance": {
+          "date": null,
+          "ip": null,
+          "service_agreement": null,
+          "user_agent": null
+        },
+        "type": "standard",
+        "usage": null,
+        "wechat": null
+      }
+    }
+  ]
+}

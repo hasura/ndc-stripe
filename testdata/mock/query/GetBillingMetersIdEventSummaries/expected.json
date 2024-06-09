@@ -1,0 +1,22 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "aggregated_value": 25,
+              "end_time": 1234567890,
+              "livemode": false,
+              "meter": "mtr_123",
+              "object": "billing.meter_event_summary",
+              "start_time": 1234567890
+            }
+          ],
+          "has_more": false,
+          "object": "list"
+        }
+      }
+    ]
+  }
+]

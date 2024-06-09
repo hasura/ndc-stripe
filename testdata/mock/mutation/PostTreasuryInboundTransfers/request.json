@@ -5,13 +5,16 @@
       "type": "procedure",
       "name": "PostTreasuryInboundTransfers",
       "arguments": {
-        "amount": 1901802844,
-        "currency": "qwnDMuZkHV",
-        "description": "y8npllDqqA",
-        "expand": [],
-        "financial_account": "Y3EOS1AXHg",
-        "origin_payment_method": "yzYHiWzHrS",
-        "statement_descriptor": "Vk0CbWL4LZ"
+        "body": {
+          "amount": 854206536,
+          "currency": "mxoTkh1wrS",
+          "description": "tDV7VXBPQK",
+          "expand": [],
+          "financial_account": "Wv3MtUaWJF",
+          "metadata": null,
+          "origin_payment_method": "ap8adNMC6A",
+          "statement_descriptor": "efXEnoUreL"
+        }
       },
       "fields": {
         "fields": {

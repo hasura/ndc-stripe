@@ -5,9 +5,11 @@
       "type": "procedure",
       "name": "PostIssuingTokensToken",
       "arguments": {
-        "expand": ["network_data"],
-        "status": "active",
-        "token": "NmmUPQcHNE"
+        "body": {
+          "expand": ["network_data"],
+          "status": "active"
+        },
+        "token": "40dh5vB1b3"
       },
       "fields": {
         "fields": {

@@ -5,23 +5,32 @@
       "type": "procedure",
       "name": "PostProductsId",
       "arguments": {
-        "active": true,
-        "default_price": "wbsOHFq6vh",
-        "description": null,
-        "expand": [
-          "SO1qxeiHi7"
-        ],
-        "features": null,
-        "id": "yM9ww5TPVE",
-        "images": null,
-        "metadata": null,
-        "name": "rfTdoSZsz5",
-        "package_dimensions": null,
-        "shippable": true,
-        "statement_descriptor": "7E4a5ECWQb",
-        "tax_code": null,
-        "unit_label": null,
-        "url": null
+        "body": {
+          "active": false,
+          "default_price": "IbjBsDZHjj",
+          "description": "zc6SyZYWid",
+          "expand": ["85FT1dRyyg"],
+          "images": ["afL5wjKrQi"],
+          "marketing_features": [
+            {
+              "name": "nHvvhjGnlb"
+            }
+          ],
+          "metadata": null,
+          "name": "RnwMkobzis",
+          "package_dimensions": {
+            "height": 1.9072857502765683,
+            "length": 0.9432143344598775,
+            "weight": 1.8400244125100984,
+            "width": 1.3762054683655853
+          },
+          "shippable": false,
+          "statement_descriptor": "jcz63cTIuY",
+          "tax_code": "Avj5SmlV9l",
+          "unit_label": "LBI3AekhYT",
+          "url": "KELeNwHnkB"
+        },
+        "id": "Dqxz8zVk1w"
       },
       "fields": {
         "fields": {

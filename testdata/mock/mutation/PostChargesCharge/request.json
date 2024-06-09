@@ -5,30 +5,32 @@
       "type": "procedure",
       "name": "PostChargesCharge",
       "arguments": {
-        "charge": "cu4QXbFkrJ",
-        "customer": "PiU8Er6g9G",
-        "description": "oYMLTpn7tV",
-        "expand": ["billing_details"],
-        "fraud_details": {
-          "user_report": "safe"
-        },
-        "metadata": null,
-        "receipt_email": "0C7B1zBx5T",
-        "shipping": {
-          "address": {
-            "city": "3NmjdO3la2",
-            "country": "xG7uv3nFNz",
-            "line1": "1yPeYJK3e9",
-            "line2": "xIIs4FNDhs",
-            "postal_code": "hve8cSLY02",
-            "state": "g7d9Ky0nH0"
+        "body": {
+          "customer": "qeD4vCfAD0",
+          "description": "XWc8i8ppoY",
+          "expand": ["rgSREltMAj"],
+          "fraud_details": {
+            "user_report": "safe"
           },
-          "carrier": "w3ujaThkeM",
-          "name": "AFYNL2poC5",
-          "phone": "DHgdqZUCD1",
-          "tracking_number": "1zYDyw3ZzF"
+          "metadata": null,
+          "receipt_email": "b1E8kPt0QV",
+          "shipping": {
+            "address": {
+              "city": "girUaHE4kb",
+              "country": "ZGjPghEedc",
+              "line1": "O2jkkqaNXf",
+              "line2": "UksIU9pGZ0",
+              "postal_code": "gP0frSeK1W",
+              "state": "n4ssml0lPi"
+            },
+            "carrier": "fteecQSwGh",
+            "name": "xmGs4C4imY",
+            "phone": "XJb1NpFccV",
+            "tracking_number": "ITMM1S9vvc"
+          },
+          "transfer_group": "RcjVi0USl2"
         },
-        "transfer_group": "5vwXC1Xuqp"
+        "charge": "zIpiHfCVlE"
       },
       "fields": {
         "fields": {

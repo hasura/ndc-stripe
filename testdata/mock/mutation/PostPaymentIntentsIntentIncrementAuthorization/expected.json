@@ -2,12 +2,12 @@
   "operation_results": [
     {
       "result": {
-        "amount": 536490284,
+        "amount": 1908815064,
         "amount_capturable": 0,
         "amount_details": { "tip": { "amount": null } },
         "amount_received": 0,
         "application": null,
-        "application_fee_amount": 632568941,
+        "application_fee_amount": 1255648272,
         "automatic_payment_methods": null,
         "canceled_at": 1234567890,
         "cancellation_reason": null,
@@ -17,7 +17,7 @@
         "created": 1234567890,
         "currency": "usd",
         "customer": null,
-        "description": "TF4x1RupyU",
+        "description": "P2VOtS674b",
         "invoice": null,
         "last_payment_error": null,
         "latest_charge": null,
@@ -72,7 +72,7 @@
         "review": null,
         "setup_future_usage": null,
         "shipping": null,
-        "statement_descriptor": "pLDBSRtoPH",
+        "statement_descriptor": "6ohtJzgnpf",
         "statement_descriptor_suffix": null,
         "status": "requires_payment_method",
         "transfer_data": null,

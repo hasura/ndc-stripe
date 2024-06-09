@@ -5,10 +5,10 @@
       "type": "procedure",
       "name": "PostPaymentMethodsPaymentMethodAttach",
       "arguments": {
-        "customer": "1zftPHFFy2",
-        "expand": [
-          "nQv740m4RD"
-        ],
+        "body": {
+          "customer": "DiURy5X1np",
+          "expand": ["RyK2zmpnpx"]
+        },
         "payment_method": "8ZnVkNLMmS"
       },
       "fields": {

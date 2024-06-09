@@ -6,9 +6,7 @@
     },
     "expand": {
       "type": "literal",
-      "value": [
-        "GFQJF44hzR"
-      ]
+      "value": ["GFQJF44hzR"]
     },
     "limit": {
       "type": "literal",
@@ -198,6 +196,10 @@
                                   "subscription": {
                                     "column": "subscription",
                                     "type": "column"
+                                  },
+                                  "subscription_item": {
+                                    "column": "subscription_item",
+                                    "type": "column"
                                   }
                                 },
                                 "type": "object"
@@ -221,6 +223,178 @@
                     },
                     "price": {
                       "column": "price",
+                      "fields": {
+                        "fields": {
+                          "active": {
+                            "column": "active",
+                            "type": "column"
+                          },
+                          "billing_scheme": {
+                            "column": "billing_scheme",
+                            "type": "column"
+                          },
+                          "created": {
+                            "column": "created",
+                            "type": "column"
+                          },
+                          "currency": {
+                            "column": "currency",
+                            "type": "column"
+                          },
+                          "currency_options": {
+                            "column": "currency_options",
+                            "type": "column"
+                          },
+                          "custom_unit_amount": {
+                            "column": "custom_unit_amount",
+                            "fields": {
+                              "fields": {
+                                "maximum": {
+                                  "column": "maximum",
+                                  "type": "column"
+                                },
+                                "minimum": {
+                                  "column": "minimum",
+                                  "type": "column"
+                                },
+                                "preset": {
+                                  "column": "preset",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "id": {
+                            "column": "id",
+                            "type": "column"
+                          },
+                          "livemode": {
+                            "column": "livemode",
+                            "type": "column"
+                          },
+                          "lookup_key": {
+                            "column": "lookup_key",
+                            "type": "column"
+                          },
+                          "metadata": {
+                            "column": "metadata",
+                            "type": "column"
+                          },
+                          "nickname": {
+                            "column": "nickname",
+                            "type": "column"
+                          },
+                          "object": {
+                            "column": "object",
+                            "type": "column"
+                          },
+                          "product": {
+                            "column": "product",
+                            "type": "column"
+                          },
+                          "recurring": {
+                            "column": "recurring",
+                            "fields": {
+                              "fields": {
+                                "aggregate_usage": {
+                                  "column": "aggregate_usage",
+                                  "type": "column"
+                                },
+                                "interval": {
+                                  "column": "interval",
+                                  "type": "column"
+                                },
+                                "interval_count": {
+                                  "column": "interval_count",
+                                  "type": "column"
+                                },
+                                "meter": {
+                                  "column": "meter",
+                                  "type": "column"
+                                },
+                                "usage_type": {
+                                  "column": "usage_type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "tax_behavior": {
+                            "column": "tax_behavior",
+                            "type": "column"
+                          },
+                          "tiers": {
+                            "column": "tiers",
+                            "fields": {
+                              "fields": {
+                                "fields": {
+                                  "flat_amount": {
+                                    "column": "flat_amount",
+                                    "type": "column"
+                                  },
+                                  "flat_amount_decimal": {
+                                    "column": "flat_amount_decimal",
+                                    "type": "column"
+                                  },
+                                  "unit_amount": {
+                                    "column": "unit_amount",
+                                    "type": "column"
+                                  },
+                                  "unit_amount_decimal": {
+                                    "column": "unit_amount_decimal",
+                                    "type": "column"
+                                  },
+                                  "up_to": {
+                                    "column": "up_to",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "type": "column"
+                          },
+                          "tiers_mode": {
+                            "column": "tiers_mode",
+                            "type": "column"
+                          },
+                          "transform_quantity": {
+                            "column": "transform_quantity",
+                            "fields": {
+                              "fields": {
+                                "divide_by": {
+                                  "column": "divide_by",
+                                  "type": "column"
+                                },
+                                "round": {
+                                  "column": "round",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "type": {
+                            "column": "type",
+                            "type": "column"
+                          },
+                          "unit_amount": {
+                            "column": "unit_amount",
+                            "type": "column"
+                          },
+                          "unit_amount_decimal": {
+                            "column": "unit_amount_decimal",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
                       "type": "column"
                     },
                     "quantity": {

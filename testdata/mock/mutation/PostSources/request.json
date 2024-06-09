@@ -4,84 +4,87 @@
     {
       "type": "procedure",
       "name": "PostSources",
+
       "arguments": {
-        "amount": 1420834552,
-        "currency": "BEjc59jre0",
-        "customer": "B72FdCWFTk",
-        "expand": ["SdFbIv6aDx"],
-        "flow": "code_verification",
-        "mandate": {
-          "acceptance": {
-            "date": 1312529503,
-            "ip": "B5F2icDfBK",
-            "offline": {
-              "contact_email": "ThtVkWhPfr"
+        "body": {
+          "amount": 1648589942,
+          "currency": "02dD6K4SY5",
+          "customer": "XHyZfxDQ3J",
+          "expand": ["Gs992Vzizg"],
+          "flow": "none",
+          "mandate": {
+            "acceptance": {
+              "date": 513331721,
+              "ip": "XstmSU3Err",
+              "offline": {
+                "contact_email": "BcXwcpzuWt"
+              },
+              "online": {
+                "date": 1765964170,
+                "ip": "LSVECUTrUz",
+                "user_agent": "ip5apEdVmi"
+              },
+              "status": "pending",
+              "type": "online",
+              "user_agent": "A8qQgy56qQ"
             },
-            "online": {
-              "date": 635616735,
-              "ip": "js8rM5p6Rl",
-              "user_agent": "SEwAHQPiAN"
-            },
-            "status": "refused",
-            "type": "offline",
-            "user_agent": "WrcgtgXuDB"
+            "amount": 464939303,
+            "currency": "Q8gUlIE2Ry",
+            "interval": "one_time",
+            "notification_method": "stripe_email"
           },
-          "amount": null,
-          "currency": "UA0zjJPhJJ",
-          "interval": "one_time",
-          "notification_method": "none"
-        },
-        "metadata": null,
-        "original_source": "lUZkcuM0WA",
-        "owner": {
-          "address": {
-            "city": "M83OtxOvZJ",
-            "country": "iYneZPboSP",
-            "line1": "HIKCCocTC8",
-            "line2": "WaJDg427bI",
-            "postal_code": "3bjSkp5eHT",
-            "state": "UDiTD9Ym83"
-          },
-          "email": "4EreuZ4rB4",
-          "name": "wcLIK4G0rS",
-          "phone": "k6xHqUEyMY"
-        },
-        "receiver": {
-          "refund_attributes_method": "manual"
-        },
-        "redirect": {
-          "return_url": "7q5U1KkQU7"
-        },
-        "source_order": {
-          "items": [
-            {
-              "amount": 831868601,
-              "currency": "axV4Hub9mx",
-              "description": "OiP6Vw0j6o",
-              "parent": "JMmATs5iCL",
-              "quantity": 1865292191,
-              "type": "discount"
-            }
-          ],
-          "shipping": {
+          "metadata": null,
+          "original_source": "nxvKN66wFq",
+          "owner": {
             "address": {
-              "city": "oDkJAtwbtz",
-              "country": "xc8FxWucSv",
-              "line1": "fPPXbKlhcr",
-              "line2": "1DJ53vulgc",
-              "postal_code": "S8lXILLkyw",
-              "state": "dKDPMGszcb"
+              "city": "w7r8ssfNxR",
+              "country": "c4oWlLZh0m",
+              "line1": "q6mvAdPsRQ",
+              "line2": "2gvtWZCFam",
+              "postal_code": "W6mmhRfGMq",
+              "state": "IGbhsfyQF0"
             },
-            "carrier": "nJBHQI7M02",
-            "name": "AzWAOESQu1",
-            "phone": "FCX87QkSel",
-            "tracking_number": "3bG5jNIoEi"
-          }
-        },
-        "statement_descriptor": "3BbTCNq3X5",
-        "token": "i4Zd0Cs11O",
-        "type": "24wcgS84FF",
-        "usage": "single_use"
+            "email": "P1wzABdN5p",
+            "name": "DJMidjKY2Y",
+            "phone": "B631osjFDa"
+          },
+          "receiver": {
+            "refund_attributes_method": "email"
+          },
+          "redirect": {
+            "return_url": "tGLBsdGaP4"
+          },
+          "source_order": {
+            "items": [
+              {
+                "amount": 1076043528,
+                "currency": "kTFLBn4FBp",
+                "description": "LjZmMXzVqF",
+                "parent": "5REYlDWU4h",
+                "quantity": 2027563977,
+                "type": "tax"
+              }
+            ],
+            "shipping": {
+              "address": {
+                "city": "zQzRWky8GH",
+                "country": "YnwXYzROgx",
+                "line1": "eHQiBqIMp6",
+                "line2": "tTA8j7Jnid",
+                "postal_code": "FnpoU2cqf9",
+                "state": "DuwUw5nzXn"
+              },
+              "carrier": "5OgZYa4GWf",
+              "name": "p4Nps5XKsx",
+              "phone": "Eu14sqQgWU",
+              "tracking_number": "eYKGkEeK9I"
+            }
+          },
+          "statement_descriptor": "7c6QhIYZmu",
+          "token": "NtRtPDOX0t",
+          "type": "ma3CsGdJ7c",
+          "usage": "single_use"
+        }
       },
       "fields": {
         "fields": {

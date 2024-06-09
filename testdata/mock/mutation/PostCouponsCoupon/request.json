@@ -5,11 +5,13 @@
       "type": "procedure",
       "name": "PostCouponsCoupon",
       "arguments": {
-        "coupon": "gOtWlJElEv",
-        "currency_options": null,
-        "expand": ["applies_to"],
-        "metadata": null,
-        "name": "BWkqEvgkyG"
+        "body": {
+          "currency_options": null,
+          "expand": ["applies_to"],
+          "metadata": null,
+          "name": "SRPVWJzheB"
+        },
+        "coupon": "FxH1NFaUKM"
       },
       "fields": {
         "fields": {
