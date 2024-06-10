@@ -13,5 +13,5 @@ commands: {}
 dockerComposeWatch:
   # copy config files into the existing container and restart it
   - path: ./config
-    target: /config
+    target: /etc/connector
     action: sync+restart

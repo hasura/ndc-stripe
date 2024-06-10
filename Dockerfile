@@ -1,3 +1,3 @@
-FROM ghcr.io/hasura/ndc-rest:v0.2.0
+FROM ghcr.io/hasura/ndc-rest:v0.2.1
 
-COPY ./config /config
+COPY ./config /etc/connector
