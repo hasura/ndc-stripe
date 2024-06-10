@@ -1,10 +1,10 @@
-NDC_REST_VERSION ?= v0.2.0
+NDC_REST_VERSION ?= v0.2.1
 UID ?= $(shell id -u)
 GID ?= $(shell id -g)
 
 .PHONY: build-schema
 build-schema:
-	go install github.com/hasura/ndc-rest-schema@$(NDC_REST_VERSION)
+	go install github.com/hasura/ndc-rest-schema@latest
 	ndc-rest-schema convert \
 		-c schema/config.yaml \
 		-o config/schema.json

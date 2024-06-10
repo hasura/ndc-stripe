@@ -5,7 +5,7 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./config:/config:ro
+      - ./config:/etc/connector:ro
     depends_on:
       stripe-mock:
         condition: service_started
