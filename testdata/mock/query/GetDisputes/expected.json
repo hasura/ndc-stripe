@@ -52,7 +52,8 @@
               "object": "dispute",
               "payment_intent": null,
               "payment_method_details": {
-                "card": { "brand": "visa", "network_reason_code": "10.4" },
+                "klarna": null,
+                "paypal": null,
                 "type": "card"
               },
               "reason": "general",

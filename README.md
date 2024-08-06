@@ -31,7 +31,7 @@ The connector serves the HTTP service at `http://localhost:8080` and connect to 
 ### Update dependencies
 
 ```sh
-NDC_REST_VERSION=\<version\> make update-deps
+NDC_REST_VERSION=<version> make update-deps
 ```
 
 ### Update schema
