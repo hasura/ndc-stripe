@@ -299,12 +299,39 @@
               "column": "payment_intent",
               "type": "column"
             },
+
             "payment_method_details": {
               "column": "payment_method_details",
               "fields": {
                 "fields": {
-                  "card": {
-                    "column": "card",
+                  "klarna": {
+                    "column": "klarna",
+                    "fields": {
+                      "fields": {
+                        "reason_code": {
+                          "column": "reason_code",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "column"
+                  },
+                  "paypal": {
+                    "column": "paypal",
+                    "fields": {
+                      "fields": {
+                        "case_id": {
+                          "column": "case_id",
+                          "type": "column"
+                        },
+                        "reason_code": {
+                          "column": "reason_code",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
                     "type": "column"
                   },
                   "type": {
