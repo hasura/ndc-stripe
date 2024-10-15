@@ -1,17 +1,14 @@
 packagingDefinition:
   type: PrebuiltDockerImage
   dockerImage: ghcr.io/hasura/ndc-stripe:{{VERSION}}
+documentationPage: https://github.com/hasura/ndc-stripe
 supportedEnvironmentVariables:
-  - STRIPE_SERVER_URL
-  - STRIPE_BASIC_AUTH_TOKEN
-  - STRIPE_BEARER_AUTH_TOKEN
-  - STRIPE_TIMEOUT
-  - STRIPE_RETRY_TIMES
-  - STRIPE_RETRY_DELAY
-  - STRIPE_RETRY_HTTP_STATUS
+  - name: STRIPE_BEARER_AUTH_TOKEN
+    description: The API key to authenticate Stripe APIs
+    required: true
+  - name: STRIPE_TIMEOUT
+    description: Default request timeout in seconds
+    defaultValue: "30"
+    required: false
 commands: {}
-dockerComposeWatch:
-  # copy config files into the existing container and restart it
-  - path: ./config
-    target: /etc/connector
-    action: sync+restart
+dockerComposeWatch: []

@@ -1,4 +1,4 @@
-file: https://raw.githubusercontent.com/stripe/openapi/v1178/openapi/spec3.json
+file: https://raw.githubusercontent.com/stripe/openapi/v1296/openapi/spec3.json
 spec: oas3
 envPrefix: STRIPE
 trimPrefix: /v1

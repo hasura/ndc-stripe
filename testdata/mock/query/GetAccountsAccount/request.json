@@ -2,11 +2,11 @@
   "arguments": {
     "account": {
       "type": "literal",
-      "value": "TYrM0mcVgD"
+      "value": "acct_1Q9xpf2fXb4OkYU5"
     },
     "expand": {
       "type": "literal",
-      "value": ["AL5I9yGCRC"]
+      "value": []
     }
   },
   "collection": "GetAccountsAccount",
