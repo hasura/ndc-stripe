@@ -4,21 +4,13 @@
       "type": "literal",
       "value": null
     },
-    "ending_before": {
-      "type": "literal",
-      "value": "mx1ycmXB3O"
-    },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": []
     },
     "limit": {
       "type": "literal",
       "value": 3
-    },
-    "starting_after": {
-      "type": "literal",
-      "value": "rQ3tqBwrKX"
     }
   },
   "collection": "GetAccounts",
