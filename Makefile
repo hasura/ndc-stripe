@@ -1,4 +1,4 @@
-NDC_REST_VERSION ?= v0.2.2
+NDC_REST_VERSION ?= v0.2.4
 UID ?= $(shell id -u)
 GID ?= $(shell id -g)
 
