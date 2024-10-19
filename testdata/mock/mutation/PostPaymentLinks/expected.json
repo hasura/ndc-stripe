@@ -1,18 +1,24 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "active": true,
         "after_completion": {
-          "hosted_confirmation": { "custom_message": "Q6Dlhllvka" },
+          "hosted_confirmation": {
+            "custom_message": "Q6Dlhllvka"
+          },
           "redirect": null,
           "type": "redirect"
         },
         "allow_promotion_codes": true,
         "application": null,
         "application_fee_amount": 2067414333,
-        "application_fee_percent": 0.001946,
-        "automatic_tax": { "enabled": false, "liability": null },
+        "application_fee_percent": 0.0019460975296871096,
+        "automatic_tax": {
+          "enabled": false,
+          "liability": null
+        },
         "billing_address_collection": "required",
         "consent_collection": null,
         "currency": "zNg1yVyCys",
@@ -34,17 +40,20 @@
         "payment_intent_data": null,
         "payment_method_collection": "if_required",
         "payment_method_types": ["oxxo"],
-        "phone_number_collection": { "enabled": true },
+        "phone_number_collection": {
+          "enabled": true
+        },
         "restrictions": null,
         "shipping_address_collection": null,
         "shipping_options": [],
         "submit_type": "book",
         "subscription_data": null,
-        "tax_id_collection": { "enabled": true },
+        "tax_id_collection": {
+          "enabled": true
+        },
         "transfer_data": null,
         "url": "https://pakrym-payment_links_ingress-mydev.dev.stripe.me/test_4gw3eYbvN3ixabe6oo"
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

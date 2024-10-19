@@ -1,6 +1,7 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "amount_off": 790312294,
         "applies_to": null,
@@ -15,12 +16,11 @@
         "metadata": {},
         "name": "5xWC9jlhxE",
         "object": "coupon",
-        "percent_off": 1.979775,
+        "percent_off": 1.979774833385576,
         "redeem_by": 881584503,
         "times_redeemed": 0,
         "valid": true
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

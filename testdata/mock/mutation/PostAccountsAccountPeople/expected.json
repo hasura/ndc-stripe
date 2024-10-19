@@ -1,6 +1,7 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "account": "2wRQHZSnw5",
         "additional_tos_acceptances": {
@@ -14,7 +15,11 @@
         "address_kana": null,
         "address_kanji": null,
         "created": 1234567890,
-        "dob": { "day": 2144860809, "month": 408809060, "year": 2069096385 },
+        "dob": {
+          "day": 2144860809,
+          "month": 408809060,
+          "year": 2069096385
+        },
         "email": null,
         "first_name": "64COqRPuuM",
         "first_name_kana": null,
@@ -46,7 +51,7 @@
           "executive": true,
           "legal_guardian": false,
           "owner": false,
-          "percent_ownership": 0.009567,
+          "percent_ownership": 0.009567423130369552,
           "representative": true,
           "title": "oGDRt3u4Vk"
         },
@@ -76,8 +81,7 @@
           },
           "status": "unverified"
         }
-      },
-      "type": "procedure"
+      }
     }
   ]
 }
