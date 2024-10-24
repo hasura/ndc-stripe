@@ -1,6 +1,7 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "application": null,
         "canceled_at": 1234567890,
@@ -9,8 +10,11 @@
         "current_phase": null,
         "customer": "cus_PEHTtYpY7elppN",
         "default_settings": {
-          "application_fee_percent": 1.435701,
-          "automatic_tax": { "enabled": true, "liability": null },
+          "application_fee_percent": 1.4357013066051985,
+          "automatic_tax": {
+            "enabled": true,
+            "liability": null
+          },
           "billing_cycle_anchor": "phase_start",
           "billing_thresholds": null,
           "collection_method": "charge_automatically",
@@ -19,7 +23,10 @@
           "invoice_settings": {
             "account_tax_ids": ["VV3WaB08e2"],
             "days_until_due": 690645153,
-            "issuer": { "account": null, "type": "account" }
+            "issuer": {
+              "account": null,
+              "type": "account"
+            }
           },
           "on_behalf_of": "JZ0DJ7mg7Y",
           "transfer_data": null
@@ -65,8 +72,7 @@
         "status": "not_started",
         "subscription": null,
         "test_clock": null
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

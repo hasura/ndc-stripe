@@ -1,12 +1,13 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "amount_subtotal": 0,
         "amount_total": 0,
         "application": null,
         "application_fee_amount": 713450951,
-        "application_fee_percent": 1.156448,
+        "application_fee_percent": 1.156448490219482,
         "automatic_tax": {
           "enabled": false,
           "liability": null,
@@ -40,7 +41,10 @@
         "invoice": null,
         "invoice_settings": {
           "days_until_due": 1931599111,
-          "issuer": { "account": null, "type": "self" }
+          "issuer": {
+            "account": null,
+            "type": "self"
+          }
         },
         "line_items": null,
         "livemode": false,
@@ -70,8 +74,7 @@
           "breakdown": null
         },
         "transfer_data": null
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

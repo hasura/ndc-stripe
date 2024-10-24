@@ -1,10 +1,14 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "application": null,
-        "application_fee_percent": 1.290227,
-        "automatic_tax": { "enabled": true, "liability": null },
+        "application_fee_percent": 1.2902268113495523,
+        "automatic_tax": {
+          "enabled": true,
+          "liability": null
+        },
         "billing_cycle_anchor": 1234567890,
         "billing_cycle_anchor_config": null,
         "billing_thresholds": null,
@@ -97,11 +101,12 @@
         "transfer_data": null,
         "trial_end": 1234567890,
         "trial_settings": {
-          "end_behavior": { "missing_payment_method": "create_invoice" }
+          "end_behavior": {
+            "missing_payment_method": "create_invoice"
+          }
         },
         "trial_start": 1234567890
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

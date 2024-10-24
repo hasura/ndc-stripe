@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ROOT="$(pwd)"
-NDC_TEST_VERSION=v0.1.3
+NDC_TEST_VERSION=v0.1.6
 
 http_wait() {
   printf "$1:\t "
@@ -31,7 +31,7 @@ cp .env.example .env
 DOCKER_BUILDKIT=1 COMPOSE_DOCKER_CLI_BUILD=1 docker compose up -d
 http_wait http://localhost:8080/health
 
-$ROOT/ndc-test test --endpoint http://localhost:8080
+$ROOT/ndc-test test --endpoint http://localhost:8080 --snapshots-dir $ROOT/testdata/mock
 $ROOT/ndc-test replay --endpoint http://localhost:8080 --snapshots-dir $ROOT/testdata/mock
 
 exit_code=$?
