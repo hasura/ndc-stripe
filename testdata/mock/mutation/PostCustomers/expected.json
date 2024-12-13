@@ -26,7 +26,9 @@
         "next_invoice_sequence": 1232549417,
         "object": "customer",
         "phone": "jg1BIWwWK3",
-        "preferred_locales": ["RdlUdNqQti"],
+        "preferred_locales": [
+          "RdlUdNqQti"
+        ],
         "shipping": null,
         "sources": null,
         "subscriptions": null,

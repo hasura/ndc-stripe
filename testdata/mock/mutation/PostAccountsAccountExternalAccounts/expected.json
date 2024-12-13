@@ -1,11 +1,10 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "account": null,
         "account_holder_name": "Jane Austen",
-        "account_holder_type": "individual",
+        "account_holder_type": "company",
         "account_type": null,
         "address_city": null,
         "address_country": null,
@@ -26,7 +25,7 @@
         "dynamic_last4": null,
         "exp_month": null,
         "exp_year": null,
-        "fingerprint": "1JWtPxqbdX5Gamtz",
+        "fingerprint": "AuoSJ18zsVWV9SPc",
         "funding": null,
         "future_requirements": null,
         "last4": "6789",
@@ -38,7 +37,8 @@
         "routing_number": "110000000",
         "status": "new",
         "tokenization_method": null
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

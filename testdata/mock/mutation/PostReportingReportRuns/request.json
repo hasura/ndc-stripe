@@ -6,9 +6,13 @@
       "name": "PostReportingReportRuns",
       "arguments": {
         "body": {
-          "expand": ["hbCE9StYUC"],
+          "expand": [
+            "hbCE9StYUC"
+          ],
           "parameters": {
-            "columns": ["Ca7zj2vTk8"],
+            "columns": [
+              "Ca7zj2vTk8"
+            ],
             "connected_account": "4I9udgYT7m",
             "currency": "FxbybI8VFF",
             "interval_end": 1008274719,

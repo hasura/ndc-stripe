@@ -89,12 +89,16 @@
               "promotion_code": "Xknj8juRnm"
             }
           ],
-          "expand": ["ZBxEXz7SN0"],
+          "expand": [
+            "ZBxEXz7SN0"
+          ],
           "expires_at": 1756067225,
           "invoice_creation": {
             "enabled": true,
             "invoice_data": {
-              "account_tax_ids": ["dev8vFF6xG"],
+              "account_tax_ids": [
+                "dev8vFF6xG"
+              ],
               "custom_fields": [
                 {
                   "name": "LBlZjJ4gEy",
@@ -120,14 +124,18 @@
                 "maximum": 1665059759,
                 "minimum": 905088217
               },
-              "dynamic_tax_rates": ["jMMvH8TmQD"],
+              "dynamic_tax_rates": [
+                "jMMvH8TmQD"
+              ],
               "price": "fR6vnvprv8",
               "price_data": {
                 "currency": "euIDO8C4A7",
                 "product": "xilQ2QDVdA",
                 "product_data": {
                   "description": "DQECtJEsLI",
-                  "images": ["gE5K8MOzRc"],
+                  "images": [
+                    "gE5K8MOzRc"
+                  ],
                   "metadata": null,
                   "name": "ak6UVjXl1B",
                   "tax_code": "PzbIHvqWJp"
@@ -141,7 +149,9 @@
                 "unit_amount_decimal": "vkJPCvrn9Q"
               },
               "quantity": 968305911,
-              "tax_rates": ["Ts1bPAoT0T"]
+              "tax_rates": [
+                "Ts1bPAoT0T"
+              ]
             }
           ],
           "locale": "ru",
@@ -187,7 +197,9 @@
               "currency": "usd",
               "mandate_options": {
                 "custom_mandate_url": "FZwPtJKktL",
-                "default_for": ["invoice"],
+                "default_for": [
+                  "invoice"
+                ],
                 "interval_description": "iMgay8S9If",
                 "payment_schedule": "sporadic",
                 "transaction_type": "business"
@@ -237,7 +249,9 @@
                 "eu_bank_transfer": {
                   "country": "mzrVWAjBTc"
                 },
-                "requested_address_types": ["sepa"],
+                "requested_address_types": [
+                  "sepa"
+                ],
                 "type": "gb_bank_transfer"
               },
               "funding_type": "bank_transfer",
@@ -306,8 +320,12 @@
             },
             "us_bank_account": {
               "financial_connections": {
-                "permissions": ["ownership"],
-                "prefetch": ["transactions"]
+                "permissions": [
+                  "ownership"
+                ],
+                "prefetch": [
+                  "transactions"
+                ]
               },
               "setup_future_usage": "none",
               "verification_method": "automatic"
@@ -318,14 +336,18 @@
               "setup_future_usage": "none"
             }
           },
-          "payment_method_types": ["giropay"],
+          "payment_method_types": [
+            "giropay"
+          ],
           "phone_number_collection": {
             "enabled": true
           },
           "redirect_on_completion": "never",
           "return_url": "YgIdKykEHC",
           "saved_payment_method_options": {
-            "allow_redisplay_filters": ["unspecified"],
+            "allow_redisplay_filters": [
+              "unspecified"
+            ],
             "payment_method_save": "enabled"
           },
           "setup_intent_data": {
@@ -334,7 +356,9 @@
             "on_behalf_of": "165u5Fvodj"
           },
           "shipping_address_collection": {
-            "allowed_countries": ["JO"]
+            "allowed_countries": [
+              "JO"
+            ]
           },
           "shipping_options": [
             {
@@ -367,7 +391,9 @@
           "subscription_data": {
             "application_fee_percent": 1.7020678102144877,
             "billing_cycle_anchor": 1981798554,
-            "default_tax_rates": ["b3jgFBJq4f"],
+            "default_tax_rates": [
+              "b3jgFBJq4f"
+            ],
             "description": "7mpaD2E0jf",
             "invoice_settings": {
               "issuer": {

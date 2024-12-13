@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostBillingMetersIdReactivate",
       "arguments": {
-        "expand": ["RrQJgCq3q7"],
+        "expand": [
+          "RrQJgCq3q7"
+        ],
         "id": "LFGF731WOs"
       },
       "fields": {

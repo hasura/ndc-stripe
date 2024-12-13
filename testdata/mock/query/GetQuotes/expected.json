@@ -32,7 +32,7 @@
               },
               "created": 1234567890,
               "currency": "usd",
-              "customer": "cus_PEHTIoPSgT0tXQ",
+              "customer": "cus_QXg1o8vcGmoR32",
               "default_tax_rates": [],
               "description": null,
               "discounts": [],
@@ -40,11 +40,14 @@
               "footer": null,
               "from_quote": null,
               "header": null,
-              "id": "qt_1OPoumJN5vQBdWExJFNWX8UZ",
+              "id": "qt_1Pgc79B7WZ01zgkWHyj9Adwl",
               "invoice": null,
               "invoice_settings": {
                 "days_until_due": null,
-                "issuer": { "account": null, "type": "self" }
+                "issuer": {
+                  "account": null,
+                  "type": "self"
+                }
               },
               "line_items": null,
               "livemode": false,

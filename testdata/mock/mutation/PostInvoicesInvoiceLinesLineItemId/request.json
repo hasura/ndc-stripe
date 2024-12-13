@@ -16,7 +16,9 @@
               "promotion_code": "TeH1vhSdl4"
             }
           ],
-          "expand": ["9VvfDHFjmr"],
+          "expand": [
+            "9VvfDHFjmr"
+          ],
           "metadata": null,
           "period": {
             "end": 439702314,
@@ -28,7 +30,9 @@
             "product": "LpUVVun8BF",
             "product_data": {
               "description": "Pqd53Ju18K",
-              "images": ["9sVTr4bEGQ"],
+              "images": [
+                "9sVTr4bEGQ"
+              ],
               "metadata": null,
               "name": "YilHyBQfjb",
               "tax_code": "jNi53VJtN4"
@@ -54,7 +58,9 @@
               "taxable_amount": 1660998115
             }
           ],
-          "tax_rates": ["DbZ9HVzE3y"]
+          "tax_rates": [
+            "DbZ9HVzE3y"
+          ]
         },
         "invoice": "oKeBQb9Bfl",
         "line_item_id": "QVtUoLVs4l"

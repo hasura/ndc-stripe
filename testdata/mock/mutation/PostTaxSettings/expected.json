@@ -19,7 +19,10 @@
         "livemode": false,
         "object": "tax.settings",
         "status": "active",
-        "status_details": { "active": {}, "pending": null }
+        "status_details": {
+          "active": {},
+          "pending": null
+        }
       },
       "type": "procedure"
     }

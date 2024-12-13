@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostTopupsTopupCancel",
       "arguments": {
-        "expand": ["Ng0r3cC3N5"],
+        "expand": [
+          "Ng0r3cC3N5"
+        ],
         "topup": "HBENSZ6oF3"
       },
       "fields": {

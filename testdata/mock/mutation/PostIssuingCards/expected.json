@@ -16,22 +16,27 @@
             }
           },
           "company": null,
-          "created": 1703175372,
+          "created": 1721948548,
           "email": "jenny@example.com",
-          "id": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+          "id": "ich_1Pgag4B7WZ01zgkWdPVfBngi",
           "individual": null,
           "livemode": false,
           "metadata": {},
           "name": "Jenny Rosen",
           "object": "issuing.cardholder",
           "phone_number": "+18008675309",
-          "preferred_locales": ["en"],
-          "requirements": { "disabled_reason": null, "past_due": [] },
+          "preferred_locales": [
+            "en"
+          ],
+          "requirements": {
+            "disabled_reason": null,
+            "past_due": []
+          },
           "spending_controls": {
             "allowed_categories": [],
-            "allowed_merchant_countries": null,
+            "allowed_merchant_countries": [],
             "blocked_categories": [],
-            "blocked_merchant_countries": null,
+            "blocked_merchant_countries": [],
             "spending_limits": [],
             "spending_limits_currency": null
           },
@@ -42,30 +47,41 @@
         "currency": "cfcevuVyGS",
         "cvc": null,
         "exp_month": 8,
-        "exp_year": 2024,
+        "exp_year": 2025,
         "financial_account": null,
         "last4": "4242",
         "livemode": false,
         "metadata": {},
         "number": null,
         "object": "issuing.card",
-        "personalization_design": null,
+        "personalization_design": "SYj1TwAhe8",
         "replaced_by": null,
         "replacement_for": "QvABEOqvgj",
         "replacement_reason": "damaged",
         "shipping": null,
         "spending_controls": {
-          "allowed_categories": ["car_washes"],
-          "allowed_merchant_countries": ["Fcnr3i19c6"],
-          "blocked_categories": ["car_and_truck_dealers_new_used"],
-          "blocked_merchant_countries": ["TrNwyQnytz"],
+          "allowed_categories": [
+            "car_washes"
+          ],
+          "allowed_merchant_countries": [
+            "Fcnr3i19c6"
+          ],
+          "blocked_categories": [
+            "car_and_truck_dealers_new_used"
+          ],
+          "blocked_merchant_countries": [
+            "TrNwyQnytz"
+          ],
           "spending_limits": [],
           "spending_limits_currency": null
         },
         "status": "active",
         "type": "virtual",
         "wallets": {
-          "apple_pay": { "eligible": true, "ineligible_reason": null },
+          "apple_pay": {
+            "eligible": true,
+            "ineligible_reason": null
+          },
           "google_pay": {
             "eligible": false,
             "ineligible_reason": "missing_agreement"

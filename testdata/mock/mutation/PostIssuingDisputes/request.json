@@ -66,7 +66,9 @@
               "received_at": 976938398
             }
           },
-          "expand": ["IkCEGXcL13"],
+          "expand": [
+            "IkCEGXcL13"
+          ],
           "metadata": null,
           "transaction": "FNKX0jfrE3",
           "treasury": {

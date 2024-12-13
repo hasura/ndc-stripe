@@ -8,13 +8,17 @@
         "body": {
           "amount_off": 790312294,
           "applies_to": {
-            "products": ["CmjsZWeJ3W"]
+            "products": [
+              "CmjsZWeJ3W"
+            ]
           },
           "currency": "cld3Lwf2El",
           "currency_options": null,
           "duration": "forever",
           "duration_in_months": 614016444,
-          "expand": ["SFyXyqqhGB"],
+          "expand": [
+            "SFyXyqqhGB"
+          ],
           "id": "V698qGiyMr",
           "max_redemptions": 921052392,
           "metadata": null,

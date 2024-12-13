@@ -4,7 +4,9 @@
       "result": {
         "active": true,
         "after_completion": {
-          "hosted_confirmation": { "custom_message": "ZsuNPOu5cL" },
+          "hosted_confirmation": {
+            "custom_message": "ZsuNPOu5cL"
+          },
           "redirect": null,
           "type": "redirect"
         },
@@ -12,7 +14,10 @@
         "application": null,
         "application_fee_amount": null,
         "application_fee_percent": null,
-        "automatic_tax": { "enabled": true, "liability": null },
+        "automatic_tax": {
+          "enabled": true,
+          "liability": null
+        },
         "billing_address_collection": "required",
         "consent_collection": null,
         "currency": "usd",
@@ -34,16 +39,22 @@
         "on_behalf_of": null,
         "payment_intent_data": null,
         "payment_method_collection": "if_required",
-        "payment_method_types": ["cashapp"],
-        "phone_number_collection": { "enabled": false },
+        "payment_method_types": [
+          "cashapp"
+        ],
+        "phone_number_collection": {
+          "enabled": false
+        },
         "restrictions": null,
         "shipping_address_collection": null,
         "shipping_options": [],
         "submit_type": "auto",
         "subscription_data": null,
-        "tax_id_collection": { "enabled": false },
+        "tax_id_collection": {
+          "enabled": false
+        },
         "transfer_data": null,
-        "url": "https://pakrym-payment_links_ingress-mydev.dev.stripe.me/test_4gw3eYbvN3ixabe6oo"
+        "url": "https://sangeekp-15t6ai--payment_links_ingress-mydev.dev.stripe.me/test_eVa16Q1Vd7yU1Ne8ww"
       },
       "type": "procedure"
     }

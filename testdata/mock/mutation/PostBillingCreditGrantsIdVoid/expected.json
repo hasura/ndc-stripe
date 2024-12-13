@@ -1,0 +1,42 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": {
+          "monetary": null,
+          "type": "monetary"
+        },
+        "applicability_config": {
+          "scope": {
+            "price_type": "metered"
+          }
+        },
+        "category": "paid",
+        "created": 1028554472,
+        "customer": {
+          "created": 1028554472,
+          "default_source": null,
+          "description": null,
+          "email": null,
+          "id": "VDgArzo7mA",
+          "livemode": true,
+          "object": "customer",
+          "shipping": null
+        },
+        "effective_at": null,
+        "expires_at": null,
+        "id": "stM7TdT5nZ",
+        "livemode": true,
+        "metadata": {
+          "undefined": "metadata"
+        },
+        "name": null,
+        "object": "billing.credit_grant",
+        "test_clock": null,
+        "updated": 234430277,
+        "voided_at": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

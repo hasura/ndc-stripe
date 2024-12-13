@@ -1,0 +1,63 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": []
+    },
+    "template": {
+      "type": "literal",
+      "value": "VMMF7WWUVo"
+    },
+    "version": {
+      "type": "literal",
+      "value": 1694074171
+    }
+  },
+  "collection": "GetInvoiceRenderingTemplatesTemplate",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "created": {
+              "column": "created",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "metadata": {
+              "column": "metadata",
+              "type": "column"
+            },
+            "nickname": {
+              "column": "nickname",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "status": {
+              "column": "status",
+              "type": "column"
+            },
+            "version": {
+              "column": "version",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

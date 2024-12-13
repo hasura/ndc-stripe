@@ -2,7 +2,9 @@
   "operation_results": [
     {
       "result": {
-        "cancel": null,
+        "cancel": {
+          "identifier": "1234-1234"
+        },
         "event_name": "lOcBwwqJ9k",
         "livemode": false,
         "object": "billing.meter_event_adjustment",

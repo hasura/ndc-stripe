@@ -4,10 +4,11 @@
     {
       "type": "procedure",
       "name": "PostTreasuryFinancialAccounts",
-
       "arguments": {
         "body": {
-          "expand": ["0cv2AeAyRI"],
+          "expand": [
+            "0cv2AeAyRI"
+          ],
           "features": {
             "card_issuing": {
               "requested": false
@@ -50,7 +51,9 @@
             "inbound_flows": "unrestricted",
             "outbound_flows": "unrestricted"
           },
-          "supported_currencies": ["0NeCORssGC"]
+          "supported_currencies": [
+            "0NeCORssGC"
+          ]
         }
       },
       "fields": {

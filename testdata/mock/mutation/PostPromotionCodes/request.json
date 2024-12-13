@@ -10,7 +10,9 @@
           "code": "Y2QmFnbMW2",
           "coupon": "CGRT3gD6h7",
           "customer": "8BnzwCHENR",
-          "expand": ["8Tcq6ENzHT"],
+          "expand": [
+            "8Tcq6ENzHT"
+          ],
           "expires_at": 294168187,
           "max_redemptions": 1304524309,
           "metadata": null,

@@ -7,7 +7,7 @@
         "created": 1234567890,
         "currency": "usd",
         "description": "OutboundTransfer to my external bank account",
-        "destination_payment_method": "pm_1OPouwJN5vQBdWExnzH1xIFm",
+        "destination_payment_method": "pm_1Pgc7BB7WZ01zgkWoKmZ8S4H",
         "destination_payment_method_details": {
           "billing_details": {
             "address": {
@@ -26,7 +26,7 @@
             "account_holder_type": "company",
             "account_type": "checking",
             "bank_name": "STRIPE TEST BANK",
-            "fingerprint": "oBMt5pBDd633Ahah",
+            "fingerprint": "AuoSJ18zsVWV9SPc",
             "last4": "6789",
             "mandate": null,
             "network": "ach",
@@ -34,8 +34,8 @@
           }
         },
         "expected_arrival_date": 1234567890,
-        "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-        "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgbubL2Juz06Nv36NszL7bgMw-HdKdK3GPWOCnC-aVisnjcPYKMEC58GB1yGAIqB2xYannP_UefTP7OEMOIRww",
+        "financial_account": "fa_1Pgc7BB7WZ01zgkWxDkCj857",
+        "hosted_regulatory_receipt_url": "https://sangeekp-15t6ai--agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xUGdhZlRCN1daMDF6Z2tXKJ_ei7UGMgYlxL2q_WI6Nv0EvxGhJTn6e6eNgpjYk9CdzEc4N899gPvZHXiyD6u24zAPv2nUwIgQ-exAUakJYBUxk8cq_A",
         "livemode": false,
         "metadata": {},
         "object": "treasury.outbound_transfer",
@@ -49,7 +49,7 @@
           "returned_at": null
         },
         "tracking_details": null,
-        "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+        "transaction": "trxn_1Pgc7BB7WZ01zgkWvyFCYTAP"
       },
       "type": "procedure"
     }

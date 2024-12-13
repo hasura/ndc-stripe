@@ -1,0 +1,25 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "bin": "YmotwNDbZE",
+        "clearing_date": 1105022145,
+        "created": 1234567890,
+        "currency": "E6xEqyqwxd",
+        "interchange_fees": 1592178430,
+        "livemode": false,
+        "metadata": {},
+        "net_total": 840103073,
+        "network": "visa",
+        "network_fees": 37,
+        "network_settlement_identifier": "YjrCHgP2Qw",
+        "object": "issuing.settlement",
+        "settlement_service": "international",
+        "status": "complete",
+        "transaction_count": 83560502,
+        "transaction_volume": 929643197
+      },
+      "type": "procedure"
+    }
+  ]
+}

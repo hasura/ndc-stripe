@@ -7,11 +7,11 @@
             {
               "created": 1234567890,
               "created_by": "jenny@example.com",
-              "id": "rsli_1OPouuJN5vQBdWExu3DMfSOX",
+              "id": "rsli_1Pgc6xB7WZ01zgkWS2KbiAtC",
               "livemode": false,
               "object": "radar.value_list_item",
               "value": "1.2.3.4",
-              "value_list": "rsl_1OPouuJN5vQBdWExHVJyCl0n"
+              "value_list": "rsl_1Pgc6xB7WZ01zgkWGZtYN8iP"
             }
           ],
           "has_more": false,

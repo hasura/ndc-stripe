@@ -27,7 +27,9 @@
               "preferred": "mastercard"
             }
           },
-          "expand": ["Y1W3BCCsW4"],
+          "expand": [
+            "Y1W3BCCsW4"
+          ],
           "link": null,
           "metadata": null,
           "us_bank_account": {

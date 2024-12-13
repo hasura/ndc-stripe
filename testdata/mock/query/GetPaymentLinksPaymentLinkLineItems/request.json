@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["GFQJF44hzR"]
+      "value": [
+        "GFQJF44hzR"
+      ]
     },
     "limit": {
       "type": "literal",

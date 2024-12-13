@@ -5,16 +5,28 @@
         "__value": {
           "data": [
             {
-              "apple_pay": { "status": "active", "status_details": null },
+              "apple_pay": {
+                "status": "active",
+                "status_details": null
+              },
               "created": 1234567890,
               "domain_name": "example.com",
               "enabled": true,
-              "google_pay": { "status": "active", "status_details": null },
-              "id": "pmd_1OPouyJN5vQBdWExgldeVH07",
-              "link": { "status": "active", "status_details": null },
+              "google_pay": {
+                "status": "active",
+                "status_details": null
+              },
+              "id": "pmd_1Pgc79B7WZ01zgkWHKCqwAQo",
+              "link": {
+                "status": "active",
+                "status_details": null
+              },
               "livemode": false,
               "object": "payment_method_domain",
-              "paypal": { "status": "active", "status_details": null }
+              "paypal": {
+                "status": "active",
+                "status_details": null
+              }
             }
           ],
           "has_more": false,

@@ -1,0 +1,34 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "balances": [
+            {
+              "available_balance": {
+                "monetary": null,
+                "type": "monetary"
+              },
+              "ledger_balance": {
+                "monetary": null,
+                "type": "monetary"
+              }
+            }
+          ],
+          "customer": {
+            "created": 1028554472,
+            "default_source": null,
+            "description": null,
+            "email": null,
+            "id": "obj_123",
+            "livemode": true,
+            "object": "customer",
+            "shipping": null
+          },
+          "livemode": true,
+          "object": "billing.credit_balance_summary"
+        }
+      }
+    ]
+  }
+]

@@ -6,7 +6,9 @@
       "name": "PostTestHelpersConfirmationTokens",
       "arguments": {
         "body": {
-          "expand": ["TwfwajiOIn"],
+          "expand": [
+            "TwfwajiOIn"
+          ],
           "payment_method": "U5rmQtQI2m",
           "payment_method_data": {
             "acss_debit": {

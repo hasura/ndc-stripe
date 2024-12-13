@@ -24,7 +24,9 @@
                 "unit_amount_decimal": "b9XAtYK7yG"
               },
               "quantity": 424494546,
-              "tax_rates": ["RA2e8qOweF"]
+              "tax_rates": [
+                "RA2e8qOweF"
+              ]
             }
           ],
           "application_fee_percent": 0.3413658668867429,
@@ -57,7 +59,9 @@
           "days_until_due": 613563871,
           "default_payment_method": "R7uhWL4Rxe",
           "default_source": "Vem8O5Qu62",
-          "default_tax_rates": ["IFFxeeemPH"],
+          "default_tax_rates": [
+            "IFFxeeemPH"
+          ],
           "description": "nCRmNCLEwb",
           "discounts": [
             {
@@ -66,9 +70,13 @@
               "promotion_code": "HPLEDUOZRm"
             }
           ],
-          "expand": ["h1zk6b7TwR"],
+          "expand": [
+            "h1zk6b7TwR"
+          ],
           "invoice_settings": {
-            "account_tax_ids": ["Lv8CEiyhOp"],
+            "account_tax_ids": [
+              "Lv8CEiyhOp"
+            ],
             "issuer": {
               "account": "W0PX8HGGqH",
               "type": "self"
@@ -100,7 +108,9 @@
                 "unit_amount_decimal": "hTiFvS3ksN"
               },
               "quantity": 380444016,
-              "tax_rates": ["CnISKoh3xV"]
+              "tax_rates": [
+                "CnISKoh3xV"
+              ]
             }
           ],
           "metadata": null,
@@ -140,13 +150,19 @@
               "sepa_debit": null,
               "us_bank_account": {
                 "financial_connections": {
-                  "permissions": ["balances"],
-                  "prefetch": ["balances"]
+                  "permissions": [
+                    "balances"
+                  ],
+                  "prefetch": [
+                    "balances"
+                  ]
                 },
                 "verification_method": "microdeposits"
               }
             },
-            "payment_method_types": ["fpx"],
+            "payment_method_types": [
+              "fpx"
+            ],
             "save_default_payment_method": "off"
           },
           "pending_invoice_item_interval": {

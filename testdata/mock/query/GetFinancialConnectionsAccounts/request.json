@@ -13,7 +13,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     },
     "limit": {
       "type": "literal",

@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostPaymentMethodDomainsPaymentMethodDomainValidate",
       "arguments": {
-        "expand": ["apple_pay"],
+        "expand": [
+          "apple_pay"
+        ],
         "payment_method_domain": "X6ri9HyzNk"
       },
       "fields": {

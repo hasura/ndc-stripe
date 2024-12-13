@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "amount_off": 790312294,
         "applies_to": null,
@@ -20,7 +19,8 @@
         "redeem_by": 881584503,
         "times_redeemed": 0,
         "valid": true
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

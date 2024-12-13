@@ -6,7 +6,9 @@
       "name": "PostTestHelpersTreasuryInboundTransfersIdReturn",
       "arguments": {
         "body": {
-          "expand": ["failure_details"]
+          "expand": [
+            "failure_details"
+          ]
         },
         "id": "cdRWBtFNBV"
       },

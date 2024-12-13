@@ -24,7 +24,9 @@
                 "unit_amount_decimal": "uywVEjUWkA"
               },
               "quantity": 582912965,
-              "tax_rates": ["GB1cn1rOd1"]
+              "tax_rates": [
+                "GB1cn1rOd1"
+              ]
             }
           ],
           "application_fee_percent": 1.2902268113495525,
@@ -51,7 +53,9 @@
           "days_until_due": 430037466,
           "default_payment_method": "9kx5I4t81u",
           "default_source": "1S689L4Ffn",
-          "default_tax_rates": ["ecji9ITirD"],
+          "default_tax_rates": [
+            "ecji9ITirD"
+          ],
           "description": "67r7B0tvDr",
           "discounts": [
             {
@@ -60,9 +64,13 @@
               "promotion_code": "k1TeDLU6rj"
             }
           ],
-          "expand": ["fC1rdu1OjJ"],
+          "expand": [
+            "fC1rdu1OjJ"
+          ],
           "invoice_settings": {
-            "account_tax_ids": ["YPIuZc1Npu"],
+            "account_tax_ids": [
+              "YPIuZc1Npu"
+            ],
             "issuer": {
               "account": "HIL2TN011t",
               "type": "self"
@@ -97,7 +105,9 @@
                 "unit_amount_decimal": "QuvPBQwpQt"
               },
               "quantity": 1587143856,
-              "tax_rates": ["AQ7NCOM8gd"]
+              "tax_rates": [
+                "AQ7NCOM8gd"
+              ]
             }
           ],
           "metadata": null,
@@ -141,13 +151,19 @@
               "sepa_debit": null,
               "us_bank_account": {
                 "financial_connections": {
-                  "permissions": ["ownership"],
-                  "prefetch": ["ownership"]
+                  "permissions": [
+                    "ownership"
+                  ],
+                  "prefetch": [
+                    "ownership"
+                  ]
                 },
                 "verification_method": "automatic"
               }
             },
-            "payment_method_types": ["customer_balance"],
+            "payment_method_types": [
+              "customer_balance"
+            ],
             "save_default_payment_method": "off"
           },
           "pending_invoice_item_interval": {

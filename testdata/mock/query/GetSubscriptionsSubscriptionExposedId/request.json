@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["gi8aku8Kfb"]
+      "value": [
+        "gi8aku8Kfb"
+      ]
     },
     "subscription_exposed_id": {
       "type": "literal",

@@ -1,0 +1,90 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostTestHelpersIssuingSettlements",
+      "arguments": {
+        "body": {
+          "bin": "YmotwNDbZE",
+          "clearing_date": 1105022145,
+          "currency": "E6xEqyqwxd",
+          "interchange_fees": 1592178430,
+          "net_total": 840103073,
+          "network_settlement_identifier": "YjrCHgP2Qw",
+          "transaction_count": 83560502,
+          "transaction_volume": 929643197
+        }
+      },
+      "fields": {
+        "fields": {
+          "bin": {
+            "column": "bin",
+            "type": "column"
+          },
+          "clearing_date": {
+            "column": "clearing_date",
+            "type": "column"
+          },
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "currency": {
+            "column": "currency",
+            "type": "column"
+          },
+          "interchange_fees": {
+            "column": "interchange_fees",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "net_total": {
+            "column": "net_total",
+            "type": "column"
+          },
+          "network": {
+            "column": "network",
+            "type": "column"
+          },
+          "network_fees": {
+            "column": "network_fees",
+            "type": "column"
+          },
+          "network_settlement_identifier": {
+            "column": "network_settlement_identifier",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "settlement_service": {
+            "column": "settlement_service",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "transaction_count": {
+            "column": "transaction_count",
+            "type": "column"
+          },
+          "transaction_volume": {
+            "column": "transaction_volume",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

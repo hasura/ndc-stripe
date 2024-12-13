@@ -9,8 +9,11 @@
               "application": null,
               "created": 1234567890,
               "description": "This is my webhook, I like it a lot",
-              "enabled_events": ["charge.failed", "charge.succeeded"],
-              "id": "we_1OPouqJN5vQBdWEx9Xl0KCo3",
+              "enabled_events": [
+                "charge.failed",
+                "charge.succeeded"
+              ],
+              "id": "we_1Pgc6yB7WZ01zgkWzAudq4eU",
               "livemode": false,
               "metadata": {},
               "object": "webhook_endpoint",

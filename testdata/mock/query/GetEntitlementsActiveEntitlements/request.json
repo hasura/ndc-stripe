@@ -1,0 +1,83 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "qLEoWFaDa2"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "70PQE9HZLX"
+    },
+    "expand": {
+      "type": "literal",
+      "value": []
+    },
+    "limit": {
+      "type": "literal",
+      "value": 428583882
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "s3thuDUW3l"
+    }
+  },
+  "collection": "GetEntitlementsActiveEntitlements",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "feature": {
+                      "column": "feature",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "lookup_key": {
+                      "column": "lookup_key",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

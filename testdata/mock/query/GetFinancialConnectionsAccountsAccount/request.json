@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["1OHG7drOMu"]
+      "value": [
+        "1OHG7drOMu"
+      ]
     }
   },
   "collection": "GetFinancialConnectionsAccountsAccount",

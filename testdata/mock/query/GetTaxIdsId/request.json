@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["3l1pHKAIwB"]
+      "value": [
+        "3l1pHKAIwB"
+      ]
     },
     "id": {
       "type": "literal",

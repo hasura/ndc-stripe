@@ -6,7 +6,9 @@
         "application": null,
         "created": 1234567890,
         "description": "eJf44KL9bn",
-        "enabled_events": ["customer.subscription.pending_update_applied"],
+        "enabled_events": [
+          "customer.subscription.pending_update_applied"
+        ],
         "livemode": false,
         "metadata": {},
         "object": "webhook_endpoint",

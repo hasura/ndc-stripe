@@ -12,7 +12,7 @@
             "duplicate": null,
             "fraudulent": {
               "additional_documentation": null,
-              "explanation": "Fraud; card reported lost on 12/21/2023"
+              "explanation": "Fraud; card reported lost on 07/26/2024"
             },
             "merchandise_not_as_described": null,
             "not_received": null,
@@ -25,7 +25,7 @@
           "metadata": {},
           "object": "issuing.dispute",
           "status": "unsubmitted",
-          "transaction": "ipi_1OPouuJN5vQBdWExyOINiqR1",
+          "transaction": "ipi_1Pgc77B7WZ01zgkWUr0uYdLL",
           "treasury": null
         }
       }

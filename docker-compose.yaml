@@ -17,6 +17,6 @@ services:
 
   stripe-mock:
     # https://hub.docker.com/r/stripe/stripe-mock/tags
-    image: stripe/stripe-mock:v0.186.0
+    image: stripe/stripe-mock:v0.192.0
     ports:
       - "12111-12112:12111-12112"

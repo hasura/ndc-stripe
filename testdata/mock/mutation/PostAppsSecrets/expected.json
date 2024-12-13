@@ -8,8 +8,11 @@
         "livemode": false,
         "name": "ugPdxSJciY",
         "object": "apps.secret",
-        "payload": "YKErIyPq76",
-        "scope": { "type": "user", "user": null }
+        "payload": null,
+        "scope": {
+          "type": "user",
+          "user": null
+        }
       },
       "type": "procedure"
     }

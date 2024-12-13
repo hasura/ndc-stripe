@@ -4,13 +4,13 @@
       "result": {
         "country": "DE",
         "created": 1234567890,
-        "customer": "cus_PEHTIoPSgT0tXQ",
+        "customer": "cus_QXg1o8vcGmoR32",
         "livemode": false,
         "object": "tax_id",
         "owner": {
           "account": null,
           "application": null,
-          "customer": "cus_PjUutxjlduca42",
+          "customer": "cus_QXg1o8vcGmoR32",
           "type": "customer"
         },
         "type": "bg_uic",

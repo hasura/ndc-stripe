@@ -17,7 +17,9 @@
             }
           },
           "display_name": "H92rEasQ6n",
-          "expand": ["FLpkWGXuIj"],
+          "expand": [
+            "FLpkWGXuIj"
+          ],
           "fixed_amount": {
             "amount": 291197997,
             "currency": "ti2c5KRtAc",

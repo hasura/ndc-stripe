@@ -29,7 +29,9 @@
           "sepa_debit": null,
           "us_bank_account": null
         },
-        "payment_method_types": ["card"],
+        "payment_method_types": [
+          "card"
+        ],
         "single_use_mandate": null,
         "status": "requires_payment_method",
         "usage": "off_session"

@@ -91,7 +91,9 @@
               "preference": "on"
             }
           },
-          "expand": ["ma19wGh5Vs"],
+          "expand": [
+            "ma19wGh5Vs"
+          ],
           "fpx": {
             "display_preference": {
               "preference": "off"

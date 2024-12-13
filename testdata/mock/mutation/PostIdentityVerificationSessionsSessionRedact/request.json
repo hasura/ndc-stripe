@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostIdentityVerificationSessionsSessionRedact",
       "arguments": {
-        "expand": ["1bmrjzEheo"],
+        "expand": [
+          "1bmrjzEheo"
+        ],
         "session": "dQkE2VlBTY"
       },
       "fields": {

@@ -7,7 +7,9 @@
       "arguments": {
         "account": "jX7VAXrzFb",
         "body": {
-          "expand": ["balance"]
+          "expand": [
+            "balance"
+          ]
         }
       },
       "fields": {

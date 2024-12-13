@@ -1,0 +1,47 @@
+{
+  "arguments": {
+    "expand": {
+      "type": "literal",
+      "value": []
+    },
+    "id": {
+      "type": "literal",
+      "value": "gAiAyENX9p"
+    }
+  },
+  "collection": "GetEntitlementsActiveEntitlementsId",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "feature": {
+              "column": "feature",
+              "type": "column"
+            },
+            "id": {
+              "column": "id",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "lookup_key": {
+              "column": "lookup_key",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

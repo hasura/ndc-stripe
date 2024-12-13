@@ -6,13 +6,13 @@
         "amount_shipping": 0,
         "created": 1234567890,
         "currency": "usd",
-        "customer": "cus_PEHTIoPSgT0tXQ",
+        "customer": "cus_QXg1o8vcGmoR32",
         "customer_balance_transaction": null,
         "discount_amount": 0,
         "discount_amounts": [],
         "effective_at": 1234567890,
         "id": "TYwg9TQDBJ",
-        "invoice": "in_1OPouvJN5vQBdWExRyU1EhWP",
+        "invoice": "in_1Pgc75B7WZ01zgkWYv4iMwt7",
         "lines": {
           "data": [
             {
@@ -21,8 +21,8 @@
               "description": "My First Invoice Item (created for API docs)",
               "discount_amount": 0,
               "discount_amounts": [],
-              "id": "cnli_1OPouvJN5vQBdWExkO30YEXZ",
-              "invoice_line_item": "il_1OPouvJN5vQBdWEx4xnltBII",
+              "id": "cnli_1Pgc75B7WZ01zgkWPb1sOn7l",
+              "invoice_line_item": "il_1Pgc75B7WZ01zgkWOwaRplc5",
               "livemode": false,
               "object": "credit_note_line_item",
               "quantity": 1,
@@ -44,7 +44,7 @@
         "number": "ABCD-1234-CN-01",
         "object": "credit_note",
         "out_of_band_amount": null,
-        "pdf": "https://pakrym-manage-mydev.dev.stripe.me/credit_notes/acct_1OPouMJN5vQBdWEx/cnst_123456789/pdf?s=ap",
+        "pdf": "https://sangeekp-15t6ai--manage-mydev.dev.stripe.me/credit_notes/acct_1PgafTB7WZ01zgkW/cnst_123456789/pdf?s=ap",
         "reason": null,
         "refund": null,
         "shipping_cost": null,
@@ -55,7 +55,7 @@
           {
             "amount": 190,
             "inclusive": false,
-            "tax_rate": "txr_1OPouvJN5vQBdWExvkEZYzsQ",
+            "tax_rate": "txr_1Pgc74B7WZ01zgkW94BlEhHU",
             "taxability_reason": null,
             "taxable_amount": 1000
           }

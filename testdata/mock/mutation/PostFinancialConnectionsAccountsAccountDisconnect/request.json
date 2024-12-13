@@ -6,7 +6,9 @@
       "name": "PostFinancialConnectionsAccountsAccountDisconnect",
       "arguments": {
         "account": "tRDNei8vTX",
-        "expand": ["md0W03eFVo"]
+        "expand": [
+          "md0W03eFVo"
+        ]
       },
       "fields": {
         "fields": {

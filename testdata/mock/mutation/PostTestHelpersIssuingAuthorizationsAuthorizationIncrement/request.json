@@ -7,7 +7,9 @@
       "arguments": {
         "authorization": "400tBlOe3V",
         "body": {
-          "expand": ["GCVLZNYKVE"],
+          "expand": [
+            "GCVLZNYKVE"
+          ],
           "increment_amount": 1348380603,
           "is_amount_controllable": true
         }

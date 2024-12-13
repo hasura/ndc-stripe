@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostRefundsRefundCancel",
       "arguments": {
-        "expand": ["napsAKVQXd"],
+        "expand": [
+          "napsAKVQXd"
+        ],
         "refund": "DnW2nsBV9j"
       },
       "fields": {

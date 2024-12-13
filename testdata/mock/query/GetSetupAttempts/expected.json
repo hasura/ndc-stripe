@@ -14,7 +14,7 @@
               "livemode": false,
               "object": "setup_attempt",
               "on_behalf_of": null,
-              "payment_method": "card_1OPoudJN5vQBdWExSTD9mIPF",
+              "payment_method": "card_1PgaftB7WZ01zgkWm3waTcFp",
               "payment_method_details": {
                 "acss_debit": null,
                 "au_becs_debit": null,
@@ -46,7 +46,7 @@
                 "us_bank_account": null
               },
               "setup_error": null,
-              "setup_intent": "seti_1OPoutJN5vQBdWExijPulwWI",
+              "setup_intent": "seti_1Pgag7B7WZ01zgkWSgwGdb8Z",
               "status": "succeeded",
               "usage": "off_session"
             }

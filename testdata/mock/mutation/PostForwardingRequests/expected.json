@@ -6,7 +6,9 @@
         "livemode": false,
         "object": "forwarding.request",
         "payment_method": "TpAT9WaJBD",
-        "replacements": ["card_number"],
+        "replacements": [
+          "card_number"
+        ],
         "request_context": {
           "destination_duration": 234,
           "destination_ip_address": ""

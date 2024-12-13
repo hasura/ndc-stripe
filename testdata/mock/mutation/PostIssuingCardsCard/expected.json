@@ -16,22 +16,27 @@
             }
           },
           "company": null,
-          "created": 1703175372,
+          "created": 1721948548,
           "email": "jenny@example.com",
-          "id": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+          "id": "ich_1Pgag4B7WZ01zgkWdPVfBngi",
           "individual": null,
           "livemode": false,
           "metadata": {},
           "name": "Jenny Rosen",
           "object": "issuing.cardholder",
           "phone_number": "+18008675309",
-          "preferred_locales": ["en"],
-          "requirements": { "disabled_reason": null, "past_due": [] },
+          "preferred_locales": [
+            "en"
+          ],
+          "requirements": {
+            "disabled_reason": null,
+            "past_due": []
+          },
           "spending_controls": {
             "allowed_categories": [],
-            "allowed_merchant_countries": null,
+            "allowed_merchant_countries": [],
             "blocked_categories": [],
-            "blocked_merchant_countries": null,
+            "blocked_merchant_countries": [],
             "spending_limits": [],
             "spending_limits_currency": null
           },
@@ -42,7 +47,7 @@
         "currency": "usd",
         "cvc": null,
         "exp_month": 8,
-        "exp_year": 2024,
+        "exp_year": 2025,
         "financial_account": null,
         "id": "VU1BnlU0fj",
         "last4": "4242",
@@ -50,23 +55,34 @@
         "metadata": {},
         "number": null,
         "object": "issuing.card",
-        "personalization_design": null,
+        "personalization_design": "kgaMYwx4YR",
         "replaced_by": null,
         "replacement_for": null,
         "replacement_reason": null,
         "shipping": null,
         "spending_controls": {
-          "allowed_categories": ["motorcycle_shops_and_dealers"],
-          "allowed_merchant_countries": ["nQwdnKtReE"],
-          "blocked_categories": ["automated_fuel_dispensers"],
-          "blocked_merchant_countries": ["Hq4I3TkQ6e"],
+          "allowed_categories": [
+            "motorcycle_shops_and_dealers"
+          ],
+          "allowed_merchant_countries": [
+            "nQwdnKtReE"
+          ],
+          "blocked_categories": [
+            "automated_fuel_dispensers"
+          ],
+          "blocked_merchant_countries": [
+            "Hq4I3TkQ6e"
+          ],
           "spending_limits": [],
           "spending_limits_currency": null
         },
         "status": "inactive",
         "type": "physical",
         "wallets": {
-          "apple_pay": { "eligible": true, "ineligible_reason": null },
+          "apple_pay": {
+            "eligible": true,
+            "ineligible_reason": null
+          },
           "google_pay": {
             "eligible": false,
             "ineligible_reason": "missing_agreement"

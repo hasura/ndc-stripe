@@ -1,0 +1,32 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "amount": {
+          "monetary": null,
+          "type": "monetary"
+        },
+        "applicability_config": {
+          "scope": {
+            "price_type": "metered"
+          }
+        },
+        "category": "paid",
+        "created": 1028554472,
+        "customer": "rKFDB1YRHa",
+        "effective_at": 1865756323,
+        "expires_at": 238511819,
+        "livemode": true,
+        "metadata": {
+          "undefined": "metadata"
+        },
+        "name": "g0MqgOqJzo",
+        "object": "billing.credit_grant",
+        "test_clock": null,
+        "updated": 234430277,
+        "voided_at": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

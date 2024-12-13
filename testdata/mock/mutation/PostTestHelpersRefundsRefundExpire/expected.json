@@ -1,11 +1,10 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "amount": 100,
         "balance_transaction": null,
-        "charge": "ch_1OPoueJN5vQBdWEx5AWizjSY",
+        "charge": "ch_1PgafuB7WZ01zgkWXYmPNZs8",
         "created": 1234567890,
         "currency": "usd",
         "description": null,
@@ -57,7 +56,8 @@
         "source_transfer_reversal": null,
         "status": "succeeded",
         "transfer_reversal": null
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

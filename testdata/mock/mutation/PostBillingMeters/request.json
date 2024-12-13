@@ -16,7 +16,9 @@
           "display_name": "4ucnRlGSsp",
           "event_name": "ap9FM23gxm",
           "event_time_window": "hour",
-          "expand": ["dI5lOg2Wjq"],
+          "expand": [
+            "dI5lOg2Wjq"
+          ],
           "value_settings": {
             "event_payload_key": "oOdri0WmDz"
           }

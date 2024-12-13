@@ -11,12 +11,20 @@
             "customer": "kqPwfIkodq",
             "type": "customer"
           },
-          "expand": ["accounts"],
+          "expand": [
+            "accounts"
+          ],
           "filters": {
-            "countries": ["fWsUuDDpRJ"]
+            "countries": [
+              "fWsUuDDpRJ"
+            ]
           },
-          "permissions": ["payment_method"],
-          "prefetch": ["balances"],
+          "permissions": [
+            "payment_method"
+          ],
+          "prefetch": [
+            "balances"
+          ],
           "return_url": "eF5pNzTA91"
         }
       },

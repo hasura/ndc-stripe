@@ -20,7 +20,9 @@
             "tax_id": "hh1zzGkzb7"
           },
           "email": "k6QkhQS8AV",
-          "expand": ["f4pXP9ss21"],
+          "expand": [
+            "f4pXP9ss21"
+          ],
           "individual": {
             "card_issuing": {
               "user_terms_acceptance": {
@@ -46,16 +48,28 @@
           "metadata": null,
           "name": "o33OQVxF8b",
           "phone_number": "szKimCwmgo",
-          "preferred_locales": ["de"],
+          "preferred_locales": [
+            "de"
+          ],
           "spending_controls": {
-            "allowed_categories": ["timeshares"],
-            "allowed_merchant_countries": ["Crk4KyZMVh"],
-            "blocked_categories": ["swimming_pools_sales"],
-            "blocked_merchant_countries": ["6AkZOmslJ9"],
+            "allowed_categories": [
+              "timeshares"
+            ],
+            "allowed_merchant_countries": [
+              "Crk4KyZMVh"
+            ],
+            "blocked_categories": [
+              "swimming_pools_sales"
+            ],
+            "blocked_merchant_countries": [
+              "6AkZOmslJ9"
+            ],
             "spending_limits": [
               {
                 "amount": 1353403220,
-                "categories": ["bicycle_shops"],
+                "categories": [
+                  "bicycle_shops"
+                ],
                 "interval": "all_time"
               }
             ],

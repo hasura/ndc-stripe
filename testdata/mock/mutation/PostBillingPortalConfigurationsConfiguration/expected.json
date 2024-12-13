@@ -12,20 +12,33 @@
         "created": 1234567890,
         "default_return_url": "ecBN33F9VY",
         "features": {
-          "customer_update": { "allowed_updates": ["name"], "enabled": true },
-          "invoice_history": { "enabled": false },
-          "payment_method_update": { "enabled": true },
+          "customer_update": {
+            "allowed_updates": [
+              "name"
+            ],
+            "enabled": true
+          },
+          "invoice_history": {
+            "enabled": false
+          },
+          "payment_method_update": {
+            "enabled": true
+          },
           "subscription_cancel": {
             "cancellation_reason": {
               "enabled": false,
-              "options": ["customer_service"]
+              "options": [
+                "customer_service"
+              ]
             },
             "enabled": true,
             "mode": "at_period_end",
             "proration_behavior": "always_invoice"
           },
           "subscription_update": {
-            "default_allowed_updates": ["promotion_code"],
+            "default_allowed_updates": [
+              "promotion_code"
+            ],
             "enabled": false,
             "products": null,
             "proration_behavior": "none"
@@ -34,7 +47,10 @@
         "id": "F0HD6q16i8",
         "is_default": true,
         "livemode": true,
-        "login_page": { "enabled": false, "url": null },
+        "login_page": {
+          "enabled": false,
+          "url": null
+        },
         "metadata": null,
         "object": "billing_portal.configuration",
         "updated": 1234567890

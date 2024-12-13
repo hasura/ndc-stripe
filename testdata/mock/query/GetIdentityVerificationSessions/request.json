@@ -14,7 +14,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["Z95B0fyy3q"]
+      "value": [
+        "Z95B0fyy3q"
+      ]
     },
     "limit": {
       "type": "literal",

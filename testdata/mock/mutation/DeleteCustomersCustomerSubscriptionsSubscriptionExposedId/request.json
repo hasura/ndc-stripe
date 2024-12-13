@@ -6,7 +6,9 @@
       "name": "DeleteCustomersCustomerSubscriptionsSubscriptionExposedId",
       "arguments": {
         "body": {
-          "expand": ["customer"],
+          "expand": [
+            "customer"
+          ],
           "invoice_now": true,
           "prorate": true
         },

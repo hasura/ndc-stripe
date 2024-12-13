@@ -1,0 +1,15 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "alert_type": "usage_threshold",
+        "livemode": true,
+        "object": "billing.alert",
+        "status": null,
+        "title": "ayBMZL5ecb",
+        "usage_threshold": null
+      },
+      "type": "procedure"
+    }
+  ]
+}

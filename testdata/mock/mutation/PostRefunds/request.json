@@ -10,7 +10,9 @@
           "charge": "an8X1Nk1Mv",
           "currency": "R6jlwH24fl",
           "customer": "RGWx2aiwrV",
-          "expand": ["jwg1FgVUgo"],
+          "expand": [
+            "jwg1FgVUgo"
+          ],
           "instructions_email": "SW8ISrzEGI",
           "metadata": null,
           "origin": "customer_balance",

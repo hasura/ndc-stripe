@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "currency_options": null,
-          "expand": ["applies_to"],
+          "expand": [
+            "applies_to"
+          ],
           "metadata": null,
           "name": "SRPVWJzheB"
         },

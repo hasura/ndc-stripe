@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     },
     "limit": {
       "type": "literal",
@@ -14,7 +16,9 @@
     },
     "lookup_keys": {
       "type": "literal",
-      "value": ["14Jkb9WrGO"]
+      "value": [
+        "14Jkb9WrGO"
+      ]
     },
     "preferences": {
       "type": "literal",

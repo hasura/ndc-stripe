@@ -7,7 +7,7 @@
             {
               "account": null,
               "account_holder_name": "Jane Austen",
-              "account_holder_type": "individual",
+              "account_holder_type": "company",
               "account_type": null,
               "ach_credit_transfer": null,
               "ach_debit": null,
@@ -36,7 +36,7 @@
               "default_for_currency": null,
               "dynamic_last4": null,
               "eps": null,
-              "fingerprint": "1JWtPxqbdX5Gamtz",
+              "fingerprint": "AuoSJ18zsVWV9SPc",
               "future_requirements": null,
               "giropay": null,
               "ideal": null,

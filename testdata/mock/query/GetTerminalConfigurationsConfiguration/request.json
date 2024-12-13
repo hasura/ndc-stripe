@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["Oj9gOozP9T"]
+      "value": [
+        "Oj9gOozP9T"
+      ]
     }
   },
   "collection": "GetTerminalConfigurationsConfiguration",

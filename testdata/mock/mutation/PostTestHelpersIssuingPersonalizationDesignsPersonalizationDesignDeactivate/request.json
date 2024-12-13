@@ -6,7 +6,9 @@
       "name": "PostTestHelpersIssuingPersonalizationDesignsPersonalizationDesignDeactivate",
       "arguments": {
         "body": {
-          "expand": ["carrier_text"]
+          "expand": [
+            "carrier_text"
+          ]
         },
         "personalization_design": "mng9vasayq"
       },

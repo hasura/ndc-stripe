@@ -18,7 +18,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["GP7m4fej02"]
+      "value": [
+        "GP7m4fej02"
+      ]
     },
     "limit": {
       "type": "literal",
@@ -26,7 +28,9 @@
     },
     "lookup_keys": {
       "type": "literal",
-      "value": ["gDRlfMKRyN"]
+      "value": [
+        "gDRlfMKRyN"
+      ]
     },
     "product": {
       "type": "literal",

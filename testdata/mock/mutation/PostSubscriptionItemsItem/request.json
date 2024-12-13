@@ -16,7 +16,9 @@
               "promotion_code": "zXivvURt8d"
             }
           ],
-          "expand": ["JPE9eocZ0N"],
+          "expand": [
+            "JPE9eocZ0N"
+          ],
           "metadata": null,
           "off_session": false,
           "payment_behavior": "error_if_incomplete",
@@ -35,7 +37,9 @@
           "proration_behavior": "always_invoice",
           "proration_date": 1591302851,
           "quantity": 1038008118,
-          "tax_rates": ["nn8uQjqoNb"]
+          "tax_rates": [
+            "nn8uQjqoNb"
+          ]
         },
         "item": "qAZQD8kvNc"
       },

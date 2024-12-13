@@ -6,7 +6,9 @@
       "name": "PostTaxIds",
       "arguments": {
         "body": {
-          "expand": ["7fNCibmD1o"],
+          "expand": [
+            "7fNCibmD1o"
+          ],
           "owner": {
             "account": "HunKVzrffQ",
             "customer": "EYe4jQX2le",

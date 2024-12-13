@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["9R4sU4kxcc"]
+      "value": [
+        "9R4sU4kxcc"
+      ]
     }
   },
   "collection": "GetLinkedAccountsAccount",

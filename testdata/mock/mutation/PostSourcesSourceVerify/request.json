@@ -6,8 +6,12 @@
       "name": "PostSourcesSourceVerify",
       "arguments": {
         "body": {
-          "expand": ["C40sY2398O"],
-          "values": ["WKHemVFYzB"]
+          "expand": [
+            "C40sY2398O"
+          ],
+          "values": [
+            "WKHemVFYzB"
+          ]
         },
         "source": "c2wPdn4utT"
       },

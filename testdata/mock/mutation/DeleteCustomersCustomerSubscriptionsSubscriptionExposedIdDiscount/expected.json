@@ -5,7 +5,9 @@
         "checkout_session": null,
         "coupon": {
           "amount_off": null,
-          "applies_to": { "products": [] },
+          "applies_to": {
+            "products": []
+          },
           "created": 0,
           "currency": null,
           "currency_options": {},

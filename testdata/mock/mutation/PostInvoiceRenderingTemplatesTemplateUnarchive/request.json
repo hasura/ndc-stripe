@@ -1,0 +1,46 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostInvoiceRenderingTemplatesTemplateUnarchive",
+      "arguments": {
+        "body": {},
+        "template": "jUfAECggAY"
+      },
+      "fields": {
+        "fields": {
+          "created": {
+            "column": "created",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "metadata": {
+            "column": "metadata",
+            "type": "column"
+          },
+          "nickname": {
+            "column": "nickname",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "version": {
+            "column": "version",
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

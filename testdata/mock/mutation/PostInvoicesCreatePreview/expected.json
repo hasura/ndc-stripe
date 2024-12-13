@@ -14,7 +14,11 @@
         "attempt_count": 0,
         "attempted": false,
         "auto_advance": false,
-        "automatic_tax": { "enabled": true, "liability": null, "status": null },
+        "automatic_tax": {
+          "enabled": true,
+          "liability": null,
+          "status": null
+        },
         "billing_reason": "manual",
         "charge": null,
         "collection_method": "charge_automatically",
@@ -42,7 +46,10 @@
         "from_invoice": null,
         "hosted_invoice_url": null,
         "invoice_pdf": null,
-        "issuer": { "account": null, "type": "self" },
+        "issuer": {
+          "account": null,
+          "type": "self"
+        },
         "last_finalization_error": null,
         "latest_revision": null,
         "lines": {
@@ -55,16 +62,17 @@
               "discount_amounts": [],
               "discountable": true,
               "discounts": [],
-              "invoice": "in_1Ou1v0I2S8mDw66kzOu5UVSR",
-              "invoice_item": "ii_1OPoulJN5vQBdWExKaAxodMb",
               "livemode": false,
               "metadata": {},
               "object": "line_item",
-              "period": { "end": 1703175363, "start": 1703175363 },
+              "period": {
+                "end": 1721954054,
+                "start": 1721954054
+              },
               "price": {
                 "active": true,
                 "billing_scheme": "per_unit",
-                "created": 1703175358,
+                "created": 1721948530,
                 "currency": "usd",
                 "currency_options": null,
                 "custom_unit_amount": null,
@@ -73,7 +81,7 @@
                 "metadata": {},
                 "nickname": null,
                 "object": "price",
-                "product": "prod_PEHTfnvdJH6K0k",
+                "product": "prod_QXg1hqf4jFNsqG",
                 "recurring": null,
                 "tax_behavior": "unspecified",
                 "tiers": null,
@@ -84,7 +92,9 @@
                 "unit_amount_decimal": "1000"
               },
               "proration": false,
-              "proration_details": { "credited_items": null },
+              "proration_details": {
+                "credited_items": null
+              },
               "quantity": 1,
               "subscription": null,
               "subscription_item": null,
@@ -130,7 +140,9 @@
           "voided_at": null
         },
         "subscription": "msWxYHORxW",
-        "subscription_details": { "metadata": null },
+        "subscription_details": {
+          "metadata": null
+        },
         "subscription_proration_date": null,
         "subtotal": 1000,
         "subtotal_excluding_tax": 1000,

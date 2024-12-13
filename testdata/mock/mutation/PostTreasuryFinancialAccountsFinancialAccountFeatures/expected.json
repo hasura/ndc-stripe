@@ -20,7 +20,11 @@
           }
         },
         "inbound_transfers": {
-          "ach": { "requested": true, "status": "active", "status_details": [] }
+          "ach": {
+            "requested": true,
+            "status": "active",
+            "status_details": []
+          }
         },
         "intra_stripe_flows": {
           "requested": true,

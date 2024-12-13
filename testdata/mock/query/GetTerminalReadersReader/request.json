@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["CmIS5ER2o7"]
+      "value": [
+        "CmIS5ER2o7"
+      ]
     },
     "reader": {
       "type": "literal",

@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["8c2zbfQLR0"]
+      "value": [
+        "8c2zbfQLR0"
+      ]
     },
     "limit": {
       "type": "literal",

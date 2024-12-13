@@ -6,7 +6,9 @@
       "name": "PostSubscriptionsSubscriptionResume",
       "arguments": {
         "billing_cycle_anchor": "unchanged",
-        "expand": ["fgJzJGv9wM"],
+        "expand": [
+          "fgJzJGv9wM"
+        ],
         "proration_behavior": "none",
         "proration_date": 1583541368,
         "subscription": "zJ6sfoHyRI"

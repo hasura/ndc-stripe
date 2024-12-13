@@ -15,7 +15,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["NmTm6vWqh3"]
+      "value": [
+        "NmTm6vWqh3"
+      ]
     },
     "limit": {
       "type": "literal",

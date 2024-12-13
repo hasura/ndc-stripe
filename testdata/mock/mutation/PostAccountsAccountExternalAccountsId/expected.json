@@ -3,13 +3,13 @@
     {
       "result": {
         "account_holder_name": "Jane Austen",
-        "account_holder_type": "individual",
+        "account_holder_type": "company",
         "account_type": null,
         "bank_name": "STRIPE TEST BANK",
         "country": "US",
         "currency": "usd",
         "customer": null,
-        "fingerprint": "1JWtPxqbdX5Gamtz",
+        "fingerprint": "AuoSJ18zsVWV9SPc",
         "id": "2emG7pQ8za",
         "last4": "6789",
         "metadata": {},

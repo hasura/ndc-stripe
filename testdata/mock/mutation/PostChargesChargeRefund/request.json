@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "amount": 1312562450,
-          "expand": ["mPXKJhBKbm"],
+          "expand": [
+            "mPXKJhBKbm"
+          ],
           "instructions_email": "xB2MYNPDse",
           "metadata": null,
           "payment_intent": "qGb5uf6yh7",

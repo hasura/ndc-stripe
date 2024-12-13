@@ -22,7 +22,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["HbZr0T5gf8"]
+      "value": [
+        "HbZr0T5gf8"
+      ]
     },
     "limit": {
       "type": "literal",

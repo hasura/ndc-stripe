@@ -7,14 +7,18 @@
         "created": 1234567890,
         "currency": "usd",
         "description": "InboundTransfer from my external bank account",
-        "failure_details": { "code": "account_closed" },
-        "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-        "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgYOEtbDkck6Nv2qFp3js1PntieIqQDERWMh17q9c735bplptY1B0Am1liqX_copS8vzlwmXl-r1E2jHWIEMxg",
-        "linked_flows": { "received_debit": null },
+        "failure_details": {
+          "code": "account_closed"
+        },
+        "financial_account": "fa_1Pgc7BB7WZ01zgkWxDkCj857",
+        "hosted_regulatory_receipt_url": "https://sangeekp-15t6ai--agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xUGdhZlRCN1daMDF6Z2tXKJ_ei7UGMgYKg2PTYkI6Nv0SjUVDsJYyegKhOMmAGzmg4wwaTYDnBu71ORJHkusIcWVsk-jhNAZH7A3P6dVmpXZBTZ6_jw",
+        "linked_flows": {
+          "received_debit": null
+        },
         "livemode": false,
         "metadata": {},
         "object": "treasury.inbound_transfer",
-        "origin_payment_method": "pm_1OPouwJN5vQBdWExnzH1xIFm",
+        "origin_payment_method": "pm_1Pgc7BB7WZ01zgkWoKmZ8S4H",
         "origin_payment_method_details": {
           "billing_details": {
             "address": {
@@ -33,7 +37,7 @@
             "account_holder_type": "company",
             "account_type": "checking",
             "bank_name": "STRIPE TEST BANK",
-            "fingerprint": "oBMt5pBDd633Ahah",
+            "fingerprint": "AuoSJ18zsVWV9SPc",
             "last4": "6789",
             "mandate": null,
             "network": "ach",
@@ -48,7 +52,7 @@
           "failed_at": null,
           "succeeded_at": null
         },
-        "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+        "transaction": "trxn_1Pgc7BB7WZ01zgkWvyFCYTAP"
       },
       "type": "procedure"
     }

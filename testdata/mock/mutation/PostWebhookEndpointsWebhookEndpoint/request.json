@@ -8,7 +8,9 @@
         "body": {
           "description": "dsmqAls04n",
           "disabled": false,
-          "enabled_events": ["invoice.payment_failed"],
+          "enabled_events": [
+            "invoice.payment_failed"
+          ],
           "expand": [],
           "metadata": null,
           "url": "j2wLJsHuFP"

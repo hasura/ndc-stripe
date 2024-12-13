@@ -10,11 +10,11 @@
               "created": 1234567890,
               "currency": "usd",
               "destination_payment_refund": null,
-              "id": "trr_1OPounJN5vQBdWExmrkKTeuo",
+              "id": "trr_1Pgc7BB7WZ01zgkWsU61ufNC",
               "metadata": {},
               "object": "transfer_reversal",
               "source_refund": null,
-              "transfer": "tr_1OPounJN5vQBdWExGHeyZqlt"
+              "transfer": "tr_1Pgc7BB7WZ01zgkWVJfE40RX"
             }
           ],
           "has_more": false,

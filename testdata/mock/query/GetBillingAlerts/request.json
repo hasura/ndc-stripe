@@ -1,0 +1,132 @@
+{
+  "arguments": {
+    "alert_type": {
+      "type": "literal",
+      "value": "usage_threshold"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "F9yL1ZVem2"
+    },
+    "expand": {
+      "type": "literal",
+      "value": []
+    },
+    "limit": {
+      "type": "literal",
+      "value": 814581313
+    },
+    "meter": {
+      "type": "literal",
+      "value": "prMBTzCqR7"
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "XFLjYUB8R1"
+    }
+  },
+  "collection": "GetBillingAlerts",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "alert_type": {
+                      "column": "alert_type",
+                      "type": "column"
+                    },
+                    "id": {
+                      "column": "id",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "status": {
+                      "column": "status",
+                      "type": "column"
+                    },
+                    "title": {
+                      "column": "title",
+                      "type": "column"
+                    },
+                    "usage_threshold": {
+                      "column": "usage_threshold",
+                      "fields": {
+                        "fields": {
+                          "filters": {
+                            "column": "filters",
+                            "fields": {
+                              "fields": {
+                                "fields": {
+                                  "customer": {
+                                    "column": "customer",
+                                    "type": "column"
+                                  },
+                                  "type": {
+                                    "column": "type",
+                                    "type": "column"
+                                  }
+                                },
+                                "type": "object"
+                              },
+                              "type": "array"
+                            },
+                            "type": "column"
+                          },
+                          "gte": {
+                            "column": "gte",
+                            "type": "column"
+                          },
+                          "meter": {
+                            "column": "meter",
+                            "type": "column"
+                          },
+                          "recurrence": {
+                            "column": "recurrence",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

@@ -8,7 +8,9 @@
         "body": {
           "active": false,
           "currency_options": null,
-          "expand": ["mtCif1qLRA"],
+          "expand": [
+            "mtCif1qLRA"
+          ],
           "lookup_key": "MIpalC7UA6",
           "metadata": null,
           "nickname": "eQGbQhic1X",

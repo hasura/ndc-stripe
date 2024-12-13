@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostIssuingTransactionsTransaction",
       "arguments": {
-        "expand": ["merchant_data"],
+        "expand": [
+          "merchant_data"
+        ],
         "metadata": null,
         "transaction": "Ibp1lVOXZ6"
       },

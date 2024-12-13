@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["QLvbiA5uci"]
+      "value": [
+        "QLvbiA5uci"
+      ]
     },
     "item": {
       "type": "literal",

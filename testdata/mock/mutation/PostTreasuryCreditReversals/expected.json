@@ -5,16 +5,18 @@
         "amount": 1000,
         "created": 1234567890,
         "currency": "usd",
-        "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-        "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMga8M0E_q486Nv0d0rrdNKVtgXmdjiQ9H6AyLkOWWj7S6Gc_skc7RdLmZGn9gzZ2bQuYuVUAeCuCc_M0fyz5iw",
+        "financial_account": "fa_1Pgc7BB7WZ01zgkWxDkCj857",
+        "hosted_regulatory_receipt_url": "https://sangeekp-15t6ai--agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xUGdhZlRCN1daMDF6Z2tXKJnei7UGMgYwtqAZ_Ls6Nv2A6Ab6poMV8ZkZIvCzfMd0j7YHx2Mw0wTBTLJdPImQtMqo7SGE_TS1iV6zNCiVftARe-0iFQ",
         "livemode": false,
         "metadata": {},
         "network": "ach",
         "object": "treasury.credit_reversal",
         "received_credit": "8YDI8LExIe",
         "status": "processing",
-        "status_transitions": { "posted_at": null },
-        "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+        "status_transitions": {
+          "posted_at": null
+        },
+        "transaction": "trxn_1Pgc7BB7WZ01zgkWvyFCYTAP"
       },
       "type": "procedure"
     }

@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["6wVafi2Rj9"]
+      "value": [
+        "6wVafi2Rj9"
+      ]
     },
     "location": {
       "type": "literal",

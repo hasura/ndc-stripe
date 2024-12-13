@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "cancellation_reason": "requested_by_customer",
-          "expand": ["MxJdWpn6fW"]
+          "expand": [
+            "MxJdWpn6fW"
+          ]
         },
         "intent": "1f22dqT5XP"
       },

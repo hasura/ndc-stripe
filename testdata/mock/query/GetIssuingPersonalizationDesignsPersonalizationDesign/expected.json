@@ -13,8 +13,14 @@
           "name": "My Card Design V1",
           "object": "issuing.personalization_design",
           "physical_bundle": "ics_Fiiwz3T83opOUd",
-          "preferences": { "is_default": false, "is_platform_default": null },
-          "rejection_reasons": { "card_logo": [], "carrier_text": [] },
+          "preferences": {
+            "is_default": false,
+            "is_platform_default": null
+          },
+          "rejection_reasons": {
+            "card_logo": [],
+            "carrier_text": []
+          },
           "status": "review"
         }
       }

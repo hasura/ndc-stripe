@@ -48,7 +48,14 @@
               },
               "application": null,
               "au_becs_debit": null,
-              "bacs_debit": null,
+              "bacs_debit": {
+                "available": false,
+                "display_preference": {
+                  "overridable": null,
+                  "preference": "off",
+                  "value": "off"
+                }
+              },
               "bancontact": {
                 "available": false,
                 "display_preference": {
@@ -116,15 +123,15 @@
                 }
               },
               "google_pay": {
-                "available": true,
+                "available": false,
                 "display_preference": {
                   "overridable": null,
-                  "preference": "on",
-                  "value": "on"
+                  "preference": "off",
+                  "value": "off"
                 }
               },
               "grabpay": null,
-              "id": "pmc_1OPouxJN5vQBdWExE4OpJOVG",
+              "id": "pmc_1Pgc79B7WZ01zgkWe1iPon1Q",
               "ideal": {
                 "available": false,
                 "display_preference": {

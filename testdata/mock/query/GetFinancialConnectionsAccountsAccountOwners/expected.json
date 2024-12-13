@@ -6,10 +6,10 @@
           "data": [
             {
               "email": "nobody+janesmith@stripe.com",
-              "id": "fcaown_1OPouwJN5vQBdWEx0GENYe0S",
+              "id": "fcaown_1Pgc76B7WZ01zgkWIQ4dVcgH",
               "name": "Jane Smith",
               "object": "financial_connections.account_owner",
-              "ownership": "fcaowns_1OPouwJN5vQBdWExxKE8Bg4J",
+              "ownership": "fcaowns_1Pgc76B7WZ01zgkWuEXUc7bG",
               "phone": "+1 555-555-5555",
               "raw_address": "123 Main Street, Everytown USA",
               "refreshed_at": 1234567890

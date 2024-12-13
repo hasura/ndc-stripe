@@ -6,7 +6,9 @@
       "name": "PostDisputesDisputeClose",
       "arguments": {
         "dispute": "blzyaZZ41c",
-        "expand": ["7QAWFes37x"]
+        "expand": [
+          "7QAWFes37x"
+        ]
       },
       "fields": {
         "fields": {

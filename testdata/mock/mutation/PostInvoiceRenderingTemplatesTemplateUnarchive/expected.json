@@ -1,0 +1,16 @@
+{
+  "operation_results": [
+    {
+      "result": {
+        "created": 1028554472,
+        "livemode": true,
+        "metadata": null,
+        "nickname": null,
+        "object": "invoice_rendering_template",
+        "status": "active",
+        "version": 351608024
+      },
+      "type": "procedure"
+    }
+  ]
+}

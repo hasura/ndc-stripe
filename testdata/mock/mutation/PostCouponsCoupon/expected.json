@@ -3,7 +3,9 @@
     {
       "result": {
         "amount_off": null,
-        "applies_to": { "products": [] },
+        "applies_to": {
+          "products": []
+        },
         "created": 1234567890,
         "currency": "usd",
         "currency_options": null,

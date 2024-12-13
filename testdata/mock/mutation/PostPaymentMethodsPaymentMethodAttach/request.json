@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "customer": "DiURy5X1np",
-          "expand": ["RyK2zmpnpx"]
+          "expand": [
+            "RyK2zmpnpx"
+          ]
         },
         "payment_method": "8ZnVkNLMmS"
       },

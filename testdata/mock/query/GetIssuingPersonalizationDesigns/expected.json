@@ -8,7 +8,7 @@
               "card_logo": null,
               "carrier_text": null,
               "created": 1234567890,
-              "id": "ipcd_PjUvzGEbcbtY8U",
+              "id": "ipcd_QXhWDHrd50Fhhi",
               "livemode": false,
               "lookup_key": "my_card_design_lookup_key",
               "metadata": {},
@@ -19,7 +19,10 @@
                 "is_default": false,
                 "is_platform_default": null
               },
-              "rejection_reasons": { "card_logo": [], "carrier_text": [] },
+              "rejection_reasons": {
+                "card_logo": [],
+                "carrier_text": []
+              },
               "status": "review"
             }
           ],

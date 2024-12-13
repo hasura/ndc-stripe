@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "calculation": "646U36wPAR",
-          "expand": ["WS7BiqNojj"],
+          "expand": [
+            "WS7BiqNojj"
+          ],
           "metadata": null,
           "reference": "k4FFbXeNG7"
         }

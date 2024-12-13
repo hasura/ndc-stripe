@@ -1,12 +1,12 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "deleted": true,
         "id": "JJ5li8hjdY",
         "object": "bank_account"
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

@@ -9,7 +9,9 @@
           "amount": 1618950507,
           "application_fee": 632806754,
           "application_fee_amount": 1141752893,
-          "expand": ["2KyykFHtaZ"],
+          "expand": [
+            "2KyykFHtaZ"
+          ],
           "receipt_email": "thwZ6wfetI",
           "statement_descriptor": "vyQoyIt0X8",
           "statement_descriptor_suffix": "4fhVGcoWeD",

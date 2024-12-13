@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["CaDQ5SzYtw"]
+      "value": [
+        "CaDQ5SzYtw"
+      ]
     }
   },
   "collection": "GetCustomersCustomer",

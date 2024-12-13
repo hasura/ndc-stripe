@@ -4,13 +4,14 @@
     {
       "type": "procedure",
       "name": "PostSources",
-
       "arguments": {
         "body": {
           "amount": 1648589942,
           "currency": "02dD6K4SY5",
           "customer": "XHyZfxDQ3J",
-          "expand": ["Gs992Vzizg"],
+          "expand": [
+            "Gs992Vzizg"
+          ],
           "flow": "none",
           "mandate": {
             "acceptance": {

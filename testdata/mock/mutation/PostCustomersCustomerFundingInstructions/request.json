@@ -10,11 +10,15 @@
             "eu_bank_transfer": {
               "country": "tc0hSlNsLI"
             },
-            "requested_address_types": ["zengin"],
+            "requested_address_types": [
+              "zengin"
+            ],
             "type": "us_bank_transfer"
           },
           "currency": "yShGdG1cOG",
-          "expand": ["OGyeNwXemg"],
+          "expand": [
+            "OGyeNwXemg"
+          ],
           "funding_type": "bank_transfer"
         },
         "customer": "qlUONwi1WW"

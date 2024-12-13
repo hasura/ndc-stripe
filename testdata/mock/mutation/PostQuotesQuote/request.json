@@ -4,7 +4,6 @@
     {
       "type": "procedure",
       "name": "PostQuotesQuote",
-
       "arguments": {
         "body": {
           "application_fee_amount": 280859363,
@@ -18,7 +17,9 @@
           },
           "collection_method": "charge_automatically",
           "customer": "ggtA44u746",
-          "default_tax_rates": ["NxfDkEPnfx"],
+          "default_tax_rates": [
+            "NxfDkEPnfx"
+          ],
           "description": "OILMhguQya",
           "discounts": [
             {
@@ -27,7 +28,9 @@
               "promotion_code": "BbRP94S6nq"
             }
           ],
-          "expand": ["automatic_tax"],
+          "expand": [
+            "automatic_tax"
+          ],
           "expires_at": 1621424173,
           "footer": "18b7ilOQVM",
           "header": "5Et7wN3pI4",
@@ -61,7 +64,9 @@
                 "unit_amount_decimal": "Tx8256ovQJ"
               },
               "quantity": 709662554,
-              "tax_rates": ["p9RcDvDJOi"]
+              "tax_rates": [
+                "p9RcDvDJOi"
+              ]
             }
           ],
           "metadata": null,

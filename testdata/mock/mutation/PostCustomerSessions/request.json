@@ -15,7 +15,9 @@
             }
           },
           "customer": "XXJ64wcGaF",
-          "expand": ["JpQdSkDT3X"]
+          "expand": [
+            "JpQdSkDT3X"
+          ]
         }
       },
       "fields": {

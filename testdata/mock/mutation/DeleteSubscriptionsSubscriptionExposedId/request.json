@@ -10,7 +10,9 @@
             "comment": "r7aLbUs2jq",
             "feedback": "customer_service"
           },
-          "expand": ["SmftjQXtu2"],
+          "expand": [
+            "SmftjQXtu2"
+          ],
           "invoice_now": true,
           "prorate": false
         },

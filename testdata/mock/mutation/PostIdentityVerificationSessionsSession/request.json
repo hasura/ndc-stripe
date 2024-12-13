@@ -6,11 +6,15 @@
       "name": "PostIdentityVerificationSessionsSession",
       "arguments": {
         "body": {
-          "expand": ["vLNztXm7pD"],
+          "expand": [
+            "vLNztXm7pD"
+          ],
           "metadata": null,
           "options": {
             "document": {
-              "allowed_types": ["passport"],
+              "allowed_types": [
+                "passport"
+              ],
               "require_id_number": true,
               "require_live_capture": true,
               "require_matching_selfie": true

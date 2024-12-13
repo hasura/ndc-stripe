@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "description": "aPu2cGCIJq",
-          "expand": ["IJcqt7hRmK"],
+          "expand": [
+            "IJcqt7hRmK"
+          ],
           "metadata": null
         },
         "customer": "VgNLQfCREl",

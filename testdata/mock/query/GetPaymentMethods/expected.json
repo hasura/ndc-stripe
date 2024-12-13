@@ -37,13 +37,20 @@
                 "country": "US",
                 "display_brand": "visa",
                 "exp_month": 8,
-                "exp_year": 2024,
-                "fingerprint": "r40d4vOgg3VecDJF",
+                "exp_year": 2025,
+                "fingerprint": "AOB934RVNwzk6xtn",
                 "funding": "credit",
                 "generated_from": null,
                 "last4": "4242",
-                "networks": { "available": ["visa"], "preferred": null },
-                "three_d_secure_usage": { "supported": true },
+                "networks": {
+                  "available": [
+                    "visa"
+                  ],
+                  "preferred": null
+                },
+                "three_d_secure_usage": {
+                  "supported": true
+                },
                 "wallet": null
               },
               "card_present": null,
@@ -55,14 +62,16 @@
               "fpx": null,
               "giropay": null,
               "grabpay": null,
-              "id": "pm_1OPoukJN5vQBdWEx0hPok3pj",
+              "id": "pm_1Pgc75B7WZ01zgkWlHVgdEGJ",
               "ideal": null,
               "interac_present": null,
               "klarna": null,
               "konbini": null,
               "link": null,
               "livemode": false,
-              "metadata": { "order_id": "123456789" },
+              "metadata": {
+                "order_id": "123456789"
+              },
               "object": "payment_method",
               "oxxo": null,
               "p24": null,

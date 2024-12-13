@@ -1,0 +1,83 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "amount_total": 1947,
+          "currency": "usd",
+          "customer": null,
+          "customer_details": {
+            "address": {
+              "city": "South San Francisco",
+              "country": "US",
+              "line1": "354 Oyster Point Blvd",
+              "line2": "",
+              "postal_code": "94080",
+              "state": "CA"
+            },
+            "address_source": "shipping",
+            "ip_address": null,
+            "tax_ids": [],
+            "taxability_override": "none"
+          },
+          "expires_at": 1234567890,
+          "id": "SNDmfaQqtp",
+          "line_items": null,
+          "livemode": false,
+          "object": "tax.calculation",
+          "ship_from_details": {
+            "address": {
+              "city": null,
+              "country": "US",
+              "line1": null,
+              "line2": null,
+              "postal_code": "75001",
+              "state": "TX"
+            }
+          },
+          "shipping_cost": {
+            "amount": 300,
+            "amount_tax": 0,
+            "shipping_rate": null,
+            "tax_behavior": "exclusive",
+            "tax_breakdown": null,
+            "tax_code": "txcd_92010001"
+          },
+          "tax_amount_exclusive": 148,
+          "tax_amount_inclusive": 0,
+          "tax_breakdown": [
+            {
+              "amount": 148,
+              "inclusive": false,
+              "tax_rate_details": {
+                "country": "US",
+                "flat_amount": null,
+                "percentage_decimal": "9.875",
+                "rate_type": null,
+                "state": "CA",
+                "tax_type": "sales_tax"
+              },
+              "taxability_reason": "standard_rated",
+              "taxable_amount": 1499
+            },
+            {
+              "amount": 0,
+              "inclusive": false,
+              "tax_rate_details": {
+                "country": "US",
+                "flat_amount": null,
+                "percentage_decimal": "0.0",
+                "rate_type": null,
+                "state": "CA",
+                "tax_type": "sales_tax"
+              },
+              "taxability_reason": "product_exempt",
+              "taxable_amount": 0
+            }
+          ],
+          "tax_date": 1234567890
+        }
+      }
+    ]
+  }
+]

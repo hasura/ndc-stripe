@@ -6,7 +6,9 @@
       "name": "PostPaymentMethodDomainsPaymentMethodDomain",
       "arguments": {
         "enabled": true,
-        "expand": ["apple_pay"],
+        "expand": [
+          "apple_pay"
+        ],
         "payment_method_domain": "TS5z7jCHAv"
       },
       "fields": {

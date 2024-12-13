@@ -20,7 +20,9 @@
           "customer": "TrnZNOktVd",
           "description": "Nm1t0MOf8l",
           "error_on_requires_action": true,
-          "expand": ["7c0zgsfGv1"],
+          "expand": [
+            "7c0zgsfGv1"
+          ],
           "mandate": "BdqBJtZVoJ",
           "mandate_data": {
             "customer_acceptance": {
@@ -196,7 +198,9 @@
                 "interval_count": 160681328,
                 "reference": "GugE0bVMTM",
                 "start_date": 1920983327,
-                "supported_types": ["india"]
+                "supported_types": [
+                  "india"
+                ]
               },
               "network": "interac",
               "request_extended_authorization": "if_available",
@@ -241,7 +245,9 @@
                 "eu_bank_transfer": {
                   "country": "8rW3ccwSw0"
                 },
-                "requested_address_types": ["swift"],
+                "requested_address_types": [
+                  "swift"
+                ],
                 "type": "mx_bank_transfer"
               },
               "funding_type": "bank_transfer",
@@ -327,15 +333,21 @@
             },
             "us_bank_account": {
               "financial_connections": {
-                "permissions": ["balances"],
-                "prefetch": ["ownership"],
+                "permissions": [
+                  "balances"
+                ],
+                "prefetch": [
+                  "ownership"
+                ],
                 "return_url": "aviaSn54du"
               },
               "mandate_options": {
                 "collection_method": ""
               },
               "networks": {
-                "requested": ["us_domestic_wire"]
+                "requested": [
+                  "us_domestic_wire"
+                ]
               },
               "preferred_settlement_speed": "standard",
               "setup_future_usage": "",
@@ -350,7 +362,9 @@
               "setup_future_usage": "none"
             }
           },
-          "payment_method_types": ["IAK6We6ZIL"],
+          "payment_method_types": [
+            "IAK6We6ZIL"
+          ],
           "radar_options": {
             "session": "pcJo4IdJt0"
           },

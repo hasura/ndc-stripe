@@ -6,7 +6,9 @@
       "name": "PostTestHelpersIssuingAuthorizationsAuthorizationReverse",
       "arguments": {
         "authorization": "ZGku9FdFnh",
-        "expand": ["amount_details"],
+        "expand": [
+          "amount_details"
+        ],
         "reverse_amount": 1230659905
       },
       "fields": {

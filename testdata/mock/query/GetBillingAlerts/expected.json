@@ -1,0 +1,24 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "alert_type": "usage_threshold",
+              "id": "obj_123",
+              "livemode": true,
+              "object": "billing.alert",
+              "status": null,
+              "title": "title",
+              "usage_threshold": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/billing/alerts"
+        }
+      }
+    ]
+  }
+]

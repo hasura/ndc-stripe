@@ -3,7 +3,10 @@
     "rows": [
       {
         "__value": {
-          "defaults": { "tax_behavior": null, "tax_code": "txcd_10000000" },
+          "defaults": {
+            "tax_behavior": null,
+            "tax_code": "txcd_10000000"
+          },
           "head_office": {
             "address": {
               "city": null,
@@ -17,7 +20,10 @@
           "livemode": false,
           "object": "tax.settings",
           "status": "active",
-          "status_details": { "active": {}, "pending": null }
+          "status_details": {
+            "active": {},
+            "pending": null
+          }
         }
       }
     ]

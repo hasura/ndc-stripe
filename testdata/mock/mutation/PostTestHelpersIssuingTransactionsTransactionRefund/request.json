@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostTestHelpersIssuingTransactionsTransactionRefund",
       "arguments": {
-        "expand": ["merchant_data"],
+        "expand": [
+          "merchant_data"
+        ],
         "refund_amount": 2083127814,
         "transaction": "uifa2vape4"
       },

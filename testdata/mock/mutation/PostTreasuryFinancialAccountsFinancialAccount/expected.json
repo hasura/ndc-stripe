@@ -8,9 +8,15 @@
           "outbound_payments.us_domestic_wire"
         ],
         "balance": {
-          "cash": { "usd": 0 },
-          "inbound_pending": { "usd": 0 },
-          "outbound_pending": { "usd": 0 }
+          "cash": {
+            "usd": 0
+          },
+          "inbound_pending": {
+            "usd": 0
+          },
+          "outbound_pending": {
+            "usd": 0
+          }
         },
         "country": "US",
         "created": 1234567890,
@@ -24,7 +30,10 @@
               "bank_name": "STRIPE TEST BANK",
               "routing_number": "0000000001"
             },
-            "supported_networks": ["ach", "us_domestic_wire"],
+            "supported_networks": [
+              "ach",
+              "us_domestic_wire"
+            ],
             "type": "aba"
           }
         ],
@@ -35,8 +44,12 @@
         "platform_restrictions": null,
         "restricted_features": [],
         "status": "open",
-        "status_details": { "closed": null },
-        "supported_currencies": ["usd"]
+        "status_details": {
+          "closed": null
+        },
+        "supported_currencies": [
+          "usd"
+        ]
       },
       "type": "procedure"
     }

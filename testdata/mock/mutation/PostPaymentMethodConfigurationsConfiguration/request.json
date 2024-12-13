@@ -92,7 +92,9 @@
               "preference": "off"
             }
           },
-          "expand": ["y4wbujcbgL"],
+          "expand": [
+            "y4wbujcbgL"
+          ],
           "fpx": {
             "display_preference": {
               "preference": "none"

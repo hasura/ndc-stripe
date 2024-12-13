@@ -14,7 +14,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["4i6QRRtMPs"]
+      "value": [
+        "4i6QRRtMPs"
+      ]
     },
     "limit": {
       "type": "literal",

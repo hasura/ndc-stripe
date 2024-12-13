@@ -14,7 +14,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     },
     "limit": {
       "type": "literal",
@@ -30,7 +32,9 @@
     },
     "types": {
       "type": "literal",
-      "value": ["6O0Yg18JJA"]
+      "value": [
+        "6O0Yg18JJA"
+      ]
     }
   },
   "collection": "GetEvents",

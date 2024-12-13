@@ -1,14 +1,13 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "account": "RITV0ieecD",
         "additional_tos_acceptances": {
           "account": {
-            "date": 505094360,
-            "ip": "NNCuXQZV63",
-            "user_agent": "oaUpwt4RvL"
+            "date": null,
+            "ip": null,
+            "user_agent": null
           }
         },
         "address": null,
@@ -82,7 +81,8 @@
           },
           "status": "unverified"
         }
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

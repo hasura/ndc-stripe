@@ -4,7 +4,11 @@
       "result": {
         "amount": 1099,
         "amount_capturable": 0,
-        "amount_details": { "tip": { "amount": null } },
+        "amount_details": {
+          "tip": {
+            "amount": null
+          }
+        },
         "amount_received": 0,
         "application": null,
         "application_fee_amount": null,
@@ -67,7 +71,9 @@
           "wechat_pay": null,
           "zip": null
         },
-        "payment_method_types": ["card"],
+        "payment_method_types": [
+          "card"
+        ],
         "processing": null,
         "receipt_email": null,
         "review": null,

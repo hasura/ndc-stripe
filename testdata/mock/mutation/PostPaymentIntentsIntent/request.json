@@ -12,7 +12,9 @@
           "currency": "99Y2GOmJzP",
           "customer": "ATs0nRpm0Z",
           "description": "SdWN80MK7M",
-          "expand": ["GAn2SWLXQy"],
+          "expand": [
+            "GAn2SWLXQy"
+          ],
           "metadata": null,
           "payment_method": "fZ0jeAZRCi",
           "payment_method_configuration": "zrWHaYXulw",
@@ -174,7 +176,9 @@
                 "interval_count": 2050709633,
                 "reference": "ALxQtKSds3",
                 "start_date": 1640091779,
-                "supported_types": ["india"]
+                "supported_types": [
+                  "india"
+                ]
               },
               "network": "discover",
               "request_extended_authorization": "never",
@@ -219,7 +223,9 @@
                 "eu_bank_transfer": {
                   "country": "uyK0rRRMEX"
                 },
-                "requested_address_types": ["iban"],
+                "requested_address_types": [
+                  "iban"
+                ],
                 "type": "us_bank_transfer"
               },
               "funding_type": "bank_transfer",
@@ -305,15 +311,21 @@
             },
             "us_bank_account": {
               "financial_connections": {
-                "permissions": ["ownership"],
-                "prefetch": ["transactions"],
+                "permissions": [
+                  "ownership"
+                ],
+                "prefetch": [
+                  "transactions"
+                ],
                 "return_url": "fZGMa7gabS"
               },
               "mandate_options": {
                 "collection_method": ""
               },
               "networks": {
-                "requested": ["us_domestic_wire"]
+                "requested": [
+                  "us_domestic_wire"
+                ]
               },
               "preferred_settlement_speed": "fastest",
               "setup_future_usage": "",
@@ -328,7 +340,9 @@
               "setup_future_usage": "none"
             }
           },
-          "payment_method_types": ["zolx61k0QA"],
+          "payment_method_types": [
+            "zolx61k0QA"
+          ],
           "receipt_email": "XLkTeKmwpQ",
           "setup_future_usage": "off_session",
           "shipping": {

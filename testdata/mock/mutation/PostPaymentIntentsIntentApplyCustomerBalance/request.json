@@ -8,7 +8,9 @@
         "body": {
           "amount": 1503852306,
           "currency": "5nAe9QA9L4",
-          "expand": ["shmagMUOET"]
+          "expand": [
+            "shmagMUOET"
+          ]
         },
         "intent": "T25PE1DIKk"
       },

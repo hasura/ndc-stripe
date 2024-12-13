@@ -6,7 +6,9 @@
       "name": "PostAppsSecrets",
       "arguments": {
         "body": {
-          "expand": ["CtEGSMM3NS"],
+          "expand": [
+            "CtEGSMM3NS"
+          ],
           "expires_at": 761605873,
           "name": "ugPdxSJciY",
           "payload": "YKErIyPq76",

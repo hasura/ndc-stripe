@@ -16,7 +16,9 @@
               "promotion_code": "kDUQTZ46qM"
             }
           ],
-          "expand": ["6lXodvpxXd"],
+          "expand": [
+            "6lXodvpxXd"
+          ],
           "metadata": null,
           "payment_behavior": "allow_incomplete",
           "price": "oGTd3gFThg",
@@ -35,7 +37,9 @@
           "proration_date": 728222909,
           "quantity": 1915443156,
           "subscription": "9XeulpRjUC",
-          "tax_rates": ["bmmYZx5WPR"]
+          "tax_rates": [
+            "bmmYZx5WPR"
+          ]
         }
       },
       "fields": {

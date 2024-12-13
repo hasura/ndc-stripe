@@ -16,7 +16,9 @@
         "customer": "mhzlPjqDh2",
         "exp_month": "OY1RDQgY2i",
         "exp_year": "JVHsJcckOF",
-        "expand": ["WTvCEB1ZFI"],
+        "expand": [
+          "WTvCEB1ZFI"
+        ],
         "id": "hp2xjKNo8t",
         "metadata": null,
         "name": "8ClfFQrQIF",

@@ -1,0 +1,17 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "alert_type": "usage_threshold",
+          "id": "8KLNwyV5yc",
+          "livemode": true,
+          "object": "billing.alert",
+          "status": null,
+          "title": "title",
+          "usage_threshold": null
+        }
+      }
+    ]
+  }
+]

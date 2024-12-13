@@ -111,7 +111,7 @@
             {
               "account": null,
               "account_holder_name": "Jane Austen",
-              "account_holder_type": "individual",
+              "account_holder_type": "company",
               "account_type": null,
               "address_city": null,
               "address_country": null,
@@ -132,7 +132,7 @@
               "dynamic_last4": null,
               "exp_month": null,
               "exp_year": null,
-              "fingerprint": "1JWtPxqbdX5Gamtz",
+              "fingerprint": "AuoSJ18zsVWV9SPc",
               "funding": null,
               "future_requirements": null,
               "last4": "6789",
@@ -216,16 +216,28 @@
             "secondary_color": null
           },
           "card_issuing": {
-            "tos_acceptance": { "date": null, "ip": null, "user_agent": null }
+            "tos_acceptance": {
+              "date": null,
+              "ip": null,
+              "user_agent": null
+            }
           },
           "card_payments": {
-            "decline_on": { "avs_failure": true, "cvc_failure": true },
+            "decline_on": {
+              "avs_failure": true,
+              "cvc_failure": true
+            },
             "statement_descriptor_prefix": null,
             "statement_descriptor_prefix_kana": null,
             "statement_descriptor_prefix_kanji": null
           },
-          "dashboard": { "display_name": null, "timezone": "Etc/UTC" },
-          "invoices": { "default_account_tax_ids": null },
+          "dashboard": {
+            "display_name": null,
+            "timezone": "Etc/UTC"
+          },
+          "invoices": {
+            "default_account_tax_ids": null
+          },
           "payments": {
             "statement_descriptor": null,
             "statement_descriptor_kana": null,
@@ -243,7 +255,9 @@
             },
             "statement_descriptor": null
           },
-          "sepa_debit_payments": { "creditor_id": null },
+          "sepa_debit_payments": {
+            "creditor_id": null
+          },
           "treasury": null
         },
         "sofort": null,

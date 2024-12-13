@@ -15,7 +15,9 @@
               "network": "ach"
             }
           },
-          "expand": ["8CztSqdZun"],
+          "expand": [
+            "8CztSqdZun"
+          ],
           "financial_account": "jTPqBIQvgb",
           "metadata": null,
           "statement_descriptor": "qN5mjuW4am"

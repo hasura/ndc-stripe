@@ -8,7 +8,7 @@
         "application": null,
         "application_fee": null,
         "application_fee_amount": null,
-        "balance_transaction": "txn_1OPoueJN5vQBdWEx8dhHMVqh",
+        "balance_transaction": "txn_1PgaxNB7WZ01zgkWEV3TLf40",
         "billing_details": {
           "address": {
             "city": null,
@@ -42,10 +42,11 @@
         "outcome": null,
         "paid": true,
         "payment_intent": "qGb5uf6yh7",
-        "payment_method": "card_1OPoudJN5vQBdWExSTD9mIPF",
+        "payment_method": "card_1PgaftB7WZ01zgkWm3waTcFp",
         "payment_method_details": {
           "card": {
             "amount_authorized": null,
+            "authorization_code": null,
             "brand": "visa",
             "checks": {
               "address_line1_check": null,
@@ -54,17 +55,25 @@
             },
             "country": "US",
             "exp_month": 8,
-            "exp_year": 2024,
-            "extended_authorization": { "status": "disabled" },
-            "fingerprint": "r40d4vOgg3VecDJF",
+            "exp_year": 2025,
+            "extended_authorization": {
+              "status": "disabled"
+            },
+            "fingerprint": "AOB934RVNwzk6xtn",
             "funding": "credit",
-            "incremental_authorization": { "status": "unavailable" },
+            "incremental_authorization": {
+              "status": "unavailable"
+            },
             "installments": null,
             "last4": "4242",
             "mandate": null,
-            "multicapture": { "status": "unavailable" },
+            "multicapture": {
+              "status": "unavailable"
+            },
             "network": "visa",
-            "network_token": { "used": false },
+            "network_token": {
+              "used": false
+            },
             "overcapture": {
               "maximum_amount_capturable": 100,
               "status": "unavailable"
@@ -77,7 +86,7 @@
         "radar_options": null,
         "receipt_email": null,
         "receipt_number": null,
-        "receipt_url": "https://pakrym-manage-mydev.dev.stripe.me/receipts/payment/CAcaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KL3JkawGMgZvNmQ3SW46LCKn_twcP-jc9phNH9BfAtUKJcNs5Gy9n0cn7wNp9IWz2coUhEmAKuyETwtJ",
+        "receipt_url": "https://sangeekp-15t6ai--manage-mydev.dev.stripe.me/receipts/payment/CAcaFwoVYWNjdF8xUGdhZlRCN1daMDF6Z2tXKI_ei7UGMgZv2S_KfiY6LCJrxC7awazgQA9I88krZKw5uuCkZ5Nup2tomEtAbSpdfzjVZHO3ZYP5KFZP",
         "refunded": false,
         "refunds": {
           "data": [
@@ -126,7 +135,7 @@
               },
               "failure_balance_transaction": null,
               "failure_reason": null,
-              "id": "re_1OPoujJN5vQBdWExUGBANu1j",
+              "id": "re_1Pgc72B7WZ01zgkWqPvrRrPE",
               "instructions_email": null,
               "metadata": {},
               "next_action": null,

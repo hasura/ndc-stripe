@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     },
     "subscription_exposed_id": {
       "type": "literal",

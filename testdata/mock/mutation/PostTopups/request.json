@@ -9,7 +9,9 @@
           "amount": 1315722423,
           "currency": "aA05aLuWud",
           "description": "Drx3lFhgfO",
-          "expand": ["S4bBQVXRX3"],
+          "expand": [
+            "S4bBQVXRX3"
+          ],
           "metadata": null,
           "source": "ApPVP30C3q",
           "statement_descriptor": "tOjgj0QVht",

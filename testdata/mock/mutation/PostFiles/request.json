@@ -42,14 +42,6 @@
                           "column": "expires_at",
                           "type": "column"
                         },
-                        "file": {
-                          "column": "file",
-                          "type": "column"
-                        },
-                        "id": {
-                          "column": "id",
-                          "type": "column"
-                        },
                         "livemode": {
                           "column": "livemode",
                           "type": "column"
@@ -60,10 +52,6 @@
                         },
                         "object": {
                           "column": "object",
-                          "type": "column"
-                        },
-                        "url": {
-                          "column": "url",
                           "type": "column"
                         }
                       },
@@ -79,10 +67,6 @@
                 },
                 "object": {
                   "column": "object",
-                  "type": "column"
-                },
-                "url": {
-                  "column": "url",
                   "type": "column"
                 }
               },

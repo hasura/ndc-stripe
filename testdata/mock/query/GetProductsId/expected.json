@@ -5,16 +5,12 @@
         "__value": {
           "active": true,
           "created": 1234567890,
-          "default_price": "price_1OPougJN5vQBdWExAuB7D8i5",
+          "default_price": "price_1PgafmB7WZ01zgkW02Hf9z6c",
           "description": "Comfortable gray cotton t-shirt",
           "id": "Ugbb0XyhZD",
           "images": [],
           "livemode": false,
-          "marketing_features": [
-            {
-              "name": null
-            }
-          ],
+          "marketing_features": [],
           "metadata": {},
           "name": "T-shirt",
           "object": "product",

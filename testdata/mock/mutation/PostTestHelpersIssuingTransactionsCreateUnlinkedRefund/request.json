@@ -9,7 +9,9 @@
           "amount": 596226003,
           "card": "nUx0Slngu8",
           "currency": "JQF7HCHMza",
-          "expand": ["8olmvUDrK3"],
+          "expand": [
+            "8olmvUDrK3"
+          ],
           "merchant_data": {
             "category": "direct_marketing_combination_catalog_and_retail_merchant",
             "city": "LMWHFCFJao",

@@ -10,7 +10,9 @@
           "client_secret": "0cPN1ygm2o",
           "confirmation_token": "Y0sicZus2A",
           "error_on_requires_action": true,
-          "expand": ["Hnhryt8UwS"],
+          "expand": [
+            "Hnhryt8UwS"
+          ],
           "mandate": "R40lPEYQ7K",
           "off_session": null,
           "payment_method": "YoggEnnOLU",
@@ -172,7 +174,9 @@
                 "interval_count": 2130049804,
                 "reference": "ylG0iU1phh",
                 "start_date": 781462626,
-                "supported_types": ["india"]
+                "supported_types": [
+                  "india"
+                ]
               },
               "network": "jcb",
               "request_extended_authorization": "never",
@@ -217,7 +221,9 @@
                 "eu_bank_transfer": {
                   "country": "X0JZRhoYIF"
                 },
-                "requested_address_types": ["sort_code"],
+                "requested_address_types": [
+                  "sort_code"
+                ],
                 "type": "gb_bank_transfer"
               },
               "funding_type": "bank_transfer",
@@ -303,15 +309,21 @@
             },
             "us_bank_account": {
               "financial_connections": {
-                "permissions": ["transactions"],
-                "prefetch": ["balances"],
+                "permissions": [
+                  "transactions"
+                ],
+                "prefetch": [
+                  "balances"
+                ],
                 "return_url": "SgKXO1a2Bc"
               },
               "mandate_options": {
                 "collection_method": "paper"
               },
               "networks": {
-                "requested": ["us_domestic_wire"]
+                "requested": [
+                  "us_domestic_wire"
+                ]
               },
               "preferred_settlement_speed": "fastest",
               "setup_future_usage": "on_session",
@@ -326,7 +338,9 @@
               "setup_future_usage": "none"
             }
           },
-          "payment_method_types": ["YZY4vYzhfp"],
+          "payment_method_types": [
+            "YZY4vYzhfp"
+          ],
           "radar_options": {
             "session": "HCeoFvW7W2"
           },

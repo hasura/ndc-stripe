@@ -4,7 +4,7 @@
       "result": {
         "amount": 1000,
         "balance_transactions": [],
-        "charge": "ch_1OPoueJN5vQBdWExHvNS496R",
+        "charge": "ch_1PgafuB7WZ01zgkWXYmPNZs8",
         "created": 1234567890,
         "currency": "usd",
         "evidence": {
@@ -37,7 +37,7 @@
           "uncategorized_text": null
         },
         "evidence_details": {
-          "due_by": 1704844799,
+          "due_by": 1723679999,
           "has_evidence": false,
           "past_due": false,
           "submission_count": 0
@@ -48,7 +48,11 @@
         "object": "dispute",
         "payment_intent": null,
         "payment_method_details": {
-          "card": { "brand": "visa", "network_reason_code": "10.4" },
+          "card": {
+            "brand": "visa",
+            "case_type": "inquiry",
+            "network_reason_code": "10.4"
+          },
           "type": "card"
         },
         "reason": "general",

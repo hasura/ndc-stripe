@@ -7,11 +7,15 @@
       "arguments": {
         "body": {
           "client_reference_id": "sCBLzaaLDg",
-          "expand": ["570Tu8SnIa"],
+          "expand": [
+            "570Tu8SnIa"
+          ],
           "metadata": null,
           "options": {
             "document": {
-              "allowed_types": ["driving_license"],
+              "allowed_types": [
+                "driving_license"
+              ],
               "require_id_number": false,
               "require_live_capture": false,
               "require_matching_selfie": true

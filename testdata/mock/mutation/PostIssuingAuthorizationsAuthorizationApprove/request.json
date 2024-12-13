@@ -8,7 +8,9 @@
         "authorization": "nURH3bQMKr",
         "body": {
           "amount": 181530061,
-          "expand": ["amount_details"],
+          "expand": [
+            "amount_details"
+          ],
           "metadata": null
         }
       },

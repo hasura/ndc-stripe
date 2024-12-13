@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "description": "sZh38b8gn0",
-          "expand": ["reversals"],
+          "expand": [
+            "reversals"
+          ],
           "metadata": null
         },
         "transfer": "CysBCQHJF5"

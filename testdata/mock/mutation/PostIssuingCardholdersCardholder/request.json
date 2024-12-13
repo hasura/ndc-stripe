@@ -20,7 +20,9 @@
             "tax_id": "QDrcRqyewD"
           },
           "email": "I0SfsuyhAs",
-          "expand": ["3mxIL9Lre4"],
+          "expand": [
+            "3mxIL9Lre4"
+          ],
           "individual": {
             "card_issuing": {
               "user_terms_acceptance": {
@@ -45,18 +47,28 @@
           },
           "metadata": null,
           "phone_number": "OFldi7IhjV",
-          "preferred_locales": ["it"],
+          "preferred_locales": [
+            "it"
+          ],
           "spending_controls": {
-            "allowed_categories": ["news_dealers_and_newsstands"],
-            "allowed_merchant_countries": ["xnoRgmqCqt"],
+            "allowed_categories": [
+              "news_dealers_and_newsstands"
+            ],
+            "allowed_merchant_countries": [
+              "xnoRgmqCqt"
+            ],
             "blocked_categories": [
               "government_licensed_horse_dog_racing_us_region_only"
             ],
-            "blocked_merchant_countries": ["AY3sa0arh5"],
+            "blocked_merchant_countries": [
+              "AY3sa0arh5"
+            ],
             "spending_limits": [
               {
                 "amount": 262922694,
-                "categories": ["passenger_railways"],
+                "categories": [
+                  "passenger_railways"
+                ],
                 "interval": "per_authorization"
               }
             ],

@@ -7,7 +7,10 @@
           "application": null,
           "created": 1234567890,
           "description": "This is my webhook, I like it a lot",
-          "enabled_events": ["charge.failed", "charge.succeeded"],
+          "enabled_events": [
+            "charge.failed",
+            "charge.succeeded"
+          ],
           "id": "Ybak5bCM3q",
           "livemode": false,
           "metadata": {},

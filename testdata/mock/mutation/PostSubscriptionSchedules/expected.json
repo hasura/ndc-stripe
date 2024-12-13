@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "application": null,
         "canceled_at": 1234567890,
@@ -10,7 +9,7 @@
         "current_phase": null,
         "customer": "TXWOldosEh",
         "default_settings": {
-          "application_fee_percent": 1.2647562993252983,
+          "application_fee_percent": 1.2647562993252985,
           "automatic_tax": {
             "enabled": false,
             "liability": null
@@ -21,7 +20,9 @@
           "default_payment_method": "5hzq5NGy9i",
           "description": "cnTuxTOIpr",
           "invoice_settings": {
-            "account_tax_ids": ["6kyE4VwIj1"],
+            "account_tax_ids": [
+              "6kyE4VwIj1"
+            ],
             "days_until_due": 1041663784,
             "issuer": {
               "account": null,
@@ -48,13 +49,13 @@
             "default_payment_method": null,
             "default_tax_rates": [],
             "description": null,
-            "end_date": 1735229763,
+            "end_date": 1754008472,
             "invoice_settings": null,
             "items": [
               {
                 "billing_thresholds": null,
                 "metadata": {},
-                "price": "price_1OPouiJN5vQBdWExAQaqTooZ",
+                "price": "price_1PgafmB7WZ01zgkW6dKueIc5",
                 "quantity": 1,
                 "tax_rates": []
               }
@@ -62,7 +63,7 @@
             "metadata": {},
             "on_behalf_of": null,
             "proration_behavior": "create_prorations",
-            "start_date": 1703780163,
+            "start_date": 1722558872,
             "transfer_data": null,
             "trial_end": null
           }
@@ -72,7 +73,8 @@
         "status": "not_started",
         "subscription": null,
         "test_clock": null
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

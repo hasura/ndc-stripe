@@ -1,0 +1,22 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "feature": "feat_test_61QGU1MWyFMSP9YBZ41ClCIKljWvsTgu",
+              "id": "ent_test_61QG5x2cU1GluFTYs41JqiESbLiX8C8O",
+              "livemode": false,
+              "lookup_key": "something",
+              "object": "entitlements.active_entitlement"
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/entitlements/active_entitlements"
+        }
+      }
+    ]
+  }
+]

@@ -11,14 +11,14 @@
           "created": 1234567890,
           "currency": "usd",
           "effective_at": 1234567890,
-          "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-          "flow": "obt_1OPouxJN5vQBdWExpjuwR2Xd",
+          "financial_account": "fa_1Pgc7BB7WZ01zgkWxDkCj857",
+          "flow": "obt_1Pgc7HB7WZ01zgkW6fB9s6sG",
           "flow_details": null,
           "flow_type": "outbound_transfer",
           "id": "aCclJMV2wl",
           "livemode": false,
           "object": "treasury.transaction_entry",
-          "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv",
+          "transaction": "trxn_1Pgc7BB7WZ01zgkWvyFCYTAP",
           "type": "outbound_transfer"
         }
       }

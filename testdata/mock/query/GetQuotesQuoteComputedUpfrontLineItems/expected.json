@@ -16,7 +16,7 @@
               "price": {
                 "active": true,
                 "billing_scheme": "per_unit",
-                "created": 1703175358,
+                "created": 1721948530,
                 "currency": "usd",
                 "currency_options": null,
                 "custom_unit_amount": null,
@@ -25,7 +25,7 @@
                 "metadata": {},
                 "nickname": null,
                 "object": "price",
-                "product": "prod_PEHTfnvdJH6K0k",
+                "product": "prod_QXg1hqf4jFNsqG",
                 "recurring": null,
                 "tax_behavior": "unspecified",
                 "tiers": null,

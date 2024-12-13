@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostRefundsRefund",
       "arguments": {
-        "expand": ["YvqIMdcsvF"],
+        "expand": [
+          "YvqIMdcsvF"
+        ],
         "metadata": null,
         "refund": "wkb7wOlB1n"
       },

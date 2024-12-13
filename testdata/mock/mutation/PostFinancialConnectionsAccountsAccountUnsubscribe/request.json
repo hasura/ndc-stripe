@@ -7,8 +7,12 @@
       "arguments": {
         "account": "Vtjn0kcO0r",
         "body": {
-          "expand": ["balance"],
-          "features": ["transactions"]
+          "expand": [
+            "balance"
+          ],
+          "features": [
+            "transactions"
+          ]
         }
       },
       "fields": {

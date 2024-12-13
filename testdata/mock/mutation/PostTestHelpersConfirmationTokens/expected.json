@@ -13,7 +13,7 @@
           "affirm": null,
           "afterpay_clearpay": null,
           "alipay": null,
-          "allow_redisplay": null,
+          "allow_redisplay": "unspecified",
           "amazon_pay": null,
           "au_becs_debit": null,
           "bacs_debit": null,
@@ -57,17 +57,24 @@
           "sepa_debit": null,
           "sofort": null,
           "swish": null,
-          "type": "card",
+          "type": "us_bank_account",
           "us_bank_account": {
             "account_holder_type": "company",
             "account_type": "checking",
             "bank_name": "STRIPE TEST BANK",
             "financial_connections_account": null,
-            "fingerprint": "6wfQAEPlPmv9GKyV",
+            "fingerprint": "AuoSJ18zsVWV9SPc",
             "last4": "6789",
-            "networks": { "preferred": "ach", "supported": ["ach"] },
+            "networks": {
+              "preferred": "ach",
+              "supported": [
+                "ach"
+              ]
+            },
             "routing_number": "110000000",
-            "status_details": { "blocked": null }
+            "status_details": {
+              "blocked": null
+            }
           },
           "wechat_pay": null,
           "zip": null
@@ -75,7 +82,18 @@
         "return_url": "ElIdWjmhlr",
         "setup_future_usage": "off_session",
         "setup_intent": null,
-        "shipping": null,
+        "shipping": {
+          "address": {
+            "city": "San Francisco",
+            "country": "US",
+            "line1": "1234 Fake Street",
+            "line2": null,
+            "postal_code": "94102",
+            "state": "CA"
+          },
+          "name": "Jenny Rosen",
+          "phone": null
+        },
         "use_stripe_sdk": true
       },
       "type": "procedure"
