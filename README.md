@@ -2,7 +2,7 @@
 
 Stripe connector provides instant queries and mutations to request Stripe API resources.
 
-This connector is built using the [NDC Rest](https://github.com/hasura/ndc-rest) with [Stripe's OpenAPI Specification](https://github.com/stripe/openapi).
+This connector is built using the [HTTP Connector](https://github.com/hasura/ndc-http) with [Stripe's OpenAPI Specification](https://github.com/stripe/openapi).
 
 ## Environment Variables
 
@@ -14,7 +14,6 @@ This connector is built using the [NDC Rest](https://github.com/hasura/ndc-rest)
 | STRIPE_TIMEOUT           | Default request timeout in seconds            | 30                     |
 | STRIPE_RETRY_TIMES       | Number of retry times                         | 0                      |
 | STRIPE_RETRY_DELAY       | Delay time between each retry in milliseconds | 1000                   |
-| STRIPE_RETRY_HTTP_STATUS | Retry on HTTP status                          | 429, 500, 502, 503     |
 
 ## Development
 
@@ -31,7 +30,7 @@ The connector serves the HTTP service at `http://localhost:8080` and connect to 
 ### Update dependencies
 
 ```sh
-NDC_REST_VERSION=<version> make update-deps
+NDC_HTTP_VERSION=<version> make update-deps
 ```
 
 ### Update schema

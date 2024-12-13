@@ -1,3 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hasura/ndc-http/refs/heads/main/ndc-http-schema/jsonschema/configuration.schema.json
+strict: false
+forwardHeaders:
+  enabled: false
+  argumentField: null
+  responseHeaders: null
+concurrency:
+  query: 1
+  mutation: 1
+  http: 1
 files:
   - file: schema.json
     spec: ndc
+    timeout:
+      env: STRIPE_TIMEOUT
+      value: 30
+    retry:
+      times:
+        env: STRIPE_RETRY_TIMES
+        value: 1
+      delay:
+        env: STRIPE_RETRY_DELAY
+        value: 1000
+      httpStatus: [429, 500, 502, 503]
