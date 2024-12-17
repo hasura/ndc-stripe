@@ -25,16 +25,8 @@
                   "column": "livemode",
                   "type": "column"
                 },
-                "lookup_key": {
-                  "column": "lookup_key",
-                  "type": "column"
-                },
                 "metadata": {
                   "column": "metadata",
-                  "type": "column"
-                },
-                "name": {
-                  "column": "name",
                   "type": "column"
                 },
                 "object": {

@@ -27,7 +27,9 @@
             ],
             "taxability_override": "customer_exempt"
           },
-          "expand": ["Bw9wVmdC9o"],
+          "expand": [
+            "Bw9wVmdC9o"
+          ],
           "line_items": [
             {
               "amount": 1054159982,

@@ -1,0 +1,211 @@
+{
+  "arguments": {
+    "credit_grant": {
+      "type": "literal",
+      "value": "ywOyRuvgKl"
+    },
+    "customer": {
+      "type": "literal",
+      "value": "0cWKZ9TvTj"
+    },
+    "ending_before": {
+      "type": "literal",
+      "value": "ypPcturtMh"
+    },
+    "expand": {
+      "type": "literal",
+      "value": []
+    },
+    "limit": {
+      "type": "literal",
+      "value": 1127862968
+    },
+    "starting_after": {
+      "type": "literal",
+      "value": "Q4mHxj4XuS"
+    }
+  },
+  "collection": "GetBillingCreditBalanceTransactions",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "data": {
+              "column": "data",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "created": {
+                      "column": "created",
+                      "type": "column"
+                    },
+                    "credit": {
+                      "column": "credit",
+                      "fields": {
+                        "fields": {
+                          "amount": {
+                            "column": "amount",
+                            "fields": {
+                              "fields": {
+                                "monetary": {
+                                  "column": "monetary",
+                                  "fields": {
+                                    "fields": {
+                                      "currency": {
+                                        "column": "currency",
+                                        "type": "column"
+                                      },
+                                      "value": {
+                                        "column": "value",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "credits_application_invoice_voided": {
+                            "column": "credits_application_invoice_voided",
+                            "fields": {
+                              "fields": {
+                                "invoice": {
+                                  "column": "invoice",
+                                  "type": "column"
+                                },
+                                "invoice_line_item": {
+                                  "column": "invoice_line_item",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "type": {
+                            "column": "type",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "debit": {
+                      "column": "debit",
+                      "fields": {
+                        "fields": {
+                          "amount": {
+                            "column": "amount",
+                            "fields": {
+                              "fields": {
+                                "monetary": {
+                                  "column": "monetary",
+                                  "fields": {
+                                    "fields": {
+                                      "currency": {
+                                        "column": "currency",
+                                        "type": "column"
+                                      },
+                                      "value": {
+                                        "column": "value",
+                                        "type": "column"
+                                      }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "type": "column"
+                                },
+                                "type": {
+                                  "column": "type",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "credits_applied": {
+                            "column": "credits_applied",
+                            "fields": {
+                              "fields": {
+                                "invoice": {
+                                  "column": "invoice",
+                                  "type": "column"
+                                },
+                                "invoice_line_item": {
+                                  "column": "invoice_line_item",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "type": {
+                            "column": "type",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "effective_at": {
+                      "column": "effective_at",
+                      "type": "column"
+                    },
+                    "livemode": {
+                      "column": "livemode",
+                      "type": "column"
+                    },
+                    "object": {
+                      "column": "object",
+                      "type": "column"
+                    },
+                    "test_clock": {
+                      "column": "test_clock",
+                      "type": "column"
+                    },
+                    "type": {
+                      "column": "type",
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "has_more": {
+              "column": "has_more",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            },
+            "url": {
+              "column": "url",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

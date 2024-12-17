@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "amount_subtotal": 0,
         "amount_total": 0,
@@ -31,7 +30,9 @@
         "created": 1234567890,
         "currency": "usd",
         "customer": "Q5qcj6es1R",
-        "default_tax_rates": ["z92GcnuuvT"],
+        "default_tax_rates": [
+          "z92GcnuuvT"
+        ],
         "description": "kLC54Fqw4I",
         "discounts": [],
         "expires_at": 1462182928,
@@ -74,7 +75,8 @@
           "breakdown": null
         },
         "transfer_data": null
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

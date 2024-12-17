@@ -7,8 +7,12 @@
       "arguments": {
         "account": "Fd2aD4GHCD",
         "body": {
-          "expand": ["balance"],
-          "features": ["balance"]
+          "expand": [
+            "balance"
+          ],
+          "features": [
+            "balance"
+          ]
         }
       },
       "fields": {

@@ -3,14 +3,12 @@
     {
       "result": {
         "entitlement_feature": {
-          "active": true,
-          "livemode": true,
-          "lookup_key": "lookup_key",
-          "metadata": { "undefined": "metadata" },
-          "name": "name",
+          "active": false,
+          "livemode": false,
+          "metadata": {},
           "object": "entitlements.feature"
         },
-        "livemode": true,
+        "livemode": false,
         "object": "product_feature"
       },
       "type": "procedure"

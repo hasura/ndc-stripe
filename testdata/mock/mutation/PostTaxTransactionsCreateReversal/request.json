@@ -6,7 +6,9 @@
       "name": "PostTaxTransactionsCreateReversal",
       "arguments": {
         "body": {
-          "expand": ["UTZStf2exk"],
+          "expand": [
+            "UTZStf2exk"
+          ],
           "flat_amount": 252456619,
           "line_items": [
             {

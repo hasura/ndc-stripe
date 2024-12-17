@@ -12,7 +12,9 @@
           "deposit_insurance": {
             "requested": true
           },
-          "expand": ["ONSda2PRr7"],
+          "expand": [
+            "ONSda2PRr7"
+          ],
           "financial_addresses": {
             "aba": {
               "requested": false

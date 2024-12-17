@@ -4,7 +4,6 @@
     {
       "type": "procedure",
       "name": "PostAccountsAccountPersons",
-
       "arguments": {
         "account": "Sy1CsLpo5S",
         "body": {
@@ -48,21 +47,31 @@
           },
           "documents": {
             "company_authorization": {
-              "files": ["2Kfxbi3ZhU"]
+              "files": [
+                "2Kfxbi3ZhU"
+              ]
             },
             "passport": {
-              "files": ["sNRsOBUGkM"]
+              "files": [
+                "sNRsOBUGkM"
+              ]
             },
             "visa": {
-              "files": ["aeQ9XfCW2c"]
+              "files": [
+                "aeQ9XfCW2c"
+              ]
             }
           },
           "email": "f5FfWx1SFt",
-          "expand": ["gQkYs2CKy3"],
+          "expand": [
+            "gQkYs2CKy3"
+          ],
           "first_name": "rmy5PJwWRJ",
           "first_name_kana": "8GlW1kacuk",
           "first_name_kanji": "7JiwIUpYzc",
-          "full_name_aliases": ["USkIs9OTt2"],
+          "full_name_aliases": [
+            "USkIs9OTt2"
+          ],
           "gender": "kMitspkAnt",
           "id_number": "ftyot4U1f0",
           "id_number_secondary": "kBPQgLCJxH",

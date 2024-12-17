@@ -6,7 +6,9 @@
       "name": "PostTaxRegistrationsId",
       "arguments": {
         "active_from": null,
-        "expand": ["CYfg5XVOZg"],
+        "expand": [
+          "CYfg5XVOZg"
+        ],
         "expires_at": null,
         "id": "XabDGROtQa"
       },

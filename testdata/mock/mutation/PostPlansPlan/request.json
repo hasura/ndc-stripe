@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "active": true,
-          "expand": ["k6ZwVablOS"],
+          "expand": [
+            "k6ZwVablOS"
+          ],
           "metadata": null,
           "nickname": "cPdFn9yzMP",
           "product": "yTvVRxXMWy",

@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "DeleteCustomersCustomerCardsId",
       "arguments": {
-        "expand": ["customer"],
+        "expand": [
+          "customer"
+        ],
         "customer": "NnTGZunBlY",
         "id": "HZNBDQmWOw"
       }

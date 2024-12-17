@@ -8,7 +8,9 @@
         "body": {
           "customer": "qeD4vCfAD0",
           "description": "XWc8i8ppoY",
-          "expand": ["rgSREltMAj"],
+          "expand": [
+            "rgSREltMAj"
+          ],
           "fraud_details": {
             "user_report": "safe"
           },

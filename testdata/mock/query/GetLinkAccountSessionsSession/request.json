@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["0Ixr2VmMh7"]
+      "value": [
+        "0Ixr2VmMh7"
+      ]
     },
     "session": {
       "type": "literal",

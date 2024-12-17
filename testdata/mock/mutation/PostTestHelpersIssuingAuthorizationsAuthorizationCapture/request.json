@@ -8,7 +8,9 @@
         "authorization": "vB55NPGSeG",
         "capture_amount": 2091577947,
         "close_authorization": false,
-        "expand": ["rTMJ03RXW4"],
+        "expand": [
+          "rTMJ03RXW4"
+        ],
         "purchase_details": {
           "flight": {
             "departure_at": 2100227668,

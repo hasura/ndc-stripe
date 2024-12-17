@@ -11,7 +11,7 @@
         "object": "billing_portal.session",
         "on_behalf_of": "JiAjT6QHT3",
         "return_url": "lOmM5PaNT7",
-        "url": "https://pakrym-customer_portal-mydev.dev.stripe.me/session/{SESSION_SECRET}"
+        "url": "https://sangeekp-15t6ai--customer_portal-mydev.dev.stripe.me/session/{SESSION_SECRET}"
       },
       "type": "procedure"
     }

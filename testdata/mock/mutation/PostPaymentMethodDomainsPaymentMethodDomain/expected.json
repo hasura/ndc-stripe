@@ -2,16 +2,28 @@
   "operation_results": [
     {
       "result": {
-        "apple_pay": { "status": "active", "status_details": null },
+        "apple_pay": {
+          "status": "active",
+          "status_details": null
+        },
         "created": 1234567890,
         "domain_name": "example.com",
         "enabled": true,
-        "google_pay": { "status": "active", "status_details": null },
+        "google_pay": {
+          "status": "active",
+          "status_details": null
+        },
         "id": "TS5z7jCHAv",
-        "link": { "status": "active", "status_details": null },
+        "link": {
+          "status": "active",
+          "status_details": null
+        },
         "livemode": false,
         "object": "payment_method_domain",
-        "paypal": { "status": "active", "status_details": null }
+        "paypal": {
+          "status": "active",
+          "status_details": null
+        }
       },
       "type": "procedure"
     }

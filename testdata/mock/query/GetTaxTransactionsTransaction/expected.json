@@ -45,7 +45,16 @@
           "object": "tax.transaction",
           "reference": "myOrder_123",
           "reversal": null,
-          "ship_from_details": null,
+          "ship_from_details": {
+            "address": {
+              "city": null,
+              "country": "US",
+              "line1": null,
+              "line2": null,
+              "postal_code": "75001",
+              "state": "TX"
+            }
+          },
           "shipping_cost": {
             "amount": 300,
             "amount_tax": 0,

@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "created": 1234567890,
         "customer_mapping": {
@@ -24,7 +23,8 @@
         "value_settings": {
           "event_payload_key": "value"
         }
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

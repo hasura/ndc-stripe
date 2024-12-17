@@ -9,7 +9,9 @@
           "amount": 1674553641,
           "card": "8SVsErhAgX",
           "currency": "UCCmlJjVMk",
-          "expand": ["8P631QzwzH"],
+          "expand": [
+            "8P631QzwzH"
+          ],
           "merchant_data": {
             "category": "hardware_stores",
             "city": "JHLbz7kvmA",

@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     },
     "personalization_design": {
       "type": "literal",

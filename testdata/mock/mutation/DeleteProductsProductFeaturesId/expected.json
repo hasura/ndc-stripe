@@ -1,12 +1,12 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "deleted": true,
         "id": "tuRCyQYnKF",
         "object": "product_feature"
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

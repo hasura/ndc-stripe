@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostCheckoutSessionsSessionExpire",
       "arguments": {
-        "expand": ["bfXYh6fLbs"],
+        "expand": [
+          "bfXYh6fLbs"
+        ],
         "session": "wxJTtTaSfa"
       },
       "fields": {

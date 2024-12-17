@@ -4,7 +4,7 @@
       "result": {
         "account_holder": {
           "account": null,
-          "customer": "cus_PEHTIoPSgT0tXQ",
+          "customer": "cus_QXg1o8vcGmoR32",
           "type": "customer"
         },
         "accounts": {
@@ -12,7 +12,7 @@
             {
               "account_holder": {
                 "account": null,
-                "customer": "cus_PEHTIoPSgT0tXQ",
+                "customer": "cus_QXg1o8vcGmoR32",
                 "type": "customer"
               },
               "balance": null,
@@ -20,7 +20,7 @@
               "category": "cash",
               "created": 1234567890,
               "display_name": "Sample Checking Account",
-              "id": "fca_1OPouwJN5vQBdWExZJ9BIvU6",
+              "id": "fca_1Pgc76B7WZ01zgkWqlYVCIub",
               "institution_name": "StripeBank",
               "last4": "6789",
               "livemode": false,
@@ -31,7 +31,9 @@
               "status": "active",
               "subcategory": "checking",
               "subscriptions": [],
-              "supported_payment_method_types": ["us_bank_account"],
+              "supported_payment_method_types": [
+                "us_bank_account"
+              ],
               "transaction_refresh": null
             }
           ],
@@ -43,8 +45,12 @@
         "filters": null,
         "livemode": false,
         "object": "financial_connections.session",
-        "permissions": ["transactions"],
-        "prefetch": ["transactions"],
+        "permissions": [
+          "transactions"
+        ],
+        "prefetch": [
+          "transactions"
+        ],
         "return_url": null
       },
       "type": "procedure"

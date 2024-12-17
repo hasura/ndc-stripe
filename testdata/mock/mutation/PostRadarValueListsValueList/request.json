@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "alias": "54AarawaVX",
-          "expand": ["list_items"],
+          "expand": [
+            "list_items"
+          ],
           "metadata": null,
           "name": "Zd2Y75hmL7"
         },

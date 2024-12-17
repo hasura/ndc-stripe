@@ -27,10 +27,13 @@
             "type": "us_bank_account",
             "us_bank_account": null
           },
-          "end_user_details": { "ip_address": null, "present": false },
+          "end_user_details": {
+            "ip_address": null,
+            "present": false
+          },
           "expected_arrival_date": 1234567890,
-          "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-          "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgaR9eFFZxA6Nf1Uo94Mpn-7Tsn_H3VUq5eU5VqUXb9OIEaCinxrEDg2YK6jwW9CYt3AXOyCohxB6swPKWTL",
+          "financial_account": "fa_1Pgc7BB7WZ01zgkWxDkCj857",
+          "hosted_regulatory_receipt_url": "https://sangeekp-15t6ai--agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xUGdhZlRCN1daMDF6Z2tXKJ_ei7UGMgZb81SroEc6Nf0M0LOh7xetIdKMMltgDcTZmCTvH7ZnNosUOThGpwFftLBt-Jpykly0SuHShBnzVpepZnst",
           "livemode": false,
           "metadata": {},
           "object": "treasury.outbound_payment",
@@ -44,7 +47,7 @@
             "returned_at": null
           },
           "tracking_details": null,
-          "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+          "transaction": "trxn_1Pgc7BB7WZ01zgkWvyFCYTAP"
         }
       }
     ]

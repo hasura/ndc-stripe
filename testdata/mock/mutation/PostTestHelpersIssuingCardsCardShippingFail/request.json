@@ -6,7 +6,9 @@
       "name": "PostTestHelpersIssuingCardsCardShippingFail",
       "arguments": {
         "card": "3mmEWKPoZe",
-        "expand": ["VIRnJto4A7"]
+        "expand": [
+          "VIRnJto4A7"
+        ]
       },
       "fields": {
         "fields": {

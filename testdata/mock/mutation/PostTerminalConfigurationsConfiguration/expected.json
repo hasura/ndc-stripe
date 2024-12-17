@@ -1,10 +1,9 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "bbpos_wisepos_e": {
-          "splashscreen": "file_1OPouuJN5vQBdWExsQRSvk0Q"
+          "splashscreen": "file_1Pgc6yB7WZ01zgkWSsAMx1We"
         },
         "deleted": null,
         "id": "OqNxd6YMS0",
@@ -16,7 +15,8 @@
         "stripe_s700": null,
         "tipping": null,
         "verifone_p400": null
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

@@ -23,7 +23,9 @@
           "coupon": "lGok7POp2b",
           "description": "A08ne39SoL",
           "email": "iFJYvEGLas",
-          "expand": ["BvxYktYX4e"],
+          "expand": [
+            "BvxYktYX4e"
+          ],
           "invoice_prefix": "RvZjba1uzF",
           "invoice_settings": {
             "custom_fields": [
@@ -43,7 +45,9 @@
           "next_invoice_sequence": 1232549417,
           "payment_method": "jp5lUoMzAj",
           "phone": "jg1BIWwWK3",
-          "preferred_locales": ["RdlUdNqQti"],
+          "preferred_locales": [
+            "RdlUdNqQti"
+          ],
           "promotion_code": "vicmoX0JQx",
           "shipping": {
             "address": {

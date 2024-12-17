@@ -14,7 +14,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     },
     "invoice": {
       "type": "literal",

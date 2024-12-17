@@ -6,7 +6,9 @@
       "name": "PostShippingRatesShippingRateToken",
       "arguments": {
         "active": true,
-        "expand": ["52z3kEEzmA"],
+        "expand": [
+          "52z3kEEzmA"
+        ],
         "fixed_amount": {
           "currency_options": null
         },

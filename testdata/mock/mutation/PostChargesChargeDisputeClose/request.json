@@ -6,7 +6,9 @@
       "name": "PostChargesChargeDisputeClose",
       "arguments": {
         "charge": "DzrknMxety",
-        "expand": ["QweSPMFc6U"]
+        "expand": [
+          "QweSPMFc6U"
+        ]
       },
       "fields": {
         "fields": {

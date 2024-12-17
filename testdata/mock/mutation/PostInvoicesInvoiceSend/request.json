@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostInvoicesInvoiceSend",
       "arguments": {
-        "expand": ["hlwEHbfEvq"],
+        "expand": [
+          "hlwEHbfEvq"
+        ],
         "invoice": "m8P6LldrKH"
       },
       "fields": {

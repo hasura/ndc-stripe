@@ -1,16 +1,19 @@
 {
   "operation_results": [
     {
+      "type": "procedure",
       "result": {
         "created": 1234567890,
         "event_name": "k8hAOi2B52",
-        "identifier": "iQLmkWhHpY",
+        "identifier": "identifier_123",
         "livemode": false,
         "object": "billing.meter_event",
-        "payload": { "stripe_customer_id": "cus_123", "value": "25" },
+        "payload": {
+          "stripe_customer_id": "cus_123",
+          "value": "25"
+        },
         "timestamp": 931468280
-      },
-      "type": "procedure"
+      }
     }
   ]
 }

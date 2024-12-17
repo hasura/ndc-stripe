@@ -6,7 +6,9 @@
       "name": "PostTestHelpersTreasuryInboundTransfersIdFail",
       "arguments": {
         "body": {
-          "expand": ["failure_details"],
+          "expand": [
+            "failure_details"
+          ],
           "failure_details": {
             "code": "no_account"
           }

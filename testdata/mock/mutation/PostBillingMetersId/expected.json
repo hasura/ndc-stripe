@@ -7,7 +7,9 @@
           "event_payload_key": "customer",
           "type": "by_id"
         },
-        "default_aggregation": { "formula": "sum" },
+        "default_aggregation": {
+          "formula": "sum"
+        },
         "display_name": "1kxlrm4POf",
         "event_name": "test-meter-event-name",
         "event_time_window": null,
@@ -15,9 +17,13 @@
         "livemode": true,
         "object": "billing.meter",
         "status": "active",
-        "status_transitions": { "deactivated_at": null },
+        "status_transitions": {
+          "deactivated_at": null
+        },
         "updated": 1234567890,
-        "value_settings": { "event_payload_key": "value" }
+        "value_settings": {
+          "event_payload_key": "value"
+        }
       },
       "type": "procedure"
     }

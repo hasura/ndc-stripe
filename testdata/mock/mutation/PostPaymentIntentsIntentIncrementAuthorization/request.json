@@ -9,7 +9,9 @@
           "amount": 1908815064,
           "application_fee_amount": 1255648272,
           "description": "P2VOtS674b",
-          "expand": ["2LVhHHQt8u"],
+          "expand": [
+            "2LVhHHQt8u"
+          ],
           "metadata": null,
           "statement_descriptor": "6ohtJzgnpf",
           "transfer_data": {

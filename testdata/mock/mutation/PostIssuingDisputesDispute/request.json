@@ -66,7 +66,9 @@
               "received_at": 1289540864
             }
           },
-          "expand": ["balance_transactions"],
+          "expand": [
+            "balance_transactions"
+          ],
           "metadata": null
         },
         "dispute": "qVLGaT4ENE"

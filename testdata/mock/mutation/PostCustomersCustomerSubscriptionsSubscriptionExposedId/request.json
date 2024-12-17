@@ -24,7 +24,9 @@
                 "unit_amount_decimal": "XZ9b7pgmAS"
               },
               "quantity": 516230097,
-              "tax_rates": ["ErMYSsoobv"]
+              "tax_rates": [
+                "ErMYSsoobv"
+              ]
             }
           ],
           "application_fee_percent": 0.6889020201618584,
@@ -51,7 +53,9 @@
           "days_until_due": 1295865924,
           "default_payment_method": "BLOMO6Svxt",
           "default_source": "qzdDl1Eib8",
-          "default_tax_rates": ["EZQkSwKxMJ"],
+          "default_tax_rates": [
+            "EZQkSwKxMJ"
+          ],
           "discounts": [
             {
               "coupon": "de3ufNqsFb",
@@ -59,9 +63,13 @@
               "promotion_code": "RXSbYELiJV"
             }
           ],
-          "expand": ["6qrRLNk4eA"],
+          "expand": [
+            "6qrRLNk4eA"
+          ],
           "invoice_settings": {
-            "account_tax_ids": ["UDwdsWRXzQ"],
+            "account_tax_ids": [
+              "UDwdsWRXzQ"
+            ],
             "issuer": {
               "account": "0BP9HBDm6G",
               "type": "self"
@@ -96,7 +104,9 @@
                 "unit_amount_decimal": "vtis9el5Ut"
               },
               "quantity": 722058685,
-              "tax_rates": ["ldOds9YWmM"]
+              "tax_rates": [
+                "ldOds9YWmM"
+              ]
             }
           ],
           "metadata": null,
@@ -139,13 +149,19 @@
               "sepa_debit": null,
               "us_bank_account": {
                 "financial_connections": {
-                  "permissions": ["ownership"],
-                  "prefetch": ["transactions"]
+                  "permissions": [
+                    "ownership"
+                  ],
+                  "prefetch": [
+                    "transactions"
+                  ]
                 },
                 "verification_method": "instant"
               }
             },
-            "payment_method_types": ["paypal"],
+            "payment_method_types": [
+              "paypal"
+            ],
             "save_default_payment_method": "on_subscription"
           },
           "pending_invoice_item_interval": {

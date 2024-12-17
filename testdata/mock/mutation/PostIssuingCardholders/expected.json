@@ -21,13 +21,18 @@
         "name": "o33OQVxF8b",
         "object": "issuing.cardholder",
         "phone_number": "szKimCwmgo",
-        "preferred_locales": ["de"],
-        "requirements": { "disabled_reason": null, "past_due": [] },
+        "preferred_locales": [
+          "de"
+        ],
+        "requirements": {
+          "disabled_reason": null,
+          "past_due": []
+        },
         "spending_controls": {
           "allowed_categories": [],
-          "allowed_merchant_countries": null,
+          "allowed_merchant_countries": [],
           "blocked_categories": [],
-          "blocked_merchant_countries": null,
+          "blocked_merchant_countries": [],
           "spending_limits": [],
           "spending_limits_currency": null
         },

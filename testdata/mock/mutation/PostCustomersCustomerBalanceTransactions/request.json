@@ -9,7 +9,9 @@
           "amount": 2107060381,
           "currency": "frWGPqhpT3",
           "description": "VUsVozvWBm",
-          "expand": ["fpuLcgRR6W"],
+          "expand": [
+            "fpuLcgRR6W"
+          ],
           "metadata": null
         },
         "customer": "KFazZNXP4K"

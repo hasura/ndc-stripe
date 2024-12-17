@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "after_expiration": null,
         "allow_promotion_codes": true,
@@ -48,7 +47,7 @@
         "metadata": {},
         "mode": "payment",
         "object": "checkout.session",
-        "payment_intent": "pi_1OPougJN5vQBdWEx8s2Dj0YR",
+        "payment_intent": "pi_1PgafyB7WZ01zgkWSjxsAJo3",
         "payment_link": null,
         "payment_method_collection": "always",
         "payment_method_configuration_details": null,
@@ -83,7 +82,9 @@
           "swish": null,
           "us_bank_account": null
         },
-        "payment_method_types": ["giropay"],
+        "payment_method_types": [
+          "giropay"
+        ],
         "payment_status": "unpaid",
         "phone_number_collection": {
           "enabled": true
@@ -103,8 +104,9 @@
         "tax_id_collection": null,
         "total_details": null,
         "ui_mode": "hosted",
-        "url": "https://checkout.stripe.com/pay/c/cs_test_a12et9VnHfV9NETJktvuOmVoyrOB40recOCQWiVNeDlBe4IqxEIRNi1Qdf"
-      }
+        "url": "https://checkout.stripe.com/pay/c/cs_test_a1YS1URlnyQCN5fUUduORoQ7Pw41PJqDWkIVQCpJPqkfIhd6tVY8XB1OLY"
+      },
+      "type": "procedure"
     }
   ]
 }

@@ -45,7 +45,9 @@
             "ip_address": "kLcK2R7wAe",
             "present": false
           },
-          "expand": ["kmMOkgio96"],
+          "expand": [
+            "kmMOkgio96"
+          ],
           "financial_account": "3c5Mt4h2Ur",
           "metadata": null,
           "statement_descriptor": "AZS5tRYw5P"

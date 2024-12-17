@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["7R3ZOMizz9"]
+      "value": [
+        "7R3ZOMizz9"
+      ]
     }
   },
   "collection": "GetConfirmationTokensConfirmationToken",

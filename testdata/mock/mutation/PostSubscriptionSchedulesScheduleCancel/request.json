@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostSubscriptionSchedulesScheduleCancel",
       "arguments": {
-        "expand": ["lgLWXnnTLo"],
+        "expand": [
+          "lgLWXnnTLo"
+        ],
         "invoice_now": false,
         "prorate": true,
         "schedule": "1RnJfO2o54"

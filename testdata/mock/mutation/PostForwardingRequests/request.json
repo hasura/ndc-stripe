@@ -6,9 +6,13 @@
       "name": "PostForwardingRequests",
       "arguments": {
         "body": {
-          "expand": ["XP3kByoZ0J"],
+          "expand": [
+            "XP3kByoZ0J"
+          ],
           "payment_method": "TpAT9WaJBD",
-          "replacements": ["card_number"],
+          "replacements": [
+            "card_number"
+          ],
           "request": {
             "body": "SlVtI8Yfiv",
             "headers": [

@@ -14,7 +14,9 @@
           "authorization_method": "chip",
           "card": "7u1hRBzBrS",
           "currency": "wFYOwqcQTs",
-          "expand": ["2dI3yP93dd"],
+          "expand": [
+            "2dI3yP93dd"
+          ],
           "is_amount_controllable": false,
           "merchant_data": {
             "category": "wig_and_toupee_stores",

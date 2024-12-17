@@ -3,11 +3,14 @@
     {
       "result": {
         "amount": 1674553641,
-        "amount_details": { "atm_fee": null, "cashback_amount": null },
-        "authorization": "iauth_1OPouuJN5vQBdWExicfRiUm4",
+        "amount_details": {
+          "atm_fee": null,
+          "cashback_amount": null
+        },
+        "authorization": "iauth_1Pgc78B7WZ01zgkW9IPKCfII",
         "balance_transaction": null,
         "card": "8SVsErhAgX",
-        "cardholder": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+        "cardholder": "ich_1Pgag4B7WZ01zgkWdPVfBngi",
         "created": 1234567890,
         "currency": "UCCmlJjVMk",
         "dispute": null,
@@ -29,7 +32,7 @@
         "metadata": {},
         "network_data": {
           "authorization_code": null,
-          "processing_date": "2023-12-21",
+          "processing_date": "2024-07-26",
           "transaction_id": null
         },
         "object": "issuing.transaction",

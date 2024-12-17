@@ -7,13 +7,21 @@
             {
               "account": "6HnaGHbBVR",
               "additional_tos_acceptances": {
-                "account": { "date": null, "ip": null, "user_agent": null }
+                "account": {
+                  "date": null,
+                  "ip": null,
+                  "user_agent": null
+                }
               },
               "address": null,
               "address_kana": null,
               "address_kanji": null,
               "created": 1234567890,
-              "dob": { "day": null, "month": null, "year": null },
+              "dob": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
               "email": null,
               "first_name": null,
               "first_name_kana": null,
@@ -28,7 +36,7 @@
                 "pending_verification": []
               },
               "gender": null,
-              "id": "person_1OPouvJN5vQBdWEx4ogP6Lfq",
+              "id": "person_1Pgc6oB7WZ01zgkWnmLL70wS",
               "id_number_provided": false,
               "id_number_secondary_provided": null,
               "last_name": null,

@@ -1,0 +1,25 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "created": 1028554472,
+              "id": "obj_123",
+              "livemode": true,
+              "metadata": null,
+              "nickname": null,
+              "object": "invoice_rendering_template",
+              "status": "active",
+              "version": 351608024
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/invoice_rendering_templates"
+        }
+      }
+    ]
+  }
+]

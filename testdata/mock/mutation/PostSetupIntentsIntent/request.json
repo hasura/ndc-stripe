@@ -9,8 +9,12 @@
           "attach_to_self": true,
           "customer": "QQYdCeFvQY",
           "description": "ZDBafjSpg3",
-          "expand": ["b4trPIScdy"],
-          "flow_directions": ["outbound"],
+          "expand": [
+            "b4trPIScdy"
+          ],
+          "flow_directions": [
+            "outbound"
+          ],
           "metadata": null,
           "payment_method": "X5ATKogSjW",
           "payment_method_configuration": "3BR6aOKZiu",
@@ -111,7 +115,9 @@
               "currency": "cad",
               "mandate_options": {
                 "custom_mandate_url": "GiXYQZjLVb",
-                "default_for": ["subscription"],
+                "default_for": [
+                  "subscription"
+                ],
                 "interval_description": "LVnDd1PXwj",
                 "payment_schedule": "sporadic",
                 "transaction_type": "business"
@@ -130,7 +136,9 @@
                 "interval_count": 570913497,
                 "reference": "HrDUZAVsws",
                 "start_date": 936780291,
-                "supported_types": ["india"]
+                "supported_types": [
+                  "india"
+                ]
               },
               "network": "amex",
               "request_three_d_secure": "automatic",
@@ -160,20 +168,28 @@
             },
             "us_bank_account": {
               "financial_connections": {
-                "permissions": ["payment_method"],
-                "prefetch": ["balances"],
+                "permissions": [
+                  "payment_method"
+                ],
+                "prefetch": [
+                  "balances"
+                ],
                 "return_url": "vBEVB6wU5g"
               },
               "mandate_options": {
                 "collection_method": ""
               },
               "networks": {
-                "requested": ["ach"]
+                "requested": [
+                  "ach"
+                ]
               },
               "verification_method": "instant"
             }
           },
-          "payment_method_types": ["VGIHEknIeu"]
+          "payment_method_types": [
+            "VGIHEknIeu"
+          ]
         },
         "intent": "QUrjI0Yh7R"
       },

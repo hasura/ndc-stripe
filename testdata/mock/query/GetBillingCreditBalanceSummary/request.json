@@ -1,0 +1,123 @@
+{
+  "arguments": {
+    "customer": {
+      "type": "literal",
+      "value": "2S9zkQsE38"
+    },
+    "expand": {
+      "type": "literal",
+      "value": [
+        "PGaiG48ZPE"
+      ]
+    },
+    "filter": {
+      "type": "literal",
+      "value": {
+        "applicability_scope": {
+          "price_type": "metered"
+        },
+        "credit_grant": "eIIeC4XccN",
+        "type": "applicability_scope"
+      }
+    }
+  },
+  "collection": "GetBillingCreditBalanceSummary",
+  "collection_relationships": {},
+  "query": {
+    "fields": {
+      "__value": {
+        "column": "__value",
+        "fields": {
+          "fields": {
+            "balances": {
+              "column": "balances",
+              "fields": {
+                "fields": {
+                  "fields": {
+                    "available_balance": {
+                      "column": "available_balance",
+                      "fields": {
+                        "fields": {
+                          "monetary": {
+                            "column": "monetary",
+                            "fields": {
+                              "fields": {
+                                "currency": {
+                                  "column": "currency",
+                                  "type": "column"
+                                },
+                                "value": {
+                                  "column": "value",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "type": {
+                            "column": "type",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    },
+                    "ledger_balance": {
+                      "column": "ledger_balance",
+                      "fields": {
+                        "fields": {
+                          "monetary": {
+                            "column": "monetary",
+                            "fields": {
+                              "fields": {
+                                "currency": {
+                                  "column": "currency",
+                                  "type": "column"
+                                },
+                                "value": {
+                                  "column": "value",
+                                  "type": "column"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "type": "column"
+                          },
+                          "type": {
+                            "column": "type",
+                            "type": "column"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "column"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "type": "column"
+            },
+            "customer": {
+              "column": "customer",
+              "type": "column"
+            },
+            "livemode": {
+              "column": "livemode",
+              "type": "column"
+            },
+            "object": {
+              "column": "object",
+              "type": "column"
+            }
+          },
+          "type": "object"
+        },
+        "type": "column"
+      }
+    }
+  }
+}

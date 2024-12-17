@@ -11,7 +11,9 @@
             "public_name": "5D6unU0YJ7"
           },
           "currency": "rtDv4b1sQd",
-          "expand": ["MlpKyd191Q"],
+          "expand": [
+            "MlpKyd191Q"
+          ],
           "metadata": null,
           "metric_tons": "ySx3AIjnM9",
           "product": "0K2lOZPSKc"

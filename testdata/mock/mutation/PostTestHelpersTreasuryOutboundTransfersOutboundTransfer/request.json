@@ -6,7 +6,9 @@
       "name": "PostTestHelpersTreasuryOutboundTransfersOutboundTransfer",
       "arguments": {
         "body": {
-          "expand": ["2RY1Y3L8Bx"],
+          "expand": [
+            "2RY1Y3L8Bx"
+          ],
           "tracking_details": {
             "ach": {
               "trace_id": "CSpKfDsko7"

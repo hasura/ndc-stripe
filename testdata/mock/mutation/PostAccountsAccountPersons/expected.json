@@ -1,14 +1,13 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "account": "Sy1CsLpo5S",
         "additional_tos_acceptances": {
           "account": {
-            "date": 226390029,
-            "ip": "gHjWwcVXFL",
-            "user_agent": "izfvXz0Wcr"
+            "date": null,
+            "ip": null,
+            "user_agent": null
           }
         },
         "address": null,
@@ -81,7 +80,8 @@
           },
           "status": "unverified"
         }
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

@@ -185,13 +185,19 @@
           "dob": null,
           "documents": {
             "company_authorization": {
-              "files": [null]
+              "files": [
+                null
+              ]
             },
             "passport": {
-              "files": [null]
+              "files": [
+                null
+              ]
             },
             "visa": {
-              "files": [null]
+              "files": [
+                null
+              ]
             }
           },
           "email": "Zu9mQ5aX48",

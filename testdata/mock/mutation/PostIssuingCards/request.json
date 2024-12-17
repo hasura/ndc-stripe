@@ -4,12 +4,13 @@
     {
       "type": "procedure",
       "name": "PostIssuingCards",
-
       "arguments": {
         "body": {
           "cardholder": "Uwh02UUD8k",
           "currency": "cfcevuVyGS",
-          "expand": ["AnAGqXXJoa"],
+          "expand": [
+            "AnAGqXXJoa"
+          ],
           "financial_account": "VTwjcdVUao",
           "metadata": null,
           "personalization_design": "SYj1TwAhe8",
@@ -38,14 +39,24 @@
             "type": "individual"
           },
           "spending_controls": {
-            "allowed_categories": ["car_washes"],
-            "allowed_merchant_countries": ["Fcnr3i19c6"],
-            "blocked_categories": ["car_and_truck_dealers_new_used"],
-            "blocked_merchant_countries": ["TrNwyQnytz"],
+            "allowed_categories": [
+              "car_washes"
+            ],
+            "allowed_merchant_countries": [
+              "Fcnr3i19c6"
+            ],
+            "blocked_categories": [
+              "car_and_truck_dealers_new_used"
+            ],
+            "blocked_merchant_countries": [
+              "TrNwyQnytz"
+            ],
             "spending_limits": [
               {
                 "amount": 1112047779,
-                "categories": ["insurance_default"],
+                "categories": [
+                  "insurance_default"
+                ],
                 "interval": "weekly"
               }
             ]

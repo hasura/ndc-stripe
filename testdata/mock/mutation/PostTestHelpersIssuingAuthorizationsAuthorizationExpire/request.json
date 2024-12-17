@@ -6,7 +6,9 @@
       "name": "PostTestHelpersIssuingAuthorizationsAuthorizationExpire",
       "arguments": {
         "authorization": "lHl2z0kdCI",
-        "expand": ["NmUTBXF0jo"]
+        "expand": [
+          "NmUTBXF0jo"
+        ]
       },
       "fields": {
         "fields": {

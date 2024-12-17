@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostTestHelpersRefundsRefundExpire",
       "arguments": {
-        "expand": ["destination_details"],
+        "expand": [
+          "destination_details"
+        ],
         "refund": "VbSN1jqgRR"
       },
       "fields": {

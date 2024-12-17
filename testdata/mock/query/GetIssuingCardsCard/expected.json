@@ -17,25 +17,27 @@
               }
             },
             "company": null,
-            "created": 1703175372,
+            "created": 1721948548,
             "email": "jenny@example.com",
-            "id": "ich_1OPouuJN5vQBdWExwzpyb2cp",
+            "id": "ich_1Pgag4B7WZ01zgkWdPVfBngi",
             "individual": null,
             "livemode": false,
             "metadata": {},
             "name": "Jenny Rosen",
             "object": "issuing.cardholder",
             "phone_number": "+18008675309",
-            "preferred_locales": ["en"],
+            "preferred_locales": [
+              "en"
+            ],
             "requirements": {
               "disabled_reason": null,
               "past_due": []
             },
             "spending_controls": {
               "allowed_categories": [],
-              "allowed_merchant_countries": null,
+              "allowed_merchant_countries": [],
               "blocked_categories": [],
-              "blocked_merchant_countries": null,
+              "blocked_merchant_countries": [],
               "spending_limits": [],
               "spending_limits_currency": null
             },
@@ -46,7 +48,7 @@
           "currency": "usd",
           "cvc": null,
           "exp_month": 8,
-          "exp_year": 2024,
+          "exp_year": 2025,
           "financial_account": null,
           "id": "e17BRV4E2y",
           "last4": "4242",

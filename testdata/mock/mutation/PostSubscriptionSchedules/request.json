@@ -25,7 +25,9 @@
             "default_payment_method": "5hzq5NGy9i",
             "description": "cnTuxTOIpr",
             "invoice_settings": {
-              "account_tax_ids": ["6kyE4VwIj1"],
+              "account_tax_ids": [
+                "6kyE4VwIj1"
+              ],
               "days_until_due": 1041663784,
               "issuer": {
                 "account": "ct2DvIriy2",
@@ -39,7 +41,9 @@
             }
           },
           "end_behavior": "none",
-          "expand": ["hGAp7R9IA8"],
+          "expand": [
+            "hGAp7R9IA8"
+          ],
           "from_subscription": "CXCt3Pi1oO",
           "metadata": null,
           "phases": [
@@ -62,7 +66,9 @@
                     "unit_amount_decimal": "mfuYkLUS4c"
                   },
                   "quantity": 1073626129,
-                  "tax_rates": ["n9SAqMMXYd"]
+                  "tax_rates": [
+                    "n9SAqMMXYd"
+                  ]
                 }
               ],
               "application_fee_percent": 0.3288799487694883,
@@ -82,7 +88,9 @@
               "coupon": "OaoCuITGuo",
               "currency": "7fEe4xxyio",
               "default_payment_method": "lYuzXX47af",
-              "default_tax_rates": ["9tBJRM9uN7"],
+              "default_tax_rates": [
+                "9tBJRM9uN7"
+              ],
               "description": "JtPsyqXNi7",
               "discounts": [
                 {
@@ -93,7 +101,9 @@
               ],
               "end_date": 1022035603,
               "invoice_settings": {
-                "account_tax_ids": ["J2JmQUHMDj"],
+                "account_tax_ids": [
+                  "J2JmQUHMDj"
+                ],
                 "days_until_due": 1329504193,
                 "issuer": {
                   "account": "luVkBRljk7",
@@ -126,7 +136,9 @@
                     "unit_amount_decimal": "yWnldarZcq"
                   },
                   "quantity": 400865270,
-                  "tax_rates": ["OCfhGCsRWI"]
+                  "tax_rates": [
+                    "OCfhGCsRWI"
+                  ]
                 }
               ],
               "iterations": 415680749,

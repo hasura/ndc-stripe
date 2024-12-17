@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostPayoutsPayoutReverse",
       "arguments": {
-        "expand": ["Tp13dIEiSr"],
+        "expand": [
+          "Tp13dIEiSr"
+        ],
         "metadata": null,
         "payout": "cPCd6d8KLN"
       },

@@ -1,0 +1,93 @@
+{
+  "collection_relationships": {},
+  "operations": [
+    {
+      "type": "procedure",
+      "name": "PostBillingAlerts",
+      "arguments": {
+        "body": {
+          "alert_type": "usage_threshold",
+          "expand": ["IqejODkbor"],
+          "title": "ayBMZL5ecb",
+          "usage_threshold": {
+            "filters": [
+              {
+                "customer": "PUYceBu9Ah",
+                "type": "customer"
+              }
+            ],
+            "gte": 1294820976,
+            "meter": "GpJkAyBYrK",
+            "recurrence": "one_time"
+          }
+        }
+      },
+      "fields": {
+        "fields": {
+          "alert_type": {
+            "column": "alert_type",
+            "type": "column"
+          },
+          "livemode": {
+            "column": "livemode",
+            "type": "column"
+          },
+          "object": {
+            "column": "object",
+            "type": "column"
+          },
+          "status": {
+            "column": "status",
+            "type": "column"
+          },
+          "title": {
+            "column": "title",
+            "type": "column"
+          },
+          "usage_threshold": {
+            "column": "usage_threshold",
+            "fields": {
+              "fields": {
+                "filters": {
+                  "column": "filters",
+                  "fields": {
+                    "fields": {
+                      "fields": {
+                        "customer": {
+                          "column": "customer",
+                          "type": "column"
+                        },
+                        "type": {
+                          "column": "type",
+                          "type": "column"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "type": "column"
+                },
+                "gte": {
+                  "column": "gte",
+                  "type": "column"
+                },
+                "meter": {
+                  "column": "meter",
+                  "type": "column"
+                },
+                "recurrence": {
+                  "column": "recurrence",
+                  "type": "column"
+                }
+              },
+              "type": "object"
+            },
+            "type": "column"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ]
+}

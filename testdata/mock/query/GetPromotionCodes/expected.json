@@ -10,7 +10,7 @@
               "coupon": {
                 "amount_off": null,
                 "applies_to": null,
-                "created": 1703175364,
+                "created": 1721954050,
                 "currency": "usd",
                 "currency_options": null,
                 "duration": "repeating",
@@ -29,7 +29,7 @@
               "created": 1234567890,
               "customer": null,
               "expires_at": 1234567890,
-              "id": "promo_1OPoumJN5vQBdWExho5DMMcC",
+              "id": "promo_1Pgc79B7WZ01zgkWNy4mn5NX",
               "livemode": false,
               "max_redemptions": null,
               "metadata": {},

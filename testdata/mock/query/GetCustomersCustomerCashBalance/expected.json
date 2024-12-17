@@ -3,7 +3,9 @@
     "rows": [
       {
         "__value": {
-          "available": { "eur": 10000 },
+          "available": {
+            "eur": 10000
+          },
           "customer": "mRjWHSS7AH",
           "livemode": false,
           "object": "cash_balance",

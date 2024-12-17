@@ -6,9 +6,22 @@
           "default_currency": "usd",
           "id": "hU3FfJ7upQ",
           "object": "country_spec",
-          "supported_bank_account_currencies": { "usd": ["US"] },
-          "supported_payment_currencies": ["...", "aed", "afn", "usd"],
-          "supported_payment_methods": ["ach", "card", "stripe"],
+          "supported_bank_account_currencies": {
+            "usd": [
+              "US"
+            ]
+          },
+          "supported_payment_currencies": [
+            "...",
+            "aed",
+            "afn",
+            "usd"
+          ],
+          "supported_payment_methods": [
+            "ach",
+            "card",
+            "stripe"
+          ],
           "supported_transfer_countries": [
             "AE",
             "AG",
@@ -187,12 +200,6 @@
                 "business_profile.product_description",
                 "business_profile.url",
                 "business_type",
-                "company.address.city",
-                "company.address.line1",
-                "company.address.postal_code",
-                "company.address.state",
-                "company.name",
-                "company.tax_id",
                 "external_account",
                 "individual.address.city",
                 "individual.address.line1",

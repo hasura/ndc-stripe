@@ -4,12 +4,13 @@
     {
       "type": "procedure",
       "name": "PostBillingPortalSessions",
-
       "arguments": {
         "body": {
           "configuration": "j6KwEJJWSc",
           "customer": "M87odAW4od",
-          "expand": ["F26TREL93i"],
+          "expand": [
+            "F26TREL93i"
+          ],
           "flow_data": {
             "after_completion": {
               "hosted_confirmation": {

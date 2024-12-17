@@ -46,7 +46,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["9bVuspIRVg"]
+      "value": [
+        "9bVuspIRVg"
+      ]
     },
     "invoice_items": {
       "type": "literal",

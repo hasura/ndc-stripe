@@ -7,11 +7,19 @@
             {
               "amount": 0,
               "currency": "usd",
-              "source_types": { "bank_account": null, "card": 0, "fpx": null }
+              "source_types": {
+                "bank_account": null,
+                "card": 0,
+                "fpx": null
+              }
             }
           ],
           "connect_reserved": [
-            { "amount": 0, "currency": "usd", "source_types": null }
+            {
+              "amount": 0,
+              "currency": "usd",
+              "source_types": null
+            }
           ],
           "instant_available": null,
           "issuing": null,
@@ -21,7 +29,11 @@
             {
               "amount": 0,
               "currency": "usd",
-              "source_types": { "bank_account": null, "card": 0, "fpx": null }
+              "source_types": {
+                "bank_account": null,
+                "card": 0,
+                "fpx": null
+              }
             }
           ]
         }

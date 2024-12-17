@@ -23,16 +23,18 @@
           "name": "Jenny Rosen",
           "object": "issuing.cardholder",
           "phone_number": "+18008675309",
-          "preferred_locales": ["en"],
+          "preferred_locales": [
+            "en"
+          ],
           "requirements": {
             "disabled_reason": null,
             "past_due": []
           },
           "spending_controls": {
             "allowed_categories": [],
-            "allowed_merchant_countries": null,
+            "allowed_merchant_countries": [],
             "blocked_categories": [],
-            "blocked_merchant_countries": null,
+            "blocked_merchant_countries": [],
             "spending_limits": [],
             "spending_limits_currency": null
           },

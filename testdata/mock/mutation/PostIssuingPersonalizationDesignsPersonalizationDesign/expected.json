@@ -12,8 +12,14 @@
         "name": "cOBfo3ayQc",
         "object": "issuing.personalization_design",
         "physical_bundle": "LeMxab32UK",
-        "preferences": { "is_default": false, "is_platform_default": null },
-        "rejection_reasons": { "card_logo": [], "carrier_text": [] },
+        "preferences": {
+          "is_default": false,
+          "is_platform_default": null
+        },
+        "rejection_reasons": {
+          "card_logo": [],
+          "carrier_text": []
+        },
         "status": "review"
       },
       "type": "procedure"

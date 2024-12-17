@@ -1,0 +1,25 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "created": 1028554472,
+              "credit": null,
+              "debit": null,
+              "effective_at": 247108043,
+              "livemode": true,
+              "object": "billing.credit_balance_transaction",
+              "test_clock": null,
+              "type": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/billing/credit_grants"
+        }
+      }
+    ]
+  }
+]

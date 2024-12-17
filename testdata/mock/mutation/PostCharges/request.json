@@ -15,7 +15,9 @@
           "customer": "We0letKrpT",
           "description": "nLf2EfRBym",
           "destination": null,
-          "expand": ["8NKIDB1U8i"],
+          "expand": [
+            "8NKIDB1U8i"
+          ],
           "metadata": null,
           "on_behalf_of": "FN4WFYQaDO",
           "radar_options": {

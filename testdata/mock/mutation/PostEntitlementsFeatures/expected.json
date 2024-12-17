@@ -3,9 +3,9 @@
     {
       "result": {
         "active": true,
-        "livemode": true,
+        "livemode": false,
         "lookup_key": "sSAzrF4xC2",
-        "metadata": { "undefined": "metadata" },
+        "metadata": {},
         "name": "56YQggTBfk",
         "object": "entitlements.feature"
       },

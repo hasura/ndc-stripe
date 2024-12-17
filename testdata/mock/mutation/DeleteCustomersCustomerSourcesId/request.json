@@ -6,7 +6,9 @@
       "name": "DeleteCustomersCustomerSourcesId",
       "arguments": {
         "body": {
-          "expand": ["customer"]
+          "expand": [
+            "customer"
+          ]
         },
         "customer": "PIeQadBsHz",
         "id": "lZL6CaLOMi"

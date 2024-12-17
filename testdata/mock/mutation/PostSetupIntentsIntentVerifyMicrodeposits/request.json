@@ -6,10 +6,14 @@
       "name": "PostSetupIntentsIntentVerifyMicrodeposits",
       "arguments": {
         "body": {
-          "amounts": [1817649113],
+          "amounts": [
+            1817649113
+          ],
           "client_secret": "vM8ywvMs7s",
           "descriptor_code": "oiO44yvDH5",
-          "expand": ["Iuz6hpJi98"]
+          "expand": [
+            "Iuz6hpJi98"
+          ]
         },
         "intent": "MfLq3A00g9"
       },

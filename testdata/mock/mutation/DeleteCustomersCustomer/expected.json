@@ -1,7 +1,11 @@
 {
   "operation_results": [
     {
-      "result": { "deleted": true, "id": "ggwZwtzeIx", "object": "customer" },
+      "result": {
+        "deleted": true,
+        "id": "ggwZwtzeIx",
+        "object": "customer"
+      },
       "type": "procedure"
     }
   ]

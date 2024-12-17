@@ -6,7 +6,9 @@
       "name": "PostTreasuryDebitReversals",
       "arguments": {
         "body": {
-          "expand": ["linked_flows"],
+          "expand": [
+            "linked_flows"
+          ],
           "metadata": null,
           "received_debit": "KgpQaYsqfr"
         }

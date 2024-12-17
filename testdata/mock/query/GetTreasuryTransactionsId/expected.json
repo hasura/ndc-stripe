@@ -12,34 +12,9 @@
           "created": 1234567890,
           "currency": "usd",
           "description": "Jane Austen (6789) | Outbound transfer | transfer",
-          "entries": {
-            "data": [
-              {
-                "balance_impact": {
-                  "cash": 0,
-                  "inbound_pending": 0,
-                  "outbound_pending": -1000
-                },
-                "created": 1234567890,
-                "currency": "usd",
-                "effective_at": 1234567890,
-                "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-                "flow": "obt_1OPouxJN5vQBdWExpjuwR2Xd",
-                "flow_details": null,
-                "flow_type": "outbound_transfer",
-                "id": "trxne_1OPouxJN5vQBdWExvDiJTOkM",
-                "livemode": false,
-                "object": "treasury.transaction_entry",
-                "transaction": "ciySvd7nz0",
-                "type": "outbound_transfer"
-              }
-            ],
-            "has_more": false,
-            "object": "list",
-            "url": "/v1/treasury/transaction_entries"
-          },
-          "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-          "flow": "obt_1OPouxJN5vQBdWExpjuwR2Xd",
+          "entries": null,
+          "financial_account": "fa_1Pgc7BB7WZ01zgkWxDkCj857",
+          "flow": "obt_1Pgc7HB7WZ01zgkW6fB9s6sG",
           "flow_details": null,
           "flow_type": "outbound_transfer",
           "id": "ciySvd7nz0",

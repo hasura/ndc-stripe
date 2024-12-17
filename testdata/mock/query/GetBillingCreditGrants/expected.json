@@ -1,0 +1,39 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "data": [
+            {
+              "amount": {
+                "monetary": null,
+                "type": "monetary"
+              },
+              "applicability_config": {
+                "scope": {
+                  "price_type": "metered"
+                }
+              },
+              "category": "paid",
+              "created": 1028554472,
+              "effective_at": null,
+              "expires_at": null,
+              "livemode": true,
+              "metadata": {
+                "undefined": "metadata"
+              },
+              "name": null,
+              "object": "billing.credit_grant",
+              "test_clock": null,
+              "updated": 234430277,
+              "voided_at": null
+            }
+          ],
+          "has_more": false,
+          "object": "list",
+          "url": "/v1/billing/credit_grants"
+        }
+      }
+    ]
+  }
+]

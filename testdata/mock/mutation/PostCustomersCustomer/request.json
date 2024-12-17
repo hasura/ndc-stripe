@@ -29,7 +29,9 @@
           "default_source": "tA4lL7pzPT",
           "description": "jtfjZov2gM",
           "email": "obqkYgcOMw",
-          "expand": ["cpZPwj4IPl"],
+          "expand": [
+            "cpZPwj4IPl"
+          ],
           "invoice_prefix": "lJm9RyDLAi",
           "invoice_settings": {
             "custom_fields": [
@@ -48,7 +50,9 @@
           "name": "lNARB3PBLb",
           "next_invoice_sequence": 1517968361,
           "phone": "7SMOBFbmuQ",
-          "preferred_locales": ["bfY6mqx0eJ"],
+          "preferred_locales": [
+            "bfY6mqx0eJ"
+          ],
           "promotion_code": "IrP6fu6iWB",
           "shipping": {
             "address": {

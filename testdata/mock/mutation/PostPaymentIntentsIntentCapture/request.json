@@ -8,7 +8,9 @@
         "body": {
           "amount_to_capture": 1237370937,
           "application_fee_amount": 47178020,
-          "expand": ["LvhunpbuZU"],
+          "expand": [
+            "LvhunpbuZU"
+          ],
           "final_capture": false,
           "metadata": null,
           "statement_descriptor": "iVNO8ObNCn",

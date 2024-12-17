@@ -3,16 +3,19 @@
     {
       "result": {
         "bank_transfer": {
-          "country": "DE",
+          "country": "US",
           "financial_addresses": [
             {
               "aba": null,
               "iban": null,
               "sort_code": null,
               "spei": null,
-              "supported_networks": ["sepa", "domestic_wire_us"],
+              "supported_networks": [
+                "ach",
+                "domestic_wire_us"
+              ],
               "swift": null,
-              "type": "iban",
+              "type": "aba",
               "zengin": null
             }
           ],

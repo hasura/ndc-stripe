@@ -13,7 +13,10 @@
               "name": "test-secret",
               "object": "apps.secret",
               "payload": null,
-              "scope": { "type": "account", "user": null }
+              "scope": {
+                "type": "account",
+                "user": null
+              }
             }
           ],
           "has_more": false,

@@ -3,7 +3,7 @@
     "rows": [
       {
         "__value": {
-          "account": "fca_1OPouwJN5vQBdWExhxva8Q8m",
+          "account": "fca_1Pgc76B7WZ01zgkWc69S5C3k",
           "amount": 300,
           "currency": "usd",
           "description": "Rocket Rides",
@@ -11,9 +11,12 @@
           "livemode": false,
           "object": "financial_connections.transaction",
           "status": "posted",
-          "status_transitions": { "posted_at": 1703175374, "void_at": null },
+          "status_transitions": {
+            "posted_at": 1721954068,
+            "void_at": null
+          },
           "transacted_at": 1234567890,
-          "transaction_refresh": "fctxnref_PEHT703aotlKawfHY2I61XWP",
+          "transaction_refresh": "fctxnref_QXhWc2Trdr6epyWGrcV9Qajf",
           "updated": 1234567890
         }
       }

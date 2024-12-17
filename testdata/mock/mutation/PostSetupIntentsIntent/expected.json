@@ -6,11 +6,13 @@
         "attach_to_self": null,
         "automatic_payment_methods": null,
         "cancellation_reason": null,
-        "client_secret": "seti_1OPoutJN5vQBdWExijPulwWI_secret_PEHTJ4I4FBJxR6sDa0HTdK98RaYgSSc",
+        "client_secret": "seti_1Pgag7B7WZ01zgkWSgwGdb8Z_secret_QXg2AQLdBxJwtY51IkwvUaBVsnCqPSp",
         "created": 1234567890,
         "customer": "QQYdCeFvQY",
         "description": "ZDBafjSpg3",
-        "flow_directions": ["outbound"],
+        "flow_directions": [
+          "outbound"
+        ],
         "last_setup_error": null,
         "latest_attempt": null,
         "livemode": false,
@@ -29,7 +31,9 @@
           "sepa_debit": null,
           "us_bank_account": null
         },
-        "payment_method_types": ["VGIHEknIeu"],
+        "payment_method_types": [
+          "VGIHEknIeu"
+        ],
         "single_use_mandate": null,
         "status": "requires_payment_method",
         "usage": "off_session"

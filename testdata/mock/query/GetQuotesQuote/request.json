@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["AH0yTIJoFG"]
+      "value": [
+        "AH0yTIJoFG"
+      ]
     },
     "quote": {
       "type": "literal",

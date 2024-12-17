@@ -6,7 +6,9 @@
       "name": "PostTestHelpersIssuingCardsCardShippingShip",
       "arguments": {
         "card": "1SQhULW84D",
-        "expand": ["5DG5co8ji7"]
+        "expand": [
+          "5DG5co8ji7"
+        ]
       },
       "fields": {
         "fields": {

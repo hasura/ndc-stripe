@@ -3,13 +3,18 @@
     {
       "result": {
         "account": "u3z6nbYHBx",
-        "client_secret": "_PEHTFHffpUcokiSVrrc6TERNdA8300TQ5tgKincvQQYRY0v",
+        "client_secret": "accs_secret__QXhWgWIhGJ2Zl68tEmbZ29Gtc86adyWl6eEz2h6K7HtpnoB",
         "components": {
           "account_onboarding": {
             "enabled": false,
-            "features": { "external_account_collection": false }
+            "features": {
+              "external_account_collection": false
+            }
           },
-          "documents": { "enabled": true, "features": {} },
+          "documents": {
+            "enabled": true,
+            "features": {}
+          },
           "payment_details": {
             "enabled": false,
             "features": {

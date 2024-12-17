@@ -5,13 +5,21 @@
         "__value": {
           "account": "kd5rCxsbJZ",
           "additional_tos_acceptances": {
-            "account": { "date": null, "ip": null, "user_agent": null }
+            "account": {
+              "date": null,
+              "ip": null,
+              "user_agent": null
+            }
           },
           "address": null,
           "address_kana": null,
           "address_kanji": null,
           "created": 1234567890,
-          "dob": { "day": null, "month": null, "year": null },
+          "dob": {
+            "day": null,
+            "month": null,
+            "year": null
+          },
           "email": null,
           "first_name": null,
           "first_name_kana": null,

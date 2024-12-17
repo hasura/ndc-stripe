@@ -16,7 +16,9 @@
               "promotion_code": "nmmpRmyT3w"
             }
           ],
-          "expand": ["jqxEGfdD6e"],
+          "expand": [
+            "jqxEGfdD6e"
+          ],
           "metadata": null,
           "period": {
             "end": 1369275605,
@@ -33,7 +35,9 @@
           "quantity": 1819954680,
           "tax_behavior": "unspecified",
           "tax_code": "DbWmQGvPks",
-          "tax_rates": ["R56LIJdB2d"],
+          "tax_rates": [
+            "R56LIJdB2d"
+          ],
           "unit_amount": 872651531,
           "unit_amount_decimal": "E05C3LxOh5"
         },

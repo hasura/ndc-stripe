@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "active": true,
         "after_completion": {
@@ -39,7 +38,9 @@
         "on_behalf_of": "saqoNS3IbM",
         "payment_intent_data": null,
         "payment_method_collection": "if_required",
-        "payment_method_types": ["oxxo"],
+        "payment_method_types": [
+          "oxxo"
+        ],
         "phone_number_collection": {
           "enabled": true
         },
@@ -52,8 +53,9 @@
           "enabled": true
         },
         "transfer_data": null,
-        "url": "https://pakrym-payment_links_ingress-mydev.dev.stripe.me/test_4gw3eYbvN3ixabe6oo"
-      }
+        "url": "https://sangeekp-15t6ai--payment_links_ingress-mydev.dev.stripe.me/test_eVa16Q1Vd7yU1Ne8ww"
+      },
+      "type": "procedure"
     }
   ]
 }

@@ -7,7 +7,7 @@
       "arguments": {
         "body": {
           "event_name": "k8hAOi2B52",
-          "identifier": "iQLmkWhHpY",
+          "identifier": "identifier_123",
           "payload": {
             "value": "25",
             "stripe_customer_id": "cus_NciAYcXfLnqBoz"

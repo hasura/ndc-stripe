@@ -8,7 +8,9 @@
         "body": {
           "amount": 321331947,
           "currency": "D007nTCwBv",
-          "expand": ["N95TWdS2Oo"],
+          "expand": [
+            "N95TWdS2Oo"
+          ],
           "reference": "VHtScn4RnL"
         },
         "customer": "aovion2v3d"

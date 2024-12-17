@@ -9,7 +9,9 @@
           "amount": 1217430726,
           "currency": "NefYPvllip",
           "customer": "BoZNnwPG5i",
-          "expand": ["YLkRQa7qB7"],
+          "expand": [
+            "YLkRQa7qB7"
+          ],
           "instructions_email": "oe2jo5a5vM",
           "metadata": null,
           "origin": "customer_balance",

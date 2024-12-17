@@ -107,7 +107,9 @@
               "currency": "usd",
               "mandate_options": {
                 "custom_mandate_url": "dOO2hba3CT",
-                "default_for": ["invoice"],
+                "default_for": [
+                  "invoice"
+                ],
                 "interval_description": "B8d9bP2HHx",
                 "payment_schedule": "interval",
                 "transaction_type": "business"
@@ -126,7 +128,9 @@
                 "interval_count": 685215838,
                 "reference": "Q6nalUjB2G",
                 "start_date": 1081742969,
-                "supported_types": ["india"]
+                "supported_types": [
+                  "india"
+                ]
               },
               "network": "unknown",
               "request_three_d_secure": "any",
@@ -156,15 +160,21 @@
             },
             "us_bank_account": {
               "financial_connections": {
-                "permissions": ["balances"],
-                "prefetch": ["transactions"],
+                "permissions": [
+                  "balances"
+                ],
+                "prefetch": [
+                  "transactions"
+                ],
                 "return_url": "oSe0Ywqcwf"
               },
               "mandate_options": {
                 "collection_method": "paper"
               },
               "networks": {
-                "requested": ["us_domestic_wire"]
+                "requested": [
+                  "us_domestic_wire"
+                ]
               },
               "verification_method": "instant"
             }

@@ -6,10 +6,14 @@
       "name": "PostPaymentIntentsIntentVerifyMicrodeposits",
       "arguments": {
         "body": {
-          "amounts": [1295240724],
+          "amounts": [
+            1295240724
+          ],
           "client_secret": "Eo22g8EUux",
           "descriptor_code": "MYzifq6sZr",
-          "expand": ["VahEN1DFP2"]
+          "expand": [
+            "VahEN1DFP2"
+          ]
         },
         "intent": "aQWTgVpIKs"
       },

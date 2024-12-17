@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "checkout_session": null,
         "coupon": {
@@ -32,7 +31,8 @@
         "promotion_code": null,
         "start": 1234567890,
         "subscription": null
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

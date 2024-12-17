@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostTestHelpersTreasuryOutboundPaymentsIdPost",
       "arguments": {
-        "expand": ["destination_payment_method_details"],
+        "expand": [
+          "destination_payment_method_details"
+        ],
         "id": "G0UYCFP6xt"
       },
       "fields": {

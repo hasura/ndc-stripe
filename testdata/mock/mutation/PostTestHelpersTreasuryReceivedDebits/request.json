@@ -9,7 +9,9 @@
           "amount": 1758802940,
           "currency": "e6rG4TaASK",
           "description": "eN7kMAj8ki",
-          "expand": ["7HFOFUzX3G"],
+          "expand": [
+            "7HFOFUzX3G"
+          ],
           "financial_account": "4Lg9AhWEGv",
           "initiating_payment_method_details": {
             "type": "us_bank_account",

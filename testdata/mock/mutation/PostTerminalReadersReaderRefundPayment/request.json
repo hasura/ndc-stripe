@@ -7,7 +7,9 @@
       "arguments": {
         "amount": 1242525325,
         "charge": "noACSP5Fjq",
-        "expand": ["8eyhle31LU"],
+        "expand": [
+          "8eyhle31LU"
+        ],
         "metadata": null,
         "payment_intent": "Dvr5lIauYt",
         "reader": "E2ndqtGPJR",

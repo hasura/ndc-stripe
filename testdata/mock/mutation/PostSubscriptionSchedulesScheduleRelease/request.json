@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostSubscriptionSchedulesScheduleRelease",
       "arguments": {
-        "expand": ["SeR5tcOLS4"],
+        "expand": [
+          "SeR5tcOLS4"
+        ],
         "preserve_cancel_date": true,
         "schedule": "nCKyzIpusK"
       },

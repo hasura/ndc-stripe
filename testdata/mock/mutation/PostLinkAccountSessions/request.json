@@ -11,12 +11,20 @@
             "customer": "WezWUpOEBY",
             "type": "account"
           },
-          "expand": ["Wthym7p658"],
+          "expand": [
+            "Wthym7p658"
+          ],
           "filters": {
-            "countries": ["03PLExz3Mn"]
+            "countries": [
+              "03PLExz3Mn"
+            ]
           },
-          "permissions": ["transactions"],
-          "prefetch": ["transactions"],
+          "permissions": [
+            "transactions"
+          ],
+          "prefetch": [
+            "transactions"
+          ],
           "return_url": "4IzewnkNul"
         }
       },

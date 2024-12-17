@@ -6,18 +6,20 @@
           "amount": 1000,
           "created": 1234567890,
           "currency": "usd",
-          "financial_account": "fa_1OPousJN5vQBdWEx4bT8ilJV",
-          "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgaMklxnLBk6Nv05uSgo_HpwZ6zRfImbuWdDwzGba8s70W9PPhVOTo3JaEXfDcpkaQ-OP_gJZnKjjRutxDLaIQ",
+          "financial_account": "fa_1Pgc7BB7WZ01zgkWxDkCj857",
+          "hosted_regulatory_receipt_url": "https://sangeekp-15t6ai--agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xUGdhZlRCN1daMDF6Z2tXKJnei7UGMgZ3U4M-qIg6Nv3nRffl0eHDb937PJZYd2t6AXma3QzJSqHHIKA17nkwM6oG4egKu2JJvBr9Sm1wmKUWDdLmtA",
           "id": "MaFPAWbRfR",
           "linked_flows": null,
           "livemode": false,
           "metadata": {},
           "network": "ach",
           "object": "treasury.debit_reversal",
-          "received_debit": "rd_1OPouxJN5vQBdWExmkiLsbaL",
+          "received_debit": "rd_1Pgc7BB7WZ01zgkWh1oNnhpq",
           "status": "processing",
-          "status_transitions": { "completed_at": null },
-          "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+          "status_transitions": {
+            "completed_at": null
+          },
+          "transaction": "trxn_1Pgc7BB7WZ01zgkWvyFCYTAP"
         }
       }
     ]

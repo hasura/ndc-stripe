@@ -59,7 +59,10 @@
         },
         "charges_enabled": false,
         "company": null,
-        "controller": { "is_controller": null, "type": "account" },
+        "controller": {
+          "is_controller": null,
+          "type": "account"
+        },
         "country": "US",
         "created": 1234567890,
         "default_currency": "6qXwzH3u0A",
@@ -69,14 +72,14 @@
           "data": [
             {
               "account_holder_name": "Jane Austen",
-              "account_holder_type": "individual",
+              "account_holder_type": "company",
               "account_type": null,
               "bank_name": "STRIPE TEST BANK",
               "country": "US",
               "currency": "usd",
               "customer": null,
-              "fingerprint": "1JWtPxqbdX5Gamtz",
-              "id": "ba_1OPoumJN5vQBdWExwmpTeNeE",
+              "fingerprint": "AuoSJ18zsVWV9SPc",
+              "id": "ba_1PgagAB7WZ01zgkWr3DySp2Q",
               "last4": "6789",
               "metadata": {},
               "object": "bank_account",
@@ -138,15 +141,28 @@
             "primary_color": null,
             "secondary_color": null
           },
-          "card_issuing": { "tos_acceptance": { "date": null, "ip": null } },
+          "card_issuing": {
+            "tos_acceptance": {
+              "date": null,
+              "ip": null
+            }
+          },
           "card_payments": {
-            "decline_on": { "avs_failure": true, "cvc_failure": true },
+            "decline_on": {
+              "avs_failure": true,
+              "cvc_failure": true
+            },
             "statement_descriptor_prefix": null,
             "statement_descriptor_prefix_kana": null,
             "statement_descriptor_prefix_kanji": null
           },
-          "dashboard": { "display_name": null, "timezone": "Etc/UTC" },
-          "invoices": { "default_account_tax_ids": null },
+          "dashboard": {
+            "display_name": null,
+            "timezone": "Etc/UTC"
+          },
+          "invoices": {
+            "default_account_tax_ids": null
+          },
           "payments": {
             "statement_descriptor": null,
             "statement_descriptor_kana": null,
@@ -156,7 +172,10 @@
           },
           "payouts": {
             "debit_negative_balances": true,
-            "schedule": { "delay_days": 2, "interval": "daily" },
+            "schedule": {
+              "delay_days": 2,
+              "interval": "daily"
+            },
             "statement_descriptor": null
           },
           "sepa_debit_payments": {}

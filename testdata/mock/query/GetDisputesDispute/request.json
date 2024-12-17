@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     }
   },
   "collection": "GetDisputesDispute",
@@ -299,7 +301,6 @@
               "column": "payment_intent",
               "type": "column"
             },
-
             "payment_method_details": {
               "column": "payment_method_details",
               "fields": {

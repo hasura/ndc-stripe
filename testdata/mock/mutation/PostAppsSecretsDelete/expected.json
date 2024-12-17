@@ -9,7 +9,10 @@
         "name": "j7jFznS29k",
         "object": "apps.secret",
         "payload": null,
-        "scope": { "type": "user", "user": null }
+        "scope": {
+          "type": "user",
+          "user": null
+        }
       },
       "type": "procedure"
     }

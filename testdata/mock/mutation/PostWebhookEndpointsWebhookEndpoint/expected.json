@@ -6,7 +6,9 @@
         "application": null,
         "created": 1234567890,
         "description": "dsmqAls04n",
-        "enabled_events": ["invoice.payment_failed"],
+        "enabled_events": [
+          "invoice.payment_failed"
+        ],
         "livemode": false,
         "metadata": {},
         "object": "webhook_endpoint",

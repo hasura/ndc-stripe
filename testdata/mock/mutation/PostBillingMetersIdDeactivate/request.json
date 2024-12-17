@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostBillingMetersIdDeactivate",
       "arguments": {
-        "expand": ["TsKrrFGXKB"],
+        "expand": [
+          "TsKrrFGXKB"
+        ],
         "id": "AWLSjoDrOQ"
       },
       "fields": {

@@ -1,0 +1,18 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "created": 1028554472,
+          "id": "VMMF7WWUVo",
+          "livemode": true,
+          "metadata": null,
+          "nickname": null,
+          "object": "invoice_rendering_template",
+          "status": "active",
+          "version": 351608024
+        }
+      }
+    ]
+  }
+]

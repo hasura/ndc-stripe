@@ -14,11 +14,15 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["RwHdk6xiaW"]
+      "value": [
+        "RwHdk6xiaW"
+      ]
     },
     "ids": {
       "type": "literal",
-      "value": ["tTWOCprN3g"]
+      "value": [
+        "tTWOCprN3g"
+      ]
     },
     "limit": {
       "type": "literal",

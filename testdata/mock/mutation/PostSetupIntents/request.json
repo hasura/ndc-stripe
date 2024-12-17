@@ -15,8 +15,12 @@
           "confirmation_token": "r229WKZmn0",
           "customer": "9qZNnnLLsn",
           "description": "zNRj0yE2SQ",
-          "expand": ["a953aTpISN"],
-          "flow_directions": ["outbound"],
+          "expand": [
+            "a953aTpISN"
+          ],
+          "flow_directions": [
+            "outbound"
+          ],
           "mandate_data": {
             "customer_acceptance": {
               "accepted_at": 1483106143,
@@ -129,7 +133,9 @@
               "currency": "cad",
               "mandate_options": {
                 "custom_mandate_url": "oSRi6stYvv",
-                "default_for": ["invoice"],
+                "default_for": [
+                  "invoice"
+                ],
                 "interval_description": "mUTWgscX0m",
                 "payment_schedule": "combined",
                 "transaction_type": "business"
@@ -148,7 +154,9 @@
                 "interval_count": 872476161,
                 "reference": "dDYIitB7P6",
                 "start_date": 1671770264,
-                "supported_types": ["india"]
+                "supported_types": [
+                  "india"
+                ]
               },
               "network": "discover",
               "request_three_d_secure": "challenge",
@@ -178,20 +186,28 @@
             },
             "us_bank_account": {
               "financial_connections": {
-                "permissions": ["balances"],
-                "prefetch": ["transactions"],
+                "permissions": [
+                  "balances"
+                ],
+                "prefetch": [
+                  "transactions"
+                ],
                 "return_url": "xbjDBHPY6F"
               },
               "mandate_options": {
                 "collection_method": ""
               },
               "networks": {
-                "requested": ["us_domestic_wire"]
+                "requested": [
+                  "us_domestic_wire"
+                ]
               },
               "verification_method": "microdeposits"
             }
           },
-          "payment_method_types": ["7AlKgBF7gI"],
+          "payment_method_types": [
+            "7AlKgBF7gI"
+          ],
           "return_url": "k8crKQiTxW",
           "single_use": {
             "amount": 1450788920,

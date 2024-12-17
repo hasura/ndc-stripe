@@ -7,8 +7,12 @@
       "arguments": {
         "account": "QyEFwDRUjI",
         "body": {
-          "expand": ["9q3JMiivxI"],
-          "features": ["balance"]
+          "expand": [
+            "9q3JMiivxI"
+          ],
+          "features": [
+            "balance"
+          ]
         }
       },
       "fields": {

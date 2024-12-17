@@ -10,7 +10,9 @@
             "tax_behavior": "inferred_by_currency",
             "tax_code": "fdCqWwp3oD"
           },
-          "expand": ["bOhSVPb2Yx"],
+          "expand": [
+            "bOhSVPb2Yx"
+          ],
           "head_office": {
             "address": {
               "city": "0bzb5hQJkF",

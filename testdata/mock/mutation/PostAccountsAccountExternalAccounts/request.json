@@ -8,7 +8,9 @@
         "account": "ZJfU1bLAxr",
         "bank_account": null,
         "default_for_currency": true,
-        "expand": ["EuLcn4kkTQ"],
+        "expand": [
+          "EuLcn4kkTQ"
+        ],
         "external_account": "nWVobrbknQ",
         "metadata": null
       },

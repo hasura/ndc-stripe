@@ -20,12 +20,12 @@
                   },
                   "gb_bank_transfer": null,
                   "jp_bank_transfer": null,
-                  "reference": "Payment for Invoice 629C465-155",
+                  "reference": "Payment for Invoice 7FE1103-155",
                   "type": "eu_bank_transfer",
                   "us_bank_transfer": null
                 }
               },
-              "id": "ccsbtxn_1OPoulJN5vQBdWExFSnWlKPa",
+              "id": "ccsbtxn_1Pgc75B7WZ01zgkWzdJj4ufI",
               "livemode": false,
               "net_amount": 5000,
               "object": "customer_cash_balance_transaction",

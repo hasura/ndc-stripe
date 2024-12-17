@@ -6,7 +6,9 @@
       "name": "PostCustomersCustomerTaxIds",
       "arguments": {
         "body": {
-          "expand": ["owner"],
+          "expand": [
+            "owner"
+          ],
           "type": "ru_inn",
           "value": "t5ku1tgAIe"
         },

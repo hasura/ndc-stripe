@@ -7,8 +7,12 @@
       "arguments": {
         "account": "5oFJzWnpGK",
         "body": {
-          "expand": ["AvdbMGXs1C"],
-          "features": ["transactions"]
+          "expand": [
+            "AvdbMGXs1C"
+          ],
+          "features": [
+            "transactions"
+          ]
         }
       },
       "fields": {

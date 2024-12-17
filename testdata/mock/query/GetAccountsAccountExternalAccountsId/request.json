@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["KekuiRE0ry"]
+      "value": [
+        "KekuiRE0ry"
+      ]
     },
     "id": {
       "type": "literal",

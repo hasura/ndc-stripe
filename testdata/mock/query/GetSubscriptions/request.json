@@ -32,7 +32,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["9LL2m2Cesa"]
+      "value": [
+        "9LL2m2Cesa"
+      ]
     },
     "limit": {
       "type": "literal",

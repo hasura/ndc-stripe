@@ -6,7 +6,9 @@
       "name": "PostCreditNotesId",
       "arguments": {
         "body": {
-          "expand": ["fskxWxlFLX"],
+          "expand": [
+            "fskxWxlFLX"
+          ],
           "memo": "pi8bSzwAUF",
           "metadata": null
         },

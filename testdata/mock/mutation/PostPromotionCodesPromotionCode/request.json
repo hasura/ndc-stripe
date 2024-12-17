@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "active": false,
-          "expand": ["KNopOSDHSm"],
+          "expand": [
+            "KNopOSDHSm"
+          ],
           "metadata": null,
           "restrictions": {
             "currency_options": null

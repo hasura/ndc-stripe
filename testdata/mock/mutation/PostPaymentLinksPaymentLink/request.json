@@ -67,12 +67,16 @@
             }
           },
           "customer_creation": "if_required",
-          "expand": ["eLp9Cn8DWM"],
+          "expand": [
+            "eLp9Cn8DWM"
+          ],
           "inactive_message": "d6iRQIxyGd",
           "invoice_creation": {
             "enabled": false,
             "invoice_data": {
-              "account_tax_ids": ["s24bh5vpKf"],
+              "account_tax_ids": [
+                "s24bh5vpKf"
+              ],
               "custom_fields": [
                 {
                   "name": "Rl9Aj7If27",
@@ -111,14 +115,18 @@
             "transfer_group": "et1ACaAt3w"
           },
           "payment_method_collection": "if_required",
-          "payment_method_types": ["cashapp"],
+          "payment_method_types": [
+            "cashapp"
+          ],
           "restrictions": {
             "completed_sessions": {
               "limit": 1768599170
             }
           },
           "shipping_address_collection": {
-            "allowed_countries": ["NP"]
+            "allowed_countries": [
+              "NP"
+            ]
           },
           "subscription_data": {
             "invoice_settings": {

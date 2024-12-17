@@ -6,7 +6,9 @@
       "name": "PostIssuingTokensToken",
       "arguments": {
         "body": {
-          "expand": ["network_data"],
+          "expand": [
+            "network_data"
+          ],
           "status": "active"
         },
         "token": "40dh5vB1b3"

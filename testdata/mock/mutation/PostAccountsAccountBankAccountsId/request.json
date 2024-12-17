@@ -18,12 +18,16 @@
         "default_for_currency": false,
         "documents": {
           "bank_account_ownership_verification": {
-            "files": [""]
+            "files": [
+              ""
+            ]
           }
         },
         "exp_month": "txIsXbYI8s",
         "exp_year": "bV29jjUDC4",
-        "expand": ["raJPxARJt9"],
+        "expand": [
+          "raJPxARJt9"
+        ],
         "id": "9JInLnM2Rk",
         "metadata": null,
         "name": "7hPQfyrEtP"

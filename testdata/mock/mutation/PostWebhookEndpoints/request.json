@@ -9,7 +9,9 @@
           "api_version": "2013-07-05",
           "connect": false,
           "description": "eJf44KL9bn",
-          "enabled_events": ["customer.subscription.pending_update_applied"],
+          "enabled_events": [
+            "customer.subscription.pending_update_applied"
+          ],
           "expand": [],
           "metadata": null,
           "url": "boHC3w8ZUr"

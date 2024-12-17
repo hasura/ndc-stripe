@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["VDxxKskBp3"]
+      "value": [
+        "VDxxKskBp3"
+      ]
     },
     "limit": {
       "type": "literal",

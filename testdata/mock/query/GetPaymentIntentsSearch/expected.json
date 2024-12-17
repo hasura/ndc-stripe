@@ -19,13 +19,13 @@
               "canceled_at": 1234567890,
               "cancellation_reason": null,
               "capture_method": "automatic",
-              "client_secret": "pi_1OPougJN5vQBdWEx8s2Dj0YR_secret_XeXo8Ee1ITOJzjVWEtPoWG5ha",
+              "client_secret": "pi_1PgafyB7WZ01zgkWSjxsAJo3_secret_Dm43xiq1k0ywrRRjDoi8y1gkM",
               "confirmation_method": "automatic",
               "created": 1234567890,
               "currency": "usd",
               "customer": null,
               "description": null,
-              "id": "pi_1OPougJN5vQBdWEx8s2Dj0YR",
+              "id": "pi_1PgafyB7WZ01zgkWSjxsAJo3",
               "invoice": null,
               "last_payment_error": null,
               "latest_charge": null,
@@ -75,7 +75,9 @@
                 "wechat_pay": null,
                 "zip": null
               },
-              "payment_method_types": ["card"],
+              "payment_method_types": [
+                "card"
+              ],
               "processing": null,
               "receipt_email": null,
               "review": null,

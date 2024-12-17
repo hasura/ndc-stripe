@@ -1,0 +1,15 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "feature": "feat_test_61QGU1MWyFMSP9YBZ41ClCIKljWvsTgu",
+          "id": "gAiAyENX9p",
+          "livemode": false,
+          "lookup_key": "something",
+          "object": "entitlements.active_entitlement"
+        }
+      }
+    ]
+  }
+]

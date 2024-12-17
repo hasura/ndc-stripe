@@ -26,31 +26,14 @@
                 {
                   "city": "San Francisco",
                   "country": "US",
-                  "latitude": 37.7749,
-                  "longitude": -122.4194,
+                  "latitude": 37.7480408,
+                  "longitude": -122.4057404,
                   "region": "CA"
                 }
               ],
               "name": "Charm Industrial",
               "object": "climate.supplier",
               "removal_pathway": "biomass_carbon_removal_and_storage"
-            },
-            {
-              "id": "climsup_carbon_capture_inc",
-              "info_url": "https://frontierclimate.com/portfolio/carboncapture-inc",
-              "livemode": false,
-              "locations": [
-                {
-                  "city": "Los Angeles",
-                  "country": "US",
-                  "latitude": 34.0549,
-                  "longitude": -118.2426,
-                  "region": "CA"
-                }
-              ],
-              "name": "CarbonCapture Inc.",
-              "object": "climate.supplier",
-              "removal_pathway": "direct_air_capture"
             },
             {
               "id": "climsup_heirloom",
@@ -60,8 +43,8 @@
                 {
                   "city": "Brisbane",
                   "country": "US",
-                  "latitude": 37.6808,
-                  "longitude": -122.4,
+                  "latitude": 37.686,
+                  "longitude": -122.403,
                   "region": "CA"
                 }
               ],
@@ -85,6 +68,40 @@
               "name": "Lithos",
               "object": "climate.supplier",
               "removal_pathway": "enhanced_weathering"
+            },
+            {
+              "id": "climsup_vaulted",
+              "info_url": "https://frontierclimate.com/portfolio/vaulted",
+              "livemode": false,
+              "locations": [
+                {
+                  "city": "Houston",
+                  "country": "US",
+                  "latitude": 29.7604,
+                  "longitude": -95.3698,
+                  "region": "TX"
+                }
+              ],
+              "name": "Vaulted Deep",
+              "object": "climate.supplier",
+              "removal_pathway": "biomass_carbon_removal_and_storage"
+            },
+            {
+              "id": "climsup_carbon_capture_inc",
+              "info_url": "https://frontierclimate.com/portfolio/carboncapture-inc",
+              "livemode": false,
+              "locations": [
+                {
+                  "city": "Los Angeles",
+                  "country": "US",
+                  "latitude": 34.0399975,
+                  "longitude": -118.2342512,
+                  "region": "CA"
+                }
+              ],
+              "name": "CarbonCapture Inc.",
+              "object": "climate.supplier",
+              "removal_pathway": "direct_air_capture"
             }
           ]
         }

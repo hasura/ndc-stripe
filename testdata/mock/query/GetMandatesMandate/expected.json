@@ -6,7 +6,10 @@
           "customer_acceptance": {
             "accepted_at": 123456789,
             "offline": null,
-            "online": { "ip_address": "127.0.0.0", "user_agent": "device" },
+            "online": {
+              "ip_address": "127.0.0.0",
+              "user_agent": "device"
+            },
             "type": "online"
           },
           "id": "LgZBqc0rl1",
@@ -23,7 +26,10 @@
             "cashapp": null,
             "link": null,
             "paypal": null,
-            "sepa_debit": { "reference": "123456789", "url": "" },
+            "sepa_debit": {
+              "reference": "123456789",
+              "url": ""
+            },
             "type": "sepa_debit",
             "us_bank_account": null
           },

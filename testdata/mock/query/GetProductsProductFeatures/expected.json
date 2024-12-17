@@ -6,18 +6,16 @@
           "data": [
             {
               "entitlement_feature": {
-                "active": true,
-                "id": "obj_123",
-                "livemode": true,
-                "lookup_key": "lookup_key",
-                "metadata": {
-                  "undefined": "metadata"
-                },
-                "name": "name",
+                "active": false,
+                "id": "",
+                "livemode": false,
+                "lookup_key": "",
+                "metadata": {},
+                "name": "",
                 "object": "entitlements.feature"
               },
-              "id": "obj_123",
-              "livemode": true,
+              "id": "",
+              "livemode": false,
               "object": "product_feature"
             }
           ],

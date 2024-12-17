@@ -50,7 +50,7 @@
               "metadata": {},
               "mode": "payment",
               "object": "checkout.session",
-              "payment_intent": "pi_1OPougJN5vQBdWEx8s2Dj0YR",
+              "payment_intent": "pi_1PgafyB7WZ01zgkWSjxsAJo3",
               "payment_link": null,
               "payment_method_collection": null,
               "payment_method_configuration_details": null,
@@ -87,9 +87,13 @@
                 "swish": null,
                 "us_bank_account": null
               },
-              "payment_method_types": ["card"],
+              "payment_method_types": [
+                "card"
+              ],
               "payment_status": "unpaid",
-              "phone_number_collection": { "enabled": false },
+              "phone_number_collection": {
+                "enabled": false
+              },
               "recovered_from": null,
               "redirect_on_completion": null,
               "return_url": null,

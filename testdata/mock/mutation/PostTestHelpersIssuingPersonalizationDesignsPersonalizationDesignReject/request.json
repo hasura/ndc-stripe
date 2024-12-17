@@ -6,10 +6,16 @@
       "name": "PostTestHelpersIssuingPersonalizationDesignsPersonalizationDesignReject",
       "arguments": {
         "body": {
-          "expand": ["carrier_text"],
+          "expand": [
+            "carrier_text"
+          ],
           "rejection_reasons": {
-            "card_logo": ["geographic_location"],
-            "carrier_text": ["other_entity"]
+            "card_logo": [
+              "geographic_location"
+            ],
+            "carrier_text": [
+              "other_entity"
+            ]
           }
         },
         "personalization_design": "rFjHEiEzBI"

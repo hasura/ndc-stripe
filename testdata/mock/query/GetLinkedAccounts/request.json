@@ -13,7 +13,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["ARfBggvny4"]
+      "value": [
+        "ARfBggvny4"
+      ]
     },
     "limit": {
       "type": "literal",

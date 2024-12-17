@@ -6,7 +6,9 @@
       "name": "PostAppsSecretsDelete",
       "arguments": {
         "body": {
-          "expand": ["VtPwkxfyae"],
+          "expand": [
+            "VtPwkxfyae"
+          ],
           "name": "j7jFznS29k",
           "scope": {
             "type": "user",

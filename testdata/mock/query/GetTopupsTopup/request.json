@@ -504,7 +504,6 @@
                     },
                     "type": "column"
                   },
-
                   "ideal": {
                     "column": "ideal",
                     "fields": {

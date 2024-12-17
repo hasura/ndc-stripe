@@ -269,7 +269,9 @@
               "type": "standard"
             }
           },
-          "expand": ["country_options"],
+          "expand": [
+            "country_options"
+          ],
           "expires_at": 2042971317
         }
       },

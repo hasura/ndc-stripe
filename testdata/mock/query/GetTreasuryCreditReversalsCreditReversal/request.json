@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["status_transitions"]
+      "value": [
+        "status_transitions"
+      ]
     }
   },
   "collection": "GetTreasuryCreditReversalsCreditReversal",

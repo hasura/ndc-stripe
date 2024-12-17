@@ -18,7 +18,9 @@
               "promotion_code": "9yrQPB40Nb"
             }
           ],
-          "expand": ["gnAiLDlGlW"],
+          "expand": [
+            "gnAiLDlGlW"
+          ],
           "invoice": "1kkj1rI5Xi",
           "metadata": null,
           "period": {
@@ -37,7 +39,9 @@
           "subscription": "hBZX75PPcL",
           "tax_behavior": "unspecified",
           "tax_code": "qCEPHgR8BA",
-          "tax_rates": ["fEXDguoL0E"],
+          "tax_rates": [
+            "fEXDguoL0E"
+          ],
           "unit_amount": 639473157,
           "unit_amount_decimal": "zQcF0v2y8x"
         }

@@ -7,21 +7,33 @@
       "arguments": {
         "body": {
           "cancellation_reason": "lost",
-          "expand": ["ElSzBwuBuS"],
+          "expand": [
+            "ElSzBwuBuS"
+          ],
           "metadata": null,
           "personalization_design": "kgaMYwx4YR",
           "pin": {
             "encrypted_number": "YIhrBKSPcX"
           },
           "spending_controls": {
-            "allowed_categories": ["motorcycle_shops_and_dealers"],
-            "allowed_merchant_countries": ["nQwdnKtReE"],
-            "blocked_categories": ["automated_fuel_dispensers"],
-            "blocked_merchant_countries": ["Hq4I3TkQ6e"],
+            "allowed_categories": [
+              "motorcycle_shops_and_dealers"
+            ],
+            "allowed_merchant_countries": [
+              "nQwdnKtReE"
+            ],
+            "blocked_categories": [
+              "automated_fuel_dispensers"
+            ],
+            "blocked_merchant_countries": [
+              "Hq4I3TkQ6e"
+            ],
             "spending_limits": [
               {
                 "amount": 1302831687,
-                "categories": ["hobby_toy_and_game_shops"],
+                "categories": [
+                  "hobby_toy_and_game_shops"
+                ],
                 "interval": "yearly"
               }
             ]

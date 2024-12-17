@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["SppB20BrNc"]
+      "value": [
+        "SppB20BrNc"
+      ]
     },
     "id": {
       "type": "literal",

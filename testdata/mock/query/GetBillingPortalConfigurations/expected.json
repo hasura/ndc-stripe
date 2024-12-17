@@ -16,7 +16,10 @@
               "default_return_url": null,
               "features": {
                 "customer_update": {
-                  "allowed_updates": ["email", "tax_id"],
+                  "allowed_updates": [
+                    "email",
+                    "tax_id"
+                  ],
                   "enabled": true
                 },
                 "invoice_history": {
@@ -41,7 +44,7 @@
                   "proration_behavior": "none"
                 }
               },
-              "id": "bpc_1OPouvJN5vQBdWEx6dSG6gsf",
+              "id": "bpc_1Pgc70B7WZ01zgkWSnFO04Vt",
               "is_default": true,
               "livemode": true,
               "login_page": {

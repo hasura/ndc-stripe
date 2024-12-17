@@ -1,7 +1,11 @@
 {
   "operation_results": [
     {
-      "result": { "deleted": true, "id": "nSfm5L2Tyf", "object": "tax_id" },
+      "result": {
+        "deleted": true,
+        "id": "nSfm5L2Tyf",
+        "object": "tax_id"
+      },
       "type": "procedure"
     }
   ]

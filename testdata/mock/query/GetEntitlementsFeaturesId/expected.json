@@ -1,0 +1,17 @@
+[
+  {
+    "rows": [
+      {
+        "__value": {
+          "active": true,
+          "id": "5GkHup1D2r",
+          "livemode": false,
+          "lookup_key": "something",
+          "metadata": {},
+          "name": "My super awesome feature",
+          "object": "entitlements.feature"
+        }
+      }
+    ]
+  }
+]

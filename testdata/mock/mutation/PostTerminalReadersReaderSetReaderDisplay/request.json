@@ -18,7 +18,9 @@
             "tax": 1634676426,
             "total": 1892910897
           },
-          "expand": ["jaQa5Za9eA"],
+          "expand": [
+            "jaQa5Za9eA"
+          ],
           "type": "cart"
         },
         "reader": "cOLxXITpZV"

@@ -5,7 +5,9 @@
       "type": "procedure",
       "name": "PostReviewsReviewApprove",
       "arguments": {
-        "expand": ["OF0ybR4zRj"],
+        "expand": [
+          "OF0ybR4zRj"
+        ],
         "review": "Eho9O8x55m"
       },
       "fields": {

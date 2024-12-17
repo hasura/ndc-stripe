@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "business_profile": {
           "annual_revenue": null,
@@ -33,14 +32,14 @@
           "data": [
             {
               "account_holder_name": "Jane Austen",
-              "account_holder_type": "individual",
+              "account_holder_type": "company",
               "account_type": null,
               "bank_name": "STRIPE TEST BANK",
               "country": "US",
               "currency": "usd",
               "customer": null,
-              "fingerprint": "1JWtPxqbdX5Gamtz",
-              "id": "ba_1OPoumJN5vQBdWExwmpTeNeE",
+              "fingerprint": "AuoSJ18zsVWV9SPc",
+              "id": "ba_1PgagAB7WZ01zgkWr3DySp2Q",
               "last4": "6789",
               "metadata": {},
               "object": "bank_account",
@@ -146,7 +145,8 @@
           "user_agent": null
         },
         "type": "standard"
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

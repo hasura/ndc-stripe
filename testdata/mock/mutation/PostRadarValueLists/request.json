@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "alias": "yRgMgJ50fm",
-          "expand": ["jaVyyd7ouv"],
+          "expand": [
+            "jaVyyd7ouv"
+          ],
           "item_type": "ip_address",
           "metadata": null,
           "name": "Z7oQWuzLOJ"

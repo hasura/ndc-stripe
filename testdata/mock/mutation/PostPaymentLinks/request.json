@@ -81,7 +81,9 @@
           "invoice_creation": {
             "enabled": false,
             "invoice_data": {
-              "account_tax_ids": ["gdsaT5RknW"],
+              "account_tax_ids": [
+                "gdsaT5RknW"
+              ],
               "custom_fields": [
                 {
                   "name": "dhgEnyQN2g",
@@ -123,7 +125,9 @@
             "transfer_group": "lpZc4EvXVt"
           },
           "payment_method_collection": "if_required",
-          "payment_method_types": ["oxxo"],
+          "payment_method_types": [
+            "oxxo"
+          ],
           "phone_number_collection": {
             "enabled": true
           },
@@ -133,7 +137,9 @@
             }
           },
           "shipping_address_collection": {
-            "allowed_countries": ["JO"]
+            "allowed_countries": [
+              "JO"
+            ]
           },
           "shipping_options": [
             {

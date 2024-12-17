@@ -9,8 +9,12 @@
           "active": false,
           "default_price": "IbjBsDZHjj",
           "description": "zc6SyZYWid",
-          "expand": ["85FT1dRyyg"],
-          "images": ["afL5wjKrQi"],
+          "expand": [
+            "85FT1dRyyg"
+          ],
+          "images": [
+            "afL5wjKrQi"
+          ],
           "marketing_features": [
             {
               "name": "nHvvhjGnlb"

@@ -8,7 +8,7 @@
         "description": "ma3mbfFk1b",
         "failure_code": null,
         "financial_account": "bkirBYEHnh",
-        "hosted_regulatory_receipt_url": "https://pakrym-agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xT1BvdU1KTjV2UUJkV0V4KM_JkawGMgbR9qpUOwI6Nv1M_-1yzVcQyDBD5fWzBOC5c8-OKRj3GCgQrKwMoQk7B_x6BQ8WbJAzeH1-MYa33PH-tXw38g",
+        "hosted_regulatory_receipt_url": "https://sangeekp-15t6ai--agrippa-mydev.dev.stripe.me/regulatory-receipt/CBQaFwoVYWNjdF8xUGdhZlRCN1daMDF6Z2tXKJ_ei7UGMgb_mDijM3s6Nv0vHJ2VidYTyMDTmingbhaK5i-GqSNEOdMrWczfnZxlxg6ji5RDUKaCLqNe34tGLL_ncyo92g",
         "initiating_payment_method_details": {
           "balance": null,
           "billing_details": {
@@ -44,11 +44,11 @@
         "network": "us_domestic_wire",
         "object": "treasury.received_credit",
         "reversal_details": {
-          "deadline": 1703548800,
+          "deadline": 1722297600,
           "restricted_reason": null
         },
         "status": "succeeded",
-        "transaction": "trxn_1OPousJN5vQBdWExS2LKXVAv"
+        "transaction": "trxn_1Pgc7BB7WZ01zgkWvyFCYTAP"
       },
       "type": "procedure"
     }

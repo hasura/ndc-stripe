@@ -58,7 +58,9 @@
           "eps": {
             "bank": "brull_kallmus_bank_ag"
           },
-          "expand": ["iJxuA6WljZ"],
+          "expand": [
+            "iJxuA6WljZ"
+          ],
           "fpx": {
             "bank": "maybank2u"
           },

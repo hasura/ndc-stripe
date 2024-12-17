@@ -2,7 +2,9 @@
   "operation_results": [
     {
       "result": {
-        "available": { "eur": 10000 },
+        "available": {
+          "eur": 10000
+        },
         "customer": "przxQ4AmtR",
         "livemode": false,
         "object": "cash_balance",

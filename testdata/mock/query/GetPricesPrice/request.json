@@ -2,7 +2,9 @@
   "arguments": {
     "expand": {
       "type": "literal",
-      "value": ["WlDgv1Kc1d"]
+      "value": [
+        "WlDgv1Kc1d"
+      ]
     },
     "price": {
       "type": "literal",

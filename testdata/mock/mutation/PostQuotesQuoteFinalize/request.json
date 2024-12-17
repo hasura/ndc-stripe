@@ -6,7 +6,9 @@
       "name": "PostQuotesQuoteFinalize",
       "arguments": {
         "body": {
-          "expand": ["QLtdTQMgmF"],
+          "expand": [
+            "QLtdTQMgmF"
+          ],
           "expires_at": 795856448
         },
         "quote": "mtuAtcu4UQ"

@@ -13,10 +13,14 @@
             "terms_of_service_url": "KVxSOJddnm"
           },
           "default_return_url": "ecBN33F9VY",
-          "expand": ["7vCKfdtYjd"],
+          "expand": [
+            "7vCKfdtYjd"
+          ],
           "features": {
             "customer_update": {
-              "allowed_updates": ["name"],
+              "allowed_updates": [
+                "name"
+              ],
               "enabled": true
             },
             "invoice_history": {
@@ -28,18 +32,24 @@
             "subscription_cancel": {
               "cancellation_reason": {
                 "enabled": false,
-                "options": ["customer_service"]
+                "options": [
+                  "customer_service"
+                ]
               },
               "enabled": true,
               "mode": "at_period_end",
               "proration_behavior": "always_invoice"
             },
             "subscription_update": {
-              "default_allowed_updates": ["promotion_code"],
+              "default_allowed_updates": [
+                "promotion_code"
+              ],
               "enabled": false,
               "products": [
                 {
-                  "prices": ["ibHo0LOPff"],
+                  "prices": [
+                    "ibHo0LOPff"
+                  ],
                   "product": "ODoZCmTlIP"
                 }
               ],

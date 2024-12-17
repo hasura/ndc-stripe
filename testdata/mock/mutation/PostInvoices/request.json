@@ -4,7 +4,6 @@
     {
       "type": "procedure",
       "name": "PostInvoices",
-
       "arguments": {
         "body": {
           "account_tax_ids": ["xhkTtJoRHl"],
@@ -592,18 +591,6 @@
                 },
                 "end": {
                   "column": "end",
-                  "type": "column"
-                },
-                "id": {
-                  "column": "id",
-                  "type": "column"
-                },
-                "invoice": {
-                  "column": "invoice",
-                  "type": "column"
-                },
-                "invoice_item": {
-                  "column": "invoice_item",
                   "type": "column"
                 },
                 "object": {
@@ -28366,18 +28353,6 @@
                         },
                         "discounts": {
                           "column": "discounts",
-                          "type": "column"
-                        },
-                        "id": {
-                          "column": "id",
-                          "type": "column"
-                        },
-                        "invoice": {
-                          "column": "invoice",
-                          "type": "column"
-                        },
-                        "invoice_item": {
-                          "column": "invoice_item",
                           "type": "column"
                         },
                         "livemode": {

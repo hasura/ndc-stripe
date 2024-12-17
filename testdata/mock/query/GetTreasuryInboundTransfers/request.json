@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["PA8Cj0aNzn"]
+      "value": [
+        "PA8Cj0aNzn"
+      ]
     },
     "financial_account": {
       "type": "literal",

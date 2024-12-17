@@ -5,7 +5,7 @@
         "__value": {
           "account_holder": {
             "account": null,
-            "customer": "cus_PEHTIoPSgT0tXQ",
+            "customer": "cus_QXg1o8vcGmoR32",
             "type": "customer"
           },
           "accounts": {
@@ -13,7 +13,7 @@
               {
                 "account_holder": {
                   "account": null,
-                  "customer": "cus_PEHTIoPSgT0tXQ",
+                  "customer": "cus_QXg1o8vcGmoR32",
                   "type": "customer"
                 },
                 "balance": null,
@@ -31,7 +31,9 @@
                 "status": "active",
                 "subcategory": "checking",
                 "subscriptions": [],
-                "supported_payment_method_types": ["us_bank_account"],
+                "supported_payment_method_types": [
+                  "us_bank_account"
+                ],
                 "transaction_refresh": null
               }
             ],
@@ -42,7 +44,10 @@
           "filters": null,
           "livemode": false,
           "object": "financial_connections.session",
-          "permissions": ["balances", "payment_method"],
+          "permissions": [
+            "balances",
+            "payment_method"
+          ],
           "prefetch": [],
           "return_url": null
         }

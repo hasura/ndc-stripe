@@ -4,10 +4,11 @@
     {
       "type": "procedure",
       "name": "PostInvoicesInvoice",
-
       "arguments": {
         "body": {
-          "account_tax_ids": ["KD8J0T4GKL"],
+          "account_tax_ids": [
+            "KD8J0T4GKL"
+          ],
           "application_fee_amount": 2049281266,
           "auto_advance": false,
           "automatic_tax": {
@@ -27,7 +28,9 @@
           "days_until_due": 1679467941,
           "default_payment_method": "5tNdpzrl36",
           "default_source": "RmPrx9wKv3",
-          "default_tax_rates": ["gFSRuujq8Y"],
+          "default_tax_rates": [
+            "gFSRuujq8Y"
+          ],
           "description": "QBcDHcy6Qa",
           "discounts": [
             {
@@ -38,7 +41,9 @@
           ],
           "due_date": 1820050018,
           "effective_at": 1493038588,
-          "expand": ["74Nudrnw6N"],
+          "expand": [
+            "74Nudrnw6N"
+          ],
           "footer": "TdjjRI5AvA",
           "issuer": {
             "account": "VOQuDEVXqo",
@@ -83,13 +88,19 @@
               "sepa_debit": null,
               "us_bank_account": {
                 "financial_connections": {
-                  "permissions": ["payment_method"],
-                  "prefetch": ["ownership"]
+                  "permissions": [
+                    "payment_method"
+                  ],
+                  "prefetch": [
+                    "ownership"
+                  ]
                 },
                 "verification_method": "automatic"
               }
             },
-            "payment_method_types": ["ach_credit_transfer"]
+            "payment_method_types": [
+              "ach_credit_transfer"
+            ]
           },
           "rendering": {
             "amount_tax_display": "include_inclusive_tax",

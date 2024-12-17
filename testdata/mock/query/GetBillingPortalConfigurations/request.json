@@ -10,7 +10,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["customer"]
+      "value": [
+        "customer"
+      ]
     },
     "is_default": {
       "type": "literal",

@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "amount": 897541151,
-          "expand": ["bvYArIm4X6"],
+          "expand": [
+            "bvYArIm4X6"
+          ],
           "mandate": {
             "acceptance": {
               "date": 1776067039,
