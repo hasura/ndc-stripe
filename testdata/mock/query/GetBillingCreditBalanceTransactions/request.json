@@ -102,10 +102,6 @@
                       },
                       "type": "column"
                     },
-                    "credit_grant": {
-                      "column": "credit_grant",
-                      "type": "column"
-                    },
                     "debit": {
                       "column": "debit",
                       "fields": {
@@ -168,10 +164,6 @@
                     },
                     "effective_at": {
                       "column": "effective_at",
-                      "type": "column"
-                    },
-                    "id": {
-                      "column": "id",
                       "type": "column"
                     },
                     "livemode": {

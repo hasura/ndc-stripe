@@ -10,9 +10,7 @@
     },
     "expand": {
       "type": "literal",
-      "value": [
-        "CHJYcI1Tyh"
-      ]
+      "value": ["CHJYcI1Tyh"]
     },
     "limit": {
       "type": "literal",
@@ -96,20 +94,12 @@
                       "column": "created",
                       "type": "column"
                     },
-                    "customer": {
-                      "column": "customer",
-                      "type": "column"
-                    },
                     "effective_at": {
                       "column": "effective_at",
                       "type": "column"
                     },
                     "expires_at": {
                       "column": "expires_at",
-                      "type": "column"
-                    },
-                    "id": {
-                      "column": "id",
                       "type": "column"
                     },
                     "livemode": {
