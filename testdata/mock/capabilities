@@ -3,9 +3,12 @@
   "capabilities": {
     "query": {
       "variables": {},
+      "explain": {},
       "nested_fields": {},
       "exists": {}
     },
-    "mutation": {}
+    "mutation": {
+      "explain": {}
+    }
   }
 }

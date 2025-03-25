@@ -9,9 +9,7 @@
         "bank_account": null,
         "card": null,
         "customer": "wruAQViNcU",
-        "expand": [
-          "9NY0Aq73K2"
-        ],
+        "expand": ["9NY0Aq73K2"],
         "metadata": null,
         "source": "hgZSgrMHkh"
       },
@@ -2608,10 +2606,6 @@
                         "column": "statement_descriptor_prefix",
                         "type": "column"
                       },
-                      "statement_descriptor_prefix_kana": {
-                        "column": "statement_descriptor_prefix_kana",
-                        "type": "column"
-                      },
                       "statement_descriptor_prefix_kanji": {
                         "column": "statement_descriptor_prefix_kanji",
                         "type": "column"
@@ -2665,10 +2659,6 @@
                       },
                       "statement_descriptor_kanji": {
                         "column": "statement_descriptor_kanji",
-                        "type": "column"
-                      },
-                      "statement_descriptor_prefix_kana": {
-                        "column": "statement_descriptor_prefix_kana",
                         "type": "column"
                       },
                       "statement_descriptor_prefix_kanji": {

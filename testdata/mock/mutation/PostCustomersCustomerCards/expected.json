@@ -228,7 +228,6 @@
               "cvc_failure": true
             },
             "statement_descriptor_prefix": null,
-            "statement_descriptor_prefix_kana": null,
             "statement_descriptor_prefix_kanji": null
           },
           "dashboard": {
@@ -242,7 +241,6 @@
             "statement_descriptor": null,
             "statement_descriptor_kana": null,
             "statement_descriptor_kanji": null,
-            "statement_descriptor_prefix_kana": null,
             "statement_descriptor_prefix_kanji": null
           },
           "payouts": {

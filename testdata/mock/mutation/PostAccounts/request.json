@@ -227,45 +227,29 @@
           "default_currency": "bKg3gqUinR",
           "documents": {
             "bank_account_ownership_verification": {
-              "files": [
-                "uidswWnDYm"
-              ]
+              "files": ["uidswWnDYm"]
             },
             "company_license": {
-              "files": [
-                "iCFy0gxtmv"
-              ]
+              "files": ["iCFy0gxtmv"]
             },
             "company_memorandum_of_association": {
-              "files": [
-                "wnljN7YKOL"
-              ]
+              "files": ["wnljN7YKOL"]
             },
             "company_ministerial_decree": {
-              "files": [
-                "PPfiANNQVE"
-              ]
+              "files": ["PPfiANNQVE"]
             },
             "company_registration_verification": {
-              "files": [
-                "sDfSBTwXEp"
-              ]
+              "files": ["sDfSBTwXEp"]
             },
             "company_tax_id_verification": {
-              "files": [
-                "f1hEAMSFrw"
-              ]
+              "files": ["f1hEAMSFrw"]
             },
             "proof_of_registration": {
-              "files": [
-                "pAs93idlB7"
-              ]
+              "files": ["pAs93idlB7"]
             }
           },
           "email": "v8eqOkUI9x",
-          "expand": [
-            "gtyjHIxoDg"
-          ],
+          "expand": ["gtyjHIxoDg"],
           "external_account": "P6ALUyPrt9",
           "individual": {
             "address": {
@@ -303,9 +287,7 @@
             "first_name": "Mv1un7cK7M",
             "first_name_kana": "8SFSIhoUBY",
             "first_name_kanji": "nHZT64y54u",
-            "full_name_aliases": [
-              "xHGvFLbKmT"
-            ],
+            "full_name_aliases": ["xHGvFLbKmT"],
             "gender": "GgXeYysdq9",
             "id_number": "tvuqqQItbh",
             "id_number_secondary": "i3F9qYjZRq",
@@ -367,7 +349,6 @@
                 "cvc_failure": true
               },
               "statement_descriptor_prefix": "cuXSKT5BFF",
-              "statement_descriptor_prefix_kana": "AaAvfdv1gS",
               "statement_descriptor_prefix_kanji": "IFeHA5DUEn"
             },
             "payments": {

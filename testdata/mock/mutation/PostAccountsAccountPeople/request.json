@@ -47,31 +47,21 @@
           },
           "documents": {
             "company_authorization": {
-              "files": [
-                "uriktjVuYL"
-              ]
+              "files": ["uriktjVuYL"]
             },
             "passport": {
-              "files": [
-                "L33KAkBeiH"
-              ]
+              "files": ["L33KAkBeiH"]
             },
             "visa": {
-              "files": [
-                "lPge7pZsey"
-              ]
+              "files": ["lPge7pZsey"]
             }
           },
           "email": "xp8fMZLSY7",
-          "expand": [
-            "qFMcjTBDC1"
-          ],
+          "expand": ["qFMcjTBDC1"],
           "first_name": "64COqRPuuM",
           "first_name_kana": "eWvAH6t5Cn",
           "first_name_kanji": "Y0Rj23g6bM",
-          "full_name_aliases": [
-            "pSMV6oXbPd"
-          ],
+          "full_name_aliases": ["pSMV6oXbPd"],
           "gender": "oj6Fm0Q3om",
           "id_number": "JUCAvM097Q",
           "id_number_secondary": "jzKskKKtWl",
@@ -83,7 +73,7 @@
           "nationality": "XWubwL3p27",
           "person_token": "UBKg42jtyi",
           "phone": "spTiOqUMzQ",
-          "political_exposure": "h5pM5rPVGA",
+          "political_exposure": "existing",
           "registered_address": {
             "city": "soUgMjBndd",
             "country": "2IJHHfynRc",
