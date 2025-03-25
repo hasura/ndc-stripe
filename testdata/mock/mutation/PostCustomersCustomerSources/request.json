@@ -9,7 +9,9 @@
         "bank_account": null,
         "card": null,
         "customer": "wruAQViNcU",
-        "expand": ["9NY0Aq73K2"],
+        "expand": [
+          "9NY0Aq73K2"
+        ],
         "metadata": null,
         "source": "hgZSgrMHkh"
       },

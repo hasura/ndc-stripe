@@ -10,7 +10,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["CHJYcI1Tyh"]
+      "value": [
+        "CHJYcI1Tyh"
+      ]
     },
     "limit": {
       "type": "literal",

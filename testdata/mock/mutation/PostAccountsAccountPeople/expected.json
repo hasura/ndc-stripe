@@ -4,13 +4,21 @@
       "result": {
         "account": "2wRQHZSnw5",
         "additional_tos_acceptances": {
-          "account": { "date": null, "ip": null, "user_agent": null }
+          "account": {
+            "date": null,
+            "ip": null,
+            "user_agent": null
+          }
         },
         "address": null,
         "address_kana": null,
         "address_kanji": null,
         "created": 1234567890,
-        "dob": { "day": 2144860809, "month": 408809060, "year": 2069096385 },
+        "dob": {
+          "day": 2144860809,
+          "month": 408809060,
+          "year": 2069096385
+        },
         "email": null,
         "first_name": "64COqRPuuM",
         "first_name_kana": null,

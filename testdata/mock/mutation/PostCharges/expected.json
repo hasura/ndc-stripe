@@ -73,10 +73,12 @@
             "network_token": {
               "used": false
             },
+            "network_transaction_id": null,
             "overcapture": {
               "maximum_amount_capturable": 100,
               "status": "unavailable"
             },
+            "regulated_status": null,
             "three_d_secure": null,
             "wallet": null
           },

@@ -6,7 +6,9 @@
       "name": "PostBillingAlertsIdArchive",
       "arguments": {
         "body": {
-          "expand": ["pvKKuaylxb"]
+          "expand": [
+            "pvKKuaylxb"
+          ]
         },
         "id": "bq2CaEWe31"
       },

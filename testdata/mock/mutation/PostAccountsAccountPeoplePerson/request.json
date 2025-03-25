@@ -47,21 +47,31 @@
           },
           "documents": {
             "company_authorization": {
-              "files": ["Occ8gJowFK"]
+              "files": [
+                "Occ8gJowFK"
+              ]
             },
             "passport": {
-              "files": ["IastAZGGvY"]
+              "files": [
+                "IastAZGGvY"
+              ]
             },
             "visa": {
-              "files": ["TWN4CXwD1Q"]
+              "files": [
+                "TWN4CXwD1Q"
+              ]
             }
           },
           "email": "osSVqukqGs",
-          "expand": ["0TTkp0qpE7"],
+          "expand": [
+            "0TTkp0qpE7"
+          ],
           "first_name": "jvgYckuI0m",
           "first_name_kana": "qvflFl6EV0",
           "first_name_kanji": "ITCktC5df6",
-          "full_name_aliases": ["RDNlAJ4u4V"],
+          "full_name_aliases": [
+            "RDNlAJ4u4V"
+          ],
           "gender": "qYx7bvbKQZ",
           "id_number": "YAmysyNojG",
           "id_number_secondary": "BcrdMKn6py",

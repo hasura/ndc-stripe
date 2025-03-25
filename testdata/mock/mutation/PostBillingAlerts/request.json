@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "alert_type": "usage_threshold",
-          "expand": ["IqejODkbor"],
+          "expand": [
+            "IqejODkbor"
+          ],
           "title": "ayBMZL5ecb",
           "usage_threshold": {
             "filters": [

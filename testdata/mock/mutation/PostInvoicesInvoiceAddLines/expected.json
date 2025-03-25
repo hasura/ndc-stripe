@@ -48,7 +48,10 @@
         "from_invoice": null,
         "hosted_invoice_url": null,
         "invoice_pdf": null,
-        "issuer": { "account": null, "type": "self" },
+        "issuer": {
+          "account": null,
+          "type": "self"
+        },
         "last_finalization_error": null,
         "latest_revision": null,
         "lines": {
@@ -64,7 +67,10 @@
               "livemode": false,
               "metadata": {},
               "object": "line_item",
-              "period": { "end": 1721954054, "start": 1721954054 },
+              "period": {
+                "end": 1721954054,
+                "start": 1721954054
+              },
               "pretax_credit_amounts": null,
               "price": {
                 "active": true,
@@ -90,7 +96,9 @@
                 "unit_amount_decimal": "1000"
               },
               "proration": false,
-              "proration_details": { "credited_items": null },
+              "proration_details": {
+                "credited_items": null
+              },
               "quantity": 1,
               "subscription": null,
               "subscription_item": null,
@@ -136,7 +144,9 @@
           "voided_at": null
         },
         "subscription": null,
-        "subscription_details": { "metadata": null },
+        "subscription_details": {
+          "metadata": null
+        },
         "subscription_proration_date": null,
         "subtotal": 1000,
         "subtotal_excluding_tax": 1000,

@@ -7,7 +7,9 @@
       "arguments": {
         "authorization": "6W7hTMXzoT",
         "body": {
-          "expand": ["MdZVRWPr0q"],
+          "expand": [
+            "MdZVRWPr0q"
+          ],
           "final_amount": 2019056552,
           "fleet": {
             "cardholder_prompt_data": {

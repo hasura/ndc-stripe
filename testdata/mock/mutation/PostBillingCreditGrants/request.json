@@ -21,7 +21,9 @@
           "category": "paid",
           "customer": "rKFDB1YRHa",
           "effective_at": 1865756323,
-          "expand": ["eCcKTj3GAq"],
+          "expand": [
+            "eCcKTj3GAq"
+          ],
           "expires_at": 238511819,
           "metadata": null,
           "name": "g0MqgOqJzo"

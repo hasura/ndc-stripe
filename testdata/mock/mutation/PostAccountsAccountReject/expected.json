@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "business_profile": {
           "annual_revenue": null,
@@ -186,7 +185,8 @@
           "user_agent": null
         },
         "type": "standard"
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

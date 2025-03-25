@@ -7,7 +7,9 @@
       "arguments": {
         "body": {
           "allow_redisplay": "unspecified",
-          "expand": ["VYXFwMpRcY"],
+          "expand": [
+            "VYXFwMpRcY"
+          ],
           "process_config": {
             "enable_customer_cancellation": true
           },

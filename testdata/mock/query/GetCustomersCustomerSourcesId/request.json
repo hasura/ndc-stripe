@@ -6,7 +6,9 @@
     },
     "expand": {
       "type": "literal",
-      "value": ["NdoeNRuSjg"]
+      "value": [
+        "NdoeNRuSjg"
+      ]
     },
     "id": {
       "type": "literal",

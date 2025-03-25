@@ -6,7 +6,9 @@
       "name": "PostBillingAlertsIdActivate",
       "arguments": {
         "body": {
-          "expand": ["r7UUWhbawU"]
+          "expand": [
+            "r7UUWhbawU"
+          ]
         },
         "id": "ZuRjOXiz41"
       },

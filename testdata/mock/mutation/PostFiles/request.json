@@ -6,7 +6,9 @@
       "name": "PostFiles",
       "arguments": {
         "body": {
-          "expand": ["links"],
+          "expand": [
+            "links"
+          ],
           "file": "aGVsbG8gd29ybGQ=",
           "purpose": "business_icon"
         }

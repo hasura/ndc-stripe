@@ -214,29 +214,45 @@
           "default_currency": "6qXwzH3u0A",
           "documents": {
             "bank_account_ownership_verification": {
-              "files": ["gydATkdqMn"]
+              "files": [
+                "gydATkdqMn"
+              ]
             },
             "company_license": {
-              "files": ["xqXm3iu82s"]
+              "files": [
+                "xqXm3iu82s"
+              ]
             },
             "company_memorandum_of_association": {
-              "files": ["DVRFc2xHzY"]
+              "files": [
+                "DVRFc2xHzY"
+              ]
             },
             "company_ministerial_decree": {
-              "files": ["2hr422wq9I"]
+              "files": [
+                "2hr422wq9I"
+              ]
             },
             "company_registration_verification": {
-              "files": ["lczadZvJGs"]
+              "files": [
+                "lczadZvJGs"
+              ]
             },
             "company_tax_id_verification": {
-              "files": ["hLf7ZZr8SC"]
+              "files": [
+                "hLf7ZZr8SC"
+              ]
             },
             "proof_of_registration": {
-              "files": ["UKh16ekcPF"]
+              "files": [
+                "UKh16ekcPF"
+              ]
             }
           },
           "email": "Y5dP9sV9E9",
-          "expand": ["XAP04h9cnO"],
+          "expand": [
+            "XAP04h9cnO"
+          ],
           "external_account": "qpS2QQWwjD",
           "individual": {
             "address": {
@@ -274,7 +290,9 @@
             "first_name": "zdRAEZsyJU",
             "first_name_kana": "JoyR8SjZnW",
             "first_name_kanji": "9J5lcUeNi3",
-            "full_name_aliases": ["N8jy1t3nlE"],
+            "full_name_aliases": [
+              "N8jy1t3nlE"
+            ],
             "gender": "vHb6yGYGEI",
             "id_number": "YDmkdSLriJ",
             "id_number_secondary": "3gwnlTh20U",
@@ -339,7 +357,9 @@
               "statement_descriptor_prefix_kanji": "tE8DRxeIDL"
             },
             "invoices": {
-              "default_account_tax_ids": ["IwjtzjUa1g"]
+              "default_account_tax_ids": [
+                "IwjtzjUa1g"
+              ]
             },
             "payments": {
               "statement_descriptor": "HeuLyiOdrx",
