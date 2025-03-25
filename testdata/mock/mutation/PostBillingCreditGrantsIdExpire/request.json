@@ -6,7 +6,9 @@
       "name": "PostBillingCreditGrantsIdExpire",
       "arguments": {
         "body": {
-          "expand": ["m691GQ9zda"]
+          "expand": [
+            "m691GQ9zda"
+          ]
         },
         "id": "Dklp7YOk8m"
       },

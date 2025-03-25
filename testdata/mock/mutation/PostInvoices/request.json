@@ -6,7 +6,9 @@
       "name": "PostInvoices",
       "arguments": {
         "body": {
-          "account_tax_ids": ["xhkTtJoRHl"],
+          "account_tax_ids": [
+            "xhkTtJoRHl"
+          ],
           "application_fee_amount": 1897995108,
           "auto_advance": true,
           "automatic_tax": {
@@ -28,7 +30,9 @@
           "days_until_due": 740886999,
           "default_payment_method": "o7ogx1ylbX",
           "default_source": "OatKLAfeiW",
-          "default_tax_rates": ["FltNnkwkst"],
+          "default_tax_rates": [
+            "FltNnkwkst"
+          ],
           "description": "reFRuVbPuY",
           "discounts": [
             {
@@ -39,7 +43,9 @@
           ],
           "due_date": 56729116,
           "effective_at": 641119794,
-          "expand": ["0Uwa0S6oln"],
+          "expand": [
+            "0Uwa0S6oln"
+          ],
           "footer": "byHyWdYnii",
           "from_invoice": {
             "action": "revision",
@@ -88,13 +94,19 @@
               "sepa_debit": null,
               "us_bank_account": {
                 "financial_connections": {
-                  "permissions": ["balances"],
-                  "prefetch": ["ownership"]
+                  "permissions": [
+                    "balances"
+                  ],
+                  "prefetch": [
+                    "ownership"
+                  ]
                 },
                 "verification_method": "instant"
               }
             },
-            "payment_method_types": ["bacs_debit"]
+            "payment_method_types": [
+              "bacs_debit"
+            ]
           },
           "pending_invoice_items_behavior": "include",
           "rendering": {

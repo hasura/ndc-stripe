@@ -8,6 +8,7 @@
           "account_onboarding": {
             "enabled": false,
             "features": {
+              "disable_stripe_user_authentication": true,
               "external_account_collection": false
             }
           },

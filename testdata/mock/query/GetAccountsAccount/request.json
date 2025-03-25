@@ -1641,14 +1641,6 @@
                         "statement_descriptor_prefix": {
                           "column": "statement_descriptor_prefix",
                           "type": "column"
-                        },
-                        "statement_descriptor_prefix_kana": {
-                          "column": "statement_descriptor_prefix_kana",
-                          "type": "column"
-                        },
-                        "statement_descriptor_prefix_kanji": {
-                          "column": "statement_descriptor_prefix_kanji",
-                          "type": "column"
                         }
                       },
                       "type": "object"
@@ -1699,14 +1691,6 @@
                         },
                         "statement_descriptor_kanji": {
                           "column": "statement_descriptor_kanji",
-                          "type": "column"
-                        },
-                        "statement_descriptor_prefix_kana": {
-                          "column": "statement_descriptor_prefix_kana",
-                          "type": "column"
-                        },
-                        "statement_descriptor_prefix_kanji": {
-                          "column": "statement_descriptor_prefix_kanji",
                           "type": "column"
                         }
                       },

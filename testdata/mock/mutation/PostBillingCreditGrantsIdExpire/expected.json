@@ -1,7 +1,6 @@
 {
   "operation_results": [
     {
-      "type": "procedure",
       "result": {
         "amount": {
           "monetary": null,
@@ -35,7 +34,8 @@
         "test_clock": null,
         "updated": 234430277,
         "voided_at": null
-      }
+      },
+      "type": "procedure"
     }
   ]
 }

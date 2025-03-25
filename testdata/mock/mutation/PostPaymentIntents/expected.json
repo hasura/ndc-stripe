@@ -5,9 +5,7 @@
         "amount": 462908786,
         "amount_capturable": 0,
         "amount_details": {
-          "tip": {
-            "amount": null
-          }
+          "tip": null
         },
         "amount_received": 0,
         "application": null,

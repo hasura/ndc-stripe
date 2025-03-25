@@ -6,7 +6,9 @@
       "name": "PostBillingAlertsIdDeactivate",
       "arguments": {
         "body": {
-          "expand": ["3ssR8VdqON"]
+          "expand": [
+            "3ssR8VdqON"
+          ]
         },
         "id": "3lDUVs7tY7"
       },
