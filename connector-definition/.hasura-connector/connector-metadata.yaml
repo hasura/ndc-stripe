@@ -10,5 +10,9 @@ supportedEnvironmentVariables:
     description: Default request timeout in seconds
     defaultValue: "30"
     required: false
+  - name: STRIPE_STRINGIFY_JSON
+    description: Treat arbitrary JSON scalars as JSON strings
+    defaultValue: "false"
+    required: false
 commands: {}
 dockerComposeWatch: []

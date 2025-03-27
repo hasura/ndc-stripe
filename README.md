@@ -12,6 +12,7 @@ This connector is built using the [HTTP Connector](https://github.com/hasura/ndc
 | STRIPE_BEARER_AUTH_TOKEN   | Bearer authentication token                                                    |                        |
 | STRIPE_BASIC_AUTH_USERNAME | Basic authentication username. Required if `STRIPE_BASIC_AUTH_PASSWORD` is set |                        |
 | STRIPE_BASIC_AUTH_PASSWORD | Basic authentication password. Required if `STRIPE_BASIC_AUTH_USERNAME` is set |                        |
+| STRIPE_STRINGIFY_JSON      | Treat arbitrary JSON scalars as JSON strings                                   | false                  |
 | STRIPE_TIMEOUT             | Default request timeout in seconds                                             | 30                     |
 | STRIPE_RETRY_TIMES         | Number of retry times                                                          | 0                      |
 | STRIPE_RETRY_DELAY         | Delay time between each retry in milliseconds                                  | 1000                   |

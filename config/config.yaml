@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/hasura/ndc-http/refs/heads/main/ndc-http-schema/jsonschema/configuration.schema.json
+output: schema.output.json
 strict: false
 forwardHeaders:
   enabled: false
@@ -8,6 +9,9 @@ concurrency:
   query: 1
   mutation: 1
   http: 1
+runtime:
+  stringifyJson:
+    env: STRIPE_STRINGIFY_JSON
 files:
   - file: schema.json
     spec: ndc
@@ -21,4 +25,4 @@ files:
       delay:
         env: STRIPE_RETRY_DELAY
         value: 1000
-      httpStatus: [429, 500, 502, 503]
+      httpStatus: [429, 502, 503]
