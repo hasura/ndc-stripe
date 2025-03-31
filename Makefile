@@ -1,4 +1,4 @@
-NDC_HTTP_VERSION ?= v0.9.1
+NDC_HTTP_VERSION ?= v0.10.0
 UID ?= $(shell id -u)
 GID ?= $(shell id -g)
 
